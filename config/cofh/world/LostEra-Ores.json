@@ -1,0 +1,253 @@
+{
+	"Zinc": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:precious.ore"},
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Mining Biome"},
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            6
+        ]
+    },
+"CertusQuartz": {
+        "template": "cave", "ceiling": "false",
+        "block": [
+            {"name": "appliedenergistics2:tile.OreQuartz", "weight":95},
+            {"name": "appliedenergistics2:tile.OreQuartzCharged", "weight":5}
+        ],
+        "clusterSize": 8,
+        "numClusters": 6,
+        "minHeight": 30,
+        "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			7
+        ]
+    },
+"Aluminium": {
+        "template": "uniform",
+        "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
+        "clusterSize": 6,
+        "numClusters": 6,
+        "minHeight": 40,
+        "maxHeight": 70,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			7
+        ]
+    },
+"Apatite": {
+        "template": "uniform",
+        "block": "Forestry:resources",
+        "material": "stone",
+        "clusterSize": 15,
+		"chunkChance": 50,
+        "numClusters": 3,
+        "minHeight": 58,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{
+			"type": "dictionary", 
+			"entry": "MOUNTAIN"
+		}
+	],	
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+"Platinum": {
+        "template": "uniform",
+        "block": [
+			{"name": "Mekanism:OreBlock", "weight":50},
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight":50}
+		],
+        "clusterSize": 5,
+		"chunkChance": 50,
+        "numClusters": 1,
+        "minHeight": 5,
+        "maxHeight": 16,
+        "retrogen": "true",
+		"biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			7
+        ]
+    },
+"UnderwaterOres": {
+        "template": "underwater",
+        "block": [
+			{"name": "Mekanism:OreBlock", "weight":6},
+			{"name": "minecraft:sand", "weight":16},
+			{"name": "minecraft:gravel", "weight":36},
+			{"name": "minecraft:clay", "weight":5},
+			{"name": "minecraft:stone", "weight":15},
+			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight":5},
+			{"name": "minecraft:gold_ore", "weight":4},
+			{"name": "minecraft:iron_ore", "weight":10},
+			{"name": "ThermalFoundation:Ore", "weight":2},
+			{"name": "ThermalFoundation:Ore", "metadata": 1, "weight":1}
+		],
+        "material": [
+			{"name": "minecraft:gravel"},
+			{"name": "minecraft:stone"}
+		],
+        "clusterSize": 4,
+        "numClusters": 1,
+		"chunkChance": 18,
+		"sizeVariance": 8,
+		"height": 3,
+        "minHeight": 20,
+        "maxHeight": 39,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+		"biomes":[
+		{
+			"type": "name", 
+			"entry": "Deep Ocean"
+		} 
+	],	
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+"OceanSalt": {
+        "template": "underwater",
+        "block": [
+			{"name": "harvestcraft:salt", "weight":50},
+			{"name": "minecraft:gravel", "weight":10},
+			{"name": "chisel:limestone", "weight":45}
+		],
+        "material": "minecraft:gravel",
+        "clusterSize": 4,
+        "numClusters": 1,
+		"chunkChance": 15,
+        "minHeight": 20,
+        "maxHeight": 100,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+		"biomes":[
+		{
+			"type": "dictionary", 
+			"entry": "OCEAN"
+		}	
+	],	
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+"BeachSalt": {
+        "template": "underwater",
+        "block": [
+			{"name": "harvestcraft:salt", "weight":45},
+			{"name": "chisel:limestone", "weight":55}
+		],
+        "material": [
+		{"name":"minecraft:sand"},
+		{"name":"minecraft:dirt"}
+		],
+        "clusterSize": 5,
+        "numClusters": 6,
+		"chunkChance": 2,
+        "minHeight": 30,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+		"biomes":[
+		{
+			"type": "dictionary", 
+			"entry": "BEACH"
+		},
+		{
+			"type": "dictionary", 
+			"entry": "SWAMP",
+			"rarity": 2
+		}
+	],	
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"quantum": {
+        "template": "normal",
+        "block": {"name": "qCraft:quantumore"},
+        "clusterSize": 4,
+        "numClusters": 1,
+        "meanHeight": 16,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+	"bitumen": {
+        "template": "normal",
+        "block": {"name": "Metallurgy:utility.ore", "metadata": 4},
+        "clusterSize": 6,
+        "numClusters": 3,
+        "meanHeight": 16,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            6
+        ]
+    },
+"Amethyst": {
+        "template": "uniform",
+        "block": "BiomesOPlenty:gemOre",
+        "material": "minecraft:end_stone",
+        "clusterSize": 5,
+        "numClusters": 24,
+        "minHeight": 5,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}

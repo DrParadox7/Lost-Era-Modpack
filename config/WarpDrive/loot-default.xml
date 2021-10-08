@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="2"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd">
+	
+	<!--
+	  A lootSet is a list of possible loots.
+	  loot.item is the registry name of the item. It's mandatory.
+	  loot.damage is the damage level, also known as metadata. It defaults to 0.
+	  loot.nbt is the NBT data in JSON format converted to XML. Here's a site to do the XML conversion part: http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=utf_8
+	  loot.minQuantity is self explanatory. It defaults to 1.
+	  loot.maxQuantity needs to be higher than loot.minQuantity to have any effect. It defaults to 1.
+	  
+	  Here after is an example with NBT data.
+	<loot item="WarpDrive:itemShipToken" damage="5" nbt="{shipName:&quot;MySchematicName&quot;}" />
+	  
+	  When used on machines, we'll give a few trials to find a valid slot for each loot, eventually try another loot, eventually skipping it altogether.
+	  -->
+	<lootSet group="ship" name="legacy" weight="1">
+		<loot item="IC2:blockNuke"                     minQuantity="1" maxQuantity="3"  weight="1"  /><!-- Nuke -->
+		<loot item="IC2:itemShardIridium"              minQuantity="3" maxQuantity="9"  weight="5" /><!-- Iridium shard -->
+		<loot item="IC2:itemPartIndustrialDiamond"     minQuantity="1" maxQuantity="4"  weight="7" /><!-- Diamond -->
+		<loot item="IC2:itemArmorAlloyChestplate"      minQuantity="1" maxQuantity="1"  weight="10" /><!-- Reinforced Armor -->
+		<loot item="IC2:blockAlloy"                    minQuantity="7" maxQuantity="20" weight="10" /><!-- Reinforced stone -->
+		<loot item="IC2:blockAlloyGlass"               minQuantity="5" maxQuantity="12" weight="10" /><!-- Reinforced glass -->
+		<loot item="IC2:itemNightvisionGoggles"        minQuantity="1" maxQuantity="1"  weight="8" /><!-- Nightvision Goggles -->
+		<loot item="IC2:itemTinCanFilled"              minQuantity="3" maxQuantity="8"  weight="10" /><!-- TinCanFilled -->
+		<loot item="IC2:blockMachine2"     damage="1"  minQuantity="1" maxQuantity="2"  weight="9" /><!-- Tesla -->
+		<loot item="IC2:itemScrapbox"                  minQuantity="3" maxQuantity="9"  weight="8" /><!-- Scrap -->
+		<loot item="IC2:itemDynamiteSticky"            minQuantity="3" maxQuantity="15"  weight="9" /><!-- DynamiteSticky -->
+		<loot item="IC2:itemCofeeBeans"                minQuantity="3" maxQuantity="8"  weight="10" /><!-- Coffee -->
+		<loot item="IC2:itemIngot"         damage="3"  minQuantity="8" maxQuantity="16"  weight="5"  /><!-- Steel -->
+		<loot item="IC2:blockMachine2"                 minQuantity="1" maxQuantity="1"  weight="1"  /><!-- Teleporter -->
+		<loot item="IC2:itemCable"         damage="3"  minQuantity="1" maxQuantity="18" weight="13" /><!-- Insulated gold cable -->
+		<loot item="IC2:itemCable"         damage="5"  minQuantity="1" maxQuantity="18" weight="8"  /><!-- HV cable -->
+		<loot item="IC2:itemCable"         damage="6"  minQuantity="1" maxQuantity="18" weight="10" /><!-- Insulated HV cable -->
+		<loot item="IC2:itemCable"         damage="9"  minQuantity="1" maxQuantity="18" weight="8"  /><!-- Glass fiber cable -->
+		<loot item="IC2:itemArmorRubBoots" damage="0"  minQuantity="1" maxQuantity="1"  weight="5"  /><!-- Rubber boots -->
+		<loot item="IC2:itemFuelRod"       damage="0"  minQuantity="1" maxQuantity="4"  weight="10" /><!-- Fuel rod -->
+		<loot item="IC2:itemRubber"                    minQuantity="5" maxQuantity="24" weight="10" /><!-- Rubber -->
+		<loot item="IC2:itemBatCrystal"                minQuantity="1" maxQuantity="1"  weight="12" /><!-- Energy crytal -->
+		<loot item="NuclearCraft:recordArea51"         minQuantity="1" maxQuantity="1"  weight="4" /><!-- Record -->
+		<loot item="NuclearCraft:recordPractice"       minQuantity="1" maxQuantity="1"  weight="4" /><!-- Record -->
+		<loot item="NuclearCraft:recordNeighborhood"   minQuantity="1" maxQuantity="1"  weight="4" /><!-- Record -->
+		<loot item="NuclearCraft:WRTG"                 minQuantity="1" maxQuantity="1"  weight="3"  /><!-- RTG -->
+		<loot item="NuclearCraft:AmRTG"                minQuantity="1" maxQuantity="1"  weight="2"  /><!-- RTG -->
+		<loot item="NuclearCraft:RTG"                  minQuantity="1" maxQuantity="1"  weight="1"  /><!-- RTG -->
+		<loot item="Mekanism:ControlCircuit"   damage="3"  minQuantity="1" maxQuantity="4"  weight="6" />
+		<loot item="NuclearCraft:material"     damage="7"  minQuantity="4" maxQuantity="19" weight="15" />
+		<loot item="NuclearCraft:material"     damage="5"  minQuantity="1" maxQuantity="7" weight="10" />
+		<loot item="NuclearCraft:material"     damage="43"  minQuantity="1" maxQuantity="7" weight="8" />
+		<loot item="NuclearCraft:collectorIdle"             minQuantity="1" maxQuantity="1" weight="3" />
+		<loot item="NuclearCraft:antimatter"    damage="1"  minQuantity="1" maxQuantity="1" weight="1" />
+		<loot item="NuclearCraft:parts"         damage="3"  minQuantity="8" maxQuantity="18" weight="12" />
+		<loot item="NuclearCraft:parts"         damage="8"  minQuantity="8" maxQuantity="18" weight="5" />
+		
+		<!-- nano armor? -->
+		<!-- ICBM rocket launcher platform minQuantity="1" maxQuantity="2" -->
+		<!-- ICBM missile damage=0 to 9 minQuantity="2" maxQuantity="3" -->
+		<!-- Advanced solar panel -->
+	</lootSet>
+</worldGeneration>

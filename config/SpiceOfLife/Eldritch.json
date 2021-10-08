@@ -1,0 +1,12 @@
+{
+  "food": {
+    "items": [
+      "ThaumicExploration:taintBerry",
+      "Thaumcraft:ItemZombieBrain"
+    ]
+  },
+  "name": "§kEldritch",
+  "formula": "IF(distinct_food_groups_eaten=1,(1 + exact_count/2,1))",
+
+  "color": "dark_purple"
+}

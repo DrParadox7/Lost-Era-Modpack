@@ -1,0 +1,87 @@
+{
+	"KnightDungeon": {
+		"template": {
+			"type": "uniform", 
+			"generator": "dungeon",
+			"spawnEntity": "enderzoo.FallenKnight",		
+			"spawnerFloor": {
+				"name": "Railcraft:brick.nether", 
+				"metadata": 5
+			},
+			"lootTable": "dungeonChest",
+			"minHoles": 1, 
+			"maxChests": 5
+		},
+		"block": "Railcraft:brick.abyssal",
+		"material": "minecraft:stone",
+		"numClusters": 1,
+		"minHeight": 0,
+		"maxHeight": 64,
+		"retrogen": "false",
+		"dimensionRestriction": "whitelist",
+        "dimensions": [
+            6,
+			0
+        ],
+		"chunkChance": 2
+    },
+	"WitchDungeon": {
+		"template": {
+			"type": "uniform", 
+			"generator": "dungeon",
+			"spawnEntity": "Witch",		
+			"spawnerFloor": {
+				"name": "chisel:voidstone"
+			},
+			"lootTable": "dungeonChest",
+			"minHoles": 1, 
+			"maxChests": 4
+		},
+		"block": {
+			"name": "Railcraft:brick.bleachedbone", 
+			"metadata": 1
+		},
+		"material": "minecraft:stone",
+		"numClusters": 1,
+		"minHeight": 0,
+		"maxHeight": 64,
+		"retrogen": "false",
+		"dimensionRestriction": "whitelist",
+        "dimensions": [
+            6,
+			0
+        ],
+		"chunkChance": 8
+    },
+	"JungDungeon": {
+		"template": {
+			"type": "uniform", 
+			"generator": "dungeon",
+			"spawnEntity": [
+				{"entity": "BiomesOPlenty.JungleSpider", "weight":25},
+				{"entity": "BiomesOPlenty.Wasp", "weight":10}
+			],	
+			"spawnerFloor": {
+				"name": "BiomesOPlenty:planks"
+			},
+			"lootTable": "dungeonChest",
+			"minHoles": 1, 
+			"maxChests": 4
+		},
+		"block": {
+			"name": "chisel:mossy_cobblestone", 
+			"metadata": 1
+		},
+		"material": "minecraft:stone",
+		"numClusters": 1,
+		"minHeight": 0,
+		"maxHeight": 64,
+		"retrogen": "false",
+		"dimensionRestriction": "whitelist",
+        "dimensions": [
+            6,
+			0
+        ],
+		"chunkChance": 5
+    }
+}

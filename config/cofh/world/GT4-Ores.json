@@ -1,0 +1,321 @@
+{
+    "Galena": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 1},
+        "clusterSize": 16,
+        "numClusters": 1,
+        "chunkChance": 3,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "Ruby": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 3},
+        "clusterSize": 0,
+        "numClusters": 8,
+        "chunkChance": 1,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "SANDY"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "Sapphire": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 4},
+        "clusterSize": 0,
+        "numClusters": 8,
+        "chunkChance": 1,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "OCEAN"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "Bauxite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 5},
+        "clusterSize": 16,
+        "numClusters": 2,
+        "chunkChance": 1,
+        "minHeight": 32,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "PLAINS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "FOREST"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "Bauxite_high": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 5},
+        "clusterSize": 16,
+        "numClusters": 3,
+        "chunkChance": 1,
+        "minHeight": 70,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "PLAINS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "FOREST"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "tetrahedrite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 13},
+        "clusterSize": 32,
+        "numClusters": 1,
+        "chunkChance": 6,
+        "minHeight": 32,
+        "maxHeight": 70,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "MUSHROOM"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "JUNGLE"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "tetrahedrite_high": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 13},
+        "clusterSize": 32,
+        "numClusters": 1,
+        "chunkChance": 1,
+        "minHeight": 70,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "MUSHROOM"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "JUNGLE"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "cassiterite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 14},
+        "clusterSize": 32,
+        "numClusters": 1,
+        "chunkChance": 12,
+        "minHeight": 32,
+        "maxHeight": 70,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "MUSHROOM"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "SNOWY"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "cassiterite_high": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 14},
+        "clusterSize": 32,
+        "numClusters": 1,
+        "chunkChance": 3,
+        "minHeight": 70,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "MUSHROOM"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "SNOWY"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "NickelGT": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 14},
+        "clusterSize": 32,
+        "numClusters": 1,
+        "chunkChance": 18,
+        "minHeight": 10,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "HILLS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
+    },
+    "pyrite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 6},
+        "clusterSize": 4,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "cinnabar": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 7},
+        "clusterSize": 8,
+        "numClusters": 4,
+        "chunkChance": 2,
+        "minHeight": 64,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "sphalerite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 8},
+        "clusterSize": 8,
+        "numClusters": 8,
+        "chunkChance": 2,
+        "minHeight": 32,
+        "maxHeight": 96,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    }
+}   

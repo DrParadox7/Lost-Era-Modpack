@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="2"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd">
+	
+	<!-- all possible overworld ores, mostly for reference purpose -->
+	<fillerSet group="overworld_allOres" name="stone">
+		<import group="overworld_commonOres" name="stone" />
+		<import group="overworld_uncommonOres" name="stone" />
+		<import group="overworld_rareOres" name="stone" />
+	</fillerSet>
+	
+	<!-- common overworld ores with various base blocks -->
+	<fillerSet group="overworld_common" name="stone" weight="20">
+		<import group="overworld_commonOres" name="stone" />
+		<filler block="minecraft:stone" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_common" name="corrupted" weight="5">
+		<import group="overworld_commonOres" name="stone" />
+		<filler block="minecraft:stone" weight="5" />
+		<filler block="minecraft:cobblestone" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_common" name="cobblestone" weight="1">
+		<import group="overworld_commonOres" name="stone" />
+		<filler block="minecraft:cobblestone" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_common" name="sandNclay" weight="2">
+		<import group="overworld_commonOres" name="stone" />
+		<filler block="minecraft:sandstone" weight="1" />
+		<filler block="minecraft:clay" weight="1" />
+	</fillerSet>
+	
+	<fillerSet group="overworld_commonOres" name="stone">
+		<import group="overworld_commonOres" name="allButVanilla" />
+		<filler block="minecraft:coal_ore" ratio=".08" />
+		<filler block="minecraft:iron_ore" ratio=".05" />
+	</fillerSet>
+	<fillerSet group="overworld_commonOres" name="allButVanilla">
+		<filler block="ThermalFoundation:Ore" metadata="1" ratio=".05" mods="ThermalFoundation" />
+		<filler block="ThermalFoundation:Ore" ratio=".06" mods="ThermalFoundation" />
+		<filler block="ThermalFoundation:Ore" metadata="3" ratio=".06" mods="ThermalFoundation" />
+	</fillerSet>
+	
+	
+	<!-- uncommon overworld ores with various base blocks -->
+	<fillerSet group="overworld_uncommon" name="stone" weight="10">
+		<import group="overworld_uncommonOres" name="stone" />
+		<filler block="minecraft:stone" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_uncommon" name="corrupted" weight="5">
+		<import group="overworld_uncommonOres" name="stone" />
+		<filler block="minecraft:stone" weight="5" />
+		<filler block="minecraft:cobblestone" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_uncommon" name="cobblestone" weight="1">
+		<import group="overworld_uncommonOres" name="stone" />
+		<filler block="minecraft:cobblestone" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_uncommon" name="sandNclay" weight="2">
+		<import group="overworld_uncommonOres" name="stone" />
+		<filler block="minecraft:sandstone" weight="1" />
+		<filler block="minecraft:clay" weight="1" />
+	</fillerSet>
+	
+	<fillerSet group="overworld_uncommonOres" name="stone">
+		<import group="overworld_uncommonOres" name="allButVanilla" />
+		<filler block="minecraft:redstone_ore" ratio=".01" />
+		<filler block="minecraft:gold_ore" ratio=".008" />
+		<filler block="minecraft:lapis_ore" ratio=".005" />
+		<filler block="Metallurgy:base.ore" metadata="2" ratio=".01" mods="Metallurgy" /><!-- Manganese -->
+		<filler block="Metallurgy:precious.ore" ratio=".007" mods="Metallurgy" /><!-- Zinc -->
+		<filler block="Metallurgy:utility.ore" metadata="3" ratio=".005" mods="Metallurgy" /><!-- Mangnesium -->
+		<filler block="ThermalFoundation:Ore" metadata="5" ratio=".001" mods="ThermalFoundation" /><!-- Platinum -->
+	</fillerSet>
+	<fillerSet group="overworld_uncommonOres" name="allButVanilla">
+		<filler block="IC2:blockOreUran" ratio=".005" mods="IC2,!netherores" />
+		<filler block="ThermalFoundation:Ore" metadata="2" ratio=".008" mods="ThermalFoundation" /><!-- Silver -->
+		<filler block="ThermalFoundation:Ore" metadata="5" ratio=".01" mods="ThermalFoundation" /><!-- Nickel -->
+		<filler block="Thaumcraft:blockCustomOre" ratio=".01" mods="Thaumcraft" /><!-- Cinnabar -->
+	</fillerSet>
+	
+	
+	<!-- rare overworld ores with various base blocks -->
+	<fillerSet group="overworld_rare" name="stone" weight="10">
+		<import group="overworld_rareOres" name="stone" />
+		<filler block="minecraft:stone" weight="100" />
+		<filler block="minecraft:iron_ore" weight="5" />
+		<filler block="minecraft:lava" weight="1" />
+	</fillerSet>
+	<fillerSet group="overworld_rare" name="obsidian" weight="2">
+		<filler block="Railcraft:ore" metadata="3" weight="2" mods="Railcraft" />
+		<filler block="Railcraft:ore" metadata="4" weight="4" mods="Railcraft" />
+		<filler block="minecraft:obsidian" weight="100" />
+		<filler block="Railcraft:ore" metadata="2" weight="8" mods="Railcraft" />
+		<filler block="minecraft:bedrock" weight="1" />
+	</fillerSet>
+	
+	<fillerSet group="overworld_rareOres" name="stone">
+		<import group="overworld_rareOres" name="allButVanilla" />
+		<filler block="minecraft:gold_ore" ratio=".004" />
+		<filler block="minecraft:diamond_ore" ratio=".004" />
+		<filler block="minecraft:emerald_ore" ratio=".001" />
+		
+	</fillerSet>
+	<fillerSet group="overworld_rareOres" name="allButVanilla">
+		<filler block="IC2:blockOreUran" ratio=".03" mods="IC2,!netherores" />
+		<filler block="Metallurgy:fantasy.ore" metadata="13" mods="Metallurgy" ratio=".008" />
+		<filler block="Metallurgy:fantasy.ore" metadata="14" mods="Metallurgy" ratio=".004" />
+		<filler block="NuclearCraft:blockOre" metadata="5" mods="NuclearCraft" ratio=".009" />
+		<filler block="NuclearCraft:blockOre" metadata="8" mods="NuclearCraft" ratio=".009" />
+		<filler block="gregtech_addon:ore" metadata="3" mods="gregtech_addon" ratio=".005" />
+		<filler block="gregtech_addon:ore" metadata="5" mods="gregtech_addon" ratio=".004" />
+		<filler block="gregtech_addon:ore" metadata="2" mods="gregtech_addon" ratio=".001" /><!-- Iridium -->
+	</fillerSet>
+	
+	
+	<!-- nether ores with simple base block -->
+	<fillerSet group="nether" name="stone" weight="10">
+		<import group="nether_ores" name="netherrack" />
+		<filler block="minecraft:netherrack" weight="100" />
+		<filler block="minecraft:lava" weight="5" />
+	</fillerSet>
+	
+	<fillerSet group="nether_ores" name="netherrack">
+		<filler block="minecraft:quartz_ore" ratio="0.1" />
+		<filler block="minecraft:glowstone" ratio="0.01" />
+		<filler block="minecraft:lava" ratio="0.02" />
+		<filler block="Metallurgy:nether.ore" metadata="1" ratio=".05" mods="Metallurgy" /><!-- Ignatious -->
+		<filler block="Metallurgy:nether.ore" metadata="2" ratio=".02" mods="Metallurgy" /><!-- Shadow Iron -->
+		<filler block="Metallurgy:nether.ore" metadata="3" ratio=".008" mods="Metallurgy" /><!-- Lemurite -->
+		<filler block="Metallurgy:nether.ore" metadata="4" ratio=".003" mods="Metallurgy" /><!-- Mydasium -->
+		<filler block="Metallurgy:nether.ore" metadata="5" ratio=".004" mods="Metallurgy" /><!-- Viroxeres -->
+		<filler block="Metallurgy:nether.ore" metadata="6" ratio=".01" mods="Metallurgy" /><!-- Ceruclase -->
+		<filler block="Metallurgy:nether.ore" metadata="7" ratio=".004" mods="Metallurgy" /><!-- Alduorite -->
+		<filler block="Metallurgy:nether.ore" metadata="8" ratio=".002" mods="Metallurgy" /><!-- Kalendrite -->
+		<filler block="Metallurgy:nether.ore" metadata="9" ratio=".001" mods="Metallurgy" /><!-- Vulcanide -->
+		<filler block="NuclearCraft:blockOre" metadata="8" mods="NuclearCraft" ratio=".001" /><!-- Plutonium -->
+		<filler block="gregtech_addon:ore" metadata="8" mods="gregtech_addon" ratio=".008" />
+		<filler block="minecraft:bedrock" ratio=".001" />
+	</fillerSet>
+	
+	
+	<!-- end ores with simple base block -->
+	<fillerSet group="end" name="end" weight="10">
+		<import group="end_ores" name="endstone" />
+		<filler block="minecraft:netherrack" weight="100" />
+		<filler block="minecraft:lava" weight="5" />
+	</fillerSet>
+	
+	<fillerSet group="end_ores" name="endstone">
+		<filler block="Metallurgy:ender.ore" ratio=".001" mods="Metallurgy" />
+		<filler block="Metallurgy:ender.ore" metadata="1" ratio=".001" mods="Metallurgy" />
+		<filler block="BiomesOPlenty:gemOre" ratio=".0013" mods="appliedenergistics2" />
+	</fillerSet>
+	
+	
+	<!-- assorted overworld surface blocks -->
+	<fillerSet group="overworld_surface" name="stone" weight="75">
+		<filler block="minecraft:stone" weight="100" />
+	</fillerSet>
+	<fillerSet group="overworld_surface" name="cobblestone" weight="45">
+		<filler block="minecraft:stone" weight="100" />
+		<filler block="minecraft:cobblestone" weight="20" />
+	</fillerSet>
+	<fillerSet group="overworld_surface" name="dirt" weight="20">
+		<filler block="minecraft:dirt" weight="100" />
+	</fillerSet>
+	<fillerSet group="overworld_surface" name="ice" weight="30">
+		<filler block="minecraft:packed_ice" weight="100" />
+		<filler block="minecraft:ice" weight="20" />
+	</fillerSet>
+	<for variable="metadata" from="0" to="15">
+		<fillerSet group="overworld_surface" name="stainedClay_%metadata%" weight="5">
+			<filler block="minecraft:stained_hardened_clay" metadata="%metadata%" weight="100" />
+		</fillerSet>
+	</for>
+	<fillerSet group="overworld_surface" name="hardenedClay" weight="5">
+		<filler block="minecraft:hardened_clay" weight="100" />
+	</fillerSet>
+	<fillerSet group="overworld_surface" name="sandy" weight="10"><!-- close color to endstone -->
+		<filler block="minecraft:sandstone" weight="100" />
+	</fillerSet>
+	
+	
+	<!-- assorted nether surface blocks -->
+	<fillerSet group="nether_surface" name="netherrack" weight="50">
+		<filler block="minecraft:netherrack" weight="100" />
+	</fillerSet>
+	<fillerSet group="nether_surface" name="quartz" weight="50">
+		<filler block="minecraft:netherrack" weight="100" />
+		<filler block="minecraft:quartz_ore" weight="2" />
+	</fillerSet>
+	<for variable="metadata" in="1,6,14">
+		<fillerSet group="nether_surface" name="stainedClay_%metadata%" weight="15">
+			<filler block="minecraft:stained_hardened_clay" metadata="%metadata%" weight="5" />
+		</fillerSet>
+	</for>
+	<fillerSet group="nether_surface" name="soulsand" weight="20">
+		<filler block="minecraft:soul_sand" weight="100" />
+	</fillerSet>
+	
+	
+	<!-- assorted end surface blocks -->
+	<fillerSet group="end_surface" name="endstone" weight="50">
+		<filler block="minecraft:end_stone" weight="100" />
+	</fillerSet>
+	<fillerSet group="end_surface" name="obsiend" weight="50">
+		<filler block="minecraft:end_stone" weight="100" />
+		<filler block="minecraft:obsidian" weight="15" />
+	</fillerSet>
+	<for variable="metadata" in="0,4">
+		<fillerSet group="end_surface" name="stainedClay_%metadata%" weight="15">
+			<filler block="minecraft:stained_hardened_clay" metadata="%metadata%" weight="100" />
+		</fillerSet>
+	</for>
+	<fillerSet group="end_surface" name="clay" weight="15">
+		<filler block="minecraft:clay" weight="100" />
+	</fillerSet>
+	<fillerSet group="end_surface" name="sandy" weight="15">
+		<filler block="minecraft:sandstone" weight="100" />
+	</fillerSet>
+	
+	
+	<!-- WarpDrive gases -->
+	<for variable="gasMetadata" in="0,1,2,3,4,5,6,7,8,9,10,11">
+		<fillerSet group="gas" name="wd_%gasMetadata%" weight="1">
+			<filler block="WarpDrive:blockGas" metadata="%gasMetadata%" weight="100" />
+		</fillerSet>
+	</for>
+	
+	
+	<!-- ship hull -->
+	<for variable="colorMetadata" in="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15">
+		<fillerSet group="hull_plain" name="clay_%colorMetadata%" weight="20">
+			<filler block="minecraft:stained_hardened_clay" metadata="%colorMetadata%" weight="100" />
+		</fillerSet>
+		<fillerSet group="hull_glass" name="clay_%colorMetadata%" weight="20">
+			<filler block="minecraft:stained_glass" metadata="%colorMetadata%" weight="100" />
+		</fillerSet>
+		<fillerSet group="hull_plain" name="basic_%colorMetadata%" weight="40">
+			<filler block="WarpDrive:blockHull1_plain" metadata="%colorMetadata%" weight="100" />
+		</fillerSet>
+		<fillerSet group="hull_glass" name="basic_%colorMetadata%" weight="40">
+			<filler block="WarpDrive:blockHull1_glass" metadata="%colorMetadata%" weight="100" />
+		</fillerSet>
+		<fillerSet group="hull_plain" name="advanced_%colorMetadata%" weight="10">
+			<filler block="WarpDrive:blockHull2_plain" metadata="%colorMetadata%" weight="100" />
+		</fillerSet>
+		<fillerSet group="hull_glass" name="advanced_%colorMetadata%" weight="10">
+			<filler block="WarpDrive:blockHull2_glass" metadata="%colorMetadata%" weight="100" />
+		</fillerSet>
+	</for>
+	<fillerSet group="hull_plain" name="ic2" weight="1" mods="IC2">
+		<filler block="IC2:blockAlloy" metadata="0" weight="100" />
+	</fillerSet>
+	<fillerSet group="hull_glass" name="ic2" weight="1" mods="IC2">
+		<filler block="IC2:blockAlloyGlass" metadata="0" weight="100" />
+	</fillerSet>
+	
+	
+	<!-- ship solar panel -->
+	<fillerSet group="ship_solarPanel" name="advancedSolarPanel" weight="20" mods="AdvancedSolarPanel">
+		<filler block="AdvancedSolarPanel:BlockAdvSolarPanel" nbt="{facing:5}" metadata="0" weight="200" />
+		<filler block="AdvancedSolarPanel:BlockAdvSolarPanel" nbt="{facing:5}" metadata="1" weight="100" />
+	</fillerSet>
+	<fillerSet group="ship_solarPanel" name="ic2" weight="10" mods="IC2">
+		<filler block="IC2:blockGenerator" metadata="3" nbt="{facing:5}" weight="100" />
+	</fillerSet>
+	<fillerSet group="ship_solarPanel" name="enderIO" weight="10" mods="EnderIO,ThermalDynamics">
+		<filler block="EnderIO:blockSolarPanel" metadata="0" weight="100" />
+	</fillerSet>
+	<fillerSet group="ship_solarPanel" name="vanilla" weight="1" mods="!IC2,!EnderIO,!ThermalDynamics">
+		<filler block="minecraft:daylight_detector" weight="100" />
+	</fillerSet>
+	
+	
+	<!-- ship wiring -->
+	<fillerSet group="ship_wiring" name="advancedSolarPanel" weight="10" mods="AdvancedSolarPanel">
+		<import group="ship_wiring" name="ic2" />
+	</fillerSet>
+	<fillerSet group="ship_wiring" name="ic2" weight="10" mods="IC2">
+		<filler block="IC2:blockCable" metadata="3" weight="100" /><!-- Insulated gold cable -->
+		<filler block="IC2:blockCable" metadata="6" weight="100" /><!-- Glass fiber cable -->
+
+	</fillerSet>
+	<fillerSet group="ship_wiring" name="enderIO" weight="5" mods="EnderIO,ThermalDynamics">
+		<filler block="ThermalDynamics:ThermalDynamics_0" metadata="0" weight="100" /><!-- Leadstone Fluxduct -->
+		<filler block="ThermalDynamics:ThermalDynamics_0" metadata="1" weight="40" /><!-- Hardened Fluxduct -->
+		<filler block="ThermalDynamics:ThermalDynamics_0" metadata="2" weight="10" /><!-- Readstone Energy Fluxduct -->
+	</fillerSet>
+	<fillerSet group="ship_wiring" name="vanilla" weight="5" mods="!IC2,!EnderIO,!ThermalDynamics">
+		<filler block="minecraft:fence" weight="100" />
+	</fillerSet>
+
+
+	<!-- ship propulsion -->
+	<fillerSet group="ship_propulsion" name="vanilla" weight="5">
+		<filler block="minecraft:redstone_block" weight="100" />
+		<filler block="minecraft:lapis_block" ratio="0.2" />
+		<filler block="minecraft:coal_block" ratio="0.2" />
+	</fillerSet>
+	
+	
+	<!-- flow variation for moons -->
+	<fillerSet group="moon.flow" name="lava" weight="5">
+		<filler block="minecraft:lava" weight="100" />
+	</fillerSet>
+	<fillerSet group="moon.flow" name="sand" weight="1">
+		<filler block="minecraft:sand" weight="100" />
+	</fillerSet>
+	<fillerSet group="moon.flow" name="gravel" weight="1">
+		<filler block="minecraft:gravel" weight="100" />
+	</fillerSet>
+	<fillerSet group="moon.flow" name="ice" weight="3">
+		<filler block="minecraft:ice" weight="100" />
+	</fillerSet>
+	<fillerSet group="moon.flow" name="clay" weight="5">
+		<filler block="minecraft:clay" weight="100" />
+	</fillerSet>
+	<fillerSet group="moon.flow" name="water" weight="5">
+		<filler block="minecraft:water" weight="100" />
+	</fillerSet>
+	<fillerSet group="moon.flow" name="empty" ratio="0.35">
+		<!-- empty fillerSet gives a random chance for the related shell to not exist at all -->
+	</fillerSet>
+	
+	
+	<!-- core variation for moons -->
+	<fillerSet group="moon.core" name="lava" weight="6">
+		<filler block="minecraft:lava" weight="100" />
+		<filler block="Railcraft:ore" metadata="5" ratio=".001" mods="Railcraft" /><
+	</fillerSet>
+	<fillerSet group="moon.core" name="stone" weight="5">
+		<import group="overworld_rare" name="stone" />
+	</fillerSet>
+	<fillerSet group="moon.core" name="uncommon" weight="5">
+		<import group="overworld_uncommon" name="stone" />
+	</fillerSet>
+	<fillerSet group="moon.core" name="nether" weight="5">
+		<import group="nether" name="stone" />
+	</fillerSet>
+	<fillerSet group="moon.core" name="water" weight="2">
+		<filler block="minecraft:water" weight="100" />
+		<filler block="minecraft:ice" ratio="0.05" />
+	</fillerSet>
+	<fillerSet group="moon.core" name="ice" weight="1">
+		<filler block="minecraft:packed_ice" weight="100" />
+		<filler block="ThermalFoundation:FluidCryotheum" ratio="0.1" />
+	</fillerSet>
+	<fillerSet group="moon.core" name="pyro" weight="1">
+		<filler block="minecraft:glowstone" weight="100" />
+		<filler block="ThermalFoundation:FluidPyrotheum" ratio="0.1" />
+	</fillerSet>
+	<fillerSet group="moon.core" name="quartz" weight="1">
+		<filler block="minecraft:quartz_block" weight="30" />
+		<filler block="appliedenergistics2:tile.BlockQuartz" weight="33" />
+		<filler block="appliedenergistics2:tile.BlockFluix" weight="17" />
+		<filler block="minecraft:emerald_block" ratio="0.01" />
+		<filler block="minecraft:diamond_block" ratio="0.001" />
+	</fillerSet>
+	<!-- TODO: add GT granite cores -->
+	<!-- TODO: add TE/EIO block of sort -->
+
+</worldGeneration>

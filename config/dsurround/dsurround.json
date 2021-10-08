@@ -1,0 +1,25 @@
+{
+    "entries":[
+        {
+	    "dimId":-1,
+	    "weather":false,
+	    "haze":false,
+	    "aurora":false,
+	    "seaLevel":0
+	},
+	    {
+	    "dimId":-100,
+	    "weather":false,
+	    "haze":false,
+	    "aurora":false,
+	    "seaLevel":0
+	},
+	    {
+	    "dimId":-112,
+	    "weather":false,
+	    "haze":false,
+	    "aurora":false,
+	    "seaLevel":0
+	}
+    ]
+}

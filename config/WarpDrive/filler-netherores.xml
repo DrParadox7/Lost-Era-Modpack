@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="2"
+                 xmlns="http://warpdrive.lemadec.org"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd"
+                 mods="netherores">
+    
+    <!--  reference ratios
+    Coal(       8,    16,     2,    5),
+    Diamond(    4,     3,     2,    5, true),
+    Gold(       8,     6,     2,    4),
+    Iron(       8,     8,     2,    4),
+    Lapis(      6,     6,     2,   24, true),
+    Redstone(   6,     8,     2,   21, "dust", true),
+    Copper(     8,     8,     2,    4),
+    Tin(        8,     8,     2,    4),
+    Emerald(    3,     2,     2,    5, true),
+    Silver(     6,     4,     2,    4),
+    Lead(       6,     6,     2,    4),
+    Uranium(    3,     2,     2,    4, "crushed"),
+    Nikolite(   8,     4,     2,   21, "dust", true),
+    Ruby(       6,     3,     2,    5, true),
+    Peridot(    6,     3,     2,    5, true),
+    Sapphire(   6,     3,     2,    5, true),
+
+    Platinum(   1,     3,     2,    4),
+    Nickel(     4,     6,     2,    4),
+    Steel(      3,     4,     2,    4),
+    Iridium(    1,     2,     2,    4, "drop"),
+    Osmium(     8,     7,     2,    4),
+    Sulfur(    12,    12,     2,   24, false),
+    Titanium(   3,     2,     2,    4),
+    Mithril(    6,     6,     2,    4),
+    Adamantium( 5,     4,     2,    4),
+    Rutile(     3,     4,     2,    4),
+    Tungsten(   8,     8,     2,    4),
+    Amber(      5,     6,     2,    5, true),
+    Tennantite( 8,     8,     2,    4),
+    Salt(       5,     5,     2,   12, "food", true),
+    Saltpeter(  6,     4,     2,   10, false),
+    Magnesium(  4,     5,     2,    8, "crushed");
+     -->
+    <fillerSet group="nether" name="netherores_nether">
+        <filler block="netherores:ore" metadata="0" weight="50" />
+        <filler block="netherores:ore" metadata="0" weight="40" />
+        <filler block="netherores:ore" metadata="0" weight="30" />
+        <filler block="netherores:ore" metadata="0" weight="15" />
+        <filler block="netherores:ore" metadata="0" weight="5" />
+    </fillerSet>
+	
+</worldGeneration>

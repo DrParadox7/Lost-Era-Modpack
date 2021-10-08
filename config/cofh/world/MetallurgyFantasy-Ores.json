@@ -1,0 +1,178 @@
+{
+"AstralSilver": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 5},
+        "material": "stone",
+        "clusterSize": 6,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+"DeepIron": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 1},
+        "material": "stone",
+        "clusterSize": 5,
+        "numClusters": 15,
+        "minHeight": 0,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Infuscolium": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 2},
+        "material": "stone",
+        "clusterSize": 7,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 72,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Prometheum": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore"},
+        "material": "stone",
+        "clusterSize": 6,
+        "numClusters": 15,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Oureclase": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 4},
+        "material": "stone",
+        "clusterSize": 5,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Mithril": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 7},
+        "material": "stone",
+        "clusterSize": 5,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Carmot": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 6},
+        "material": "stone",
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Orichalcum": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 11},
+        "material": "stone",
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Rubracium": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 8},
+        "material": "stone",
+        "clusterSize": 3,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+	"Atlarus": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 14},
+        "material": {"name": "GalacticraftMars:tile.asteroidsBlock"},
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -30
+        ]
+    },
+	"Adamantine": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 13},
+        "material": {"name": "GalacticraftMars:tile.asteroidsBlock"},
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -30
+        ]
+    }
+}

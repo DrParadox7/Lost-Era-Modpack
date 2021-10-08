@@ -1,0 +1,162 @@
+{
+"Ignatius": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore"},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 10,
+        "numClusters": 15,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Midasium": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 3},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 32,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Kalendrite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 7},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 3,
+        "numClusters": 4,
+        "minHeight": 27,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Shadow Iron": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 1},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 16,
+        "maxHeight": 124,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Corrupted Sands"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Ceruclase": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 5},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 5,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Corrupted Sands"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Lemurite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 2},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 7,
+        "numClusters": 15,
+        "minHeight": 0,
+        "maxHeight": 100,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Boneyard"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Alduorite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 6},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 4,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Boneyard"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Vyroxeres": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 4},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 5,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Undergarden"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Vulcanite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 8},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 5,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Phantasmagoric Inferno"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    },
+	"Sanguinite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:nether.ore", "metadata": 9},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 4,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Visceral Heap"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
+    }
+}

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="2"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd"
+				 mods="UndergroundBiomes">
+
+	<for variable="type" in="igneous,metamorphic,sedimentary">
+		<for variable="metadata" from="0" to="7">
+			<!-- common overworld ores with various base blocks -->
+			<fillerSet group="overworld_common" name="%type%@%metadata%.normal" weight="15">
+				<import group="undergroundBiomes_commonOres" name="%type%@%metadata%" />
+				<filler block="UndergroundBiomes:%type%Stone" metadata="%metadata%" weight="100" />
+			</fillerSet>
+
+			<fillerSet group="undergroundBiomes_commonOres" name="%type%@%metadata%">
+				<import group="overworld_commonOres" name="allButVanilla" />
+				<filler block="UndergroundBiomes:%type%_oreCoal" metadata="%metadata%" ratio=".08" />
+				<filler block="UndergroundBiomes:%type%_oreIron" metadata="%metadata%" ratio=".05" />
+				<filler block="UndergroundBiomes:%type%_oreRedstone" metadata="%metadata%" ratio=".02" />
+			</fillerSet>
+
+
+			<!-- uncommon overworld ores with various base blocks -->
+			<fillerSet group="overworld_uncommon" name="%type%@%metadata%.normal" weight="20">
+				<import group="undergroundBiomes_uncommonOres" name="%type%@%metadata%" />
+				<filler block="UndergroundBiomes:%type%Stone" metadata="%metadata%" weight="100" />
+			</fillerSet>
+
+			<fillerSet group="undergroundBiomes_uncommonOres" name="%type%@%metadata%">
+				<import group="overworld_uncommonOres" name="allButVanilla" />
+				<filler block="UndergroundBiomes:%type%_oreRedstone" metadata="%metadata%" ratio=".01" />
+				<filler block="UndergroundBiomes:%type%_oreGold" metadata="%metadata%" ratio=".008" />
+				<filler block="UndergroundBiomes:%type%_oreLapis" metadata="%metadata%" ratio=".005" />
+			</fillerSet>
+
+			<!-- rare overworld ores with various base blocks -->
+			<fillerSet group="overworld_rare" name="%type%@%metadata%.normal" weight="20">
+				<import group="undergroundBiomes_rareOres" name="%type%@%metadata%" />
+				<filler block="UndergroundBiomes:%type%Stone" metadata="%metadata%" weight="100" />
+			</fillerSet>
+
+			<fillerSet group="undergroundBiomes_rareOres" name="%type%@%metadata%">
+				<import group="overworld_rareOres" name="allButVanilla" />
+				<filler block="UndergroundBiomes:%type%_oreGold" metadata="%metadata%" ratio=".004" />
+				<filler block="UndergroundBiomes:%type%_oreDiamond" metadata="%metadata%" ratio=".004" />
+				<filler block="UndergroundBiomes:%type%_oreEmerald" metadata="%metadata%" ratio=".001" />
+			</fillerSet>
+
+			<!-- assorted overworld surface blocks -->
+			<fillerSet group="overworld_surface" name="%type%@%metadata%" weight="5">
+				<filler block="UndergroundBiomes:%type%Stone" weight="100" />
+			</fillerSet>
+		</for>
+	</for>
+
+    <!-- corrupted versions (no sedimentary cobblestone) -->
+    <for variable="type" in="igneous,metamorphic">
+        <for variable="metadata" from="0" to="7">
+            <!-- common overworld ores with various base blocks -->
+            <fillerSet group="overworld_common" name="%type%@%metadata%.corrupted" weight="5">
+                <import group="undergroundBiomes_commonOres" name="%type%@%metadata%" />
+                <filler block="UndergroundBiomes:%type%Cobblestone" metadata="%metadata%" weight="100" />
+            </fillerSet>
+
+            <!-- uncommon overworld ores with various base blocks -->
+            <fillerSet group="overworld_uncommon" name="%type%@%metadata%.corrupted" weight="5">
+                <import group="undergroundBiomes_uncommonOres" name="%type%@%metadata%" />
+                <filler block="UndergroundBiomes:%type%Cobblestone" metadata="%metadata%" weight="100" />
+            </fillerSet>
+
+            <!-- rare overworld ores with various base blocks -->
+            <fillerSet group="overworld_rare" name="%type%@%metadata%.corrupted" weight="5">
+                <import group="undergroundBiomes_rareOres" name="%type%@%metadata%" />
+                <filler block="minecraft:obsidian" weight="100" />
+                <filler block="UndergroundBiomes:%type%_oreDiamond" metadata="%metadata%" weight="10" />
+                <filler block="minecraft:bedrock" weight="1" />
+            </fillerSet>
+
+            <!-- assorted overworld surface blocks -->
+            <fillerSet group="overworld_surface" name="%type%@%metadata%.corrupted" weight="2">
+                <filler block="UndergroundBiomes:%type%Cobblestone" weight="100" />
+            </fillerSet>
+        </for>
+    </for>
+
+</worldGeneration>

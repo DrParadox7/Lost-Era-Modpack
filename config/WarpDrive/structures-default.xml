@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="2"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd">
+
+	<structure group="star" name="red_dwarf" ratio="0.2">
+		<shell name="core" minThickness="5" maxThickness="10"><!-- legacy radius was 42 -->
+			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+			<filler ratio="0.03" block="realstars:reddwarfcore" />
+		</shell>
+
+		<shell name="inner core" minThickness="5" maxThickness="8">
+			<filler weight="1" block="realstars:reddwarfcore" />
+		</shell>
+
+		<shell name="crust" minThickness="1" maxThickness="3">
+			<filler weight="1" block="realstars:reddwarfsurface" />
+		</shell>
+
+		<shell name="atmosphere" minThickness="2" maxThickness="4">
+			<filler weight="1" block="WarpDrive:blockGas" metadata="1" />
+		</shell>
+	</structure>
+
+	<structure group="star" name="orange_dwarf" weight="1">
+		<shell name="core" minThickness="1" maxThickness="1"><!-- mark the center -->
+			<filler weight="1" block="realstars:orangedwarfcore" />
+		</shell>
+		<shell name="mantle" minThickness="15" maxThickness="20">
+			<filler ratio="0.02" block="realstars:orangeddwarfcore" />
+			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+		</shell>
+		<shell name="crust1" minThickness="6" maxThickness="8">
+			<filler weight="1" block="realstars:orangedwarfcore" />
+		</shell>
+		<shell name="crust2" minThickness="6" maxThickness="4">
+			<filler weight="1" block="realstars:orangedwarfsurface" />
+		</shell>
+		<shell name="surface" minThickness="4" maxThickness="6"><!-- add stained glass for color and holding fluid in place -->
+			<filler weight="1" block="WarpDrive:blockGas" metadata="8" />
+		</shell>
+	</structure>
+
+	<structure group="star" name="yellow_giant" weight="1">
+		<shell name="core" minThickness="1" maxThickness="1"><!-- mark the center -->
+			<filler weight="1" block="realstars:yellowgiantcore" />
+		</shell>
+		<shell name="mantle" minThickness="25" maxThickness="32">
+			<filler ratio="0.01" block="realstars:yellowgiantcore" />
+			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+		</shell>
+		<shell name="crust1" minThickness="10" maxThickness="15">
+			<filler weight="1" block="realstars:orangedwarfcore" />
+		</shell>
+		<shell name="crust" minThickness="6" maxThickness="8">
+			<filler weight="1" block="realstars:yellowgiantsurface" />
+		</shell>
+		<shell name="surface" minThickness="6" maxThickness="8">
+			<filler weight="1" block="WarpDrive:blockGas" metadata="3" />
+		</shell>
+	</structure>
+
+	<structure group="star" name="yellow_supergiant" ratio="0.2">
+		<shell name="core" minThickness="1" maxThickness="1"><!-- mark the center -->
+			<filler weight="1" block="realstars:yellowsupergiantcore" />
+		</shell>
+		<shell name="mantle" minThickness="35" maxThickness="45">
+			<filler ratio="0.01" block="realstars:yellowsupergiantcore" />
+			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+		</shell>
+		<shell name="crust" minThickness="20" maxThickness="28">
+			<filler weight="1" block="realstars:yellowsupergiantcore" />
+		</shell>
+		<shell name="surface" minThickness="10" maxThickness="15"><!-- add stained glass for color -->
+			<filler weight="1" block="realstars:yellowsupergiantsurface" />
+		</shell>
+		<shell name="atmosphere" minThickness="8" maxThickness="10"><!-- add stained glass for color -->
+			<filler weight="1" block="WarpDrive:blockGas" metadata="3" />
+		</shell>
+	</structure>
+
+
+    <!-- 
+    <structure group="moon" name="test" weight="100">
+        <shell name="core" minThickness="1" maxThickness="1">
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="mantle" minThickness="1" maxThickness="1">
+            <filler block="minecraft:glass" ratio=".001" />
+        </shell>
+        <shell name="crust" minThickness="1" maxThickness="1">
+            <filler block="minecraft:stained_glass" metadata="5" ratio=".001" />
+        </shell>
+        <shell name="surface" minThickness="1" maxThickness="1">
+            <filler block="minecraft:stained_glass" metadata="15" />
+        </shell>
+    </structure>
+    -->
+
+	<structure group="moon" name="overworld.base" weight="100">
+		<shell name="core" minThickness="4" maxThickness="15">
+			<import group="moon.core" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+		</shell>
+        <shell name="mantle" minThickness="3" maxThickness="15">
+            <import group="overworld_uncommon" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="flow" minThickness="0" maxThickness="2">
+            <import group="moon.flow" />
+        </shell>
+		<shell name="crust" minThickness="2" maxThickness="10">
+			<import group="overworld_common" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+		</shell>
+		<shell name="surface" minThickness="1" maxThickness="3">
+			<import group="overworld_surface" />
+		</shell>
+	</structure>
+
+    <structure group="moon" name="overworld.rare" weight="20">
+        <shell name="core" minThickness="1" maxThickness="10">
+            <import group="moon.core" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="mantle" minThickness="3" maxThickness="15">
+            <import group="overworld_rare" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="flow" minThickness="1" maxThickness="3">
+            <import group="moon.flow" />
+        </shell>
+        <shell name="crust" minThickness="2" maxThickness="10">
+            <import group="overworld_common" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="surface" minThickness="1" maxThickness="3">
+            <import group="overworld_surface" />
+        </shell>
+    </structure>
+
+    <structure group="moon" name="overworld.empty" weight="20">
+        <shell name="core" minThickness="1" maxThickness="1">
+            <filler block="minecraft:bedrock" weight="100" />
+        </shell>
+        <shell name="empty" minThickness="6" maxThickness="29">
+            <import group="gas" />
+        </shell>
+        <shell name="innerCrust" minThickness="1" maxThickness="1">
+            <filler block="minecraft:obsidian" weight="100" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+            <filler block="minecraft:glowstone" ratio=".001" />
+        </shell>
+        <shell name="mantle" minThickness="0" maxThickness="2">
+            <filler block="minecraft:obsidian" weight="100" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="crust" minThickness="1" maxThickness="5">
+            <import group="overworld_common" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="surface" minThickness="2" maxThickness="3">
+            <import group="overworld_surface" />
+        </shell>
+    </structure>
+
+    <structure group="moon" name="overworld.ship" weight="10">
+        <schematic group="smallship" filename="notImplemented.schematic" />
+        <shell name="core" minThickness="5" maxThickness="16">
+            <import group="gas" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="mantle" minThickness="3" maxThickness="17">
+            <import group="overworld_uncommon" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="flow" minThickness="0" maxThickness="2">
+            <filler block="minecraft:obsidian" weight="100" />
+        </shell>
+        <shell name="crust" minThickness="2" maxThickness="10">
+            <import group="overworld_common" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="surface" minThickness="1" maxThickness="3">
+            <import group="overworld_surface" />
+        </shell>
+    </structure>
+
+	<structure group="moon" name="overworld.corrupted" weight="20">
+		<shell name="core" minThickness="5" maxThickness="16">
+			<import group="overworld_rare" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+		</shell>
+		<shell name="mantle" minThickness="6" maxThickness="20">
+			<import group="overworld_uncommon" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+            <filler block="minecraft:gravel" ratio=".1" />
+			<filler block="minecraft:lava" ratio=".05" />
+		</shell>
+		<shell name="crust" minThickness="10" maxThickness="20">
+			<import group="overworld_common" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+            <filler block="minecraft:sand" ratio=".1" />
+			<filler block="minecraft:air" ratio=".2" />
+		</shell>
+		<shell name="surface" minThickness="2" maxThickness="4">
+			<import group="overworld_surface" />
+			<filler block="minecraft:air" ratio=".35" />
+		</shell>
+	</structure>
+
+    <structure group="moon" name="nether" ratio="0.1">
+        <shell name="core" minThickness="1" maxThickness="5">
+            <filler block="minecraft:air" weight="1" />
+            <filler block="minecraft:bedrock" ratio=".01" />
+        </shell>
+        <shell name="coreShell" minThickness="1" maxThickness="1">
+            <filler block="minecraft:obsidian" weight="100" />
+        </shell>
+        <shell name="mantle" minThickness="6" maxThickness="20">
+            <import group="nether" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+            <filler block="minecraft:glass" ratio=".2" />
+        </shell>
+        <shell name="crust" minThickness="10" maxThickness="20">
+            <import group="nether" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="surface" minThickness="2" maxThickness="4">
+            <import group="nether_surface" />
+        </shell>
+    </structure>
+
+	<structure group="moon" name="nether.corrupted" ratio="0.1">
+		<shell name="core" minThickness="1" maxThickness="5">
+			<filler block="minecraft:air" weight="1" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+		</shell>
+		<shell name="coreShell" minThickness="1" maxThickness="1">
+			<filler block="minecraft:obsidian" weight="100" />
+		</shell>
+		<shell name="mantle" minThickness="6" maxThickness="12">
+			<import group="nether" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+			<filler block="minecraft:glass" ratio=".1" />
+		</shell>
+		<shell name="crust" minThickness="8" maxThickness="16">
+			<import group="nether" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+            <filler block="minecraft:air" ratio=".2" />
+		</shell>
+		<shell name="surface" minThickness="2" maxThickness="4">
+			<import group="nether_surface" />
+			<filler block="minecraft:air" ratio=".25" />
+		</shell>
+	</structure>
+
+	<structure group="moon" name="enderack" ratio="0.03">
+		<shell name="core" minThickness="5" maxThickness="15">
+			<import group="end" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+		</shell>
+		<shell name="mantle" minThickness="10" maxThickness="25">
+			<import group="end" />
+			<filler block="minecraft:bedrock" ratio=".001" />
+		</shell>
+		<shell name="surface" minThickness="2" maxThickness="3">
+			<import group="end_surface" />
+		</shell>
+	</structure>
+
+    <structure group="moon" name="end" ratio="0.05">
+        <shell name="core" minThickness="5" maxThickness="15">
+            <import group="end" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="mantle" minThickness="10" maxThickness="25">
+            <import group="end" />
+            <filler block="minecraft:bedrock" ratio=".001" />
+        </shell>
+        <shell name="surface" minThickness="2" maxThickness="3">
+            <import group="end_surface" />
+        </shell>
+    </structure>
+
+
+
+	<for variable="gasMetadata" in="0,1,2,3,4,5,6,7,8,9,10,11">
+		<structure group="gascloud" name="bigCloud_%gasMetadata%" weight="1">
+			<metashell block="minecraft:glowstoneOff" minCount="10" maxCount="16" minRadius="5" relativeRadius="0.5" />
+			<shell name="mantle" minThickness="5" maxThickness="15">
+				<filler weight="1" block="WarpDrive:blockGas" metadata="%gasMetadata%" />
+			</shell>
+		</structure>
+
+		<structure group="gascloud" name="smallCloud_%gasMetadata%" weight="1">
+			<metashell block="minecraft:glowstoneOff" minCount="3" maxCount="7" minRadius="3" relativeRadius="0.5" />
+			<shell name="mantle" minThickness="2" maxThickness="8">
+				<filler weight="1" block="WarpDrive:blockGas" metadata="%gasMetadata%" />
+			</shell>
+		</structure>
+	</for>
+
+
+
+	<structure group="asteroid" name="ClusteredAsteroid" weight="3">
+		<metashell block="minecraft:iron_ore" minCount="6" maxCount="10" minRadius="2" relativeRadius="0.5" />
+		<shell name="mantle" minThickness="3" maxThickness="7">
+			<import group="overworld_common" />
+			<filler weight="10" block="minecraft:stone" />
+			<filler weight="5" block="minecraft:cobblestone" />
+		</shell>
+	</structure>
+
+	<structure group="asteroid" name="SphericalAsteroid" weight="10">
+		<metashell block="minecraft:iron_ore" minCount="1" maxCount="3" minRadius="2" relativeRadius="0.5" />
+		<shell name="mantle" minThickness="2" maxThickness="6">
+			<import group="overworld_uncommon" />
+			<filler weight="10" block="minecraft:stone" />
+			<filler weight="5" block="minecraft:cobblestone" />
+		</shell>
+	</structure>
+
+	<structure group="asteroid" name="diamondGeode" weight="2">
+		<metashell block="minecraft:diamond_ore" minCount="1" maxCount="2" minRadius="2" relativeRadius="0.5" />
+		<shell name="mantle" minThickness="2" maxThickness="6">
+			<import group="overworld_rare" />
+			<filler weight="10" block="minecraft:stone" />
+			<filler weight="5" block="minecraft:cobblestone" />
+		</shell>
+	</structure>
+
+
+	<structure group="asteroid" name="mini_overworld" weight="10">
+		<metashell block="minecraft:diamond_ore" minCount="1" maxCount="2" minRadius="2" relativeRadius="0.5" />
+		<shell name="mantle" minThickness="2" maxThickness="6">
+			<import group="overworld_allOres" name="stone" />
+			<filler weight="10" block="minecraft:stone" />
+			<filler weight="5" block="minecraft:cobblestone" />
+		</shell>
+	</structure>
+
+	<structure group="asteroid" name="mini_nether" ratio="0.04">
+		<metashell block="minecraft:diamond_ore" minCount="1" maxCount="2" minRadius="2" relativeRadius="0.5" />
+		<shell name="mantle" minThickness="2" maxThickness="6">
+			<import group="nether" />
+			<filler weight="10" block="minecraft:stone" />
+			<filler weight="5" block="minecraft:cobblestone" />
+		</shell>
+	</structure>
+
+	<structure group="asteroid" name="mini_end" ratio="0.028">
+		<metashell block="minecraft:diamond_ore" minCount="1" maxCount="2" minRadius="2" relativeRadius="0.5" />
+		<shell name="mantle" minThickness="2" maxThickness="6">
+			<import group="end" />
+			<filler weight="10" block="minecraft:stone" />
+			<filler weight="5" block="minecraft:cobblestone" />
+		</shell>
+	</structure>
+</worldGeneration>

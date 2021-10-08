@@ -1,0 +1,469 @@
+# Configuration file
+
+##########################################################################################################
+# block_tags
+#--------------------------------------------------------------------------------------------------------#
+# Use this section to enable special behavior on blocks using tags.
+# Most blocks are already supported automatically. Only modify this section when something doesn't work!
+# 
+# Tags shall be separated by at least one space, comma or tabulation.
+# Invalid tags will be ignored silently. Tags and block names are case sensitive.
+# In case of conflicts, the latest tag overwrite the previous ones.
+# - Soil: this block is a soil for plants (default: dirt, farmland, grass, sand & soul sand).
+# - Log: this block is harvestable as a wood log (default: all 'log*', '*log' & '*logs' blocks from the ore dictionary).
+# - Leaf: this block is harvestable as a leaf (default: all 'leave*', '*leave' & '*leaves' blocks from the ore dictionary).
+# - Anchor: ship can't move with this block aboard (default: bedrock and assimilated).
+# - NoMass: this block doesn't count when calculating ship volume/mass (default: leaves, all 'air' blocks).
+# - LeftBehind: this block won't move with your ship (default: RailCraft heat, WarpDrive gases).
+# - Expandable: this block will be squished/ignored in case of collision.
+# - Mining: this block is mineable (default: all 'ore' blocks from the ore dictionary).
+# - SkipMining: this block is ignored from mining (default: bedrock).
+# - StopMining: this block will prevent mining through it (default: command/creative, bedrock, force fields).
+# - PlaceEarliest: this block will be removed last and placed first (default: ship hull and projectors).
+# - PlaceEarlier: this block will be placed fairly soon (default: forcefield blocks).
+# - PlaceNormal: this block will be removed and placed with non-tile entities.
+# - PlaceLater: this block will be placed fairly late (default: IC2 Reactor core).
+# - PlaceLatest: this block will be removed first and placed last (default: IC2 Reactor chamber).
+# - NoCamouflage: this block isn't valid for camouflage.
+# - NoBlink: this block will prevent teleportation through it (default: bedrock, force fields)
+##########################################################################################################
+
+block_tags {
+    S:"AdvancedRepulsionSystems:field"=PlaceEarlier StopMining NoBlink
+    S:"Artifacts:anti_anti_builder_stone"=Anchor StopMining
+    S:"Artifacts:anti_builder"=Anchor StopMining
+    S:"Artifacts:invisible_bedrock"=Anchor StopMining NoBlink
+    S:"CarpentersBlocks:blockCarpentersDaylightSensor"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersDoor"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersGarageDoor"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersHatch"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersLadder"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersLever"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersPressurePlate"=PlaceLatest
+    S:"CarpentersBlocks:blockCarpentersTorch"=PlaceLatest
+    S:"ComputerCraft:command_computer"=Anchor SkipMining
+    S:"IC2:blockAlloy"=PlaceEarliest StopMining
+    S:"IC2:blockAlloyGlass"=PlaceEarliest StopMining
+    S:"IC2:blockGenerator"=PlaceLater
+    S:"IC2:blockPersonal"=Anchor SkipMining
+    S:"IC2:blockReactorChamber"=PlaceLatest
+    S:"IC2:blockReinforcedFoam"=PlaceEarliest StopMining
+    S:"IC2:blockRubWood"=Log
+    S:"ImmersiveEngineering:metalDevice"=PlaceLatest
+    S:"InvisibLights:blockLightSource"=NoMass Expandable
+    S:"NuclearCraft:blockBlock"=Mining
+    S:"OpenComputers:case1"=PlaceLatest
+    S:"OpenComputers:case2"=PlaceLatest
+    S:"OpenComputers:case3"=PlaceLatest
+    S:"OpenComputers:caseCreative"=PlaceLatest
+    S:"OpenComputers:keyboard"=PlaceLatest
+    S:"PneumaticCraft:pressureChamberValve"=PlaceEarlier
+    S:"Railcraft:residual.heat"=LeftBehind Expandable
+    S:"StargateTech2:block.busAdapter"=PlaceLatest StopMining
+    S:"StargateTech2:block.busCable"=PlaceNormal StopMining
+    S:"StargateTech2:block.shield"=PlaceNormal StopMining NoBlink
+    S:"StargateTech2:block.shieldController"=PlaceNormal StopMining NoBlink
+    S:"StargateTech2:block.shieldEmitter"=PlaceLater StopMining NoBlink
+    S:"TConstruct:slime.gel"=Log
+    S:"TConstruct:slime.leaves"=Leaf
+    S:"Thaumcraft:blockCustomPlant"=NoCamouflage
+    S:"ThermalExpansion:Cache"=NoCamouflage
+    S:"ThermalExpansion:Device"=NoCamouflage
+    S:"ThermalExpansion:Machine"=NoCamouflage
+    S:"ThermalExpansion:Sponge"=NoCamouflage
+    S:"WarpDrive:blockAir"=NoMass Expandable PlaceLatest
+    S:"WarpDrive:blockAirFlow"=NoMass Expandable PlaceLatest
+    S:"WarpDrive:blockAirSource"=NoMass Expandable PlaceLatest
+    S:"WarpDrive:blockBedrockGlass"=Anchor StopMining NoBlink
+    S:"WarpDrive:blockForceField1"=PlaceLatest StopMining NoMass
+    S:"WarpDrive:blockForceField2"=PlaceLatest StopMining NoMass
+    S:"WarpDrive:blockForceField3"=PlaceLatest StopMining NoMass
+    S:"WarpDrive:blockGas"=LeftBehind Expandable
+    S:"WarpDrive:blockHull1_glass"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull1_plain"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull2_glass"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull2_plain"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull3_glass"=PlaceEarliest StopMining
+    S:"WarpDrive:blockHull3_plain"=PlaceEarliest StopMining
+    S:"WarpDrive:blockIridium"=Mining
+    S:"chisel:cloud"=LeftBehind Expandable
+    S:"deepresonance:energyCollectorBlock"=NoCamouflage
+    S:"deepresonance:resonatingCrystalBlock"=NoCamouflage
+    S:"evilcraft:bloodInfuser"=NoCamouflage
+    S:"evilcraft:darkOre"=NoCamouflage
+    S:"evilcraft:sanguinaryEnvironmentalAccumulator"=NoCamouflage
+    S:"evilcraft:spiritReanimator"=NoCamouflage
+    S:"malisisdoors:null"=Anchor
+    S:"malisisdoors:rustyHatch"=Anchor
+    S:"minecraft:bedrock"=Anchor SkipMining NoBlink
+    S:"minecraft:command_block"=Anchor StopMining
+    S:"minecraft:dirt"=Soil
+    S:"minecraft:end_portal"=Anchor StopMining
+    S:"minecraft:end_portal_frame"=Anchor StopMining
+    S:"minecraft:farmland"=Soil
+    S:"minecraft:fence"=Mining
+    S:"minecraft:glowstone"=Mining
+    S:"minecraft:grass"=Soil
+    S:"minecraft:lever"=PlaceLatest
+    S:"minecraft:mycelium"=Soil
+    S:"minecraft:obsidian"=PlaceEarliest Mining
+    S:"minecraft:redstone_block"=Mining
+    S:"minecraft:sand"=Soil
+    S:"minecraft:soul_sand"=Soil
+    S:"minecraft:torch"=Mining
+    S:"minecraft:web"=Mining
+    S:"openmodularturrets:hardWallTierFive"=StopMining
+    S:"realstars:orangedwarfcore"=Mining
+    S:"realstars:orangedwarfsurface"=Mining
+    S:"realstars:reddwarfcore"=Mining
+    S:"realstars:reddwarfsurface"=Mining
+    S:"realstars:yellowgiantcore"=Mining
+    S:"realstars:yellowgiantsurface"=Mining
+    S:"realstars:yellowsupergiantcore"=Mining
+    S:"realstars:yellowsupergiantsurface"=Mining
+}
+
+
+##########################################################################################################
+# entity_tags
+#--------------------------------------------------------------------------------------------------------#
+# Use this section to enable special behavior on entities using tags.
+# Most entities are already supported automatically. Only modify this section when something doesn't work!
+# 
+# Tags shall be separated by at least one space, comma or tabulation.
+# Invalid tags will be ignored silently. Tags and block names are case sensitive.
+# In case of conflicts, the latest tag overwrite the previous ones.
+# - Anchor: ship can't move with this entity aboard (default: none).
+# - NoMass: this entity doesn't count when calculating ship volume/mass (default: Galacticraft air bubble).
+# - LeftBehind: this entity won't move with your ship nor transporter (default: Galacticraft air bubble).
+# - NonLivingTarget: this non-living entity can be targeted/removed by weapons (default: ItemFrame, Painting).
+# - LivingWithoutAir: this living entity doesn't need air to live (default: vanilla zombies and skeletons).
+##########################################################################################################
+
+entity_tags {
+    S:AntimatterBombPrimed=NoMass NonLivingTarget
+    S:Arrow=NoMass NonLivingTarget
+    S:Automagy.AvaricePearl=NoMass NonLivingTarget
+    S:Automagy.EntityItemDelayedFall=NoMass NonLivingTarget
+    S:Automagy.XPOrbSuppressed=NoMass NonLivingTarget
+    S:Basalz=LivingWithoutAir
+    S:BiblioCraft.SeatEntity= NonLivingTarget
+    S:BiomesOPlenty.dart=NoMass NonLivingTarget
+    S:BiomesOPlenty.mudball=NoMass NonLivingTarget
+    S:Blitz=LivingWithoutAir
+    S:Blizz=LivingWithoutAir
+    S:Boat=NoMass NonLivingTarget
+    S:CarpentersBlocks.CarpentersTile=NoMass NonLivingTarget
+    S:Creeper=LivingWithoutAir
+    S:EMPPrimed=NoMass NonLivingTarget
+    S:EnderCrystal=NoMass NonLivingTarget
+    S:Forestry.cart.apiary=NoMass NonLivingTarget
+    S:Forestry.cart.beehouse=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityBabylonWeaponSS=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityChaoticOrb=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityCrimsonOrb=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityDarkMatterOrb=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityLunarFlare=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityShinyEnergy=NoMass NonLivingTarget
+    S:ForgottenRelics.EntitySoulEnergy=NoMass NonLivingTarget
+    S:ForgottenRelics.EntityThunderpealOrb=NoMass NonLivingTarget
+    S:ForgottenRelics.SomeVeryRageousStuff=NoMass NonLivingTarget
+    S:GalacticraftCore.OxygenBubble=NoMass LeftBehind
+    S:GraviSuite.PlasmaBall=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.EnhancedTNT=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ItemAltar=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ItemDragonEgg=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ItemEndPowder=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ItemIgneousRock=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ItemInstabilityOrb=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.LightningBoltSafe=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ProjectileCurse=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ProjectileEnhancedEnderPearl=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ProjectileExpBottleConsistent=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ProjectilePotionOfInstability=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ProjectileSacredWand=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.ProjectileSpatialDash=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.TechnicalCurseEntity=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.TechnicalVoidChest=NoMass NonLivingTarget
+    S:HardcoreEnderExpansion.TempleEgg=NoMass NonLivingTarget
+    S:IC2.BoatCarbon=NoMass NonLivingTarget
+    S:IC2.BoatElectric=NoMass NonLivingTarget
+    S:IC2.BoatRubber=NoMass NonLivingTarget
+    S:IC2.Dynamite=NoMass NonLivingTarget
+    S:IC2.Itnt=NoMass NonLivingTarget
+    S:IC2.MiningLaser=NoMass NonLivingTarget
+    S:IC2.Nuke=NoMass NonLivingTarget
+    S:IC2.Particle=NoMass NonLivingTarget
+    S:IC2.StickyDynamite=NoMass NonLivingTarget
+    S:ItemFrame=NoMass NonLivingTarget
+    S:LeashKnot=NoMass NonLivingTarget
+    S:Mekanism.BabySkeleton=LivingWithoutAir
+    S:Mekanism.ObsidianTNT=NoMass NonLivingTarget
+    S:Mekanism.Robit=LivingWithoutAir
+    S:MineFactoryReloaded.Needle=NoMass NonLivingTarget
+    S:MineFactoryReloaded.Rocket=NoMass NonLivingTarget
+    S:MineFactoryReloaded.SafariNet=NoMass NonLivingTarget
+    S:MinecartChest=NoMass NonLivingTarget
+    S:MinecartFurnace=NoMass NonLivingTarget
+    S:MinecartHopper=NoMass NonLivingTarget
+    S:MinecartRideable=NoMass NonLivingTarget
+    S:MinecartSpawner=NoMass NonLivingTarget
+    S:MinecartTNT=NoMass NonLivingTarget
+    S:Natura.FusewoodArrow=NoMass NonLivingTarget
+    S:NuclearCraft.AntimatterBombPrimed=NoMass NonLivingTarget
+    S:NuclearCraft.EMPPrimed=NoMass NonLivingTarget
+    S:NuclearCraft.NuclearMonster=NoMass NonLivingTarget
+    S:NuclearCraft.NukePrimed=NoMass NonLivingTarget
+    S:NuclearMonster=LivingWithoutAir
+    S:NukePrimed=NoMass NonLivingTarget
+    S:OpenBlocks.Cartographer=NoMass NonLivingTarget
+    S:OpenBlocks.Luggage=NoMass NonLivingTarget
+    S:Painting=NoMass NonLivingTarget
+    S:PortalGun.portal_entityball=NoMass NonLivingTarget
+    S:PortalGun.portal_entityblock=NoMass NonLivingTarget
+    S:PortalGun.portal_entitybullet=NoMass NonLivingTarget
+    S:PortalGun.portal_entityradio=NoMass NonLivingTarget
+    S:PortalGun.portal_entityturret=LivingWithoutAir
+    S:PrimedTnt=NoMass NonLivingTarget
+    S:Railcraft.ItemFireproof=NoMass NonLivingTarget
+    S:Railcraft.ItemFirestone=NoMass NonLivingTarget
+    S:Railcraft.cart.anchor=NoMass NonLivingTarget
+    S:Railcraft.cart.anchor.admin=NoMass NonLivingTarget
+    S:Railcraft.cart.anchor.personal=NoMass NonLivingTarget
+    S:Railcraft.cart.basic=NoMass NonLivingTarget
+    S:Railcraft.cart.bore=NoMass NonLivingTarget
+    S:Railcraft.cart.cargo=NoMass NonLivingTarget
+    S:Railcraft.cart.chest=NoMass NonLivingTarget
+    S:Railcraft.cart.command.block=NoMass NonLivingTarget
+    S:Railcraft.cart.energy.batbox=NoMass NonLivingTarget
+    S:Railcraft.cart.energy.cesu=NoMass NonLivingTarget
+    S:Railcraft.cart.energy.mfe=NoMass NonLivingTarget
+    S:Railcraft.cart.furnace=NoMass NonLivingTarget
+    S:Railcraft.cart.gift=NoMass NonLivingTarget
+    S:Railcraft.cart.hopper=NoMass NonLivingTarget
+    S:Railcraft.cart.loco.creative=NoMass NonLivingTarget
+    S:Railcraft.cart.loco.electric=NoMass NonLivingTarget
+    S:Railcraft.cart.loco.steam.solid=NoMass NonLivingTarget
+    S:Railcraft.cart.pumpkin=NoMass NonLivingTarget
+    S:Railcraft.cart.redstone.flux=NoMass NonLivingTarget
+    S:Railcraft.cart.tank=NoMass NonLivingTarget
+    S:Railcraft.cart.tnt=NoMass NonLivingTarget
+    S:Railcraft.cart.tnt.wood=NoMass NonLivingTarget
+    S:Railcraft.cart.track.layer=NoMass NonLivingTarget
+    S:Railcraft.cart.track.relayer=NoMass NonLivingTarget
+    S:Railcraft.cart.track.remover=NoMass NonLivingTarget
+    S:Railcraft.cart.undercutter=NoMass NonLivingTarget
+    S:Railcraft.cart.work=NoMass NonLivingTarget
+    S:RandomThings.HealingOrb=NoMass NonLivingTarget
+    S:RandomThings.playerSoul=NoMass NonLivingTarget
+    S:RandomThings.reviveCircle=NoMass NonLivingTarget
+    S:RandomThings.spirit=NoMass NonLivingTarget
+    S:Skeleton=LivingWithoutAir
+    S:Snowball=NoMass NonLivingTarget
+    S:SpecialMobs.ArmorCreeper=LivingWithoutAir
+    S:SpecialMobs.BrutishSkeleton=LivingWithoutAir
+    S:SpecialMobs.BrutishZombie=LivingWithoutAir
+    S:SpecialMobs.DarkCreeper=LivingWithoutAir
+    S:SpecialMobs.DeathCreeper=LivingWithoutAir
+    S:SpecialMobs.DirtCreeper=LivingWithoutAir
+    S:SpecialMobs.DoomCreeper=LivingWithoutAir
+    S:SpecialMobs.DrowningCreeper=LivingWithoutAir
+    S:SpecialMobs.EnderCreeper=LivingWithoutAir
+    S:SpecialMobs.FireCreeper=LivingWithoutAir
+    S:SpecialMobs.FireSkeleton=LivingWithoutAir
+    S:SpecialMobs.FireZombie=LivingWithoutAir
+    S:SpecialMobs.FishingZombie=LivingWithoutAir
+    S:SpecialMobs.GatlingSkeleton=LivingWithoutAir
+    S:SpecialMobs.GiantSkeleton=LivingWithoutAir
+    S:SpecialMobs.GiantZombie=LivingWithoutAir
+    S:SpecialMobs.GravelCreeper=LivingWithoutAir
+    S:SpecialMobs.GravityCreeper=LivingWithoutAir
+    S:SpecialMobs.HungryZombie=LivingWithoutAir
+    S:SpecialMobs.JumpingCreeper=LivingWithoutAir
+    S:SpecialMobs.LightningCreeper=LivingWithoutAir
+    S:SpecialMobs.MiniCreeper=LivingWithoutAir
+    S:SpecialMobs.NinjaSkeleton=LivingWithoutAir
+    S:SpecialMobs.PlagueZombie=LivingWithoutAir
+    S:SpecialMobs.PoisonSkeleton=LivingWithoutAir
+    S:SpecialMobs.SMFishHook=NoMass NonLivingTarget
+    S:SpecialMobs.SMSpitball=NoMass NonLivingTarget
+    S:SpecialMobs.SniperSkeleton=LivingWithoutAir
+    S:SpecialMobs.SpecialCreeper=LivingWithoutAir
+    S:SpecialMobs.SpecialSkeleton=LivingWithoutAir
+    S:SpecialMobs.SpecialZombie=LivingWithoutAir
+    S:SpecialMobs.SpitfireSkeleton=LivingWithoutAir
+    S:SpecialMobs.SplittingCreeper=LivingWithoutAir
+    S:SpecialMobs.ThiefSkeleton=LivingWithoutAir
+    S:StevesCarts.Cake.Vswe=NoMass NonLivingTarget
+    S:StevesCarts.Egg.Vswe=NoMass NonLivingTarget
+    S:TConstruct.Arrow=NoMass NonLivingTarget
+    S:TConstruct.Bolt=NoMass NonLivingTarget
+    S:TConstruct.Crystal=NoMass NonLivingTarget
+    S:TConstruct.Dagger=NoMass NonLivingTarget
+    S:"TConstruct.Fancy Item"=NoMass NonLivingTarget
+    S:TConstruct.Javelin=NoMass NonLivingTarget
+    S:TConstruct.LandmineFirework= NonLivingTarget
+    S:"TConstruct.Launched Potion"=NoMass NonLivingTarget
+    S:TConstruct.Shuriken=NoMass NonLivingTarget
+    S:TConstruct.SlimeExplosive= NonLivingTarget
+    S:TConstruct.ThrowingKnife=NoMass NonLivingTarget
+    S:Thaumcraft.Alumentum=NoMass NonLivingTarget
+    S:Thaumcraft.AspectOrb=NoMass NonLivingTarget
+    S:Thaumcraft.BottleTaint=NoMass NonLivingTarget
+    S:Thaumcraft.BrainyZombie=LivingWithoutAir
+    S:Thaumcraft.Dart=NoMass NonLivingTarget
+    S:Thaumcraft.EldritchGuardian=LivingWithoutAir
+    S:Thaumcraft.EldritchOrb=NoMass NonLivingTarget
+    S:Thaumcraft.EldritchWarden=LivingWithoutAir
+    S:Thaumcraft.Ember=NoMass NonLivingTarget
+    S:Thaumcraft.ExplosiveOrb=NoMass NonLivingTarget
+    S:Thaumcraft.FollowItem=NoMass NonLivingTarget
+    S:Thaumcraft.FrostShard=NoMass NonLivingTarget
+    S:Thaumcraft.GiantBrainyZombie=LivingWithoutAir
+    S:Thaumcraft.Golem=LivingWithoutAir
+    S:Thaumcraft.GolemOrb=NoMass NonLivingTarget
+    S:Thaumcraft.InhabitedZombie=LivingWithoutAir
+    S:Thaumcraft.PechBlast=NoMass NonLivingTarget
+    S:Thaumcraft.PermanentItem=NoMass NonLivingTarget
+    S:Thaumcraft.PrimalArrow=NoMass NonLivingTarget
+    S:Thaumcraft.PrimalOrb=NoMass NonLivingTarget
+    S:Thaumcraft.ShockOrb=NoMass NonLivingTarget
+    S:Thaumcraft.SpecialItem=NoMass NonLivingTarget
+    S:Thaumcraft.TravelingTrunk=LivingWithoutAir
+    S:ThaumicHorizons.BoatGreatwood=NoMass NonLivingTarget
+    S:ThaumicHorizons.BoatThaumium=NoMass NonLivingTarget
+    S:ThaumicHorizons.Egg=LivingWithoutAir
+    S:ThaumicHorizons.HorseSkeleton=LivingWithoutAir
+    S:ThaumicHorizons.HorseZombie=LivingWithoutAir
+    S:ThaumicHorizons.LightningBoltFinite=NoMass NonLivingTarget
+    S:ThaumicHorizons.NightmareTH=LivingWithoutAir
+    S:ThaumicHorizons.PrimedAlchemite=LivingWithoutAir
+    S:ThermalDynamics.Transport=NoMass NonLivingTarget
+    S:ThermalExpansion.florb=NoMass NonLivingTarget
+    S:ThermalFoundation.basalzBolt=NoMass NonLivingTarget
+    S:ThermalFoundation.blitzBolt=NoMass NonLivingTarget
+    S:ThermalFoundation.blizzBolt=NoMass NonLivingTarget
+    S:ThrownEnderpearl=NoMass NonLivingTarget
+    S:ThrownExpBottle=NoMass NonLivingTarget
+    S:ThrownPotion=NoMass NonLivingTarget
+    S:WitherBoss=LivingWithoutAir
+    S:Zombie=LivingWithoutAir
+    S:appliedenergistics2.EntityChargedQuartz=NoMass NonLivingTarget
+    S:appliedenergistics2.EntityGrowingCrystal=NoMass NonLivingTarget
+    S:appliedenergistics2.EntitySingularity=NoMass NonLivingTarget
+    S:appliedenergistics2.EntityTinyTNTPrimed=NoMass NonLivingTarget
+    B:babylonWeapon=NoMass NonLivingTarget
+    S:chisel.BallOMoss=NoMass NonLivingTarget
+    S:chisel.CloudInABottle=NoMass NonLivingTarget
+    S:chisel.SmashingRock=NoMass NonLivingTarget
+    S:chisel.snowman=LivingWithoutAir
+    B:corporeaSpark=NoMass NonLivingTarget
+    B:enderAirBottle=NoMass NonLivingTarget
+    B:fallingStar=NoMass NonLivingTarget
+    B:flameRing=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_copper=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_crystal=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_diamond=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_dirtchest9000=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_gold=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_iron=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_obsidian=NoMass NonLivingTarget
+    S:ironchestminecarts.minecart_chest_silver=NoMass NonLivingTarget
+    S:magianaturalis.evilTrunk=LivingWithoutAir
+    S:magianaturalis.ferociousRevenant=LivingWithoutAir
+    B:magicMissile=NoMass NonLivingTarget
+    B:manaBurst=NoMass NonLivingTarget
+    B:manaStorm=NoMass NonLivingTarget
+    S:openmodularturrets.blazingClayProjectile=NoMass NonLivingTarget
+    S:openmodularturrets.bulletProjectile=NoMass NonLivingTarget
+    S:openmodularturrets.grenadeProjectile=NoMass NonLivingTarget
+    S:openmodularturrets.laserProjectile=NoMass NonLivingTarget
+    S:openmodularturrets.rocketProjectile=NoMass NonLivingTarget
+    S:opensecurity.energybolt=NoMass NonLivingTarget
+    B:pinkWither=NoMass NonLivingTarget
+    B:playerMover=NoMass NonLivingTarget
+    B:poolMinecart=NoMass NonLivingTarget
+    S:powersuits.entityLuxCapacitor=NoMass NonLivingTarget
+    S:powersuits.entityPlasmaBolt=NoMass NonLivingTarget
+    S:powersuits.entitySpinningBlade=NoMass NonLivingTarget
+    B:spark= NonLivingTarget
+    S:testdummy.Dummy=LivingWithoutAir
+    S:testdummy.FloatingNumber=NoMass NonLivingTarget
+    S:testdummy.FloatingNumberDPS=NoMass NonLivingTarget
+    B:thornChakram=NoMass NonLivingTarget
+    B:thrownItem= NonLivingTarget
+    S:uptodate.boat_acacia=NoMass NonLivingTarget
+    S:uptodate.boat_birch=NoMass NonLivingTarget
+    S:uptodate.boat_dark_oak=NoMass NonLivingTarget
+    S:uptodate.boat_jungle=NoMass NonLivingTarget
+    S:uptodate.boat_spruce=NoMass NonLivingTarget
+    S:witchery.banshee=LivingWithoutAir
+    S:witchery.bolt=LivingWithoutAir
+    S:witchery.brew2=NoMass NonLivingTarget
+    S:witchery.broom=NoMass NonLivingTarget
+    S:witchery.corpse=LivingWithoutAir
+    S:witchery.death=LivingWithoutAir
+    S:witchery.deathhorse=LivingWithoutAir
+    S:witchery.droplet=NoMass NonLivingTarget
+    S:witchery.grenade=NoMass NonLivingTarget
+    S:witchery.illusionCreeper=LivingWithoutAir
+    S:witchery.illusionSpider=LivingWithoutAir
+    S:witchery.illusionZombie=LivingWithoutAir
+    S:witchery.item=NoMass NonLivingTarget
+    S:witchery.mirrorface=LivingWithoutAir
+    S:witchery.nightmare=LivingWithoutAir
+    S:witchery.poltergeist=LivingWithoutAir
+    S:witchery.reflection=LivingWithoutAir
+    S:witchery.spectre=LivingWithoutAir
+    S:witchery.spellEffect=NoMass NonLivingTarget
+    S:witchery.spirit=LivingWithoutAir
+    S:witchery.splatter=NoMass NonLivingTarget
+}
+
+
+##########################################################################################################
+# item_tags
+#--------------------------------------------------------------------------------------------------------#
+# Use this section to enable special behavior on items using tags.
+# Most items are already supported automatically. Only modify this section when something doesn't work!
+# 
+# Tags shall be separated by at least one space, comma or tabulation.
+# Invalid tags will be ignored silently. Tags and block names are case sensitive.
+# In case of conflicts, the latest tag overwrite the previous ones.
+# - FlyInSpace: player can move without gravity effect while wearing this item (default: jetpacks).
+# - NoFallDamage: player doesn't take fall damage while wearing this armor item (default: IC2 rubber boots).
+# - BreathingHelmet: player can breath from WarpDrive air canister or IC2 compressed air while wearing this armor item (default: IC2 nano helmet and Cie).
+# 
+##########################################################################################################
+
+item_tags {
+    S:"AWWayofTime:boundHelmet"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetEarth"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetFire"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetWater"=BreathingHelmet
+    S:"AWWayofTime:boundHelmetWind"=BreathingHelmet
+    S:"EnderIO:item.darkSteel_helmet"=BreathingHelmet
+    S:"GraviSuite:advJetpack"=FlyInSpace
+    S:"GraviSuite:advNanoChestPlate"=FlyInSpace
+    S:"GraviSuite:graviChestPlate"=FlyInSpace
+    S:"IC2:itemArmorHazmatHelmet"=BreathingHelmet
+    S:"IC2:itemArmorJetpack"=FlyInSpace
+    S:"IC2:itemArmorJetpackElectric"=FlyInSpace
+    S:"IC2:itemArmorNanoHelmet"=BreathingHelmet
+    S:"IC2:itemArmorQuantumBoots"=NoFallDamage
+    S:"IC2:itemArmorQuantumChestplate"=FlyInSpace
+    S:"IC2:itemArmorQuantumHelmet"=BreathingHelmet
+    S:"Mekanism:ArmoredJetpack"=FlyInSpace
+    S:"Mekanism:GasMask"=BreathingHelmet
+    S:"Mekanism:Jetpack"=FlyInSpace
+    S:"Mekanism:ScubaTank"=BreathingHelmet
+    S:"PneumaticCraft:pneumaticHelmet"=BreathingHelmet
+    S:"Techguns:steam,_helmet"=BreathingHelmet
+    S:"Techguns:t3_exo_helmet"=BreathingHelmet
+    S:"Techguns:t3_miner_helmet"=BreathingHelmet
+    S:"Techguns:t3_power_helmet"=BreathingHelmet
+    S:"Techguns:tacticalMask"=BreathingHelmet
+    S:"powersuits:item.powerArmorHelmet"=BreathingHelmet
+}
+
+

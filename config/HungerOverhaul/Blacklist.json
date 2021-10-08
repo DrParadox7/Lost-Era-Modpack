@@ -1,0 +1,28 @@
+{
+	"foodsBlacklist": [
+		{		
+			"name": "TwilightForest:item.meefStroganoff",
+						"meta": 0
+		},
+		{		
+			"name": "TwilightForest:item.mazeWafer",
+						"meta": 0
+		},
+		{		
+			"name": "TwilightForest:item.experiment115",
+						"meta": 0
+		},
+		{		
+			"name": "TwilightForest:item.hydraChop",
+						"meta": 0
+		},
+		{		
+			"name": "ThaumicHorizons:barChocolate",
+						"meta": 0
+		},
+		{		
+			"name": "ThaumicHorizons:iceCream",
+						"meta": 0
+		}
+	]
+}
