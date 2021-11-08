@@ -1,8 +1,0 @@
-{
-    "url": "http://optifine.net/adloadx?f=OptiFine_1.7.10_HD_U_D3.jar",
-    "follows": ["OptiFine_1.7.10_HD_U_D3"],
-    "fileName": "OptiFine_1.7.10_HD_U_D3.jar",
-    "options": {
-        "launchwrapperTweakerForceNext": true
-    }
-}

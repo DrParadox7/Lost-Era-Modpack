@@ -418,7 +418,6 @@
         <Loot Identifier="f2d1c929-7624-46ef-a5d0-a3184bbafc92" ItemName="BiomesOPlenty:record_wanderer" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="eacfda5f-9c8d-4d15-9b61-563c97d9263a" ItemName="BiomesOPlenty:record_corruption" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="0ff3dfe5-412c-4c82-b8ec-f9e07061c2ee" ItemName="BiblioCraft:item.BigBook" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="b710ad5c-5539-4657-8288-12af9e841050" ItemName="BiomesOPlenty:biomeFinder" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="585b5ed0-61ba-4a1e-82a6-74dfbb83c5ab" ItemName="BiblioCraft:BiblioWorkbench" Amount="1" NBTTag="" Chance="50" ItemGroup="book" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="c5e6ab81-ed46-4e6b-914f-92f6ffdce7b7" ItemName="minecraft:book" Amount="1" NBTTag="" Chance="50" ItemGroup="book" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cdb7db85-a561-4215-892f-855b9c460101" ItemName="BiblioCraft:BiblioPaintPress" Amount="1" NBTTag="" Chance="100" ItemGroup="paint" LimitedDropCount="1" RandomAmount="false"/>

@@ -202,17 +202,17 @@ override called. Params: Mekanism, MachineBlock2, 0,1,2,3,4,5,6,7,8,9,10,11,12,1
 Regex match found! Mekanism:MachineBlock2 matches Mekanism:MachineBlock2.
 Found ItemStack Mekanism:MachineBlock2. 1xtile.MachineBlock2@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: Mekanism:BasicBlock_3
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_3
+getRandomMaterial called. Returned: Mekanism:BasicBlock_13
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_13
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: Mekanism:BasicBlock2
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:BasicBlock2
+getRandomMaterial called. Returned: ExtraUtilities:trading_post
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ExtraUtilities:trading_post
 Loading: BuildCraft.js
 getFacadesSize called. Returned: 4096
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3777
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1291
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -529,7 +529,7 @@ Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
 getNumberOfTypes called. Returned: 2881
-override called. Params: appliedenergistics2, item.ItemFacade, 1896
+override called. Params: appliedenergistics2, item.ItemFacade, 594
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

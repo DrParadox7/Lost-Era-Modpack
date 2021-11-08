@@ -47,6 +47,10 @@ recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 1 as byte}), [[nu
 recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 2 as byte}), [[null, <minecraft:piston>, null], [<minecraft:diamond>, <ThermalExpansion:Frame:2>, <minecraft:diamond>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 3 as byte}), [[null, <minecraft:piston>, null], [<minecraft:diamond>, <ThermalExpansion:Frame:3>, <minecraft:diamond>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 
+recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 1 as byte}), [[<ore:ingotInvar>, <ore:gearElectrum>, <ore:ingotInvar>], [null, <ThermalExpansion:Machine:1>, null], [<ore:ingotInvar>, null, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 2 as byte}), [[<ore:blockGlassHardened>, <ore:gearSignalum>, <ore:blockGlassHardened>], [null, <ThermalExpansion:Machine:1>, null], [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>]]);
+recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 3 as byte}), [[<ore:ingotSilver>, <ore:gearEnderium>, <ore:ingotSilver>], [null, <ThermalExpansion:Machine:1>, null], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+
 #Blizz Dust
 recipes.remove(<ThermalFoundation:material:513>);
 recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);

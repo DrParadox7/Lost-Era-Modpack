@@ -22,13 +22,6 @@ val BasicCircuit2 = <ore:craftingCircuitTier02>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val AdvCircuit2 = <ore:craftingCircuitTier04>;
 
-osmium.remove(<Mekanism:OreBlock>);
-platinum.add(<Mekanism:OreBlock>);
-osmiumblock.remove(<Mekanism:BasicBlock>);
-platblock.add(<Mekanism:BasicBlock>);
-platingot.add(<Mekanism:Ingot:1>);
-platddust.add(<Mekanism:DirtyDust:2>);
-
 BasicCircuit.remove(<Mekanism:ControlCircuit>);
 BasicCircuit2.remove(<Mekanism:ControlCircuit>);
 
@@ -48,13 +41,10 @@ mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <IC2:itemPartIndustrial
 mods.mekanism.Enrichment.addRecipe(<IC2:itemDust2:1>, <IC2:itemPartIndustrialDiamond>);
 
 #Biofuel
-mods.mekanism.chemical.Dissolution.removeRecipe(<gas:osmium>, <Mekanism:OreBlock>);
-mods.mekanism.chemical.Washer.removeRecipe(<gas:cleanOsmium>, <gas:osmium>);
-
 mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
-mods.mekanism.Reaction.addRecipe(<Forestry:mulch>, <liquid:biomass>*250, <gas:osmium>*500, <Mekanism:BioFuel>*9, <gas:ethene>*6, 200, 500);
+mods.mekanism.Reaction.addRecipe(<Forestry:mulch>, <liquid:biomass>*250, <gas:methane>*500, <Mekanism:BioFuel>*9, <gas:ethene>*6, 200, 500);
 
-mods.mekanism.Separator.addRecipe(<liquid:sewage>, 200, <gas:osmium>, <gas:water>);
+mods.mekanism.Separator.addRecipe(<liquid:sewage>, 200, <gas:methane>, <gas:water>);
 
 #Ethene alt
 mods.mekanism.Reaction.addRecipe(<ThermalExpansion:florb>.withTag({Fluid: "oil"}), <liquid:water>*500, <gas:hydrogen>*250, <Mekanism:Substrate>, <gas:ethene>*150, 1000, 800);
@@ -174,14 +164,6 @@ recipes.addShaped(<Mekanism:Jetpack:*>, [[<ore:ingotSteel>, <Mekanism:ControlCir
 
 recipes.remove(<Mekanism:ArmoredJetpack:*>);
 recipes.addShaped(<Mekanism:ArmoredJetpack:*>, [[<ore:dustDiamond>, null, <ore:dustDiamond>], [<RedstoneArsenal:material:32>, <RedstoneArsenal:armor.plateFlux:*>, <RedstoneArsenal:material:32>], [null, <Mekanism:Jetpack:*>, null]]);
-
-#Osmium-ShinyOre
-<ore:ingotOsmium>.addAll(<ore:ingotPlatinum>);
-<ore:ingotPlatinum>.mirror(<ore:ingotOsmium>);
-
-#Osmium-ShinyOre
-<ore:dustOsmium>.addAll(<ore:dustPlatinum>);
-<ore:dustPlatinum>.mirror(<ore:dustOsmium>); 
 
 #LogisticalSorters
 recipes.remove(<Mekanism:MachineBlock:15>);

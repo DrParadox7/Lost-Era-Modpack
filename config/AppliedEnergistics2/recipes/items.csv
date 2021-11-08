@@ -6035,7 +6035,7 @@ compactkineticgenerators:BlockCkg:11, Extreme Kinetic Generator
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entity Device)
+ExtraUtilities:endConstructor:0, QED (Quail Eating Ducks)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -7394,43 +7394,43 @@ ExtraTiC:moltenBedrockium, Molten Bedrockium
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:forcefield, Forcefield
 ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
-ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
+ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
 ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -7658,62 +7658,6 @@ gregtech_addon:stone:12, Cracked Red Granite Bricks
 gregtech_addon:stone:13, Mossy Red Granite Bricks
 gregtech_addon:stone:14, Chiseled Red Granite
 gregtech_addon:stone:15, Smooth Red Granite
-immersivecavegen:GlowLily, Glowing Waterlily
-immersivecavegen:GlowLilyBlue, Glowing Waterlily
-immersivecavegen:ScorchedStone, Scorched Stone
-immersivecavegen:ScorchedLavaStone, Scorched Lava Stone
-immersivecavegen:StoneStalactite:0, Stone Pillar
-immersivecavegen:StoneStalactite:1, Stone Stalactite
-immersivecavegen:StoneStalactite:2, Stone Stalactite
-immersivecavegen:StoneStalactite:3, Stone Stalactite
-immersivecavegen:StoneStalactite:4, Stone Pillar
-immersivecavegen:StoneStalactite:5, Stone Pillar
-immersivecavegen:StoneStalactite:6, Stone Stalagmite
-immersivecavegen:StoneStalactite:7, Stone Stalactite
-immersivecavegen:StoneStalactite:8, Stone Stalagmite
-immersivecavegen:StoneStalactite:9, Stone Stalagmite
-immersivecavegen:StoneStalactite:10, Stone Stalagmite
-immersivecavegen:StoneStalactite:11, Stone Stalactite
-immersivecavegen:StoneStalactite:12, Stone Stalagmite
-immersivecavegen:NetherStalactite:0, Lava Pillar
-immersivecavegen:NetherStalactite:1, Lava Stalactite
-immersivecavegen:NetherStalactite:2, Lava Stalactite
-immersivecavegen:NetherStalactite:3, Lava Stalactite
-immersivecavegen:NetherStalactite:4, Lava Pillar
-immersivecavegen:NetherStalactite:5, Lava Pillar
-immersivecavegen:NetherStalactite:6, Lava Stalagmite
-immersivecavegen:NetherStalactite:7, Lava Stalactite
-immersivecavegen:NetherStalactite:8, Lava Stalagmite
-immersivecavegen:NetherStalactite:9, Lava Stalagmite
-immersivecavegen:NetherStalactite:10, Lava Stalagmite
-immersivecavegen:NetherStalactite:11, Lava Stalactite
-immersivecavegen:NetherStalactite:12, Lava Stalagmite
-immersivecavegen:SandstoneSalactite:0, Sand Pillar
-immersivecavegen:SandstoneSalactite:1, Sand Stalactite
-immersivecavegen:SandstoneSalactite:2, Sand Stalactite
-immersivecavegen:SandstoneSalactite:3, Sand Stalactite
-immersivecavegen:SandstoneSalactite:4, Sand Pillar
-immersivecavegen:SandstoneSalactite:5, Sand Pillar
-immersivecavegen:SandstoneSalactite:6, Sand Stalagmite
-immersivecavegen:SandstoneSalactite:7, Sand Stalactite
-immersivecavegen:SandstoneSalactite:8, Sand Stalagmite
-immersivecavegen:SandstoneSalactite:9, Sand Stalagmite
-immersivecavegen:SandstoneSalactite:10, Sand Stalagmite
-immersivecavegen:SandstoneSalactite:11, Sand Stalactite
-immersivecavegen:SandstoneSalactite:12, Sand Stalagmite
-immersivecavegen:iceStalactite:0, Ice Stalactite
-immersivecavegen:iceStalactite:1, Ice Stalactite
-immersivecavegen:iceStalactite:2, Ice Stalactite
-immersivecavegen:cavePlant:0, Dead Shrub
-immersivecavegen:cavePlant:1, Dead Shrub
-immersivecavegen:cavePlant:2, Glowing Mushroom
-immersivecavegen:cavePlant:3, Glowing Mushroom
-immersivecavegen:cavePlant:4, Frost Mushroom
-immersivecavegen:cavePlant:5, Frost Mushroom
-immersivecavegen:cavePlant:6, Fiery Flower
-immersivecavegen:cavePlant:7, Fiery Flower
-immersivecavegen:glowMushroomBlue, Mushroom
-immersivecavegen:glowMushroomGreen, Mushroom
 IronChest:BlockIronChest:0, Iron Chest
 IronChest:BlockIronChest:1, Gold Chest
 IronChest:BlockIronChest:2, Diamond Chest
@@ -12534,11 +12478,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Salt Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -12605,8 +12549,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Red Granite Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Red Granite Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Red Granite
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Smooth Red Granite
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Scorched Stone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Scorched Lava Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Horizontal Greatwood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Ornament
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Horizontal Silverwood Planks
@@ -22452,9 +22394,6 @@ gregtech_addon:electric_screwdriver, Electric Screwdriver
 gregtech_addon:empty_electric_screwdriver, item.Empty_Screwdriver_Electric.name
 gregtech_addon:plastic_mallet, Plastic Hammer
 hardcorewither:StarryApple, Starry Apple
-immersivecavegen:ItemTabPlaceholder, item.ItemTabPlaceholder.name
-immersivecavegen:ItemStalactiteDagger, Stalactite Dagger
-immersivecavegen:ItemGlowSoup, Glowing Stew
 IronChest:ironGoldUpgrade, Iron to Gold Chest Upgrade
 IronChest:goldDiamondUpgrade, Gold to Diamond Chest Upgrade
 IronChest:copperSilverUpgrade, Copper to Silver Chest Upgrade
@@ -22465,13 +22404,13 @@ IronChest:woodIronUpgrade, Wood to Iron Chest Upgrade
 IronChest:woodCopperUpgrade, Wood to Copper Chest Upgrade
 IronChest:diamondObsidianUpgrade, Diamond to Obsidian Chest Upgrade
 ironchestminecarts:minecart_chest_gold, Minecart with Gold Chest
+ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
+ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
+ironchestminecarts:minecart_chest_silver, Minecart with Silver Chest
+ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
+ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
 ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
 ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
-ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
-ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
-ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
-ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
-ironchestminecarts:minecart_chest_silver, Minecart with Silver Chest
 magianaturalis:item.researchLog, Research Log
 magianaturalis:item.alchemicalStone:0, Phenomorphous Catalyst Stone
 magianaturalis:item.alchemicalStone:1, Quicksilver Alchemist Stone
@@ -28862,25 +28801,25 @@ ThermalDynamics:cover:0, Molten Bedrockium Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Paving Stair of Travel Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
 ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
@@ -28952,62 +28891,6 @@ ThermalDynamics:cover:0, Cracked Red Granite Bricks Cover
 ThermalDynamics:cover:0, Mossy Red Granite Bricks Cover
 ThermalDynamics:cover:0, Chiseled Red Granite Cover
 ThermalDynamics:cover:0, Smooth Red Granite Cover
-ThermalDynamics:cover:0, Glowing Waterlily Cover
-ThermalDynamics:cover:0, Glowing Waterlily Cover
-ThermalDynamics:cover:0, Scorched Stone Cover
-ThermalDynamics:cover:0, Scorched Lava Stone Cover
-ThermalDynamics:cover:0, Stone Pillar Cover
-ThermalDynamics:cover:0, Stone Stalactite Cover
-ThermalDynamics:cover:0, Stone Stalactite Cover
-ThermalDynamics:cover:0, Stone Stalactite Cover
-ThermalDynamics:cover:0, Stone Pillar Cover
-ThermalDynamics:cover:0, Stone Pillar Cover
-ThermalDynamics:cover:0, Stone Stalagmite Cover
-ThermalDynamics:cover:0, Stone Stalactite Cover
-ThermalDynamics:cover:0, Stone Stalagmite Cover
-ThermalDynamics:cover:0, Stone Stalagmite Cover
-ThermalDynamics:cover:0, Stone Stalagmite Cover
-ThermalDynamics:cover:0, Stone Stalactite Cover
-ThermalDynamics:cover:0, Stone Stalagmite Cover
-ThermalDynamics:cover:0, Lava Pillar Cover
-ThermalDynamics:cover:0, Lava Stalactite Cover
-ThermalDynamics:cover:0, Lava Stalactite Cover
-ThermalDynamics:cover:0, Lava Stalactite Cover
-ThermalDynamics:cover:0, Lava Pillar Cover
-ThermalDynamics:cover:0, Lava Pillar Cover
-ThermalDynamics:cover:0, Lava Stalagmite Cover
-ThermalDynamics:cover:0, Lava Stalactite Cover
-ThermalDynamics:cover:0, Lava Stalagmite Cover
-ThermalDynamics:cover:0, Lava Stalagmite Cover
-ThermalDynamics:cover:0, Lava Stalagmite Cover
-ThermalDynamics:cover:0, Lava Stalactite Cover
-ThermalDynamics:cover:0, Lava Stalagmite Cover
-ThermalDynamics:cover:0, Sand Pillar Cover
-ThermalDynamics:cover:0, Sand Stalactite Cover
-ThermalDynamics:cover:0, Sand Stalactite Cover
-ThermalDynamics:cover:0, Sand Stalactite Cover
-ThermalDynamics:cover:0, Sand Pillar Cover
-ThermalDynamics:cover:0, Sand Pillar Cover
-ThermalDynamics:cover:0, Sand Stalagmite Cover
-ThermalDynamics:cover:0, Sand Stalactite Cover
-ThermalDynamics:cover:0, Sand Stalagmite Cover
-ThermalDynamics:cover:0, Sand Stalagmite Cover
-ThermalDynamics:cover:0, Sand Stalagmite Cover
-ThermalDynamics:cover:0, Sand Stalactite Cover
-ThermalDynamics:cover:0, Sand Stalagmite Cover
-ThermalDynamics:cover:0, Ice Stalactite Cover
-ThermalDynamics:cover:0, Ice Stalactite Cover
-ThermalDynamics:cover:0, Ice Stalactite Cover
-ThermalDynamics:cover:0, Dead Shrub Cover
-ThermalDynamics:cover:0, Dead Shrub Cover
-ThermalDynamics:cover:0, Glowing Mushroom Cover
-ThermalDynamics:cover:0, Glowing Mushroom Cover
-ThermalDynamics:cover:0, Frost Mushroom Cover
-ThermalDynamics:cover:0, Frost Mushroom Cover
-ThermalDynamics:cover:0, Fiery Flower Cover
-ThermalDynamics:cover:0, Fiery Flower Cover
-ThermalDynamics:cover:0, Mushroom Cover
-ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Horizontal Greatwood Planks Cover
 ThermalDynamics:cover:0, Greatwood Ornament Cover
 ThermalDynamics:cover:0, Horizontal Silverwood Planks Cover

@@ -32,15 +32,6 @@ recipes.remove(<NuclearCraft:fusionConnector>);
 recipes.remove(<WarpDrive:itemComponent:20>);
 recipes.addShaped(<WarpDrive:itemComponent:20>, [[<NuclearCraft:material:126>, <ThermalFoundation:material:513>, <NuclearCraft:material:126>], [<ThermalFoundation:material:513>, <ore:gemDiamond>, <ThermalFoundation:material:513>], [<NuclearCraft:material:126>, <ThermalFoundation:material:513>, <NuclearCraft:material:126>]]);
 
-<ore:plateLead>.addAll(<ore:platingLead>);
-<ore:platingLead>.mirror(<ore:plateLead>); 
-
-<ore:plateTin>.addAll(<ore:platingTin>);
-<ore:platingTin>.mirror(<ore:plateTin>); 
-
-<ore:plateIron>.addAll(<ore:platingIron>);
-<ore:platingIron>.mirror(<ore:plateIron>); 
-
 #Plating
 recipes.remove(<NuclearCraft:parts>);
 recipes.remove(<NuclearCraft:parts:6>);
