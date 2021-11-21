@@ -52,7 +52,7 @@ mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:1>
 mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:2>);
 mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:3>);
 
-#Thermal Expansion sruff
+#Thermal Expansion stuff
 mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:44>);
 mods.tconstruct.Smeltery.removeMelting(<ore:glowstone>);
 mods.tconstruct.Smeltery.removeMelting(<ore:dustGlowstone>);
@@ -60,6 +60,10 @@ mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:512>);
 mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:513>);
 
 mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
+
+#Remove Obsidian dupes
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 288, null, false, 20);
 
 #Extra Utils Compat
 mods.tconstruct.Casting.addBasinRecipe(<ExtraUtilities:decorativeBlock1:1>, <liquid:ender> * 150, <minecraft:obsidian>, true, 160);
