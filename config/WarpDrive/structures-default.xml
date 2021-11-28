@@ -34,7 +34,7 @@
 		<shell name="crust1" minThickness="6" maxThickness="8">
 			<filler weight="1" block="realstars:orangedwarfcore" />
 		</shell>
-		<shell name="crust2" minThickness="6" maxThickness="4">
+		<shell name="crust2" minThickness="4" maxThickness="6">
 			<filler weight="1" block="realstars:orangedwarfsurface" />
 		</shell>
 		<shell name="surface" minThickness="4" maxThickness="6"><!-- add stained glass for color and holding fluid in place -->

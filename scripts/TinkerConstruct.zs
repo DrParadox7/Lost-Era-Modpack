@@ -63,7 +63,7 @@ mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
 
 #Remove Obsidian dupes
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 288, null, false, 20);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 288, null, false, 120);
 
 #Extra Utils Compat
 mods.tconstruct.Casting.addBasinRecipe(<ExtraUtilities:decorativeBlock1:1>, <liquid:ender> * 150, <minecraft:obsidian>, true, 160);

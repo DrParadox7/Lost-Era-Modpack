@@ -1,0 +1,61 @@
+{
+  "__GLOBAL__": [],
+  "7": [
+    {
+      "item": "IC2:blockMachine",
+      "damage": "*"
+    },
+    {
+      "item": "IC2:itemArmorJetpackElectric",
+      "damage": "*"
+    },
+    {
+      "item": "ExtraUtilities:enderQuarry",
+      "damage": "*"
+    },
+    {
+      "item": "powersuits:item.powerArmorBoots",
+      "damage": "*"
+    },
+    {
+      "item": "GraviSuite:advNanoChestPlate",
+      "damage": "*"
+    },
+    {
+      "item": "powersuits:item.powerArmorLeggings",
+      "damage": "*"
+    },
+    {
+      "item": "GraviSuite:advJetpack",
+      "damage": "*"
+    },
+    {
+      "item": "IC2:itemArmorJetpack",
+      "damage": "*"
+    },
+    {
+      "item": "Mekanism:Jetpack",
+      "damage": "*"
+    },
+    {
+      "item": "IC2:blockMachine2",
+      "damage": "*"
+    },
+    {
+      "item": "powersuits:item.powerArmorHelmet",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:builderBlock",
+      "damage": "*"
+    },
+    {
+      "item": "BuildCraft|Builders:machineBlock",
+      "damage": "*"
+    },
+    {
+      "item": "powersuits:item.powerArmorChestplate",
+      "damage": "*"
+    }
+  ]
+}

@@ -46,10 +46,12 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            0,
             -1,
             1,
             7,
-			6
+			6,
+            -100
         ]
     },
     "iron": {
@@ -65,10 +67,12 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            0,
             -1,
             1,
             7,
-			6
+			6,
+            -100
         ]
     },
     "gold": {
@@ -84,10 +88,12 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            0,
             -1,
             1,
             7,
-			6
+			6,
+            -100
         ]
     },
     "redstone": {
@@ -103,9 +109,11 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            0,
             -1,
             1,
-			6
+			6,
+            -100
         ]
     },
     "diamond": {
@@ -121,10 +129,12 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            0,
             -1,
             1,
             7,
-			6
+			6,
+            -100
         ]
     },
     "lapis": {
@@ -140,9 +150,11 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            0,
             -1,
             1,
-			6
+			6,
+            -100
         ]
     },
     "quartz": {

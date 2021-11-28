@@ -192,6 +192,8 @@
         "template": "uniform",
 		"generator": "lake",
         "block": {"name": "MineFactoryReloaded:sludge.still"},
+        "clusterSize": 8,
+        "numClusters": 2,
         "minHeight": 5,
         "maxHeight": 32,
         "retrogen": "false",

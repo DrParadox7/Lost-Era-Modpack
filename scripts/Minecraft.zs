@@ -89,5 +89,14 @@ mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:14>, 750
 recipes.remove(<powersuits:powerArmorComponent:19>); 
 mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:19>, 7500000, [<powersuits:powerArmorComponent:14>, <NuclearCraft:parts:18>, <Mekanism:ControlCircuit:3>]);
 
+#Add malisis trapdoors to trapdoor OreDictionary
+val trap = <ore:trapdoorWood>;
+
+trap.add(<malisisdoors:trapdoor_acacia>);
+trap.add(<malisisdoors:trapdoor_birch>);
+trap.add(<malisisdoors:trapdoor_dark_oak>);
+trap.add(<malisisdoors:trapdoor_jungle>);
+trap.add(<malisisdoors:trapdoor_spruce>);
+
 print("Initialized 'Minecraft.zs'");
 

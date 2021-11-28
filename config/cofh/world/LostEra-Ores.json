@@ -10,7 +10,7 @@
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Mining Biome"},
+            {"type": "name", "entry": "Mining Biome"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -195,6 +195,11 @@
 		{
 			"type": "dictionary", 
 			"entry": "SWAMP",
+			"rarity": 2
+		},
+        {
+			"type": "dictionary", 
+			"entry": "RIVER",
 			"rarity": 2
 		}
 	],	

@@ -329,7 +329,7 @@
 	<!-- core variation for moons -->
 	<fillerSet group="moon.core" name="lava" weight="6">
 		<filler block="minecraft:lava" weight="100" />
-		<filler block="Railcraft:ore" metadata="5" ratio=".001" mods="Railcraft" /><
+		<filler block="Railcraft:ore" metadata="5" ratio=".001" mods="Railcraft" />
 	</fillerSet>
 	<fillerSet group="moon.core" name="stone" weight="5">
 		<import group="overworld_rare" name="stone" />

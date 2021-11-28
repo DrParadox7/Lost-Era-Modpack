@@ -103,7 +103,7 @@ client {
     D:location_width_ratio=0.0
 
     # When to show armor stats in tooltips. Valid values are NEVER, ON_SNEAK, ADVANCED_TOOLTIPS, CREATIVE_ONLY, ALWAYS.
-    S:tooltip_armor_stats=ON_SNEAK
+    S:tooltip_armor_stats=ALWAYS
 
     # When to show burn time in tooltips. Valid values are NEVER, ON_SNEAK, ADVANCED_TOOLTIPS, CREATIVE_ONLY, ALWAYS.
     S:tooltip_burn_time=ALWAYS
@@ -133,7 +133,7 @@ client {
     S:tooltip_registry_name=NEVER
 
     # When to show repair material in tooltips. Valid values are NEVER, ON_SNEAK, ADVANCED_TOOLTIPS, CREATIVE_ONLY, ALWAYS.
-    S:tooltip_repair_material=ADVANCED_TOOLTIPS
+    S:tooltip_repair_material=ON_SNEAK
 }
 
 
