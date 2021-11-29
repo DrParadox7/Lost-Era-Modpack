@@ -10,17 +10,17 @@ recipes.addShapeless(<harvestcraft:pamcandleDeco1>, [<ore:itemBeeswax>, <minecra
 recipes.remove(<harvestcraft:freshwaterItem>);
 recipes.remove(<harvestcraft:freshmilkItem>);
 
-recipes.addShapeless(<minecraft:potion>, [<minecraft:glass_bottle>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
-recipes.addShapeless(<minecraft:potion>, [<minecraft:glass_bottle>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<minecraft:potion>, [<minecraft:glass_bottle>, <minecraft:water_bucket>]);
+recipes.addShapeless(<minecraft:potion>, [<minecraft:glass_bottle>, <IguanaTweaksTConstruct:clayBucketWater>]);
 
-recipes.addShapeless(<MineFactoryReloaded:milkbottle>, [<minecraft:glass_bottle>, <minecraft:milk_bucket>.transformReplace(<minecraft:bucket>)]);
-recipes.addShapeless(<MineFactoryReloaded:milkbottle>, [<minecraft:glass_bottle>, <IguanaTweaksTConstruct:clayBucketMilk>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<MineFactoryReloaded:milkbottle>, [<minecraft:glass_bottle>, <minecraft:milk_bucket>]);
+recipes.addShapeless(<MineFactoryReloaded:milkbottle>, [<minecraft:glass_bottle>, <IguanaTweaksTConstruct:clayBucketMilk>]);
 
-recipes.addShapeless(<harvestcraft:freshwaterItem>, [<Forestry:crate>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
-recipes.addShapeless(<harvestcraft:freshwaterItem>, [<Forestry:crate>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<harvestcraft:freshwaterItem>, [<Forestry:crate>, <minecraft:water_bucket>]);
+recipes.addShapeless(<harvestcraft:freshwaterItem>, [<Forestry:crate>, <IguanaTweaksTConstruct:clayBucketWater>]);
 
-recipes.addShapeless(<harvestcraft:freshmilkItem>, [<Forestry:crate>, <minecraft:milk_bucket>.transformReplace(<minecraft:bucket>)]);
-recipes.addShapeless(<harvestcraft:freshmilkItem>, [<Forestry:crate>, <IguanaTweaksTConstruct:clayBucketMilk>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<harvestcraft:freshmilkItem>, [<Forestry:crate>, <minecraft:milk_bucket>]);
+recipes.addShapeless(<harvestcraft:freshmilkItem>, [<Forestry:crate>, <IguanaTweaksTConstruct:clayBucketMilk>]);
 
 #Easier Tier 1 Oven
 recipes.remove(<harvestcraft:oven>);
