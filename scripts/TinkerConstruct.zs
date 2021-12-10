@@ -61,6 +61,13 @@ mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:513>);
 
 mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
 
+#Mithril not becoming mana metal
+mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:70>);
+mods.tconstruct.Casting.removeBasinRecipe(<ThermalFoundation:Storage:6>);
+
+mods.tconstruct.Casting.addTableRecipe(<Metallurgy:mithril.ingot>, <liquid:mithril.molten> * 144, <TConstruct:metalPattern>, false, 25);
+mods.tconstruct.Casting.addBasinRecipe(<Metallurgy:fantasy.block:7>, <liquid:mithril.molten> * 550, null, false, 125);
+
 #Remove Obsidian dupes
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 288, null, false, 120);

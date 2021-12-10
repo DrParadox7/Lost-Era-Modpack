@@ -146,7 +146,7 @@ recipes.addShaped(<Metallurgy:metallurgy.copper.boots>, [[null, null, null], [<M
 
 
 #BRONZE Compat
-recipes.addShapeless(<Metallurgy:bronze.ingot>, [<ore:ingotBronze>]);
+recipes.addShaped(<Metallurgy:bronze.ingot>, [[<ore:ingotBronze>, null, null], [null, null, null], [null, null, null]]);
 
 recipes.remove(<Metallurgy:bronze.axe>);
 recipes.addShaped(<Metallurgy:bronze.axe>, [[<Metallurgy:bronze.ingot>, <Metallurgy:bronze.ingot>, null], [<Metallurgy:bronze.ingot>, <minecraft:stick>, null], [null, <minecraft:stick>, null]]);

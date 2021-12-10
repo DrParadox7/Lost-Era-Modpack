@@ -2,36 +2,36 @@
 # Proper syntax is "NAME META". Example (for stone):
 # minecraft:stone 0
 Thaumcraft:blockAiry 0
-openmodularturrets:baseTierWood
-openmodularturrets:baseTierOneBlock
-openmodularturrets:baseTierTwoBlock
-openmodularturrets:baseTierThreeBlock
-openmodularturrets:baseTierFourBlock
-openmodularturrets:expanderPowerTierOne
-openmodularturrets:expanderPowerTierTwo
-openmodularturrets:expanderPowerTierThree
-openmodularturrets:expanderPowerTierFour
-openmodularturrets:expanderPowerTierFive
-openmodularturrets:expanderInvTierOne
-openmodularturrets:expanderInvTierTwo
-openmodularturrets:expanderInvTierThree
-openmodularturrets:expanderInvTierFour
-openmodularturrets:expanderInvTierFive
-openmodularturrets:disposeItemTurret
-openmodularturrets:potatoCannonTurret
-openmodularturrets:machineGunTurret
-openmodularturrets:incendiaryTurret
-openmodularturrets:grenadeTurret
-openmodularturrets:relativisticTurret
-openmodularturrets:rocketTurret
-openmodularturrets:teleporterTurret
-openmodularturrets:laserTurret
-openmodularturrets:railGunTurret
-IC2:blockPersonal
+openmodularturrets:baseTierWood 0
+openmodularturrets:baseTierOneBlock 0
+openmodularturrets:baseTierTwoBlock 0
+openmodularturrets:baseTierThreeBlock 0
+openmodularturrets:baseTierFourBlock 0
+openmodularturrets:expanderPowerTierOne 0
+openmodularturrets:expanderPowerTierTwo 0
+openmodularturrets:expanderPowerTierThree 0
+openmodularturrets:expanderPowerTierFour 0
+openmodularturrets:expanderPowerTierFive 0
+openmodularturrets:expanderInvTierOne 0
+openmodularturrets:expanderInvTierTwo 0
+openmodularturrets:expanderInvTierThree 0
+openmodularturrets:expanderInvTierFour 0
+openmodularturrets:expanderInvTierFive 0
+openmodularturrets:disposeItemTurret 0
+openmodularturrets:potatoCannonTurret 0
+openmodularturrets:machineGunTurret 0
+openmodularturrets:incendiaryTurret 0
+openmodularturrets:grenadeTurret 0
+openmodularturrets:relativisticTurret 0
+openmodularturrets:rocketTurret 0
+openmodularturrets:teleporterTurret 0
+openmodularturrets:laserTurret 0
+openmodularturrets:railGunTurret 0
+IC2:blockPersonal 0
 IC2:blockPersonal 1
 IC2:blockPersonal 2
 ThermalExpansion:Strongbox 1
 ThermalExpansion:Strongbox 2
 ThermalExpansion:Strongbox 3
 ThermalExpansion:Strongbox 4
-CarpentersBlocks:blockCarpentersSafe
+CarpentersBlocks:blockCarpentersSafe 0

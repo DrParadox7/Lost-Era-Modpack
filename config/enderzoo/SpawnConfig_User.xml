@@ -29,6 +29,7 @@
   <entry id="Basalz" mobName="Basalz" rate="10" minGroupSize="2" maxGroupSize="5">
     <biomeFilter type="any">
       <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
 	    <biome type="NETHER" exclude="true" />
       <biome type="END" exclude="true" />
       <biome name="Space"/>
@@ -39,6 +40,13 @@
 	<dimensionExclude id="20"/>
    </entry>
 
+   <entry id="WitherCow" mobName="GrimoireOfGaia.Wither Cow" rate="7" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+     <biome type="NETHER" />
+      <biome type="SANDY" />
+    </biomeFilter>  
+  </entry>
+
   <entry id="NuclearMonster" mobName="NuclearMonster" rate="5" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="all">
       <biome name="Space"/>
@@ -48,71 +56,85 @@
 	<dimensionExclude id="-100"/>
 	<dimensionExclude id="20"/>
    </entry>
-  
-  <entry id="Basalz" mobName="Basalz" rate="10" minGroupSize="1" maxGroupSize="3">
-   <biomeFilter type="any">
-     <biome name="Mining Biome" />
-    </biomeFilter>   
-  </entry>
    
   <entry id="FaintGhast" mobName="SpecialMobs.FaintGhast" rate="8" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
   <entry id="Banshee" mobName="GrimoireOfGaia.Banshee" rate="8" minGroupSize="1" maxGroupSize="3">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
-   <entry id="BoneKnight" mobName="GrimoireOfGaia.Bone Knight" rate="3" minGroupSize="1" maxGroupSize="1">
+   <entry id="BoneKnight" mobName="GrimoireOfGaia.Bone Knight" rate="4" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
-   <entry id="Creep" mobName="GrimoireOfGaia.Creep" rate="3" minGroupSize="1" maxGroupSize="1">
+   <entry id="Creep" mobName="GrimoireOfGaia.Creep" rate="4" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
    <entry id="Golem" mobName="GrimoireOfGaia.Cobblestone Golem" rate="1" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
-  <entry id="FleshLich" mobName="GrimoireOfGaia.Flesh Lich" rate="2" minGroupSize="1" maxGroupSize="1">
+  <entry id="FleshLich" mobName="GrimoireOfGaia.Flesh Lich" rate="5" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
-  <entry id="Dullahan" mobName="GrimoireOfGaia.Dullahan" rate="5" minGroupSize="1" maxGroupSize="1">
+  <entry id="Dullahan" mobName="GrimoireOfGaia.Dullahan" rate="3" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
   <entry id="EnderEye" mobName="GrimoireOfGaia.Ender Eye" rate="7" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
   <entry id="FutakuchiOnna" mobName="GrimoireOfGaia.FutakuchiOnna" rate="2" minGroupSize="1" maxGroupSize="2">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
    <entry id="Jorogumo" mobName="GrimoireOfGaia.Jorogumo" rate="5" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
-      <biome name="Mining Biome" />
-    </biomeFilter>   	
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-99"/>,
+    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
  --> 

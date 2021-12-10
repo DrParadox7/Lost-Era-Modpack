@@ -187,23 +187,5 @@
         "dimensions": [
             6
         ]
-    },
-	"Aroma_sludgepit": {
-        "template": "uniform",
-		"generator": "lake",
-        "block": {"name": "MineFactoryReloaded:sludge.still"},
-        "clusterSize": 8,
-        "numClusters": 2,
-        "minHeight": 5,
-        "maxHeight": 32,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            6
-        ]
     }
 }

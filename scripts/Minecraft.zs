@@ -63,32 +63,6 @@ recipes.addShaped(<WR-CBE|Logic:wirelessLogic>,[[<WR-CBE|Core:wirelessTransceive
 recipes.addShaped(<WR-CBE|Logic:wirelessLogic:1>,[[<WR-CBE|Core:recieverDish>, null, null], [<ore:obsidianRod>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
 recipes.addShaped(<WR-CBE|Logic:wirelessLogic:2>,[[<WR-CBE|Core:blazeTransceiver>, null, null], [<minecraft:blaze_rod>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
 
-#Modular Powersuit recipes
-
-#Ion Thrusters
-recipes.remove(<powersuits:powerArmorComponent:4>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:4>, 125000, [<RedstoneArsenal:material:96>, <Mekanism:Ingot:3>, <Mekanism:ControlCircuit:2>, <ThermalFoundation:material:513>]);
-
-#Basic Plating
-recipes.remove(<powersuits:powerArmorComponent:9>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:9>, 75000, [<minecraft:iron_block>]);
-
-#Advanced Plating
-recipes.remove(<powersuits:powerArmorComponent:10>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:10>, 100000, [<powersuits:powerArmorComponent:9>, <Mekanism:ReinforcedAlloy> * 4]);
-
-#Forcefield Emitter
-recipes.remove(<powersuits:powerArmorComponent:11>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:11>, 10000000, [<Mekanism:ReinforcedAlloy>, <rftools:infusedDiamondItem>, <Mekanism:ControlCircuit:3>]);
-
-#Control Circuit
-recipes.remove(<powersuits:powerArmorComponent:14>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:14>, 750000, [<OpenComputers:item:32>, <Mekanism:Ingot:3>, <Mekanism:ControlCircuit>]);
-
-#Computer Chip
-recipes.remove(<powersuits:powerArmorComponent:19>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:19>, 7500000, [<powersuits:powerArmorComponent:14>, <NuclearCraft:parts:18>, <Mekanism:ControlCircuit:3>]);
-
 #Add malisis trapdoors to trapdoor OreDictionary
 val trap = <ore:trapdoorWood>;
 
@@ -97,6 +71,17 @@ trap.add(<malisisdoors:trapdoor_birch>);
 trap.add(<malisisdoors:trapdoor_dark_oak>);
 trap.add(<malisisdoors:trapdoor_jungle>);
 trap.add(<malisisdoors:trapdoor_spruce>);
+
+#Remove Et Futurum's Gates in favour of Malisis
+recipes.remove(<etfuturum:fence_gate_spruce>); 
+recipes.remove(<etfuturum:fence_gate_birch>); 
+recipes.remove(<etfuturum:fence_gate_jungle>); 
+recipes.remove(<etfuturum:fence_gate_acacia>); 
+recipes.remove(<etfuturum:fence_gate_dark_oak>); 
+
+#Thaumcraft Brains Drying Rack
+mods.tconstruct.Drying.removeRecipe(<WitchingGadgets:item.WG_MagicFood:2>);
+mods.tconstruct.Drying.addRecipe(<WitchingGadgets:item.WG_MagicFood:2>, <Thaumcraft:ItemZombieBrain>, 24000);
 
 print("Initialized 'Minecraft.zs'");
 

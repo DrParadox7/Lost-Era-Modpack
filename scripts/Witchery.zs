@@ -19,4 +19,8 @@ recipes.addShaped(<ExtraUtilities:golden_lasso>, [[<WitchingGadgets:item.WG_Mate
 recipes.remove(<Natura:natura.flintandblaze>);
 recipes.addShapeless(<Natura:natura.flintandblaze>, [<minecraft:stick>, <witchery:embermoss>, <witchery:ingredient:30>]);
 
+#Bag of holding
+recipes.remove(<ExtraUtilities:golden_bag>);
+recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>], [<witchery:ingredient:100>, <witchery:circletalisman>, <witchery:ingredient:100>], [<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>]]);
+
 print("Initialized 'Witchery.zs'");

@@ -180,8 +180,8 @@
 		{"name":"minecraft:sand"},
 		{"name":"minecraft:dirt"}
 		],
-        "clusterSize": 5,
-        "numClusters": 6,
+        "clusterSize": 8,
+        "numClusters": 1,
 		"chunkChance": 2,
         "minHeight": 30,
         "maxHeight": 64,
@@ -191,6 +191,10 @@
 		{
 			"type": "dictionary", 
 			"entry": "BEACH"
+		},
+        {
+			"type": "dictionary", 
+			"entry": "SANDY"
 		},
 		{
 			"type": "dictionary", 

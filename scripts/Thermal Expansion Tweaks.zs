@@ -1,7 +1,13 @@
 #Name: ThermalExpansion.zs
-#Author: TecnoParadox
+#Author: TechnoParadox
 print("Initializing 'ThermalExpansion.zs'...");
 
+#Mithril issues
+val Mithril = <ore:ingotMithril>;
+Mithril.add(<ThermalFoundation:material:70>);
+
+
+#Nerf Plat from Ferrous ore
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <ThermalFoundation:Ore:4>);
 mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:20>, <ThermalFoundation:Ore:4>, <ThermalFoundation:material:68>*3, <ThermalFoundation:material:69>, 25);
 
@@ -56,5 +62,16 @@ recipes.remove(<ThermalFoundation:material:513>);
 recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
 
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
+
+#Fix bronze inbalance
+recipes.remove(<ThermalFoundation:armor.helmetBronze>);
+recipes.remove(<ThermalFoundation:armor.plateBronze>);
+recipes.remove(<ThermalFoundation:armor.legsBronze>);
+recipes.remove(<ThermalFoundation:armor.bootsBronze>);
+recipes.remove(<ThermalFoundation:tool.swordBronze>);
+recipes.remove(<ThermalFoundation:tool.shovelBronze>);
+recipes.remove(<ThermalFoundation:tool.pickaxeBronze>);
+recipes.remove(<ThermalFoundation:tool.axeBronze>);
+recipes.remove(<ThermalFoundation:tool.hoeBronze>);
 
 print("Initialized 'ThermalExpansion.zs'");

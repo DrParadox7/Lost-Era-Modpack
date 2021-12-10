@@ -11,23 +11,23 @@ recipes.remove(<IC2:blockMachine:5>);
 recipes.remove(<IC2:blockMachine2:9>);
 recipes.remove(<IC2:blockGenerator:7>);
 recipes.remove(<IC2:itemPartCarbonMesh>);
+recipes.remove(<gregtech_addon:metaitem_1:32200>);
 
-#Osmium Disable
-val osmium = <ore:ingotOsmium>;
-val osmiumdust = <ore:dustOsmium>;
-val osmiumblock = <ore:blockOsmium>;
-val platinum = <ore:ingotPlatinum>;
-val platinumdust = <ore:dustPlatinum>;
-val platinumblock = <ore:blockPlatinum>;
+#Bronze Balance
+recipes.removeShapeless(<ore:ingotBronze>);
+recipes.removeShapeless(<ore:dustBronze>*2);
 
-osmium.remove(<gregtech_addon:metaitem_1:11083>);
-osmiumdust.remove(<gregtech_addon:metaitem_1:2083>);
-osmiumblock.remove(<gregtech_addon:block_2:11>);
-platinum.remove(<gregtech_addon:metaitem_1:11083>);
-platinumdust.remove(<gregtech_addon:metaitem_1:2083>);
-platinumblock.remove(<gregtech_addon:block_2:11>);
+#Remove GT making RC stuff
+recipes.remove(<Railcraft:part.plate:*>);
+recipes.remove(<Railcraft:ingot:*>);
+furnace.remove(<Railcraft:nugget:*>);
 
-#Removing BS GT integrations
+recipes.remove(<Railcraft:cube:9>);
+recipes.remove(<Railcraft:cube:10>);
+recipes.remove(<Railcraft:cube:11>);
+recipes.remove(<Railcraft:cube:2>);
+
+#Removing BC GT integrations
 val pump = <ore:craftingPump>;
 pump.remove(<BuildCraft|Factory:pumpBlock>);
 
