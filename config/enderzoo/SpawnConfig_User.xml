@@ -65,7 +65,7 @@
     <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
-  <entry id="Banshee" mobName="GrimoireOfGaia.Banshee" rate="8" minGroupSize="1" maxGroupSize="3">
+  <entry id="Banshee" mobName="GrimoireOfGaia.Banshee" rate="2" minGroupSize="1" maxGroupSize="2">
     <biomeFilter type="any">
     </biomeFilter>
     <dimensionExclude idStart="-500" idEnd="-99"/>,

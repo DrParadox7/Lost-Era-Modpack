@@ -8,7 +8,7 @@ recipes.addShaped(<rftools:machineFrame>, [[<ore:plateSteel>, <minecraft:dye:4>,
 recipes.remove(<rftools:machineBase>);
 recipes.addShaped(<rftools:machineBase>, [[null, null, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>]]);
 
-recipes.removeShaped(<rftools:storageModuleTabletItem>);
+recipes.removeShaped(<rftools:storageModuleTabletItem>, [[<minecraft:gold_nugget>, <minecraft:emerald>, <minecraft:gold_nugget>], [<minecraft:redstone_block>, <minecraft:quartz_block:*>, <minecraft:redstone_block>], [<minecraft:gold_nugget>, <minecraft:redstone_block>, <minecraft:gold_nugget>]]);
 recipes.addShaped(<rftools:storageModuleTabletItem>, [[<ore:plateSteel>, <OpenComputers:item:27>,<ore:plateSteel>], [<Mekanism:EnrichedAlloy>, <Mekanism:Dictionary>, <Mekanism:EnrichedAlloy>], [<ore:plateSteel>, <Mekanism:EnergyTablet>,<ore:plateSteel>]]);
 
 recipes.remove(<rftools:environmentalControllerBlock>);

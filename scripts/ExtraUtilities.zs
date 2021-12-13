@@ -31,7 +31,7 @@ recipes.addShaped(<ExtraUtilities:defoliageAxe>, [[<ExtraUtilities:unstableingot
 
 #Rebalance ExtraUtilities World Interaction
 recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
-recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:dye:4>, <ore:ingotPlatinum>, <minecraft:dye:4>], [<ore:ingotPlatinum>, <witchery:kobolditepickaxe>, <ore:ingotPlatinum>], [<minecraft:dye:4>, <ore:ingotPlatinum>, <minecraft:dye:4>]]);
+recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:dye:4>, <Botania:manaResource>, <minecraft:dye:4>], [<Botania:manaResource>, <witchery:kobolditepickaxe>, <Botania:manaResource>], [<minecraft:dye:4>, <Botania:manaResource>, <minecraft:dye:4>]]);
 
 #Infused Obsidian Thermal expansion
 recipes.remove(<ExtraUtilities:decorativeBlock1:1>);

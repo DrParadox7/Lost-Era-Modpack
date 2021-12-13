@@ -10,13 +10,7 @@ nitrogen.add(<BinnieCore:containerRefractory:66>);
 nitrogen.add(<MagicBees:capsule.magic:14>);
 nitrogen.add(<MagicBees:capsule.void:14>);
 
-#Osmium conversion
-val osmium = <ore:oreOsmium>;
-val osmiumblock = <ore:blockOsmium>;
-val platinum = <ore:orePlatinum>;
-val platingot = <ore:ingotPlatinum>;
-val platblock = <ore:blockPlatinum>;
-val platddust = <ore:dustDirtyPlatinum>;
+
 val BasicCircuit = <ore:circuitBasic>;
 val BasicCircuit2 = <ore:craftingCircuitTier02>;
 val AdvCircuit = <ore:circuitAdvanced>;
@@ -49,9 +43,19 @@ mods.mekanism.Separator.addRecipe(<liquid:sewage>, 200, <gas:methane>, <gas:wate
 #Ethene alt
 mods.mekanism.Reaction.addRecipe(<ThermalExpansion:florb>.withTag({Fluid: "oil"}), <liquid:water>*500, <gas:hydrogen>*250, <Mekanism:Substrate>, <gas:ethene>*150, 1000, 800);
 mods.mekanism.Reaction.removeRecipe(<Mekanism:Substrate>, <gas:ethene>, <Mekanism:BioFuel>, <liquid:water>, <gas:hydrogen>);
+
 #Digital Miner
 recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.addShaped(<Mekanism:MachineBlock:4>, [[<ExtraUtilities:enderQuarry>, <Mekanism:Robit:100>, <ExtraUtilities:enderThermicPump>], [<Mekanism:AtomicDisassembler>, <ThermalExpansion:Frame:3>, <Mekanism:AtomicDisassembler>], [<Mekanism:PortableTeleporter:100>, <ExtraUtilities:enderQuarryUpgrade:8>, <Mekanism:PortableTeleporter>]]);
+
+#Heat Generator
+recipes.remove(<MekanismGenerators:Generator>);
+recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<minecraft:obsidian>, <ore:plateSteel>, <minecraft:obsidian>]]);
+
+#Gas-Burning Generator
+recipes.remove(<MekanismGenerators:Generator:3>);
+recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotPlatinum>, <Mekanism:EnrichedAlloy>, <ore:ingotPlatinum>], [<Mekanism:BasicBlock:8>, <Mekanism:ElectrolyticCore>, <Mekanism:BasicBlock:8>], [<ore:ingotPlatinum>, <Mekanism:EnrichedAlloy>, <ore:ingotPlatinum>]]);
+
 
 #Pump
 recipes.remove(<Mekanism:MachineBlock:12>);
