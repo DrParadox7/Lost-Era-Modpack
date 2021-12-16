@@ -34,7 +34,6 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<Forestry:waxCapsule>, <liquid
 mods.thermalexpansion.Transposer.addFillRecipe(1600, <Forestry:waxCapsule>, <Forestry:ambrosia>, <liquid:ambrosia> * 1000);
 mods.thermalexpansion.Transposer.addExtractRecipe(1600, <Forestry:ambrosia>, <liquid:ambrosia> * 1000, <Forestry:waxCapsule>, 100);
 
-
 #Full Fence
 recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131329}), [[<minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:1>], [<minecraft:planks:1>, null, <minecraft:planks:1>], [null, <minecraft:planks:2>, null]]);
 #Full Embedded Fence
@@ -179,3 +178,16 @@ recipes.addShapeless(<harvestcraft:pamlimeSapling>, [<ore:cropLime>, <minecraft:
 
 recipes.remove(<harvestcraft:pamcherrySapling>);
 recipes.addShapeless(<harvestcraft:pamcherrySapling>, [<ore:cropCherry>, <minecraft:sapling>]);
+
+###Extra Bees
+
+#Nuclear Bees
+recipes.addShapeless(<NuclearCraft:material:25>, [<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>,<ExtraBees:misc:27>]);
+recipes.addShapeless(<NuclearCraft:material:87>, [<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>,<ExtraBees:misc:28>]);
+recipes.addShapeless(<NuclearCraft:material:89>, [<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>,<ExtraBees:misc:29>]);
+
+#Dusty Combs
+mods.forestry.Centrifuge.removeRecipe(<ExtraBees:honeyComb:63>);
+mods.forestry.Centrifuge.addRecipe([<Forestry:woodPulp> % 100, <Forestry:honeyDrop> % 20], <ExtraBees:honeyComb:63>, 120);
+
+print("Initialized 'ExtraTrees.zs'");

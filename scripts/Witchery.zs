@@ -21,6 +21,6 @@ recipes.addShapeless(<Natura:natura.flintandblaze>, [<minecraft:stick>, <witcher
 
 #Bag of holding
 recipes.remove(<ExtraUtilities:golden_bag>);
-recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>], [<witchery:ingredient:100>, <witchery:circletalisman>, <witchery:ingredient:100>], [<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>]]);
+recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>], [<witchery:ingredient:100>, <minecraft:ender_pearl>, <witchery:ingredient:100>], [<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>]]);
 
 print("Initialized 'Witchery.zs'");

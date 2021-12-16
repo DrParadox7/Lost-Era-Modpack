@@ -19,11 +19,4 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 21000, <Railcraft:cube:2>);
 
-#Fix Tin plates being register as Lead plates
-val lead = <ore:plateLead>;
-val tin = <ore:plateTin>;
-
-lead.remove(<Railcraft:part.plate:2>);
-tin.add(<Railcraft:part.plate:2>);
-
 print("Initialized 'Railcraft(Tweaks).zs'");

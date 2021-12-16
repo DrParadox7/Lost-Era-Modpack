@@ -4,13 +4,17 @@ print("Initializing 'GT Compat.zs'...");
 
 
 #Restore ore dict to plates
+val iron = <ore:plateIron>;
+val steel = <ore:plateSteel>;
+val tin = <ore:plateTin>;
 val copper = <ore:plateCopper>;
 val lead = <ore:plateLead>;
-val tin = <ore:plateLead>;
 
+iron.add(<Railcraft:part.plate>);
+steel.add(<Railcraft:part.plate:1>);
+tin.add(<Railcraft:part.plate:2>);
 copper.add(<Railcraft:part.plate:3>);
 lead.add(<Railcraft:part.plate:4>);
-tin.add(<Railcraft:part.plate:2>);
 
 
 

@@ -22,6 +22,9 @@ BasicCircuit2.remove(<Mekanism:ControlCircuit>);
 AdvCircuit.remove(<Mekanism:ControlCircuit:1>);
 AdvCircuit2.remove(<Mekanism:ControlCircuit:1>);
 
+#Remove x5 ore processing
+furnace.remove(<*>, <Mekanism:DirtyDust:*>);
+recipes.remove(<Mekanism:MachineBlock2:6>);
 
 #Metallurgic Infuser fix platinum
 mods.mekanism.Infuser.addRecipe("REDSTONE", 10, <ThermalFoundation:material:69>, <Mekanism:ControlCircuit>);
@@ -55,7 +58,6 @@ recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:ingotInvar>, <ore:ingot
 #Gas-Burning Generator
 recipes.remove(<MekanismGenerators:Generator:3>);
 recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotPlatinum>, <Mekanism:EnrichedAlloy>, <ore:ingotPlatinum>], [<Mekanism:BasicBlock:8>, <Mekanism:ElectrolyticCore>, <Mekanism:BasicBlock:8>], [<ore:ingotPlatinum>, <Mekanism:EnrichedAlloy>, <ore:ingotPlatinum>]]);
-
 
 #Pump
 recipes.remove(<Mekanism:MachineBlock:12>);
