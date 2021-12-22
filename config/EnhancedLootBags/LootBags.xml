@@ -91,6 +91,7 @@
         <Loot Identifier="1b01c54b-1287-46da-8298-a57e583799fe" ItemName="BiomesOPlenty:saplings" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="b2526495-4932-40ba-a843-3d9ddca0cf42" ItemName="BiomesOPlenty:foliage:8" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="9be5b24e-4a26-4a6e-9144-2381368a9336" ItemName="minecraft:apple" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="7d0ae835-19bf-4116-b53b-ad03a28a1db1" ItemName="harvestcraft:pampaperbarkSapling" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="2" GroupName="Lucrative" Rarity="3" MinItems="3" MaxItems="3" CombineTrashGroup="false">
         <Loot Identifier="44a45050-eb4a-4994-914a-ac6a689036ab" ItemName="notenoughpets:item.monsterPlacer:29" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>

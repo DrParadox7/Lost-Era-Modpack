@@ -9,11 +9,11 @@ recipes.addShaped(<Railcraft:cart.redstone.flux>, [[null, <ThermalExpansion:Fram
 #Balanced Turbine
 recipes.remove(<Railcraft:part.turbine.blade>);
 recipes.addShaped(<Railcraft:part.turbine.blade>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<Railcraft:part.turbine.disk>, [[<IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>], [<IC2:itemRecipePart:10>, <ore:blockSteel>, <IC2:itemRecipePart:10>], [<IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>]]);
 
 #Balance Steel
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);

@@ -269,19 +269,19 @@ recipes.remove(<MekanismTools:LapisLazuliHoe>);
 recipes.remove(<MekanismTools:LapisLazuliSword>);
 
 
-#Remove Osmium Tools/Armor
-recipes.remove(<MekanismTools:OsmiumHelmet>);
-recipes.remove(<MekanismTools:OsmiumChestplate>);
-recipes.remove(<MekanismTools:OsmiumLeggings>);
-recipes.remove(<MekanismTools:OsmiumBoots>);
-recipes.remove(<MekanismTools:OsmiumPaxel>);
-recipes.remove(<MekanismTools:OsmiumPickaxe>);
-recipes.remove(<MekanismTools:OsmiumAxe>);
-recipes.remove(<MekanismTools:OsmiumShovel>);
-recipes.remove(<MekanismTools:OsmiumHoe>);
-recipes.remove(<MekanismTools:OsmiumSword>);
+#Remove Platinum Tools/Armor
+recipes.remove(<MekanismTools:PlatinumHelmet>);
+recipes.remove(<MekanismTools:PlatinumChestplate>);
+recipes.remove(<MekanismTools:PlatinumLeggings>);
+recipes.remove(<MekanismTools:PlatinumBoots>);
+recipes.remove(<MekanismTools:PlatinumPaxel>);
+recipes.remove(<MekanismTools:PlatinumPickaxe>);
+recipes.remove(<MekanismTools:PlatinumAxe>);
+recipes.remove(<MekanismTools:PlatinumShovel>);
+recipes.remove(<MekanismTools:PlatinumHoe>);
+recipes.remove(<MekanismTools:PlatinumSword>);
 
-#Remove Broze Tools/Armor
+#Remove Bronze Tools/Armor
 recipes.remove(<MekanismTools:BronzeHelmet>);
 recipes.remove(<MekanismTools:BronzeChestplate>);
 recipes.remove(<MekanismTools:BronzeLeggings>);

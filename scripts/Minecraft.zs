@@ -27,6 +27,9 @@ recipes.addShapeless(<minecraft:spider_eye>, [<BiomesOPlenty:flowers:13>]);
 recipes.addShapeless(<minecraft:glowstone_dust>, [<BiomesOPlenty:flowers:3>, <Botania:pestleAndMortar>.reuse()]);
 recipes.addShapeless(<BiomesOPlenty:misc:11>, [<BiomesOPlenty:coral1:15>, <Botania:pestleAndMortar>.reuse()]);
 
+#Disable dupe inducing cabinets
+recipes.remove(<ExtraUtilities:filing:*>);
+
 #Cooking for Blockheads Missing localization
 game.setLocalization("en_US", "item.cookingforblockheads:toast.name", "Toast");
 game.setLocalization("en_US", "tile.cookingforblockheads:toaster.name", "Toaster");

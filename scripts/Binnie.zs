@@ -1,6 +1,6 @@
-#Name: ExtraTrees.zs
+#Name: Binnie.zs
 
-print("Initializing 'ExtraTrees.zs'...");
+print("Initializing 'Binnie.zs'...");
 
 #Genetics Localization fixes
 game.setLocalization("en_US", "binniecore.beemodifier.genetic_decay", "Genetic Decay");
@@ -82,7 +82,21 @@ recipes.addShaped(<Botany:ceramicBrick:16387>.withTag({meta: 530691}), [[<Botany
 val Sawdust = <ore:dustWood>;
 Sawdust.add(<ExtraTrees:misc:1>);
 
+#Remove Papertree from Pam's
+recipes.remove(<harvestcraft:pampaperbarkSapling>);
+
+#Become IC2 Coffee beans and add it to the dict
+val Coffee = <ore:cropCoffee>;
+Coffee.add(<IC2:itemCofeeBeans>);
+Coffee.add(<IC2:itemCofeePowder>);
+Coffee.remove(<ExtraTrees:food:37>);
+
+recipes.addShapeless(<IC2:itemCofeeBeans>, [<ExtraTrees:food:37>]);
+
+
 #Fruits
+val Apple = <ore:cropApple>;
+Apple.remove(<ExtraTrees:food>);
 val Apricot = <ore:cropApricot>;
 Apricot.add(<ExtraTrees:food:10>);
 val Avocado = <ore:cropAvocado>;
@@ -91,41 +105,90 @@ val Olive = <ore:cropOlive>;
 Olive.add(<ExtraTrees:food:35>);
 val Peach = <ore:cropPeach>;
 Peach.add(<ExtraTrees:food:12>);
-val Grapefruit = <ore:cropPeach>;
+val Grapefruit = <ore:cropGrapefruit>;
 Grapefruit.add(<ExtraTrees:food:11>);
 val Almond = <ore:cropAlmond>;
 Almond.add(<ExtraTrees:food:9>);
 val Cashew = <ore:cropCashew>;
-Almond.add(<ExtraTrees:food:51>);
-
+Cashew.add(<ExtraTrees:food:51>);
+val Pear = <ore:cropPear>;
+Pear.add(<ExtraTrees:food:23>);
 val Cherry = <ore:cropCherry>;
 Cherry.add(<ExtraTrees:food:4>);
-
-
+val Raspberry = <ore:cropRaspberry>;
+Raspberry.add(<ExtraTrees:food:49>);
 
 val Fruit = <ore:listAllfruit>;
+
+Fruit.add(<ExtraTrees:food:1>);
+Fruit.add(<ExtraTrees:food:2>);
+Fruit.add(<ExtraTrees:food:3>);
+Fruit.add(<ExtraTrees:food:4>);
+Fruit.add(<ExtraTrees:food:5>);
+Fruit.add(<ExtraTrees:food:6>);
+Fruit.add(<ExtraTrees:food:8>);
 Fruit.add(<ExtraTrees:food:10>);
-Fruit.add(<ExtraTrees:food:12>);
 Fruit.add(<ExtraTrees:food:11>);
+Fruit.add(<ExtraTrees:food:12>);
+Fruit.add(<ExtraTrees:food:13>);
+Fruit.add(<ExtraTrees:food:14>);
+Fruit.add(<ExtraTrees:food:15>);
+Fruit.add(<ExtraTrees:food:17>);
+Fruit.add(<ExtraTrees:food:18>);
+Fruit.add(<ExtraTrees:food:19>);
+Fruit.add(<ExtraTrees:food:20>);
+Fruit.add(<ExtraTrees:food:21>);
+Fruit.add(<ExtraTrees:food:22>);
+Fruit.add(<ExtraTrees:food:28>);
+Fruit.add(<ExtraTrees:food:29>);
+Fruit.add(<ExtraTrees:food:32>);
+Fruit.add(<ExtraTrees:food:40>);
+Fruit.add(<ExtraTrees:food:57>);
+Fruit.add(<ExtraTrees:food:58>);
+
+Fruit.add(<Forestry:fruits>);
 Fruit.add(<Forestry:fruits:3>);
 Fruit.add(<Forestry:fruits:5>);
-Fruit.add(<ExtraTrees:food:3>);
-Fruit.add(<ExtraTrees:food:28>);
 Fruit.add(<Forestry:fruits:6>);
-Fruit.add(<ExtraTrees:food:22>);
 Fruit.add(<Forestry:fruits:4>);
-Fruit.add(<ExtraTrees:food:4>);
 
+val Berry = <ore:listAllberry>;
+
+Berry.add(<ExtraTrees:food:7>);
+Berry.add(<ExtraTrees:food:34>);
+Berry.add(<ExtraTrees:food:41>);
+Berry.add(<ExtraTrees:food:42>);
+Berry.add(<ExtraTrees:food:46>);
+Berry.add(<ExtraTrees:food:47>);
+Berry.add(<ExtraTrees:food:49>);
 
 val Nut = <ore:listAllnut>;
-Nut.add(<Forestry:fruits:2>);
-Nut.add(<ExtraTrees:food:51>);
 Nut.add(<Forestry:fruits:1>);
+Nut.add(<Forestry:fruits:2>);
+Nut.add(<ExtraTrees:food:9>);
+Nut.add(<ExtraTrees:food:24>);
+Nut.add(<ExtraTrees:food:25>);
+Nut.add(<ExtraTrees:food:26>);
+Nut.add(<ExtraTrees:food:27>);
+Nut.add(<ExtraTrees:food:31>);
+Nut.add(<ExtraTrees:food:36>);
+Nut.add(<ExtraTrees:food:51>);
+Nut.add(<ExtraTrees:food:59>);
 
 val Citrus = <ore:listAllcitrus>;
-Citrus.add(<ExtraTrees:food:11>);
 Citrus.add(<Forestry:fruits:3>);
+Citrus.add(<ExtraTrees:food:1>);
+Citrus.add(<ExtraTrees:food:2>);
 Citrus.add(<ExtraTrees:food:3>);
+Citrus.add(<ExtraTrees:food:11>);
+Citrus.add(<ExtraTrees:food:13>);
+Citrus.add(<ExtraTrees:food:14>);
+Citrus.add(<ExtraTrees:food:15>);
+Citrus.add(<ExtraTrees:food:16>);
+Citrus.add(<ExtraTrees:food:17>);
+Citrus.add(<ExtraTrees:food:18>);
+Citrus.add(<ExtraTrees:food:20>);
+Citrus.add(<ExtraTrees:food:21>);
 
 #Tree Pam Compat
 recipes.remove(<harvestcraft:pamapricotSapling>);
@@ -190,4 +253,7 @@ recipes.addShapeless(<NuclearCraft:material:89>, [<ExtraBees:misc:29>,<ExtraBees
 mods.forestry.Centrifuge.removeRecipe(<ExtraBees:honeyComb:63>);
 mods.forestry.Centrifuge.addRecipe([<Forestry:woodPulp> % 100, <Forestry:honeyDrop> % 20], <ExtraBees:honeyComb:63>, 120);
 
-print("Initialized 'ExtraTrees.zs'");
+#Energy drops usage
+mods.thermalexpansion.Crucible.addRecipe(4000, <ExtraBees:honeyDrop>, <liquid:redstone> * 35);
+
+print("Initialized 'Binnie.zs'");

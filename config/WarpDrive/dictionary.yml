@@ -147,7 +147,7 @@ entity_tags {
     S:Automagy.EntityItemDelayedFall=NoMass NonLivingTarget
     S:Automagy.XPOrbSuppressed=NoMass NonLivingTarget
     S:Basalz=LivingWithoutAir
-    S:BiblioCraft.SeatEntity= NonLivingTarget
+    S:BiblioCraft.SeatEntity=NonLivingTarget
     S:BiomesOPlenty.dart=NoMass NonLivingTarget
     S:BiomesOPlenty.mudball=NoMass NonLivingTarget
     S:Blitz=LivingWithoutAir
@@ -302,10 +302,10 @@ entity_tags {
     S:TConstruct.Dagger=NoMass NonLivingTarget
     S:"TConstruct.Fancy Item"=NoMass NonLivingTarget
     S:TConstruct.Javelin=NoMass NonLivingTarget
-    S:TConstruct.LandmineFirework= NonLivingTarget
+    S:TConstruct.LandmineFirework=NonLivingTarget
     S:"TConstruct.Launched Potion"=NoMass NonLivingTarget
     S:TConstruct.Shuriken=NoMass NonLivingTarget
-    S:TConstruct.SlimeExplosive= NonLivingTarget
+    S:TConstruct.SlimeExplosive=NonLivingTarget
     S:TConstruct.ThrowingKnife=NoMass NonLivingTarget
     S:Thaumcraft.Alumentum=NoMass NonLivingTarget
     S:Thaumcraft.AspectOrb=NoMass NonLivingTarget
@@ -386,12 +386,12 @@ entity_tags {
     S:powersuits.entityLuxCapacitor=NoMass NonLivingTarget
     S:powersuits.entityPlasmaBolt=NoMass NonLivingTarget
     S:powersuits.entitySpinningBlade=NoMass NonLivingTarget
-    B:spark= NonLivingTarget
+    B:spark=NonLivingTarget
     S:testdummy.Dummy=LivingWithoutAir
     S:testdummy.FloatingNumber=NoMass NonLivingTarget
     S:testdummy.FloatingNumberDPS=NoMass NonLivingTarget
     B:thornChakram=NoMass NonLivingTarget
-    B:thrownItem= NonLivingTarget
+    B:thrownItem=NonLivingTarget
     S:uptodate.boat_acacia=NoMass NonLivingTarget
     S:uptodate.boat_birch=NoMass NonLivingTarget
     S:uptodate.boat_dark_oak=NoMass NonLivingTarget

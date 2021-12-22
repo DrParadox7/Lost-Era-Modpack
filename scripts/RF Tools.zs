@@ -54,6 +54,6 @@ recipes.remove(<rftools:peaceEssenceItem>);
 recipes.addShaped(<rftools:peaceEssenceItem>, [[<rftools:syringeItem>.withTag({mobName: "Iron Golem", level: 10}), <rftools:syringeItem>.withTag({mobName: "Enderman", level: 10}), <rftools:syringeItem>.withTag({mobName: "Snowman", level: 10})], [<rftools:syringeItem>.withTag({mobName: "Bat", level: 10}), <rftools:syringeItem>.withTag({mobName: "Ocelot", level: 10}), <rftools:syringeItem>.withTag({mobName: "Squid", level: 10})], [<rftools:syringeItem>.withTag({mobName: "Wolf", level: 10}), <rftools:syringeItem>.withTag({mobName: "Zombie Pigman", level: 10}), <rftools:syringeItem>.withTag({mobName: "Villager", level: 10})]]);
 
 #Unknown Dimlet
-mods.buildcraft.AssemblyTable.addRecipe(<rftools:unknownDimlet>, 3000000, [<NuclearCraft:parts:18>, <HardcoreEnderExpansion:instability_orb> * 4, <ThermalFoundation:material:44>, <BuildCraft|Silicon:redstoneCrystal>, <Mekanism:ControlCircuit:3>, <NuclearCraft:antimatter>]);
+mods.buildcraft.AssemblyTable.addRecipe(<rftools:unknownDimlet>*3, 3000000, [<NuclearCraft:parts:3>*3, <NuclearCraft:antimatter>, <Mekanism:ControlCircuit:3>]);
 
 print("Initialized 'RFTools.zs'");

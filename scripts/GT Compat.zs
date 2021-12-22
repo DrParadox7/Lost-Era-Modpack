@@ -16,7 +16,13 @@ tin.add(<Railcraft:part.plate:2>);
 copper.add(<Railcraft:part.plate:3>);
 lead.add(<Railcraft:part.plate:4>);
 
+#Railcraft Turbine
+recipes.remove(<Railcraft:machine.alpha:1>);
+recipes.addShaped(<Railcraft:machine.alpha:1>, [[<Railcraft:machine.beta:13>, <gregtech_addon:machine:34>, <Railcraft:machine.beta:13>], [<ore:gearSteel>, <ore:craftingRawMachineTier02>, <ore:gearSteel>], [<Railcraft:machine.beta:13>, <gregtech_addon:machine:34>, <Railcraft:machine.beta:13>]]);
 
+#Shadow Steel & Damascus Steel CAN be smelted in a furnace
+furnace.addRecipe(<Metallurgy:damascus.steel.ingot>, <Metallurgy:base.dust:5>);
+furnace.addRecipe(<Metallurgy:shadow.steel.ingot>, <Metallurgy:fantasy.dust:3>);
 
 #Rolling Machine
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17327>*4, [[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [null, null, null]]);

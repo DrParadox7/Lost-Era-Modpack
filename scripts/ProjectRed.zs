@@ -16,6 +16,9 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:42>, [[<minecraft:glowstone
 
 #Recipe Conflict
 furnace.remove(<ProjRed|Core:projectred.core.part>);
+mods.thermalexpansion.Furnace.removeRecipe(<minecraft:stone>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:stone>, <etfuturum:smooth_stone>);
+
 recipes.addShapeless(<ProjRed|Core:projectred.core.part>, [<ForgeMicroblock:microblock:4>.withTag({mat: "minecraft:stone"}), <appliedenergistics2:item.ToolCertusQuartzCuttingKnife:*>.transformDamage(1)]);
 recipes.addShapeless(<ProjRed|Core:projectred.core.part>, [<ForgeMicroblock:microblock:4>.withTag({mat: "minecraft:stone"}), <appliedenergistics2:item.ToolNetherQuartzCuttingKnife:*>.transformDamage(1)]);
 
