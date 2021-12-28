@@ -2,6 +2,12 @@
 #Author: TechnoParadox
 print("Initializing 'TinkerConstruct.zs'...");
 
+#Aluminum balance
+furnace.remove(<TConstruct:materials:11>);
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:materials:40>);
+mods.thermalexpansion.Smelter.removeRecipe(<*>, <TConstruct:SearedBrick:5>);
+
+
 #smeltery changes
 recipes.remove(<TConstruct:CraftedSoil:6>);
 recipes.addShapeless(<TConstruct:CraftedSoil:6>*4, [<minecraft:magma_cream>, <minecraft:soul_sand>, <minecraft:gravel>, <ore:dustObsidian>]);

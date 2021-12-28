@@ -206,16 +206,25 @@ mods.thaumcraft.Research.addCraftingPage("ANCIENT_STONE", <Thaumcraft:blockStair
 mods.thaumcraft.Research.addArcanePage("ANCIENT_STONE", <Thaumcraft:blockCosmeticSolid:15>);
 mods.thaumcraft.Research.addCruciblePage("ANCIENT_STONE", <Thaumcraft:blockCosmeticSolid:12>);
 
-#Magia Naturalis
-#Fix construction focus
-game.setLocalization("en_US", "item.magianaturalis:focusBuild.name", "Wand Focus: Construction (Inert)");
-recipes.addShapeless(<magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}), [<minecraft:brick>, <magianaturalis:item.focusBuild>]);
-mods.thaumcraft.Research.addCraftingPage("FOCUS_BUILD", <magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}));
-
 #Nerf Transvector Dislocator 
 mods.thaumcraft.Research.addPrereq("DISLOCATOR", "ICHORIUM", true);
 mods.thaumcraft.Research.addPrereq("DISLOCATOR", "AVARICIOUS", true);
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:dislocator>);
 mods.thaumcraft.Arcane.addShaped("DISLOCATOR", <ThaumicTinkerer:dislocator>, "terra 5, perditio 5", [[<ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemResource:10>, <ThaumicTinkerer:kamiResource:7>], [<Automagy:avaricePearl:1>, <ThaumicTinkerer:interface>, <Automagy:avaricePearl:1>], [<ThaumicTinkerer:kamiResource:7>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource:7>]]);
+
+#Quartz Duplication
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <minecraft:quartz>*2, <minecraft:quartz>, "potentia 2, aqua 2, vitreus 4");
+mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <minecraft:quartz>);
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
+
+### Magia Naturalis ###
+#Fix construction focus
+game.setLocalization("en_US", "item.magianaturalis:focusBuild.name", "Wand Focus: Construction (Inert)");
+recipes.addShapeless(<magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}), [<minecraft:brick>, <magianaturalis:item.focusBuild>]);
+mods.thaumcraft.Research.addCraftingPage("FOCUS_BUILD", <magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}));
+
+#Removed the duping scythe
+mods.thaumcraft.Research.orphanResearch("SICKLE_ABUNDANCE");
+mods.thaumcraft.Research.removeResearch("SICKLE_ABUNDANCE");
 
 print("Initialized 'ThaumicAddons.zs'");

@@ -51,7 +51,7 @@ mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 2, <harvestcr
 mods.thaumcraft.Aspects.remove(<harvestcraft:saltItem>, "terra 1, aqua 1");
 mods.thaumcraft.Aspects.set(<harvestcraft:saltItem>, "vitreus 2, spiritus 1");
 
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>*2, <harvestcraft:saltItem>, "vitreus 2, spiritus 1");
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>*2, <harvestcraft:saltItem>, "terra 2, spiritus 1");
 mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>);
 mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
 

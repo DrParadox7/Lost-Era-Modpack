@@ -6,6 +6,9 @@ print("Initializing 'ThermalExpansion.zs'...");
 val Mithril = <ore:ingotMithril>;
 Mithril.add(<ThermalFoundation:material:70>);
 
+#Tesseract
+recipes.remove(<ThermalExpansion:Frame:10>);
+recipes.addShaped(<ThermalExpansion:Frame:10>, [[<ore:ingotEnderium>, <ore:blockGlassHardened>,<ore:ingotEnderium>], [<ore:blockGlassHardened>, <NuclearCraft:antimatter>, <ore:blockGlassHardened>], [<ore:ingotEnderium>, <ore:blockGlassHardened>, <ore:ingotEnderium>]]);
 
 #Nerf Plat from Ferrous ore
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <ThermalFoundation:Ore:4>);

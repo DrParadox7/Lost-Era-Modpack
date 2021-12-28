@@ -19,10 +19,10 @@
             -100
         ]
     },
-    "Ruby": {
+    "Desert_Ruby": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 3},
-        "clusterSize": 0,
+        "clusterSize": 1,
         "numClusters": 8,
         "chunkChance": 1,
         "minHeight": 0,
@@ -42,10 +42,10 @@
             -100
         ]
     },
-    "Sapphire": {
+    "Ocean_Sapphire": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 4},
-        "clusterSize": 0,
+        "clusterSize": 1,
         "numClusters": 8,
         "chunkChance": 1,
         "minHeight": 0,
