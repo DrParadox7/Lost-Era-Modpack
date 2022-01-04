@@ -466,6 +466,13 @@
 			"meta": 0,
 			"hunger": 2,
 			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "cookingforblockheads:toast",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 2
 		}
 	]
 }

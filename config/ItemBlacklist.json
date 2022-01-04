@@ -66,10 +66,6 @@
       "damage": "*"
     },
     {
-      "item": "BuildCraft|Builders:machineBlock",
-      "damage": "*"
-    },
-    {
       "item": "Mekanism:PortableTeleporter",
       "damage": "*"
     }

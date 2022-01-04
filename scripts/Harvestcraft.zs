@@ -7,6 +7,18 @@ print("Initializing 'Harvestcraft.zs'...");
 <ore:foodHoneydrop>.addAll(<ore:dropHoney>);
 <ore:dropHoney>.mirror(<ore:foodHoneydrop>); 
 
+#Toast Oredict
+val toast = <ore:foodToast>;
+toast.add(<cookingforblockheads:toast>);
+
+#Toaster
+recipes.remove(<cookingforblockheads:toaster>);
+recipes.addShaped(<cookingforblockheads:toaster>, [[null, null, null], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>, <minecraft:iron_ingot>], [<ore:gearIron>, <minecraft:clock>, <ore:gearIron>]]);
+
+#Heating Element
+recipes.remove(<ExtraUtilities:heatingElement>);
+recipes.addShaped(<ExtraUtilities:heatingElement>, [[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], [<ore:nuggetCopper>, <minecraft:blaze_powder>, <ore:nuggetCopper>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
+
 #Honey sandwich
 recipes.remove(<harvestcraft:honeysandwichItem>);
 recipes.addShapeless(<harvestcraft:honeysandwichItem>, [<harvestcraft:cuttingboardItem>, <ore:listAllnutbutter>, <ore:foodHoneydrop>, <minecraft:bread>]);
