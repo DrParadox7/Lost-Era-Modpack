@@ -3,6 +3,14 @@
 
 print("Initializing 'Harvestcraft.zs'...");
 
+#Honey oredict 
+<ore:foodHoneydrop>.addAll(<ore:dropHoney>);
+<ore:dropHoney>.mirror(<ore:foodHoneydrop>); 
+
+#Honey sandwich
+recipes.remove(<harvestcraft:honeysandwichItem>);
+recipes.addShapeless(<harvestcraft:honeysandwichItem>, [<harvestcraft:cuttingboardItem>, <ore:listAllnutbutter>, <ore:foodHoneydrop>, <minecraft:bread>]);
+
 #Candle Forestry Compat
 recipes.addShapeless(<harvestcraft:pamcandleDeco1>, [<ore:itemBeeswax>, <minecraft:string>]);
 
@@ -25,8 +33,8 @@ recipes.addShaped(<cookingforblockheads:cookingoven>, [[<minecraft:stained_glass
 ###Salt Module###
 
 #Campfire
-mods.campfirebackport.addCampfireRecipe("both", [<minecraft:water_bucket>.transformFluid("water", 1000)], <harvestcraft:saltItem>, 900);
-mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBucketWater>.transformFluid("water", 1000)], <harvestcraft:saltItem>, 900);
+mods.campfirebackport.addCampfireRecipe("both", [<minecraft:water_bucket>.transformFluid("water", 1000)], <harvestcraft:saltItem>, 200);
+mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBucketWater>.transformFluid("water", 1000)], <harvestcraft:saltItem>, 200);
 mods.campfirebackport.addCampfireRecipe("both", [<minecraft:bucket>], <minecraft:bucket>, 1);
 mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBucketFired>], <IguanaTweaksTConstruct:clayBucketFired>, 1);
 
@@ -57,7 +65,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
 
 #Forestry
 mods.forestry.Centrifuge.removeRecipe(<ExtraBees:honeyComb:6>);
-mods.forestry.Centrifuge.addRecipe([<ExtraBees:propolis> % 100, <Forestry:honeyDrop> % 90, <harvestcraft:saltItem> % 40], <ExtraBees:honeyComb:6>, 100);
+mods.forestry.Centrifuge.addRecipe([<ExtraBees:propolis> % 100, <Forestry:honeyDrop> % 90, <harvestcraft:saltItem> % 75], <ExtraBees:honeyComb:6>, 100);
 
 #Greggy
 recipes.addShapeless(<gregtech_addon:metaitem_1:2817>*3, [<gregtech_addon:metaitem_1:2017>, <gregtech_addon:metaitem_1:30023>.giveBack(<IC2:itemCellEmpty>)]);

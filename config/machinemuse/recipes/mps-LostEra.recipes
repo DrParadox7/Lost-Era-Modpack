@@ -197,9 +197,9 @@
 	},
 	{
 		"ingredients" : [
-			[ null, null, null ],
-			[ null, { "registryName" : "Mekanism:ControlCircuit" }, null ],
-			[ { "registryName" : "Mekanism:EnrichedAlloy" }, { "oredictName" : "<OpenComputers:item", "meta" : 26 }, { "registryName" : "Mekanism:EnrichedAlloy" } ]
+			[ { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "oredictName" : "oc:graphicsCard1"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 } ],
+			[ { "registryName" : "<Mekanism:ControlCircuit>"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "registryName" : "<Mekanism:ControlCircuit>"} ],
+			[ { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "oredictName" : "battery"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 } ]
 		],
 		"result" : {
 			"oredictName" : "componentLaserEmitter"
@@ -299,7 +299,7 @@
 	{
 		"ingredients" : [
 			[ null, { "oredictName" : "dustCryotheum" }, null ],
-			[ null, { "registryName" : "minechem:minechemBucket.element.element.n" }, null ],
+			[ { "oredictName" : "cellNitrogen" }, { "oredictName" : "cellNitrogen" }, { "oredictName" : "cellNitrogen" } ],
 			[ null, { "registryName" : "minecraft:bucket" }, null ]
 		],
 		"result" : {

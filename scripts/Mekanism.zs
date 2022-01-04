@@ -3,13 +3,6 @@
 
 print("Initializing 'Mekanism.zs'...");
 
-#Liquid Nitrogen MPS ore Dictionary
-val nitrogen = <ore:itemNitrogenCapsule>;
-nitrogen.add(<BinnieCore:containerCapsule:66>);
-nitrogen.add(<BinnieCore:containerRefractory:66>);
-nitrogen.add(<MagicBees:capsule.magic:14>);
-nitrogen.add(<MagicBees:capsule.void:14>);
-
 // ================================================================================
 #### Basic Block Recipes ####
 recipes.remove(<Mekanism:BasicBlock:*>);
@@ -37,13 +30,13 @@ recipes.addShapeless(<Mekanism:BasicBlock:13>, [<ore:ingotTin>, <ore:ingotTin>, 
 
 #Bins 
 #Basic Bin 
-recipes.addShaped(<Mekanism:BasicBlock:6>), [[<minecraft:cobblestone>, <Mekanism:ControlCircuit>, <minecraft:cobblestone>], [<minecraft:redstone>, null, <minecraft:redstone>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+recipes.addShaped(<Mekanism:BasicBlock:6>, [[<minecraft:cobblestone>, <Mekanism:ControlCircuit>, <minecraft:cobblestone>], [<minecraft:redstone>, null, <minecraft:redstone>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 #Advanced Bin 
-recipes.addShaped(<Mekanism:BasicBlock:6>.withTag({tier: 1}, [[<minecraft:cobblestone>, <Mekanism:ControlCircuit:1>, <minecraft:cobblestone>], [<Mekanism:EnrichedAlloy>, null, <Mekanism:EnrichedAlloy>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+recipes.addShaped(<Mekanism:BasicBlock:6>.withTag({tier: 1}), [[<minecraft:cobblestone>, <Mekanism:ControlCircuit:1>, <minecraft:cobblestone>], [<Mekanism:EnrichedAlloy>, null, <Mekanism:EnrichedAlloy>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 #Elite Bin 
-recipes.addShaped(<Mekanism:BasicBlock:6>.withTag({tier: 2}, [[<minecraft:cobblestone>, <Mekanism:ControlCircuit:2>, <minecraft:cobblestone>], [<Mekanism:ReinforcedAlloy>, null, <Mekanism:ReinforcedAlloy>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+recipes.addShaped(<Mekanism:BasicBlock:6>.withTag({tier: 2}), [[<minecraft:cobblestone>, <Mekanism:ControlCircuit:2>, <minecraft:cobblestone>], [<Mekanism:ReinforcedAlloy>, null, <Mekanism:ReinforcedAlloy>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 #Ultimate Bin
-recipes.addShaped(<Mekanism:BasicBlock:6>.withTag({tier: 3}, [[<minecraft:cobblestone>, <Mekanism:ControlCircuit:3>, <minecraft:cobblestone>], [<Mekanism:AtomicAlloy>, null, <Mekanism:AtomicAlloy>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+recipes.addShaped(<Mekanism:BasicBlock:6>.withTag({tier: 3}), [[<minecraft:cobblestone>, <Mekanism:ControlCircuit:3>, <minecraft:cobblestone>], [<Mekanism:AtomicAlloy>, null, <Mekanism:AtomicAlloy>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 #Teleporter Block 
 recipes.addShaped(<Mekanism:BasicBlock:7> * 9, [[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>]]);
@@ -71,22 +64,22 @@ recipes.addShaped(<Mekanism:BasicBlock2:1> * 4, [[null, <ore:ingotSteel>, null],
 recipes.addShaped(<Mekanism:BasicBlock2:2> * 2, [[null, <Mekanism:BasicBlock2:1>, null], [<Mekanism:BasicBlock2:1>, <Mekanism:ControlCircuit:2>, <Mekanism:BasicBlock2:1>], [null, <Mekanism:BasicBlock2:1>, null]]);
 
 #Basic Induction Cell
-recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 0}, [[<ore:dustLithium>, <Mekanism:EnergyTablet>, <ore:dustLithium>], [<Mekanism:EnergyTablet>, <Mekanism:EnergyCube>, <Mekanism:EnergyTablet>], [<ore:dustLithium>, <Mekanism:EnergyTablet>, <ore:dustLithium>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 0}), [[<ore:dustLithium>, <Mekanism:EnergyTablet>, <ore:dustLithium>], [<Mekanism:EnergyTablet>, <Mekanism:EnergyCube>.onlyWithTag({tier: "Basic"}), <Mekanism:EnergyTablet>], [<ore:dustLithium>, <Mekanism:EnergyTablet>, <ore:dustLithium>]]);
 #Advanced Induction Cell
-recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 1}, [[<ore:dustLithium>, <Mekanism:BasicBlock2:3>.withTag({tier: 0}, <ore:dustLithium>], [<Mekanism:BasicBlock2:3>.withTag({tier: 0}, <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:3>.withTag({tier: 0}], [<ore:dustLithium>, <Mekanism:BasicBlock2:3>.withTag({tier: 0}, <ore:dustLithium>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 1}), [[<ore:dustLithium>, <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 0}), <ore:dustLithium>], [<Mekanism:BasicBlock2:3>.onlyWithTag({tier: 0}), <Mekanism:EnergyCube>.onlyWithTag({tier: "Advanced"}), <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 0})], [<ore:dustLithium>, <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 0}), <ore:dustLithium>]]);
 #Elite Induction Cell
-recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 2}, [[<ore:dustLithium>, <Mekanism:BasicBlock2:3>.withTag({tier: 1}, <ore:dustLithium>], [<Mekanism:BasicBlock2:3>.withTag({tier: 1}, <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:3>.withTag({tier: 1}], [<ore:dustLithium>, <Mekanism:BasicBlock2:3>.withTag({tier: 1}, <ore:dustLithium>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 2}), [[<ore:dustLithium>, <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 1}), <ore:dustLithium>], [<Mekanism:BasicBlock2:3>.onlyWithTag({tier: 1}), <Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"}), <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 1})], [<ore:dustLithium>, <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 1}), <ore:dustLithium>]]);
 #Ultimate Induction Cell
-recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 3}, [[<ore:dustLithium>, <Mekanism:BasicBlock2:3>.withTag({tier: 2}, <ore:dustLithium>], [<Mekanism:BasicBlock2:3>.withTag({tier: 2}, <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:3>.withTag({tier: 2}], [<ore:dustLithium>, <Mekanism:BasicBlock2:3>.withTag({tier: 2}, <ore:dustLithium>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:3>.withTag({tier: 3}), [[<ore:dustLithium>, <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 2}), <ore:dustLithium>], [<Mekanism:BasicBlock2:3>.onlyWithTag({tier: 2}), <Mekanism:EnergyCube>.onlyWithTag({tier: "Ultimate"}), <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 2})], [<ore:dustLithium>, <Mekanism:BasicBlock2:3>.onlyWithTag({tier: 2}), <ore:dustLithium>]]);
 
 #Basic Induction Provider
-recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 0}, [[<ore:dustLithium>, <Mekanism:ControlCircuit>, <ore:dustLithium>], [<Mekanism:ControlCircuit>, <Mekanism:EnergyCube>, <Mekanism:ControlCircuit>], [<ore:dustLithium>, <Mekanism:ControlCircuit>, <ore:dustLithium>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 0}), [[<ore:dustLithium>, <Mekanism:ControlCircuit>, <ore:dustLithium>], [<Mekanism:ControlCircuit>, <Mekanism:EnergyCube>, <Mekanism:ControlCircuit>], [<ore:dustLithium>, <Mekanism:ControlCircuit>, <ore:dustLithium>]]);
 #Advanced Induction Provider
-recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 1}, [[<Mekanism:ControlCircuit:1>, <Mekanism:BasicBlock2:4>.withTag({tier: 0}, <Mekanism:ControlCircuit:1>], [<Mekanism:BasicBlock2:4>.withTag({tier: 0}, <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:4>.withTag({tier: 0}], [<Mekanism:ControlCircuit:1>, <Mekanism:BasicBlock2:4>.withTag({tier: 0}, <Mekanism:ControlCircuit:1>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 1}), [[<Mekanism:ControlCircuit:1>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 0}), <Mekanism:ControlCircuit:1>], [<Mekanism:BasicBlock2:4>.onlyWithTag({tier: 0}), <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 0})], [<Mekanism:ControlCircuit:1>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 0}), <Mekanism:ControlCircuit:1>]]);
 #Elite Induction Provider
-recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 2}, [[<Mekanism:ControlCircuit:2>, <Mekanism:BasicBlock2:4>.withTag({tier: 1}, <Mekanism:ControlCircuit:2>], [<Mekanism:BasicBlock2:4>.withTag({tier: 1}, <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:4>.withTag({tier: 1}], [<Mekanism:ControlCircuit:2>, <Mekanism:BasicBlock2:4>.withTag({tier: 1}, <Mekanism:ControlCircuit:2>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 2}), [[<Mekanism:ControlCircuit:2>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 1}), <Mekanism:ControlCircuit:2>], [<Mekanism:BasicBlock2:4>.onlyWithTag({tier: 1}), <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 1})], [<Mekanism:ControlCircuit:2>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 1}), <Mekanism:ControlCircuit:2>]]);
 #Ultimate Induction Provider
-recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 3}, [[<Mekanism:ControlCircuit:3>, <Mekanism:BasicBlock2:4>.withTag({tier: 2}, <Mekanism:ControlCircuit:3>], [<Mekanism:BasicBlock2:4>.withTag({tier: 2}, <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:4>.withTag({tier: 2}], [<Mekanism:ControlCircuit:3>, <Mekanism:BasicBlock2:4>.withTag({tier: 2}, <Mekanism:ControlCircuit:3>]]);
+recipes.addShaped(<Mekanism:BasicBlock2:4>.withTag({tier: 3}), [[<Mekanism:ControlCircuit:3>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 2}), <Mekanism:ControlCircuit:3>], [<Mekanism:BasicBlock2:4>.onlyWithTag({tier: 2}), <Mekanism:EnergyCube>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 2})], [<Mekanism:ControlCircuit:3>, <Mekanism:BasicBlock2:4>.onlyWithTag({tier: 2}), <Mekanism:ControlCircuit:3>]]);
 
 #SuperHeating Element
 recipes.addShaped(<Mekanism:BasicBlock2:5>, [[<minecraft:redstone>, <ore:ingotCopper>, <minecraft:redstone>], [<ore:ingotCopper>, <Mekanism:BasicBlock:8>, <ore:ingotCopper>], [<minecraft:redstone>, <ore:ingotCopper>, <minecraft:redstone>]]);
@@ -154,7 +147,7 @@ recipes.addShaped(<Mekanism:MachineBlock:14>, [[<ore:pressurePlateStone>, <ore:p
 #MachineBlock2
 
 #Rotary Condensentrator
-recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>], [<Mekanism:GasTank:*>, <Mekanism:EnergyTablet:*>, <Mekanism:MachineBlock2:11>.withTag({tier: 1})], [<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>], [<Mekanism:GasTank:*>, <Mekanism:EnergyTablet:*>, <Mekanism:MachineBlock2:11>.onlyWithTag({tier: 1})], [<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>]]);
 
 #Chemical Oxidizer
 recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
@@ -188,9 +181,9 @@ recipes.addShaped(<Mekanism:MachineBlock2:10>, [[null, <Mekanism:EnrichedAlloy>,
 
 #Portable Tanks
 recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 0}), [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ThermalExpansion:Tank:1>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 1}), [[<Mekanism:EnrichedAlloy>, <ore:ingotSilver>, <Mekanism:EnrichedAlloy>], [<ore:ingotSilver>, <Mekanism:MachineBlock2:11>.withTag({tier: 0}), <ore:ingotSilver>], [<Mekanism:EnrichedAlloy>, <ore:ingotSilver>, <Mekanism:EnrichedAlloy>]]);
-recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 2}), [[<Mekanism:ReinforcedAlloy>, <ore:ingotPlatinum>, <Mekanism:ReinforcedAlloy>], [<ore:ingotPlatinum>, <Mekanism:MachineBlock2:11>.withTag({tier: 1}), <ore:ingotPlatinum>], [<Mekanism:ReinforcedAlloy>, <ore:ingotPlatinum>, <Mekanism:ReinforcedAlloy>]]);
-recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 3}), [[<Mekanism:AtomicAlloy>, <ore:ingotEnderium>, <Mekanism:AtomicAlloy>], [<ore:ingotEnderium>, <Mekanism:MachineBlock2:11>.withTag({tier: 2}), <ore:ingotEnderium>], [<Mekanism:AtomicAlloy>, <ore:ingotEnderium>, <Mekanism:AtomicAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 1}), [[<Mekanism:EnrichedAlloy>, <ore:ingotSilver>, <Mekanism:EnrichedAlloy>], [<ore:ingotSilver>, <Mekanism:MachineBlock2:11>.onlyWithTag({tier: 0}), <ore:ingotSilver>], [<Mekanism:EnrichedAlloy>, <ore:ingotSilver>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 2}), [[<Mekanism:ReinforcedAlloy>, <ore:ingotPlatinum>, <Mekanism:ReinforcedAlloy>], [<ore:ingotPlatinum>, <Mekanism:MachineBlock2:11>.onlyWithTag({tier: 1}), <ore:ingotPlatinum>], [<Mekanism:ReinforcedAlloy>, <ore:ingotPlatinum>, <Mekanism:ReinforcedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 3}), [[<Mekanism:AtomicAlloy>, <ore:ingotEnderium>, <Mekanism:AtomicAlloy>], [<ore:ingotEnderium>, <Mekanism:MachineBlock2:11>.onlyWithTag({tier: 2}), <ore:ingotEnderium>], [<Mekanism:AtomicAlloy>, <ore:ingotEnderium>, <Mekanism:AtomicAlloy>]]);
 
 #Fluidic Plenisher
 recipes.addShaped(<Mekanism:MachineBlock2:12>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<Mekanism:ControlCircuit>, <Mekanism:MachineBlock:12>, <Mekanism:ControlCircuit>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
@@ -236,24 +229,24 @@ recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}));
 recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Elite"}));
 recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}));
 
-recipes.addShapeless(<Mekanism:EnergyCube>.onlyWithTag({tier: "Basic"}), [<ThermalExpansion:Cell:1>]);
+recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [<ThermalExpansion:Cell:1>]);
 recipes.addShapeless(<ThermalExpansion:Cell:1>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Basic"})]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.onlyWithTag({tier: "Advanced"}), [<ThermalExpansion:Cell:2>]);
+recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [<ThermalExpansion:Cell:2>]);
 recipes.addShapeless(<ThermalExpansion:Cell:2>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Advanced"})]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"}), [<ThermalExpansion:Cell:3>]);
+recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [<ThermalExpansion:Cell:3>]);
 recipes.addShapeless(<ThermalExpansion:Cell:3>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"})]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.onlyWithTag({tier: "Ultimate"}), [<ThermalExpansion:Cell:4>]);
+recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [<ThermalExpansion:Cell:4>]);
 recipes.addShapeless(<ThermalExpansion:Cell:4>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Ultimate"})]);
 
 #Obsidian TNT
 recipes.addShaped(<Mekanism:ObsidianTNT>, [[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>], [<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 
 #GasTank
-recipes.addShaped(<Mekanism:GasTank:*>, [[<minecraft:redstone>, <ore:plateSteel>, <minecraft:redstone>], [<ore:plateSteel>, null, <ore:plateSteel>], [<minecraft:redstone>, <ore:plateSteel>, <minecraft:redstone>]]);
-recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 1}), [[<Mekanism:EnrichedAlloy>, <ore:platePlatinum>, <Mekanism:EnrichedAlloy>], [<ore:platePlatinum>, <Mekanism:GasTank:*>.onlyWithTag(), <ore:platePlatinum>], [<Mekanism:EnrichedAlloy>, <ore:platePlatinum>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 0}), [[<minecraft:redstone>, <ore:plateSteel>, <minecraft:redstone>], [<ore:plateSteel>, null, <ore:plateSteel>], [<minecraft:redstone>, <ore:plateSteel>, <minecraft:redstone>]]);
+recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 1}), [[<Mekanism:EnrichedAlloy>, <ore:platePlatinum>, <Mekanism:EnrichedAlloy>], [<ore:platePlatinum>, <Mekanism:GasTank:*>.onlyWithTag({tier: 0}), <ore:platePlatinum>], [<Mekanism:EnrichedAlloy>, <ore:platePlatinum>, <Mekanism:EnrichedAlloy>]]);
 recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 2}), [[<Mekanism:ReinforcedAlloy>, <ore:plateEnderium>, <Mekanism:ReinforcedAlloy>], [<ore:plateEnderium>, <Mekanism:GasTank:*>.onlyWithTag({tier: 1}), <ore:plateEnderium>], [<Mekanism:ReinforcedAlloy>, <ore:plateEnderium>, <Mekanism:ReinforcedAlloy>]]);
 recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 3}), [[<Mekanism:AtomicAlloy>, <ore:plateRefinedObsidian>, <Mekanism:AtomicAlloy>], [<ore:plateRefinedObsidian>, <Mekanism:GasTank:*>.onlyWithTag({tier: 2}), <ore:plateRefinedObsidian>], [<Mekanism:AtomicAlloy>, <ore:plateRefinedObsidian>, <Mekanism:AtomicAlloy>]]);
 
@@ -277,7 +270,7 @@ recipes.addShaped(<Mekanism:EnergyTablet>, [[<minecraft:redstone>, <ore:ingotGol
 #Machine Upgrades
 recipes.addShaped(<Mekanism:SpeedUpgrade>, [[<Mekanism:Ingot:3>, <Mekanism:ConfigurationCard>, <Mekanism:Ingot:3>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0}), <Mekanism:ReinforcedAlloy>], [<Mekanism:Ingot:3>, <Mekanism:ControlCircuit>,<Mekanism:Ingot:3>]]);
 recipes.addShaped(<Mekanism:EnergyUpgrade>, [[<Mekanism:Ingot>, <Mekanism:ConfigurationCard>, <Mekanism:Ingot>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0}), <Mekanism:ReinforcedAlloy>], [<Mekanism:Ingot>, <Mekanism:ControlCircuit>,<Mekanism:Ingot>]]);
-recipes.addShaped(<Mekanism:FilterUpgrade>, [[<ThermalFoundation:material:76>, <Mekanism:ConfigurationCard>, <ThermalFoundation:material:76>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0}), <Mekanism:ReinforcedAlloy>], [<ThermalFoundation:material:76>, <Mekanism:ControlCircuit>,<ThermalFoundation:material:76>]]);
+recipes.addShaped(<Mekanism:FilterUpgrade>, [[<ore:ingotEnderium>, <Mekanism:ConfigurationCard>, <ore:ingotEnderium>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0}), <Mekanism:ReinforcedAlloy>], [<ore:ingotEnderium>, <Mekanism:ControlCircuit>,<ore:ingotEnderium>]]);
 recipes.addShaped(<Mekanism:MufflingUpgrade>, [[<ore:ingotSteel>, <Mekanism:ConfigurationCard>, <ore:ingotSteel>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0}), <Mekanism:ReinforcedAlloy>], [<ore:ingotSteel>, <Mekanism:ControlCircuit>,<ore:ingotSteel>]]);
 recipes.addShaped(<Mekanism:GasUpgrade>, [[<Mekanism:Polyethene:2>, <Mekanism:ConfigurationCard>, <Mekanism:Polyethene:2>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0}), <Mekanism:ReinforcedAlloy>], [<Mekanism:Polyethene:2>, <Mekanism:ControlCircuit>,<Mekanism:Polyethene:2>]]);
 
@@ -373,7 +366,7 @@ recipes.addShaped(<MekanismGenerators:Generator:4>, [[<minecraft:redstone>, <Mek
 recipes.addShaped(<MekanismGenerators:Generator:5>, [[<MekanismGenerators:Generator:1>, <ThermalExpansion:Light:1>.withTag({Style: 3 as byte}), <MekanismGenerators:Generator:1>], [<MekanismGenerators:Generator:1>, <MekanismGenerators:Generator:7>, <MekanismGenerators:Generator:1>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyCube>.withTag({tier: "Elite"}), <Mekanism:ReinforcedAlloy>]]);
 
 #Wind Turbine
-recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <MekanismGenerators:TurbineBlade>, null], [<Mekanism:Polyethene:2>, <MekanismGenerators:Generator:7>, <Mekanism:Polyethene:2>], [<Mekanism:EnergyCube>.withTag({tier: "Elite"}), <Mekanism:BasicBlock2:2>, <Mekanism:EnergyCube>.withTag({tier: "Elite"})]]);
+recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <MekanismGenerators:TurbineBlade>, null], [<Mekanism:Polyethene:2>, <MekanismGenerators:Generator:7>, <Mekanism:Polyethene:2>], [<Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"}), <Mekanism:BasicBlock2:2>, <Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"})]]);
 
 #Turbine Rotor
 recipes.addShaped(<MekanismGenerators:Generator:7>, [[<ore:ingotSteel>, <Mekanism:EnrichedAlloy>, <ore:ingotSteel>], [<ore:ingotSteel>, <Mekanism:EnrichedAlloy>, <ore:ingotSteel>], [<ore:ingotSteel>, <Mekanism:EnrichedAlloy>, <ore:ingotSteel>]]);
@@ -435,9 +428,6 @@ recipes.addShaped(<MekanismGenerators:TurbineBlade>, [[null, <ore:ingotSteel>, n
 #Remove x5 ore processing
 furnace.remove(<*>, <Mekanism:DirtyDust:*>);
 
-#Silicon Balance
-mods.mekanism.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>);
-
 #Metallurgic Infuser fix platinum
 mods.mekanism.Infuser.addRecipe("REDSTONE", 10, <ThermalFoundation:material:69>, <Mekanism:ControlCircuit>);
 
@@ -456,12 +446,12 @@ mods.mekanism.Reaction.addRecipe(<Forestry:mulch>, <liquid:biomass>*250, <gas:me
 mods.mekanism.Separator.addRecipe(<liquid:sewage>, 200, <gas:methane>, <gas:water>);
 
 #Ethene alt
-mods.mekanism.Reaction.addRecipe(<ThermalExpansion:florb>.withTag({Fluid: "oil"}), <liquid:water>*500, <gas:hydrogen>*250, <Mekanism:Substrate>, <gas:ethene>*150, 1000, 800);
+mods.mekanism.Reaction.addRecipe(<ThermalExpansion:material:516>, <liquid:oil>*250, <gas:water>*1000, <Mekanism:Substrate>, <gas:ethene>*30, 500, 400);
 mods.mekanism.Reaction.removeRecipe(<Mekanism:Substrate>, <gas:ethene>, <Mekanism:BioFuel>, <liquid:water>, <gas:hydrogen>);
 
 #Teleportator
 recipes.remove(<Mekanism:TeleportationCore>);
-mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>,1200000,[<minecraft:dye:4>, <Mekanism:AtomicAlloy>, <minecraft:dye:4>, <ThermalFoundation:material:76>, <minecraft:diamond>, <ThermalFoundation:material:76>, <minecraft:dye:4>, <Mekanism:AtomicAlloy>, <minecraft:dye:4>]);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>,1200000,[<minecraft:dye:4>, <Mekanism:AtomicAlloy>, <minecraft:dye:4>, <ore:ingotEnderium>, <minecraft:diamond>, <ore:ingotEnderium>, <minecraft:dye:4>, <Mekanism:AtomicAlloy>, <minecraft:dye:4>]);
 
 #logistical transporter
 recipes.remove(<Mekanism:PartTransmitter:12>);

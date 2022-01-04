@@ -75,7 +75,7 @@ recipes.addShaped(<IC2:blockMachine3:1>, [[<ore:plateSteel>, <ore:plateSteel>, <
 
 #Induction Furnace
 recipes.remove(<IC2:blockMachine:13>);
-recipes.addShaped(<IC2:blockMachine:13>, [[<ore:plateStainlessSteel>, <IC2:itemPartCircuitAdv>,<ore:plateStainlessSteel>], [<IC2:itemRecipePart:5>, <gregtech_addon:machine:54>, <IC2:itemRecipePart:5>], [<ore:plateStainlessSteel>, <ore:craftingRawMachineTier03>,<ore:plateStainlessSteel>]]);
+recipes.addShaped(<IC2:blockMachine:13>, [[<ore:plateSteel>, <IC2:itemPartCircuitAdv>,<ore:plateSteel>], [<IC2:itemRecipePart:5>, <gregtech_addon:machine:54>, <IC2:itemRecipePart:5>], [<ore:plateSteel>, <ore:craftingRawMachineTier02>,<ore:plateSteel>]]);
 
 print("Initialized 'IC2.zs'");
 

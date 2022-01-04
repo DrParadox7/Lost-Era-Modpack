@@ -31,7 +31,7 @@ recipes.addShapeless(<ThermalFoundation:material:44>*4, [<ore:dustTin>, <ore:dus
 
 #Thermionic Ender Electron Tube
 mods.forestry.ThermionicFabricator.removeCast(<Forestry:thermionicTubes:12>); 
-mods.forestry.ThermionicFabricator.addCast(<Forestry:thermionicTubes:12> *2, [[<Botania:manaResource:15>, <ThermalFoundation:material:76>, <Botania:manaResource:15>], [<minecraft:ender_eye>, <ThermalFoundation:material:76>, <minecraft:ender_eye>], [<ThermalFoundation:material:76>, <ThermalFoundation:material:76>, <ThermalFoundation:material:76>]], 1000);
+mods.forestry.ThermionicFabricator.addCast(<Forestry:thermionicTubes:12> *2, [[<Botania:manaResource:15>, <ore:ingotEnderium>, <Botania:manaResource:15>], [<minecraft:ender_eye>, <ore:ingotEnderium>, <minecraft:ender_eye>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]], 1000);
 
 #Obsidian before diamond exploit patch
 recipes.remove(<ThermalExpansion:Machine:7>);

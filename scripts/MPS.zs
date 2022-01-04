@@ -3,6 +3,13 @@
 
 print("Initializing 'MPS.zs'...");
 
+#Liquid Nitrogen MPS ore Dictionary
+val nitrogen = <ore:itemNitrogenCapsule>;
+nitrogen.add(<BinnieCore:containerCapsule:68>);
+nitrogen.add(<BinnieCore:containerRefractory:68>);
+nitrogen.add(<MagicBees:capsule.magic:14>);
+nitrogen.add(<MagicBees:capsule.void:14>);
+
 #Ion Thrusters
 recipes.remove(<powersuits:powerArmorComponent:4>); 
 mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:4>, 125000, [<RedstoneArsenal:material:96>, <Mekanism:Ingot:3>, <Mekanism:ControlCircuit:2>, <ThermalFoundation:material:513>]);

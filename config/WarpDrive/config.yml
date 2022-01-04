@@ -221,7 +221,7 @@ general {
     I:entity_star_core_id=242
 
     # Hyperspace dimension provider ID
-    I:hyperspace_provider_id=15
+    I:hyperspace_provider_id=-3
 
     # LUA scripts to load when connecting machines: 0 = none, 1 = templates in a subfolder, 2 = ready to roll (templates are still provided)
     I:lua_scripts=2
@@ -233,7 +233,7 @@ general {
     I:space_biome_id=95
 
     # Space dimension provider ID
-    I:space_provider_id=14
+    I:space_provider_id=-2
 }
 
 

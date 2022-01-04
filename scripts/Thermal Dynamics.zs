@@ -5,10 +5,10 @@ print("Initializing 'ThermalDynamics.zs'...");
 ###RF Pipes###
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:*>);
 
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0>*8, [[<ore:ingotLead>, <ore:ingotRedAlloy>, <ore:ingotLead>], [<ore:blockGlass>, <ore:ingotRedAlloy>, <ore:blockGlass>], [<ore:ingotLead>, <ore:ingotRedAlloy>, <ore:ingotLead>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:1>*8, [[<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>], [<ore:blockGlassHardened>, <ore:ingotRedAlloy>, <ore:blockGlassHardened>], [<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:3>*8, [[<ore:ingotElectrum>, <ThermalExpansion:Glass:1>, <ore:ingotElectrum>], [<ThermalExpansion:Glass>, null, <ThermalExpansion:Glass>], [<ore:ingotElectrum>, <ThermalExpansion:Glass:1>, <ore:ingotElectrum>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:5>*3, [[null, <BuildCraft|Silicon:redstoneChipset:4>, null],[<ThermalDynamics:ThermalDynamics_0:3>,<ThermalDynamics:ThermalDynamics_0:3>,<ThermalDynamics:ThermalDynamics_0:3>],[null, <ore:ingotEnderium>, null]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0>*16, [[<ore:plateLead>, <ore:ingotRedAlloy>, <ore:plateLead>], [<ore:blockGlass>, <ore:ingotRedAlloy>, <ore:blockGlass>], [<ore:plateLead>, <ore:ingotRedAlloy>, <ore:plateLead>]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:1>*16, [[<ore:plateInvar>, <ore:ingotRedAlloy>, <ore:plateInvar>], [<ore:blockGlassHardened>, <ore:ingotRedAlloy>, <ore:blockGlassHardened>], [<ore:plateInvar>, <ore:ingotRedAlloy>, <ore:plateInvar>]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:3>*16, [[<ore:plateElectrum>, <ThermalExpansion:Glass:1>, <ore:plateElectrum>], [<ThermalExpansion:Glass>, null, <ThermalExpansion:Glass>], [<ore:plateElectrum>, <ThermalExpansion:Glass:1>, <ore:plateElectrum>]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:5>*8, [[<ThermalDynamics:ThermalDynamics_0:3>, <ThermalDynamics:ThermalDynamics_0:3>, <ThermalDynamics:ThermalDynamics_0:3>],[<ThermalDynamics:ThermalDynamics_0:3>,<ore:ingotEnderium>,<ThermalDynamics:ThermalDynamics_0:3>],[<ThermalDynamics:ThermalDynamics_0:3>, <ThermalDynamics:ThermalDynamics_0:3>, <ThermalDynamics:ThermalDynamics_0:3>]]);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:7>*8, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass:1>, <ore:ingotElectrumFlux>], [<ThermalExpansion:Glass>, <ore:gemCrystalFlux>, <ThermalExpansion:Glass>], [<ore:ingotElectrumFlux>, <ThermalExpansion:Glass:1>, <ore:ingotElectrumFlux>]]);
 
 ###Storage Pipes###
@@ -41,16 +41,6 @@ recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:3>*4, [[<ore:plateSteel>, 
 
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:6>, [[<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_16:2>, <ore:blockGlassHardened>], [<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>]]);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:7>, [[<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_16:3>, <ore:blockGlassHardened>], [<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>]]);
-
-#IC2 recipes
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_32>*36, [[<IC2:itemDensePlates:1>, <ore:blockGlass>, <IC2:itemDensePlates:1>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_32:1>*36, [[<IC2:itemDensePlates:1>, <ore:ingotLead>, <IC2:itemDensePlates:1>]]);
-
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16>*36, [[<IC2:itemDensePlates>, <ore:blockGlass>, <IC2:itemDensePlates>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:1>*36, [[<IC2:itemDensePlates>, <ore:ingotLead>, <IC2:itemDensePlates>]]);
-
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:2>*36, [[<IC2:itemDensePlates:5>, <IC2:blockAlloyGlass>, <IC2:itemDensePlates:5>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:3>*36, [[<IC2:itemDensePlates:5>, <ore:ingotLead>, <IC2:itemDensePlates:5>]]);
 
 #Shapeless
 recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:dustLead>]);

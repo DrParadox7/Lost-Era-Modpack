@@ -82,6 +82,9 @@ recipes.addShaped(<Botany:ceramicBrick:16387>.withTag({meta: 530691}), [[<Botany
 val Sawdust = <ore:dustWood>;
 Sawdust.add(<ExtraTrees:misc:1>);
 
+#Cinnamon tree makes Cinnamon
+mods.forestry.Carpenter.addRecipe(<harvestcraft:cinnamonItem> * 4, [[<ExtraTrees:log:38>, <ExtraTrees:log:38>, null],[<ExtraTrees:log:38>, <ExtraTrees:log:38>, null]], <liquid:water> * 50, 140);
+
 #Remove Papertree from Pam's
 recipes.remove(<harvestcraft:pampaperbarkSapling>);
 

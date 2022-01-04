@@ -56,6 +56,22 @@
     {
       "item": "powersuits:item.powerArmorChestplate",
       "damage": "*"
+    },
+    {
+      "item": "Mekanism:MachineBlock",
+      "damage": "4"
+    },
+    {
+      "item": "WarpDrive:blockMiningLaser",
+      "damage": "*"
+    },
+    {
+      "item": "BuildCraft|Builders:machineBlock",
+      "damage": "*"
+    },
+    {
+      "item": "Mekanism:PortableTeleporter",
+      "damage": "*"
     }
   ]
 }

@@ -57,6 +57,7 @@ Decomposer.removeRecipe(<Railcraft:dust>);
 Decomposer.removeRecipe(<NuclearCraft:material:7>);
 Decomposer.removeRecipe(<NuclearCraft:blockBlock:7>);
 Decomposer.removeRecipe(<minechem:minechemPolytool>);
+Decomposer.removeRecipe(<minecraft:bucket>);
 
 Decomposer.addRecipe(<ore:dustObsidian>,0.5,[[SiO*4, Mag*2]]);
 Decomposer.addRecipe(<NuclearCraft:material:7>,0.8,[[Au*15, Ti*15]]);

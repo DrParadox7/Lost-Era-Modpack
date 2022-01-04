@@ -19,6 +19,10 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 21000, <Railcraft:cube:2>);
 
+#Balance Rolling Machine
+recipes.remove(<Railcraft:machine.alpha:8>);
+recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>], [<minecraft:piston>, <ore:craftingTableWood>, <minecraft:piston>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
+
 ### Tanks ###
 #Iron 
 recipes.addShaped(<Railcraft:machine.beta>*4, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);

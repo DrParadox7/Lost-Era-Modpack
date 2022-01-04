@@ -31,10 +31,8 @@ recipes.remove(<TConstruct:heartCanister>);
 <TConstruct:heartCanister:3>.addTooltip("Can be eaten to restore 20 hearts");
 <TConstruct:heartCanister:5>.addTooltip("Can be eaten to restore 30 hearts");
 
-mods.tconstruct.Smeltery.removeMelting(<Mekanism:OreBlock>);
-mods.tconstruct.Smeltery.removeMelting(<Mekanism:Dust:2>);
-mods.tconstruct.Smeltery.removeMelting(<Mekanism:Ingot:1>);
-mods.tconstruct.Smeltery.removeMelting(<Mekanism:BasicBlock>);
+#In case bucket dupes ever pop up
+mods.tconstruct.Smeltery.removeMelting(<minecraft:bucket>);
 
 #Aroma Dim integration
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);

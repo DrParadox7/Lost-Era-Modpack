@@ -146,14 +146,13 @@
 "OceanSalt": {
         "template": "underwater",
         "block": [
-			{"name": "harvestcraft:salt", "weight":50},
-			{"name": "minecraft:gravel", "weight":10},
+			{"name": "harvestcraft:salt", "weight":55},
 			{"name": "chisel:limestone", "weight":45}
 		],
         "material": "minecraft:gravel",
-        "clusterSize": 4,
+        "clusterSize": 10,
         "numClusters": 1,
-		"chunkChance": 15,
+		"chunkChance": 10,
         "minHeight": 20,
         "maxHeight": 100,
         "retrogen": "true",
@@ -227,6 +226,35 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -100
+        ]
+    },
+    "Limestone": {
+        "template": "uniform",
+        "block": [
+			{"name": "harvestcraft:salt", "weight":23},
+			{"name": "chisel:limestone", "weight":77}
+		],
+        "material": "stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "chunkChance": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+		"biomes":[],	
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -112,
+            -73,
+            -42,
+            -39,
+            -38,
+            -2,
+            -1,
+            1,
+            69
         ]
     },
 	"bitumen": {

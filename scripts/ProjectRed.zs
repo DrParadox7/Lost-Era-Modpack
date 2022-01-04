@@ -14,8 +14,12 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:58>, [[<ProjRed|Core:projec
 recipes.addShaped(<ProjRed|Core:projectred.core.part:42>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <ore:itemSilicon>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
 recipes.addShaped(<ProjRed|Core:projectred.core.part:42>, [[<minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>], [<minecraft:glowstone>, <ore:itemSilicon>, <minecraft:glowstone>], [<minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>]]);
 
+#Red Iron Compound
+recipes.addShaped(<ProjRed|Core:projectred.core.part:40>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+
 #Recipe Conflict
 furnace.remove(<ProjRed|Core:projectred.core.part>);
+
 mods.thermalexpansion.Furnace.removeRecipe(<minecraft:stone>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:stone>, <etfuturum:smooth_stone>);
 

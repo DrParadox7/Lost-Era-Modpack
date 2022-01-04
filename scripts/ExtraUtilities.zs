@@ -60,11 +60,59 @@ recipes.addShaped(<ExtraUtilities:budoff>, [[<minecraft:stone>, <ore:ingotRedAll
 
 #Block Update Detector (Advanced)
 recipes.remove(<ExtraUtilities:budoff:3>);
-recipes.addShaped(<ExtraUtilities:budoff:3>, [[<minecraft:stone>, <ore:ingotRedAlloy>, <minecraft:stone>], [<ore:ingotRedAlloy>, <ExtraUtilities:budoff>, <ore:ingotRedAlloy>], [<minecraft:stone>, <ore:ingotRedAlloy>, <minecraft:stone>]]);
+recipes.addShaped(<ExtraUtilities:budoff:3>, [[<minecraft:stone>, <ProjRed|Transmission:projectred.transmission.wire>, <minecraft:stone>], [<ProjRed|Transmission:projectred.transmission.wire>, <ExtraUtilities:budoff>, <ProjRed|Transmission:projectred.transmission.wire>], [<minecraft:stone>, <ProjRed|Transmission:projectred.transmission.wire>, <minecraft:stone>]]);
 
 #Redstone Clock
 recipes.remove(<ExtraUtilities:timer>);
-recipes.addShaped(<ExtraUtilities:timer>, [[<ore:ingotRedAlloy>, <minecraft:stone>, <ore:ingotRedAlloy>], [<minecraft:stone>, <minecraft:redstone_torch>, <minecraft:stone>], [<ore:ingotRedAlloy>, <minecraft:stone>, <ore:ingotRedAlloy>]]);
+recipes.addShaped(<ExtraUtilities:timer>, [[<ProjRed|Core:projectred.core.part:1>, <minecraft:stone>, <ProjRed|Core:projectred.core.part:1>], [<minecraft:stone>, <minecraft:redstone_torch>, <minecraft:stone>], [<ProjRed|Core:projectred.core.part:1>, <minecraft:stone>, <ProjRed|Core:projectred.core.part:1>]]);
+
+#Pipes (now a Witchery addon)
+
+#Item Extractor
+recipes.remove(<ExtraUtilities:extractor_base>);
+recipes.addShaped(<ExtraUtilities:extractor_base>, [[<ExtraUtilities:pipes>, <witchery:ingredient:12>, <ExtraUtilities:pipes>], [<witchery:ingredient:67>, <ore:blockHopper>, <witchery:ingredient:67>], [<minecraft:obsidian>, <minecraft:redstone>, <minecraft:obsidian>]]);
+
+#Fluid Extractor
+recipes.remove(<ExtraUtilities:extractor_base:6>);
+recipes.addShaped(<ExtraUtilities:extractor_base:6>, [[<ExtraUtilities:pipes>, <witchery:ingredient:12>, <ExtraUtilities:pipes>], [<witchery:ingredient:67>, <minecraft:cauldron>, <witchery:ingredient:67>], [<minecraft:obsidian>, <witchery:ingredient:153>, <minecraft:obsidian>]]);
+
+
+#Retrievers
+mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base_remote:*>);
+
+#Item
+recipes.addShaped(<ExtraUtilities:extractor_base_remote>, [[<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<witchery:ingredient:32>, <ore:blockHopper>, <witchery:ingredient:32>], [<minecraft:obsidian>, <witchery:ingredient:125>, <minecraft:obsidian>]]);
+#Fluid
+recipes.addShaped(<ExtraUtilities:extractor_base_remote:6>, [[<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<witchery:ingredient:37>, <minecraft:cauldron>, <witchery:ingredient:37>], [<minecraft:obsidian>, <witchery:ingredient:77>, <minecraft:obsidian>]]);
+
+
+#Item Pipe 
+recipes.remove(<ExtraUtilities:pipes>);
+recipes.addShaped(<ExtraUtilities:pipes> * 8, [[<minecraft:iron_ingot>, <ore:slabStone>, <minecraft:iron_ingot>], [<ore:barsIron>, <Botania:manaResource:15>, <ore:barsIron>], [<minecraft:iron_ingot>, <ore:slabStone>, <minecraft:iron_ingot>]]);
+
+#Sorting Pipe
+recipes.remove(<ExtraUtilities:pipes:8>);
+recipes.addShaped(<ExtraUtilities:pipes:8> * 3, [[<witchery:ingredient:102>, <witchery:ingredient:36>, <witchery:ingredient:102>], [<ore:dustGlowstone>, <ExtraUtilities:pipes>, <ore:dustGlowstone>], [<ExtraUtilities:pipes>, <witchery:ingredient:102>, <ExtraUtilities:pipes>]]);
+
+#Modded Sorting Pipe 
+recipes.remove(<ExtraUtilities:pipes:13>);
+recipes.addShaped(<ExtraUtilities:pipes:13>, [[<minecraft:redstone>, <witchery:shadedglass:*>, <minecraft:redstone>], [<witchery:shadedglass:*>, <ExtraUtilities:pipes:8>, <witchery:shadedglass:*>], [<minecraft:redstone>, <witchery:shadedglass:*>, <minecraft:redstone>]]);
+
+#Filtered Pipe 
+recipes.remove(<ExtraUtilities:pipes:9>);
+recipes.addShaped(<ExtraUtilities:pipes:9> * 3, [[<ore:dye>, <ExtraUtilities:pipes>, <ore:dye>], [<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<ore:dye>, <witchery:ingredient:34>, <ore:dye>]]);
+
+#Crossover Pipe
+recipes.remove(<ExtraUtilities:pipes:12>);
+recipes.addShapeless(<ExtraUtilities:pipes:12>*2, [<malisisdoors:iron_trapdoor>,<ExtraUtilities:pipes>,<ExtraUtilities:pipes>]);
+
+#Rationing Pipe 
+recipes.remove(<ExtraUtilities:pipes:10>);
+recipes.addShaped(<ExtraUtilities:pipes:10>, [[null, <witchery:ingredient:37>, null], [<witchery:ingredient:149>, <ExtraUtilities:pipes>, <witchery:ingredient:149>], [null, <witchery:ingredient:149>, null]]);
+
+#Hyper-Rationing Pipe 
+recipes.remove(<ExtraUtilities:pipes.1>);
+recipes.addShapeless(<ExtraUtilities:pipes.1>, [<ExtraUtilities:pipes:10>, <witchery:ingredient:56>]);
 
 print("Initialized 'Extrautilities.zs'");
 

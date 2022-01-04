@@ -215,10 +215,10 @@ recipes.remove(<openmodularturrets:hardWallTierFive>);
 recipes.addShaped(<openmodularturrets:hardWallTierFive>*16, [[<openmodularturrets:hardWallTierFour>, <ExtraUtilities:cobblestone_compressed:5>, <openmodularturrets:hardWallTierFour>], [<ExtraUtilities:cobblestone_compressed:5>, <openmodularturrets:hardWallTierFour>, <ExtraUtilities:cobblestone_compressed:5>], [<openmodularturrets:hardWallTierFour>, <ExtraUtilities:cobblestone_compressed:5>, <openmodularturrets:hardWallTierFour>]]);
 
 #Upgradable
-recipes.addShapeless(<openmodularturrets:sensorTierOneItem>, [<IC2:itemToolForgeHammer>.transformDamage(5), <openmodularturrets:baseTierWood>]);
-recipes.addShapeless(<openmodularturrets:sensorTierTwoItem>, [<IC2:itemToolForgeHammer>.transformDamage(5), <openmodularturrets:baseTierOneBlock>]);
-recipes.addShapeless(<openmodularturrets:sensorTierThreeItem>, [<IC2:itemToolForgeHammer>.transformDamage(5), <openmodularturrets:baseTierTwoBlock>]);
-recipes.addShapeless(<openmodularturrets:sensorTierFourItem>, [<IC2:itemToolForgeHammer>.transformDamage(5), <openmodularturrets:baseTierThreeBlock>]);
+recipes.addShapeless(<openmodularturrets:sensorTierOneItem>, [<ThermalExpansion:tool.battleWrenchInvar>.transformDamage(5), <openmodularturrets:baseTierWood>]);
+recipes.addShapeless(<openmodularturrets:sensorTierTwoItem>, [<ThermalExpansion:tool.battleWrenchInvar>.transformDamage(5), <openmodularturrets:baseTierOneBlock>]);
+recipes.addShapeless(<openmodularturrets:sensorTierThreeItem>, [<ThermalExpansion:tool.battleWrenchInvar>.transformDamage(5), <openmodularturrets:baseTierTwoBlock>]);
+recipes.addShapeless(<openmodularturrets:sensorTierFourItem>, [<ThermalExpansion:tool.battleWrenchInvar>.transformDamage(5), <openmodularturrets:baseTierThreeBlock>]);
 
 recipes.addShapeless(<openmodularturrets:sensorTierOneItem>, [<ore:craftingToolHardHammer>.transformDamage(15), <openmodularturrets:baseTierWood>]);
 recipes.addShapeless(<openmodularturrets:sensorTierTwoItem>, [<ore:craftingToolHardHammer>.transformDamage(15), <openmodularturrets:baseTierOneBlock>]);

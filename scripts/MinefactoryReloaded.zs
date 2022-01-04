@@ -91,13 +91,24 @@ plateplastic.remove(<MineFactoryReloaded:plastic.sheet>);
 #Plastic dust
 mods.mekanism.Crusher.addRecipe(<Mekanism:Polyethene>, <MineFactoryReloaded:plastic.raw>*12);
 
-#recipe removals
+#Plastic furnace removal
 furnace.remove(<MineFactoryReloaded:plastic.raw>);
+mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:ruler>);
+mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:plastic.bag>);
+mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:plastic.sheet>);
+mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:straw>);
+
+#Rubber Furnace removal
 mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:rubber.bar>);
 mods.thermalexpansion.Furnace.removeRecipe(<IC2:itemRubber>);
 
 mods.thermalexpansion.Furnace.removeRecipe(<gregtech_addon:metaitem_1:11880>);
 mods.thermalexpansion.Furnace.removeRecipe(<gregtech_addon:metaitem_1:17874>);
+
+#Plastic Recycling
+mods.thermalexpansion.Pulverizer.addRecipe(2400, <MineFactoryReloaded:plastic.bag>, <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>, 25);
+mods.thermalexpansion.Pulverizer.addRecipe(2400, <MineFactoryReloaded:straw>, <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>, 55);
+
 ###Plastic Rework###
 
 recipes.remove(<MineFactoryReloaded:machineblock>);
@@ -217,7 +228,7 @@ game.setLocalization("en_US", "item.mfr.plastic.raw.name", "Raw LDPE");
 
 #Plastic creation (Early game)
 mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.raw>, [[<Forestry:mulch>]], <liquid:bioethanol>* 100, 20);
-mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.sheet>, [[<MineFactoryReloaded:plastic.raw>]], <liquid:resin>* 50, 20);
+mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.sheet>*4, [[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>],[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>]], <liquid:resin>* 150, 20);
 mods.mekanism.Enrichment.addRecipe(<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.sheet>);
 
 #Laser Focus 

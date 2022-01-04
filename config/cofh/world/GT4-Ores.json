@@ -317,5 +317,73 @@
         "dimensions": [
             -1
         ]
+    },
+    "Tungstate": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 9},
+        "material": "end_stone",
+        "clusterSize": 9,
+        "numClusters": 8,
+        "chunkChance": 1,
+        "minHeight": 16,
+        "maxHeight": 220,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Sheldonite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 10},
+        "material": "end_stone",
+        "clusterSize": 4,
+        "numClusters": 3,
+        "chunkChance": 1,
+        "minHeight": 16,
+        "maxHeight": 220,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Olivine": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 11},
+        "material": "end_stone",
+        "clusterSize": 4,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 16,
+        "maxHeight": 220,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Sodalite": {
+        "template": "uniform",
+        "block": {"name": "gregtech_addon:ore", "metadata": 12},
+        "material": "end_stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "chunkChance": 1,
+        "minHeight": 16,
+        "maxHeight": 220,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
     }
 }   

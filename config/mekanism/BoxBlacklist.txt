@@ -35,3 +35,4 @@ ThermalExpansion:Strongbox 2
 ThermalExpansion:Strongbox 3
 ThermalExpansion:Strongbox 4
 CarpentersBlocks:blockCarpentersSafe 0
+Botania:specialFlower 0

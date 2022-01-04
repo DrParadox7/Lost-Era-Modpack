@@ -2,7 +2,8 @@
   "food": {
     "items": [
       "ThaumicExploration:taintBerry",
-      "Thaumcraft:ItemZombieBrain"
+      "Thaumcraft:ItemZombieBrain",
+      "ForbiddenMagic:TaintFruit"
     ]
   },
   "name": "§kEldritch",
