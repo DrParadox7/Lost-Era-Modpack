@@ -133,6 +133,14 @@ mods.thaumcraft.Research.addPrereq("ICHOR", "PRIMPEARL", false);
 mods.thaumcraft.Research.addPrereq("ROD_ICHORCLOTH", "ROD_primal_staff", false);
 mods.thaumcraft.Research.addPrereq("TALISMANFOOD", "RINGFOOD", false);
 
+#Is this even necessary? Let's have it just in case.
+mods.thaumcraft.Research.clearPrereqs("ICHORCLOTH_HELM_GEM");
+mods.thaumcraft.Research.clearPrereqs("WARP_GATE");
+
+mods.thaumcraft.Research.addPrereq("ICHORCLOTH_HELM_GEM", "ICHORCLOTH_ARMOR", false);
+mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_CHEST_GEM", false);
+mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_BOOTS_GEM", false);
+
 ######Botania/Forgotten Relics COMPAT######
 mods.thaumcraft.Research.addResearch("BETTERQUEST", "FORBIDDEN", "null", 0, 1, 1, <Botania:corporeaSpark>);
 mods.thaumcraft.Research.setVirtual("BETTERQUEST", true);

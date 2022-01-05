@@ -198,7 +198,7 @@
 	{
 		"ingredients" : [
 			[ { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "oredictName" : "oc:graphicsCard1"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 } ],
-			[ { "registryName" : "<Mekanism:ControlCircuit>"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "registryName" : "<Mekanism:ControlCircuit>"} ],
+			[ { "registryName" : "Mekanism:ControlCircuit"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "registryName" : "Mekanism:ControlCircuit"} ],
 			[ { "registryName" : "ThermalExpansion:Glass", "meta" : 1 }, { "oredictName" : "battery"}, { "registryName" : "ThermalExpansion:Glass", "meta" : 1 } ]
 		],
 		"result" : {
