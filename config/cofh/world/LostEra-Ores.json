@@ -179,8 +179,8 @@
 		{"name":"minecraft:sand"},
 		{"name":"minecraft:dirt"}
 		],
-        "clusterSize": 8,
-        "numClusters": 3,
+        "clusterSize": 6,
+        "numClusters": 1,
 		"chunkChance": 2,
         "minHeight": 30,
         "maxHeight": 66,
@@ -189,16 +189,18 @@
 		"biomes":[
 		{
 			"type": "dictionary", 
-			"entry": "BEACH"
+			"entry": "BEACH",
+            "rarity": 2
 		},
         {
 			"type": "dictionary", 
-			"entry": "SANDY"
+			"entry": "SANDY",
+            "rarity": 3
 		},
 		{
 			"type": "dictionary", 
 			"entry": "SWAMP",
-			"rarity": 2
+			"rarity": 3
 		},
         {
 			"type": "dictionary", 

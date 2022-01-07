@@ -13,7 +13,7 @@ toast.add(<cookingforblockheads:toast>);
 
 #Toaster
 recipes.remove(<cookingforblockheads:toaster>);
-recipes.addShaped(<cookingforblockheads:toaster>, [[null, null, null], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>, <minecraft:iron_ingot>], [<ore:gearIron>, <minecraft:clock>, <ore:gearIron>]]);
+recipes.addShaped(<cookingforblockheads:toaster>, [[null, null, null], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>, <minecraft:iron_ingot>], [<ore:gearIron>, <minecraft:redstone>, <ore:gearIron>]]);
 
 #Heating Element
 recipes.remove(<ExtraUtilities:heatingElement>);
