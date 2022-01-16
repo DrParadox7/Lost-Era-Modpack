@@ -21,7 +21,7 @@ game.setLocalization("en_US", "item.projectred.transportation.routingchip|1.name
 #Item Overflow Responder chip 
 recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:2>);
 mods.thaumcraft.Arcane.addShaped("ESSENTIACRYSTAL", <ProjRed|Transportation:projectred.transportation.routingchip:2>, "aqua 4, terra 4", [[<ProjRed|Core:projectred.core.part:44>, <Thaumcraft:ItemCrystalEssence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null], [<ProjRed|Expansion:projectred.expansion.infused_ender_pearl>, <Thaumcraft:ItemResource>]]);
-game.setLocalization("en_US", "item.projectred.transportation.routingchip|2", "Item Overflow Responder Crystal");
+game.setLocalization("en_US", "item.projectred.transportation.routingchip|2.name", "Item Overflow Responder Crystal");
 
 #Item Terminator chip
 recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:3>);

@@ -80,22 +80,6 @@ NEI.hide(<Metallurgy:explosive:1>);
 NEI.hide(<Metallurgy:explosive:2>);
 NEI.hide(<Metallurgy:explosive:3>);
 
-NEI.hide(<MineFactoryReloaded:machine.0>);
-NEI.hide(<MineFactoryReloaded:machine.0:2>);
-NEI.hide(<MineFactoryReloaded:machine.0:7>);
-NEI.hide(<MineFactoryReloaded:machine.1:5>);
-NEI.hide(<MineFactoryReloaded:machine.1:6>);
-NEI.hide(<MineFactoryReloaded:machine.1:10>);
-NEI.hide(<MineFactoryReloaded:machine.1:11>);
-NEI.hide(<MineFactoryReloaded:machine.1:12>);
-NEI.hide(<MineFactoryReloaded:machine.2:6>);
-NEI.hide(<MineFactoryReloaded:machine.2:9>);
-NEI.hide(<MineFactoryReloaded:machine.2:10>);
-NEI.hide(<MineFactoryReloaded:cable.redstone:2>);
-NEI.hide(<MineFactoryReloaded:cable.redstone:3>);
-NEI.hide(<MineFactoryReloaded:upgrade.radius:7>);
-NEI.hide(<MineFactoryReloaded:upgrade.radius:10>);
-
 #broken
 NEI.hide(<Aroma1997Core:wrenched>);
 NEI.hide(<Botania:gaiaHeadBlock>);

@@ -77,5 +77,11 @@ recipes.addShaped(<IC2:blockMachine3:1>, [[<ore:plateSteel>, <ore:plateSteel>, <
 recipes.remove(<IC2:blockMachine:13>);
 recipes.addShaped(<IC2:blockMachine:13>, [[<ore:plateSteel>, <IC2:itemPartCircuitAdv>,<ore:plateSteel>], [<IC2:itemRecipePart:5>, <gregtech_addon:machine:54>, <IC2:itemRecipePart:5>], [<ore:plateSteel>, <ore:craftingRawMachineTier02>,<ore:plateSteel>]]);
 
+#Wrench
+recipes.remove(<IC2:itemToolWrenchElectric:*>);
+
+#Chainsaw
+recipes.remove(<IC2:itemToolChainsaw:*>);
+
 print("Initialized 'IC2.zs'");
 

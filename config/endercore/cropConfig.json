@@ -203,6 +203,11 @@
             "meta":7
         },
         {
+            "seed":"harvestcraft:lettuceseedItem",
+            "block":"harvestcraft:pamlettuceCrop",
+            "meta":7
+        },
+        {
             "seed":"harvestcraft:scallionseedItem",
             "block":"harvestcraft:pamscallionCrop",
             "meta":7
