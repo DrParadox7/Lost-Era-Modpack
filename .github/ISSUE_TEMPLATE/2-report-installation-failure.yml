@@ -22,7 +22,7 @@ body:
     label: Installation Target
     description: Describe the type of machine you are trying to install the modpack.
      options:
-    - Your Own Computer/Laptop
+    - Your Own Computer or Laptop
     - A Minecraft Server Hosting Service 
   validations:
     required: true
@@ -38,8 +38,8 @@ body:
   id: version
   attributes:
     label: Your Pack Version
-    description: What version of the pack are you playing? If you're using an ancient version maybe first try updating the pack. We usually fix hundreds of issues per release, so there is a good chance your problem have been fixed already in the latest version. There are also usually Dev releases inbetween Official releases that may not show up on other platforms.
-    placeholder: "Example: 2.1.1.0"
+    description: What version of the pack are you playing?
+    placeholder: "Example: 1.4.2"
   validations:
     required: true
 - type: textarea
