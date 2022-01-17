@@ -56,9 +56,9 @@ body:
     label: Final Checklist
     description: Please mark them so we can better handle this report.
     options:
-    - label: "I have provided all the required logs."
+      - label: "I have provided all the required logs."
         required: true
-    - label: "I searched this issue tracker and there is nothing similar already.."
+      - label: "I searched this issue tracker and there is nothing similar already."
         required: true
-    - label: "I can reproduce this crash consistently by following the exact steps I described above."
+      - label: "I searched this issue tracker and there is nothing similar already."
         required: false
