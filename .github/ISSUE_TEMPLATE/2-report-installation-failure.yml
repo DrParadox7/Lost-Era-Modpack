@@ -60,5 +60,5 @@ body:
         required: true
       - label: "I searched this issue tracker and there is nothing similar already."
         required: true
-      - label: "I searched this issue tracker and there is nothing similar already."
+      - label: "I can reproduce this crash consistently by following the exact steps I described above."
         required: false
