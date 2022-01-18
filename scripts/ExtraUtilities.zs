@@ -114,5 +114,13 @@ recipes.addShaped(<ExtraUtilities:pipes:10>, [[null, <witchery:ingredient:37>, n
 recipes.remove(<ExtraUtilities:pipes.1>);
 recipes.addShapeless(<ExtraUtilities:pipes.1>, [<ExtraUtilities:pipes:10>, <witchery:ingredient:56>]);
 
+#Burned Quartz
+furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
+mods.thermalexpansion.Furnace.removeRecipe(<minecraft:quartz_block>);
+
+furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <etfuturum:smooth_quartz>);
+
+mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:quartz_block>, <etfuturum:smooth_quartz>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <etfuturum:smooth_quartz>, <ExtraUtilities:decorativeBlock1:2>);
 print("Initialized 'Extrautilities.zs'");
 
