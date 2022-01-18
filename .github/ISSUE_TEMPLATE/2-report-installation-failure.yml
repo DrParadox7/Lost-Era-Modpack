@@ -1,0 +1,64 @@
+name: Report Installation Failure
+description: "Report an issue related to installing the pack, be it client or server."
+labels:
+- "Type: Installation Failure"
+body:
+- type: markdown
+  attributes:
+    value: 'Examples of this category include: Mods failing to download or game instance freezing or crashing on first launch.
+
+    Please note if you are able to load into a world to use to use the Report a Crash template instead.'
+- type: dropdown
+  id: instance
+  attributes:
+    label: Type of Instance
+    description: The type of game instance you are trying to install The Lost Era.
+    options:
+    - Single Player
+    - Multiplayer
+- type: dropdown
+  id: target
+  attributes:
+    label: Installation Target
+    description: Describe the type of machine you are trying to install the modpack.
+    options:
+    - Your Own Computer or Laptop
+    - A Minecraft Server Hosting Service 
+  validations:
+    required: true
+- type: textarea
+  id: reproduce
+  attributes:
+    label: Your Actions
+    description: Describe what method you are using to install the modpack.
+    placeholder: "Example: Trying to install the modpack launching the provided Server Starter files from CurseForge."
+  validations:
+    required: true
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing?
+    placeholder: "Example: 1.4.2"
+  validations:
+    required: true
+- type: textarea
+  id: logs
+  attributes:
+    label: Required Logs
+    description: "Attach `logs/fml-client-latest.log` or `logs/fml-server-latest.log` for us to identify your issue. If this is a Server instance you should also attach `serverstarter.log`."
+    placeholder: "Example: pastebin/something OR submit the file to github by dragging it to this textbox."
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we can better handle this report.
+    options:
+      - label: "I have provided all the required logs."
+        required: true
+      - label: "I searched this issue tracker and there is nothing similar already."
+        required: true
+      - label: "I can reproduce this crash consistently by following the exact steps I described above."
+        required: false

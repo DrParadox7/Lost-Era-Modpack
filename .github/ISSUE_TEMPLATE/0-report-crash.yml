@@ -1,0 +1,55 @@
+name: Report Crash
+description: "Report a bug that abruptly ends a game session or prevents the start of the game."
+labels:
+- "Type: Crash"
+body:
+- type: markdown
+  attributes:
+    value: 'Examples of this category include: crashing to desktop, game window disappearing, uncommanded computer shutdown.
+
+    Please note if this occurs immediately after installation prior to loading up into the main menu to use to use the Report a Crash template instead.'
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing?
+    placeholder: "Example: 1.4.2"
+  validations:
+    required: true
+- type: dropdown
+  id: instance
+  attributes:
+    label: Type of Instance
+    description: The type of game instance you are experiencing crashes.
+    options:
+    - Single Player
+    - Multiplayer
+  validations:
+    required: true
+- type: textarea
+  id: reproduce
+  attributes:
+    label: Your Actions
+    description: What did you try to do right before the crash? Attach screenshots if needed.
+  validations:
+    required: true
+- type: textarea
+  id: report
+  attributes:
+    label: Crash Report
+    description: "If no crash report is created, attach `logs/fml-client-latest.log` or `logs/fml-server-latest.log`."
+    placeholder: "Example: pastebin/something OR submit the file to github by dragging it to this textbox."
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we can better handle this report.
+    options:
+      - label: "I have provided all the required crash reports/logs."
+        required: true
+      - label: "I have searched this issue tracker and there is nothing similar already."
+        required: true
+      - label: "I can reproduce this crash consistently by following the exact steps I described above."
+        required: false
