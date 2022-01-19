@@ -24,6 +24,14 @@ recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>], [<minecraft:piston>, <ore:craftingTableWood>, <minecraft:piston>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
 
 ### Tanks ###
+recipes.remove(<Railcraft:machine.beta>);
+recipes.remove(<Railcraft:machine.beta:1>);
+recipes.remove(<Railcraft:machine.beta:2>);
+
+recipes.remove(<Railcraft:machine.beta:13>);
+recipes.remove(<Railcraft:machine.beta:14>);
+recipes.remove(<Railcraft:machine.beta:15>);
+
 #Iron 
 recipes.addShaped(<Railcraft:machine.beta>*4, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<Railcraft:machine.beta:1>*4, [[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>], [<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>]]);
@@ -63,7 +71,5 @@ recipes.addShaped(<Railcraft:machine.zeta:14>*2, [[<ore:barsIron>, <ore:platePal
 recipes.addShaped(<Railcraft:machine.eta>*4, [[<ore:plateIridium>, <ore:plateIridium>], [<ore:plateIridium>, <ore:plateIridium>]]);
 recipes.addShaped(<Railcraft:machine.eta:1>*4, [[<ore:paneGlassColorless>, <ore:plateIridium>, <ore:paneGlassColorless>], [<ore:plateIridium>, <minecraft:glass_pane>, <ore:plateIridium>], [<ore:paneGlassColorless>, <ore:plateIridium>, <ore:paneGlassColorless>]]);
 recipes.addShaped(<Railcraft:machine.eta:2>*2, [[<ore:barsIron>, <ore:plateIridium>, <ore:barsIron>], [<ore:plateIridium>, <minecraft:lever>, <ore:plateIridium>], [<ore:barsIron>, <ore:plateIridium>, <ore:barsIron>]]);
-
-
 
 print("Initialized 'Railcraft(Tweaks).zs'");
