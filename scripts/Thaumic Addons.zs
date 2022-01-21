@@ -235,4 +235,19 @@ mods.thaumcraft.Research.addCraftingPage("FOCUS_BUILD", <magianaturalis:item.foc
 mods.thaumcraft.Research.orphanResearch("SICKLE_ABUNDANCE");
 mods.thaumcraft.Research.removeResearch("SICKLE_ABUNDANCE");
 
+#Fix Magia Naturalis missing lang 
+game.setLocalization("en_US", "item.magianaturalis:voidSickle.name", "Void Sickle");
+
+#Fix Automagy rendering invalid shard for recipe
+val shardSliver = <ore:shardSliver>;
+shardSliver.add(<Automagy:shardSliver>);
+shardSliver.add(<Automagy:shardSliver:1>);
+shardSliver.add(<Automagy:shardSliver:2>);
+shardSliver.add(<Automagy:shardSliver:3>);
+shardSliver.add(<Automagy:shardSliver:4>);
+shardSliver.add(<Automagy:shardSliver:5>);
+
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
+mods.thaumcraft.Arcane.addShapeless("ORE", <Thaumcraft:blockCosmeticSolid:6>*3, "terra 1, ignis 1", [<minecraft:stone>, <ore:shardSliver>, <minecraft:stone>]);
+
 print("Initialized 'ThaumicAddons.zs'");
