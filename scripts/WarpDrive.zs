@@ -45,7 +45,7 @@ recipes.addShaped(<WarpDrive:itemComponent:19>, [[<WarpDrive:itemComponent:7>, <
 
 #Transformation Core
 recipes.remove(<RandomThings:ingredient:5>);
-recipes.addShaped(<RandomThings:ingredient:5>, [[null, <WarpDrive:itemComponent:2>, null], [<appliedenergistics2:item.ItemMultiMaterial:46>, <qCraft:dust>, <appliedenergistics2:item.ItemMultiMaterial:46>], [null, <WarpDrive:itemComponent:1>, null]]);
+recipes.addShaped(<RandomThings:ingredient:5>, [[null, <WarpDrive:itemComponent:2>, null], [<ore:dustEnderPearl>, <qCraft:dust>, <ore:dustEnderPearl>], [null, <WarpDrive:itemComponent:1>, null]]);
 
 #Coil Crustal
 recipes.remove(<WarpDrive:itemComponent:18>);
