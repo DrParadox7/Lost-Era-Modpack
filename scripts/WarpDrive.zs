@@ -137,7 +137,7 @@ recipes.remove(<WarpDrive:itemComponent:8>);
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<IC2:itemCasing:5>, <IC2:itemCellEmpty:5>, <IC2:itemCasing:5>], [<IC2:itemCasing:5>, <IC2:itemCellEmpty:5>, <IC2:itemCasing:5>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
 #RF Recipe
-recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateSteel>, <Mekanism:GasTank:100>, <ore:plateSteel>], [<ore:plateSteel>, <Mekanism:GasTank:100>, <ore:plateSteel>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
+recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateSteel>, <Mekanism:GasTank:*>, <ore:plateSteel>], [<ore:plateSteel>, <Mekanism:GasTank:*>, <ore:plateSteel>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
 
 
 ##  Air Tank (Tier 1)
@@ -281,18 +281,24 @@ recipes.remove(<WarpDrive:itemWarpArmor_boots>);
 ###  Tree Laser
 recipes.remove(<WarpDrive:blockLaserTreeFarm>);
 
+val lumberjack = <ore:Robot>;
+lumberjack.add(<BuildCraft|Robotics:robot>.withTag({board: {id: "buildcraft:boardRobotLumberjack"}}));
+
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:blockLaserTreeFarm>, [[null, <IC2:itemPartCircuitAdv>, null], [<IC2:itemToolMiningLaser:*>, <IC2:blockMachine3:7>, <IC2:itemToolMiningLaser:*>], [null, <IC2:blockMachine:12>, null]]);
 #RF Recipe
-recipes.addShaped(<WarpDrive:blockLaserTreeFarm>, [[<ore:plateSteel>, <BuildCraft|Robotics:robot>.onlyWithTag({board: {id: "buildcraft:boardRobotLumberjack"}, energy: 0}), <ore:plateSteel>], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:1>], [<ore:plateSteel>, <Mekanism:MachineBlock2:13>, <ore:plateSteel>]]);
+recipes.addShaped(<WarpDrive:blockLaserTreeFarm>, [[<ore:plateSteel>, <ore:Robot>.onlyWithTag({board: {id: "buildcraft:boardRobotLumberjack"}}), <ore:plateSteel>], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:1>], [<ore:plateSteel>, <Mekanism:MachineBlock2:13>, <ore:plateSteel>]]);
 
 ###  Mining Laser
 recipes.remove(<WarpDrive:blockMiningLaser>);
 
+val miner = <ore:BcRobot>;
+miner.add(<BuildCraft|Robotics:robot>.withTag({board: {id: "buildcraft:miner"}}));
+
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:blockMiningLaser>, [[null, <IC2:itemPartCircuitAdv>, null], [<IC2:itemToolMiningLaser:*>, <IC2:blockMachine2:11>, <IC2:itemToolMiningLaser:*>], [null, <IC2:blockMachine:12>, null]]);
 #RF Recipe
-recipes.addShaped(<WarpDrive:blockMiningLaser>, [[<ore:plateSteel>, <BuildCraft|Robotics:robot>.onlyWithTag({board: {id: "buildcraft:miner"}, energy: 0}), <ore:plateSteel>], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:1>], [<ore:plateSteel>, <Mekanism:MachineBlock2:13>, <ore:plateSteel>]]);
+recipes.addShaped(<WarpDrive:blockMiningLaser>, [[<ore:plateSteel>, <ore:BcRobot>.onlyWithTag({board: {id: "buildcraft:miner"}}), <ore:plateSteel>], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:1>], [<ore:plateSteel>, <Mekanism:MachineBlock2:13>, <ore:plateSteel>]]);
 
 #Transporter Beacon
 recipes.remove(<WarpDrive:blockTransporterBeacon>);
@@ -371,7 +377,7 @@ recipes.addShaped(<WarpDrive:blockLaser>, [[<IC2:itemToolMiningLaser:*>, <minech
 recipes.addShaped(<WarpDrive:blockLaser>, [[<ore:platePlatinum>, <Mekanism:ControlCircuit:2>, <ore:platePlatinum>], [<Mekanism:MachineBlock2:13>, <Mekanism:MachineBlock2:14>, <Mekanism:MachineBlock2:13>], [<ore:platePlatinum>, <Mekanism:ControlCircuit:2>, <ore:platePlatinum>]]);
 
 ###  Laser Medium (Particle Booster)
-#recipes.remove(<WarpDrive:blockLaserMedium>);
+recipes.remove(<WarpDrive:blockLaserMedium>);
 
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:blockLaserMedium>, [[null, <GraviSuite:itemSimpleItem:5>, null], [<IC2:itemRecipePart:5>, <WarpDrive:itemComponent:17>, <IC2:itemRecipePart:5>], [null, <ore:plateTitanium>, null]]);
@@ -379,7 +385,7 @@ recipes.addShaped(<WarpDrive:blockLaserMedium>, [[null, <GraviSuite:itemSimpleIt
 recipes.addShaped(<WarpDrive:blockLaserMedium>, [[null, <Mekanism:ControlCircuit:3>, null], [<MekanismGenerators:Generator:9>, <WarpDrive:itemComponent:17>, <MekanismGenerators:Generator:9>], [null, <ore:plateRefinedGlowstone>, null]]);
 
 ###  Laser+Camera
-#recipes.remove(<WarpDrive:blockLaserCamera>);
+recipes.remove(<WarpDrive:blockLaserCamera>);
 
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:blockLaserCamera>, [[<gregtech_addon:metaitem_1:17028>, <gregtech_addon:components:4>, <gregtech_addon:metaitem_1:17028>], [<gregtech_addon:dataorb>, <WarpDrive:blockCamera>, <gregtech_addon:dataorb>], [<gregtech_addon:metaitem_1:17028>, <gregtech_addon:metaitem_1:24532>, <gregtech_addon:metaitem_1:17028>]]);
@@ -388,7 +394,7 @@ recipes.addShaped(<WarpDrive:blockLaserCamera>, [[<Mekanism:Ingot:3>, <Mekanism:
 
 
 ###  Reactor Laser Monitor
-#recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);
+recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);
 
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:blockIC2reactorLaserMonitor>, [[<gregtech_addon:metaitem_1:24505>, <gregtech_addon:components>, <gregtech_addon:metaitem_1:24510>], [<gregtech_addon:components>, <gregtech_addon:block:10>, <gregtech_addon:components>], [<gregtech_addon:metaitem_1:24510>, <gregtech_addon:machine:4>, <gregtech_addon:metaitem_1:24505>]]);
