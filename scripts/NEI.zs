@@ -106,3 +106,7 @@ NEI.hide(<rftools:proxyBlock>);
 NEI.hide(<ThaumicTinkerer:forcefield>);
 NEI.hide(<ThaumicTinkerer:nitorGas>);
 NEI.hide(<witchery:coffinblock>);
+NEI.hide(<ProjRed|Illumination:projectred.illumination.airousLight>);
+NEI.hide(<malisisdoors:null>);
+NEI.hide(<opensecurity:SecurityDoor>);
+NEI.hide(<opensecurity:SecurityDoorPrivate>);

@@ -473,6 +473,20 @@
 			"meta": 0,
 			"hunger": 4,
 			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "Forestry:ambrosia",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1
+		},
+		{
+		
+			"name": "hardcorewither:StarryApple",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1
 		}
 	]
 }

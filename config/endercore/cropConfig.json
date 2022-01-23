@@ -184,7 +184,7 @@
         },
         {
             "seed":"harvestcraft:coffeeseedItem",
-            "block":"harvestcraft:pamcoffeeCrop",
+            "block":"harvestcraft:pamcoffeebeanCrop",
             "meta":7
         },
         {

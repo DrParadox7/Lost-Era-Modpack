@@ -1,0 +1,13 @@
+{
+	"food": {
+		"items": [
+			"hardcorewither:StarryApple",
+			"Forestry:ambrosia"
+		]
+	},
+	"name": "Empyrean",
+	"blacklist": false,
+	"hidden": false,
+	"formula": "IF(count>=0,1,1)",
+	"color": "dark_purple"
+}      

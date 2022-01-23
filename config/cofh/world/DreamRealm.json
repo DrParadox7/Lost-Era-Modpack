@@ -1,0 +1,280 @@
+{
+	"BerryGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:berrygarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAIN"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "HILLS"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "DesertGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:desertgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "genSurface": {"name": "minecraft:sand"},
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "SANDY"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "GrassGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:grassgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "PLAINS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "COLD",
+                "whitelist": "false"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "GourdGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:gourdgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "PLAINS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "FOREST"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "GroundGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:groundgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "MOUNTAINS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "HILLS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "MESA"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "SAVANNA"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "HerbGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:herbgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "FOREST"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "WET"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "COLD",
+                "whitelist": "false"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "LeafyGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:leafygarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "FOREST"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "WET"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "COLD",
+                "whitelist": "false"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "StalkGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:stalkgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "FOREST"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "PLAINS"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "COLD",
+                "whitelist": "false"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "TropicalGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:tropicalgarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "WET"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "HOT"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+    "WaterGarden": {
+        "template": "decoration",
+        "block": {"name": "harvestcraft:watergarden"},
+        "material": [],
+        "clusterSize": 2,
+        "numClusters": 1,
+		"chunkChance": 3,
+        "minHeight": 60,
+        "maxHeight": 63,
+        "checkStay": "false",
+        "genSurface": {"name": "minecraft:water"},
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary", 
+                "entry": "OCEAN"
+            }
+        ],	
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    }
+}

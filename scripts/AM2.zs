@@ -8,11 +8,14 @@ Mithril.add(<ThermalFoundation:material:70>);
 
 #Armor Infusion
 recipes.remove(<arsmagica2:armorInfuser>);
-recipes.addShaped(<arsmagica2:armorInfuser>, [[<ore:ingotMithril>, <arsmagica2:CraftingAltar>, <ore:ingotMithril>],[<arsmagica2:itemOre:4>, <minecraft:enchanting_table>, <arsmagica2:itemOre:4>],[<minecraft:obsidian>, <TwilightForest:item.fieryBlood>, <minecraft:obsidian>]]);
-recipes.addShaped(<arsmagica2:armorInfuser>, [[<ThermalFoundation:material:70>, <arsmagica2:CraftingAltar>, <ThermalFoundation:material:70>],[<arsmagica2:itemOre:4>, <minecraft:enchanting_table>, <arsmagica2:itemOre:4>],[<minecraft:obsidian>, <TwilightForest:item.fieryBlood>, <minecraft:obsidian>]]);
+recipes.addShaped(<arsmagica2:armorInfuser>, [[<ore:ingotMithril>, <arsmagica2:CraftingAltar>, <ore:ingotMithril>],[<arsmagica2:itemOre:4>, <minecraft:enchanting_table>, <arsmagica2:itemOre:4>],[<minecraft:obsidian>, <arsmagica2:itemOre:3>, <minecraft:obsidian>]]);
+recipes.addShaped(<arsmagica2:armorInfuser>, [[<ThermalFoundation:material:70>, <arsmagica2:CraftingAltar>, <ThermalFoundation:material:70>],[<arsmagica2:itemOre:4>, <minecraft:enchanting_table>, <arsmagica2:itemOre:4>],[<minecraft:obsidian>, <arsmagica2:itemOre:3>, <minecraft:obsidian>]]);
 
 #Etherium
 mods.botania.PureDaisy.addRecipe(<witchery:hollowtears>, <arsmagica2:liquidEssence>);
+
+#Hollow Tears Early
+mods.botania.PureDaisy.addRecipe(<witchery:demonheart:*>, <witchery:hollowtears>);
 
 #Essence Refiner
 recipes.remove(<arsmagica2:essenceRefiner>);
@@ -142,6 +145,17 @@ recipes.addShaped(<arsmagica2:battlemageLeggings>, [[<arsmagica2:essence:3>, <wi
 #Rune shoes
 recipes.remove(<arsmagica2:battlemageBoots>);
 recipes.addShaped(<arsmagica2:battlemageBoots>, [[<arsmagica2:essence:2>, <witchery:ingredient:11>, <arsmagica2:essence:2>], [<minecraft:obsidian>, <Botania:manasteelBoots>, <minecraft:obsidian>], [<witchery:chalkheart>, <minecraft:obsidian>, <witchery:chalkheart>]]);
+
+#Helpful Tooltips
+<arsmagica2:lesserManaPotion>.addTooltip("Restores 100 Mana");
+<arsmagica2:standardManaPotion>.addTooltip("Restores 250 Mana");
+<arsmagica2:greaterManaPotion>.addTooltip("Restores 2000 Mana");
+<arsmagica2:epicManaPotion>.addTooltip("Restores 5000 Mana");
+<arsmagica2:legendaryManaPotion>.addTooltip("Restores 10000 Mana");
+
+<arsmagica2:manaMartini>.addTooltip("Reduces Burnout by 25%");
+<arsmagica2:liquidEssenceBottle>.addTooltip("Increases Max Mana by 25%");
+<arsmagica2:liquidEssenceBottle>.addTooltip("Boosts Mana Regeneration");
 
 print("Initialized 'AM2.zs'");
 

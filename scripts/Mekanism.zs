@@ -147,10 +147,10 @@ recipes.addShaped(<Mekanism:MachineBlock:14>, [[<ore:pressurePlateStone>, <ore:p
 #MachineBlock2
 
 #Rotary Condensentrator
-recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>], [<Mekanism:GasTank:*>, <Mekanism:EnergyTablet:*>, <Mekanism:MachineBlock2:11>.onlyWithTag({tier: 1})], [<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>], [<Mekanism:GasTank:*>, <Mekanism:EnergyTablet:*>, <Mekanism:MachineBlock2:11>], [<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>]]);
 
 #Chemical Oxidizer
-recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
 
 #Chemical Infuser
 recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
@@ -165,10 +165,10 @@ recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:ingotIron>, <minecraft:reds
 recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<ore:ingotIron>, <Mekanism:ControlCircuit>, <ore:ingotIron>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<ore:ingotIron>, <Mekanism:ControlCircuit>, <ore:ingotIron>]]);
 
 #Chemical Dissolution Chamber
-recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<Mekanism:ControlCircuit>, <Mekanism:GasTank>, <Mekanism:ControlCircuit>], [<Mekanism:EnrichedAlloy>, <Mekanism:AtomicAlloy>, <Mekanism:EnrichedAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank>, <Mekanism:ControlCircuit>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>], [<Mekanism:EnrichedAlloy>, <Mekanism:AtomicAlloy>, <Mekanism:EnrichedAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>]]);
 
 //#Chemical Washer
-//recipes.addShaped(<Mekanism:MachineBlock2:7>, [[<Mekanism:ControlCircuit>, <minecraft:bucket>, <Mekanism:ControlCircuit>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank>, <Mekanism:ControlCircuit>]]);
+//recipes.addShaped(<Mekanism:MachineBlock2:7>, [[<Mekanism:ControlCircuit>, <minecraft:bucket>, <Mekanism:ControlCircuit>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>]]);
 
 #Chemical Crystallizer
 recipes.addShaped(<Mekanism:MachineBlock2:8>, [[<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>], [<Mekanism:AtomicAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:AtomicAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>]]);

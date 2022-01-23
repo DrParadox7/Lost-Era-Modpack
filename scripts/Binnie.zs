@@ -26,13 +26,11 @@ recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 134657}), [[null,
 
 #Ambrosia
 recipes.remove(<Forestry:ambrosia>);
-<BiomesOPlenty:honey>.addTooltip("Found within Nether hives");
- 
-mods.forestry.Fermenter.addRecipe(<liquid:ambrosia>, <MagicBees:drop>, <liquid:honey>, 100, 2);
 
-mods.thermalexpansion.Transposer.removeFillRecipe(<Forestry:waxCapsule>, <liquid:ambrosia>);
-mods.thermalexpansion.Transposer.addFillRecipe(1600, <Forestry:waxCapsule>, <Forestry:ambrosia>, <liquid:ambrosia> * 1000);
-mods.thermalexpansion.Transposer.addExtractRecipe(1600, <Forestry:ambrosia>, <liquid:ambrosia> * 1000, <Forestry:waxCapsule>, 100);
+mods.forestry.Fermenter.addRecipe(<liquid:ichor>, <MagicBees:miscResources:1>, <liquid:mead>, 100, 0.8);
+mods.forestry.Still.addRecipe(<liquid:ambrosia> * 25, <liquid:ichor> * 100, 100);
+
+recipes.addShaped(<Forestry:ambrosia>, [[null, <ExtraBees:honeyDrop:4>, null], [<MagicBees:pollen>, <BinnieCore:containerCapsule:66>, <MagicBees:pollen:1>], [null, <MagicBees:drop:1>, null]]);
 
 #Full Fence
 recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131329}), [[<minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:1>], [<minecraft:planks:1>, null, <minecraft:planks:1>], [null, <minecraft:planks:2>, null]]);
