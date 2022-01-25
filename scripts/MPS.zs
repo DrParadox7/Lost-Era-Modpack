@@ -3,6 +3,9 @@
 
 print("Initializing 'MPS.zs'...");
 
+#Localization fixes:
+game.setLocalization("en_US", "module.chisel.name", "Chisel Module");
+
 #Liquid Nitrogen MPS ore Dictionary
 val nitrogen = <ore:itemNitrogenCapsule>;
 nitrogen.add(<BinnieCore:containerCapsule:68>);
