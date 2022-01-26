@@ -144,7 +144,6 @@ NEI.hide(<ThaumicTinkerer:infusedGrainBlock>);
 NEI.hide(<TwilightForest:tile.TFBossSpawner:5>);
 NEI.hide(<NVLWarpdriveExtensions:NVLItemLogo>);
 NEI.hide(<TConstruct:BattleSignBlock>);
-NEI.hide(<Thaumcraft:blockManaPod>);
 NEI.hide(<Thaumcraft:blockWarded>);
 NEI.hide(<Thaumcraft:blockEldritchNothing>);
 NEI.hide(<chisel:amber>);

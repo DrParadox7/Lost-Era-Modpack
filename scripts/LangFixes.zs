@@ -55,7 +55,7 @@ game.setLocalization("en_US", "ic2.plasmaLauncher", "Plasma Launcher");
 
 game.setLocalization("en_US", "IC2:blockWall", "Construction Foam Wall");
 
-game.setLocalization("en_US", "", "");
+game.setLocalization("en_US", "tile.blockManaPod.name", "Mana Bean Pod");
 
 #Broken localization in Waila
 game.setLocalization("en_US", "block.leaves.name", "Leaves");
