@@ -1,5 +1,11 @@
 import mods.nei.NEI;
 
+# How to hide NEI entries; NEI.hide(<BlockID>);
+# You can get the block ID by either holding the item in your hand with /mt hand
+# Or all items in your inventory with /mt inventory.
+# You type these commands in your in-game chat.
+# Example: NEI.hide();
+
 NEI.hide(<Mekanism:PartTransmitter:15>);
 NEI.hide(<Mekanism:PartTransmitter:12>);
 NEI.hide(<Mekanism:PartTransmitter:4>);
@@ -110,3 +116,46 @@ NEI.hide(<ProjRed|Illumination:projectred.illumination.airousLight>);
 NEI.hide(<malisisdoors:null>);
 NEI.hide(<opensecurity:SecurityDoor>);
 NEI.hide(<opensecurity:SecurityDoorPrivate>);
+
+NEI.hide(<etfuturum:sign_spruce>);
+NEI.hide(<etfuturum:wall_sign_spruce>);
+NEI.hide(<etfuturum:sign_birch>);
+NEI.hide(<etfuturum:wall_sign_birch>);
+NEI.hide(<etfuturum:sign_jungle>);
+NEI.hide(<etfuturum:wall_sign_jungle>);
+NEI.hide(<etfuturum:sign_acacia>);
+NEI.hide(<etfuturum:wall_sign_acacia>);
+NEI.hide(<etfuturum:sign_dark_oak>);
+NEI.hide(<etfuturum:wall_sign_dark_oak>);
+NEI.hide(<Mantle:mantleBook>);
+NEI.hide(<BuildCraft|Core:buildToolBlock>);
+NEI.hide(<BuildCraft|Energy:blockRedPlasma>);
+NEI.hide(<BuildCraft|Transport:pipeBlock>);
+NEI.hide(<ExtraTiC:gear>);
+NEI.hide(<EnderZoo:enderZooIcon>);
+NEI.hide(<ThaumicHorizons:syringeInjection:15>);
+NEI.hide(<IC2:blockHarz>);
+NEI.hide(<IC2:blockCable>);
+NEI.hide(<ThaumicHorizons:syringeInjection:1>);
+NEI.hide(<ThaumicHorizons:evanescent>);
+NEI.hide(<ThaumicHorizons:vatInterior>);
+NEI.hide(<ThaumicHorizons:dummyVat>);
+NEI.hide(<ThaumicTinkerer:infusedGrainBlock>);
+NEI.hide(<TwilightForest:tile.TFBossSpawner:5>);
+NEI.hide(<NVLWarpdriveExtensions:NVLItemLogo>);
+NEI.hide(<TConstruct:BattleSignBlock>);
+NEI.hide(<Thaumcraft:blockWarded>);
+NEI.hide(<Thaumcraft:blockEldritchNothing>);
+NEI.hide(<chisel:amber>);
+NEI.hide(<arsmagica2:SpellComponent>);
+NEI.hide(<arsmagica2:invisibleUtility>);
+NEI.hide(<appliedenergistics2:tile.BlockPaint>);
+NEI.hide(<Botania:fakeAir>);
+NEI.hide(<ForgeRelocation:relocation.blockmovingrow>);
+NEI.hide(<HardcoreEnderExpansion:item_special_effects>);
+NEI.hide(<IC2:blockDoorAlloy>);
+NEI.hide(<GraviSuite:BlockRelocatorPortal>);
+NEI.hide(<ProjRed|Illumination:projectred.illumination.airousLight>);
+NEI.hide(<Thaumcraft:blockMagicBox>);
+NEI.hide(<Genetics:serum>);
+NEI.hide(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponPropInvisible>);
