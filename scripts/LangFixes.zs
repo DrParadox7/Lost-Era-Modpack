@@ -35,8 +35,6 @@ game.setLocalization("en_US", "tile.etfuturum.lit_blast_furnace.name", "Lit Blas
 
 game.setLocalization("en_US", "_ERROR_.name", "Blacklisted Item");
 
-game.setLocalization("en_US", "item.magianaturalis:voidSickle.name", "Void Sickle");
-
 game.setLocalization("en_US", "fluid.molecule.aluminiumHypophosphite.name", "Aluminium Hypophosphite");
 
 game.setLocalization("en_US", "tile.dirt.name", "Compressed Dirt");
@@ -48,8 +46,6 @@ game.setLocalization("en_US", "nodetype.null.name", "Null Node");
 game.setLocalization("en_US", "ic2.blockDynamite", "Dynamite");
 
 game.setLocalization("en_US", "ic2.blockDynamiteRemote", "Dynamite Remote");
-
-game.setLocalization("en_US", "Item Overflow Responder Crystal.name", "Item Overflow Responder Crystal");
 
 game.setLocalization("en_US", "ic2.plasmaLauncher", "Plasma Launcher");
 
