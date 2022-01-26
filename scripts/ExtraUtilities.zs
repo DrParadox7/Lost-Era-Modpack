@@ -24,10 +24,8 @@ recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, n
 #Natura Compat
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>], [<minecraft:enchanted_book>, <Natura:Natura.bookshelf:*>, <minecraft:enchanted_book>], [<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>]]);
 
-#Unstable Tools
-recipes.remove(<ExtraUtilities:defoliageAxe>);
-recipes.addShaped(<ExtraUtilities:defoliageAxe>, [[<ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>, null], [<ExtraUtilities:unstableingot>, <TConstruct:toughRod:315>, null], [<minecraft:potion:16449>, <TConstruct:toughRod:315>, <minecraft:golden_apple:1>]]);
-recipes.addShaped(<ExtraUtilities:defoliageAxe>, [[<ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>, null], [<ExtraUtilities:unstableingot>, <TConstruct:toughRod:315>, null], [<minecraft:golden_apple:1>, <TConstruct:toughRod:315>, <minecraft:potion:16449>]]);
+#Healing axe 
+game.setLocalization("en_US", "item.extrautils:defoliageAxe.documentation", "When you 'attack' a living creature, it will take some health from you and use it to heal the target, with a slight bonus. If used on undead creatures, you will still be damaged but the target will injured by four times that amount of damage.");
 
 #Rebalance ExtraUtilities World Interaction
 recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
