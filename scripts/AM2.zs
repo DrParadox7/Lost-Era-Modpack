@@ -47,7 +47,7 @@ recipes.addShaped(<arsmagica2:blockArcaneReconstructor>, [[<arsmagica2:everstone
 
 #Occulus
 recipes.remove(<arsmagica2:occulus>);
-recipes.addShaped(<arsmagica2:occulus>, [[null, <witchery:crystalball>, null], [<arsmagica2:blueOrchid>, <TwilightForest:item.trophy:2>, <arsmagica2:desertNova>], [<arsmagica2:everstone>, <Botania:starfield>, <arsmagica2:everstone>]]);
+recipes.addShaped(<arsmagica2:occulus>, [[null, <Botania:forestEye>, null], [<arsmagica2:blueOrchid>, <TwilightForest:item.trophy:2>, <arsmagica2:desertNova>], [<arsmagica2:everstone>, <arsmagica2:everstone>, <arsmagica2:everstone>]]);
 
 #Crafting Altar
 recipes.remove(<arsmagica2:CraftingAltar>);

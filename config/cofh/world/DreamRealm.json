@@ -115,7 +115,7 @@
         "biomes": [
             {
                 "type": "dictionary", 
-                "entry": "MOUNTAINS"
+                "entry": "MOUNTAIN"
             },
             {
                 "type": "dictionary", 
