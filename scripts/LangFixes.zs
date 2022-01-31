@@ -60,4 +60,6 @@ game.setLocalization("en_US", "entity.testdummy.Dummy.name", "Test Dummy");
 
 game.setLocalization("en_US", "entity.StevesCarts.Minecart.Vswe.0.name", "Steve's Cart");
 
+game.setLocalization("en_US", "entity.PortalGun.portal_entitycube.name", "Weighted Cube");
+
 print("Initialized 'LangFixes.zs'");
