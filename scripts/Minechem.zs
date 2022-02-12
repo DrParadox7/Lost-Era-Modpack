@@ -16,6 +16,9 @@ recipes.remove(<minechem:minechemBlueprint>);
 recipes.addShapeless(<minechem:minechemBlueprint:1>, [<ThermalExpansion:diagram>, <Mekanism:ControlCircuit:2>]);
 recipes.addShapeless(<minechem:minechemBlueprint>, [<ThermalExpansion:diagram>, <Mekanism:ControlCircuit:3>]);
 
+#Blueprints
+vanilla.loot.removeChestLoot("dungeonChest", <minechem:minechemBlueprint>);
+vanilla.loot.removeChestLoot("dungeonChest", <minechem:minechemBlueprint:1>);
 
 recipes.addShaped(<minechem:tile.chemicalDecomposer>, [[<Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minechem:minechemAtomicManipulator>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minecraft:redstone>, <Mekanism:Polyethene:2>]]);
 recipes.addShaped(<minechem:tile.opticalMicroscope>, [[null, <minechem:minechemOpticalMicroscopeLens:2>, <Mekanism:Polyethene:2>], [null, <minecraft:glass_pane>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>]]);
@@ -49,6 +52,11 @@ val Ir = <minechem:minechemElement:77>;
 val N = <minechem:minechemElement:7>;
 val He = <minechem:minechemElement:2>;
 
+val Ti = <minechem:minechemElement:22>;
+val Al = <minechem:minechemElement:13>;
+val H = <minechem:minechemElement:1>;
+val O = <minechem:minechemElement:8>;
+
 
 
 Decomposer.removeRecipe(<IC2:itemDust:11>);
@@ -59,8 +67,9 @@ Decomposer.removeRecipe(<NuclearCraft:blockBlock:7>);
 Decomposer.removeRecipe(<minechem:minechemPolytool>);
 Decomposer.removeRecipe(<minecraft:bucket>);
 
+Decomposer.addRecipe(<gregtech_addon:metaitem_1:2822>,0.8,[[Ti, Al*16, H*10, O*12]]);
 Decomposer.addRecipe(<ore:dustObsidian>,0.5,[[SiO*4, Mag*2]]);
-Decomposer.addRecipe(<NuclearCraft:material:7>,0.8,[[Au*15, Ti*15]]);
+Decomposer.addRecipe(<NuclearCraft:material:7>,0.8,[[Au*8, Ti*8]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:7>,0.8,[[Au*375, Ti*375]]);
 Decomposer.addRecipe(<NuclearCraft:material:43>,0.8,[[B*24]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:9>,0.8,[[B*216]]);
@@ -89,7 +98,7 @@ Synthesiser.removeRecipe(<NuclearCraft:blockBlock:5>);
 Synthesiser.removeRecipe(<Railcraft:dust>);
 
 Synthesiser.addRecipe([SiO*4, Mag*2],<ore:dustObsidian>,true,450);
-Synthesiser.addRecipe([Au*15, Ti*15],<NuclearCraft:material:7>,true,1000);
+Synthesiser.addRecipe([Au*8, Ti*8],<NuclearCraft:material:7>,true,1000);
 Synthesiser.addRecipe([N*8, He*2],<ThermalFoundation:material:1025>,true,200);
 Synthesiser.addRecipe([Ir*24],<IC2:itemShardIridium>,true,7500);
 

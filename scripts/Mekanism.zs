@@ -107,37 +107,37 @@ recipes.remove(<Mekanism:MachineBlock3:*>);
 # MachineBlock
 
 #Enrichment Chamber
-recipes.addShaped(<Mekanism:MachineBlock>, [[<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>], [<minecraft:iron_ingot>, <Mekanism:BasicBlock:8>, <ore:ingotIron>], [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>]]);
+recipes.addShaped(<Mekanism:MachineBlock>, [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>], [<ore:gearInvar>, <Mekanism:ControlCircuit>, <ore:gearInvar>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 #Platinum Compressor
-recipes.addShaped(<Mekanism:MachineBlock:1>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>], [<minecraft:bucket>, <Mekanism:BasicBlock:8>, <minecraft:bucket>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock:1>, [[<ore:ingotPlatinum>, <ore:blockGlassHardened>, <ore:ingotPlatinum>], [<ThermalExpansion:pump>, <Mekanism:ControlCircuit:1>, <ThermalExpansion:pump>], [<ore:ingotPlatinum>, <ThermalExpansion:material:1>, <ore:ingotPlatinum>]]);
 
 #Combiner
-recipes.addShaped(<Mekanism:MachineBlock:2>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>], [<minecraft:cobblestone>, <Mekanism:BasicBlock:8>, <minecraft:cobblestone>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock:2>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>], [<minecraft:cobblestone>, <Mekanism:ControlCircuit>, <minecraft:cobblestone>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>]]);
 
 #Crusher
-recipes.addShaped(<Mekanism:MachineBlock:3>, [[<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>], [<minecraft:lava_bucket>, <Mekanism:BasicBlock:8>, <minecraft:lava_bucket>], [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>]]);
+recipes.addShaped(<Mekanism:MachineBlock:3>, [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>], [<ore:gearSteel>, <Mekanism:ControlCircuit>, <ore:gearSteel>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 #Digital Miner
 recipes.addShaped(<Mekanism:MachineBlock:4>, [[<ExtraUtilities:enderQuarry>, <Mekanism:Robit:*>, <ExtraUtilities:enderThermicPump>], [<Mekanism:AtomicDisassembler>, <ThermalExpansion:Frame:3>, <Mekanism:AtomicDisassembler>], [<Mekanism:PortableTeleporter:100>, <ExtraUtilities:enderQuarryUpgrade:8>, <Mekanism:PortableTeleporter>]]);
 
 #Metallurgic Infuser
-recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:blockCoal>, <minecraft:redstone>, <ore:blockCoal>], [<minecraft:redstone_block>, <ThermalExpansion:Machine:3>, <minecraft:redstone_block>], [<ore:gearSignalum>, <ore:chipsetDiamond>, <ore:gearSignalum>]]);
+recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ThermalExpansion:pump>, <RedstoneArsenal:material:96>, <ThermalExpansion:pump>], [<ore:gearPlatinum>, <ThermalExpansion:Machine:3>, <ore:gearPlatinum>], [<ore:ingotElectrumFlux>, <ThermalExpansion:material:1>, <ore:ingotElectrumFlux>]]);
 
 #Purification Chamber
-recipes.addShaped(<Mekanism:MachineBlock:9>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>], [<ore:ingotPlatinum>, <Mekanism:MachineBlock>, <ore:ingotPlatinum>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock:9>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>], [<ore:gearPlatinum>, <Mekanism:MachineBlock>, <ore:gearPlatinum>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>]]);
 
 #Energized Smelter
-recipes.addShaped(<Mekanism:MachineBlock:10>, [[<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>], [<ore:blockGlass>, <Mekanism:BasicBlock:8>, <ore:blockGlass>], [<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>]]);
+recipes.addShaped(<Mekanism:MachineBlock:10>, [[<ore:plateSteel>, <ThermalExpansion:igniter>, <ore:plateSteel>], [<ore:gearSignalum>, <Mekanism:ControlCircuit>, <ore:gearSignalum>], [<ore:plateSteel>, <ThermalExpansion:material:3>, <ore:plateSteel>]]);
 
 #Teleporter
-recipes.addShaped(<Mekanism:MachineBlock:11>, [[<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:8>, <Mekanism:ControlCircuit>], [<Mekanism:BasicBlock:8>, <Mekanism:TeleportationCore>, <Mekanism:BasicBlock:8>], [<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:8>, <Mekanism:ControlCircuit>]]);
+recipes.addShaped(<Mekanism:MachineBlock:11>, [[<Mekanism:ControlCircuit>, <Mekanism:WalkieTalkie>, <Mekanism:ControlCircuit>], [<ore:gearEnderium>, <Mekanism:BasicBlock:8>, <ore:gearEnderium>], [<Mekanism:ControlCircuit>, <Mekanism:TeleportationCore>, <Mekanism:ControlCircuit>]]);
 
 #Pump
-recipes.addShaped(<Mekanism:MachineBlock:12>, [[null, <minecraft:bucket>, null], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<Mekanism:MachineBlock:12>, [[null, <Mekanism:ControlCircuit>, null], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:Tank:1>, <Mekanism:EnrichedAlloy>], [<ore:ingotPlatinum>, <ThermalExpansion:pump>, <ore:ingotPlatinum>]]);
 
 #Personal Chest 
-recipes.addShaped(<Mekanism:MachineBlock:13>, [[<ore:ingotSteel>, <ore:blockGlassCyan>, <ore:ingotSteel>], [<minecraft:chest>, <Mekanism:ControlCircuit>, <minecraft:chest>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:MachineBlock:13>, [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>], [<minecraft:chest>, <Mekanism:ControlCircuit>, <minecraft:chest>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
 #Chargepad
 recipes.addShaped(<Mekanism:MachineBlock:14>, [[<ore:pressurePlateStone>, <ore:pressurePlateStone>, <ore:pressurePlateStone>], [<ore:ingotSteel>, <Mekanism:EnergyTablet>, <ore:ingotSteel>]]);
@@ -147,34 +147,34 @@ recipes.addShaped(<Mekanism:MachineBlock:14>, [[<ore:pressurePlateStone>, <ore:p
 #MachineBlock2
 
 #Rotary Condensentrator
-recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>], [<Mekanism:GasTank:*>, <Mekanism:EnergyTablet:*>, <Mekanism:MachineBlock2:11>], [<ore:glass>, <Mekanism:ControlCircuit>, <ore:glass>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>], [<Mekanism:GasTank:*>, <ore:gearPlatinum>, <Mekanism:MachineBlock2:11>], [<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:11>, <Mekanism:ControlCircuit>]]);
 
 #Chemical Oxidizer
-recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:blockGlassHardened>, <ThermalFoundation:bucket:3>, <ore:blockGlassHardened>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:8>, <Mekanism:GasTank:*>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 #Chemical Infuser
-recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<Mekanism:ControlCircuit:1>, <ore:blockGlassHardened>, <Mekanism:ControlCircuit:1>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 #Chemical Injection Chamber
-recipes.addShaped(<Mekanism:MachineBlock2:3>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>], [<ore:ingotGold>, <Mekanism:MachineBlock:9>, <ore:ingotGold>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:3>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>], [<ore:gearElectrum>, <Mekanism:MachineBlock:9>, <ore:gearElectrum>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>]]);
 
 #Electrolytic Separator
-recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<Mekanism:EnrichedAlloy>, <Mekanism:ElectrolyticCore>, <Mekanism:EnrichedAlloy>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:ingotPlatinum>, <Mekanism:ControlCircuit:1>, <ore:ingotPlatinum>], [<Mekanism:GasTank:*>, <Mekanism:ElectrolyticCore>, <Mekanism:GasTank:*>], [<ore:ingotPlatinum>, <ThermalExpansion:material:1>, <ore:ingotPlatinum>]]);
 
 #Precision Sawmill
-recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<ore:ingotIron>, <Mekanism:ControlCircuit>, <ore:ingotIron>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<ore:ingotIron>, <Mekanism:ControlCircuit>, <ore:ingotIron>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>], [<ThermalExpansion:material>, <ore:gearBronze>, <ThermalExpansion:material>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 #Chemical Dissolution Chamber
-recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>], [<Mekanism:EnrichedAlloy>, <Mekanism:AtomicAlloy>, <Mekanism:EnrichedAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<ore:plateSteel>, <Mekanism:ControlCircuit:2>, <ore:plateSteel>], [<ore:blockClothRock>, <ore:gearPlatinum>, <ore:blockClothRock>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 //#Chemical Washer
-//recipes.addShaped(<Mekanism:MachineBlock2:7>, [[<Mekanism:ControlCircuit>, <minecraft:bucket>, <Mekanism:ControlCircuit>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>]]);
+//recipes.addShaped(<Mekanism:MachineBlock2:7>, [[<ore:plateSteel>, <Mekanism:ControlCircuit:3>, <ore:plateSteel>], [<ThermalFoundation:material:514>, <Mekanism:BasicBlock:8>, <ThermalFoundation:material:514>], [<ore:plateSteel>, <ThermalExpansion:material:1>, <ore:plateSteel>]]);
 
 #Chemical Crystallizer
-recipes.addShaped(<Mekanism:MachineBlock2:8>, [[<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>], [<Mekanism:AtomicAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:AtomicAlloy>], [<Mekanism:ControlCircuit>, <Mekanism:GasTank:*>, <Mekanism:ControlCircuit>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:8>, [[<Mekanism:Polyethene:2>, <ThermalExpansion:chiller>, <Mekanism:Polyethene:2>], [<Mekanism:ControlCircuit:2>, <Mekanism:MachineBlock2>, <Mekanism:ControlCircuit:2>], [<Mekanism:Polyethene:2>, <Mekanism:GasTank:*>, <Mekanism:Polyethene:2>]]);
 
 #Seismic Vibrator
-recipes.addShaped(<Mekanism:MachineBlock2:9>, [[<ore:ingotTin>, <ore:gemLapis>, <ore:ingotTin>], [<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:8>, <Mekanism:ControlCircuit>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:9>, [[null, <ThermalExpansion:material:2>, null], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<Railcraft:part.gear:2>, <ThermalExpansion:material>, <Railcraft:part.gear:2>]]);
 
 #Pressurised Reaction chamber
 recipes.addShaped(<Mekanism:MachineBlock2:10>, [[null, <Mekanism:EnrichedAlloy>, null], [<Mekanism:ControlCircuit>, <Mekanism:MachineBlock>, <Mekanism:ControlCircuit>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>]]);
@@ -192,7 +192,7 @@ recipes.addShaped(<Mekanism:MachineBlock2:12>, [[<ore:ingotTin>, <ore:ingotTin>,
 recipes.addShaped(<Mekanism:MachineBlock2:13>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>, null], [<Mekanism:ReinforcedAlloy>, <Mekanism:BasicBlock:8>, <ore:gemDiamond>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyTablet>, null]]);
 
 #Laser Amp 
-recipes.addShaped(<Mekanism:MachineBlock2:14>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <Mekanism:EnergyCube>, <ore:gemDiamond>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:14>, [[<ore:ingotSteel>, <ThermalExpansion:Glass:1>, <ore:ingotSteel>], [<Mekanism:ReinforcedAlloy>, <Mekanism:EnergyCube>, <Mekanism:ReinforcedAlloy>], [<ore:ingotSteel>, <ThermalExpansion:Glass:1>, <ore:ingotSteel>]]);
 
 #Tractor Beam
 recipes.addShaped(<Mekanism:MachineBlock2:15>, [[<Mekanism:MachineBlock:13>], [<Mekanism:MachineBlock2:14>]]);
@@ -218,7 +218,7 @@ recipes.addShaped(<Mekanism:MachineBlock3:4>, [[<ore:ingotTin>, <minecraft:redst
 recipes.addShaped(<Mekanism:MachineBlock3:5>, [[<ore:ingotSteel>, <minecraft:crafting_table>, <ore:ingotSteel>], [<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:8>, <Mekanism:ControlCircuit>], [<ore:ingotSteel>, <minecraft:chest>, <ore:ingotSteel>]]);
 
 #Fuelwood Heater
-recipes.addShaped(<Mekanism:MachineBlock3:6>, [[<ore:ingotSteel>, <Mekanism:ControlCircuit>, <ore:ingotSteel>], [<minecraft:furnace>, <Mekanism:BasicBlock:8>, <minecraft:furnace>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:MachineBlock3:6>, [[<ore:ingotSteel>, <ore:gearCopper>, <ore:ingotSteel>], [<minecraft:furnace>, <Mekanism:BasicBlock:8>, <minecraft:furnace>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
 // ================================================================================
 #### Misc Recipes ####
@@ -245,9 +245,9 @@ recipes.addShapeless(<ThermalExpansion:Cell:4>, [<Mekanism:EnergyCube>.onlyWithT
 recipes.addShaped(<Mekanism:ObsidianTNT>, [[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>], [<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 
 #GasTank
-recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 0}), [[<minecraft:redstone>, <ore:plateSteel>, <minecraft:redstone>], [<ore:plateSteel>, null, <ore:plateSteel>], [<minecraft:redstone>, <ore:plateSteel>, <minecraft:redstone>]]);
-recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 1}), [[<Mekanism:EnrichedAlloy>, <ore:platePlatinum>, <Mekanism:EnrichedAlloy>], [<ore:platePlatinum>, <Mekanism:GasTank:*>.onlyWithTag({tier: 0}), <ore:platePlatinum>], [<Mekanism:EnrichedAlloy>, <ore:platePlatinum>, <Mekanism:EnrichedAlloy>]]);
-recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 2}), [[<Mekanism:ReinforcedAlloy>, <ore:plateEnderium>, <Mekanism:ReinforcedAlloy>], [<ore:plateEnderium>, <Mekanism:GasTank:*>.onlyWithTag({tier: 1}), <ore:plateEnderium>], [<Mekanism:ReinforcedAlloy>, <ore:plateEnderium>, <Mekanism:ReinforcedAlloy>]]);
+recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 0}), [[<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>], [<ore:plateIron>, null, <ore:plateIron>], [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>]]);
+recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 1}), [[<Mekanism:EnrichedAlloy>, <ore:plateSteel>, <Mekanism:EnrichedAlloy>], [<ore:plateSteel>, <Mekanism:GasTank:*>.onlyWithTag({tier: 0}), <ore:plateSteel>], [<Mekanism:EnrichedAlloy>, <ore:plateSteel>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 2}), [[<Mekanism:ReinforcedAlloy>, <ore:platePlatinum>, <Mekanism:ReinforcedAlloy>], [<ore:platePlatinum>, <Mekanism:GasTank:*>.onlyWithTag({tier: 1}), <ore:platePlatinum>], [<Mekanism:ReinforcedAlloy>, <ore:platePlatinum>, <Mekanism:ReinforcedAlloy>]]);
 recipes.addShaped(<Mekanism:GasTank:*>.withTag({tier: 3}), [[<Mekanism:AtomicAlloy>, <ore:plateRefinedObsidian>, <Mekanism:AtomicAlloy>], [<ore:plateRefinedObsidian>, <Mekanism:GasTank:*>.onlyWithTag({tier: 2}), <ore:plateRefinedObsidian>], [<Mekanism:AtomicAlloy>, <ore:plateRefinedObsidian>, <Mekanism:AtomicAlloy>]]);
 
 #Cardboard Box 
@@ -354,7 +354,7 @@ recipes.remove(<MekanismGenerators:Generator:*>);
 recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<minecraft:obsidian>, <ore:plateSteel>, <minecraft:obsidian>]]);
 
 #Basic Solar
-recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<Mekanism:EnrichedAlloy>, <ore:ingotIron>, <Mekanism:EnrichedAlloy>], [<ore:dustPlatinum>, <Mekanism:EnergyTablet>, <gregtech_addon:metaitem_1:2085>]]);
+recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<Mekanism:EnrichedAlloy>, <ore:ingotIron>, <Mekanism:EnrichedAlloy>], [<ore:dustPlatinum>, <Mekanism:EnergyTablet>, <ore:dustPlatinum>]]);
 
 #Gas-Burning Generator
 recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotPlatinum>, <Mekanism:EnrichedAlloy>, <ore:ingotPlatinum>], [<Mekanism:BasicBlock:8>, <Mekanism:ElectrolyticCore>, <Mekanism:BasicBlock:8>], [<ore:ingotPlatinum>, <Mekanism:EnrichedAlloy>, <ore:ingotPlatinum>]]);
@@ -427,9 +427,6 @@ recipes.addShaped(<MekanismGenerators:TurbineBlade>, [[null, <ore:ingotSteel>, n
 
 #Remove x5 ore processing
 furnace.remove(<*>, <Mekanism:DirtyDust:*>);
-
-#Metallurgic Infuser fix platinum
-mods.mekanism.Infuser.addRecipe("REDSTONE", 10, <ThermalFoundation:material:69>, <Mekanism:ControlCircuit>);
 
 #Silicon Balance
 mods.mekanism.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>);

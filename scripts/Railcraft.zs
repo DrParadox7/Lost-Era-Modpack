@@ -16,12 +16,27 @@ mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 
+#Concrete
+recipes.remove(<Railcraft:cube:1>);
+recipes.addShaped(<Railcraft:cube:1>*16, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <ThermalExpansion:material:514>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
+recipes.addShaped(<Railcraft:cube:1>*32, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <ThermalExpansion:material:515>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
+
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 21000, <Railcraft:cube:2>);
 
 #Balance Rolling Machine
 recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>], [<minecraft:piston>, <ore:craftingTableWood>, <minecraft:piston>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
+
+#Rolling plates uses no iron
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:*>);
+
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate>*4, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:ingotIron>, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1>*4, [[<ore:ingotSteel>, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:ingotSteel>, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2>*4, [[<ore:ingotTin>, <ore:ingotTin>, null], [<ore:ingotTin>, <ore:ingotTin>, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3>*4, [[<ore:ingotCopper>, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ore:ingotCopper>, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:4>*4, [[<ore:ingotLead>, <ore:ingotLead>, null], [<ore:ingotLead>, <ore:ingotLead>, null]]);
+
 
 ### Tanks ###
 recipes.remove(<Railcraft:machine.beta>);

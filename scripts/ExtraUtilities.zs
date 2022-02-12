@@ -116,9 +116,15 @@ recipes.addShapeless(<ExtraUtilities:pipes.1>, [<ExtraUtilities:pipes:10>, <witc
 furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
 mods.thermalexpansion.Furnace.removeRecipe(<minecraft:quartz_block>);
 
+#Blackout Curtain
+recipes.remove(<ExtraUtilities:curtains>);
+recipes.addShaped(<ExtraUtilities:curtains>*2, [[<minecraft:carpet:15>, <minecraft:carpet:15>, null], [<minecraft:carpet:15>, <minecraft:carpet:15>, null], [<minecraft:carpet:15>, <minecraft:carpet:15>, null]]);
+
+#Smooth Quartz & Burned Quartz conflict patch
 furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <etfuturum:smooth_quartz>);
 
 mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:quartz_block>, <etfuturum:smooth_quartz>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <etfuturum:smooth_quartz>, <ExtraUtilities:decorativeBlock1:2>);
+
 print("Initialized 'Extrautilities.zs'");
 

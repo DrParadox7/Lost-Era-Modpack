@@ -42,10 +42,6 @@ recipes.addShapeless(<harvestcraft:honeycombchocolatebarItem>, [<harvestcraft:sa
 recipes.addShaped(<malisisdoors:medieval_door>, [[<malisisdoors:item.door_dark_oak>, <malisisdoors:item.door_dark_oak>, null], [<malisisdoors:item.door_dark_oak>, <malisisdoors:item.door_dark_oak>, null], [<malisisdoors:item.door_dark_oak>, <malisisdoors:item.door_dark_oak>, null]]);
 recipes.addShaped(<malisisdoors:carriage_door>, [[<malisisdoors:item.door_birch>, <malisisdoors:item.door_birch>, null], [<malisisdoors:item.door_birch>, <malisisdoors:item.door_birch>, null], [<malisisdoors:item.door_birch>, <malisisdoors:item.door_birch>, null]]);
 
-#Blackout Curtain
-recipes.remove(<ExtraUtilities:curtains>);
-recipes.addShaped(<ExtraUtilities:curtains>, [[<minecraft:carpet:15>, <minecraft:carpet:15>, null], [<minecraft:carpet:15>, <minecraft:carpet:15>, null], [<minecraft:carpet:15>, <minecraft:carpet:15>, null]]);
-
 #Lunarin Brick Conflict
 recipes.remove(<VillageNames:lunarinIronBlock>);
 recipes.addShapeless(<VillageNames:lunarinIronBlock>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);

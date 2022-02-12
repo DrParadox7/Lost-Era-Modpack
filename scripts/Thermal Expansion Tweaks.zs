@@ -80,4 +80,51 @@ recipes.remove(<ThermalFoundation:tool.pickaxeBronze>);
 recipes.remove(<ThermalFoundation:tool.axeBronze>);
 recipes.remove(<ThermalFoundation:tool.hoeBronze>);
 
+#Upgrades Rebalance
+
+#Efficiency
+recipes.remove(<ThermalExpansion:augment:64>);
+recipes.remove(<ThermalExpansion:augment:65>);
+recipes.remove(<ThermalExpansion:augment:66>);
+
+recipes.addShaped(<ThermalExpansion:augment:64>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<minecraft:dye:4>, <ThermalExpansion:material:2>, <minecraft:dye:4>], [<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:augment:65>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<minecraft:packed_ice>, <ThermalExpansion:material:2>, <minecraft:packed_ice>], [<ore:ingotElectrumFlux>, <ore:ingotRedAlloy>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<ThermalExpansion:augment:66>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<ThermalFoundation:material:513>, <ThermalExpansion:material:2>, <ThermalFoundation:material:513>], [<ore:ingotPlatinum>, <ore:ingotRedAlloy>, <ore:ingotPlatinum>]]);
+
+#Output
+recipes.remove(<ThermalExpansion:augment:80>);
+recipes.remove(<ThermalExpansion:augment:81>);
+recipes.remove(<ThermalExpansion:augment:82>);
+
+recipes.addShaped(<ThermalExpansion:augment:80>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<minecraft:magma_cream>, <ThermalExpansion:material:2>, <minecraft:magma_cream>], [<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:augment:81>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<ThermalFoundation:material:512>, <ThermalExpansion:material:2>, <ThermalFoundation:material:512>], [<ore:ingotElectrumFlux>, <ore:ingotRedAlloy>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<ThermalExpansion:augment:82>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<RedstoneArsenal:material:96>, <ThermalExpansion:material:2>, <RedstoneArsenal:material:96>], [<ore:ingotPlatinum>, <ore:ingotRedAlloy>, <ore:ingotPlatinum>]]);
+
+#Processing Speed
+recipes.remove(<ThermalExpansion:augment:128>);
+recipes.remove(<ThermalExpansion:augment:129>);
+recipes.remove(<ThermalExpansion:augment:130>);
+
+recipes.addShaped(<ThermalExpansion:augment:128>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<ore:gearIron>, <ThermalExpansion:material:1>, <ore:gearIron>], [<ore:ingotInvar>, <minecraft:piston>, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:augment:129>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<ore:gearBronze>, <ThermalExpansion:material:1>, <ore:gearBronze>], [<ore:ingotElectrumFlux>, <minecraft:piston>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<ThermalExpansion:augment:130>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<ore:gearSignalum>, <ThermalExpansion:material:1>, <ore:gearSignalum>], [<ore:ingotPlatinum>, <minecraft:piston>, <ore:ingotPlatinum>]]);
+
+#Extra Output
+recipes.remove(<ThermalExpansion:augment:112>);
+recipes.remove(<ThermalExpansion:augment:113>);
+recipes.remove(<ThermalExpansion:augment:114>);
+
+recipes.addShaped(<ThermalExpansion:augment:112>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<minecraft:string>, <ThermalExpansion:material>, <minecraft:string>], [<ore:ingotInvar>, <minecraft:ender_eye>, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:augment:113>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<minecraft:leather>, <ThermalExpansion:material>, <minecraft:leather>], [<ore:ingotElectrumFlux>, <minecraft:ender_eye>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<ThermalExpansion:augment:114>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<minecraft:web>, <ThermalExpansion:material>, <minecraft:web>], [<ore:ingotPlatinum>, <minecraft:ender_eye>, <ore:ingotPlatinum>]]);
+
+#Igneous Upgrades
+recipes.remove(<ThermalExpansion:augment:312>);
+recipes.remove(<ThermalExpansion:augment:313>);
+recipes.remove(<ThermalExpansion:augment:314>);
+
+recipes.addShaped(<ThermalExpansion:augment:312>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<minecraft:cobblestone>, <ThermalExpansion:material>, <minecraft:cobblestone>], [<ore:ingotInvar>, <minecraft:brick_block>, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:augment:313>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<minecraft:stonebrick>, <ThermalExpansion:material>, <minecraft:stonebrick>], [<ore:ingotElectrumFlux>, <minecraft:brick_block>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<ThermalExpansion:augment:314>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<minecraft:obsidian>, <ThermalExpansion:material>, <minecraft:obsidian>], [<ore:ingotPlatinum>, <minecraft:brick_block>, <ore:ingotPlatinum>]]);
+
 print("Initialized 'ThermalExpansion.zs'");

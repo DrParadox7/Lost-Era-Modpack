@@ -248,16 +248,18 @@ recipes.addShaped(<WarpDrive:blockForceFieldRelay3>, [[<minecraft:ender_pearl>, 
 
 #Basic
 recipes.remove(<WarpDrive:blockHull1_plain>);
-recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<openmodularturrets:hardWallTierTwo>, <ore:ingotNickel>, <openmodularturrets:hardWallTierTwo>], [<ore:ingotNickel>, <ore:plateSteel>, <ore:ingotNickel>], [<openmodularturrets:hardWallTierTwo>, <ore:ingotNickel>, <openmodularturrets:hardWallTierTwo>]]);
+recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<IC2:blockAlloy>, <ore:ingotAluminium>, <IC2:blockAlloy>], [<ore:ingotAluminium>, null, <ore:ingotAluminium>], [<IC2:blockAlloy>, <ore:ingotAluminium>, <IC2:blockAlloy>]]);
+recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<Railcraft:cube:1>, <ore:ingotAluminium>, <Railcraft:cube:1>], [<ore:ingotAluminium>, null, <ore:ingotAluminium>], [<Railcraft:cube:1>, <ore:ingotAluminium>, <Railcraft:cube:1>]]);
 
 #Advanced
 recipes.remove(<WarpDrive:blockHull2_plain>);
-recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockHull1_plain>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockHull1_plain>, null, <WarpDrive:blockHull1_plain>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockHull1_plain>, <IC2:itemPartCarbonPlate>]]);
-recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<Mekanism:AtomicAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:AtomicAlloy>], [<WarpDrive:blockHull1_plain>, null, <WarpDrive:blockHull1_plain>], [<Mekanism:AtomicAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:AtomicAlloy>]]);
+recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockHull1_plain>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockHull1_plain>, <ore:plateTungstenSteel>, <WarpDrive:blockHull1_plain>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockHull1_plain>, <IC2:itemPartCarbonPlate>]]);
+recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<Mekanism:ReinforcedAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:ReinforcedAlloy>], [<WarpDrive:blockHull1_plain>, <ore:ingotElectrumFlux>, <WarpDrive:blockHull1_plain>], [<Mekanism:ReinforcedAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:ReinforcedAlloy>]]);
 
 #Superior
-recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<ore:plateTitanium>, <WarpDrive:blockHull1_plain>, <ore:plateTitanium>], [<WarpDrive:blockHull1_plain>, null, <WarpDrive:blockHull1_plain>], [<ore:plateTitanium>, <WarpDrive:blockHull1_plain>, <ore:plateTitanium>]]);
-recipes.addShaped(<WarpDrive:blockHull3_plain>, [[<Mekanism:AtomicAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:AtomicAlloy>], [<WarpDrive:blockHull1_plain>, null, <WarpDrive:blockHull1_plain>], [<Mekanism:AtomicAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:AtomicAlloy>]]);
+recipes.remove(<WarpDrive:blockHull3_plain>);
+recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<ore:plateChrome>, <WarpDrive:blockHull2_plain>, <ore:plateChrome>], [<WarpDrive:blockHull2_plain>, <IC2:itemPartIridium>, <WarpDrive:blockHull2_plain>], [<ore:plateChrome>, <WarpDrive:blockHull2_plain>, <ore:plateChrome>]]);
+recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<Mekanism:AtomicAlloy>, <WarpDrive:blockHull2_plain>, <Mekanism:AtomicAlloy>], [<WarpDrive:blockHull2_plain>, <ore:ingotRefinedGlowstone>, <WarpDrive:blockHull2_plain>], [<Mekanism:AtomicAlloy>, <WarpDrive:blockHull2_plain>, <Mekanism:AtomicAlloy>]]);
 
 ######Suit#####
 #Helmet

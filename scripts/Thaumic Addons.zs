@@ -249,5 +249,6 @@ shardSliver.add(<Automagy:shardSliver:5>);
 
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
 mods.thaumcraft.Arcane.addShapeless("ORE", <Thaumcraft:blockCosmeticSolid:6>*3, "terra 1, ignis 1", [<minecraft:stone>, <ore:shardSliver>, <minecraft:stone>]);
+mods.thaumcraft.Arcane.addShaped("ORE", <Thaumcraft:blockCosmeticSolid:6> * 8, "terra 1, ignis 1", [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <Thaumcraft:ItemShard:*>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 
 print("Initialized 'ThaumicAddons.zs'");

@@ -17,6 +17,10 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:42>, [[<minecraft:glowstone
 #Red Iron Compound
 recipes.addShaped(<ProjRed|Core:projectred.core.part:40>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
 
+#Bundled Cable
+recipes.remove(<ProjRed|Transmission:projectred.transmission.wire:17>);
+recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire:17>*3, [[<minecraft:string>, <ore:projredInsulatedWire>, <minecraft:string>], [<ore:projredInsulatedWire>, <ore:projredInsulatedWire>, <ore:projredInsulatedWire>], [<minecraft:string>, <ore:projredInsulatedWire>, <minecraft:string>]]);
+
 #Recipe Conflict
 furnace.remove(<ProjRed|Core:projectred.core.part>);
 

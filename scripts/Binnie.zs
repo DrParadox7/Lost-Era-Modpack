@@ -257,4 +257,10 @@ mods.forestry.Centrifuge.addRecipe([<Forestry:woodPulp> % 100, <Forestry:honeyDr
 #Energy drops usage
 mods.thermalexpansion.Crucible.addRecipe(4000, <ExtraBees:honeyDrop>, <liquid:redstone> * 35);
 
+#Time-Warped Soil
+recipes.remove(<RandomThings:fertilizedDirt>);
+recipes.addShaped(<RandomThings:fertilizedDirt>*4, [[<ThermalExpansion:material:517>, <minecraft:dirt>, <ThermalExpansion:material:517>], [<minecraft:dirt>, <MagicBees:pollen:1>, <minecraft:dirt>], [<ThermalExpansion:material:517>, <minecraft:dirt>, <ThermalExpansion:material:517>]]);
+game.setLocalization("en_US", "tile.fertilizedDirt.name", "Time-Warped Soil");
+<RandomThings:fertilizedDirt>.addTooltip("Crops on this soil grow 3x as fast and cannot be trampled");
+
 print("Initialized 'Binnie.zs'");

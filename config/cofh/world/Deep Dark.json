@@ -175,7 +175,6 @@
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
         "clusterSize": 5,
         "numClusters": 3,
-        "chunkChance": 3,
         "minHeight": 5,
         "maxHeight": 20,
         "retrogen": "true",

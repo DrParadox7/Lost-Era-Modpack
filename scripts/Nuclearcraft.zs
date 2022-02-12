@@ -107,6 +107,7 @@ mods.mekanism.Infuser.addRecipe("CARBON", 20, <IC2:itemDust:2>, <NuclearCraft:ma
 
 #Reinforced alloy
 recipes.remove(<NuclearCraft:material:22>);
+recipes.addShapeless(<NuclearCraft:material:22>*2, [<ore:dustGold>, <ore:dustTitanium>]);
 
 #Reagent
 recipes.remove(<NuclearCraft:parts:4>);
