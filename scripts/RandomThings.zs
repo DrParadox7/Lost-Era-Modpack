@@ -7,10 +7,14 @@ recipes.remove(<RandomThings:imbuingStation>);
 recipes.remove(<RandomThings:spectreKey>);
 recipes.remove(<RandomThings:spiritBinder>);
 recipes.remove(<RandomThings:enderLetter>);
-recipes.remove(<RandomThings:fertilizedDirt>);
-recipes.addShaped(<RandomThings:fertilizedDirt>, [[<ore:fertilizer>, <ore:fertilizer>, <ore:fertilizer>], [<ore:fertilizer>, <minecraft:dirt>, <ore:fertilizer>], [<ore:fertilizer>, <ore:fertilizer>, <ore:fertilizer>]]);
 recipes.addShaped(<RandomThings:imbuingStation>, [[<witchery:spanishmoss>, <minecraft:cauldron>, <witchery:spanishmoss>], [<witchery:ingredient:63>, <witchery:poppet>, <witchery:ingredient:63>], [<witchery:ingredient:15>, <witchery:ingredient:10>, <witchery:ingredient:15>]]);
 
+#Time-Warped Soil
+recipes.remove(<RandomThings:fertilizedDirt>);
+recipes.addShaped(<RandomThings:fertilizedDirt>*4, [[<Forestry:fertilizerCompound>, <minecraft:dirt>, <Forestry:fertilizerCompound>], [<minecraft:dirt>, <MagicBees:pollen:1>, <minecraft:dirt>], [<Forestry:fertilizerCompound>, <minecraft:dirt>, <Forestry:fertilizerCompound>]]);
+
+game.setLocalization("en_US", "tile.fertilizedDirt.name", "Time-Warped Soil");
+<RandomThings:fertilizedDirt>.addTooltip("Crops on this soil grow 3x as fast and cannot be trampled");
 
 recipes.remove(<RandomThings:enderLetter>);
 recipes.addShaped(<RandomThings:enderLetter>, [[null, <witchery:ingredient:67>, null], [<witchery:ingredient:67>, <Forestry:letters>, <witchery:ingredient:67>], [null, <witchery:ingredient:67>, null]]);
@@ -21,5 +25,13 @@ recipes.remove(<RandomThings:magneticForce>);
 #Player Detector
 recipes.remove(<RandomThings:onlineDetector>);
 recipes.addShaped(<RandomThings:onlineDetector>, [[<minecraft:redstone_lamp>, <ExtraUtilities:budoff:3>, <minecraft:redstone_lamp>], [<ore:ingotRedAlloy>, <RandomThings:ingredient>, <ore:ingotRedAlloy>], [<minecraft:redstone_lamp>, <ExtraUtilities:budoff:3>, <minecraft:redstone_lamp>]]);
+
+#Energy Distributor
+recipes.remove(<RandomThings:energyDistributor>);
+recipes.addShaped(<RandomThings:energyDistributor>, [[<ore:ingotInvar>, <ThermalExpansion:Plate:1>, <ore:ingotInvar>], [<ore:gearSignalum>, <ThermalExpansion:Frame>, <ore:gearSignalum>], [<ore:ingotInvar>, <ThermalExpansion:material:2>, <ore:ingotInvar>]]);
+
+#Ender Energy Distributor
+recipes.remove(<RandomThings:enderEnergyDistributor>);
+recipes.addShaped(<RandomThings:enderEnergyDistributor>, [[<ore:ingotEnderium>, <minecraft:ender_eye>, <ore:ingotEnderium>], [<RedstoneArsenal:material:96>, <RandomThings:energyDistributor>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:material:2>, <ore:ingotEnderium>]]);
 
 print("Initialized 'RandomThings.zs'");

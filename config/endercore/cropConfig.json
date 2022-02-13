@@ -179,7 +179,7 @@
         },
         {
             "seed":"harvestcraft:teaseedItem",
-            "block":"harvestcraft:pamteaCrop",
+            "block":"harvestcraft:pamtealeafCrop",
             "meta":7
         },
         {
@@ -289,7 +289,7 @@
         },
         {
             "seed":"harvestcraft:sesameseedsseedItem",
-            "block":"harvestcraft:pamsesameCrop",
+            "block":"harvestcraft:pamsesameseedsCrop",
             "meta":7
         },
         {
@@ -320,6 +320,16 @@
         {
             "seed":"harvestcraft:mustardseedItem",
             "block":"harvestcraft:pammustardseedsCrop",
+            "meta":7
+        },
+        {
+            "seed":"harvestcraft:bellpepperseedItem",
+            "block":"harvestcraft:pambellpepperCrop",
+            "meta":7
+        },
+        {
+            "seed":"harvestcraft:grapeseedItem",
+            "block":"harvestcraft:pamgrapeCrop",
             "meta":7
         },
         {
