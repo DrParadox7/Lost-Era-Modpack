@@ -52,7 +52,6 @@ val Ir = <minechem:minechemElement:77>;
 val N = <minechem:minechemElement:7>;
 val He = <minechem:minechemElement:2>;
 
-val Ti = <minechem:minechemElement:22>;
 val Al = <minechem:minechemElement:13>;
 val H = <minechem:minechemElement:1>;
 val O = <minechem:minechemElement:8>;
