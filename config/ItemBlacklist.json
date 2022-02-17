@@ -38,6 +38,10 @@
       "damage": "*"
     },
     {
+      "item": "Mekanism:ArmoredJetpack",
+      "damage": "*"
+    },
+    {
       "item": "IC2:blockMachine2",
       "damage": "*"
     },
