@@ -278,7 +278,7 @@ recipes.addShaped(<Mekanism:GasUpgrade>, [[<Mekanism:Polyethene:2>, <Mekanism:Co
 recipes.addShaped(<Mekanism:Robit>, [[null, <ore:ingotSteel>, null], [<Mekanism:EnergyTablet>, <Mekanism:AtomicAlloy>, <Mekanism:EnergyTablet>], [<ore:ingotRefinedObsidian>, <Mekanism:MachineBlock:13>, <ore:ingotRefinedObsidian>]]);
 
 #AtomicDisassembler
-recipes.addShaped(<Mekanism:AtomicDisassembler:*>, [[<Mekanism:ReinforcedAlloy>, <ThermalExpansion:capacitor:5>, <StevesCarts:CartModule:43>], [<ore:ingotRefinedObsidian>, <Mekanism:AtomicAlloy>, <ore:ingotRefinedObsidian>], [null, <ore:ingotRefinedObsidian>, null]]);
+recipes.addShaped(<Mekanism:AtomicDisassembler:*>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:3>, <Mekanism:ReinforcedAlloy>], [<ore:ingotRefinedObsidian>, <RedstoneArsenal:material:193>, <ore:ingotRefinedObsidian>], [<ore:ingotRefinedObsidian>, <RedstoneArsenal:material:193>, <ore:ingotRefinedObsidian>]]);
 
 #Control Circuits 
 recipes.addShaped(<Mekanism:ControlCircuit:1>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
@@ -321,7 +321,7 @@ recipes.addShaped(<Mekanism:ScubaTank>, [[null, <Mekanism:ControlCircuit>, null]
 recipes.addShaped(<Mekanism:ElectrolyticCore>, [[<Mekanism:EnrichedAlloy>, <ore:dustPlatinum>, <Mekanism:EnrichedAlloy>], [<ore:dustGold>, <Mekanism:EnrichedAlloy>, <ore:dustIron>], [<Mekanism:EnrichedAlloy>, <ore:dustPlatinum>, <Mekanism:EnrichedAlloy>]]);
 
 #Flamethrower
-recipes.addShaped(<Mekanism:Flamethrower:*>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<Railcraft:firestone.refined>, <ThermalExpansion:igniter>, <ore:ingotSteel>], [<ore:ingotSteel>, <Mekanism:ControlCircuit:1>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:Flamethrower:*>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<Mekanism:GasTank:*>, <ThermalExpansion:igniter>, <ore:ingotSteel>], [<ore:ingotSteel>, <Mekanism:ControlCircuit:1>, <ore:ingotSteel>]]);
 
 #Configuration Card 
 recipes.addShaped(<Mekanism:ConfigurationCard>, [[null, <Mekanism:EnrichedAlloy>, null], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [null, <Mekanism:EnrichedAlloy>, null]]);
@@ -448,7 +448,7 @@ mods.mekanism.Reaction.removeRecipe(<Mekanism:Substrate>, <gas:ethene>, <Mekanis
 
 #Teleportator
 recipes.remove(<Mekanism:TeleportationCore>);
-mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>,1200000,[<minecraft:dye:4>, <Mekanism:AtomicAlloy>, <minecraft:dye:4>, <ore:ingotEnderium>, <minecraft:diamond>, <ore:ingotEnderium>, <minecraft:dye:4>, <Mekanism:AtomicAlloy>, <minecraft:dye:4>]);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>,1200000,[<Mekanism:ReinforcedAlloy>, <RedstoneArsenal:material:96>, <Mekanism:ReinforcedAlloy>]);
 
 #logistical transporter
 recipes.remove(<Mekanism:PartTransmitter:12>);

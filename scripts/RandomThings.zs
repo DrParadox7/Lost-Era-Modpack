@@ -9,11 +9,10 @@ recipes.remove(<RandomThings:spiritBinder>);
 recipes.remove(<RandomThings:enderLetter>);
 recipes.addShaped(<RandomThings:imbuingStation>, [[<witchery:spanishmoss>, <minecraft:cauldron>, <witchery:spanishmoss>], [<witchery:ingredient:63>, <witchery:poppet>, <witchery:ingredient:63>], [<witchery:ingredient:15>, <witchery:ingredient:10>, <witchery:ingredient:15>]]);
 
-#Time-Warped Soil
+#Fertilized Dirt
 recipes.remove(<RandomThings:fertilizedDirt>);
-recipes.addShaped(<RandomThings:fertilizedDirt>*4, [[<Forestry:fertilizerCompound>, <minecraft:dirt>, <Forestry:fertilizerCompound>], [<minecraft:dirt>, <MagicBees:pollen:1>, <minecraft:dirt>], [<Forestry:fertilizerCompound>, <minecraft:dirt>, <Forestry:fertilizerCompound>]]);
+mods.forestry.Moistener.addRecipe(<RandomThings:fertilizedDirt>, <Forestry:soil>, 2400);
 
-game.setLocalization("en_US", "tile.fertilizedDirt.name", "Time-Warped Soil");
 <RandomThings:fertilizedDirt>.addTooltip("Crops on this soil grow 3x as fast and cannot be trampled");
 
 recipes.remove(<RandomThings:enderLetter>);

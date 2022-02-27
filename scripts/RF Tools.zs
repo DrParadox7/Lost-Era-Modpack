@@ -3,7 +3,7 @@
 print("Initializing 'RFTools.zs'...");
 
 recipes.remove(<rftools:machineFrame>);
-recipes.addShaped(<rftools:machineFrame>, [[<ore:plateSteel>, <minecraft:dye:4>, <ore:plateSteel>], [<minecraft:gold_nugget>, <Mekanism:EnrichedAlloy>, <minecraft:gold_nugget>], [<ore:plateSteel>, <minecraft:dye:4>, <ore:plateSteel>]]);
+recipes.addShaped(<rftools:machineFrame>, [[<ore:plateSteel>, <minecraft:dye:4>, <ore:plateSteel>], [<Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>], [<ore:plateSteel>, <minecraft:dye:4>, <ore:plateSteel>]]);
 
 recipes.remove(<rftools:machineBase>);
 recipes.addShaped(<rftools:machineBase>, [[null, null, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>]]);
@@ -30,7 +30,7 @@ recipes.remove(<rftools:builderBlock>);
 recipes.addShaped(<rftools:builderBlock>, [[<ore:plateSteel>, <BuildCraft|Builders:builderBlock>, <ore:plateSteel>], [<qCraft:dust>, <ExtraUtilities:enderQuarry>, <qCraft:dust>], [<ore:plateSteel>, <qCraft:dust>, <ore:plateSteel>]]);
 
 recipes.remove(<rftools:spawnerBlock>);
-recipes.addShaped(<rftools:spawnerBlock>, [[<ore:plateSteel>, <minecraft:skull:1>, <ore:plateSteel>], [<minecraft:skull:1>, <rftools:machineFrame>, <minecraft:skull:1>], [<ore:plateSteel>, <StevesCarts:ModuleComponents:45>, <ore:plateSteel>]]);
+recipes.addShaped(<rftools:spawnerBlock>, [[<ore:plateSteel>, <Mekanism:TeleportationCore>, <ore:plateSteel>], [<RandomThings:ingredient:3>, <rftools:machineFrame>, <RandomThings:ingredient:3>], [<ore:plateSteel>, <Mekanism:ControlCircuit:1>, <ore:plateSteel>]]);
 
 recipes.remove(<rftools:matterTransmitterBlock>);
 recipes.addShaped(<rftools:matterTransmitterBlock>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<Mekanism:AtomicAlloy>, <Mekanism:WalkieTalkie>, <Mekanism:AtomicAlloy>], [<ore:plateEnderium>, <Mekanism:MachineBlock:11>, <ore:plateEnderium>]]);
