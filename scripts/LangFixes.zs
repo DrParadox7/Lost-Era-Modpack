@@ -64,4 +64,12 @@ game.setLocalization("en_US", "entity.PortalGun.portal_entitycube.name", "Weight
 
 game.setLocalization("en_US", "entity.MinecartRideable.name", "Minecart");
 
+game.setLocalization("en_US", "entity.RandomThings.spirit.name", "Spirit");
+
+game.setLocalization("en_US", "tile.railcraft.default.name", "Minetrack");
+
+game.setLocalization("en_US", "tile.botania:spreader10.name", "Mana Spreader");
+
+game.setLocalization("en_US", "entity.ItemFrame.name", "Item Frame");
+
 print("Initialized 'LangFixes.zs'");
