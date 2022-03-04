@@ -260,4 +260,30 @@ mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WrathCage>);
 mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <Thaumcraft:ItemResource:15>, [<Thaumcraft:ItemResource:15>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>, <minecraft:diamond>, <ForbiddenMagic:NetherShard>, <ThaumicHorizons:planarConduit>, <ForbiddenMagic:NetherShard>, <minecraft:diamond>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>], "ira 32, praecantio 32, bestia 32, machina 16", <ForbiddenMagic:WrathCage>, 10);
 mods.thaumcraft.Research.refreshResearchRecipe("WRATHCAGE");
 
+#Warp Theory
+
+#Inpure Tear
+mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanserminor>);
+mods.thaumcraft.Infusion.addRecipe("warptheory.cleanserminor", <Thaumcraft:ItemCompassStone>, [<Thaumcraft:ItemEldritchObject:1>, <Thaumcraft:ItemResource:15>, <gadomancy:ItemElement>, <Thaumcraft:ItemResource:16>, <minecraft:nether_star>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:16>, <minecraft:nether_star>, <Thaumcraft:ItemResource:16>, <gadomancy:ItemElement>, <Thaumcraft:ItemResource:15>], "vacuos 8, tenebrae 100, auram 16, alienis 32, vitium 64", <WarpTheory:item.warptheory.cleanserminor>, 10);
+mods.thaumcraft.Research.refreshResearchRecipe("warptheory.cleanserminor");
+
+#   Prerequisites
+mods.thaumcraft.Research.addPrereq("warptheory.cleanserminor", "GADOMANCY.ESSENTIA_COMPRESSOR", false);
+mods.thaumcraft.Research.addPrereq("warptheory.cleanserminor", "SINSTONE", false);
+mods.thaumcraft.Research.addPrereq("warptheory.cleanserminor", "ICHORCLOTH_BOOTS_GEM", false);
+
+#Pure Tear
+mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanser>);
+mods.thaumcraft.Infusion.addRecipe("warptheory.cleanser", <WarpTheory:item.warptheory.cleanser>, [<Thaumcraft:blockCustomPlant:4>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:2>, <minecraft:nether_star>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemResource:15>, <ThaumicTinkerer:kamiResource:2>, <minecraft:nether_star>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:14>], "sano 32, cognitio 100, luxuria 8, praecantatio 16", <WarpTheory:item.warptheory.cleanser>, 10);
+mods.thaumcraft.Research.refreshResearchRecipe("warptheory.cleanser");
+
+#   Prerequisites
+mods.thaumcraft.Research.addPrereq("warptheory.cleanser", "ICHORIUM", false);
+mods.thaumcraft.Research.addPrereq("warptheory.cleanser", "warptheory.cleanserminor", false);
+
+#Pure Amulet
+mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.amulet>);
+mods.thaumcraft.Infusion.addRecipe("warptheory.amulet", <Thaumcraft:ItemBaubleBlanks>, [<WarpTheory:item.warptheory.cleanser>, <Thaumcraft:ItemResource:15>, <ThaumicTinkerer:kamiResource:1>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:15>, <WarpTheory:item.warptheory.cleanser>, <Thaumcraft:ItemResource:15>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:1>, <Thaumcraft:ItemResource:15>], "cognitio 24, auram 16, pannus 8", <WarpTheory:item.warptheory.amulet>, 10);
+mods.thaumcraft.Research.refreshResearchRecipe("warptheory.amulet");
+
 print("Initialized 'ThaumicAddons.zs'");
