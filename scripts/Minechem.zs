@@ -20,16 +20,16 @@ recipes.addShapeless(<minechem:minechemBlueprint>, [<ThermalExpansion:diagram>, 
 vanilla.loot.removeChestLoot("dungeonChest", <minechem:minechemBlueprint>);
 vanilla.loot.removeChestLoot("dungeonChest", <minechem:minechemBlueprint:1>);
 
-recipes.addShaped(<minechem:tile.chemicalDecomposer>, [[<Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minechem:minechemAtomicManipulator>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minecraft:redstone>, <Mekanism:Polyethene:2>]]);
+recipes.addShaped(<minechem:tile.chemicalDecomposer>, [[<Mekanism:Polyethene:2>, <Mekanism:ElectrolyticCore>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minechem:minechemAtomicManipulator>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <ThermalExpansion:material:1>, <Mekanism:Polyethene:2>]]);
 recipes.addShaped(<minechem:tile.opticalMicroscope>, [[null, <minechem:minechemOpticalMicroscopeLens:2>, <Mekanism:Polyethene:2>], [null, <minecraft:glass_pane>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>, <Mekanism:Polyethene:2>]]);
-recipes.addShaped(<minechem:tile.chemicalSynthesizer>, [[<Mekanism:Polyethene:2>, <minecraft:redstone>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minechem:minechemAtomicManipulator>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <ore:gemDiamond>, <Mekanism:Polyethene:2>]]);
+recipes.addShaped(<minechem:tile.chemicalSynthesizer>, [[<Mekanism:Polyethene:2>, <Mekanism:ControlCircuit:2>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <minechem:minechemAtomicManipulator>, <Mekanism:Polyethene:2>], [<Mekanism:Polyethene:2>, <ThermalExpansion:material:1>, <Mekanism:Polyethene:2>]]);
 recipes.addShaped(<minechem:tile.blueprintProjector>, [[null, <Mekanism:Polyethene:2>, null], [<ThermalExpansion:Light:1>.withTag({Style: 3 as byte}), <minecraft:glass_pane>, <minechem:minechemOpticalMicroscopeLens:3>], [null, <Mekanism:Polyethene:2>, null]]);
-recipes.addShaped(<minechem:minechemAtomicManipulator>, [[<Mekanism:Polyethene:2>, <Mekanism:EnrichedAlloy>, <Mekanism:Polyethene:2>], [<Mekanism:EnrichedAlloy>, <Mekanism:ReinforcedAlloy>, <Mekanism:EnrichedAlloy>], [<Mekanism:Polyethene:2>, <Mekanism:EnrichedAlloy>, <Mekanism:Polyethene:2>]]);
+recipes.addShaped(<minechem:minechemAtomicManipulator>, [[<Mekanism:Polyethene:2>, <Mekanism:ReinforcedAlloy>, <Mekanism:Polyethene:2>], [<Mekanism:ReinforcedAlloy>, <Mekanism:AtomicAlloy>, <Mekanism:ReinforcedAlloy>], [<Mekanism:Polyethene:2>, <Mekanism:ReinforcedAlloy>, <Mekanism:Polyethene:2>]]);
 recipes.addShaped(<minechem:tile.leadChest>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <minecraft:chest>, <ore:plateLead>], [null, <ore:plateLead>, null]]);
 recipes.addShaped(<minechem:minechemPolytool>, [[null, <NuclearCraft:material:78>, <IC2:itemPartIndustrialDiamond>], [null, <Mekanism:Polyethene:3>, <NuclearCraft:material:78>], [<Mekanism:Polyethene:2>, null, null]]);
 
-recipes.addShaped(<minechem:tile.fusionWall>*8, [[<Mekanism:Polyethene:2>, <NuclearCraft:parts:3>, <Mekanism:Polyethene:2>], [<NuclearCraft:parts:3>, <minechem:minechemElement:22>, <NuclearCraft:parts:3>], [<Mekanism:Polyethene:2>, <NuclearCraft:parts:3>, <Mekanism:Polyethene:2>]]);
-recipes.addShaped(<minechem:tile.fusionWall:1>*8, [[<NuclearCraft:material:78>, <minechem:minechemElement:74>, <NuclearCraft:material:78>], [<minechem:minechemElement:74>, <minechem:minechemElement:4>, <minechem:minechemElement:74>], [<NuclearCraft:material:78>, <minechem:minechemElement:74>, <NuclearCraft:material:78>]]);
+recipes.addShaped(<minechem:tile.fusionWall>*8, [[<Mekanism:Polyethene:2>, <ore:ingotLead>, <Mekanism:Polyethene:2>], [<ore:ingotLead>, <minechem:minechemElement:22>, <ore:ingotLead>], [<Mekanism:Polyethene:2>, <ore:ingotLead>, <Mekanism:Polyethene:2>]]);
+recipes.addShaped(<minechem:tile.fusionWall:1>*8, [[<Mekanism:Polyethene:2>, <ore:ingotTungsten>, <Mekanism:Polyethene:2>], [<ore:ingotTungsten>, <minechem:minechemElement:4>, <ore:ingotTungsten>], [<Mekanism:Polyethene:2>, <ore:ingotTungsten>, <Mekanism:Polyethene:2>]]);
 
 
 #Decomposer recipes
@@ -55,6 +55,8 @@ val He = <minechem:minechemElement:2>;
 val Al = <minechem:minechemElement:13>;
 val H = <minechem:minechemElement:1>;
 val O = <minechem:minechemElement:8>;
+val Hydroxilapatite = <minechem:minechemMolecule:42>;
+val W = <minechem:minechemElement:74>;
 
 
 
@@ -65,9 +67,13 @@ Decomposer.removeRecipe(<NuclearCraft:material:7>);
 Decomposer.removeRecipe(<NuclearCraft:blockBlock:7>);
 Decomposer.removeRecipe(<minechem:minechemPolytool>);
 Decomposer.removeRecipe(<minecraft:bucket>);
+Decomposer.removeRecipe(<minecraft:dye:15>);
 
-Decomposer.addRecipe(<gregtech_addon:metaitem_1:2822>,0.8,[[Ti, Al*16, H*10, O*12]]);
-Decomposer.addRecipe(<ore:dustObsidian>,0.5,[[SiO*4, Mag*2]]);
+Decomposer.addRecipe(<gregtech_addon:metaitem_1:11081>,1,[[W*16]]);
+Decomposer.addRecipe(<gregtech_addon:metaitem_1:2081>,1,[[W*16]]);
+Decomposer.addRecipe(<gregtech_addon:metaitem_1:2822>,0.95,[[Ti, Al*16, H*10, O*12]]);
+Decomposer.addRecipe(<gregtech_addon:metaitem_1:3822>,0.95,[[Ti, Al*16, H*10, O*12]]);
+Decomposer.addRecipe(<gregtech_addon:metaitem_1:4822>,0.95,[[Ti, Al*16, H*10, O*12]]);
 Decomposer.addRecipe(<NuclearCraft:material:7>,0.8,[[Au*8, Ti*8]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:7>,0.8,[[Au*375, Ti*375]]);
 Decomposer.addRecipe(<NuclearCraft:material:43>,0.8,[[B*24]]);
@@ -75,6 +81,7 @@ Decomposer.addRecipe(<NuclearCraft:blockBlock:9>,0.8,[[B*216]]);
 Decomposer.addRecipe(<NuclearCraft:material:5>,0.8,[[Th*48]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:5>,0.8,[[Th*432]]);
 Decomposer.addRecipe(<NuclearCraft:material:78>,0.8,[[C*12]]);
+Decomposer.addRecipe(<minecraft:dye:15>,0.20,[[Hydroxilapatite*1]]);
 
 Decomposer.addRecipe(<NuclearCraft:material:87>,0.8,[[Np*48]]);
 Decomposer.addRecipe(<NuclearCraft:material:86>,0.8,[[Np*432]]);
@@ -94,18 +101,20 @@ Synthesiser.removeRecipe(<Mekanism:OtherDust:6>);
 Synthesiser.removeRecipe(<Railcraft:dust>);
 Synthesiser.removeRecipe(<NuclearCraft:material:5>);
 Synthesiser.removeRecipe(<NuclearCraft:blockBlock:5>);
-Synthesiser.removeRecipe(<Railcraft:dust>);
+Synthesiser.removeRecipe(<minecraft:dye:15>);
 
-Synthesiser.addRecipe([SiO*4, Mag*2],<ore:dustObsidian>,true,450);
-Synthesiser.addRecipe([Au*8, Ti*8],<NuclearCraft:material:7>,true,1000);
-Synthesiser.addRecipe([N*8, He*2],<ThermalFoundation:material:1025>,true,200);
-Synthesiser.addRecipe([Ir*24],<IC2:itemShardIridium>,true,7500);
+Synthesiser.addRecipe([W*16],<gregtech_addon:metaitem_1:11081>,true,1400);
+Synthesiser.addRecipe([W*16],<gregtech_addon:metaitem_1:2081>,true,1400);
+Synthesiser.addRecipe([Ti, Al*16, H*10, O*12],<gregtech_addon:metaitem_1:2822>,true,400);
+Synthesiser.addRecipe([Au*8, Ti*8],<NuclearCraft:material:7>,true,1040);
+Synthesiser.addRecipe([N*8, He*2],<ThermalFoundation:material:1025>,true,600);
+Synthesiser.addRecipe([Ir*24],<IC2:itemShardIridium>,true,520);
 
-Synthesiser.addRecipe([B*24],<NuclearCraft:material:43>,true,4000);
+Synthesiser.addRecipe([B*24],<NuclearCraft:material:43>,true,6000);
 
-Synthesiser.addRecipe([P*48],<NuclearCraft:material:33>,true,40000);
+Synthesiser.addRecipe([P*48],<NuclearCraft:material:33>,true,60000);
 
-Synthesiser.addRecipe([Th*48],<NuclearCraft:material:5>,true,2500);
+Synthesiser.addRecipe([Th*48],<NuclearCraft:material:5>,true,4000);
 
 Synthesiser.addRecipe([Np*48],<NuclearCraft:material:87>,true,40000);
 

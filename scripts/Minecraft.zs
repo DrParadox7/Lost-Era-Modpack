@@ -7,6 +7,9 @@ print("Initializing 'Minecraft.zs'...");
 recipes.removeShapeless(<minecraft:flint_and_steel>, [<ore:ingotIron>, <ore:itemFlint>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
 
+#Trapped Chest Buff
+game.setLocalization("en_US", "tile.chestTrap.name", "Chest");
+
 #Door Dupe fix
 recipes.remove(<minecraft:wooden_door>);
 recipes.addShaped(<minecraft:wooden_door>, [[<minecraft:planks>, <minecraft:planks>, null], [<minecraft:planks>, <minecraft:planks>, null], [<minecraft:planks>, <minecraft:planks>, null]]);
@@ -81,6 +84,27 @@ recipes.remove(<etfuturum:fence_gate_dark_oak>);
 #Thaumcraft Brains Drying Rack
 mods.tconstruct.Drying.removeRecipe(<WitchingGadgets:item.WG_MagicFood:2>);
 mods.tconstruct.Drying.addRecipe(<WitchingGadgets:item.WG_MagicFood:2>, <Thaumcraft:ItemZombieBrain>, 24000);
+
+#Loot Balance 
+vanilla.loot.removeChestLoot("dungeonChest", <Forestry:ambrosia>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <Forestry:ambrosia>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <Forestry:ambrosia>);
+
+vanilla.loot.removeChestLoot("dungeonChest", <hardcorewither:StarryApple>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <hardcorewither:StarryApple>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <hardcorewither:StarryApple>);
+
+vanilla.loot.addChestLoot("dungeonChest", <waystones:warpScroll>.weight(8), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <waystones:warpScroll>.weight(8), 1, 3);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <waystones:warpScroll>.weight(10), 1, 5);
+
+vanilla.loot.removeChestLoot("dungeonChest", <gregtech_addon:metaitem_1:32100>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <gregtech_addon:metaitem_1:32100>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <gregtech_addon:metaitem_1:32100>);
+
+vanilla.loot.addChestLoot("dungeonChest", <gregtech_addon:metaitem_1:32100>.weight(45), 2, 5);
+vanilla.loot.addChestLoot("mineshaftCorridor", <gregtech_addon:metaitem_1:32100>.weight(45), 2, 5);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <gregtech_addon:metaitem_1:32100>.weight(45), 3, 12);
 
 print("Initialized 'Minecraft.zs'");
 

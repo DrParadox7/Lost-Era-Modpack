@@ -16,7 +16,7 @@ recipes.remove(<ExtraUtilities:spike_base_gold>);
 recipes.remove(<ExtraUtilities:spike_base_diamond>);
 recipes.remove(<ExtraUtilities:spike_base>);
 recipes.remove(<ExtraUtilities:spike_base_wood>);
-recipes.addShaped(<ExtraUtilities:spike_base_wood>, [[null, <ExtraUtilities:decorativeBlock1:8>, null], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:ethericsword>, <ExtraUtilities:decorativeBlock1:8>]]);
+recipes.addShaped(<ExtraUtilities:spike_base_wood>, [[null, <minecraft:wooden_sword>, null], [<minecraft:wooden_sword>, <ExtraUtilities:decorativeBlock1:8>, <minecraft:wooden_sword>], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:unstableingot:*>, <ExtraUtilities:decorativeBlock1:8>]]);
 recipes.addShaped(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamond_sword>, null], [<minecraft:diamond_sword>, <minecraft:diamond_block>, <minecraft:diamond_sword>], [<minecraft:diamond_block>, <ExtraUtilities:spike_base_gold>, <minecraft:diamond_block>]]);
 recipes.addShaped(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <minecraft:gold_block>, <minecraft:golden_sword>], [<minecraft:gold_block>, <ExtraUtilities:spike_base>, <minecraft:gold_block>]]);
 recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, <ExtraUtilities:spike_base_wood>, <minecraft:iron_block>]]);

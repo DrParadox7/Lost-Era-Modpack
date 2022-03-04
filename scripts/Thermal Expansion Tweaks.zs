@@ -6,21 +6,17 @@ print("Initializing 'ThermalExpansion.zs'...");
 val Mithril = <ore:ingotMithril>;
 Mithril.add(<ThermalFoundation:material:70>);
 
-#Tesseract
-recipes.remove(<ThermalExpansion:Frame:10>);
-recipes.addShaped(<ThermalExpansion:Frame:10>, [[<ore:ingotEnderium>, <ore:blockGlassHardened>,<ore:ingotEnderium>], [<ore:blockGlassHardened>, <NuclearCraft:antimatter>, <ore:blockGlassHardened>], [<ore:ingotEnderium>, <ore:blockGlassHardened>, <ore:ingotEnderium>]]);
-
-#Nerf Plat from Ferrous ore
-mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <ThermalFoundation:Ore:4>);
-mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:20>, <ThermalFoundation:Ore:4>, <ThermalFoundation:material:68>*3, <ThermalFoundation:material:69>, 25);
+#Tesseract 
+recipes.addShapeless(<ThermalExpansion:Tesseract>, [<ThermalExpansion:Frame:11>, <NuclearCraft:antimatter>]);
 
 #Cinnabar
-mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:redstone_ore>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:gold_ore>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<Thaumcraft:blockCustomOre>);
-mods.thermalexpansion.Pulverizer.addRecipe(3200, <minecraft:redstone_ore>, <minecraft:redstone>*6 , <Railcraft:dust:1>, 25);
-mods.thermalexpansion.Pulverizer.addRecipe(3200, <minecraft:gold_ore>, <ThermalFoundation:material:1>*2 , <ThermalFoundation:material:34>, 5);
-mods.thermalexpansion.Pulverizer.addRecipe(4000, <Thaumcraft:blockCustomOre>, <ThermalFoundation:material:20>, <NuclearCraft:material:73>, 10);
+mods.thermalexpansion.Pulverizer.removeRecipe(<Thaumcraft:ItemNugget:21>);
+
+mods.thermalexpansion.Pulverizer.addRecipe(3200, <Thaumcraft:blockCustomOre>, <Thaumcraft:ItemResource:3>, <ThermalFoundation:material:20>, 5);
+mods.thermalexpansion.Pulverizer.addRecipe(3200, <Thaumcraft:ItemNugget:21>, <Thaumcraft:ItemResource:3>*3, <ThermalFoundation:material:20>, 25);
+
+mods.thermalexpansion.Furnace.addRecipe(1000, <ThermalFoundation:material:20>, <Thaumcraft:ItemResource:3>);
 
 #Lapis Dust
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <minecraft:dye:4>, <NuclearCraft:material:10>);
@@ -34,42 +30,45 @@ mods.forestry.ThermionicFabricator.removeCast(<Forestry:thermionicTubes:12>);
 mods.forestry.ThermionicFabricator.addCast(<Forestry:thermionicTubes:12> *2, [[<Botania:manaResource:15>, <ore:ingotEnderium>, <Botania:manaResource:15>], [<minecraft:ender_eye>, <ore:ingotEnderium>, <minecraft:ender_eye>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]], 1000);
 
 #Obsidian before diamond exploit patch
-recipes.remove(<ThermalExpansion:Machine:7>);
-recipes.remove(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}));
-recipes.remove(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}));
-recipes.remove(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}));
-
-recipes.addShaped(<ThermalExpansion:Machine:7>, [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:1>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), [[<ore:ingotInvar>, <ore:gearElectrum>, <ore:ingotInvar>], [null, <ThermalExpansion:Machine:7>, null], [<ore:ingotInvar>, null, <ore:ingotInvar>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), [[<ore:blockGlassHardened>, <ore:gearSignalum>, <ore:blockGlassHardened>], [null, <ThermalExpansion:Machine:7>, null], [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), [[<ore:ingotSilver>, <ore:gearEnderium>, <ore:ingotSilver>], [null, <ThermalExpansion:Machine:7>, null], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
-
-#Diamond Pulverizer
-recipes.remove(<ThermalExpansion:Machine:1>);
-recipes.remove(<ThermalExpansion:Machine:1>.withTag({Level: 1 as byte}));
-recipes.remove(<ThermalExpansion:Machine:1>.withTag({Level: 2 as byte}));
-recipes.remove(<ThermalExpansion:Machine:1>.withTag({Level: 3 as byte}));
-
-recipes.addShaped(<ThermalExpansion:Machine:1>, [[null, <minecraft:piston>, null], [<minecraft:diamond>, <ThermalExpansion:Frame>, <minecraft:diamond>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 1 as byte}), [[null, <minecraft:piston>, null], [<minecraft:diamond>, <ThermalExpansion:Frame:1>, <minecraft:diamond>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 2 as byte}), [[null, <minecraft:piston>, null], [<minecraft:diamond>, <ThermalExpansion:Frame:2>, <minecraft:diamond>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 3 as byte}), [[null, <minecraft:piston>, null], [<minecraft:diamond>, <ThermalExpansion:Frame:3>, <minecraft:diamond>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
-
-recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 1 as byte}), [[<ore:ingotInvar>, <ore:gearElectrum>, <ore:ingotInvar>], [null, <ThermalExpansion:Machine:1>, null], [<ore:ingotInvar>, null, <ore:ingotInvar>]]);
-recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 2 as byte}), [[<ore:blockGlassHardened>, <ore:gearSignalum>, <ore:blockGlassHardened>], [null, <ThermalExpansion:Machine:1>, null], [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>]]);
-recipes.addShaped(<ThermalExpansion:Machine:1>.withTag({Level: 3 as byte}), [[<ore:ingotSilver>, <ore:gearEnderium>, <ore:ingotSilver>], [null, <ThermalExpansion:Machine:1>, null], [<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte, Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:1>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte, Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte, Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
 
 #Blizz Dust
 recipes.remove(<ThermalFoundation:material:513>);
 recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
 
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
+#### Bauxide Processing
 
-#Fix bronze inbalance
+#Allow for user error and add to accuracy (Slag is mixed materials)
+mods.thermalexpansion.Furnace.addRecipe(1000, <gregtech_addon:metaitem_1:3822>, <ThermalExpansion:material:514>);
+
+#Impure
+mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech_addon:ore:5>);
+mods.thermalexpansion.Pulverizer.addRecipe(3200, <gregtech_addon:ore:5>, <gregtech_addon:metaitem_1:3822>*2);
+
+#Pure
+mods.mekanism.Purification.addRecipe(<gregtech_addon:metaitem_1:3822>, <gas:hydrogenchloride>, <gregtech_addon:metaitem_1:4822>);
+
+#Process into Titanium
+mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalFoundation:material:512>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 45);
+mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalFoundation:material:20>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 100);
+mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <minecraft:sand>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 15);
+mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalExpansion:material:515>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 75);
+
+#Transposer recipes
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<Thaumcraft:blockCustomOre>, <liquid:cryotheum>);
+
+mods.thermalexpansion.Transposer.addFillRecipe(4000, <Thaumcraft:blockCustomOre>, <ThermalFoundation:material:20> * 3, <liquid:cryotheum> * 200);
+
+#Redstone Energy Cell
+recipes.removeShaped(<ThermalExpansion:Cell:3>);
+recipes.addShaped(<ThermalExpansion:Cell:3>, [[null, <RedstoneArsenal:material:32>, null], [<RedstoneArsenal:material:32>, <ThermalExpansion:Frame:7>, <RedstoneArsenal:material:32>], [null, <ThermalExpansion:material:3>, null]]);
+
+
+#Fix bronze armor variety inbalance
 recipes.remove(<ThermalFoundation:armor.helmetBronze>);
 recipes.remove(<ThermalFoundation:armor.plateBronze>);
 recipes.remove(<ThermalFoundation:armor.legsBronze>);
@@ -126,5 +125,13 @@ recipes.remove(<ThermalExpansion:augment:314>);
 recipes.addShaped(<ThermalExpansion:augment:312>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<minecraft:cobblestone>, <ThermalExpansion:material>, <minecraft:cobblestone>], [<ore:ingotInvar>, <minecraft:brick_block>, <ore:ingotInvar>]]);
 recipes.addShaped(<ThermalExpansion:augment:313>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<minecraft:stonebrick>, <ThermalExpansion:material>, <minecraft:stonebrick>], [<ore:ingotElectrumFlux>, <minecraft:brick_block>, <ore:ingotElectrumFlux>]]);
 recipes.addShaped(<ThermalExpansion:augment:314>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<minecraft:obsidian>, <ThermalExpansion:material>, <minecraft:obsidian>], [<ore:ingotPlatinum>, <minecraft:brick_block>, <ore:ingotPlatinum>]]);
+
+#Capacitors
+recipes.remove(<ThermalExpansion:capacitor:*>);
+
+recipes.addShaped(<ThermalExpansion:capacitor:2>, [[<minecraft:redstone>, <ore:gearLead>, <minecraft:redstone>], [<ore:ingotLead>, <ThermalExpansion:capacitor:1>, <ore:ingotLead>], [<minecraft:leather>, <ore:dustSulfur>, <minecraft:leather>]]);
+recipes.addShaped(<ThermalExpansion:capacitor:3>, [[<ProjRed|Core:projectred.core.part:10>, <ore:gearInvar>, <ProjRed|Core:projectred.core.part:10>], [<ore:ingotInvar>, <ThermalExpansion:capacitor:2>, <ore:ingotInvar>], [<appliedenergistics2:item.ItemMultiMaterial:5>, <ore:dustGold>, <appliedenergistics2:item.ItemMultiMaterial:5>]]);
+recipes.addShaped(<ThermalExpansion:capacitor:4>, [[<BuildCraft|Silicon:redstoneCrystal>, <ore:gearElectrum>, <BuildCraft|Silicon:redstoneCrystal>], [<ore:ingotElectrum>, <ThermalExpansion:capacitor:3>, <ore:ingotElectrum>], [<ThermalExpansion:Glass>, <ore:dustSignalum>, <ThermalExpansion:Glass>]]);
+recipes.addShaped(<ThermalExpansion:capacitor:5>, [[<RedstoneArsenal:material:96>, <ore:gearEnderium>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:capacitor:4>, <ore:ingotEnderium>], [<ThermalExpansion:Glass:1>, <ore:dustElectrumFlux>, <ThermalExpansion:Glass:1>]]);
 
 print("Initialized 'ThermalExpansion.zs'");

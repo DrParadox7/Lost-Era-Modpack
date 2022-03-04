@@ -17,7 +17,7 @@
             6
         ]
     },
-"CertusQuartz": {
+    "CertusQuartz": {
         "template": "cave", "ceiling": "false",
         "block": [
             {"name": "appliedenergistics2:tile.OreQuartz", "weight":95},
@@ -39,7 +39,7 @@
 			7
         ]
     },
-"Aluminium": {
+    "Aluminium": {
         "template": "uniform",
         "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
         "clusterSize": 6,
@@ -58,7 +58,7 @@
 			7
         ]
     },
-"Apatite": {
+    "Apatite": {
         "template": "uniform",
         "block": "Forestry:resources",
         "material": "stone",
@@ -81,33 +81,10 @@
             1
         ]
     },
-"Platinum": {
-        "template": "uniform",
-        "block": [
-			{"name": "Mekanism:OreBlock", "weight":50},
-			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight":50}
-		],
-        "clusterSize": 5,
-		"chunkChance": 50,
-        "numClusters": 1,
-        "minHeight": 5,
-        "maxHeight": 16,
-        "retrogen": "true",
-		"biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-			7
-        ]
-    },
-"UnderwaterOres": {
+    "UnderwaterOres": {
         "template": "underwater",
         "block": [
-			{"name": "Mekanism:OreBlock", "weight":6},
+			{"name": "Mekanism:OreBlock", "weight":2},
 			{"name": "minecraft:sand", "weight":16},
 			{"name": "minecraft:gravel", "weight":36},
 			{"name": "minecraft:clay", "weight":5},
@@ -115,8 +92,8 @@
 			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight":5},
 			{"name": "minecraft:gold_ore", "weight":4},
 			{"name": "minecraft:iron_ore", "weight":10},
-			{"name": "ThermalFoundation:Ore", "weight":2},
-			{"name": "ThermalFoundation:Ore", "metadata": 1, "weight":1}
+			{"name": "ThermalFoundation:Ore", "weight":6},
+			{"name": "ThermalFoundation:Ore", "metadata": 1, "weight":6}
 		],
         "material": [
 			{"name": "minecraft:gravel"},
@@ -143,7 +120,7 @@
             1
         ]
     },
-"OceanSalt": {
+    "OceanSalt": {
         "template": "underwater",
         "block": [
 			{"name": "harvestcraft:salt", "weight":55},
@@ -162,14 +139,14 @@
 			"type": "dictionary", 
 			"entry": "OCEAN"
 		}	
-	],	
+	    ],	
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
             1
         ]
     },
-"BeachSalt": {
+    "BeachSalt": {
         "template": "underwater",
         "block": [
 			{"name": "harvestcraft:salt", "weight":45},
@@ -187,27 +164,27 @@
         "retrogen": "true",
         "biomeRestriction": "whitelist",
 		"biomes":[
-		{
-			"type": "dictionary", 
-			"entry": "BEACH",
+		    {
+		    "type": "dictionary", 
+		    "entry": "BEACH",
             "rarity": 2
-		},
-        {
-			"type": "dictionary", 
-			"entry": "SANDY",
-            "rarity": 3
-		},
-		{
+		    },
+            {
+		    "type": "dictionary", 
+		    "entry": "SANDY",
+             "rarity": 3
+		    },
+		    {
 			"type": "dictionary", 
 			"entry": "SWAMP",
 			"rarity": 3
-		},
-        {
+		    },
+            {
 			"type": "dictionary", 
 			"entry": "RIVER",
 			"rarity": 2
-		}
-	],	
+		    }
+	    ],	
         "dimensionRestriction": "whitelist",
         "dimensions": [
             0
@@ -274,7 +251,7 @@
             6
         ]
     },
-"Amethyst": {
+    "Amethyst": {
         "template": "uniform",
         "block": "BiomesOPlenty:gemOre",
         "material": "minecraft:end_stone",

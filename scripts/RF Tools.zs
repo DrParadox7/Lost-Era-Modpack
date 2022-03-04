@@ -9,7 +9,7 @@ recipes.remove(<rftools:machineBase>);
 recipes.addShaped(<rftools:machineBase>, [[null, null, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>]]);
 
 recipes.removeShaped(<rftools:storageModuleTabletItem>, [[<minecraft:gold_nugget>, <minecraft:emerald>, <minecraft:gold_nugget>], [<minecraft:redstone_block>, <minecraft:quartz_block:*>, <minecraft:redstone_block>], [<minecraft:gold_nugget>, <minecraft:redstone_block>, <minecraft:gold_nugget>]]);
-recipes.addShaped(<rftools:storageModuleTabletItem>, [[<ore:plateSteel>, <OpenComputers:item:27>,<ore:plateSteel>], [<Mekanism:EnrichedAlloy>, <Mekanism:Dictionary>, <Mekanism:EnrichedAlloy>], [<ore:plateSteel>, <Mekanism:EnergyTablet>,<ore:plateSteel>]]);
+recipes.addShaped(<rftools:storageModuleTabletItem>, [[<ore:ingotSteel>, <Mekanism:WalkieTalkie>, <ore:ingotSteel>], [<Mekanism:ControlCircuit>, <Mekanism:TeleportationCore>, <Mekanism:ControlCircuit>], [<ore:ingotSteel>, <Mekanism:MachineBlock:13> ,<ore:ingotSteel>]]);
 
 recipes.remove(<rftools:environmentalControllerBlock>);
 recipes.addShaped(<rftools:environmentalControllerBlock>, [[<ore:plateSteel>, <Mekanism:ControlCircuit:3>, <ore:plateSteel>], [<rftools:activityProbeBlock>, <minecraft:nether_star>, <rftools:activityProbeBlock>], [<ore:plateSteel>, <Mekanism:AtomicAlloy>, <ore:plateSteel>]]);

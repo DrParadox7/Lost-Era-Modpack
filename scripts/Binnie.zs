@@ -257,4 +257,28 @@ mods.forestry.Centrifuge.addRecipe([<Forestry:woodPulp> % 100, <Forestry:honeyDr
 #Energy drops usage
 mods.thermalexpansion.Crucible.addRecipe(4000, <ExtraBees:honeyDrop>, <liquid:redstone> * 35);
 
+#Compartments
+recipes.remove(<BinnieCore:storage:*>);
+
+#Wood
+recipes.addShaped(<BinnieCore:storage>, [[<minecraft:name_tag>, <minecraft:chest>, <minecraft:name_tag>], [<minecraft:chest>, <minecraft:book>, <minecraft:chest>], [<minecraft:name_tag>, <minecraft:chest>, <minecraft:name_tag>]]);
+#Copper
+recipes.addShaped(<BinnieCore:storage:1>, [[<minecraft:paper>, <IronChest:BlockIronChest:3>, <minecraft:paper>], [<IronChest:BlockIronChest:3>, <minecraft:book>, <IronChest:BlockIronChest:3>], [<minecraft:paper>, <IronChest:BlockIronChest:3>, <minecraft:paper>]]);
+recipes.addShaped(<BinnieCore:storage:1>, [[<ore:gearCopper>, <minecraft:book>, <ore:gearCopper>], [<minecraft:paper>, <BinnieCore:storage>, <minecraft:paper>], [<ore:gearCopper>, <minecraft:book>, <ore:gearCopper>]]);
+
+#Bronze
+recipes.addShaped(<BinnieCore:storage:2>, [[<ore:gearBronze>, <minecraft:book>, <ore:gearBronze>], [<minecraft:paper>, <BinnieCore:storage:1>, <minecraft:paper>], [<ore:gearBronze>, <minecraft:book>, <ore:gearBronze>]]);
+
+#Iron
+recipes.addShaped(<BinnieCore:storage:3>, [[<minecraft:paper>, <IronChest:BlockIronChest>, <minecraft:paper>], [<IronChest:BlockIronChest>, <minecraft:book>, <IronChest:BlockIronChest>], [<minecraft:paper>, <IronChest:BlockIronChest>, <minecraft:paper>]]);
+recipes.addShaped(<BinnieCore:storage:3>, [[<ore:gearIron>, <minecraft:book>, <ore:gearIron>], [<minecraft:paper>, <BinnieCore:storage:2>, <minecraft:paper>], [<ore:gearIron>, <minecraft:book>, <ore:gearIron>]]);
+
+#Gold
+recipes.addShaped(<BinnieCore:storage:4>, [[<minecraft:paper>, <IronChest:BlockIronChest:1>, <minecraft:paper>], [<IronChest:BlockIronChest:1>, <minecraft:book>, <IronChest:BlockIronChest:1>], [<minecraft:paper>, <IronChest:BlockIronChest:1>, <minecraft:paper>]]);
+recipes.addShaped(<BinnieCore:storage:4>, [[<ore:gearGold>, <minecraft:book>, <ore:gearGold>], [<minecraft:paper>, <BinnieCore:storage:2>, <minecraft:paper>], [<ore:gearGold>, <minecraft:book>, <ore:gearGold>]]);
+
+#Diamond
+recipes.addShaped(<BinnieCore:storage:5>, [[<minecraft:paper>, <IronChest:BlockIronChest:2>, <minecraft:paper>], [<IronChest:BlockIronChest:2>, <minecraft:book>, <IronChest:BlockIronChest:2>], [<minecraft:paper>, <IronChest:BlockIronChest:2>, <minecraft:paper>]]);
+recipes.addShaped(<BinnieCore:storage:5>, [[<ore:gearDiamond>, <minecraft:book>, <ore:gearDiamond>], [<minecraft:paper>, <BinnieCore:storage:4>, <minecraft:paper>], [<ore:gearDiamond>, <minecraft:book>, <ore:gearDiamond>]]);
+
 print("Initialized 'Binnie.zs'");

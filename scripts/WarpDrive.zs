@@ -416,16 +416,16 @@ furnace.setFuel(<realstars:yellowsupergiantcore>, 75000);
 
 ########## Addons ############
 recipes.remove(<NVLWarpdriveExtensions:NVLDockingComputer>);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<OpenComputers:item:26>, <IC2:blockMachine:12>, <OpenComputers:item:26>], [<IC2:itemPartCircuitAdv>, <OpenComputers:screen2>, <IC2:itemPartCircuitAdv>], [<IC2:itemBatCrystal:*>, <IC2:itemRecipePart:1>, <IC2:itemBatCrystal:*>]]);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<OpenComputers:item:26>, <Mekanism:Robit>, <OpenComputers:item:26>], [<Mekanism:ControlCircuit:2>, <OpenComputers:screen2>, <Mekanism:ControlCircuit:2>], [<BuildCraft|Silicon:redstoneCrystal>, <Mekanism:EnergyTablet>, <BuildCraft|Silicon:redstoneCrystal>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<ore:plateTungstenSteel>, <ore:craftingMonitorTier02>, <ore:plateTungstenSteel>], [<gregtech_addon:components:3>, <IC2:blockMachine:12>, <gregtech_addon:components:3>], [<ore:gearTungstenSteel>, <ore:craftingCircuitTier07>, <ore:gearTungstenSteel>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<ore:ingotRefinedObsidian>, <rftools:screenBlock>, <ore:ingotRefinedObsidian>], [<ThermalFoundation:material:140>, <ThermalExpansion:Frame:3>, <ThermalFoundation:material:140>], [<ore:ingotRefinedObsidian>, <Mekanism:ControlCircuit:3>, <ore:ingotRefinedObsidian>]]);
 
 recipes.remove(<NVLWarpdriveExtensions:NVLLTFBuffer>);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<IC2:itemBatCrystal:*>, <Forestry:thermionicTubes:7>, <IC2:itemBatCrystal:*>], [<IC2:blockMachine3:7>, <IC2:blockMachine:12>, <IC2:blockMachine3:7>], [<IC2:itemBatCrystal:*>, <Forestry:ffarm:5>, <IC2:itemBatCrystal:*>]]);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<BuildCraft|Silicon:redstoneCrystal>, <Forestry:thermionicTubes:7>, <BuildCraft|Silicon:redstoneCrystal>], [<ThermalExpansion:Frame:1>, <BuildCraft|Silicon:laserTableBlock:4>, <ThermalExpansion:Frame:1>], [<BuildCraft|Silicon:redstoneCrystal>, <Forestry:ffarm:5>, <BuildCraft|Silicon:redstoneCrystal>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<ore:plateInvar>, <ore:craftingMonitorTier02>, <ore:plateInvar>], [<gregtech_addon:components:3>, <IC2:blockMachine3:7>, <gregtech_addon:components:3>], [<ore:gearInvar>, <ore:circuitBasic>, <ore:gearInvar>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<ore:ingotElectrum>, <rftools:screenBlock>, <ore:ingotElectrum>], [<ore:gearSignalum>, <ThermalExpansion:Frame:1>, <ore:gearSignalum>], [<ore:ingotElectrum>, <Mekanism:ControlCircuit:1>, <ore:ingotElectrum>]]);
 
 recipes.remove(<NVLWarpdriveExtensions:NVLBlockLMCC>);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<IC2:itemCasing:3>, <IC2:itemScanner:*>, <IC2:itemCasing:3>], [<IC2:itemPartCircuitAdv>, <IC2:blockMachine:7>, <IC2:itemPartCircuitAdv>], [<IC2:itemCasing:3>, <IC2:blockMachine:12>, <IC2:itemCasing:3>]]);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<RedstoneArsenal:material:32>, <Mekanism:SeismicReader>.withTag({electricity: 12000.0}), <RedstoneArsenal:material:32>], [<ThermalExpansion:Frame:1>, <BuildCraft|Builders:machineBlock>, <ThermalExpansion:Frame:1>], [<RedstoneArsenal:material:32>, <Mekanism:MachineBlock2:9>, <RedstoneArsenal:material:32>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<ore:plateInvar>, <ore:craftingMonitorTier02>, <ore:plateInvar>], [<gregtech_addon:components:3>, <IC2:blockMachine2:11>, <gregtech_addon:components:3>], [<ore:gearInvar>, <ore:circuitAdvanced>, <ore:gearInvar>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<ore:ingotElectrum>, <rftools:screenBlock>, <ore:ingotElectrum>], [<ore:gearLumium>, <ThermalExpansion:Frame:2>, <ore:gearLumium>], [<ore:ingotElectrum>, <Mekanism:ControlCircuit:2>, <ore:ingotElectrum>]]);
 
 print("Initialized 'WarpDrive.zs'");
 

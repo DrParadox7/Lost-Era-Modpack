@@ -46,7 +46,7 @@ recipes.addShaped(<MineFactoryReloaded:machine.0:8>, [[<MineFactoryReloaded:plas
 recipes.addShaped(<MineFactoryReloaded:machine.0:12>, [[<MineFactoryReloaded:plastic.sheet>, <Railcraft:machine.alpha:11>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:golden_carrot>, <ThermalExpansion:Frame>, <minecraft:golden_carrot>], [<Railcraft:part.circuit:2>, <ThermalExpansion:material:1>, <Railcraft:part.circuit:2>]]);
 
 #Deep Storage Unit
-recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:Strongbox:3>, <MineFactoryReloaded:plastic.sheet>], [<ThermalExpansion:Strongbox:3>, <ThermalExpansion:Frame:11>, <ThermalExpansion:Strongbox:3>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:Strongbox:3>, <MineFactoryReloaded:plastic.sheet>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<MineFactoryReloaded:plastic.sheet>, <Mekanism:TeleportationCore>, <MineFactoryReloaded:plastic.sheet>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Frame:11>, <ExtraUtilities:bedrockiumIngot>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:material>, <MineFactoryReloaded:plastic.sheet>]]);
 
 #Laser Precharger
 recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:plastic.sheet>], [<ore:plateRefinedObsidian>, <Mekanism:MachineBlock2:14>, <ore:plateRefinedObsidian>], [<ore:gearLumium>, <Mekanism:MachineBlock2:13>, <ore:gearLumium>]]);
@@ -210,7 +210,7 @@ recipes.addShaped(<MineFactoryReloaded:machine.2:5>, [[<MineFactoryReloaded:plas
 recipes.addShaped(<MineFactoryReloaded:machine.2:8>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], [<ThermalExpansion:meter>, <ThermalExpansion:Frame>, <ThermalExpansion:meter>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.2:11>, [[<MineFactoryReloaded:plastic.sheet>, <minecraft:iron_bars>, <MineFactoryReloaded:plastic.sheet>], [<ThermalExpansion:Tank:1>, <ThermalExpansion:Frame>, <ThermalExpansion:Tank:1>], [<ore:gearNickel>, <ThermalExpansion:material:1>, <ore:gearNickel>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.1:7>, [[<MineFactoryReloaded:plastic.sheet>, <minecraft:jukebox>, <MineFactoryReloaded:plastic.sheet>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:Frame>, <MineFactoryReloaded:plastic.sheet>]]);
-recipes.addShaped(<MineFactoryReloaded:machine.2:12>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:iron_bars>, <MineFactoryReloaded:machine.1:1>, <minecraft:iron_bars>], [<ore:gearPlatinum>, <MineFactoryReloaded:machine.0:15>, <ore:gearPlatinum>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2:12>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:iron_bars>, <MineFactoryReloaded:machine.1:1>, <minecraft:iron_bars>], [<ore:gearElectrum>, <MineFactoryReloaded:machine.0:15>, <ore:gearElectrum>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.2:4>, [[<MineFactoryReloaded:plastic.sheet>, <minecraft:noteblock>, <MineFactoryReloaded:plastic.sheet>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:Frame>, <MineFactoryReloaded:plastic.sheet>]]);
 recipes.addShaped(<MineFactoryReloaded:upgrade.radius>, [[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>], [<minecraft:redstone>, <ore:nuggetGold>, <minecraft:redstone>]]);
 recipes.addShaped(<MineFactoryReloaded:upgrade.radius:1>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>], [<minecraft:redstone>, <ore:nuggetGold>, <minecraft:redstone>]]);
@@ -232,8 +232,7 @@ mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.sheet>*4, [[<Mine
 mods.mekanism.Enrichment.addRecipe(<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.sheet>);
 
 #Laser Focus 
-MiningLaser.removeOre(<Metallurgy:ender.ore>);
-MiningLaser.removeOre(<Metallurgy:ender.ore:1>);
+MiningLaser.removeOre(<Metallurgy:ender.ore:*>);
 
 MiningLaser.removeOre(<Metallurgy:fantasy.ore:7>);
 MiningLaser.removeOre(<Metallurgy:fantasy.ore:9>);
@@ -247,6 +246,7 @@ MiningLaser.removeOre(<Metallurgy:utility.ore:1>);
 MiningLaser.removeOre(<ThermalFoundation:Ore:6>);
 MiningLaser.removeOre(<Railcraft:ore:5>);
 MiningLaser.removeOre(<ThermalFoundation:Ore:5>);
+MiningLaser.removeOre(<gregtech_addon:ore:*>);
 
 MiningLaser.removePreferredOre(6, <Metallurgy:nether.ore>);
 MiningLaser.removePreferredOre(6, <Metallurgy:nether.ore:1>);

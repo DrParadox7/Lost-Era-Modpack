@@ -13,7 +13,7 @@ val AdCircuit = <ore:advanceCircuit>;
 AdCircuit.add(<Mekanism:ControlCircuit:1>);
 
 val InfWater = <ore:infiniteWater>;
-InfWater.add(<ThermalExpansion:Machine:8>.withTag({Level: 3 as byte}));
+InfWater.add(<Mekanism:MachineBlock2:12>);
 
 val AdvCase = <ore:steelCasing>;
 AdvCase.add(<Mekanism:BasicBlock:8>);
@@ -30,7 +30,7 @@ recipes.remove(<NuclearCraft:fusionConnector>);
 
 #SuperConductor
 recipes.remove(<WarpDrive:itemComponent:20>);
-recipes.addShaped(<WarpDrive:itemComponent:20>, [[<NuclearCraft:material:126>, <ThermalFoundation:material:513>, <NuclearCraft:material:126>], [<ThermalFoundation:material:513>, <ore:gemDiamond>, <ThermalFoundation:material:513>], [<NuclearCraft:material:126>, <ThermalFoundation:material:513>, <NuclearCraft:material:126>]]);
+recipes.addShaped(<WarpDrive:itemComponent:20>, [[<ThermalFoundation:material:513>, <NuclearCraft:material:7>, <ThermalFoundation:material:513>], [<NuclearCraft:material:7>, <Mekanism:TeleportationCore>, <NuclearCraft:material:7>], [<ThermalFoundation:material:513>, <NuclearCraft:material:7>, <ThermalFoundation:material:513>]]);
 
 #Plating
 recipes.remove(<NuclearCraft:parts>);
@@ -105,9 +105,13 @@ recipes.addShaped(<NuclearCraft:graphiteBlock>, [[<NuclearCraft:material:76>, <N
 mods.mekanism.Infuser.addRecipe("CARBON", 20, <ThermalFoundation:material:2>, <NuclearCraft:material:77>);
 mods.mekanism.Infuser.addRecipe("CARBON", 20, <IC2:itemDust:2>, <NuclearCraft:material:77>);
 
-#Reinforced alloy
+#Tough alloy
 recipes.remove(<NuclearCraft:material:22>);
-recipes.addShapeless(<NuclearCraft:material:22>*2, [<ore:dustGold>, <ore:dustTitanium>]);
+mods.thermalexpansion.Smelter.addRecipe(8000, <gregtech_addon:metaitem_1:2028>, <ThermalFoundation:material:1>, <NuclearCraft:material:7>*2);
+mods.thermalexpansion.Smelter.addRecipe(8000, <gregtech_addon:metaitem_1:11028>, <minecraft:gold_ingot>, <NuclearCraft:material:7>*2);
+
+<NuclearCraft:material:22>.addTooltip("TiAu");
+<NuclearCraft:material:7>.addTooltip("TiAu");
 
 #Reagent
 recipes.remove(<NuclearCraft:parts:4>);
@@ -120,6 +124,9 @@ recipes.addShaped(<NuclearCraft:nuclearWorkspace>, [[<ore:plateSteel>, <ore:plat
 #Atomic furnace
 recipes.remove(<NuclearCraft:nuclearFurnaceIdle>);
 recipes.addShaped(<NuclearCraft:nuclearFurnaceIdle>, [[<ore:ingotThorium>, <ore:plateLead>, <ore:ingotThorium>], [<ore:plateLead>, <IC2:blockMachine:1>, <ore:plateLead>], [<ore:ingotThorium>, <ore:plateLead>, <ore:ingotThorium>]]);
+
+#Electromagnet
+recipes.addShaped(<NuclearCraft:electromagnetIdle>, [[<NuclearCraft:parts:3>, <NuclearCraft:parts:3>, <NuclearCraft:parts:3>], [<NuclearCraft:parts:12>, <NuclearCraft:parts:12>, <NuclearCraft:parts:12>], [<NuclearCraft:parts:3>, <NuclearCraft:parts:3>, <NuclearCraft:parts:3>]]);
 
 #Voltaic Pile
 recipes.remove(<NuclearCraft:voltaicPile>);

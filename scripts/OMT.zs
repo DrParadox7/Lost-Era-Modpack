@@ -69,7 +69,7 @@ recipes.remove(<openmodularturrets:accuraccyUpgradeItem>);
 recipes.addShaped(<openmodularturrets:accuraccyUpgradeItem>, [[null, <ore:ingotPlatinum>, null], [<ore:ingotPlatinum>, <OpenBlocks:goldenEye>, <ore:ingotPlatinum>], [null, <ore:ingotPlatinum>, null]]);
 
 recipes.remove(<openmodularturrets:rangeUpgradeItem>);
-recipes.addShaped(<openmodularturrets:rangeUpgradeItem>, [[<openmodularturrets:rangeUpgradeItem>, <ore:ingotPlatinum>, null], [<ore:ingotPlatinum>, <HardcoreEnderExpansion:altar_nexus>, <ore:ingotPlatinum>], [null, <ore:ingotPlatinum>, null]]);
+recipes.addShaped(<openmodularturrets:rangeUpgradeItem>, [[null, <ore:ingotPlatinum>, null], [<ore:ingotPlatinum>, <HardcoreEnderExpansion:altar_nexus>, <ore:ingotPlatinum>], [null, <ore:ingotPlatinum>, null]]);
 
 recipes.remove(<openmodularturrets:scattershotUpgradeItem>);
 recipes.addShaped(<openmodularturrets:scattershotUpgradeItem>, [[null, <ore:ingotPlatinum>, null], [<ore:ingotPlatinum>, <IC2:blockITNT>, <ore:ingotPlatinum>], [null, <ore:ingotPlatinum>, null]]);
@@ -96,23 +96,23 @@ recipes.addShaped(<openmodularturrets:expanderInvTierFive>, [[<ore:plateEnderium
 
 #Energy Expansion 
 recipes.remove(<openmodularturrets:expanderPowerTierOne>);
-recipes.addShaped(<openmodularturrets:expanderPowerTierOne>, [[<minecraft:cobblestone>, <ore:plankWood>, <minecraft:cobblestone>], [<openmodularturrets:ioBus>, <ThermalExpansion:capacitor:1>.withTag({Energy: 32000}), <openmodularturrets:ioBus>], [<minecraft:cobblestone>, <OpenComputers:item:32>, <minecraft:cobblestone>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierOne>, [[<minecraft:cobblestone>, <ore:plankWood>, <minecraft:cobblestone>], [<openmodularturrets:ioBus>, <ThermalExpansion:capacitor:1>, <openmodularturrets:ioBus>], [<minecraft:cobblestone>, <OpenComputers:item:32>, <minecraft:cobblestone>]]);
 
 recipes.remove(<openmodularturrets:expanderPowerTierTwo>);
-recipes.addShaped(<openmodularturrets:expanderPowerTierTwo>, [[<IC2:itemPlates:4>, <powersuits:powerArmorComponent:5>, <IC2:itemPlates:4>], [<openmodularturrets:ioBus>, <IC2:blockElectric>.withTag({}), <openmodularturrets:ioBus>], [<IC2:itemPlates:4>, <OpenComputers:item:32>, <IC2:itemPlates:4>]]);
-recipes.addShaped(<openmodularturrets:expanderPowerTierTwo>, [[<ore:plateIron>, <powersuits:powerArmorComponent:5>, <ore:plateIron>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.withTag({tier: "Basic"}), <openmodularturrets:ioBus>], [<ore:plateIron>, <OpenComputers:item:32>, <ore:plateIron>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierTwo>, [[<IC2:itemPlates:4>, <powersuits:powerArmorComponent:5>, <IC2:itemPlates:4>], [<openmodularturrets:ioBus>, <IC2:blockElectric>, <openmodularturrets:ioBus>], [<IC2:itemPlates:4>, <OpenComputers:item:32>, <IC2:itemPlates:4>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierTwo>, [[<ore:plateIron>, <powersuits:powerArmorComponent:5>, <ore:plateIron>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.onlyWithTag({tier: "Basic"}), <openmodularturrets:ioBus>], [<ore:plateIron>, <OpenComputers:item:32>, <ore:plateIron>]]);
 
 recipes.remove(<openmodularturrets:expanderPowerTierThree>);
-recipes.addShaped(<openmodularturrets:expanderPowerTierThree>, [[<IC2:itemPlates:5>, <powersuits:powerArmorComponent:6>, <IC2:itemPlates:5>], [<openmodularturrets:ioBus>, <IC2:blockElectric:7>.withTag({}), <openmodularturrets:ioBus>], [<IC2:itemPlates:5>, <OpenComputers:item:32>, <IC2:itemPlates:5>]]);
-recipes.addShaped(<openmodularturrets:expanderPowerTierThree>, [[<ore:plateSteel>, <powersuits:powerArmorComponent:6>, <ore:plateSteel>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.withTag({tier: "Advanced"}), <openmodularturrets:ioBus>], [<ore:plateSteel>, <OpenComputers:item:32>, <ore:plateSteel>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierThree>, [[<IC2:itemPlates:5>, <powersuits:powerArmorComponent:6>, <IC2:itemPlates:5>], [<openmodularturrets:ioBus>, <IC2:blockElectric:7>, <openmodularturrets:ioBus>], [<IC2:itemPlates:5>, <OpenComputers:item:32>, <IC2:itemPlates:5>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierThree>, [[<ore:plateSteel>, <powersuits:powerArmorComponent:6>, <ore:plateSteel>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.onlyWithTag({tier: "Advanced"}), <openmodularturrets:ioBus>], [<ore:plateSteel>, <OpenComputers:item:32>, <ore:plateSteel>]]);
 
 recipes.remove(<openmodularturrets:expanderPowerTierFour>);
-recipes.addShaped(<openmodularturrets:expanderPowerTierFour>, [[<IC2:itemPartAlloy>, <powersuits:powerArmorComponent:7>, <IC2:itemPartAlloy>], [<openmodularturrets:ioBus>, <IC2:blockElectric:1>.withTag({}), <openmodularturrets:ioBus>], [<IC2:itemPartAlloy>, <OpenComputers:item:32>, <IC2:itemPartAlloy>]]);
-recipes.addShaped(<openmodularturrets:expanderPowerTierFour>, [[<ore:ingotSignalum>, <powersuits:powerArmorComponent:7>, <ore:ingotSignalum>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.withTag({tier: "Elite"}), <openmodularturrets:ioBus>], [<ore:ingotSignalum>, <OpenComputers:item:32>, <ore:ingotSignalum>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierFour>, [[<IC2:itemPartAlloy>, <powersuits:powerArmorComponent:7>, <IC2:itemPartAlloy>], [<openmodularturrets:ioBus>, <IC2:blockElectric:1>, <openmodularturrets:ioBus>], [<IC2:itemPartAlloy>, <OpenComputers:item:32>, <IC2:itemPartAlloy>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierFour>, [[<ore:ingotSignalum>, <powersuits:powerArmorComponent:7>, <ore:ingotSignalum>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"}), <openmodularturrets:ioBus>], [<ore:ingotSignalum>, <OpenComputers:item:32>, <ore:ingotSignalum>]]);
 
 recipes.remove(<openmodularturrets:expanderPowerTierFive>);
 recipes.addShaped(<openmodularturrets:expanderPowerTierFive>, [[<IC2:reactorPlatingExplosive>, <GraviSuite:itemSimpleItem:5>, <IC2:reactorPlatingExplosive>], [<openmodularturrets:ioBus>, <IC2:blockElectric:2>, <openmodularturrets:ioBus>], [<IC2:reactorPlatingExplosive>, <OpenComputers:item:32>, <IC2:reactorPlatingExplosive>]]);
-recipes.addShaped(<openmodularturrets:expanderPowerTierFive>, [[<ore:plateEnderium>, <Mekanism:TeleportationCore>, <ore:plateEnderium>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), <openmodularturrets:ioBus>], [<ore:plateEnderium>, <OpenComputers:item:32>, <ore:plateEnderium>]]);
+recipes.addShaped(<openmodularturrets:expanderPowerTierFive>, [[<ore:plateEnderium>, <Mekanism:TeleportationCore>, <ore:plateEnderium>], [<openmodularturrets:ioBus>, <Mekanism:EnergyCube>.onlyWithTag({tier: "Ultimate"}), <openmodularturrets:ioBus>], [<ore:plateEnderium>, <OpenComputers:item:32>, <ore:plateEnderium>]]);
 
 #Turrets
 recipes.remove(<openmodularturrets:disposeItemTurret>);
@@ -122,16 +122,16 @@ recipes.remove(<openmodularturrets:potatoCannonTurret>);
 recipes.addShaped(<openmodularturrets:potatoCannonTurret>, [[null, <MineFactoryReloaded:upgrade.logic>, null], [<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:potatolauncher>, <MineFactoryReloaded:plastic.sheet>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:material:1>, <MineFactoryReloaded:plastic.sheet>]]);
 
 recipes.remove(<openmodularturrets:machineGunTurret>);
-recipes.addShaped(<openmodularturrets:machineGunTurret>, [[null, <IC2:itemTurningBlanks:274705>.withTag({state: {l0: 4, l1: 3, l2: 1, l3: 1, l4: 1}}), null], [<IC2:itemPlates:4>, <IC2:itemRemote>, <IC2:itemPlates:4>], [<IC2:itemPartCircuit>, <IC2:blockMachine>, <IC2:itemPartCircuit>]]);
+recipes.addShaped(<openmodularturrets:machineGunTurret>, [[null, <IC2:itemTurningBlanks:274705>.onlyWithTag({state: {l0: 4, l1: 3, l2: 1, l3: 1, l4: 1}}), null], [<IC2:itemPlates:4>, <IC2:itemRemote>, <IC2:itemPlates:4>], [<IC2:itemPartCircuit>, <IC2:blockMachine>, <IC2:itemPartCircuit>]]);
 
 recipes.remove(<openmodularturrets:incendiaryTurret>);
-recipes.addShaped(<openmodularturrets:incendiaryTurret>, [[<MineFactoryReloaded:cable.plastic>, null, <MineFactoryReloaded:cable.plastic>], [<powersuits:powerArmorComponent:2>, <ThermalExpansion:igniter>.withTag({Energy: 0}), <powersuits:powerArmorComponent:2>], [<MineFactoryReloaded:tank>, <ThermalExpansion:Frame:1>, <MineFactoryReloaded:tank>]]);
+recipes.addShaped(<openmodularturrets:incendiaryTurret>, [[<MineFactoryReloaded:cable.plastic>, null, <MineFactoryReloaded:cable.plastic>], [<powersuits:powerArmorComponent:2>, <ThermalExpansion:igniter>, <powersuits:powerArmorComponent:2>], [<MineFactoryReloaded:tank>, <ThermalExpansion:Frame:1>, <MineFactoryReloaded:tank>]]);
 
 recipes.remove(<openmodularturrets:relativisticTurret>);
 recipes.addShaped(<openmodularturrets:relativisticTurret>, [[null, null, null], [<BuildCraft|Silicon:redstoneChipset:4>, <RandomThings:ingredient:5>, <BuildCraft|Silicon:redstoneChipset:4>], [<rftools:spaceChamberControllerBlock>, <ThermalFoundation:material:139>, <rftools:spaceChamberControllerBlock>]]);
 
 recipes.remove(<openmodularturrets:grenadeTurret>);
-recipes.addShaped(<openmodularturrets:grenadeTurret>, [[null, <StevesCarts:ModuleComponents:25>, null], [<IC2:itemRecipePart:12>, <IC2:itemTurningBlanks:348979>.withTag({state: {l0: 5, l1: 5, l2: 3, l3: 3, l4: 3}}), <IC2:itemRecipePart:12>], [<IC2:itemRecipePart:1>, <IC2:blockMachine3:6>, <IC2:itemRecipePart:1>]]);
+recipes.addShaped(<openmodularturrets:grenadeTurret>, [[null, <StevesCarts:ModuleComponents:25>, null], [<IC2:itemRecipePart:12>, <IC2:itemTurningBlanks:348979>.onlyWithTag({state: {l0: 5, l1: 5, l2: 3, l3: 3, l4: 3}}), <IC2:itemRecipePart:12>], [<IC2:itemRecipePart:1>, <IC2:blockMachine3:6>, <IC2:itemRecipePart:1>]]);
 
 recipes.remove(<openmodularturrets:teleporterTurret>);
 recipes.addShaped(<openmodularturrets:teleporterTurret>, [[null, null, null], [<IC2:itemBatLamaCrystal:26>, <IC2:blockMachine2>, <IC2:itemBatLamaCrystal:26>], [<GraviSuite:itemSimpleItem:3>, <qCraft:quantumcomputer>, <GraviSuite:itemSimpleItem:3>]]);

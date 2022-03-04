@@ -109,7 +109,7 @@
 	{
 		"ingredients" : [
 			[  { "oredictName" : "ingotInvar" }, { "registryName" : "Mekanism:EnrichedAlloy" }, { "oredictName" : "ingotInvar" } ],
-			[  { "registryName" : "Mekanism:ControlCircuit" }, { "registryName" : "ThermalExpansion:capacitor", "meta" : 3 }, { "registryName" : "Mekanism:ControlCircuit" } ],
+			[  { "registryName" : "Mekanism:ControlCircuit" }, { "registryName" : Mekanism:EnergyTablet"}, { "registryName" : "Mekanism:ControlCircuit" } ],
 			[  { "oredictName" : "ingotInvar" }, { "registryName" : "ThermalExpansion:material", "meta" : 3 }, { "oredictName" : "ingotInvar" } ]
 		],
 		"result" : {

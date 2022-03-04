@@ -2,6 +2,22 @@
 #Author: TechnoParadox
 print("Initializing 'GT Compat.zs'...");
 
+#Remove compat with TiC Aluminium 
+
+val alumingot = <ore:ingotAluminium>;
+val alumnugget = <ore:nuggetAluminium>;
+val alumdust = <ore:dustAluminium>;
+val alumoreberry = <ore:oreberryAluminium>;
+
+alumingot.remove(<TConstruct:materials:11>);
+alumnugget.remove(<TConstruct:materials:22>);
+alumnugget.remove(<TConstruct:oreBerries:4>);
+alumdust.remove(<TConstruct:materials:40>);
+alumoreberry.remove(<TConstruct:oreBerries:4>);
+
+recipes.remove(<TConstruct:materials:42>);
+recipes.addShapeless(<TConstruct:materials:42>, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustBrass>]);
+
 
 #Restore ore dict to plates
 val iron = <ore:plateIron>;

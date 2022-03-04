@@ -68,16 +68,13 @@
 		<filler block="minecraft:redstone_ore" ratio=".01" />
 		<filler block="minecraft:gold_ore" ratio=".008" />
 		<filler block="minecraft:lapis_ore" ratio=".005" />
-		<filler block="Metallurgy:base.ore" metadata="2" ratio=".01" mods="Metallurgy" /><!-- Manganese -->
-		<filler block="Metallurgy:precious.ore" ratio=".007" mods="Metallurgy" /><!-- Zinc -->
-		<filler block="Metallurgy:utility.ore" metadata="3" ratio=".005" mods="Metallurgy" /><!-- Mangnesium -->
-		<filler block="ThermalFoundation:Ore" metadata="5" ratio=".001" mods="ThermalFoundation" /><!-- Platinum -->
 	</fillerSet>
 	<fillerSet group="overworld_uncommonOres" name="allButVanilla">
 		<filler block="IC2:blockOreUran" ratio=".005" mods="IC2,!netherores" />
 		<filler block="ThermalFoundation:Ore" metadata="2" ratio=".008" mods="ThermalFoundation" /><!-- Silver -->
 		<filler block="ThermalFoundation:Ore" metadata="5" ratio=".01" mods="ThermalFoundation" /><!-- Nickel -->
-		<filler block="Thaumcraft:blockCustomOre" ratio=".01" mods="Thaumcraft" /><!-- Cinnabar -->
+		<filler block="Metallurgy:base.ore" metadata="2" ratio=".005" mods="Metallurgy" /><!-- Manganese -->
+		<filler block="Metallurgy:utility.ore" metadata="3" ratio=".005" mods="Metallurgy" /><!-- Magnesium -->
 	</fillerSet>
 	
 	
@@ -105,13 +102,15 @@
 	</fillerSet>
 	<fillerSet group="overworld_rareOres" name="allButVanilla">
 		<filler block="IC2:blockOreUran" ratio=".03" mods="IC2,!netherores" />
-		<filler block="Metallurgy:fantasy.ore" metadata="13" mods="Metallurgy" ratio=".008" />
-		<filler block="Metallurgy:fantasy.ore" metadata="14" mods="Metallurgy" ratio=".004" />
-		<filler block="NuclearCraft:blockOre" metadata="5" mods="NuclearCraft" ratio=".009" />
-		<filler block="NuclearCraft:blockOre" metadata="8" mods="NuclearCraft" ratio=".009" />
-		<filler block="gregtech_addon:ore" metadata="3" mods="gregtech_addon" ratio=".005" />
-		<filler block="gregtech_addon:ore" metadata="5" mods="gregtech_addon" ratio=".004" />
+		<filler block="Metallurgy:fantasy.ore" metadata="13" mods="Metallurgy" ratio=".004" /><!-- Adamantine -->
+		<filler block="Metallurgy:fantasy.ore" metadata="14" mods="Metallurgy" ratio=".002" /><!-- Atlarus -->
+		<filler block="NuclearCraft:blockOre" metadata="5" mods="NuclearCraft" ratio=".04" /><!-- Thorium -->
+		<filler block="NuclearCraft:blockOre" metadata="8" mods="NuclearCraft" ratio=".02" /><!-- Boron -->
+		<filler block="gregtech_addon:ore" metadata="3" mods="gregtech_addon" ratio=".003" /><!-- Ruby -->
+		<filler block="gregtech_addon:ore" metadata="5" mods="gregtech_addon" ratio=".005" /><!-- Bauxite -->
 		<filler block="gregtech_addon:ore" metadata="2" mods="gregtech_addon" ratio=".001" /><!-- Iridium -->
+		<filler block="ThermalFoundation:Ore" metadata="5" ratio=".002" mods="ThermalFoundation" /><!-- Platinum -->
+		<filler block="qCraft:quantumore" mods="qCraft" ratio=".01" />
 	</fillerSet>
 	
 	
@@ -136,7 +135,8 @@
 		<filler block="Metallurgy:nether.ore" metadata="8" ratio=".002" mods="Metallurgy" /><!-- Kalendrite -->
 		<filler block="Metallurgy:nether.ore" metadata="9" ratio=".001" mods="Metallurgy" /><!-- Vulcanide -->
 		<filler block="NuclearCraft:blockOre" metadata="8" mods="NuclearCraft" ratio=".001" /><!-- Plutonium -->
-		<filler block="gregtech_addon:ore" metadata="8" mods="gregtech_addon" ratio=".008" />
+		<filler block="gregtech_addon:ore" metadata="7" mods="gregtech_addon" ratio=".003" /><!-- Cinnabar -->
+		<filler block="gregtech_addon:ore" metadata="8" mods="gregtech_addon" ratio=".008" /><!-- Sphalerite -->
 		<filler block="minecraft:bedrock" ratio=".001" />
 	</fillerSet>
 	
@@ -149,9 +149,16 @@
 	</fillerSet>
 	
 	<fillerSet group="end_ores" name="endstone">
-		<filler block="Metallurgy:ender.ore" ratio=".001" mods="Metallurgy" />
-		<filler block="Metallurgy:ender.ore" metadata="1" ratio=".001" mods="Metallurgy" />
-		<filler block="BiomesOPlenty:gemOre" ratio=".0013" mods="appliedenergistics2" />
+		<filler block="Metallurgy:ender.ore" ratio="3" mods="Metallurgy" />
+		<filler block="Metallurgy:ender.ore" metadata="3" ratio="1" mods="Metallurgy" />
+		<filler block="BiomesOPlenty:gemOre" ratio=".039" mods="BiomesO'Plenty" />
+		<filler block="gregtech_addon:ore" metadata="10" mods="gregtech_addon" ratio=".02" /><!-- Sheldonite -->
+		<filler block="gregtech_addon:ore" metadata="11" mods="gregtech_addon" ratio=".05" /><!-- Olivine -->
+		<filler block="gregtech_addon:ore" metadata="12" mods="gregtech_addon" ratio=".08" /><!-- Sodalite -->
+		<filler block="HardcoreEnderExpansion:endium_ore" mods="gregtech_addon" ratio="5" />
+		<filler block="HardcoreEnderExpansion:end_powder_ore" mods="HardcoreEnderExpansion" ratio="5" />
+		<filler block="HardcoreEnderExpansion:igneous_rock_ore" mods="HardcoreEnderExpansion" ratio=".06" />
+		<filler block="<HardcoreEnderExpansion:instability_orb_ore>" mods="HardcoreEnderExpansion" ratio="2" />
 	</fillerSet>
 	
 	

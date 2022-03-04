@@ -30,8 +30,9 @@ print("Initializing 'ThaumicAddons.zs'...");
 
 ####Ichor Rebalanced####
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:kamiResource>);
-mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>, [<Thaumcraft:ItemEldritchObject:3>, <ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemEldritchObject:0>, <ThaumicTinkerer:kamiResource:6>], "spiritus 32, alienis 32, ira 64", <ThaumicTinkerer:kamiResource>*8, 9);
+mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>, [<Thaumcraft:ItemEldritchObject:3>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard:1>, <ThaumicTinkerer:kamiResource:7>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:3>, <Thaumcraft:ItemEldritchObject:0>, <ForbiddenMagic:NetherShard:4>, <ForbiddenMagic:NetherShard:5>, <ThaumicTinkerer:kamiResource:6>, <ForbiddenMagic:NetherShard:6>, <ForbiddenMagic:GluttonyShard>], "gula 12, lucrum 8, luxuria 6, superbia 5", <ThaumicTinkerer:kamiResource>*8, 9);
 mods.thaumcraft.Research.refreshResearchRecipe("ICHOR");
+
 
 ####Ichorium Rebalanced####
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:kamiResource:2>);
@@ -132,6 +133,9 @@ mods.thaumcraft.Research.addPrereq("ICHORIUM", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("ICHOR", "PRIMPEARL", false);
 mods.thaumcraft.Research.addPrereq("ROD_ICHORCLOTH", "ROD_primal_staff", false);
 mods.thaumcraft.Research.addPrereq("TALISMANFOOD", "RINGFOOD", false);
+mods.thaumcraft.Research.addPrereq("ICHOR", "TAINTPICK", false);
+mods.thaumcraft.Research.addPrereq("WRATHCAGE", "soulAssembler", false);
+mods.thaumcraft.Research.addPrereq("WRATHCAGE", "planarTheory", false);
 
 #Is this even necessary? Let's have it just in case.
 mods.thaumcraft.Research.clearPrereqs("ICHORCLOTH_HELM_GEM");
@@ -250,5 +254,10 @@ shardSliver.add(<Automagy:shardSliver:5>);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
 mods.thaumcraft.Arcane.addShapeless("ORE", <Thaumcraft:blockCosmeticSolid:6>*3, "terra 1, ignis 1", [<minecraft:stone>, <ore:shardSliver>, <minecraft:stone>]);
 mods.thaumcraft.Arcane.addShaped("ORE", <Thaumcraft:blockCosmeticSolid:6> * 8, "terra 1, ignis 1", [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <Thaumcraft:ItemShard:*>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
+
+#Wrath Cage Rebalance 
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WrathCage>);
+mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <Thaumcraft:ItemResource:15>, [<Thaumcraft:ItemResource:15>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>, <minecraft:diamond>, <ForbiddenMagic:NetherShard>, <ThaumicHorizons:planarConduit>, <ForbiddenMagic:NetherShard>, <minecraft:diamond>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>], "ira 32, praecantio 32, bestia 32, machina 16", <ForbiddenMagic:WrathCage>, 10);
+mods.thaumcraft.Research.refreshResearchRecipe("WRATHCAGE");
 
 print("Initialized 'ThaumicAddons.zs'");
