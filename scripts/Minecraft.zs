@@ -98,6 +98,8 @@ vanilla.loot.addChestLoot("dungeonChest", <waystones:warpScroll>.weight(8), 1, 3
 vanilla.loot.addChestLoot("mineshaftCorridor", <waystones:warpScroll>.weight(8), 1, 3);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <waystones:warpScroll>.weight(10), 1, 5);
 
+mods.thaumcraft.Loot.addUncommonLoot(<waystones:warpScroll>, 10);
+
 vanilla.loot.removeChestLoot("dungeonChest", <gregtech_addon:metaitem_1:32100>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <gregtech_addon:metaitem_1:32100>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <gregtech_addon:metaitem_1:32100>);

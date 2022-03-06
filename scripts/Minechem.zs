@@ -28,9 +28,8 @@ recipes.addShaped(<minechem:minechemAtomicManipulator>, [[<Mekanism:Polyethene:2
 recipes.addShaped(<minechem:tile.leadChest>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <minecraft:chest>, <ore:plateLead>], [null, <ore:plateLead>, null]]);
 recipes.addShaped(<minechem:minechemPolytool>, [[null, <NuclearCraft:material:78>, <IC2:itemPartIndustrialDiamond>], [null, <Mekanism:Polyethene:3>, <NuclearCraft:material:78>], [<Mekanism:Polyethene:2>, null, null]]);
 
-recipes.addShaped(<minechem:tile.fusionWall>*8, [[<Mekanism:Polyethene:2>, <ore:ingotLead>, <Mekanism:Polyethene:2>], [<ore:ingotLead>, <minechem:minechemElement:22>, <ore:ingotLead>], [<Mekanism:Polyethene:2>, <ore:ingotLead>, <Mekanism:Polyethene:2>]]);
-recipes.addShaped(<minechem:tile.fusionWall:1>*8, [[<Mekanism:Polyethene:2>, <ore:ingotTungsten>, <Mekanism:Polyethene:2>], [<ore:ingotTungsten>, <minechem:minechemElement:4>, <ore:ingotTungsten>], [<Mekanism:Polyethene:2>, <ore:ingotTungsten>, <Mekanism:Polyethene:2>]]);
-
+recipes.addShaped(<minechem:tile.fusionWall>*16, [[<Mekanism:Polyethene:2>, <minechem:minechemElement:82>, <Mekanism:Polyethene:2>], [<minechem:minechemElement:82>, <minechem:minechemElement:22>, <minechem:minechemElement:82>], [<Mekanism:Polyethene:2>, <minechem:minechemElement:82>, <Mekanism:Polyethene:2>]]);
+recipes.addShaped(<minechem:tile.fusionWall:1>*16, [[<Mekanism:Polyethene:2>, <minechem:minechemElement:74>, <Mekanism:Polyethene:2>], [<minechem:minechemElement:74>, <minechem:minechemElement:4>, <minechem:minechemElement:74>], [<Mekanism:Polyethene:2>, <minechem:minechemElement:74>, <Mekanism:Polyethene:2>]]);
 
 #Decomposer recipes
 val SiO = <minechem:minechemMolecule:7>;
@@ -56,9 +55,6 @@ val Al = <minechem:minechemElement:13>;
 val H = <minechem:minechemElement:1>;
 val O = <minechem:minechemElement:8>;
 val Hydroxilapatite = <minechem:minechemMolecule:42>;
-val W = <minechem:minechemElement:74>;
-
-
 
 Decomposer.removeRecipe(<IC2:itemDust:11>);
 Decomposer.removeRecipe(<Mekanism:OtherDust:6>);
@@ -69,8 +65,6 @@ Decomposer.removeRecipe(<minechem:minechemPolytool>);
 Decomposer.removeRecipe(<minecraft:bucket>);
 Decomposer.removeRecipe(<minecraft:dye:15>);
 
-Decomposer.addRecipe(<gregtech_addon:metaitem_1:11081>,1,[[W*16]]);
-Decomposer.addRecipe(<gregtech_addon:metaitem_1:2081>,1,[[W*16]]);
 Decomposer.addRecipe(<gregtech_addon:metaitem_1:2822>,0.95,[[Ti, Al*16, H*10, O*12]]);
 Decomposer.addRecipe(<gregtech_addon:metaitem_1:3822>,0.95,[[Ti, Al*16, H*10, O*12]]);
 Decomposer.addRecipe(<gregtech_addon:metaitem_1:4822>,0.95,[[Ti, Al*16, H*10, O*12]]);
@@ -91,9 +85,6 @@ Decomposer.addRecipe(<NuclearCraft:material:123>,0.8,[[Cf*48]]);
 Decomposer.addRecipe(<NuclearCraft:material:122>,0.8,[[Cf*432]]);
 Decomposer.addRecipe(<ThermalFoundation:material:1025>,0.8,[[N*8, He*2]]);
 
-Decomposer.addRecipe(<IC2:itemShardIridium>,0.8,[[Ir*24]]);
-Decomposer.addRecipe(<IC2:itemOreIridium>,0.8,[[Ir*216]]);
-
 #Synth Recipes
 Synthesiser.removeRecipe(<minechem:minechemPolytool>);
 Synthesiser.removeRecipe(<IC2:itemDust:11>);
@@ -103,58 +94,24 @@ Synthesiser.removeRecipe(<NuclearCraft:material:5>);
 Synthesiser.removeRecipe(<NuclearCraft:blockBlock:5>);
 Synthesiser.removeRecipe(<minecraft:dye:15>);
 
-Synthesiser.addRecipe([W*16],<gregtech_addon:metaitem_1:11081>,true,1400);
-Synthesiser.addRecipe([W*16],<gregtech_addon:metaitem_1:2081>,true,1400);
-Synthesiser.addRecipe([Ti, Al*16, H*10, O*12],<gregtech_addon:metaitem_1:2822>,true,400);
+Synthesiser.addRecipe([Ti, Al*16, H*10, O*12],<gregtech_addon:metaitem_1:2822>,true,600);
 Synthesiser.addRecipe([Au*8, Ti*8],<NuclearCraft:material:7>,true,1040);
-Synthesiser.addRecipe([N*8, He*2],<ThermalFoundation:material:1025>,true,600);
-Synthesiser.addRecipe([Ir*24],<IC2:itemShardIridium>,true,520);
-
-Synthesiser.addRecipe([B*24],<NuclearCraft:material:43>,true,6000);
-
-Synthesiser.addRecipe([P*48],<NuclearCraft:material:33>,true,60000);
-
-Synthesiser.addRecipe([Th*48],<NuclearCraft:material:5>,true,4000);
-
-Synthesiser.addRecipe([Np*48],<NuclearCraft:material:87>,true,40000);
-
-Synthesiser.addRecipe([Am*48],<NuclearCraft:material:91>,true,400000);
-
-Synthesiser.addRecipe([Cf*48],<NuclearCraft:material:123>,true,800000);
 
 
+#Balance GT4 Minechem implementation
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:2100>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:1100>);
+Synthesiser.removeRecipe(<ThermalExpansion:augment:*>);
 
-#plutonium balance
-Synthesiser.removeRecipe(<minecraft:blaze_rod>);
-Synthesiser.removeRecipe(<minecraft:blaze_powder>);
-Synthesiser.removeRecipe(<minecraft:magma_cream>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:2084>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:1084>);
+Synthesiser.removeRecipe(<IC2:itemOreIridium>);
+Synthesiser.removeRecipe(<IC2:itemShardIridium>);
 
+Synthesiser.removeRecipe(<NuclearCraft:material:19>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:2098>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:1098>);
 
-Decomposer.removeRecipe(<minecraft:blaze_rod>);
-Decomposer.removeRecipe(<minecraft:magma_cream>);
-Decomposer.removeRecipe(<minecraft:blaze_powder>);
-Decomposer.removeRecipe(<ThermalFoundation:material:512>);
-Decomposer.removeRecipe(<minecraft:end_stone>);
-
-
-Synthesiser.removeRecipe(<minecraft:brewing_stand>);
-Synthesiser.removeRecipe(<Railcraft:machine.alpha:12>);
-Synthesiser.removeRecipe(<ThermalExpansion:augment:129>);
-Synthesiser.removeRecipe(<ExtraUtilities:decorativeBlock1:13>);
-Synthesiser.removeRecipe(<ThermalExpansion:Sponge:2>);
-Synthesiser.removeRecipe(<ThermalExpansion:florb:1>);
-Synthesiser.removeRecipe(<TConstruct:materials:7>);
-Synthesiser.removeRecipe(<ThermalExpansion:augment:130>);
-Synthesiser.removeRecipe(<Railcraft:cart.track.relayer>);
-
-Decomposer.removeRecipe(<minecraft:brewing_stand>);
-Decomposer.removeRecipe(<Railcraft:machine.alpha:12>);
-Decomposer.removeRecipe(<ThermalExpansion:augment:129>);
-Decomposer.removeRecipe(<ExtraUtilities:decorativeBlock1:13>);
-Decomposer.removeRecipe(<ThermalExpansion:Sponge:2>);
-Decomposer.removeRecipe(<ThermalExpansion:florb:1>);
-Decomposer.removeRecipe(<TConstruct:materials:7>);
-Decomposer.removeRecipe(<OpenBlocks:sky>);
-Decomposer.removeRecipe(<ThermalExpansion:augment:130>);
-Decomposer.removeRecipe(<Railcraft:cart.track.relayer>);
-Decomposer.removeRecipe(<ProjRed|Transportation:projectred.transportation.pipe:6>);
+Synthesiser.removeRecipe(<NuclearCraft:material:20>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:2096>);
+Synthesiser.removeRecipe(<gregtech_addon:metaitem_1:1096>);

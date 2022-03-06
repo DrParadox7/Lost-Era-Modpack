@@ -39,7 +39,7 @@ recipes.remove(<NuclearCraft:material:79>);
 recipes.remove(<NuclearCraft:material:78>);
 
 #Grating
-recipes.addShaped(<NuclearCraft:parts:10>, [[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
+recipes.addShaped(<NuclearCraft:parts:10>, [[<ore:ingotIron>, <minecraft:iron_bars>, <ore:ingotIron>], [<minecraft:iron_bars>, <ore:universalReactant>, <minecraft:iron_bars>], [<ore:ingotIron>, <minecraft:iron_bars>, <ore:ingotIron>]]);
 
 #Capsule
 mods.buildcraft.AssemblyTable.addRecipe(<NuclearCraft:fuel:48>, 5000, [<ore:plateLead>*8, <NuclearCraft:reactorBlock:1>]);
