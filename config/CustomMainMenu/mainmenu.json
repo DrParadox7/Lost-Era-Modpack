@@ -1,0 +1,181 @@
+{
+	"images": {
+		
+		"bar": {
+			"image": "mainmenu:textures/elements/menuBar.png",
+			"posX": 0,
+			"posY": 0,
+			"width": 100,
+			"height": 4096,
+			"alignment": "column_top"
+		},
+		"logo": {
+			"image": "mainmenu:textures/elements/Logo1.png",
+			"posX": -75,
+			"posY": -60,
+			"width": 260,
+			"height": 154,
+			"imageWidth": 1264,
+			"imageHeight": 747,
+			"alignment": "column_logo"
+		},
+		"langhover": {
+			"image": "mainmenu:textures/elements/LangOff.png",
+			"hoverImage": "mainmenu:textures/elements/LangOn.png",
+			"posX": -25,
+			"posY": -33,
+			"width": 15,
+			"height": 15,
+			"alignment": "bottom_right"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"normalTextColor": -1,
+			"hoverTextColor": 16758315,
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 20,
+			"posY": 5,
+			"width": 60,
+			"height": 10,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_center",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"normalTextColor": -1,
+			"hoverTextColor": 16758315,
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 20,
+			"posY": 25,
+			"width": 60,
+			"height": 10,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_center",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"normalTextColor": -1,
+			"hoverTextColor": 16758315,
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 20,
+			"posY": 45,
+			"width": 60,
+			"height": 10,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_center",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"mods": {
+			"text": "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor": -1,
+			"hoverTextColor": 16758315,
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 20,
+			"posY": 65,
+			"width": 60,
+			"height": 10,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_center",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"normalTextColor": 16728128,
+			"hoverTextColor": 16711680,
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 20,
+			"posY": 85,
+			"width": 60,
+			"height": 10,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_center",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"lang": {
+			"text": "",
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": -25,
+			"posY": -33,
+			"width": 15,
+			"height": 15,
+			"imageWidth": 11,
+			"imageHeight": 11,
+			"alignment": "bottom_right",
+			"action": {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+	},
+	"texts": {
+		"mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -199,
+            "posY" : -12,
+            "color" : 7368816,
+            "alignment" : "bottom_right"
+        },
+		"version": {
+			"text": "file:mainmenu:version.txt",
+			"posX": 5,
+			"posY": -10,
+			"color": 7368816,
+			"alignment": "bottom_left"
+		}
+	},
+	"alignments": {
+		"column_top": {
+			"factorWidth": 0.14,
+			"factorHeight": 0.0
+		},
+		"column_logo": {
+			"factorWidth": 0.14,
+			"factorHeight": 0.20
+		},
+		"column_center": {
+			"factorWidth": 0.14,
+			"factorHeight": 0.5
+		}
+	},
+	"other": {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:textures/background/1.png",
+					"mainmenu:textures/background/2.png",
+					"mainmenu:textures/background/3.png",
+					"mainmenu:textures/background/4.png",
+					"mainmenu:textures/background/5.png"
+				],
+				"displayDuration": 170,
+				"fadeDuration": 50,
+				"shuffle": true
+			}
+		}
+	}
+}
