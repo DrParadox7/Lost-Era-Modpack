@@ -274,7 +274,7 @@ mods.thaumcraft.Research.addPrereq("warptheory.cleanserminor", "ICHORCLOTH_BOOTS
 
 #Pure Tear
 mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanser>);
-mods.thaumcraft.Infusion.addRecipe("warptheory.cleanser", <WarpTheory:item.warptheory.cleanser>, [<Thaumcraft:blockCustomPlant:4>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:2>, <minecraft:nether_star>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemResource:15>, <ThaumicTinkerer:kamiResource:2>, <minecraft:nether_star>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:14>], "sano 32, cognitio 100, luxuria 8, praecantatio 16", <WarpTheory:item.warptheory.cleanser>, 10);
+mods.thaumcraft.Infusion.addRecipe("warptheory.cleanser", <WarpTheory:item.warptheory.cleanserminor>, [<Thaumcraft:blockCustomPlant:4>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:2>, <minecraft:nether_star>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemResource:15>, <ThaumicTinkerer:kamiResource:2>, <minecraft:nether_star>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:14>], "sano 32, cognitio 100, luxuria 8, praecantatio 16", <WarpTheory:item.warptheory.cleanser>, 10);
 mods.thaumcraft.Research.refreshResearchRecipe("warptheory.cleanser");
 
 #   Prerequisites
