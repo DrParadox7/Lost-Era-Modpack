@@ -135,7 +135,7 @@ recipes.addShaped(<WarpDrive:blockWarpIsolation>, [[<openmodularturrets:hardWall
 recipes.remove(<WarpDrive:itemComponent:8>);
 
 #IC2 Recipe
-recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<IC2:itemCasing:5>, <IC2:itemCellEmpty:5>, <IC2:itemCasing:5>], [<IC2:itemCasing:5>, <IC2:itemCellEmpty:5>, <IC2:itemCasing:5>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
+recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateAluminium>, <IC2:itemCellEmpty:5>, <ore:plateAluminium>], [<ore:plateAluminium>, <IC2:itemCellEmpty:5>, <ore:plateAluminium>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
 #RF Recipe
 recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateSteel>, <Mekanism:GasTank:*>, <ore:plateSteel>], [<ore:plateSteel>, <Mekanism:GasTank:*>, <ore:plateSteel>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
 
@@ -144,7 +144,7 @@ recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateSteel>, <Mekanism:G
 recipes.remove(<WarpDrive:itemAirTank1:*>);
 
 #IC2 Recipe
-recipes.addShaped(<WarpDrive:itemAirTank1:32>, [[<IC2:itemCasing:5>, <IC2:itemPartCircuit>, <IC2:itemCasing:5>], [<WarpDrive:itemComponent:8>, <IC2:itemRecipePart:3>, <WarpDrive:itemComponent:8>], [<powersuits:powerArmorComponent:20>, null, <powersuits:powerArmorComponent:20>]]);
+recipes.addShaped(<WarpDrive:itemAirTank1:32>, [[<ore:plateAluminium>, <IC2:itemPartCircuit>, <ore:plateAluminium>], [<WarpDrive:itemComponent:8>, <IC2:itemRecipePart:3>, <WarpDrive:itemComponent:8>], [<powersuits:powerArmorComponent:20>, null, <powersuits:powerArmorComponent:20>]]);
 #RF Recipe
 recipes.addShaped(<WarpDrive:itemAirTank1:32>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<WarpDrive:itemComponent:8>, <ore:plateSteel>, <WarpDrive:itemComponent:8>], [<powersuits:powerArmorComponent:20>, null, <powersuits:powerArmorComponent:20>]]);
 
