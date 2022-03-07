@@ -158,7 +158,7 @@
 		<filler block="HardcoreEnderExpansion:endium_ore" mods="gregtech_addon" ratio="5" />
 		<filler block="HardcoreEnderExpansion:end_powder_ore" mods="HardcoreEnderExpansion" ratio="5" />
 		<filler block="HardcoreEnderExpansion:igneous_rock_ore" mods="HardcoreEnderExpansion" ratio=".06" />
-		<filler block="<HardcoreEnderExpansion:instability_orb_ore>" mods="HardcoreEnderExpansion" ratio="2" />
+		<filler block="HardcoreEnderExpansion:instability_orb_ore" mods="HardcoreEnderExpansion" ratio="2" />
 	</fillerSet>
 	
 	
