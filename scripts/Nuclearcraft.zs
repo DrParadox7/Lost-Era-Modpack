@@ -170,10 +170,6 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:512>, 
 mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:512>, <NuclearCraft:blockOre:5>, <NuclearCraft:material:5>*3, <NuclearCraft:material:5>*4, 75);
 mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:512>, <NuclearCraft:blockOre:8>, <NuclearCraft:material:43>*3, <NuclearCraft:material:43>, 55);
 
-mods.extraUtils.QED.removeRecipe(<ore:ingotUranium>);
-mods.extraUtils.QED.removeRecipe(<ore:ingotBoron>);
-mods.extraUtils.QED.removeRecipe(<ore:ingotThorium>);
-
 ###Oxydizer
 mods.mekanism.Purification.addRecipe(<NuclearCraft:fuel:29>, <gas:oxygen>*20, <NuclearCraft:fuel:72>);
 mods.mekanism.Purification.addRecipe(<NuclearCraft:fuel:125>, <gas:oxygen>*20, <NuclearCraft:fuel:135>);
