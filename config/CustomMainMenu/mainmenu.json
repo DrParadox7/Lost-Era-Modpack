@@ -12,14 +12,14 @@
 		"logo": {
 			"image": "mainmenu:textures/elements/Logo1.png",
 			"posX": -75,
-			"posY": -60,
+			"posY": -62,
 			"width": 260,
 			"height": 154,
 			"imageWidth": 1264,
 			"imageHeight": 747,
 			"alignment": "column_logo"
 		},
-		"langhover": {
+		"langoverlay": {
 			"image": "mainmenu:textures/elements/LangOff.png",
 			"hoverImage": "mainmenu:textures/elements/LangOn.png",
 			"posX": -25,
@@ -27,6 +27,33 @@
 			"width": 15,
 			"height": 15,
 			"alignment": "bottom_right"
+		},
+		"redditoverlay": {
+			"image": "mainmenu:textures/elements/Reddit.png",
+			"hoverImage": "mainmenu:textures/elements/Reddithover.png",
+			"posX": 40,
+			"posY": -13,
+			"width": 20,
+			"height": 20,
+			"alignment": "column_bottom"
+		},
+        "discordoverlay": {
+			"image": "mainmenu:textures/elements/Discord.png",
+			"hoverImage": "mainmenu:textures/elements/Discordhover.png",
+			"posX": 15,
+			"posY": -11,
+			"width": 18,
+			"height": 18,
+			"alignment": "column_bottom"
+		},
+		"patreonoverlay": {
+			"image": "mainmenu:textures/elements/Patreon.png",
+			"hoverImage": "mainmenu:textures/elements/Patreonhover.png",
+			"posX": 67,
+			"posY": -10,
+			"width": 17,
+			"height": 16,
+			"alignment": "column_bottom"
 		}
 	},
 	"buttons": {
@@ -35,10 +62,10 @@
 			"normalTextColor": -1,
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/elements/Alpha.png",
-			"posX": 20,
+			"posX": 18,
 			"posY": 5,
-			"width": 60,
-			"height": 10,
+			"width": 64,
+			"height": 15,
 			"imageWidth": 1000,
 			"imageHeight": 1,
 			"alignment": "column_center",
@@ -53,9 +80,9 @@
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/elements/Alpha.png",
 			"posX": 20,
-			"posY": 25,
+			"posY": 23,
 			"width": 60,
-			"height": 10,
+			"height": 15,
 			"imageWidth": 1000,
 			"imageHeight": 1,
 			"alignment": "column_center",
@@ -70,9 +97,9 @@
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/elements/Alpha.png",
 			"posX": 20,
-			"posY": 45,
+			"posY": 41,
 			"width": 60,
-			"height": 10,
+			"height": 15,
 			"imageWidth": 1000,
 			"imageHeight": 1,
 			"alignment": "column_center",
@@ -87,9 +114,9 @@
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/elements/Alpha.png",
 			"posX": 20,
-			"posY": 65,
+			"posY": 59,
 			"width": 60,
-			"height": 10,
+			"height": 15,
 			"imageWidth": 1000,
 			"imageHeight": 1,
 			"alignment": "column_center",
@@ -104,9 +131,9 @@
 			"hoverTextColor": 16711680,
 			"texture": "mainmenu:textures/elements/Alpha.png",
 			"posX": 20,
-			"posY": 85,
+			"posY": 77,
 			"width": 60,
-			"height": 10,
+			"height": 15,
 			"imageWidth": 1000,
 			"imageHeight": 1,
 			"alignment": "column_center",
@@ -128,7 +155,59 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        }
+        },
+		"discord": {
+			"text": "",
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 15,
+			"posY": -11,
+			"width": 18,
+			"height": 18,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.com/invite/SZdz7JkuPJ"
+			}
+		},
+		"reddit": {
+			"text": "",
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 40,
+			"posY": -13,
+			"width": 20,
+			"height": 20,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openLink",
+				"link": "https://www.reddit.com/r/Lost_Era/"
+			}
+		},
+		"patreon": {
+			"text": "",
+			"texture": "mainmenu:textures/elements/Alpha.png",
+			"posX": 67,
+			"posY": -10,
+			"width": 17,
+			"height": 16,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openLink",
+				"link": "https://www.patreon.com/LostEra"
+			}
+		}
+		// "refresh":
+        // {
+        //     "text" : "",
+        //     "posX" : 0,
+        //     "posY" : 132,
+        //     "width" : 20,
+        //     "height" : 20,
+        //     "texture" : "custommainmenu:textures/gui/buttons.png",
+        //     "action" : 
+        //     {
+        //         "type" : "refresh"
+        //     }
+        // }
 	},
 	"texts": {
 		"mojang":
@@ -158,7 +237,11 @@
 		},
 		"column_center": {
 			"factorWidth": 0.14,
-			"factorHeight": 0.5
+			"factorHeight": 0.48
+		},
+        "column_bottom": {
+			"factorWidth": 0.14,
+			"factorHeight": 0.93
 		}
 	},
 	"other": {
@@ -170,7 +253,8 @@
 					"mainmenu:textures/background/2.png",
 					"mainmenu:textures/background/3.png",
 					"mainmenu:textures/background/4.png",
-					"mainmenu:textures/background/5.png"
+					"mainmenu:textures/background/5.png",
+					"mainmenu:textures/background/6.png"
 				],
 				"displayDuration": 170,
 				"fadeDuration": 50,

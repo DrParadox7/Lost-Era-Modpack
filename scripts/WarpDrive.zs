@@ -1,5 +1,3 @@
-import mods.ic2.Compressor;
-
 #Name: WarpDrive.zs
 #Author: TechnoParadox
 
@@ -36,7 +34,7 @@ recipes.addShapeless(<WarpDrive:itemComponent:7>, [<ExtraUtilities:unstableingot
 
 #Activated Carbon
 recipes.remove(<WarpDrive:itemComponent:16>);
-Compressor.addRecipe(<IC2:itemPartCoalChunk>, <WarpDrive:itemComponent:16>);
+recipes.addShaped(<WarpDrive:itemComponent:16>, [[<ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>), <ore:dustCarbon>, <ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>)], [<ore:dustCarbon>, <IC2:itemPartCarbonPlate>, <ore:dustCarbon>], [<ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>), <ore:dustCarbon>, <ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>)]]);
 mods.railcraft.Rolling.addShapeless(<WarpDrive:itemComponent:16>, [<NuclearCraft:material:76>, <NuclearCraft:material:76>, <NuclearCraft:material:76>, <NuclearCraft:material:76>,]);
 
 #Magnetic Projector
@@ -249,7 +247,7 @@ recipes.addShaped(<WarpDrive:blockForceFieldRelay3>, [[<minecraft:ender_pearl>, 
 #Basic
 recipes.remove(<WarpDrive:blockHull1_plain>);
 recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<IC2:blockAlloy>, <ore:ingotAluminium>, <IC2:blockAlloy>], [<ore:ingotAluminium>, null, <ore:ingotAluminium>], [<IC2:blockAlloy>, <ore:ingotAluminium>, <IC2:blockAlloy>]]);
-recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<Railcraft:cube:1>, <ore:ingotAluminium>, <Railcraft:cube:1>], [<ore:ingotAluminium>, null, <ore:ingotAluminium>], [<Railcraft:cube:1>, <ore:ingotAluminium>, <Railcraft:cube:1>]]);
+recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<Railcraft:cube:1>, <NuclearCraft:material:78>, <Railcraft:cube:1>], [<NuclearCraft:material:78>, null, <NuclearCraft:material:78>], [<Railcraft:cube:1>, <NuclearCraft:material:78>, <Railcraft:cube:1>]]);
 
 #Advanced
 recipes.remove(<WarpDrive:blockHull2_plain>);

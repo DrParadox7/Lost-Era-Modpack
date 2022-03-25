@@ -193,22 +193,18 @@ recipes.addShaped(<Mekanism:MachineBlock3:6>, [[<ore:ingotSteel>, <ore:gearCoppe
 #### Misc Recipes ####
 
 #Energy Cubes
-recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Basic"}));
-recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}));
-recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Elite"}));
-recipes.remove(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}));
+# Basic
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [[<Mekanism:ControlCircuit>], [<ThermalExpansion:Cell:1>]]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [<ThermalExpansion:Cell:1>]);
-recipes.addShapeless(<ThermalExpansion:Cell:1>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Basic"})]);
+# Advanced
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [[<Mekanism:ControlCircuit:1>], [<ThermalExpansion:Cell:2>]]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [<ThermalExpansion:Cell:2>]);
-recipes.addShapeless(<ThermalExpansion:Cell:2>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Advanced"})]);
+# Elite
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [[<Mekanism:ControlCircuit:2>], [<ThermalExpansion:Cell:3>]]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [<ThermalExpansion:Cell:3>]);
-recipes.addShapeless(<ThermalExpansion:Cell:3>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"})]);
+# Ultimate
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<Mekanism:ControlCircuit:3>], [<ThermalExpansion:Cell:4>]]);
 
-recipes.addShapeless(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [<ThermalExpansion:Cell:4>]);
-recipes.addShapeless(<ThermalExpansion:Cell:4>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Ultimate"})]);
 
 #Obsidian TNT
 recipes.addShaped(<Mekanism:ObsidianTNT>, [[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>], [<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
@@ -395,9 +391,10 @@ furnace.remove(<*>, <Mekanism:DirtyDust:*>);
 mods.mekanism.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>);
 
 #Artificial Diamond
-//mods.mekanism.Enrichment.removeRecipe(<ore:dustDiamond>, <minecraft:diamond>);
-//mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <IC2:itemPartIndustrialDiamond>);
-//mods.mekanism.Enrichment.addRecipe(<IC2:itemDust2:1>, <IC2:itemPartIndustrialDiamond>);
+mods.mekanism.Enrichment.removeRecipe(<ore:dustDiamond>, <minecraft:diamond>);
+mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <IC2:itemPartIndustrialDiamond>);
+mods.mekanism.Enrichment.addRecipe(<IC2:itemDust2:1>, <IC2:itemPartIndustrialDiamond>);
+mods.mekanism.Enrichment.addRecipe(<gregtech_addon:metaitem_1:2500>, <IC2:itemPartIndustrialDiamond>);
 
 #Biofuel
 mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);

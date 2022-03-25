@@ -39,6 +39,10 @@ recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte, Augmen
 recipes.remove(<ThermalFoundation:material:513>);
 recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
 
+#Platinum rebalance
+mods.thermalexpansion.Pulverizer.removeRecipe(<ThermalFoundation:Ore:4>);
+mods.thermalexpansion.Pulverizer.addRecipe(4000, <ThermalFoundation:Ore:4>, <ThermalFoundation:material:36>*2, <ThermalFoundation:material:37>, 5);
+
 #### Bauxide Processing
 
 #Allow for user error and add to accuracy (Slag is mixed materials)
@@ -66,7 +70,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(4000, <Thaumcraft:blockCustomOre>
 #Redstone Energy Cell
 recipes.removeShaped(<ThermalExpansion:Cell:3>);
 recipes.addShaped(<ThermalExpansion:Cell:3>, [[null, <RedstoneArsenal:material:32>, null], [<RedstoneArsenal:material:32>, <ThermalExpansion:Frame:7>, <RedstoneArsenal:material:32>], [null, <ThermalExpansion:material:3>, null]]);
-
 
 #Fix bronze armor variety inbalance
 recipes.remove(<ThermalFoundation:armor.helmetBronze>);
@@ -127,11 +130,25 @@ recipes.addShaped(<ThermalExpansion:augment:313>, [[<ore:ingotElectrumFlux>, <Th
 recipes.addShaped(<ThermalExpansion:augment:314>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<minecraft:obsidian>, <ThermalExpansion:material>, <minecraft:obsidian>], [<ore:ingotPlatinum>, <minecraft:brick_block>, <ore:ingotPlatinum>]]);
 
 #Capacitors
-recipes.remove(<ThermalExpansion:capacitor:*>);
+recipes.remove(<ThermalExpansion:capacitor:2>);
+recipes.remove(<ThermalExpansion:capacitor:3>);
+recipes.remove(<ThermalExpansion:capacitor:4>);
+recipes.remove(<ThermalExpansion:capacitor:5>);
+
 
 recipes.addShaped(<ThermalExpansion:capacitor:2>, [[<minecraft:redstone>, <ore:gearLead>, <minecraft:redstone>], [<ore:ingotLead>, <ThermalExpansion:capacitor:1>, <ore:ingotLead>], [<minecraft:leather>, <ore:dustSulfur>, <minecraft:leather>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:3>, [[<ProjRed|Core:projectred.core.part:10>, <ore:gearInvar>, <ProjRed|Core:projectred.core.part:10>], [<ore:ingotInvar>, <ThermalExpansion:capacitor:2>, <ore:ingotInvar>], [<appliedenergistics2:item.ItemMultiMaterial:5>, <ore:dustGold>, <appliedenergistics2:item.ItemMultiMaterial:5>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:4>, [[<BuildCraft|Silicon:redstoneCrystal>, <ore:gearElectrum>, <BuildCraft|Silicon:redstoneCrystal>], [<ore:ingotElectrum>, <ThermalExpansion:capacitor:3>, <ore:ingotElectrum>], [<ThermalExpansion:Glass>, <ore:dustSignalum>, <ThermalExpansion:Glass>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:5>, [[<RedstoneArsenal:material:96>, <ore:gearEnderium>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:capacitor:4>, <ore:ingotEnderium>], [<ThermalExpansion:Glass:1>, <ore:dustElectrumFlux>, <ThermalExpansion:Glass:1>]]);
+
+#Energy Cells (Frames only)
+
+#Leadstone Cell
+recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
+
+#Hardened Cell
+recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotInvar>, null], [<ore:ingotInvar>, <ThermalExpansion:Cell:1>, <ore:ingotInvar>], [null, <ore:ingotInvar>, null]]);
+recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:5>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
+recipes.addShaped(<ThermalExpansion:Cell:2>, [[<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
 
 print("Initialized 'ThermalExpansion.zs'");

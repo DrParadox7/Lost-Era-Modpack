@@ -6,7 +6,7 @@
 
 	<structure group="star" name="red_dwarf" ratio="0.2">
 		<shell name="core" minThickness="5" maxThickness="10"><!-- legacy radius was 42 -->
-			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+			<filler weight="1" block="ThermalFoundation:FluidPyrotheum" />
 			<filler ratio="0.03" block="realstars:reddwarfcore" />
 		</shell>
 
@@ -29,7 +29,7 @@
 		</shell>
 		<shell name="mantle" minThickness="15" maxThickness="20">
 			<filler ratio="0.02" block="realstars:orangeddwarfcore" />
-			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+			<filler weight="1" block="ThermalFoundation:FluidPyrotheum" />
 		</shell>
 		<shell name="crust1" minThickness="6" maxThickness="8">
 			<filler weight="1" block="realstars:orangedwarfcore" />
@@ -48,7 +48,7 @@
 		</shell>
 		<shell name="mantle" minThickness="25" maxThickness="32">
 			<filler ratio="0.01" block="realstars:yellowgiantcore" />
-			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+			<filler weight="1" block="ThermalFoundation:FluidPyrotheum" />
 		</shell>
 		<shell name="crust1" minThickness="10" maxThickness="15">
 			<filler weight="1" block="realstars:orangedwarfcore" />
@@ -67,7 +67,7 @@
 		</shell>
 		<shell name="mantle" minThickness="35" maxThickness="45">
 			<filler ratio="0.01" block="realstars:yellowsupergiantcore" />
-			<filler weight="1" block="NuclearCraft:fusionPlasmaBlock" />
+			<filler weight="1" block="ThermalFoundation:FluidPyrotheum" />
 		</shell>
 		<shell name="crust" minThickness="20" maxThickness="28">
 			<filler weight="1" block="realstars:yellowsupergiantcore" />

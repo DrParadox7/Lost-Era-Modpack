@@ -68,11 +68,11 @@ mods.thermalexpansion.Smelter.removeRecipe(<NuclearCraft:material:7>*2, <Nuclear
 mods.mekanism.Enrichment.removeRecipe(<NuclearCraft:parts>*4, <NuclearCraft:parts:3>);
 ####
 mods.mekanism.Infuser.addRecipe("OBSIDIAN", 50, <NuclearCraft:parts>, <NuclearCraft:parts:3>);
-mods.mekanism.Infuser.addRecipe("DIAMOND", 50, <NuclearCraft:material:77>, <NuclearCraft:material:79>);
+mods.mekanism.Infuser.addRecipe("DIAMOND", 10, <NuclearCraft:material:77>, <NuclearCraft:material:79>);
 
 #Fuel Cells
 recipes.remove(<NuclearCraft:fuel:33>);
-recipes.addShaped(<NuclearCraft:fuel:33>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
+recipes.addShaped(<NuclearCraft:fuel:33>*4, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 
 #Reactor Glass
 recipes.addShaped(<NuclearCraft:reactorBlock:1>*4, [[null, <NuclearCraft:reactorBlock>, null], [<NuclearCraft:reactorBlock>, <ThermalExpansion:Glass>, <NuclearCraft:reactorBlock>], [null, <NuclearCraft:reactorBlock>, null]]);

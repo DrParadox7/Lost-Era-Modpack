@@ -76,6 +76,7 @@ Decomposer.addRecipe(<NuclearCraft:material:5>,0.8,[[Th*48]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:5>,0.8,[[Th*432]]);
 Decomposer.addRecipe(<NuclearCraft:material:78>,0.8,[[C*12]]);
 Decomposer.addRecipe(<minecraft:dye:15>,0.20,[[Hydroxilapatite*1]]);
+Decomposer.addRecipe(<IC2:itemRubber>,0.9,[[<minechem:minechemMolecule:30>*8]]);
 
 Decomposer.addRecipe(<NuclearCraft:material:87>,0.8,[[Np*48]]);
 Decomposer.addRecipe(<NuclearCraft:material:86>,0.8,[[Np*432]]);
@@ -96,6 +97,8 @@ Synthesiser.removeRecipe(<minecraft:dye:15>);
 
 Synthesiser.addRecipe([Ti, Al*16, H*10, O*12],<gregtech_addon:metaitem_1:2822>,true,600);
 Synthesiser.addRecipe([Au*8, Ti*8],<NuclearCraft:material:7>,true,1040);
+
+Synthesiser.addRecipe([<minechem:minechemMolecule:30>*8],<IC2:itemRubber>,true,200);
 
 
 #Balance GT4 Minechem implementation

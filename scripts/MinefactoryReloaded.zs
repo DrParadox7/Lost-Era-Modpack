@@ -73,7 +73,6 @@ recipes.addShaped(<MineFactoryReloaded:upgrade.radius:9>, [[<ore:ingotMithril>, 
 recipes.addShapeless(<OpenBlocks:filledbucket>, [<MineFactoryReloaded:bucket.essence>, <ore:orebushEssence>.reuse()]);
 recipes.addShapeless(<MineFactoryReloaded:bucket.essence>, [<OpenBlocks:filledbucket>, <minecraft:skull:*>.reuse()]);
 
-
 ###Plastic Rework###
 val plast = <ore:itemPlastic>;
 val plastic = <ore:dustPlastic>;
@@ -84,6 +83,14 @@ plast.remove(<MineFactoryReloaded:plastic.raw>);
 plastic.remove(<MineFactoryReloaded:plastic.raw>);
 sheetplastic.remove(<MineFactoryReloaded:plastic.sheet>);
 plateplastic.remove(<MineFactoryReloaded:plastic.sheet>);
+
+#Rubber Rework 
+furnace.remove(<MineFactoryReloaded:rubber.bar>);
+mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:rubber.raw>);
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:materials:36>);
+mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:16>, <MineFactoryReloaded:rubber.raw>);
+
+mods.mekanism.chemical.Injection.addRecipe(<MineFactoryReloaded:rubber.raw>, <gas:sulfuricAcid>, <MineFactoryReloaded:rubber.bar>);
 
 #Ethanol to Ethylene
 #mods.mekanism.SolarEvaporation.addRecipe(<liquid:bioethanol>*10, <liquid:ethene>);

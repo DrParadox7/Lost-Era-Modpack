@@ -129,26 +129,6 @@
             6
         ]
     },
-    "Aroma_silver": {
-        "template": "uniform",
-        "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
-        ],
-        "clusterSize": 8,
-        "numClusters": 5,
-        "minHeight": 5,
-        "maxHeight": 30,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            6
-        ]
-    },
     "Aroma_lead": {
         "template": "uniform",
         "block": [

@@ -86,14 +86,14 @@
         "block": [
 			{"name": "Mekanism:OreBlock", "weight":2},
 			{"name": "minecraft:sand", "weight":16},
-			{"name": "minecraft:gravel", "weight":36},
+			{"name": "minecraft:gravel", "weight":32},
 			{"name": "minecraft:clay", "weight":5},
 			{"name": "minecraft:stone", "weight":15},
-			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight":5},
-			{"name": "minecraft:gold_ore", "weight":4},
+			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight":3},
+			{"name": "minecraft:gold_ore", "weight":6},
 			{"name": "minecraft:iron_ore", "weight":10},
-			{"name": "ThermalFoundation:Ore", "weight":6},
-			{"name": "ThermalFoundation:Ore", "metadata": 1, "weight":6}
+			{"name": "ThermalFoundation:Ore", "weight":10},
+			{"name": "ThermalFoundation:Ore", "metadata": 1, "weight":10}
 		],
         "material": [
 			{"name": "minecraft:gravel"},

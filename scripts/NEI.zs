@@ -159,3 +159,6 @@ NEI.hide(<ProjRed|Illumination:projectred.illumination.airousLight>);
 NEI.hide(<Thaumcraft:blockMagicBox>);
 NEI.hide(<Genetics:serum>);
 NEI.hide(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponPropInvisible>);
+
+#Wither affected by Looting
+NEI.addEntry(<minecraft:nether_star>.withTag({display: {Lore: ["§8Now affected by §5Looting"]}}));
