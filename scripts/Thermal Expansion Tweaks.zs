@@ -39,10 +39,6 @@ recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte, Augmen
 recipes.remove(<ThermalFoundation:material:513>);
 recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
 
-#Platinum rebalance
-mods.thermalexpansion.Pulverizer.removeRecipe(<ThermalFoundation:Ore:4>);
-mods.thermalexpansion.Pulverizer.addRecipe(4000, <ThermalFoundation:Ore:4>, <ThermalFoundation:material:36>*2, <ThermalFoundation:material:37>, 5);
-
 #### Bauxide Processing
 
 #Allow for user error and add to accuracy (Slag is mixed materials)
