@@ -31,7 +31,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:11>, 100
 
 #Control Circuit
 recipes.remove(<powersuits:powerArmorComponent:14>); 
-mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:14>, 750000, [<OpenComputers:item:32>, <Mekanism:Ingot:3>, <Mekanism:ControlCircuit>]);
+mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent:14>, 750000, [<ThermalExpansion:material:3>, <Mekanism:Ingot:3>, <Mekanism:ControlCircuit>]);
 
 #Computer Chip
 recipes.remove(<powersuits:powerArmorComponent:19>); 

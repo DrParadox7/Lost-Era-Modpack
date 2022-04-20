@@ -2,13 +2,7 @@
 #Author: TechnoParadox
 print("Initializing 'TinkerConstruct.zs'...");
 
-#Aluminum balance
-furnace.remove(<TConstruct:materials:11>);
-mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:materials:40>);
-mods.thermalexpansion.Smelter.removeRecipe(<*>, <TConstruct:SearedBrick:5>);
-
-
-#smeltery changes
+#Smeltery changes
 recipes.remove(<TConstruct:CraftedSoil:6>);
 recipes.addShapeless(<TConstruct:CraftedSoil:6>*4, [<minecraft:magma_cream>, <minecraft:soul_sand>, <minecraft:gravel>, <ore:dustObsidian>]);
 
@@ -104,5 +98,9 @@ mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:11303>, "Ele
 mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.block:4>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
+
+#Aluminum Brass Dust 
+recipes.remove(<TConstruct:materials:42>);
+recipes.addShapeless(<TConstruct:materials:42>*4, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustBrass>]);
 
 print("Initialized 'TinkerConstruct.zs'");

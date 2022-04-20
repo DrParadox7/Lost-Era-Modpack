@@ -19,7 +19,7 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 #Concrete
 recipes.remove(<Railcraft:cube:1>);
 recipes.addShaped(<Railcraft:cube:1>*16, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <ThermalExpansion:material:514>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
-recipes.addShaped(<Railcraft:cube:1>*32, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <ThermalExpansion:material:515>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
+recipes.addShaped(<Railcraft:cube:1>*16, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <IC2:itemSlag>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
 
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 21000, <Railcraft:cube:2>);
@@ -86,5 +86,11 @@ recipes.addShaped(<Railcraft:machine.zeta:14>*2, [[<ore:barsIron>, <ore:platePal
 recipes.addShaped(<Railcraft:machine.eta>*4, [[<ore:plateIridium>, <ore:plateIridium>], [<ore:plateIridium>, <ore:plateIridium>]]);
 recipes.addShaped(<Railcraft:machine.eta:1>*4, [[<ore:paneGlassColorless>, <ore:plateIridium>, <ore:paneGlassColorless>], [<ore:plateIridium>, <minecraft:glass_pane>, <ore:plateIridium>], [<ore:paneGlassColorless>, <ore:plateIridium>, <ore:paneGlassColorless>]]);
 recipes.addShaped(<Railcraft:machine.eta:2>*2, [[<ore:barsIron>, <ore:plateIridium>, <ore:barsIron>], [<ore:plateIridium>, <minecraft:lever>, <ore:plateIridium>], [<ore:barsIron>, <ore:plateIridium>, <ore:barsIron>]]);
+
+#Boiler tanks
+recipes.remove(<Railcraft:machine.beta:3>);
+recipes.remove(<Railcraft:machine.beta:4>);
+mods.railcraft.Rolling.addShaped(<Railcraft:machine.beta:3>, [[null, <Railcraft:machine.beta>, null], [<Railcraft:machine.beta>, null, <Railcraft:machine.beta>], [null, <Railcraft:machine.beta>, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:machine.beta:4>, [[null, <Railcraft:machine.beta:13>, null], [<Railcraft:machine.beta:13>, null, <Railcraft:machine.beta:13>], [null, <Railcraft:machine.beta:13>, null]]);
 
 print("Initialized 'Railcraft(Tweaks).zs'");

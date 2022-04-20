@@ -281,4 +281,7 @@ recipes.addShaped(<BinnieCore:storage:4>, [[<ore:gearGold>, <minecraft:book>, <o
 recipes.addShaped(<BinnieCore:storage:5>, [[<minecraft:paper>, <IronChest:BlockIronChest:2>, <minecraft:paper>], [<IronChest:BlockIronChest:2>, <minecraft:book>, <IronChest:BlockIronChest:2>], [<minecraft:paper>, <IronChest:BlockIronChest:2>, <minecraft:paper>]]);
 recipes.addShaped(<BinnieCore:storage:5>, [[<ore:gearDiamond>, <minecraft:book>, <ore:gearDiamond>], [<minecraft:paper>, <BinnieCore:storage:4>, <minecraft:paper>], [<ore:gearDiamond>, <minecraft:book>, <ore:gearDiamond>]]);
 
+
+#NEI Tooltips
+<Botany:pigment:*>.addTooltip("Flower pigment made from floriculture breeding");
 print("Initialized 'Binnie.zs'");

@@ -2,50 +2,204 @@
 #Author: TechnoParadox
 print("Initializing 'ThermalDynamics.zs'...");
 
-###RF Pipes###
+#Quartz dust oredict
+val dustQuartz = <ore:dustQuartz>;
+dustQuartz.addAll(<ore:dustCertusQuartz>);
+dustQuartz.addAll(<ore:dustNetherQuartz>);
+
+#Molten Enderium from Magma Crucible
+mods.thermalexpansion.Crucible.addRecipe(100000, <ThermalFoundation:material:76>, <liquid:enderium.molten> * 144);
+mods.thermalexpansion.Crucible.addRecipe(11111, <ThermalFoundation:material:108>, <liquid:enderium.molten> * 16);
+
+### Item Ducts ###
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_16:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_32:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_48:*>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_64:*>);
+recipes.remove(<ThermalDynamics:servo:*>);
+recipes.remove(<ThermalDynamics:filter:*>);
+recipes.remove(<ThermalDynamics:retriever:*>);
+recipes.remove(<ThermalDynamics:relay>);
 
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0>*16, [[<ore:plateLead>, <ore:ingotRedAlloy>, <ore:plateLead>], [<ore:blockGlass>, <ore:ingotRedAlloy>, <ore:blockGlass>], [<ore:plateLead>, <ore:ingotRedAlloy>, <ore:plateLead>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:1>*16, [[<ore:plateInvar>, <ore:ingotRedAlloy>, <ore:plateInvar>], [<ore:blockGlassHardened>, <ore:ingotRedAlloy>, <ore:blockGlassHardened>], [<ore:plateInvar>, <ore:ingotRedAlloy>, <ore:plateInvar>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:3>*16, [[<ore:plateElectrum>, <ThermalExpansion:Glass:1>, <ore:plateElectrum>], [<ThermalExpansion:Glass>, null, <ThermalExpansion:Glass>], [<ore:plateElectrum>, <ThermalExpansion:Glass:1>, <ore:plateElectrum>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:5>*8, [[<ThermalDynamics:ThermalDynamics_0:2>, <ThermalDynamics:ThermalDynamics_0:2>, <ThermalDynamics:ThermalDynamics_0:2>],[<ThermalDynamics:ThermalDynamics_0:2>,<ore:ingotEnderium>,<ThermalDynamics:ThermalDynamics_0:2>],[<ThermalDynamics:ThermalDynamics_0:2>, <ThermalDynamics:ThermalDynamics_0:2>, <ThermalDynamics:ThermalDynamics_0:2>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:7>*8, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass:1>, <ore:ingotElectrumFlux>], [<ThermalExpansion:Glass>, <ore:gemCrystalFlux>, <ThermalExpansion:Glass>], [<ore:ingotElectrumFlux>, <ThermalExpansion:Glass:1>, <ore:ingotElectrumFlux>]]);
-
-###Storage Pipes###
-recipes.remove(<ThermalDynamics:ThermalDynamics_32>);
-recipes.remove(<ThermalDynamics:ThermalDynamics_32:1>);
-recipes.remove(<ThermalDynamics:ThermalDynamics_16>);
-recipes.remove(<ThermalDynamics:ThermalDynamics_16:1>);
-recipes.remove(<ThermalDynamics:ThermalDynamics_16:2>);
-recipes.remove(<ThermalDynamics:ThermalDynamics_16:3>);
-
-recipes.remove(<ThermalDynamics:ThermalDynamics_16:6>);
-recipes.remove(<ThermalDynamics:ThermalDynamics_16:7>);
-
-recipes.remove(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 1 as byte}));
-recipes.remove(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 2 as byte}));
-
-recipes.remove(<ThermalDynamics:ThermalDynamics_32:1>.withTag({DenseType: 1 as byte}));
-recipes.remove(<ThermalDynamics:ThermalDynamics_32:1>.withTag({DenseType: 2 as byte}));
+#Itemduct (Transparent)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32>*12, 10000, [<ore:ingotTin>, <ThermalExpansion:Glass:*>, <ore:ingotTin>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:1>*12, <ThermalExpansion:Glass:*>]);
 
 
-#RF Recipe
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_32>*4, [[<ore:plateTin>, <ore:blockGlass>, <ore:plateTin>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_32:1>*4, [[<ore:plateTin>, <ore:ingotLead>, <ore:plateTin>]]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32>, [<ThermalDynamics:ThermalDynamics_32>]);
 
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16>*4, [[<ore:plateCopper>, <ore:blockGlass>, <ore:plateCopper>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:1>*4, [[<ore:plateCopper>, <ore:ingotLead>, <ore:plateCopper>]]);
+#Itemduct (Opaque)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:1>*12, 10000, [<ore:ingotTin>, <ore:ingotLead>, <ore:ingotTin>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:1>*12, 5000, [<ThermalDynamics:ThermalDynamics_32>*12, <ore:ingotLead>]);
 
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:2>*4, [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:3>*4, [[<ore:plateSteel>, <ore:ingotLead>, <ore:plateSteel>]]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:1>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:1>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:1>, [<ThermalDynamics:ThermalDynamics_32:1>]);
 
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:6>, [[<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_16:2>, <ore:blockGlassHardened>], [<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>]]);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:7>, [[<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_16:3>, <ore:blockGlassHardened>], [<ore:plateBronze>, <ore:blockGlassHardened>, <ore:plateBronze>]]);
 
-#Shapeless
-recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:dustLead>]);
-recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32>, <ore:dustSilver>]);
+#Impulse Itemduct (Transparent)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:2>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:3>*12, <ThermalExpansion:Glass:*>]);
 
-recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:1>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:1>, <ore:dustLead>]);
-recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:1>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:1>, <ore:dustSilver>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:2>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:2>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:2>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:2>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:2>, [<ThermalDynamics:ThermalDynamics_32:2>]);
+
+
+#Impulse Itemduct (Opaque)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:3>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:2>*12, <ore:ingotLead>]);
+
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:3>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:3>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:3>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:3>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:3>, [<ThermalDynamics:ThermalDynamics_32:3>]);
+
+#Fluctuating Itemduct (Transparent)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:6>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:7>*12, <ThermalExpansion:Glass:*>]);
+
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:6>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:6>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:6>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:6>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:6>, [<ThermalDynamics:ThermalDynamics_32:6>]);
+
+
+#Fluctuating Itemduct (Opaque)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:7>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:6>*12, <ore:ingotLead>]);
+
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:7>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:7>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:7>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:7>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:7>, [<ThermalDynamics:ThermalDynamics_32:7>]);
+
+#Warp Itemduct (Transparent)
+mods.thermalexpansion.Transposer.addFillRecipe(800, <ThermalDynamics:ThermalDynamics_32>, <ThermalDynamics:ThermalDynamics_32:4>, <liquid:enderium.molten> * 24);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:4>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:5>*12, <ThermalExpansion:Glass:*>]);
+
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:4>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:4>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:4>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:4>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:4>, [<ThermalDynamics:ThermalDynamics_32:4>]);
+
+#Warp Itemduct (Opaque)
+mods.thermalexpansion.Transposer.addFillRecipe(800, <ThermalDynamics:ThermalDynamics_32:1>, <ThermalDynamics:ThermalDynamics_32:5>, <liquid:enderium.molten> * 24);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_32:5>*12, 5000, [<ThermalDynamics:ThermalDynamics_32:4>*12, <ore:ingotLead>]);
+
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:5>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:5>, <ore:slimeball>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:5>.withTag({DenseType: 2 as byte}), [<ThermalDynamics:ThermalDynamics_32:5>, <ore:dustQuartz>]);
+recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:5>, [<ThermalDynamics:ThermalDynamics_32:5>]);
+
+
+### Fluid Ducts ###
+
+#Temperate Fluiduct (Transparent)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16>*12, 5000, [<ore:ingotCopper>, <ore:blockGlass>, <ore:ingotCopper>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16>*12, 2500, [<ThermalDynamics:ThermalDynamics_16:1>*12, <ore:blockGlass>]);
+
+
+#Temperate Fluiduct (Opaque)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:1>*12, 5000, [<ore:ingotCopper>, <ore:ingotLead>, <ore:ingotCopper>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:1>*12, 2500, [<ThermalDynamics:ThermalDynamics_16>*12, <ore:ingotLead>]);
+
+
+#Hardened Fluiduct (Transparent)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:2>*12, 10000, [<ore:ingotInvar>, <ThermalExpansion:Glass:*>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:2>*12, 5000, [<ThermalDynamics:ThermalDynamics_16:3>*12, <ThermalExpansion:Glass:*>]);
+
+#Hardened Fluiduct (Opaque)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:3>*12, 10000, [<ore:ingotInvar>, <ore:ingotLead>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:3>*12, 5000, [<ThermalDynamics:ThermalDynamics_16:2>*12, <ore:ingotLead>]);
+
+#Flux Plated Fluiduct(Transparent)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:4>*12, 10000, [<ThermalDynamics:ThermalDynamics_16:2>*12, <ore:ingotElectrumFlux>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:4>*4, 2500, [<ThermalDynamics:ThermalDynamics_16:2>*4, <ore:nuggetElectrumFlux>*3]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:4>*12, 5000, [<ThermalDynamics:ThermalDynamics_16:5>*12, <ThermalExpansion:Glass:*>]);
+
+#Flux Plated Fluiduct(Opaque)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:5>*12, 10000, [<ThermalDynamics:ThermalDynamics_16:3>*12, <ore:ingotElectrumFlux>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:5>*4, 2500, [<ThermalDynamics:ThermalDynamics_16:3>*4, <ore:nuggetElectrumFlux>*3]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:5>*12, 5000, [<ThermalDynamics:ThermalDynamics_16:4>*12, <ore:ingotLead>]);
+
+#Super-Laminar Fluiduct
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:6>, 10000, [<ThermalDynamics:ThermalDynamics_16:2>, <ore:ingotSteel>*4, <ore:ingotBronze>*4]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:6>*12, 5000, [<ThermalDynamics:ThermalDynamics_16:7>*12, <ThermalExpansion:Glass:*>]);
+
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:7>, 10000, [<ThermalDynamics:ThermalDynamics_16:3>, <ore:ingotSteel>*4, <ore:ingotBronze>*4]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_16:7>*12, 5000, [<ThermalDynamics:ThermalDynamics_16:6>*12, <ore:ingotLead>]);
+
+#Flux Ducts
+
+#Leadstone
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0>*12, 10000, [<ore:ingotLead>, <ore:ingotRedAlloy>, <ore:ingotLead>]);
+
+#Hardened
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0:1>*12, 10000, [<ThermalDynamics:ThermalDynamics_0>*12, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0:1>*4, 2500, [<ThermalDynamics:ThermalDynamics_0>*4, <ore:nuggetInvar>*3]);
+
+#Redstone Flux (Empty)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0:3>*12, 10000, [<ore:ingotElectrumFlux>, <ThermalExpansion:Glass:*>, <ore:ingotElectrumFlux>]);
+
+#Resonant (Empty)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0:5>*12, 10000, [<ThermalDynamics:ThermalDynamics_0:3>*12, <ore:ingotEnderium>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0:5>*3, 2500, [<ThermalDynamics:ThermalDynamics_0:3>*4, <ore:nuggetEnderium>*3]);
+
+#Cryostabilized (Empty)
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_0:7>, 10000, [<ThermalDynamics:ThermalDynamics_0:5>, <ore:ingotElectrumFlux>*4, <ThermalExpansion:Glass:*>*4]);
+
+#Recycling recipes
+mods.thermalexpansion.Transposer.addExtractRecipe(800, <ThermalDynamics:ThermalDynamics_0:2>, <liquid:redstone> * 200, <ThermalDynamics:ThermalDynamics_0:3>, 100);
+mods.thermalexpansion.Transposer.addExtractRecipe(800, <ThermalDynamics:ThermalDynamics_0:4>, <liquid:redstone> * 200, <ThermalDynamics:ThermalDynamics_0:5>, 100);
+mods.thermalexpansion.Transposer.addExtractRecipe(4000, <ThermalDynamics:ThermalDynamics_0:6>, <liquid:cryotheum> * 500, <ThermalDynamics:ThermalDynamics_0:7>, 100);
+
+### Servos ###
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo>, 200000, [<BuildCraft|Silicon:redstoneChipset:4>, <ThermalExpansion:material>, <minecraft:iron_ingot>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:1>, 200000, [<BuildCraft|Silicon:redstoneChipset:4>, <ThermalExpansion:material>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:2>, 200000, [<BuildCraft|Silicon:redstoneChipset:4>, <ThermalExpansion:material>, <ore:ingotElectrum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:3>, 200000, [<BuildCraft|Silicon:redstoneChipset:4>, <ThermalExpansion:material>, <ore:ingotSignalum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:4>, 200000, [<BuildCraft|Silicon:redstoneChipset:4>, <ThermalExpansion:material>, <ore:ingotEnderium>]);
+#Upgrades
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:1>, 25000, [<ThermalDynamics:servo>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:2>, 25000, [<ThermalDynamics:servo:1>, <ore:ingotElectrum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:3>, 25000, [<ThermalDynamics:servo:2>, <ore:ingotSignalum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:servo:4>, 25000, [<ThermalDynamics:servo:3>, <ore:ingotEnderium>]);
+
+### Filters ###
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter>, 100000, [<BuildCraft|Silicon:redstoneChipset>, <minecraft:comparator>, <minecraft:iron_ingot>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:1>, 100000, [<BuildCraft|Silicon:redstoneChipset>, <minecraft:comparator>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:2>, 100000, [<BuildCraft|Silicon:redstoneChipset>, <minecraft:comparator>, <ore:ingotElectrum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:3>, 100000, [<BuildCraft|Silicon:redstoneChipset>, <minecraft:comparator>, <ore:ingotSignalum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:4>, 100000, [<BuildCraft|Silicon:redstoneChipset>, <minecraft:comparator>, <ore:ingotEnderium>]);
+#Upgrades
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:1>, 25000, [<ThermalDynamics:filter>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:2>, 25000, [<ThermalDynamics:filter:1>, <ore:ingotElectrum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:3>, 25000, [<ThermalDynamics:filter:2>, <ore:ingotSignalum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:filter:4>, 25000, [<ThermalDynamics:filter:3>, <ore:ingotEnderium>]);
+
+### Retrievers ###
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever>, 600000, [<BuildCraft|Silicon:redstoneChipset:6>, <minecraft:ender_eye>, <minecraft:iron_ingot>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:1>, 600000, [<BuildCraft|Silicon:redstoneChipset:6>, <minecraft:ender_eye>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:2>, 600000, [<BuildCraft|Silicon:redstoneChipset:6>, <minecraft:ender_eye>, <ore:ingotElectrum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:3>, 600000, [<BuildCraft|Silicon:redstoneChipset:6>, <minecraft:ender_eye>, <ore:ingotSignalum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:4>, 600000, [<BuildCraft|Silicon:redstoneChipset:6>, <minecraft:ender_eye>, <ore:ingotEnderium>]);
+#Upgrades
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:1>, 25000, [<ThermalDynamics:retriever>, <ore:ingotInvar>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:2>, 25000, [<ThermalDynamics:retriever:1>, <ore:ingotElectrum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:3>, 25000, [<ThermalDynamics:retriever:2>, <ore:ingotSignalum>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:retriever:4>, 25000, [<ThermalDynamics:retriever:3>, <ore:ingotEnderium>]);
+
+### Relay ###
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:relay>, 50000, [<minecraft:redstone>, <ore:nuggetSignalum>, <ore:ingotLead>]);
+
+
+### Player Transport Pipe ###
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_64:3> * 4, 16000, [<ore:ingotElectrum>*4, <ThermalExpansion:Glass:*>*4]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_64:1> * 4, 32000, [<ore:ingotElectrumFlux>*4, <ThermalExpansion:Glass:*>*4]);
+
+
+### Special Piping ###
+
+#Structural
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_48> * 12, 4000, [<BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>*12, <ore:ingotLead>]);
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_48>*4, 450, [<BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>*4, <ore:nuggetLead>*3]);
+
+#LuxDuct
+mods.buildcraft.AssemblyTable.addRecipe(<ThermalDynamics:ThermalDynamics_48:1> * 12, 5000, [<ore:ingotLumium>, <ore:ingotLead>, <ore:ingotLumium>]);
+
 print("Initialized 'ThermalDynamics.zs'");

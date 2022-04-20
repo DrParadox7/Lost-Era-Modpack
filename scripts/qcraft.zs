@@ -12,7 +12,7 @@ recipes.addShaped(<chisel:upgrade:3>, [[null, <minecraft:emerald>, null], [<mine
 val computer = <qCraft:quantumcomputer>;
 
 recipes.removeShaped(computer.withTag({}));
-recipes.addShaped(computer, [[<ExtraUtilities:etherealglass>, <qCraft:dust>, <ExtraUtilities:etherealglass>], [<ore:ingotGold>, <OpenComputers:item:24>, <ore:ingotGold>], [<ExtraUtilities:etherealglass>, <chisel:upgrade:3>, <ExtraUtilities:etherealglass>]]);
+recipes.addShaped(computer, [[<ore:ingotGold>, <qCraft:dust>, <ore:ingotGold>], [<qCraft:dust>, <ExtraUtilities:decorativeBlock1:12>, <qCraft:dust>], [<ore:ingotGold>, <qCraft:dust>, <ore:ingotGold>]]);
 
 #Automatic Observer
 recipes.remove(<qCraft:quantumlogic>);

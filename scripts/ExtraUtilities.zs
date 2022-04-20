@@ -21,6 +21,49 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamon
 recipes.addShaped(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <minecraft:gold_block>, <minecraft:golden_sword>], [<minecraft:gold_block>, <ExtraUtilities:spike_base>, <minecraft:gold_block>]]);
 recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, <ExtraUtilities:spike_base_wood>, <minecraft:iron_block>]]);
 
+### Generators ###
+#Survivalist 
+recipes.addShaped(<ExtraUtilities:generator>, [[<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>.noReturn(), <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+#x8
+mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8>, 500000, [<ExtraUtilities:generator>*8, <BuildCraft|Silicon:redstoneCrystal>]);
+#x64
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64>, [[<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <qCraft:essence>, <ExtraUtilities:generator.8>], [<ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>, <ExtraUtilities:generator.8>]]); 
+
+#Pink 
+recipes.addShaped(<ExtraUtilities:generator:9>, [[<minecraft:stained_hardened_clay:6>, <minecraft:stained_hardened_clay:6>, <minecraft:stained_hardened_clay:6>], [<minecraft:iron_ingot>, <Botania:unstableBlock:6>, <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+#x8
+mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:9>, 500000, [<ExtraUtilities:generator:9>*8, <BuildCraft|Silicon:redstoneCrystal>]);
+#x64
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:9>, [[<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <qCraft:essence>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>]]); 
+
+#Culinary
+recipes.addShaped(<ExtraUtilities:generator:5>, [[<cookingforblockheads:fridge>, <harvestcraft:oven>, <cookingforblockheads:fridge>], [<minecraft:iron_ingot>, <cookingforblockheads:recipebook:3>, <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+#x8
+mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:5>, 500000, [<ExtraUtilities:generator:5>*8, <BuildCraft|Silicon:redstoneCrystal>]);
+#x64
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:5>, [[<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <qCraft:essence>, <ExtraUtilities:generator.8:5>], [<ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>, <ExtraUtilities:generator.8:5>]]); 
+
+#Potion 
+recipes.addShaped(<ExtraUtilities:generator:6>, [[<chisel:voidstone2>, <HardcoreEnderExpansion:end_powder>, <chisel:voidstone2>], [<minecraft:iron_ingot>, <minecraft:brewing_stand>, <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+#x8
+mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:6>, 500000, [<ExtraUtilities:generator:6>*8, <BuildCraft|Silicon:redstoneCrystal>]);
+#x64
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:6>, [[<ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>], [<ExtraUtilities:generator.8:6>, <qCraft:essence>, <ExtraUtilities:generator.8:6>], [<ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>, <ExtraUtilities:generator.8:6>]]); 
+
+#TNT 
+recipes.addShaped(<ExtraUtilities:generator:8>, [[<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<minecraft:iron_ingot>, <minecraft:quartz>, <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+#x8
+mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:8>, 500000, [<ExtraUtilities:generator:8>*8, <BuildCraft|Silicon:redstoneCrystal>]);
+#x64
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:8>, [[<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <qCraft:essence>, <ExtraUtilities:generator.8:8>], [<ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>, <ExtraUtilities:generator.8:8>]]); 
+
+#Nether Star 
+recipes.addShaped(<ExtraUtilities:generator:11>, [[<minecraft:obsidian>, <ExtraUtilities:decorativeBlock1:5>, <minecraft:obsidian>], [<ExtraUtilities:bedrockiumIngot>, <minecraft:nether_star>, <ExtraUtilities:bedrockiumIngot>], [<minecraft:obsidian>, <ExtraUtilities:generator:8>, <minecraft:obsidian>]]);
+#x8
+mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:11>, 500000, [<ExtraUtilities:generator:11>*8, <BuildCraft|Silicon:redstoneCrystal>]);
+#x64
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <qCraft:essence>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]); 
+
 #Natura Compat
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>], [<minecraft:enchanted_book>, <Natura:Natura.bookshelf:*>, <minecraft:enchanted_book>], [<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>]]);
 
@@ -36,25 +79,18 @@ recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
 
 #QED Rebalance
 recipes.remove(<ExtraUtilities:endConstructor>);
-recipes.addShaped(<ExtraUtilities:endConstructor>, [[<HardcoreEnderExpansion:instability_orb>, <qCraft:quantumcomputer>, <HardcoreEnderExpansion:instability_orb>], [<ExtraUtilities:decorativeBlock1:1>, <HardcoreEnderExpansion:altar_nexus>, <ExtraUtilities:decorativeBlock1:1>], [<HardcoreEnderExpansion:instability_orb>, <ExtraUtilities:decorativeBlock1:1>, <HardcoreEnderExpansion:instability_orb>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>], [<ExtraUtilities:decorativeBlock1:1>, <qCraft:quantumcomputer>, <ExtraUtilities:decorativeBlock1:1>], [<ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>]]);
 
 recipes.remove(<ExtraUtilities:endConstructor:2>);
-recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, null, null], [null, <Botania:enderEyeBlock>, null], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:12>, <ExtraUtilities:decorativeBlock1:1>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, null, null], [null, <Botania:enderEyeBlock>, null], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>]]);
 
 #Ender Pump
 recipes.remove(<ExtraUtilities:enderThermicPump>);
-recipes.addShaped(<ExtraUtilities:enderThermicPump>, [[<ExtraUtilities:decorativeBlock1:1>, <TConstruct:materials:7>, <ExtraUtilities:decorativeBlock1:1>], [<minecraft:ender_eye>, <BuildCraft|Factory:pumpBlock>, <minecraft:ender_eye>], [<ExtraUtilities:decorativeBlock1:1>, <Railcraft:machine.alpha>, <ExtraUtilities:decorativeBlock1:1>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderThermicPump>, [[<ExtraUtilities:decorativeBlock1:1>, <minecraft:diamond>, <ExtraUtilities:decorativeBlock1:1>], [<minecraft:ender_eye>, <BuildCraft|Factory:pumpBlock>, <minecraft:ender_eye>], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:1>]]);
 
 #Ender Quarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
-recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<ExtraUtilities:decorativeBlock1:11>, <ThermalFoundation:material:140>, <ExtraUtilities:decorativeBlock1:11>], [<qCraft:dust>, <BuildCraft|Builders:machineBlock>, <qCraft:dust>], [<ExtraUtilities:enderThermicPump>, <ExtraUtilities:enderCollector>, <ExtraUtilities:enderThermicPump>]]);
-
-recipes.remove(<ExtraUtilities:endMarker>);
-mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:endMarker>, 5000, [<minecraft:ender_eye>, <RedstoneArsenal:material:192>]);
-
-#Block Update Detector
-recipes.remove(<ExtraUtilities:budoff>);
-recipes.addShaped(<ExtraUtilities:budoff>, [[<minecraft:stone>, <ore:ingotRedAlloy>, <minecraft:stone>], [<minecraft:stone>, <minecraft:sticky_piston>, <minecraft:stone>], [<minecraft:stone>, <minecraft:redstone_torch>, <minecraft:stone>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [[<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>], [<ExtraUtilities:enderThermicPump>, <BuildCraft|Builders:machineBlock>, <ExtraUtilities:enderThermicPump>], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>]]);
 
 #Block Update Detector (Advanced)
 recipes.remove(<ExtraUtilities:budoff:3>);
@@ -67,16 +103,11 @@ recipes.addShaped(<ExtraUtilities:timer>, [[<ProjRed|Core:projectred.core.part:1
 #Pipes (now a Witchery addon)
 
 #Item Extractor
-recipes.remove(<ExtraUtilities:extractor_base>);
+recipes.remove(<ExtraUtilities:extractor_base:*>);
 recipes.addShaped(<ExtraUtilities:extractor_base>, [[<ExtraUtilities:pipes>, <witchery:ingredient:12>, <ExtraUtilities:pipes>], [<witchery:ingredient:67>, <ore:blockHopper>, <witchery:ingredient:67>], [<minecraft:obsidian>, <minecraft:redstone>, <minecraft:obsidian>]]);
 
 #Fluid Extractor
-recipes.remove(<ExtraUtilities:extractor_base:6>);
 recipes.addShaped(<ExtraUtilities:extractor_base:6>, [[<ExtraUtilities:pipes>, <witchery:ingredient:12>, <ExtraUtilities:pipes>], [<witchery:ingredient:67>, <minecraft:cauldron>, <witchery:ingredient:67>], [<minecraft:obsidian>, <witchery:ingredient:153>, <minecraft:obsidian>]]);
-
-
-#Retrievers
-mods.extraUtils.QED.removeRecipe(<ExtraUtilities:extractor_base_remote:*>);
 
 #Item
 recipes.addShaped(<ExtraUtilities:extractor_base_remote>, [[<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<witchery:ingredient:32>, <ore:blockHopper>, <witchery:ingredient:32>], [<minecraft:obsidian>, <witchery:ingredient:125>, <minecraft:obsidian>]]);
@@ -125,6 +156,11 @@ furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <etfuturum:smooth_quartz>
 
 mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:quartz_block>, <etfuturum:smooth_quartz>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <etfuturum:smooth_quartz>, <ExtraUtilities:decorativeBlock1:2>);
+
+#Drums
+recipes.remove(<ExtraUtilities:drum:*>);
+mods.railcraft.Rolling.addShaped(<ExtraUtilities:drum>, [[<Railcraft:machine.beta>, <Railcraft:machine.beta:2>, <Railcraft:machine.beta>], [<Railcraft:machine.beta>, <minecraft:cauldron>, <Railcraft:machine.beta>], [<Railcraft:machine.beta>, <Railcraft:machine.beta:2>, <Railcraft:machine.beta>]]);
+recipes.addShaped(<ExtraUtilities:drum:1>, [[<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:drum>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>]]);
 
 print("Initialized 'Extrautilities.zs'");
 

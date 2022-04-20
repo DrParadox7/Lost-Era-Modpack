@@ -15,9 +15,21 @@ alumnugget.remove(<TConstruct:oreBerries:4>);
 alumdust.remove(<TConstruct:materials:40>);
 alumoreberry.remove(<TConstruct:oreBerries:4>);
 
+#Stop GT from overriding Enderium
+recipes.remove(<gregtech_addon:metaitem_1:11321>);
+recipes.remove(<gregtech_addon:metaitem_1:9321>);
+
 recipes.remove(<TConstruct:materials:42>);
 recipes.addShapeless(<TConstruct:materials:42>, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustBrass>]);
 
+#Allow GT to handle this recipe 
+recipes.remove(<IC2:blockGenerator:2>);
+
+#Indestructible turbine 
+recipes.remove(<compactkineticgenerators:IridiumRotor>);
+recipes.remove(<compactkineticgenerators:IridiumBlade>);
+recipes.addShaped(<compactkineticgenerators:IridiumRotor>, [[<IC2:itemPartAlloy>, <compactkineticgenerators:IridiumBlade>, <IC2:itemPartAlloy>], [<compactkineticgenerators:IridiumBlade>, <ore:gearTungstenSteel>, <compactkineticgenerators:IridiumBlade>], [<IC2:itemPartAlloy>, <compactkineticgenerators:IridiumBlade>, <IC2:itemPartAlloy>]]);
+recipes.addShaped(<compactkineticgenerators:IridiumBlade>, [[<IC2:itemPartIridium>, <IC2:itemPartCarbonPlate>, <IC2:itemPartIridium>], [<IC2:itemPartIridium>, <IC2:itemPartCarbonPlate>, <IC2:itemPartIridium>], [<IC2:itemPartIridium>, <IC2:itemPartCarbonPlate>, <IC2:itemPartIridium>]]);
 
 #Restore ore dict to plates
 val iron = <ore:plateIron>;
@@ -39,6 +51,9 @@ recipes.addShaped(<Railcraft:machine.alpha:1>, [[<Railcraft:machine.beta:13>, <g
 #Shadow Steel & Damascus Steel CAN be smelted in a furnace
 furnace.addRecipe(<Metallurgy:damascus.steel.ingot>, <Metallurgy:base.dust:5>);
 furnace.addRecipe(<Metallurgy:shadow.steel.ingot>, <Metallurgy:fantasy.dust:3>);
+
+#RS Upgrade 
+recipes.addShaped(<gregtech_addon:components:28>, [[<ore:plateAluminium>, <RedstoneArsenal:material:32>, <ore:plateAluminium>], [<RedstoneArsenal:material:32>, <RedstoneArsenal:material:96>, <RedstoneArsenal:material:32>], [<ore:plateAluminium>, <RedstoneArsenal:material:32>, <ore:plateAluminium>]]);
 
 #Rolling Machine
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17327>*4, [[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [null, null, null]]);

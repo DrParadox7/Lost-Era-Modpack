@@ -49,10 +49,10 @@ recipes.addShaped(<MineFactoryReloaded:machine.0:12>, [[<MineFactoryReloaded:pla
 recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<MineFactoryReloaded:plastic.sheet>, <Mekanism:TeleportationCore>, <MineFactoryReloaded:plastic.sheet>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Frame:11>, <ExtraUtilities:bedrockiumIngot>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:material>, <MineFactoryReloaded:plastic.sheet>]]);
 
 #Laser Precharger
-recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:plastic.sheet>], [<ore:plateRefinedObsidian>, <Mekanism:MachineBlock2:14>, <ore:plateRefinedObsidian>], [<ore:gearLumium>, <Mekanism:MachineBlock2:13>, <ore:gearLumium>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:plastic.sheet>], [<Mekanism:AtomicAlloy>, <Mekanism:MachineBlock2:14>, <Mekanism:AtomicAlloy>], [<ore:gearLumium>, <Mekanism:MachineBlock2:13>, <ore:gearLumium>]]);
 
 #Laser Drill
-recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>], [<MekanismGenerators:ReactorGlass:1>, <MekanismGenerators:Reactor:3>, <MekanismGenerators:ReactorGlass:1>], [<Mekanism:ControlCircuit:3>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:3>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>], [<MekanismGenerators:ReactorGlass:1>, <Mekanism:MachineBlock2:15>, <MekanismGenerators:ReactorGlass:1>], [<Mekanism:ControlCircuit:3>, <MekanismGenerators:ReactorGlass:1>, <Mekanism:ControlCircuit:3>]]);
 
 #Chipsets
 recipes.remove(<MineFactoryReloaded:upgrade.logic:*>);
@@ -91,6 +91,12 @@ mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:materials:36>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:16>, <MineFactoryReloaded:rubber.raw>);
 
 mods.mekanism.chemical.Injection.addRecipe(<MineFactoryReloaded:rubber.raw>, <gas:sulfuricAcid>, <MineFactoryReloaded:rubber.bar>);
+
+mods.forestry.Centrifuge.addRecipe([<MineFactoryReloaded:rubber.raw>*2% 110, <minecraft:log:1>% 100], <IC2:blockRubWood>, 80);
+mods.forestry.Centrifuge.addRecipe([<MineFactoryReloaded:rubber.raw>*2% 120, <minecraft:log:4>% 100], <MineFactoryReloaded:rubberwood.log:*>, 80);
+
+mods.thermalexpansion.Smelter.addRecipe(800, <MineFactoryReloaded:rubber.raw>*2, <ThermalFoundation:material:16>, <MineFactoryReloaded:rubber.bar>*2, <MineFactoryReloaded:rubber.bar>, 5);
+mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <gregtech_addon:metaitem_1:2880>);
 
 #Ethanol to Ethylene
 #mods.mekanism.SolarEvaporation.addRecipe(<liquid:bioethanol>*10, <liquid:ethene>);

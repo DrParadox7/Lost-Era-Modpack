@@ -28,7 +28,7 @@ recipes.addShapeless(<harvestcraft:pamcandleDeco1>, [<ore:itemBeeswax>, <minecra
 
 #Easier Tier 1 Oven
 recipes.remove(<harvestcraft:oven>);
-recipes.addShaped(<harvestcraft:oven>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:stained_hardened_clay>, <campfirebackport:campfire_base>, <minecraft:stained_hardened_clay>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
+recipes.addShaped(<harvestcraft:oven>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<Railcraft:brick.bleachedbone:2>, <campfirebackport:campfire_base>, <Railcraft:brick.bleachedbone:2>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
 
 #Clay buckets can be used for milk  bottles
 recipes.addShapeless(<MineFactoryReloaded:milkbottle>, [<IguanaTweaksTConstruct:clayBucketMilk>, <minecraft:glass_bottle>]);
@@ -81,5 +81,9 @@ mods.forestry.Centrifuge.addRecipe([<ExtraBees:propolis> % 100, <Forestry:honeyD
 
 #Greggy
 recipes.addShapeless(<gregtech_addon:metaitem_1:2817>*3, [<gregtech_addon:metaitem_1:2017>, <gregtech_addon:metaitem_1:30023>.giveBack(<IC2:itemCellEmpty>)]);
+
+#Informative tooltip 
+<harvestcraft:sunflowerseedsItem>.addTooltip("Obtained from fertilizing sunflowers");
+
 
 print("Initialized 'Harvestcraft.zs'");

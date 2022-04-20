@@ -110,6 +110,8 @@ recipes.remove(<NuclearCraft:material:22>);
 mods.thermalexpansion.Smelter.addRecipe(8000, <gregtech_addon:metaitem_1:2028>, <ThermalFoundation:material:1>, <NuclearCraft:material:7>*2);
 mods.thermalexpansion.Smelter.addRecipe(8000, <gregtech_addon:metaitem_1:11028>, <minecraft:gold_ingot>, <NuclearCraft:material:7>*2);
 
+recipes.addShapeless(<NuclearCraft:material:22> * 2, [<ore:dustTitanium>, <ore:dustGold>]);
+
 <NuclearCraft:material:22>.addTooltip("TiAu");
 <NuclearCraft:material:7>.addTooltip("TiAu");
 

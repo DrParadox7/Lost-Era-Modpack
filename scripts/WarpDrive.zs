@@ -11,253 +11,266 @@ recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);
 
 recipes.remove(<WarpDrive:blockEnergyBank:*>);
 
+#oredicts
+val plutonium = <ore:warpfieldCatalyst>;
+plutonium.add(<IC2:itemPlutonium>);
+plutonium.add(<NuclearCraft:fuel:46>);
+
+
+#####################   HULLS    ###############################
+
+#Basic
+recipes.remove(<WarpDrive:blockHull1_plain>);
+recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<IC2:itemPartAlloy>, <ore:dustNetherQuartz>, <IC2:itemPartAlloy>], [<ore:dustNetherQuartz>, null, <ore:dustNetherQuartz>], [<IC2:itemPartAlloy>, <ore:dustNetherQuartz>, <IC2:itemPartAlloy>]]);
+recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<NuclearCraft:parts:3>, <ore:dustNetherQuartz>, <NuclearCraft:parts:3>], [<ore:dustNetherQuartz>, null, <ore:dustNetherQuartz>], [<NuclearCraft:parts:3>, <ore:dustNetherQuartz>, <NuclearCraft:parts:3>]]);
+
+#Advanced
+recipes.remove(<WarpDrive:blockHull2_plain>);
+recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<IC2:itemPartCarbonPlate>, <ore:blockHull1_plain>, <IC2:itemPartCarbonPlate>], [<ore:blockHull1_plain>, null, <ore:blockHull1_plain>], [<IC2:itemPartCarbonPlate>, <ore:blockHull1_plain>, <IC2:itemPartCarbonPlate>]]);
+recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<NuclearCraft:parts:8>, <ore:blockHull1_plain>, <NuclearCraft:parts:8>], [<ore:blockHull1_plain>, null, <ore:blockHull1_plain>], [<NuclearCraft:parts:8>, <ore:blockHull1_plain>, <NuclearCraft:parts:8>]]);
+
+#Superior
+recipes.remove(<WarpDrive:blockHull3_plain>);
+recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<IC2:itemPartIridium>, <ore:blockHull2_plain>, <IC2:itemPartIridium>], [<ore:blockHull2_plain>, null, <ore:blockHull2_plain>], [<IC2:itemPartIridium>, <ore:blockHull2_plain>, <IC2:itemPartIridium>]]);
+recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<NuclearCraft:parts:9>, <ore:blockHull2_plain>, <NuclearCraft:parts:9>], [<ore:blockHull2_plain>, null, <ore:blockHull2_plain>], [<NuclearCraft:parts:9>, <ore:blockHull2_plain>, <NuclearCraft:parts:9>]]);
+
+#####################   EQUIPMENT    ###############################
+
+###  Air Tanks
+recipes.remove(<WarpDrive:itemComponent:8>);
+recipes.addShaped(<WarpDrive:itemAirTank0:20>, [[<ore:itemSilicon>, <ore:ingotSteel>, <ore:itemSilicon>], [<ore:ingotSteel>, <BuildCraft|Factory:tankBlock>, <ore:ingotSteel>], [<ore:itemSilicon>, <ore:ingotSteel>, <ore:itemSilicon>]]);
+
+
+##  Air Tank (Tier 1)
+recipes.remove(<WarpDrive:itemAirTank1:*>);
+recipes.addShaped(<WarpDrive:itemAirTank1>, [[<ore:ingotSteel>, <OpenComputers:item:28>, <ore:ingotSteel>], [<WarpDrive:itemAirTank0>, <WarpDrive:itemComponent>, <WarpDrive:itemAirTank0>], [<ore:ingotSteel>, <ore:itemSilicon>, <ore:ingotSteel>]]);
+
+###  Air Tank (Tier 2)
+recipes.remove(<WarpDrive:itemAirTank2:*>);
+recipes.addShaped(<WarpDrive:itemAirTank2>, [[<ore:ingotSteel>, <OpenComputers:item:28>, <ore:ingotSteel>], [<WarpDrive:itemAirTank1>, <WarpDrive:itemComponent>, <WarpDrive:itemAirTank1>], [<ore:ingotSteel>, <ore:itemSilicon>, <ore:ingotSteel>]]);
+
+
+###  Air Tank (Tier 3)
+recipes.remove(<WarpDrive:itemAirTank3:*>);
+recipes.addShaped(<WarpDrive:itemAirTank3>, [[<ore:ingotSteel>, <OpenComputers:item:28>, <ore:ingotSteel>], [<WarpDrive:itemAirTank2>, <WarpDrive:itemComponent>, <WarpDrive:itemAirTank2>], [<ore:ingotSteel>, <ore:itemSilicon>, <ore:ingotSteel>]]);
+
+
 #####################   COMPONENTS    ###############################
+
 #Emerald Crystal
 recipes.remove(<WarpDrive:itemComponent>);
-recipes.addShapeless(<WarpDrive:itemComponent>, [<ExtraUtilities:unstableingot:*>, <appliedenergistics2:item.ItemMultiMaterial:12>, <minecraft:emerald>, <ore:dustLithium>]);
-
-#Memory Crystal
-recipes.remove(<WarpDrive:itemComponent:13>);
-recipes.addShapeless(<WarpDrive:itemComponent:13>, [<ExtraUtilities:unstableingot:*>, <appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemMultiMaterial:18>, <ore:dustLithium>]);
-
-#Diamond Crystal
-recipes.remove(<WarpDrive:itemComponent:2>);
-recipes.addShapeless(<WarpDrive:itemComponent:2>, [<ExtraUtilities:unstableingot:*>, <appliedenergistics2:item.ItemMultiMaterial:12>, <ore:gemDiamond>, <ore:dustLithium>]);
+recipes.addShaped(<WarpDrive:itemComponent>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <minecraft:emerald>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
 
 #Ender Crystal
 recipes.remove(<WarpDrive:itemComponent:1>);
 recipes.addShapeless(<WarpDrive:itemComponent:1>, [<ExtraUtilities:unstableingot:*>, <appliedenergistics2:item.ItemMultiMaterial:12>, <minecraft:ender_eye>, <ore:dustLithium>]);
 
+#Diamond Crystal
+recipes.remove(<WarpDrive:itemComponent:2>);
+recipes.addShaped(<WarpDrive:itemComponent:2>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <minecraft:diamond>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
+
+#Memory Crystal
+recipes.remove(<WarpDrive:itemComponent:13>);
+recipes.addShaped(<WarpDrive:itemComponent:13>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <minecraft:enchanted_book>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
+
 #Capacitative Crystal
 recipes.remove(<WarpDrive:itemComponent:7>);
-recipes.addShapeless(<WarpDrive:itemComponent:7>, [<ExtraUtilities:unstableingot:*>, <appliedenergistics2:item.ItemMultiMaterial:12>, <BiomesOPlenty:gems>, <ore:dustLithium>]);
+recipes.addShaped(<WarpDrive:itemComponent:7>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <BiomesOPlenty:gems>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
+
+#Coil Crystal
+recipes.remove(<WarpDrive:itemComponent:18>);
+recipes.addShaped(<WarpDrive:itemComponent:18>*8, [[<ore:dustSaltpeter>, <minecraft:quartz>, <ore:dustSaltpeter>], [<minecraft:quartz>, <WarpDrive:itemComponent:2>, <minecraft:quartz>], [<ore:dustSaltpeter>, <minecraft:quartz>, <ore:dustSaltpeter>]]);
+
+#Diffraction Grating
+recipes.remove(<WarpDrive:itemComponent:3>);
+recipes.addShaped(<WarpDrive:itemComponent:3>, [[<ore:dustQuartz>, <minecraft:blaze_powder>, <ore:dustQuartz>], [<minecraft:blaze_powder>, <minecraft:glowstone_dust>, <minecraft:blaze_powder>], [<ore:dustQuartz>, <minecraft:blaze_powder>, <ore:dustQuartz>]]);
 
 #Activated Carbon
 recipes.remove(<WarpDrive:itemComponent:16>);
-recipes.addShaped(<WarpDrive:itemComponent:16>, [[<ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>), <ore:dustCarbon>, <ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>)], [<ore:dustCarbon>, <IC2:itemPartCarbonPlate>, <ore:dustCarbon>], [<ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>), <ore:dustCarbon>, <ore:cellCarbon>.giveBack(<IC2:itemCellEmpty>)]]);
-mods.railcraft.Rolling.addShapeless(<WarpDrive:itemComponent:16>, [<NuclearCraft:material:76>, <NuclearCraft:material:76>, <NuclearCraft:material:76>, <NuclearCraft:material:76>,]);
+recipes.addShaped(<WarpDrive:itemComponent:16>, [[<ore:dustHydratedCoal>, <ore:dustSulfur>, <ore:dustHydratedCoal>], [<ore:dustSulfur>, <ore:dustWood>, <ore:dustSulfur>], [<ore:dustHydratedCoal>, <ore:dustSulfur>, <ore:dustHydratedCoal>]]);
 
 #Magnetic Projector
 recipes.remove(<WarpDrive:itemComponent:19>);
-recipes.addShaped(<WarpDrive:itemComponent:19>, [[<WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:2>, <WarpDrive:itemComponent:7>], [<WarpDrive:itemComponent:2>, <appliedenergistics2:item.ItemMultiMaterial:9>, <WarpDrive:itemComponent:2>], [<WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:2>, <WarpDrive:itemComponent:7>]]);
+recipes.addShaped(<WarpDrive:itemComponent:19>*2, [[<WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:18>, <WarpDrive:itemComponent:7>], [<WarpDrive:itemComponent:18>, <minecraft:diamond>, <WarpDrive:itemComponent:18>], [<WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:18>, <WarpDrive:itemComponent:7>]]);
 
 #Transformation Core
 recipes.remove(<RandomThings:ingredient:5>);
-recipes.addShaped(<RandomThings:ingredient:5>, [[null, <WarpDrive:itemComponent:2>, null], [<ore:dustEnderPearl>, <qCraft:dust>, <ore:dustEnderPearl>], [null, <WarpDrive:itemComponent:1>, null]]);
+recipes.addShaped(<RandomThings:ingredient:5>, [[null, <WarpDrive:itemComponent:2>, null], [<qCraft:dust>, <NuclearCraft:parts:4>, <qCraft:dust>], [null, <WarpDrive:itemComponent:1>, null]]);
 
-#Coil Crustal
-recipes.remove(<WarpDrive:itemComponent:18>);
-recipes.addShaped(<WarpDrive:itemComponent:18>*8, [[<appliedenergistics2:item.ItemCrystalSeed:*>, <appliedenergistics2:item.ItemCrystalSeed:*>, <appliedenergistics2:item.ItemCrystalSeed:*>], [<appliedenergistics2:item.ItemCrystalSeed:*>, <WarpDrive:itemComponent:2>, <appliedenergistics2:item.ItemCrystalSeed:*>], [<appliedenergistics2:item.ItemCrystalSeed:*>, <appliedenergistics2:item.ItemCrystalSeed:*>, <appliedenergistics2:item.ItemCrystalSeed:*>]]);
+#Reactor Core
+recipes.remove(<WarpDrive:itemComponent:4>);
+recipes.addShaped(<WarpDrive:itemComponent:4>, [[<minecraft:gold_ingot>, <WarpDrive:itemComponent:18>, <minecraft:gold_ingot>], [<WarpDrive:itemComponent:18>, <RandomThings:ingredient:5>, <WarpDrive:itemComponent:18>], [<minecraft:gold_ingot>, <WarpDrive:itemComponent:18>, <minecraft:gold_ingot>]]);
+
+#Superconductor
+recipes.remove(<WarpDrive:itemComponent:20>);
+recipes.addShaped(<WarpDrive:itemComponent:20>, [[<ore:dustBoron>, <ore:ingotTough>, <ore:dustBoron>], [<ore:ingotTough>, <WarpDrive:itemComponent:2>, <ore:ingotTough>], [<ore:dustBoron>, <ore:ingotTough>, <ore:dustBoron>]]);
+
+#Power Interface
+recipes.remove(<WarpDrive:itemComponent:6>);
+recipes.addShaped(<WarpDrive:itemComponent:6>, [[<ore:dustLithium>, <ore:ingotElectrum>, <ore:dustLithium>], [<ore:ingotElectrum>, <ore:ingotRedAlloy>, <ore:ingotElectrum>], [<ore:dustLithium>, <ore:ingotElectrum>, <ore:dustLithium>]]);
 
 #Flat Screen
 recipes.remove(<WarpDrive:itemComponent:12>);
-recipes.addShaped(<WarpDrive:itemComponent:12>, [[<minecraft:glass_pane>, <IC2:itemCasing:4>, <IC2:itemPartCircuit>], [<minecraft:glass_pane>, <IC2:blockLuminatorDark>, <IC2:itemCable>], [<minecraft:glass_pane>, <IC2:itemCasing:4>, <IC2:itemPartCircuit>]]);
+recipes.addShaped(<WarpDrive:itemComponent:12>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<ore:dyeRed>, <ore:dyeGreen>, <ore:dyeBlue>], [<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:glowstone_dust>]]);
+
+#Zoom
+recipes.remove(<WarpDrive:itemComponent:10>);
+recipes.addShaped(<WarpDrive:itemComponent:10>, [[<minecraft:iron_ingot>, <minechem:minechemOpticalMicroscopeLens>, <minecraft:iron_ingot>], [<ProjRed|Core:projectred.core.part:15>, <minechem:minechemOpticalMicroscopeLens:1>, <ProjRed|Core:projectred.core.part:15>], [<minecraft:iron_ingot>, <minechem:minechemOpticalMicroscopeLens>, <minecraft:iron_ingot>]]);
 
 #####################   MACHINES    ###############################
 ###Ship Controller
 recipes.remove(<WarpDrive:blockShipController>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockShipController>, [[<WarpDrive:itemComponent:1>, <IC2:itemPartCircuitAdv>, <WarpDrive:itemComponent:1>], [<OpenComputers:item:26>, <IC2:blockMachine:12>, <OpenComputers:item:26>], [<WarpDrive:itemComponent:1>, <IC2:itemPartCircuitAdv>, <WarpDrive:itemComponent:1>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockShipController>, [[<WarpDrive:itemComponent:1>, <Mekanism:ControlCircuit:2>, <WarpDrive:itemComponent:1>], [<OpenComputers:item:26>, <rftools:screenControllerBlock>, <OpenComputers:item:26>], [<WarpDrive:itemComponent:1>, <Mekanism:ControlCircuit:2>, <WarpDrive:itemComponent:1>]]);
-
+recipes.addShaped(<WarpDrive:blockShipController>, [[<minecraft:iron_ingot>, <ore:oc:floppy>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:13>, <OpenComputers:item:25>, <WarpDrive:itemComponent:13>], [<minecraft:iron_ingot>, <ore:gearGold>, <minecraft:iron_ingot>]]);
 
 ###  Ship Core
 recipes.remove(<WarpDrive:blockShipCore>);
+recipes.addShaped(<WarpDrive:blockShipCore>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:4>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:7>, <OpenComputers:item:25>, <WarpDrive:itemComponent:7>], [<minecraft:iron_ingot>, <ore:gearElectrum>, <minecraft:iron_ingot>]]);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockShipCore>, [[<IC2:itemPlates:5>, <GraviSuite:itemSimpleItem:3>, <IC2:itemPlates:5>], [<WarpDrive:itemComponent>, null, <WarpDrive:itemComponent>], [<IC2:itemPlates:5>, <GraviSuite:itemSimpleItem:2>, <IC2:itemPlates:5>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockShipCore>, [[<ore:plateSteel>, <MekanismGenerators:Generator:9>, <ore:plateSteel>], [<WarpDrive:itemComponent>, <Mekanism:TeleportationCore>, <WarpDrive:itemComponent>], [<ore:plateSteel>, <Mekanism:MachineBlock:11>, <ore:plateSteel>]]);
+###  Lift
+recipes.remove(<WarpDrive:blockLift>);
+recipes.addShaped(<WarpDrive:blockLift>, [[<minecraft:iron_ingot>, <minecraft:ender_pearl>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:1>, <OpenComputers:item:25>, <WarpDrive:itemComponent:1>], [<minecraft:iron_ingot>, <ore:gearInvar>, <minecraft:iron_ingot>]]);
 
+###  Radar
+recipes.remove(<WarpDrive:blockRadar>);
+recipes.addShaped(<WarpDrive:blockRadar>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:19>, <minecraft:iron_ingot>], [<minecraft:compass>, <OpenComputers:item:26>, <minecraft:compass>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>]]);
+
+###  Camera
+recipes.remove(<WarpDrive:blockCamera>);
+recipes.addShaped(<WarpDrive:blockCamera>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:1>, <minecraft:iron_ingot>], [<minechem:minechemOpticalMicroscopeLens:1>, <OpenComputers:item:25>, <minechem:minechemOpticalMicroscopeLens:1>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent:13>, <minecraft:iron_ingot>]]);
+
+###  Monitor
+recipes.remove(<WarpDrive:blockMonitor>);
+recipes.addShaped(<WarpDrive:blockMonitor>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:13>, <minecraft:iron_ingot>], [<OpenComputers:item:24>, <WarpDrive:itemComponent:12>, <OpenComputers:item:24>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent:1>, <minecraft:iron_ingot>]]);
+
+###  Laser
+recipes.remove(<WarpDrive:blockLaser>);
+recipes.addShaped(<WarpDrive:blockLaser>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:19>, <minecraft:iron_ingot>], [<minechem:minechemOpticalMicroscopeLens:1>, <WarpDrive:itemComponent:3>, <minechem:minechemOpticalMicroscopeLens:1>], [<minecraft:iron_ingot>, <ore:gearPlatinum>, <minecraft:iron_ingot>]]);
+
+###  Laser Medium (Particle Booster)
+recipes.remove(<WarpDrive:blockLaserMedium>);
+recipes.addShaped(<WarpDrive:blockLaserMedium>, [[<minecraft:iron_ingot>, <ore:strongGlass>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:3>, <WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:3>], [<minecraft:iron_ingot>, <ore:strongGlass>, <minecraft:iron_ingot>]]);
+
+###  Laser+Camera
+recipes.remove(<WarpDrive:blockLaserCamera>);
+recipes.addShaped(<WarpDrive:blockLaserCamera>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>], [<WarpDrive:blockLaser>, <OpenComputers:item:26>, <WarpDrive:blockCamera>], [<minecraft:iron_ingot>, <ore:gearSilver>, <minecraft:iron_ingot>]]);
+
+###  Tree Laser
+recipes.remove(<WarpDrive:blockLaserTreeFarm>);
+recipes.addShaped(<WarpDrive:blockLaserTreeFarm>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:13>, <minecraft:iron_ingot>], [<minecraft:diamond_axe>, <WarpDrive:blockLaser>, <minecraft:diamond_axe>], [<minecraft:iron_ingot>, <OpenComputers:item:25>, <minecraft:iron_ingot>]]);
+
+###  Mining Laser
+recipes.remove(<WarpDrive:blockMiningLaser>);
+recipes.addShaped(<WarpDrive:blockMiningLaser>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:13>, <minecraft:iron_ingot>], [<minecraft:diamond_pickaxe>, <WarpDrive:blockLaser>, <minecraft:diamond_pickaxe>], [<minecraft:iron_ingot>, <OpenComputers:item:25>, <minecraft:iron_ingot>]]);
 
 ###  Basic Air Generator
 recipes.remove(<WarpDrive:blockAirGenerator>);
 recipes.remove(<WarpDrive:blockAirGenerator1>);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockAirGenerator1>, [[<IC2:reactorVent:1>, <WarpDrive:itemComponent:16>, <IC2:reactorVent:1>], [<IC2:reactorVent:1>, <WarpDrive:itemComponent:16>, <IC2:reactorVent:1>], [<IC2:itemPartCircuit>, <IC2:blockMachine>, <IC2:itemRecipePart:1>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockAirGenerator1>, [[<BuildCraft|Transport:pipeLens:33>, <WarpDrive:itemComponent:16>, <BuildCraft|Transport:pipeLens:33>], [<MekanismGenerators:TurbineBlade>, <WarpDrive:itemComponent:16>, <MekanismGenerators:TurbineBlade>], [<Mekanism:ControlCircuit>, <MekanismGenerators:Generator:12>, <Mekanism:MachineBlock2:12>]]);
-
+recipes.addShaped(<WarpDrive:blockAirGenerator1>, [[<minecraft:iron_ingot>, <ore:gearIron>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:16>, <WarpDrive:itemAirTank0:*>, <WarpDrive:itemComponent:16>], [<minecraft:iron_ingot>, <ore:gearIron>, <minecraft:iron_ingot>]]);
 
 ###  Advanced Air Generator
 recipes.remove(<WarpDrive:blockAirGenerator2>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockAirGenerator2>, [[null, <IC2:reactorVentGold:1>, null], [<IC2:reactorVentGold:1>, <WarpDrive:blockAirGenerator1>, <IC2:reactorVentGold:1>], [null, <IC2:reactorVentGold:1>, null]]);
-#RF Recipe
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <WarpDrive:blockAirGenerator1>, <WarpDrive:blockAirGenerator2>, <liquid:aerotheum> * 500);
+recipes.addShaped(<WarpDrive:blockAirGenerator2>, [[<WarpDrive:itemComponent:18>, <WarpDrive:blockAirGenerator1>, <WarpDrive:itemComponent:18>], [<WarpDrive:blockAirGenerator1>, <ore:blockHull2_glass>, <WarpDrive:blockAirGenerator1>], [<WarpDrive:itemComponent:18>, <WarpDrive:blockAirGenerator1>, <WarpDrive:itemComponent:18>]]);
 
 
 ###  Superior Air Generator
 recipes.remove(<WarpDrive:blockAirGenerator3>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockAirGenerator3>, [[<IC2:itemPartCircuitAdv>, <WarpDrive:blockAirGenerator2>, <IC2:itemPartCircuitAdv>], [<WarpDrive:blockAirGenerator2>, <IC2:blockMachine:12>, <WarpDrive:blockAirGenerator2>], [<IC2:itemPartCircuitAdv>, <IC2:blockMachine:5>, <IC2:itemPartCircuitAdv>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockAirGenerator3>, [[<Mekanism:ReinforcedAlloy>, <WarpDrive:blockAirGenerator2>, <Mekanism:ReinforcedAlloy>], [<WarpDrive:blockAirGenerator2>, <Mekanism:ElectrolyticCore>, <WarpDrive:blockAirGenerator2>], [<Mekanism:ReinforcedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:ReinforcedAlloy>]]);
-
-###  Camera
-recipes.remove(<WarpDrive:blockCamera>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockCamera>, [[<IC2:blockAlloyGlass>, <minechem:minechemOpticalMicroscopeLens>, <WarpDrive:itemComponent:2>], [<minechem:minechemOpticalMicroscopeLens:1>, <IC2:itemRecipePart:3>, <IC2:blockMachine>], [<IC2:blockAlloyGlass>, <minechem:minechemOpticalMicroscopeLens>, <IC2:itemPartCircuit>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockCamera>, [[<ThermalExpansion:Glass>, <minechem:minechemOpticalMicroscopeLens>, <WarpDrive:itemComponent:2>], [<minechem:minechemOpticalMicroscopeLens:1>, <ThermalExpansion:material>, <Mekanism:BasicBlock:8>], [<ThermalExpansion:Glass>, <minechem:minechemOpticalMicroscopeLens>, <Mekanism:ControlCircuit:1>]]);
+recipes.addShaped(<WarpDrive:blockAirGenerator3>, [[<WarpDrive:itemComponent>, <WarpDrive:blockAirGenerator2>, <WarpDrive:itemComponent>], [<WarpDrive:blockAirGenerator2>, <ore:blockHull3_glass>, <WarpDrive:blockAirGenerator2>], [<WarpDrive:itemComponent>, <WarpDrive:blockAirGenerator2>, <WarpDrive:itemComponent>]]);
 
 
 ###  Cloaking Coil
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockCloakingCoil>, [[<ore:plateRefinedGlowstone>, <Mekanism:ControlCircuit:3>, <ore:plateRefinedGlowstone>], [<WarpDrive:itemComponent:19>, <rftools:phasedFieldGeneratorItem>, <WarpDrive:itemComponent:19>], [<ore:plateRefinedGlowstone>, <Mekanism:ControlCircuit:3>, <ore:plateRefinedGlowstone>]]);
+recipes.remove(<WarpDrive:blockCloakingCoil>);
+recipes.addShaped(<WarpDrive:blockCloakingCoil>, [[<minecraft:gold_ingot>, <WarpDrive:itemComponent:13>], [<WarpDrive:itemComponent:19>, <MekanismGenerators:Generator:9>, <WarpDrive:itemComponent:19>], [<minecraft:gold_ingot>, <WarpDrive:itemComponent:1>, <minecraft:gold_ingot>]]);
 
 ###  Cloaking Core
 recipes.remove(<WarpDrive:blockCloakingCore>);
 
 #IC2 Recipe
-recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<IC2:itemPlates:5>, <IC2:blockAlloyGlass>, <IC2:itemPlates:5>], [<IC2:blockAlloyGlass>, <RandomThings:ingredient:5>, <IC2:blockAlloyGlass>], [<IC2:itemPlates:5>, <IC2:blockAlloyGlass>, <IC2:itemPlates:5>]]);
+recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<IC2:itemPartIridium>, <IC2:blockAlloyGlass>, <IC2:itemPartIridium>], [<IC2:blockAlloyGlass>, <RandomThings:ingredient:5>, <IC2:blockAlloyGlass>], [<IC2:itemPartIridium>, <IC2:blockAlloyGlass>, <IC2:itemPartIridium>]]);
 #RF Recipe
-recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<ore:plateSteel>, <ThermalExpansion:Glass>, <ore:plateSteel>], [<ThermalExpansion:Glass>, <RandomThings:ingredient:5>, <ThermalExpansion:Glass>], [<ore:plateSteel>, <ThermalExpansion:Glass>, <ore:plateSteel>]]);
-
+recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<NuclearCraft:parts:9>, <MekanismGenerators:ReactorGlass:1>, <NuclearCraft:parts:9>], [<MekanismGenerators:ReactorGlass:1>, <RandomThings:ingredient:5>, <MekanismGenerators:ReactorGlass:1>], [<NuclearCraft:parts:9>, <MekanismGenerators:ReactorGlass:1>, <NuclearCraft:parts:9>]]);
 
 ###  Warp Isolation Block
 recipes.remove(<WarpDrive:blockWarpIsolation>);
+recipes.addShaped(<WarpDrive:blockWarpIsolation>, [[<ore:ingotTough>, <WarpDrive:blockHull3_plain>, <ore:ingotTough>], [<WarpDrive:blockHull3_plain>, <ore:warpfieldCatalyst>, <WarpDrive:blockHull3_plain>], [<ore:ingotTough>, <WarpDrive:blockHull3_plain>, <ore:ingotTough>]]);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockWarpIsolation>, [[<openmodularturrets:hardWallTierOne>, <ThermalExpansion:Rockwool:8>, <openmodularturrets:hardWallTierOne>], [<ThermalExpansion:Rockwool:8>, <IC2:itemPlutonium>, <ThermalExpansion:Rockwool:8>], [<openmodularturrets:hardWallTierOne>, <ThermalExpansion:Rockwool:8>, <openmodularturrets:hardWallTierOne>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockWarpIsolation>, [[<openmodularturrets:hardWallTierOne>, <ThermalExpansion:Rockwool:8>, <openmodularturrets:hardWallTierOne>], [<ThermalExpansion:Rockwool:8>, <ore:Pu241>, <ThermalExpansion:Rockwool:8>], [<openmodularturrets:hardWallTierOne>, <ThermalExpansion:Rockwool:8>, <openmodularturrets:hardWallTierOne>]]);
+###  Reactor Laser Monitor
+recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);
+recipes.addShaped(<WarpDrive:blockIC2reactorLaserMonitor>, [[<gregtech_addon:metaitem_1:24505>, <gregtech_addon:components>, <gregtech_addon:metaitem_1:24510>], [<gregtech_addon:components>, <gregtech_addon:block:10>, <gregtech_addon:components>], [<gregtech_addon:metaitem_1:24510>, <gregtech_addon:machine:4>, <gregtech_addon:metaitem_1:24505>]]);
 
-###  Air Tanks
-recipes.remove(<WarpDrive:itemComponent:8>);
+###Weapons Controller
+recipes.remove(<WarpDrive:blockWeaponController>);
+recipes.addShaped(<WarpDrive:blockWeaponController>, [[<ore:ingotSteel>, <ore:gearDiamond>, <ore:ingotSteel>], [<WarpDrive:itemComponent>, <OpenComputers:item:26>, <WarpDrive:itemComponent>], [<ore:ingotSteel>, <ore:gearDiamond>, <ore:ingotSteel>]]);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateAluminium>, <IC2:itemCellEmpty:5>, <ore:plateAluminium>], [<ore:plateAluminium>, <IC2:itemCellEmpty:5>, <ore:plateAluminium>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:itemComponent:8>*2, [[<ore:plateSteel>, <Mekanism:GasTank:*>, <ore:plateSteel>], [<ore:plateSteel>, <Mekanism:GasTank:*>, <ore:plateSteel>], [<ore:itemRubber>, <Railcraft:part.gear:3>, <ore:itemRubber>]]);
+###Transporter Containment
+recipes.remove(<WarpDrive:blockTransporterContainment>);
+recipes.addShaped(<WarpDrive:blockTransporterContainment>, [[null, <WarpDrive:itemComponent:1>, null], [<appliedenergistics2:tile.SkyStoneSlabBlock>, <appliedenergistics2:tile.SkyStoneSlabBlock>, <appliedenergistics2:tile.SkyStoneSlabBlock>], [null, <WarpDrive:itemComponent>, null]]);
 
+#Transporter Beacon
+recipes.remove(<WarpDrive:blockTransporterBeacon>);
+recipes.addShaped(<WarpDrive:blockTransporterBeacon>, [[<WarpDrive:itemComponent:13>, null, <WarpDrive:itemComponent:2>], [null, <WR-CBE|Core:wirelessTransceiver>, null], [null, <Metallurgy:steel.ingot>, null]]);
 
-##  Air Tank (Tier 1)
-recipes.remove(<WarpDrive:itemAirTank1:*>);
+###  Transporter Scanner
+recipes.remove(<WarpDrive:blockTransporterScanner>);
+recipes.addShaped(<WarpDrive:blockTransporterScanner>, [[<WarpDrive:blockTransporterContainment>, <WarpDrive:itemComponent:13>, <WarpDrive:blockTransporterContainment>], [<WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:4>, <WarpDrive:itemComponent:7>], [<WarpDrive:blockTransporterContainment>, <WarpDrive:itemComponent:20>, <WarpDrive:blockTransporterContainment>]]);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:itemAirTank1:32>, [[<ore:plateAluminium>, <IC2:itemPartCircuit>, <ore:plateAluminium>], [<WarpDrive:itemComponent:8>, <IC2:itemRecipePart:3>, <WarpDrive:itemComponent:8>], [<powersuits:powerArmorComponent:20>, null, <powersuits:powerArmorComponent:20>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:itemAirTank1:32>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<WarpDrive:itemComponent:8>, <ore:plateSteel>, <WarpDrive:itemComponent:8>], [<powersuits:powerArmorComponent:20>, null, <powersuits:powerArmorComponent:20>]]);
-
-###  Air Tank (Tier 2)
-recipes.remove(<WarpDrive:itemAirTank2:*>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:itemAirTank2:64>, [[<IC2:itemPartCircuitAdv>, <IC2:itemPartAlloy>, <IC2:itemPartCircuitAdv>], [<WarpDrive:itemAirTank1:*>, <IC2:itemRecipePart:1>, <WarpDrive:itemAirTank1:*>], [null, null, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:itemAirTank2:64>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:ReinforcedAlloy>], [<WarpDrive:itemAirTank1:*>, <ore:platePlatinum>, <WarpDrive:itemAirTank1:*>], [null, null, null]]);
+###  Transporter Core
+recipes.remove(<WarpDrive:blockTransporterCore>);
+recipes.addShaped(<WarpDrive:blockTransporterCore>, [[<ore:ingotSteel>, <minecraft:ender_eye>, <ore:ingotSteel>], [<WarpDrive:itemComponent:1>, <OpenComputers:item:26>, <WarpDrive:itemComponent:1>], [<ore:ingotSteel>, <ore:gearDiamond>, <ore:ingotSteel>]]);
 
 
-###  Air Tank (Tier 3)
-recipes.remove(<WarpDrive:itemAirTank3:*>);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:itemAirTank3:*>, [[<IC2:itemPartCircuitAdv>, <IC2:itemPartCarbonPlate>, <IC2:itemPartCircuitAdv>], [<WarpDrive:itemAirTank2:*>, <ore:plateTitanium>, <WarpDrive:itemAirTank2:*>], [<IC2:itemRecipePart:1>, null, <IC2:itemRecipePart:1>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:itemAirTank3:*>, [[<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:AtomicAlloy>], [<WarpDrive:itemAirTank2:*>, <ore:plateRefinedObsidian>, <WarpDrive:itemAirTank2:*>], [null, null, null]]);
+
 
 
 ###  Forcefield (tier 1)
 recipes.remove(<WarpDrive:blockProjector1:1>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockProjector1:1>, [[<IC2:blockMachine2:1>, <IC2:itemTFBP>, <IC2:blockMachine2:1>], [<WarpDrive:itemComponent:19>, <IC2:blockMachine>, <WarpDrive:itemComponent:19>], [<IC2:blockMachine2:1>, <IC2:itemPartCircuitAdv>, <IC2:blockMachine2:1>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockProjector1:1>, [[<Mekanism:EnrichedAlloy>, <rftools:spaceChamberControllerBlock>, <Mekanism:EnrichedAlloy>], [<WarpDrive:itemComponent:19>, <rftools:blockProtectorBlock>, <WarpDrive:itemComponent:19>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<WarpDrive:blockProjector1:1>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:19>, <OpenComputers:item:25>, <WarpDrive:itemComponent:19>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>]]);
 
 ###  Forcefield (tier 2)
 recipes.remove(<WarpDrive:blockProjector2:1>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockProjector2:1>, [[null, <IC2:itemBatCrystal:1>.withTag({charge: 1000000.0}), null], [null, <WarpDrive:blockProjector1:1>, null], [null, <IC2:blockMachine:12>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockProjector2:1>, [[null, <Mekanism:ControlCircuit:2>, null], [<Mekanism:ReinforcedAlloy>, <WarpDrive:blockProjector1:1>, <Mekanism:ReinforcedAlloy>], [null, <Mekanism:ReinforcedAlloy>, null]]);
+recipes.addShaped(<WarpDrive:blockProjector2:1>, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1:1>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockProjector1:1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1:1>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1:1>, <IC2:itemPartCarbonPlate>]]);
+recipes.addShaped(<WarpDrive:blockProjector2:1>, [[<NuclearCraft:parts:8>, <WarpDrive:blockProjector1:1>, <NuclearCraft:parts:8>], [<WarpDrive:blockProjector1:1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1:1>], [<NuclearCraft:parts:8>, <WarpDrive:blockProjector1:1>, <NuclearCraft:parts:8>]]);
 
 ###  Forcefield (tier 3)
 recipes.remove(<WarpDrive:blockProjector3:1>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockProjector3:1>, [[null, <IC2:itemBatLamaCrystal:1>.withTag({charge: 1.0E7}), null], [null, <WarpDrive:blockProjector2:1>, null], [null, <WarpDrive:blockHighlyAdvancedMachine>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockProjector3:1>, [[null, <Mekanism:ControlCircuit:3>, null], [<Mekanism:AtomicAlloy>, <WarpDrive:blockProjector2:1>, <Mekanism:AtomicAlloy>], [null, <Mekanism:AtomicAlloy>, null]]);
+recipes.addShaped(<WarpDrive:blockProjector3:1>, [[<IC2:itemPartIridium>, <WarpDrive:blockProjector2:1>, <IC2:itemPartIridium>], [<WarpDrive:blockProjector2:1>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1:1>], [<IC2:itemPartIridium>, <WarpDrive:blockProjector2:1>, <IC2:itemPartIridium>]]);
+recipes.addShaped(<WarpDrive:blockProjector3:1>, [[<NuclearCraft:parts:9>, <WarpDrive:blockProjector2:1>, <NuclearCraft:parts:9>], [<WarpDrive:blockProjector2:1>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1:1>], [<NuclearCraft:parts:9>, <WarpDrive:blockProjector2:1>, <NuclearCraft:parts:9>]]);
 
 
 
 ###  Forcefield Half(tier 1)
 recipes.remove(<WarpDrive:blockProjector1>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockProjector1>, [[<IC2:blockMachine2:1>, <IC2:itemTFBP>, <IC2:blockMachine2:1>], [<WarpDrive:itemComponent>, <IC2:blockMachine>, <WarpDrive:itemComponent>], [<IC2:blockMachine2:1>, <IC2:itemPartCircuitAdv>, <IC2:blockMachine2:1>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockProjector1>, [[<Mekanism:EnrichedAlloy>, <rftools:spaceChamberControllerBlock>, <Mekanism:EnrichedAlloy>], [<WarpDrive:itemComponent>, <rftools:blockProtectorBlock>, <WarpDrive:itemComponent>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShapedMirrored(<WarpDrive:blockProjector1:1>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:19>, <OpenComputers:item:25>, <ore:blockHull1_glass>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>]]);
 
 ###  Forcefield Half(tier 2)
 recipes.remove(<WarpDrive:blockProjector2>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockProjector2>, [[null, <IC2:itemBatCrystal:1>.withTag({charge: 1000000.0}), null], [null, <WarpDrive:blockProjector1>, null], [null, <IC2:blockMachine:12>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockProjector2>, [[null, <Mekanism:ControlCircuit:2>, null], [<Mekanism:ReinforcedAlloy>, <WarpDrive:blockProjector1>, <Mekanism:ReinforcedAlloy>], [null, <Mekanism:ReinforcedAlloy>, null]]);
+recipes.addShaped(<WarpDrive:blockProjector2>, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockProjector1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1>, <IC2:itemPartCarbonPlate>]]);
+recipes.addShaped(<WarpDrive:blockProjector2>, [[<NuclearCraft:parts:8>, <WarpDrive:blockProjector1>, <NuclearCraft:parts:8>], [<WarpDrive:blockProjector1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1>], [<NuclearCraft:parts:8>, <WarpDrive:blockProjector1>, <NuclearCraft:parts:8>]]);
 
 ###  Forcefield Half(tier 3)
-recipes.remove(<WarpDrive:blockProjector3:1>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockProjector3>, [[null, <IC2:itemBatLamaCrystal:1>.withTag({charge: 1.0E7}), null], [null, <WarpDrive:blockProjector2>, null], [null, <WarpDrive:blockHighlyAdvancedMachine>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockProjector3>, [[null, <Mekanism:ControlCircuit:3>, null], [<Mekanism:AtomicAlloy>, <WarpDrive:blockProjector2>, <Mekanism:AtomicAlloy>], [null, <Mekanism:AtomicAlloy>, null]]);
+recipes.remove(<WarpDrive:blockProjector3>);
+recipes.addShaped(<WarpDrive:blockProjector3>, [[<IC2:itemPartIridium>, <WarpDrive:blockProjector2>, <IC2:itemPartIridium>], [<WarpDrive:blockProjector2>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1>], [<IC2:itemPartIridium>, <WarpDrive:blockProjector2>, <IC2:itemPartIridium>]]);
+recipes.addShaped(<WarpDrive:blockProjector3>, [[<NuclearCraft:parts:9>, <WarpDrive:blockProjector2>, <NuclearCraft:parts:9>], [<WarpDrive:blockProjector2>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1>], [<NuclearCraft:parts:9>, <WarpDrive:blockProjector2>, <NuclearCraft:parts:9>]]);
 
 
 
 ###  ForceField Relay (tier 1)
 recipes.remove(<WarpDrive:blockForceFieldRelay1>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockForceFieldRelay1>, [[<minecraft:ender_pearl>, <WarpDrive:itemComponent:1>, <minecraft:ender_pearl>], [<IC2:itemDensePlates:1>, <IC2:blockElectric:4>, <IC2:itemDensePlates:1>], [<minecraft:ender_pearl>, <WarpDrive:itemComponent:13>, <minecraft:ender_pearl>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockForceFieldRelay1>, [[<minecraft:ender_pearl>, <WarpDrive:itemComponent:1>, <minecraft:ender_pearl>], [<Mekanism:ControlCircuit:1>, <ThermalExpansion:Frame:1>, <Mekanism:ControlCircuit:1>], [<minecraft:ender_pearl>, <WarpDrive:itemComponent:13>, <minecraft:ender_pearl>]]);
+recipes.addShaped(<WarpDrive:blockForceFieldRelay1>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:1>, <minecraft:iron_ingot>], [<minecraft:ender_eye>, <OpenComputers:item:25>, <minecraft:ender_eye>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent:13>, <minecraft:iron_ingot>]]);
 
 
 ###  ForceField Relay (tier 2)
 recipes.remove(<WarpDrive:blockForceFieldRelay2>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<minecraft:ender_pearl>, <WarpDrive:itemComponent:1>, <minecraft:ender_pearl>], [<IC2:itemDensePlates:1>, <IC2:blockElectric:5>, <IC2:itemDensePlates:1>], [<minecraft:ender_pearl>, <WarpDrive:itemComponent:13>, <minecraft:ender_pearl>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<minecraft:ender_pearl>, <WarpDrive:itemComponent:1>, <minecraft:ender_pearl>], [<Mekanism:ControlCircuit:2>, <ThermalExpansion:Frame:2>, <Mekanism:ControlCircuit:2>], [<minecraft:ender_pearl>, <WarpDrive:itemComponent:13>, <minecraft:ender_pearl>]]);
+recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockForceFieldRelay1>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockForceFieldRelay1>, <ore:blockHull2_glass>, <WarpDrive:blockForceFieldRelay1>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockForceFieldRelay1>, <IC2:itemPartCarbonPlate>]]);
+recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<NuclearCraft:parts:8>, <WarpDrive:blockForceFieldRelay1>, <NuclearCraft:parts:8>], [<WarpDrive:blockForceFieldRelay1>, <ore:blockHull2_glass>, <WarpDrive:blockForceFieldRelay1>], [<NuclearCraft:parts:8>, <WarpDrive:blockForceFieldRelay1>, <NuclearCraft:parts:8>]]);
 
 
 ###  ForceField Relay (tier 3)
 recipes.remove(<WarpDrive:blockForceFieldRelay3>);
+recipes.addShaped(<WarpDrive:blockProjector3>, [[<IC2:itemPartIridium>, <WarpDrive:blockForceFieldRelay2>, <IC2:itemPartIridium>], [<WarpDrive:blockForceFieldRelay2>, <ore:blockHull3_glass>, <WarpDrive:blockForceFieldRelay2>], [<IC2:itemPartIridium>, <WarpDrive:blockForceFieldRelay2>, <IC2:itemPartIridium>]]);
+recipes.addShaped(<WarpDrive:blockProjector3>, [[<NuclearCraft:parts:9>, <WarpDrive:blockForceFieldRelay2>, <NuclearCraft:parts:9>], [<WarpDrive:blockForceFieldRelay2>, <ore:blockHull3_glass>, <WarpDrive:blockForceFieldRelay2>], [<NuclearCraft:parts:9>, <WarpDrive:blockForceFieldRelay2>, <NuclearCraft:parts:9>]]);
 
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockForceFieldRelay3>, [[<minecraft:ender_pearl>, <WarpDrive:itemComponent:1>, <minecraft:ender_pearl>], [<IC2:itemDensePlates:1>, <IC2:blockElectric:6>, <IC2:itemDensePlates:1>], [<minecraft:ender_pearl>, <WarpDrive:itemComponent:13>, <minecraft:ender_pearl>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockForceFieldRelay3>, [[<minecraft:ender_pearl>, <WarpDrive:itemComponent:1>, <minecraft:ender_pearl>], [<Mekanism:ControlCircuit:3>, <ThermalExpansion:Frame:3>, <Mekanism:ControlCircuit:3>], [<minecraft:ender_pearl>, <WarpDrive:itemComponent:13>, <minecraft:ender_pearl>]]);
-
-##HULLs
-
-#Basic
-recipes.remove(<WarpDrive:blockHull1_plain>);
-recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<IC2:blockAlloy>, <ore:ingotAluminium>, <IC2:blockAlloy>], [<ore:ingotAluminium>, null, <ore:ingotAluminium>], [<IC2:blockAlloy>, <ore:ingotAluminium>, <IC2:blockAlloy>]]);
-recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<Railcraft:cube:1>, <NuclearCraft:material:78>, <Railcraft:cube:1>], [<NuclearCraft:material:78>, null, <NuclearCraft:material:78>], [<Railcraft:cube:1>, <NuclearCraft:material:78>, <Railcraft:cube:1>]]);
-
-#Advanced
-recipes.remove(<WarpDrive:blockHull2_plain>);
-recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockHull1_plain>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockHull1_plain>, <ore:plateTungstenSteel>, <WarpDrive:blockHull1_plain>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockHull1_plain>, <IC2:itemPartCarbonPlate>]]);
-recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<Mekanism:ReinforcedAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:ReinforcedAlloy>], [<WarpDrive:blockHull1_plain>, <ore:ingotElectrumFlux>, <WarpDrive:blockHull1_plain>], [<Mekanism:ReinforcedAlloy>, <WarpDrive:blockHull1_plain>, <Mekanism:ReinforcedAlloy>]]);
-
-#Superior
-recipes.remove(<WarpDrive:blockHull3_plain>);
-recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<ore:plateChrome>, <WarpDrive:blockHull2_plain>, <ore:plateChrome>], [<WarpDrive:blockHull2_plain>, <IC2:itemPartIridium>, <WarpDrive:blockHull2_plain>], [<ore:plateChrome>, <WarpDrive:blockHull2_plain>, <ore:plateChrome>]]);
-recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<Mekanism:AtomicAlloy>, <WarpDrive:blockHull2_plain>, <Mekanism:AtomicAlloy>], [<WarpDrive:blockHull2_plain>, <ore:ingotRefinedGlowstone>, <WarpDrive:blockHull2_plain>], [<Mekanism:AtomicAlloy>, <WarpDrive:blockHull2_plain>, <Mekanism:AtomicAlloy>]]);
 
 ######Suit#####
 #Helmet
@@ -278,128 +291,6 @@ recipes.remove(<WarpDrive:itemWarpArmor_boots>);
 //recipes.addShaped(<WarpDrive:itemWarpArmor_boots>, [[<IC2:itemPartCircuitAdv>, null, <IC2:itemPartCircuitAdv>], [<ore:ingotPlatinum>, <ore:itemRubber>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>]]);
 //recipes.addShaped(<WarpDrive:itemWarpArmor_boots>, [[<Mekanism:ControlCircuit:1>, null, <Mekanism:ControlCircuit:1>], [<ore:ingotPlatinum>, <ore:itemRubber>, <ore:ingotPlatinum>], [<ore:ingotPlatinum>, null, <ore:ingotPlatinum>]]);
 
-###  Tree Laser
-recipes.remove(<WarpDrive:blockLaserTreeFarm>);
-
-val lumberjack = <ore:Robot>;
-lumberjack.add(<BuildCraft|Robotics:robot>.withTag({board: {id: "buildcraft:boardRobotLumberjack"}}));
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockLaserTreeFarm>, [[null, <IC2:itemPartCircuitAdv>, null], [<IC2:itemToolMiningLaser:*>, <IC2:blockMachine3:7>, <IC2:itemToolMiningLaser:*>], [null, <IC2:blockMachine:12>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockLaserTreeFarm>, [[<ore:plateSteel>, <ore:Robot>.onlyWithTag({board: {id: "buildcraft:boardRobotLumberjack"}}), <ore:plateSteel>], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:1>], [<ore:plateSteel>, <Mekanism:MachineBlock2:13>, <ore:plateSteel>]]);
-
-###  Mining Laser
-recipes.remove(<WarpDrive:blockMiningLaser>);
-
-val miner = <ore:BcRobot>;
-miner.add(<BuildCraft|Robotics:robot>.withTag({board: {id: "buildcraft:miner"}}));
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockMiningLaser>, [[null, <IC2:itemPartCircuitAdv>, null], [<IC2:itemToolMiningLaser:*>, <IC2:blockMachine2:11>, <IC2:itemToolMiningLaser:*>], [null, <IC2:blockMachine:12>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockMiningLaser>, [[<ore:plateSteel>, <ore:BcRobot>.onlyWithTag({board: {id: "buildcraft:miner"}}), <ore:plateSteel>], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock2:15>, <Mekanism:ControlCircuit:1>], [<ore:plateSteel>, <Mekanism:MachineBlock2:13>, <ore:plateSteel>]]);
-
-#Transporter Beacon
-recipes.remove(<WarpDrive:blockTransporterBeacon>);
-recipes.addShaped(<WarpDrive:blockTransporterBeacon>, [[<WarpDrive:itemComponent:13>, null, <WarpDrive:itemComponent:2>], [null, <WR-CBE|Core:wirelessTransceiver>, null], [null, <Metallurgy:steel.ingot>, null]]);
-
-
-
-###  Radar
-recipes.remove(<WarpDrive:blockRadar>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockRadar>, [[<ore:plateTitanium>, <IC2:itemPartCircuitAdv>, <ore:plateTitanium>], [<appliedenergistics2:tile.BlockSkyCompass>, <opensecurity:entitydetector>, <appliedenergistics2:tile.BlockSkyCompass>], [<ore:plateTitanium>, <IC2:itemPartCircuitAdv>, <ore:plateTitanium>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockRadar>, [[<ore:plateEnderium>, <Mekanism:ControlCircuit:3>, <ore:plateEnderium>], [<appliedenergistics2:tile.BlockSkyCompass>, <opensecurity:entitydetector>, <appliedenergistics2:tile.BlockSkyCompass>], [<ore:plateEnderium>, <Mekanism:ControlCircuit:3>, <ore:plateEnderium>]]);
-
-###Weapons Controller
-recipes.remove(<WarpDrive:blockWeaponController>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockWeaponController>, [[<IC2:reactorPlatingExplosive>, <IC2:itemRemote>, <IC2:reactorPlatingExplosive>], [<WarpDrive:itemComponent>, <IC2:blockMachine:12>, <WarpDrive:itemComponent>], [<IC2:reactorPlatingExplosive>, <GraviSuite:itemSimpleItem:5>, <IC2:reactorPlatingExplosive>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockWeaponController>, [[<ore:plateEnderium>, <Mekanism:BasicBlock2:9>, <ore:plateEnderium>], [<WarpDrive:itemComponent>, <Mekanism:BasicBlock:8>, <WarpDrive:itemComponent>], [<ore:plateEnderium>, <Mekanism:Robit>, <ore:plateEnderium>]]);
-
-###Transporter Containment
-recipes.remove(<WarpDrive:blockTransporterContainment>);
-recipes.addShaped(<WarpDrive:blockTransporterContainment>, [[null, <WarpDrive:itemComponent:1>, null], [<appliedenergistics2:tile.SkyStoneSlabBlock>, <appliedenergistics2:tile.SkyStoneSlabBlock>, <appliedenergistics2:tile.SkyStoneSlabBlock>], [null, <WarpDrive:itemComponent>, null]]);
-
-
-###  Transporter Scanner
-recipes.remove(<WarpDrive:blockTransporterScanner>);
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockTransporterScanner>, [[<WarpDrive:blockTransporterContainment>, <appliedenergistics2:item.ItemMultiMaterial:47>, <WarpDrive:blockTransporterContainment>], [<WarpDrive:itemComponent:1>, <IC2:blockMachine2:1>, <WarpDrive:itemComponent:1>], [<WarpDrive:blockTransporterContainment>, <WarpDrive:itemComponent:7>, <WarpDrive:blockTransporterContainment>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockTransporterScanner>, [[<WarpDrive:blockTransporterContainment>, <appliedenergistics2:item.ItemMultiMaterial:47>, <WarpDrive:blockTransporterContainment>], [<WarpDrive:itemComponent:1>, <MekanismGenerators:Generator:9>, <WarpDrive:itemComponent:1>], [<WarpDrive:blockTransporterContainment>, <WarpDrive:itemComponent:7>, <WarpDrive:blockTransporterContainment>]]);
-
-###  Lift
-recipes.remove(<WarpDrive:blockLift>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockLift>, [[<IC2:itemDensePlates:4>, <WarpDrive:itemComponent:1>, <IC2:itemDensePlates:4>], [<IC2:itemRecipePart>, <IC2:blockMachine:9>, <IC2:itemRecipePart>], [<IC2:itemDensePlates:4>, <WarpDrive:itemComponent:1>, <IC2:itemDensePlates:4>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockLift>, [[<ore:plateInvar>, <WarpDrive:itemComponent:1>, <ore:plateInvar>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:Plate:6>, <Mekanism:EnrichedAlloy>], [<ore:plateInvar>, <WarpDrive:itemComponent:1>, <ore:plateInvar>]]);
-
-###  Monitor
-recipes.remove(<WarpDrive:blockMonitor>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockMonitor>, [[null, <WarpDrive:itemComponent:12>, null], [<IC2:itemPartCircuit>, <IC2:blockMachine>, <IC2:itemPartCircuit>], [null, <WarpDrive:itemComponent:2>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockMonitor>, [[null, <WarpDrive:itemComponent:2>, null], [<ore:plateSteel>, <rftools:screenBlock>, <ore:plateSteel>], [null, <Mekanism:ControlCircuit>, null]]);
-
-###  Transporter Core
-recipes.remove(<WarpDrive:blockTransporterCore>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockTransporterCore>, [[null, <WarpDrive:itemComponent>, null], [<IC2:itemPartCircuitAdv>, <IC2:blockMachine2>, <IC2:itemPartCircuitAdv>], [null, <WarpDrive:itemComponent:2>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockTransporterCore>, [[null, <WarpDrive:itemComponent>, null], [<Mekanism:ControlCircuit:1>, <Mekanism:MachineBlock:11>, <Mekanism:ControlCircuit:1>], [null, <WarpDrive:itemComponent:2>, null]]);
-
-
-
-###  Laser Medium
-recipes.remove(<WarpDrive:itemComponent:17>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:itemComponent:17>, [[<IC2:reactorPlatingHeat>, <IC2:blockAlloyGlass>, <IC2:reactorPlatingHeat>], [<IC2:blockAlloyGlass>, <IC2:blockMachine:12>, <IC2:blockAlloyGlass>], [<IC2:reactorPlatingHeat>, <IC2:blockAlloyGlass>, <IC2:reactorPlatingHeat>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:itemComponent:17>, [[<Mekanism:EnrichedAlloy>, <MekanismGenerators:ReactorGlass:1>, <Mekanism:EnrichedAlloy>], [<MekanismGenerators:ReactorGlass:1>, <rftools:machineFrame>, <MekanismGenerators:ReactorGlass:1>], [<Mekanism:EnrichedAlloy>, <MekanismGenerators:ReactorGlass:1>, <Mekanism:EnrichedAlloy>]]);
-
-###  Laser
-recipes.remove(<WarpDrive:blockLaser>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockLaser>, [[<IC2:itemToolMiningLaser:*>, <minechem:minechemOpticalMicroscopeLens:1>, <IC2:itemToolMiningLaser:*>], [<IC2:itemToolMiningLaser:*>, <IC2:blockMachine:12>, <IC2:itemToolMiningLaser:*>], [<IC2:itemPartCircuitAdv>, <minechem:minechemOpticalMicroscopeLens:1>, <IC2:itemPartCircuitAdv>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockLaser>, [[<ore:platePlatinum>, <Mekanism:ControlCircuit:2>, <ore:platePlatinum>], [<Mekanism:MachineBlock2:13>, <Mekanism:MachineBlock2:14>, <Mekanism:MachineBlock2:13>], [<ore:platePlatinum>, <Mekanism:ControlCircuit:2>, <ore:platePlatinum>]]);
-
-###  Laser Medium (Particle Booster)
-recipes.remove(<WarpDrive:blockLaserMedium>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockLaserMedium>, [[null, <GraviSuite:itemSimpleItem:5>, null], [<IC2:itemRecipePart:5>, <WarpDrive:itemComponent:17>, <IC2:itemRecipePart:5>], [null, <ore:plateTitanium>, null]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockLaserMedium>, [[null, <Mekanism:ControlCircuit:3>, null], [<MekanismGenerators:Generator:9>, <WarpDrive:itemComponent:17>, <MekanismGenerators:Generator:9>], [null, <ore:plateRefinedGlowstone>, null]]);
-
-###  Laser+Camera
-recipes.remove(<WarpDrive:blockLaserCamera>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockLaserCamera>, [[<gregtech_addon:metaitem_1:17028>, <gregtech_addon:components:4>, <gregtech_addon:metaitem_1:17028>], [<gregtech_addon:dataorb>, <WarpDrive:blockCamera>, <gregtech_addon:dataorb>], [<gregtech_addon:metaitem_1:17028>, <gregtech_addon:metaitem_1:24532>, <gregtech_addon:metaitem_1:17028>]]);
-#RF Recipe
-recipes.addShaped(<WarpDrive:blockLaserCamera>, [[<Mekanism:Ingot:3>, <Mekanism:ControlCircuit:2>, <Mekanism:Ingot:3>], [<Mekanism:ReinforcedAlloy>, <WarpDrive:blockCamera>, <Mekanism:ReinforcedAlloy>], [<Mekanism:Ingot:3>, <Mekanism:ConfigurationCard>, <Mekanism:Ingot:3>]]);
-
-
-###  Reactor Laser Monitor
-recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);
-
-#IC2 Recipe
-recipes.addShaped(<WarpDrive:blockIC2reactorLaserMonitor>, [[<gregtech_addon:metaitem_1:24505>, <gregtech_addon:components>, <gregtech_addon:metaitem_1:24510>], [<gregtech_addon:components>, <gregtech_addon:block:10>, <gregtech_addon:components>], [<gregtech_addon:metaitem_1:24510>, <gregtech_addon:machine:4>, <gregtech_addon:metaitem_1:24505>]]);
-
-
 ##########Star Module############
 
 mods.thermalexpansion.Pulverizer.addRecipe(8000, <realstars:reddwarfcore>, <ThermalFoundation:material:512>);
@@ -414,16 +305,13 @@ furnace.setFuel(<realstars:yellowsupergiantcore>, 75000);
 
 ########## Addons ############
 recipes.remove(<NVLWarpdriveExtensions:NVLDockingComputer>);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<ore:plateTungstenSteel>, <ore:craftingMonitorTier02>, <ore:plateTungstenSteel>], [<gregtech_addon:components:3>, <IC2:blockMachine:12>, <gregtech_addon:components:3>], [<ore:gearTungstenSteel>, <ore:craftingCircuitTier07>, <ore:gearTungstenSteel>]]);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<ore:ingotRefinedObsidian>, <rftools:screenBlock>, <ore:ingotRefinedObsidian>], [<ThermalFoundation:material:140>, <ThermalExpansion:Frame:3>, <ThermalFoundation:material:140>], [<ore:ingotRefinedObsidian>, <Mekanism:ControlCircuit:3>, <ore:ingotRefinedObsidian>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLDockingComputer>, [[<minecraft:iron_ingot>, <OpenComputers:item:102>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:13>, <minecraft:compass>, <WarpDrive:itemComponent:13>], [<minecraft:iron_ingot>, <ore:gearSilver>, <minecraft:iron_ingot>]]);
 
 recipes.remove(<NVLWarpdriveExtensions:NVLLTFBuffer>);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<ore:plateInvar>, <ore:craftingMonitorTier02>, <ore:plateInvar>], [<gregtech_addon:components:3>, <IC2:blockMachine3:7>, <gregtech_addon:components:3>], [<ore:gearInvar>, <ore:circuitBasic>, <ore:gearInvar>]]);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<ore:ingotElectrum>, <rftools:screenBlock>, <ore:ingotElectrum>], [<ore:gearSignalum>, <ThermalExpansion:Frame:1>, <ore:gearSignalum>], [<ore:ingotElectrum>, <Mekanism:ControlCircuit:1>, <ore:ingotElectrum>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLLTFBuffer>, [[<minecraft:iron_ingot>, <OpenComputers:item:101>, <minecraft:iron_ingot>], [<minecraft:diamond_axe>, <WarpDrive:itemComponent:1>, <minecraft:diamond_axe>], [<minecraft:iron_ingot>, <ore:gearBronze>, <minecraft:iron_ingot>]]);
 
 recipes.remove(<NVLWarpdriveExtensions:NVLBlockLMCC>);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<ore:plateInvar>, <ore:craftingMonitorTier02>, <ore:plateInvar>], [<gregtech_addon:components:3>, <IC2:blockMachine2:11>, <gregtech_addon:components:3>], [<ore:gearInvar>, <ore:circuitAdvanced>, <ore:gearInvar>]]);
-recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<ore:ingotElectrum>, <rftools:screenBlock>, <ore:ingotElectrum>], [<ore:gearLumium>, <ThermalExpansion:Frame:2>, <ore:gearLumium>], [<ore:ingotElectrum>, <Mekanism:ControlCircuit:2>, <ore:ingotElectrum>]]);
+recipes.addShaped(<NVLWarpdriveExtensions:NVLBlockLMCC>, [[<minecraft:iron_ingot>, <OpenComputers:item:101>, <minecraft:iron_ingot>], [<minecraft:diamond_pickaxe>, <WarpDrive:itemComponent:1>, <minecraft:diamond_pickaxe>], [<minecraft:iron_ingot>, <ore:gearIron>, <minecraft:iron_ingot>]]);
 
 print("Initialized 'WarpDrive.zs'");
 

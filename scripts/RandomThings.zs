@@ -16,7 +16,7 @@ mods.forestry.Moistener.addRecipe(<RandomThings:fertilizedDirt>, <Forestry:soil>
 <RandomThings:fertilizedDirt>.addTooltip("Crops on this soil grow 3x as fast and cannot be trampled");
 
 recipes.remove(<RandomThings:enderLetter>);
-recipes.addShaped(<RandomThings:enderLetter>, [[null, <witchery:ingredient:67>, null], [<witchery:ingredient:67>, <Forestry:letters>, <witchery:ingredient:67>], [null, <witchery:ingredient:67>, null]]);
+recipes.addShaped(<RandomThings:enderLetter>, [[null, <minecraft:ender_eye>, null], [<minecraft:ender_pearl>, <Forestry:letters>, <minecraft:ender_pearl>], [null, <minecraft:ender_pearl>, null]]);
 
 recipes.remove(<RandomThings:magneticForce>);
 #recipes.addShapeless(<RandomThings:magneticForce>, [<BiomesOPlenty:misc:11>, <HardcoreEnderExpansion:curse>, <HardcoreEnderExpansion:endoplasm>, <minecraft:map>]);

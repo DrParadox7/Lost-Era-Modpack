@@ -16,6 +16,9 @@ recipes.addShaped(<StorageDrawers:fullDrawers4>, [[<minecraft:chest>, <minecraft
 recipes.addShaped(<StorageDrawers:halfDrawers4>, [[<minecraft:chest>, <minecraft:wooden_slab>, <minecraft:chest>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], [<minecraft:chest>, <minecraft:wooden_slab>, <minecraft:chest>]]);
 recipes.addShaped(<StorageDrawers:halfDrawers2>, [[<minecraft:wooden_slab>, <minecraft:chest>, <minecraft:wooden_slab>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], [<minecraft:wooden_slab>, <minecraft:chest>, <minecraft:wooden_slab>]]);
 
+#Upgrade Template
+recipes.addShaped(<StorageDrawers:upgradeTemplate>*2, [[<ore:stickWooden>, <ore:stickWooden>, <ore:stickWooden>], [<ore:stickWooden>, <ore:drawerBasic>, <ore:stickWooden>], [<ore:stickWooden>, <ore:stickWooden>, <ore:stickWooden>]]);
+
 
 print("Initialized 'StorageDrawersFixes.zs'");
 
