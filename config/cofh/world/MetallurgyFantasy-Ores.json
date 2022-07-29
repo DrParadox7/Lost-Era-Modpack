@@ -142,37 +142,5 @@
         "dimensions": [
             7
         ]
-    },
-	"Atlarus": {
-        "template": "uniform",
-        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 14},
-        "material": {"name": "GalacticraftMars:tile.asteroidsBlock"},
-        "clusterSize": 6,
-        "numClusters": 2,
-        "minHeight": 0,
-        "maxHeight": 256,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -30
-        ]
-    },
-	"Adamantine": {
-        "template": "uniform",
-        "block": {"name": "Metallurgy:fantasy.ore", "metadata": 13},
-        "material": {"name": "GalacticraftMars:tile.asteroidsBlock"},
-        "clusterSize": 6,
-        "numClusters": 2,
-        "minHeight": 0,
-        "maxHeight": 256,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -30
-        ]
     }
 }

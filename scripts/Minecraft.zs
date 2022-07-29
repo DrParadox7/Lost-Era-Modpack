@@ -41,14 +41,6 @@ game.setLocalization("en_US", "tile.cookingforblockheads:toaster.name", "Toaster
 recipes.remove(<harvestcraft:honeycombchocolatebarItem>);
 recipes.addShapeless(<harvestcraft:honeycombchocolatebarItem>, [<harvestcraft:saucepanItem>,<harvestcraft:chocolatebarItem>, <Forestry:beeCombs>]);
 
-#Big Doors
-recipes.addShaped(<malisisdoors:medieval_door>, [[<malisisdoors:item.door_dark_oak>, <malisisdoors:item.door_dark_oak>, null], [<malisisdoors:item.door_dark_oak>, <malisisdoors:item.door_dark_oak>, null], [<malisisdoors:item.door_dark_oak>, <malisisdoors:item.door_dark_oak>, null]]);
-recipes.addShaped(<malisisdoors:carriage_door>, [[<malisisdoors:item.door_birch>, <malisisdoors:item.door_birch>, null], [<malisisdoors:item.door_birch>, <malisisdoors:item.door_birch>, null], [<malisisdoors:item.door_birch>, <malisisdoors:item.door_birch>, null]]);
-
-#Lunarin Brick Conflict
-recipes.remove(<VillageNames:lunarinIronBlock>);
-recipes.addShapeless(<VillageNames:lunarinIronBlock>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
-
 #Bibliocraft Plates
 recipes.remove(<BiblioCraft:BiblioStuffs:2>);
 recipes.addShaped(<BiblioCraft:BiblioStuffs:2>*3, [[<Botany:ceramic:77>.withTag({meta: 77}), <Botany:ceramic:77>.withTag({meta: 77}), <Botany:ceramic:77>.withTag({meta: 77})]]);
@@ -64,22 +56,6 @@ recipes.remove(<WR-CBE|Logic:wirelessLogic:*>);
 recipes.addShaped(<WR-CBE|Logic:wirelessLogic>,[[<WR-CBE|Core:wirelessTransceiver>, null, null], [<ore:obsidianRod>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
 recipes.addShaped(<WR-CBE|Logic:wirelessLogic:1>,[[<WR-CBE|Core:recieverDish>, null, null], [<ore:obsidianRod>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
 recipes.addShaped(<WR-CBE|Logic:wirelessLogic:2>,[[<WR-CBE|Core:blazeTransceiver>, null, null], [<minecraft:blaze_rod>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>], [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
-
-#Add malisis trapdoors to trapdoor OreDictionary
-val trap = <ore:trapdoorWood>;
-
-trap.add(<malisisdoors:trapdoor_acacia>);
-trap.add(<malisisdoors:trapdoor_birch>);
-trap.add(<malisisdoors:trapdoor_dark_oak>);
-trap.add(<malisisdoors:trapdoor_jungle>);
-trap.add(<malisisdoors:trapdoor_spruce>);
-
-#Remove Et Futurum's Gates in favour of Malisis
-recipes.remove(<etfuturum:fence_gate_spruce>); 
-recipes.remove(<etfuturum:fence_gate_birch>); 
-recipes.remove(<etfuturum:fence_gate_jungle>); 
-recipes.remove(<etfuturum:fence_gate_acacia>); 
-recipes.remove(<etfuturum:fence_gate_dark_oak>); 
 
 #Thaumcraft Brains Drying Rack
 mods.tconstruct.Drying.removeRecipe(<WitchingGadgets:item.WG_MagicFood:2>);

@@ -6,11 +6,6 @@ import mods.nei.NEI;
 # You type these commands in your in-game chat.
 # Example: NEI.hide();
 
-NEI.hide(<Mekanism:PartTransmitter:15>);
-NEI.hide(<Mekanism:PartTransmitter:12>);
-NEI.hide(<Mekanism:PartTransmitter:4>);
-NEI.hide(<Mekanism:PartTransmitter:0>);
-NEI.addEntry(<Mekanism:PartTransmitter:8>.withTag({display: {Name: "Pressurized Gas Tube", Lore: ["Mekanism Gas Tubes,", "Only accepts Gas"]}}));
 NEI.hide(<MekanismTools:WoodPaxel>);
 NEI.hide(<MekanismTools:StonePaxel>);
 NEI.hide(<MekanismTools:IronPaxel>);
@@ -93,7 +88,6 @@ NEI.hide(<Aroma1997Core:wrench>);
 NEI.hide(<HardcoreEnderExpansion:corrupted_energy_high>);
 NEI.hide(<HardcoreEnderExpansion:corrupted_energy_low>);
 NEI.hide(<HardcoreEnderExpansion:laser_beam>);
-NEI.hide(<PortalGun:Portal_BlockMulti>);
 NEI.hide(<ProjRed|Core:projectred.core.part:46>);
 NEI.hide(<Botania:solidVine>);
 NEI.hide(<ProjRed|Core:projectred.core.part:45>);
@@ -113,7 +107,6 @@ NEI.hide(<ThaumicTinkerer:forcefield>);
 NEI.hide(<ThaumicTinkerer:nitorGas>);
 NEI.hide(<witchery:coffinblock>);
 NEI.hide(<ProjRed|Illumination:projectred.illumination.airousLight>);
-NEI.hide(<malisisdoors:null>);
 NEI.hide(<opensecurity:SecurityDoor>);
 NEI.hide(<opensecurity:SecurityDoorPrivate>);
 
@@ -159,6 +152,8 @@ NEI.hide(<ProjRed|Illumination:projectred.illumination.airousLight>);
 NEI.hide(<Thaumcraft:blockMagicBox>);
 NEI.hide(<Genetics:serum>);
 NEI.hide(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponPropInvisible>);
+NEI.hide(<AWWayofTime:blockSchemSaver>);
+NEI.hide(<AWWayofTime:blockMimic>);
 
 #Wither affected by Looting
 NEI.addEntry(<minecraft:nether_star>.withTag({display: {Lore: ["§8Now affected by §5Looting"]}}));

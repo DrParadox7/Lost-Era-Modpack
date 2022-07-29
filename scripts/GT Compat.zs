@@ -55,6 +55,10 @@ furnace.addRecipe(<Metallurgy:shadow.steel.ingot>, <Metallurgy:fantasy.dust:3>);
 #RS Upgrade 
 recipes.addShaped(<gregtech_addon:components:28>, [[<ore:plateAluminium>, <RedstoneArsenal:material:32>, <ore:plateAluminium>], [<RedstoneArsenal:material:32>, <RedstoneArsenal:material:96>, <RedstoneArsenal:material:32>], [<ore:plateAluminium>, <RedstoneArsenal:material:32>, <ore:plateAluminium>]]);
 
+#Thick Reflector
+recipes.removeShaped(<IC2:reactorReflectorThick:1>);
+recipes.addShaped(<IC2:reactorReflectorThick:1>, [[null, <IC2:reactorReflector:1>, null], [<IC2:reactorReflector:1>, <ore:cellBeryllium>, <IC2:reactorReflector:1>], [null, <IC2:reactorReflector:1>, null]]);
+
 #Rolling Machine
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17327>*4, [[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [null, null, null]]);
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17326>*4, [[<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, null], [<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, null], [null, null, null]]);

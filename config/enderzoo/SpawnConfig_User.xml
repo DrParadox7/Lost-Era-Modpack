@@ -24,7 +24,7 @@
 	<dimensionExclude id="1"/>
 	<dimensionExclude id="-100"/>
 	<dimensionExclude id="20"/>
-   </entry>
+  </entry>
 
   <entry id="Basalz" mobName="Basalz" rate="10" minGroupSize="2" maxGroupSize="5">
     <biomeFilter type="any">
@@ -38,7 +38,7 @@
 	<dimensionExclude id="1"/>
 	<dimensionExclude id="-100"/>
 	<dimensionExclude id="20"/>
-   </entry>
+  </entry>
 
    <entry id="WitherCow" mobName="GrimoireOfGaia.Wither Cow" rate="7" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="all">
@@ -55,88 +55,170 @@
 	<dimensionExclude id="1"/>
 	<dimensionExclude id="-100"/>
 	<dimensionExclude id="20"/>
-   </entry>
+  </entry>
    
-  <entry id="FaintGhast" mobName="SpecialMobs.FaintGhast" rate="8" minGroupSize="1" maxGroupSize="1">
+  <entry id="FaintGhast" mobName="SpecialMobs.FaintGhast" rate="3" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="OCEAN" />
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="-500" idEnd="-101"/>,
+    <dimensionExclude idStart="-99" idEnd="5"/>,
     <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
-  <entry id="Banshee" mobName="GrimoireOfGaia.Banshee" rate="2" minGroupSize="1" maxGroupSize="2">
+  <entry id="Banshee" mobName="GrimoireOfGaia.Banshee" rate="50" minGroupSize="1" maxGroupSize="4">
     <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="OCEAN" />
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="-500" idEnd="-101"/>,
+    <dimensionExclude idStart="-99" idEnd="500"/>,
+  </entry>
+
+  <entry id="BoneKnight" mobName="GrimoireOfGaia.Bone Knight" rate="8" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="SPOOKY" />      
+      <biome type="DEAD" />      
+      <biome type="NETHER" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude idStart="-2" idEnd="-3"/>   
+  </entry>
+
+  <entry id="Creep" mobName="GrimoireOfGaia.Creep" rate="4" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="OCEAN" />
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="-101"/>,
+    <dimensionExclude idStart="-99" idEnd="5"/>,
     <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
-   <entry id="BoneKnight" mobName="GrimoireOfGaia.Bone Knight" rate="4" minGroupSize="1" maxGroupSize="1">
-    <biomeFilter type="any">
-    </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
-    <dimensionExclude idStart="7" idEnd="500"/>   
+  <entry id="BigGolem" mobName="GrimoireOfGaia.Cobblestone Golem" rate="10" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="WASTELAND" />      
+      <biome type="MOUNTAIN" />     
+    </biomeFilter> 
   </entry>
 
-   <entry id="Creep" mobName="GrimoireOfGaia.Creep" rate="4" minGroupSize="1" maxGroupSize="1">
-    <biomeFilter type="any">
-    </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
-    <dimensionExclude idStart="7" idEnd="500"/>   
+  <entry id="TinyGolem" mobName="GrimoireOfGaia.Cobble Golem" rate="15" minGroupSize="1" maxGroupSize="3">
+    <biomeFilter type="all">
+      <biome type="WASTELAND" />      
+      <biome type="MOUNTAIN" />     
+    </biomeFilter> 
   </entry>
 
-   <entry id="Golem" mobName="GrimoireOfGaia.Cobblestone Golem" rate="1" minGroupSize="1" maxGroupSize="1">
-    <biomeFilter type="any">
-    </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
-    <dimensionExclude idStart="7" idEnd="500"/>   
-  </entry>
 
-  <entry id="FleshLich" mobName="GrimoireOfGaia.Flesh Lich" rate="5" minGroupSize="1" maxGroupSize="1">
-    <biomeFilter type="any">
+  <entry id="FleshLich" mobName="GrimoireOfGaia.Flesh Lich" rate="2" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="SPOOKY" />      
+      <biome type="DEAD" />      
+      <biome type="NETHER" exclude="true" />
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
-    <dimensionExclude idStart="7" idEnd="500"/>   
+    <dimensionExclude idStart="-2" idEnd="-3"/>  
   </entry>
   
-  <entry id="Dullahan" mobName="GrimoireOfGaia.Dullahan" rate="3" minGroupSize="1" maxGroupSize="1">
-    <biomeFilter type="any">
+  <entry id="Dullahan" mobName="GrimoireOfGaia.Dullahan" rate="7" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="SPOOKY" />      
+      <biome type="MAGICAL" /> 
+      <biome type="END" exclude="true" />
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
-    <dimensionExclude idStart="7" idEnd="500"/>   
+    <dimensionExclude idStart="-2" idEnd="-3"/>   
   </entry>
 
   <entry id="EnderEye" mobName="GrimoireOfGaia.Ender Eye" rate="7" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="OCEAN" />
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude idStart="-500" idEnd="-101"/>,
+    <dimensionExclude idStart="-99" idEnd="5"/>,
     <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
   
-  <entry id="FutakuchiOnna" mobName="GrimoireOfGaia.FutakuchiOnna" rate="2" minGroupSize="1" maxGroupSize="2">
-    <biomeFilter type="any">
+  <entry id="FutakuchiOnna" mobName="GrimoireOfGaia.FutakuchiOnna" rate="3" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="SPOOKY" />      
+      <biome type="MAGICAL" />     
+      <biome type="END" exclude="true" /> 
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
+    <dimensionExclude name="Twilight Forest"/>
+
+  </entry>
+
+  <entry id="Jorogumo" mobName="GrimoireOfGaia.Jorogumo" rate="5" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+    </biomeFilter>
+    <dimensionExclude idStart="-500" idEnd="5"/>,
     <dimensionExclude idStart="7" idEnd="500"/>   
   </entry>
 
-   <entry id="Jorogumo" mobName="GrimoireOfGaia.Jorogumo" rate="5" minGroupSize="1" maxGroupSize="1">
-    <biomeFilter type="any">
+  <entry id="Dhampir" mobName="GrimoireOfGaia.Dhampir" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="SPOOKY" />      
+      <biome type="MAGICAL" />   
+      <biome type="END" exclude="true" />  
     </biomeFilter>
-    <dimensionExclude idStart="-500" idEnd="-99"/>,
-    <dimensionExclude idStart="-101" idEnd="5"/>,
-    <dimensionExclude idStart="7" idEnd="500"/>   
+    <dimensionExclude name="Twilight Forest"/>
   </entry>
-  
+
+  <entry id="NineTails" mobName="GrimoireOfGaia.NineTails" rate="1" minGroupSize="0" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome name="Cherry Blossom Grove" />      
+    </biomeFilter>
+  </entry>
+
+  <entry id="EnderGirl" mobName="GrimoireOfGaia.Ender Dragon Girl" rate="1" minGroupSize="0" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="END" />
+      <biome name="Eldritch" exclude="true" />  
+    </biomeFilter>
+  </entry>
+
+  <entry id="Mermaid" mobName="GrimoireOfGaia.Mermaid" rate="2" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="BEACH" />
+      <biome type="JUNGLE" exclude="true" />  
+      <biome type="SNOWY" exclude="true" />  
+    </biomeFilter>
+  </entry>
+
+  <entry id="Sharko" mobName="GrimoireOfGaia.Sharko" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="all">
+      <biome type="BEACH" />
+      <biome type="JUNGLE" exclude="true" />  
+      <biome type="SNOWY" exclude="true" />  
+    </biomeFilter>
+  </entry>
+
+  <entry id="Wizards" mobName="Wizardry.Evil Wizard" rate="1" remove= "true">
+  </entry>
+
+
+
  --> 
 
 <!-- Enabling this section will remove the default wither witch spawn config and replace it with

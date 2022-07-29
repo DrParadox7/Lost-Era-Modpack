@@ -437,11 +437,6 @@ entity_tags {
 ##########################################################################################################
 
 item_tags {
-    S:"AWWayofTime:boundHelmet"=BreathingHelmet
-    S:"AWWayofTime:boundHelmetEarth"=BreathingHelmet
-    S:"AWWayofTime:boundHelmetFire"=BreathingHelmet
-    S:"AWWayofTime:boundHelmetWater"=BreathingHelmet
-    S:"AWWayofTime:boundHelmetWind"=BreathingHelmet
     S:"EnderIO:item.darkSteel_helmet"=BreathingHelmet
     S:"GraviSuite:advJetpack"=FlyInSpace
     S:"GraviSuite:advNanoChestPlate"=FlyInSpace

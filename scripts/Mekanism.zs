@@ -47,8 +47,8 @@ recipes.addShaped(<Mekanism:BasicBlock:8>, [[<Mekanism:EnrichedAlloy>, <ore:ingo
 #Dynamic Tank
 recipes.addShaped(<Mekanism:BasicBlock:9>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <Railcraft:machine.beta>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
-#Structural Glass- Now featuring Gas Nitriding
-mods.mekanism.Reaction.addRecipe(<ThermalExpansion:Glass>, <liquid:hydrogen>*3, <gas:potassiumNitrate>, <Mekanism:BasicBlock:10>, <gas:hydrogen>, 4000, 100);
+#Structural Glass
+recipes.addShaped(<Mekanism:BasicBlock:10>*8, [[<ore:ingotSteel>, <ThermalExpansion:Glass>, <ore:ingotSteel>], [<ThermalExpansion:Glass>, <Mekanism:EnrichedAlloy>, <ThermalExpansion:Glass>], [<ore:ingotSteel>, <ThermalExpansion:Glass>, <ore:ingotSteel>]]);
 
 #Dynamic Valve
 recipes.addShaped(<Mekanism:BasicBlock:11>, [[null, <Railcraft:machine.beta:2>, null], [<Mekanism:BasicBlock:9>, <Mekanism:ControlCircuit>, <Mekanism:BasicBlock:9>], [null, <Railcraft:machine.beta:2>, null]]);
@@ -305,7 +305,7 @@ recipes.addShaped(<Mekanism:Polyethene:3>, [[<Mekanism:Polyethene:1>], [<Mekanis
 recipes.addShaped(<Mekanism:GaugeDropper>, [[null, <ore:itemSilicon>, null], [<minecraft:glass_pane>, null, <minecraft:glass_pane>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
 
 #Installer Upgrades
-recipes.addShaped(<Mekanism:FactoryInstaller>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:EnergyUpgrade>, <Mekanism:Polyethene:2>, <Mekanism:SpeedUpgrade>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:FactoryInstaller>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<Mekanism:SpeedUpgrade>, <Mekanism:Polyethene:2>, <Mekanism:SpeedUpgrade>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>]]);
 recipes.addShaped(<Mekanism:FactoryInstaller:1>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:ReinforcedAlloy>], [<Mekanism:FactoryInstaller>, <Mekanism:FactoryInstaller>, <Mekanism:FactoryInstaller>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:ReinforcedAlloy>]]);
 recipes.addShaped(<Mekanism:FactoryInstaller:2>, [[<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:AtomicAlloy>], [<Mekanism:FactoryInstaller:1>, <Mekanism:FactoryInstaller:1>, <Mekanism:FactoryInstaller:1>], [<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:AtomicAlloy>]]);
 
@@ -367,8 +367,8 @@ recipes.remove(<MekanismGenerators:Reactor:*>);
 #Reactor Controller
 recipes.addShaped(<MekanismGenerators:Reactor>, [[<Mekanism:ControlCircuit:3>, <ore:paneGlass>, <Mekanism:ControlCircuit:3>], [<MekanismGenerators:Reactor:1>, <Mekanism:GasTank:*>, <MekanismGenerators:Reactor:1>], [<MekanismGenerators:Reactor:1>, <MekanismGenerators:Reactor:1>, <MekanismGenerators:Reactor:1>]]);
 
-#Reactor Casing - Now featuring Gas Nitriding
-mods.mekanism.Reaction.addRecipe(<Mekanism:BasicBlock:8>, <liquid:hydrogen>*15, <gas:potassiumNitrate>*5, <MekanismGenerators:Reactor:1>, <gas:hydrogen>*2, 8000, 150);
+##Reactor Casing
+recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [[null, <Mekanism:BasicBlock:8>, null], [<Mekanism:BasicBlock:8>, <Mekanism:ControlCircuit:1>, <Mekanism:BasicBlock:8>], [null, <Mekanism:BasicBlock:8>, null]]);
 
 #Reactor Port
 recipes.addShaped(<MekanismGenerators:Reactor:3> * 2, [[null, <MekanismGenerators:Reactor:1>, null], [<MekanismGenerators:Reactor:1>, <Mekanism:ControlCircuit:3>, <MekanismGenerators:Reactor:1>], [null, <MekanismGenerators:Reactor:1>, null]]);

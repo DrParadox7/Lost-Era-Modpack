@@ -50,19 +50,9 @@ mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBuc
 mods.campfirebackport.addCampfireRecipe("both", [<minecraft:bucket>], <minecraft:bucket>, 1);
 mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBucketFired>], <IguanaTweaksTConstruct:clayBucketFired>, 1);
 
-#Witchery (Lot's Stone)
-val lotStone = <BiomesOPlenty:misc:4>.withTag({ench: [], RepairCost: 2, display: {Name: " §dLot's Stone", Lore: ["§5Turns everything to salt", "§8§oThe catalyst of Sodom's demise"]}});
-
-recipes.remove(<BiomesOPlenty:crystal>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<BiomesOPlenty:crystal>);
-
-recipes.addShapeless(lotStone, [<witchery:ingredient:113>, <witchery:ingredient:93>, <witchery:ingredient:82>, <witchery:ingredient:11>]);
-
-
-recipes.addShapeless(<harvestcraft:saltItem>, [lotStone.reuse(), <minecraft:cobblestone>]);
-recipes.addShapeless(<harvestcraft:saltItem>, [lotStone.reuse(), <minecraft:sand>]);
-
-recipes.addShapeless(<harvestcraft:saltItem>, [lotStone.reuse(), <*>.noReturn()]);
+#Blood Magic
+mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <ThermalFoundation:material:16>, 1, 100);
+mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <Railcraft:dust:1>, 1, 100);
 
 #Botania
 mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 2, <harvestcraft:saltItem>, 15);

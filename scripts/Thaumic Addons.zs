@@ -146,44 +146,10 @@ mods.thaumcraft.Research.addPrereq("ICHORCLOTH_HELM_GEM", "ICHORCLOTH_ARMOR", fa
 mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_CHEST_GEM", false);
 mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_BOOTS_GEM", false);
 
-######Botania/Forgotten Relics COMPAT######
-mods.thaumcraft.Research.addResearch("BETTERQUEST", "FORBIDDEN", "null", 0, 1, 1, <Botania:corporeaSpark>);
-mods.thaumcraft.Research.setVirtual("BETTERQUEST", true);
 
-mods.thaumcraft.Research.addPrereq("GenericTheory", "CAP_manasteel", true);
-
-mods.thaumcraft.Research.addPrereq("SuperpositionRing", "CAP_manasteel", true);
-
-#####Forbidden Compat####
-#Hide Research Schools pre-Botania
-mods.thaumcraft.Research.removeResearch("SCHOOLS");
-
-mods.thaumcraft.Research.addResearch("SCHOOLS", "FORBIDDEN", "null", 1, 0, 1, <minecraft:enchanting_table>);
-mods.thaumcraft.Research.moveResearch("SCHOOLS", "FORBIDDEN", -3, 1);
-
-game.setLocalization("en_US", "tc.research_name.SCHOOLS", "Schools of Magic");
-game.setLocalization("en_US", "tc.research_text.SCHOOLS", "There's more than one path to power...");
-mods.thaumcraft.Research.addPage("SCHOOLS", "forbidden.research_page.SCHOOLS.1");
-
-mods.thaumcraft.Research.setConcealed("SCHOOLS", true);
-mods.thaumcraft.Research.addPrereq("SCHOOLS", "BETTERQUEST", true);
-
-#Hide Botania pre-Botania
-mods.thaumcraft.Research.removeResearch("BOTANY");
-
-mods.thaumcraft.Research.addResearch("BOTANY", "FORBIDDEN", "null", 1, 0, 1, <Botania:lexicon>);
-mods.thaumcraft.Research.moveResearch("BOTANY", "FORBIDDEN", -3, 3);
-
-game.setLocalization("en_US", "tc.research_name.BOTANY", "Botany");
-game.setLocalization("en_US", "tc.research_text.BOTANY", "Power sleeps in the earth...");
-mods.thaumcraft.Research.addPage("BOTANY", "forbidden.research_page.BOTANY.1");
-
-mods.thaumcraft.Research.setConcealed("BOTANY", true);
-mods.thaumcraft.Research.addPrereq("BOTANY", "SCHOOLS", false);
-
-#Visual Escapees
-mods.thaumcraft.Research.setConcealed("WHISPERWEED", true);
-mods.thaumcraft.Research.setConcealed("ROD_livingwood", true);
+######Forgotten x Forbidden ######
+mods.thaumcraft.Research.addPrereq("GenericTheory", "WHISPERWEED", true);
+mods.thaumcraft.Research.addPrereq("SuperpositionRing", "WHISPERWEED", true);
 
 //Add recipes for ancient stone types so I don't have to dungeon raid for building blocks
 #this is gonna be fucking hard to do
@@ -258,23 +224,7 @@ mods.thaumcraft.Arcane.addShaped("ORE", <Thaumcraft:blockCosmeticSolid:6> * 8, "
 
 #Wrath Cage Rebalance 
 mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WrathCage>);
-mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <ThaumicHorizons:planarConduit>, [<Thaumcraft:ItemResource:15>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>, <ThaumicTinkerer:kamiResource>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:15>, <ForbiddenMagic:NetherShard>, <ThaumicTinkerer:kamiResource>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>], "ira 32, praecantatio 32, bestia 32, machina 16", <ForbiddenMagic:WrathCage>, 10);
+mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <ThaumicHorizons:planarConduit>, [<Thaumcraft:ItemResource:15>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>, <ThaumicTinkerer:kamiResource>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:15>, <ForbiddenMagic:NetherShard>, <ThaumicTinkerer:kamiResource>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>], "ira 32, praecantatio 32, bestia 32, machina 16", <ForbiddenMagic:WrathCage>, 10);
 mods.thaumcraft.Research.refreshResearchRecipe("WRATHCAGE");
-
-#Warp Theory
-
-# Something
-mods.thaumcraft.Research.addPrereq("warptheory.something", "ENTROPICPROCESSING", false);
-
-#Inpure Tear
-mods.thaumcraft.Research.addPrereq("warptheory.cleanserminor", "ENTEROUTER", true);
-mods.thaumcraft.Research.addPrereq("warptheory.cleanserminor", "OUTERREV", true);
-
-#Pure Tear
-mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanser>);
-mods.thaumcraft.Infusion.addRecipe("warptheory.cleanser", <WarpTheory:item.warptheory.cleanserminor>, [<ForgottenRelics:ItemChaosCore>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemEldritchObject:3>], "sano 32, cognitio 100, praecantatio 16", <WarpTheory:item.warptheory.cleanser>, 10);
-mods.thaumcraft.Research.refreshResearchRecipe("warptheory.cleanser");
-
-mods.thaumcraft.Research.addPrereq("warptheory.cleanser", "ChaosCore", false);
 
 print("Initialized 'ThaumicAddons.zs'");

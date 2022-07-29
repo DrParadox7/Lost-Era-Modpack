@@ -318,6 +318,24 @@
             -1
         ]
     },
+    "sphalerite_lava": {
+        "template": "underfluid",
+        "block": {"name": "gregtech_addon:ore", "metadata": 8},
+        "material": "stone",
+        "genFluid": "lava",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "chunkChance": 2,
+        "minHeight": 0,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
     "Tungstate": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 9},

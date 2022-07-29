@@ -3,10 +3,10 @@
 
 print("Initializing 'RandomThings.zs'...");
 
-recipes.remove(<RandomThings:imbuingStation>);
-recipes.remove(<RandomThings:spectreKey>);
 recipes.remove(<RandomThings:spiritBinder>);
-recipes.remove(<RandomThings:enderLetter>);
+
+#Imbuing Station
+recipes.remove(<RandomThings:imbuingStation>);
 recipes.addShaped(<RandomThings:imbuingStation>, [[<witchery:spanishmoss>, <minecraft:cauldron>, <witchery:spanishmoss>], [<witchery:ingredient:63>, <witchery:poppet>, <witchery:ingredient:63>], [<witchery:ingredient:15>, <witchery:ingredient:10>, <witchery:ingredient:15>]]);
 
 #Fertilized Dirt
@@ -15,9 +15,11 @@ mods.forestry.Moistener.addRecipe(<RandomThings:fertilizedDirt>, <Forestry:soil>
 
 <RandomThings:fertilizedDirt>.addTooltip("Crops on this soil grow 3x as fast and cannot be trampled");
 
+#Ender Letter
 recipes.remove(<RandomThings:enderLetter>);
-recipes.addShaped(<RandomThings:enderLetter>, [[null, <minecraft:ender_eye>, null], [<minecraft:ender_pearl>, <Forestry:letters>, <minecraft:ender_pearl>], [null, <minecraft:ender_pearl>, null]]);
+recipes.addShaped(<RandomThings:enderLetter>, [[<minecraft:ender_eye>], [<Forestry:letters>], [<minecraft:ender_pearl>]]);
 
+#Magnetic Force
 recipes.remove(<RandomThings:magneticForce>);
 #recipes.addShapeless(<RandomThings:magneticForce>, [<BiomesOPlenty:misc:11>, <HardcoreEnderExpansion:curse>, <HardcoreEnderExpansion:endoplasm>, <minecraft:map>]);
 
@@ -32,5 +34,9 @@ recipes.addShaped(<RandomThings:energyDistributor>, [[<ore:ingotInvar>, <Thermal
 #Ender Energy Distributor
 recipes.remove(<RandomThings:enderEnergyDistributor>);
 recipes.addShaped(<RandomThings:enderEnergyDistributor>, [[<ore:ingotEnderium>, <minecraft:ender_eye>, <ore:ingotEnderium>], [<RedstoneArsenal:material:96>, <RandomThings:energyDistributor>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:material:2>, <ore:ingotEnderium>]]);
+
+#SpectreKey
+recipes.remove(<RandomThings:spectreKey>);
+recipes.addShaped(<RandomThings:spectreKey>, [[null, <RandomThings:ingredient:3>, null], [<RandomThings:ingredient:3>, <ExtraUtilities:unstableingot:*>, <RandomThings:ingredient:3>], [null, <RandomThings:ingredient:3>, null]]);
 
 print("Initialized 'RandomThings.zs'");

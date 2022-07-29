@@ -1,24 +1,28 @@
 {
 	"Zinc": {
-        "template": "uniform",
+        "template": "underfluid",
         "block": {"name": "Metallurgy:precious.ore"},
         "material": "stone",
-        "clusterSize": 4,
-        "numClusters": 4,
+        "genFluid": "lava",
+        "clusterSize": 5,
+        "numClusters": 5,
         "minHeight": 0,
-        "maxHeight": 128,
+        "maxHeight": 75,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "none",
         "biomes": [
-            {"type": "name", "entry": "Mining Biome"}
+            "all"
         ],
-        "dimensionRestriction": "whitelist",
+        "dimensionRestriction": "blacklist",
         "dimensions": [
-            6
+            -1,
+            1,
+			7
         ]
     },
     "CertusQuartz": {
-        "template": "cave", "ceiling": "false",
+        "template": "cave", 
+        "ceiling": "false",
         "block": [
             {"name": "appliedenergistics2:tile.OreQuartz", "weight":95},
             {"name": "appliedenergistics2:tile.OreQuartzCharged", "weight":5}
@@ -63,7 +67,7 @@
         "block": "Forestry:resources",
         "material": "stone",
         "clusterSize": 15,
-		"chunkChance": 50,
+		"chunkChance": 5,
         "numClusters": 3,
         "minHeight": 58,
         "maxHeight": 128,

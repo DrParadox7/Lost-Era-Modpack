@@ -28,5 +28,6 @@ recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:72>, <witc
 <witchery:ingredient:112>.addTooltip("Wandering soul of the Dream Realms");
 <witchery:somniancotton>.addTooltip("Found in Dreams");
 <witchery:ingredient:99>.addTooltip("Found in Nightmares");
+<witchery:ingredient:103>.addTooltip("Drops from slayed Nightmares");
 
 print("Initialized 'Witchery.zs'");

@@ -3,18 +3,16 @@
 
 print("Initializing 'EnderStorage.zs'...");
 
-#RemoveRecipes
-recipes.remove(<EnderStorage:enderChest>);
-recipes.remove(<EnderStorage:enderChest:4096>);
+#Ender Chest
 recipes.remove(<EnderStorage:enderChest:*>);
+recipes.addShaped(<EnderStorage:enderChest>, [[<minecraft:blaze_rod>, <minecraft:wool:*>, <minecraft:blaze_rod>],[<minecraft:obsidian>, <minecraft:chest>, <minecraft:obsidian>],[<minecraft:blaze_rod>, <AWWayofTime:reinforcedTelepositionFocus>, <minecraft:blaze_rod>]]);
+
+#Ender Tank
+recipes.addShaped(<EnderStorage:enderChest:4096>, [[<minecraft:blaze_rod>, <minecraft:wool:*>, <minecraft:blaze_rod>],[<minecraft:obsidian>, <minecraft:cauldron>, <minecraft:obsidian>],[<minecraft:blaze_rod>, <AWWayofTime:reinforcedTelepositionFocus>, <minecraft:blaze_rod>]]);
+
+#Ender Pouch 
 recipes.remove(<EnderStorage:enderPouch:*>);
-recipes.remove(<ThermalExpansion:Tesseract>);
+recipes.addShaped(<EnderStorage:enderPouch>, [[<minecraft:blaze_powder>, <minecraft:leather>, <minecraft:blaze_powder>],[<minecraft:leather>, <AWWayofTime:enhancedTelepositionFocus>, <minecraft:leather>],[<minecraft:blaze_powder>, <minecraft:wool:*>, <minecraft:blaze_powder>]]);
 
-#NewRecipes
-mods.extraUtils.QED.addShapedRecipe(<EnderStorage:enderChest:4096>, [[<ore:itemBlazeRod>, <minecraft:wool:*>, <ore:itemBlazeRod>], [<qCraft:essence:2>, <OpenBlocks:tank>, <qCraft:essence:2>], [<minecraft:blaze_rod>, <HardcoreEnderExpansion:transference_gem>, <minecraft:blaze_rod>]]);
-mods.extraUtils.QED.addShapedRecipe(<EnderStorage:enderChest>, [[<ore:itemBlazeRod>, <minecraft:wool:*>, <ore:itemBlazeRod>], [<qCraft:essence:2>, <HardcoreEnderExpansion:void_chest>, <qCraft:essence:2>], [<ore:itemBlazeRod>, <HardcoreEnderExpansion:transference_gem>, <ore:itemBlazeRod>]]);
-mods.extraUtils.QED.addShapedRecipe(<EnderStorage:enderPouch>, [[<minecraft:blaze_powder>, <Natura:barleyFood:6>, <minecraft:blaze_powder>], [<Natura:barleyFood:6>, <HardcoreEnderExpansion:spatial_dash_gem>, <Natura:barleyFood:6>], [<minecraft:blaze_powder>, <minecraft:wool:*>, <minecraft:blaze_powder>]]);
-
-recipes.addShapeless(<BiomesOPlenty:misc:11>, [<arsmagica2:itemOre:3>, <minecraft:ender_pearl>, <Thaumcraft:ItemWispEssence>, <BiomesOPlenty:jarFilled>]);
 
 print("Initialized 'EnderStorage.zs'");

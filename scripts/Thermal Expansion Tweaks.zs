@@ -49,7 +49,7 @@ mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech_addon:ore:5>);
 mods.thermalexpansion.Pulverizer.addRecipe(3200, <gregtech_addon:ore:5>, <gregtech_addon:metaitem_1:3822>*2);
 
 #Pure
-mods.mekanism.Purification.addRecipe(<gregtech_addon:metaitem_1:3822>, <gas:hydrogenchloride>, <gregtech_addon:metaitem_1:4822>);
+mods.mekanism.Reaction.addRecipe(<gregtech_addon:metaitem_1:3822>, <liquid:water>*250, <gas:hydrogenchloride>*250, <gregtech_addon:metaitem_1:4822>, <gas:oxygen>, 8000, 100);
 
 #Process into Titanium
 mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalFoundation:material:512>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 45);

@@ -18,31 +18,36 @@
 	  When used on machines, we'll give a few trials to find a valid slot for each loot, eventually try another loot, eventually skipping it altogether.
 	  -->
 	<lootSet group="ship" name="legacy" weight="1">
+		<loot item="minecraft:iron_ingot"			  minQuantity="6" maxQuantity="24" weight="55" />
+		<loot item="minecraft:iron_ingot"			  minQuantity="3" maxQuantity="12" weight="40" />
+		<loot item="minecraft:diamond"			      minQuantity="1" maxQuantity="3" weight="5" />
+		<loot item="ThermalFoundation:material"	damage="69"		   minQuantity="1" maxQuantity="4" weight="15" />
+		<loot item="ThermalFoundation:material"	damage="69"		   minQuantity="1" maxQuantity="4" weight="15" />
 		<loot item="IC2:blockNuke"                     minQuantity="1" maxQuantity="3"  weight="1"  /><!-- Nuke -->
-		<loot item="IC2:itemShardIridium"              minQuantity="3" maxQuantity="9"  weight="5" /><!-- Iridium shard -->
-		<loot item="IC2:itemPartIndustrialDiamond"     minQuantity="1" maxQuantity="4"  weight="7" /><!-- Diamond -->
-		<loot item="IC2:itemArmorAlloyChestplate"      minQuantity="1" maxQuantity="1"  weight="10" /><!-- Reinforced Armor -->
-		<loot item="IC2:blockAlloy"                    minQuantity="7" maxQuantity="20" weight="10" /><!-- Reinforced stone -->
-		<loot item="IC2:blockAlloyGlass"               minQuantity="5" maxQuantity="12" weight="10" /><!-- Reinforced glass -->
-		<loot item="IC2:itemNightvisionGoggles"        minQuantity="1" maxQuantity="1"  weight="8" /><!-- Nightvision Goggles -->
-		<loot item="IC2:itemTinCanFilled"              minQuantity="3" maxQuantity="8"  weight="10" /><!-- TinCanFilled -->
-		<loot item="IC2:blockMachine2"     damage="1"  minQuantity="1" maxQuantity="2"  weight="9" /><!-- Tesla -->
-		<loot item="IC2:itemScrapbox"                  minQuantity="3" maxQuantity="9"  weight="8" /><!-- Scrap -->
-		<loot item="IC2:itemDynamiteSticky"            minQuantity="3" maxQuantity="15"  weight="9" /><!-- DynamiteSticky -->
-		<loot item="IC2:itemCofeeBeans"                minQuantity="3" maxQuantity="8"  weight="10" /><!-- Coffee -->
-		<loot item="IC2:itemIngot"         damage="3"  minQuantity="8" maxQuantity="16"  weight="5"  /><!-- Steel -->
+		<loot item="IC2:itemShardIridium"              minQuantity="3" maxQuantity="9"  weight="10" /><!-- Iridium shard -->
+		<loot item="IC2:itemPartIndustrialDiamond"     minQuantity="1" maxQuantity="4"  weight="14" /><!-- Diamond -->
+		<loot item="IC2:itemArmorAlloyChestplate"      minQuantity="1" maxQuantity="1"  weight="20" /><!-- Reinforced Armor -->
+		<loot item="IC2:blockAlloy"                    minQuantity="7" maxQuantity="20" weight="20" /><!-- Reinforced stone -->
+		<loot item="IC2:blockAlloyGlass"               minQuantity="5" maxQuantity="12" weight="20" /><!-- Reinforced glass -->
+		<loot item="IC2:itemNightvisionGoggles"        minQuantity="1" maxQuantity="1"  weight="16" /><!-- Nightvision Goggles -->
+		<loot item="IC2:itemTinCanFilled"              minQuantity="3" maxQuantity="8"  weight="25" /><!-- TinCanFilled -->
+		<loot item="IC2:blockMachine2"     damage="1"  minQuantity="1" maxQuantity="2"  weight="15" /><!-- Tesla -->
+		<loot item="IC2:itemScrapbox"                  minQuantity="3" maxQuantity="9"  weight="30" /><!-- Scrap -->
+		<loot item="IC2:itemDynamiteSticky"            minQuantity="3" maxQuantity="15"  weight="20" /><!-- DynamiteSticky -->
+		<loot item="IC2:itemCofeeBeans"                minQuantity="3" maxQuantity="8"  weight="20" /><!-- Coffee -->
+		<loot item="IC2:itemIngot"         damage="3"  minQuantity="8" maxQuantity="16"  weight="30"  /><!-- Steel -->
 		<loot item="IC2:blockMachine2"                 minQuantity="1" maxQuantity="1"  weight="1"  /><!-- Teleporter -->
-		<loot item="IC2:itemCable"         damage="3"  minQuantity="1" maxQuantity="18" weight="13" /><!-- Insulated gold cable -->
-		<loot item="IC2:itemCable"         damage="5"  minQuantity="1" maxQuantity="18" weight="8"  /><!-- HV cable -->
+		<loot item="IC2:itemCable"         damage="3"  minQuantity="1" maxQuantity="18" weight="18" /><!-- Insulated gold cable -->
+		<loot item="IC2:itemCable"         damage="5"  minQuantity="1" maxQuantity="18" weight="9"  /><!-- HV cable -->
 		<loot item="IC2:itemCable"         damage="6"  minQuantity="1" maxQuantity="18" weight="10" /><!-- Insulated HV cable -->
-		<loot item="IC2:itemCable"         damage="9"  minQuantity="1" maxQuantity="18" weight="8"  /><!-- Glass fiber cable -->
-		<loot item="IC2:itemArmorRubBoots" damage="0"  minQuantity="1" maxQuantity="1"  weight="5"  /><!-- Rubber boots -->
-		<loot item="IC2:itemFuelRod"       damage="0"  minQuantity="1" maxQuantity="4"  weight="10" /><!-- Fuel rod -->
-		<loot item="IC2:itemRubber"                    minQuantity="5" maxQuantity="24" weight="10" /><!-- Rubber -->
-		<loot item="IC2:itemBatCrystal"                minQuantity="1" maxQuantity="1"  weight="12" /><!-- Energy crytal -->
-		<loot item="NuclearCraft:recordArea51"         minQuantity="1" maxQuantity="1"  weight="4" /><!-- Record -->
-		<loot item="NuclearCraft:recordPractice"       minQuantity="1" maxQuantity="1"  weight="4" /><!-- Record -->
-		<loot item="NuclearCraft:recordNeighborhood"   minQuantity="1" maxQuantity="1"  weight="4" /><!-- Record -->
+		<loot item="IC2:itemCable"         damage="9"  minQuantity="1" maxQuantity="18" weight="5"  /><!-- Glass fiber cable -->
+		<loot item="IC2:itemArmorRubBoots" damage="0"  minQuantity="1" maxQuantity="1"  weight="15"  /><!-- Rubber boots -->
+		<loot item="IC2:itemFuelRod"       damage="0"  minQuantity="1" maxQuantity="4"  weight="9" /><!-- Fuel rod -->
+		<loot item="IC2:itemRubber"                    minQuantity="5" maxQuantity="24" weight="25" /><!-- Rubber -->
+		<loot item="IC2:itemBatCrystal"                minQuantity="1" maxQuantity="1"  weight="3" /><!-- Energy crytal -->
+		<loot item="NuclearCraft:recordArea51"         minQuantity="1" maxQuantity="1"  weight="15" /><!-- Record -->
+		<loot item="NuclearCraft:recordPractice"       minQuantity="1" maxQuantity="1"  weight="15" /><!-- Record -->
+		<loot item="NuclearCraft:recordNeighborhood"   minQuantity="1" maxQuantity="1"  weight="15" /><!-- Record -->
 		<loot item="NuclearCraft:WRTG"                 minQuantity="1" maxQuantity="1"  weight="3"  /><!-- RTG -->
 		<loot item="NuclearCraft:AmRTG"                minQuantity="1" maxQuantity="1"  weight="2"  /><!-- RTG -->
 		<loot item="NuclearCraft:RTG"                  minQuantity="1" maxQuantity="1"  weight="1"  /><!-- RTG -->
@@ -54,6 +59,12 @@
 		<loot item="NuclearCraft:antimatter"    damage="1"  minQuantity="1" maxQuantity="1" weight="1" />
 		<loot item="NuclearCraft:parts"         damage="3"  minQuantity="8" maxQuantity="18" weight="12" />
 		<loot item="NuclearCraft:parts"         damage="8"  minQuantity="8" maxQuantity="18" weight="5" />
+		<loot item="rftools:unknownDimlet"			   minQuantity="1" maxQuantity="3" weight="7" />
+		<loot item="rftools:dimensionalShardItem"	   minQuantity="2" maxQuantity="6" weight="15" />
+		<loot item="ThermalFoundation:material"	damage="69"		   minQuantity="1" maxQuantity="4" weight="15" />
+		<loot item="ThermalFoundation:material"	damage="66"		   minQuantity="1" maxQuantity="4" weight="25" />
+		<loot item="ThermalFoundation:material"	damage="73"		   minQuantity="1" maxQuantity="4" weight="45" />
+
 		
 		<!-- nano armor? -->
 		<!-- ICBM rocket launcher platform minQuantity="1" maxQuantity="2" -->

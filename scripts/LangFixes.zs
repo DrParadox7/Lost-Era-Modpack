@@ -9,7 +9,7 @@ print("Initializing 'LangFixes.zs'...");
 # game.setLocalization("en_US", "localization here", "Name here");
 # Example: game.setLocalization("en_US", "", "");
 
-
+#Fixes
 game.setLocalization("en_US", "item.ItemGhastlySkull.name", "Ghastly Skull");
 
 game.setLocalization("en_US", "item.ItemGhastlySkull1.lore", "Why would you want this?");
@@ -71,8 +71,6 @@ game.setLocalization("en_US", "tile.railcraft.default.name", "Minetrack");
 game.setLocalization("en_US", "tile.botania:spreader10.name", "Mana Spreader");
 
 game.setLocalization("en_US", "entity.ItemFrame.name", "Item Frame");
-
-game.setLocalization("en_US", "tc.reseacrh_page.MB_EssenceDeath.1", "The Essence of a Shallow Grave channels the death of many of the ... natural creatures that wander the world: Zombies, Skeletons, those sorts of things. Exposing bees to this energy has the effect of making them slow and sluggish, and curtails the extent of their lifespan. Some Apimancers consider using frames imbued with these Essences to be cruel, however, others view it as a natural part of normal beekeeping, with an eye to creating their perfect strain of bees sometime within THEIR lifetime.  The Apimancer's Guild of Safety recommends handling them with telekenisis or very long tongs.");
 
 game.setLocalization("en_US", "tile.warpdrive.detection.siren32767.name", "Air Raid Siren");
 

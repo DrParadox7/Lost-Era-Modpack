@@ -12,7 +12,6 @@ recipes.remove(<OpenBlocks:hangglider>);
 recipes.remove(<OpenBlocks:generic>);
 recipes.remove(<OpenBlocks:goldenegg>);
 recipes.remove(<harvestcraft:market>);
-recipes.remove(<PortalGun:PortalTurret>);
 
 #Extra Utils generators
 recipes.remove(<ExtraUtilities:generator:10>);

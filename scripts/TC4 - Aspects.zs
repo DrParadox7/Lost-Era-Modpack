@@ -38,7 +38,6 @@ mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:5>, "terra 32, praecantati
 // --- IC2 ---
 
 
-
 // --- Steel Block
 mods.thaumcraft.Aspects.set(<IC2:blockMetal:5>, "metallum 18, ordo 5");
 
@@ -411,28 +410,10 @@ mods.thaumcraft.Aspects.set(<IC2:reactorCoolantTriple:1>, "gelum 8, metallum 4, 
 // ---  60k Coolant Cell
 mods.thaumcraft.Aspects.set(<IC2:reactorCoolantSix:1>, "gelum 16, metallum 8, vitreus 8");
 
-
-
-//--- Malis Doors ---
-
-
-
-// ---  Arcacia Trap Door
-mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_acacia>, "arbor 2, motus 1");
-
-// ---  Birch Trap Door
-mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_birch>, "arbor 2, motus 1");
-
-// ---  Dark Oakwood Trap Door
-mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_dark_oak>, "arbor 2, motus 1");
-
-// ---  Jungle Trap Door
-mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_jungle>, "arbor 2, motus 1");
-
-// ---  Spruce Trap Door
-mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_spruce>, "arbor 2, motus 1");
-
-
+// ---  Rubber
+mods.thaumcraft.Aspects.set(<MineFactoryReloaded:rubber.bar>, "vitreus 2, limus 2");
+mods.thaumcraft.Aspects.set(<IC2:itemRubber>, "vitreus 2, limus 2");
+mods.thaumcraft.Aspects.set(<gregtech_addon:metaitem_1:11880>, "vitreus 2, limus 2");
 
 
 

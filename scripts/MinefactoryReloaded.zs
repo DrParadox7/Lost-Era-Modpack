@@ -241,7 +241,7 @@ game.setLocalization("en_US", "item.mfr.plastic.raw.name", "Raw LDPE");
 
 #Plastic creation (Early game)
 mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.raw>, [[<Forestry:mulch>]], <liquid:bioethanol>* 100, 20);
-mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.sheet>*4, [[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>],[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>]], <liquid:resin>* 150, 20);
+mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.sheet>*4, [[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>],[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>]], <liquid:resin>* 50, 20);
 mods.mekanism.Enrichment.addRecipe(<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.sheet>);
 
 #Laser Focus 

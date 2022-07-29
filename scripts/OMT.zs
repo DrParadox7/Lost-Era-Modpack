@@ -51,7 +51,7 @@ recipes.remove(<openmodularturrets:baseTierThreeBlock>);
 recipes.addShaped(<openmodularturrets:baseTierThreeBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:gearDiamond>, <openmodularturrets:sensorTierFourItem>, <ore:gearDiamond>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
 
 recipes.remove(<openmodularturrets:baseTierFourBlock>);
-recipes.addShaped(<openmodularturrets:baseTierThreeBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:obsidian>, <openmodularturrets:sensorTierFiveItem>, <minecraft:obsidian>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
+recipes.addShaped(<openmodularturrets:baseTierFourBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:obsidian>, <openmodularturrets:sensorTierFiveItem>, <minecraft:obsidian>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
 
 #Upgrades
 recipes.remove(<openmodularturrets:efficiencyUpgradeItem>);

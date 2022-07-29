@@ -70,10 +70,6 @@ recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<minecraft:gold_ingot>,
 #Healing axe 
 game.setLocalization("en_US", "item.extrautils:defoliageAxe.documentation", "When you 'attack' a living creature, it will take some health from you and use it to heal the target, with a slight bonus. If used on undead creatures, you will still be damaged but the target will injured by four times that amount of damage.");
 
-#Rebalance ExtraUtilities World Interaction
-recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
-recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:dye:4>, <Botania:manaResource>, <minecraft:dye:4>], [<Botania:manaResource>, <witchery:kobolditepickaxe>, <Botania:manaResource>], [<minecraft:dye:4>, <Botania:manaResource>, <minecraft:dye:4>]]);
-
 #Infused Obsidian Thermal expansion
 recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
 
@@ -100,67 +96,74 @@ recipes.addShaped(<ExtraUtilities:budoff:3>, [[<minecraft:stone>, <ProjRed|Trans
 recipes.remove(<ExtraUtilities:timer>);
 recipes.addShaped(<ExtraUtilities:timer>, [[<ProjRed|Core:projectred.core.part:1>, <minecraft:stone>, <ProjRed|Core:projectred.core.part:1>], [<minecraft:stone>, <minecraft:redstone_torch>, <minecraft:stone>], [<ProjRed|Core:projectred.core.part:1>, <minecraft:stone>, <ProjRed|Core:projectred.core.part:1>]]);
 
-#Pipes (now a Witchery addon)
-
-#Item Extractor
-recipes.remove(<ExtraUtilities:extractor_base:*>);
-recipes.addShaped(<ExtraUtilities:extractor_base>, [[<ExtraUtilities:pipes>, <witchery:ingredient:12>, <ExtraUtilities:pipes>], [<witchery:ingredient:67>, <ore:blockHopper>, <witchery:ingredient:67>], [<minecraft:obsidian>, <minecraft:redstone>, <minecraft:obsidian>]]);
-
-#Fluid Extractor
-recipes.addShaped(<ExtraUtilities:extractor_base:6>, [[<ExtraUtilities:pipes>, <witchery:ingredient:12>, <ExtraUtilities:pipes>], [<witchery:ingredient:67>, <minecraft:cauldron>, <witchery:ingredient:67>], [<minecraft:obsidian>, <witchery:ingredient:153>, <minecraft:obsidian>]]);
-
-#Item
-recipes.addShaped(<ExtraUtilities:extractor_base_remote>, [[<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<witchery:ingredient:32>, <ore:blockHopper>, <witchery:ingredient:32>], [<minecraft:obsidian>, <witchery:ingredient:125>, <minecraft:obsidian>]]);
-#Fluid
-recipes.addShaped(<ExtraUtilities:extractor_base_remote:6>, [[<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<witchery:ingredient:37>, <minecraft:cauldron>, <witchery:ingredient:37>], [<minecraft:obsidian>, <witchery:ingredient:77>, <minecraft:obsidian>]]);
-
-
-#Item Pipe 
-recipes.remove(<ExtraUtilities:pipes>);
-recipes.addShaped(<ExtraUtilities:pipes> * 8, [[<minecraft:iron_ingot>, <ore:slabStone>, <minecraft:iron_ingot>], [<ore:barsIron>, <Botania:manaResource:15>, <ore:barsIron>], [<minecraft:iron_ingot>, <ore:slabStone>, <minecraft:iron_ingot>]]);
-
-#Sorting Pipe
-recipes.remove(<ExtraUtilities:pipes:8>);
-recipes.addShaped(<ExtraUtilities:pipes:8> * 3, [[<witchery:ingredient:102>, <witchery:ingredient:36>, <witchery:ingredient:102>], [<ore:dustGlowstone>, <ExtraUtilities:pipes>, <ore:dustGlowstone>], [<ExtraUtilities:pipes>, <witchery:ingredient:102>, <ExtraUtilities:pipes>]]);
-
-#Modded Sorting Pipe 
-recipes.remove(<ExtraUtilities:pipes:13>);
-recipes.addShaped(<ExtraUtilities:pipes:13>, [[<minecraft:redstone>, <witchery:shadedglass:*>, <minecraft:redstone>], [<witchery:shadedglass:*>, <ExtraUtilities:pipes:8>, <witchery:shadedglass:*>], [<minecraft:redstone>, <witchery:shadedglass:*>, <minecraft:redstone>]]);
-
-#Filtered Pipe 
-recipes.remove(<ExtraUtilities:pipes:9>);
-recipes.addShaped(<ExtraUtilities:pipes:9> * 3, [[<ore:dye>, <ExtraUtilities:pipes>, <ore:dye>], [<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<ore:dye>, <witchery:ingredient:34>, <ore:dye>]]);
-
-#Crossover Pipe
-recipes.remove(<ExtraUtilities:pipes:12>);
-recipes.addShapeless(<ExtraUtilities:pipes:12>*2, [<malisisdoors:iron_trapdoor>,<ExtraUtilities:pipes>,<ExtraUtilities:pipes>]);
-
-#Rationing Pipe 
-recipes.remove(<ExtraUtilities:pipes:10>);
-recipes.addShaped(<ExtraUtilities:pipes:10>, [[null, <witchery:ingredient:37>, null], [<witchery:ingredient:149>, <ExtraUtilities:pipes>, <witchery:ingredient:149>], [null, <witchery:ingredient:149>, null]]);
-
-#Hyper-Rationing Pipe 
-recipes.remove(<ExtraUtilities:pipes.1>);
-recipes.addShapeless(<ExtraUtilities:pipes.1>, [<ExtraUtilities:pipes:10>, <witchery:ingredient:56>]);
-
-#Burned Quartz
-furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
-mods.thermalexpansion.Furnace.removeRecipe(<minecraft:quartz_block>);
-
 #Blackout Curtain
 recipes.remove(<ExtraUtilities:curtains>);
 recipes.addShaped(<ExtraUtilities:curtains>*2, [[<minecraft:carpet:15>, <minecraft:carpet:15>, null], [<minecraft:carpet:15>, <minecraft:carpet:15>, null], [<minecraft:carpet:15>, <minecraft:carpet:15>, null]]);
 
 #Smooth Quartz & Burned Quartz conflict patch
+furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
+mods.thermalexpansion.Furnace.removeRecipe(<minecraft:quartz_block>);
+
 furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <etfuturum:smooth_quartz>);
 
 mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:quartz_block>, <etfuturum:smooth_quartz>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <etfuturum:smooth_quartz>, <ExtraUtilities:decorativeBlock1:2>);
 
+
 #Drums
 recipes.remove(<ExtraUtilities:drum:*>);
 mods.railcraft.Rolling.addShaped(<ExtraUtilities:drum>, [[<Railcraft:machine.beta>, <Railcraft:machine.beta:2>, <Railcraft:machine.beta>], [<Railcraft:machine.beta>, <minecraft:cauldron>, <Railcraft:machine.beta>], [<Railcraft:machine.beta>, <Railcraft:machine.beta:2>, <Railcraft:machine.beta>]]);
 recipes.addShaped(<ExtraUtilities:drum:1>, [[<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:drum>, <ExtraUtilities:bedrockiumIngot>], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>]]);
+
+
+
+### Pipes (now a Blood Magic addon) ###
+
+#Item Extractor
+recipes.remove(<ExtraUtilities:extractor_base:*>);
+recipes.addShaped(<ExtraUtilities:extractor_base>, [[<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>], [<AWWayofTime:reinforcedSlate>, <minecraft:ender_pearl>, <AWWayofTime:reinforcedSlate>], [<minecraft:redstone>, <minecraft:chest>, <minecraft:redstone>]]);
+
+#Fluid Extractor
+recipes.addShaped(<ExtraUtilities:extractor_base:6>, [[<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>], [<AWWayofTime:reinforcedSlate>, <minecraft:ender_pearl>, <AWWayofTime:reinforcedSlate>], [<minecraft:redstone>, <minecraft:cauldron>, <minecraft:redstone>]]);
+
+#Item Retriever
+recipes.addShaped(<ExtraUtilities:extractor_base_remote>, [[null, <minecraft:ender_eye>, null], [<ExtraUtilities:extractor_base>, <AWWayofTime:weakBloodShard>, <ExtraUtilities:extractor_base>], [null, <minecraft:ender_eye>, null]]);
+
+#Fluid Retriever
+recipes.addShaped(<ExtraUtilities:extractor_base_remote:6>, [[null, <minecraft:ender_eye>, null], [<ExtraUtilities:extractor_base:6>, <AWWayofTime:weakBloodShard>, <ExtraUtilities:extractor_base:6>], [null, <minecraft:ender_eye>, null]]);
+
+
+#Item Pipe 
+recipes.remove(<ExtraUtilities:pipes>);
+recipes.addShaped(<ExtraUtilities:pipes> * 8, [[null, <minecraft:stone>, null], [<AWWayofTime:blankSlate>, <minecraft:redstone>, <AWWayofTime:blankSlate>], [null, <minecraft:stone>, null]]);
+
+#Sorting Pipe
+recipes.remove(<ExtraUtilities:pipes:8>);
+recipes.addShaped(<ExtraUtilities:pipes:8> * 2, [[null, <minecraft:gold_ingot>, null], [<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [null, <minecraft:gold_ingot>, null]]);
+
+#Modded Sorting Pipe 
+recipes.remove(<ExtraUtilities:pipes:13>);
+recipes.addShaped(<ExtraUtilities:pipes:13>*2, [[null, <BiblioCraft:item.BiblioGlasses:2>, null], [<ExtraUtilities:pipes:8>, <minecraft:redstone>, <ExtraUtilities:pipes:8>], [null, <minecraft:book>, null]]);
+
+#Filtered Pipe 
+recipes.remove(<ExtraUtilities:pipes:9>);
+recipes.addShaped(<ExtraUtilities:pipes:9> * 4, [[<ore:dye>, <ExtraUtilities:pipes>, <ore:dye>], [<ExtraUtilities:pipes>, <minecraft:ender_eye>, <ExtraUtilities:pipes>], [<ore:dye>, <ExtraUtilities:pipes>, <ore:dye>]]);
+
+#Crossover Pipe
+recipes.remove(<ExtraUtilities:pipes:12>);
+recipes.addShaped(<ExtraUtilities:pipes:12> * 4, [[null, <ExtraUtilities:pipes>, null], [<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>],[null, <ExtraUtilities:pipes>, null]]);
+
+#Rationing Pipe 
+recipes.remove(<ExtraUtilities:pipes:10>);
+recipes.addShaped(<ExtraUtilities:pipes:10>, [[null, <minecraft:iron_bars>, null], [<minecraft:iron_bars>, <ExtraUtilities:pipes>, <minecraft:iron_bars>], [null, <minecraft:iron_bars>, null]]);
+
+#Hyper-Rationing Pipe 
+recipes.remove(<ExtraUtilities:pipes.1>);
+recipes.addShapeless(<ExtraUtilities:pipes.1>, [<ExtraUtilities:pipes:10>, <minecraft:item_frame>]);
+
+#Rebalance ExtraUtilities World Interaction
+recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
+recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:iron_ingot>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:iron_ingot>], [<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:iron_pickaxe>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>], [<minecraft:iron_ingot>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:iron_ingot>]]);
 
 print("Initialized 'Extrautilities.zs'");
 
