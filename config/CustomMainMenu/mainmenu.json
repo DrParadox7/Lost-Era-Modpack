@@ -223,7 +223,11 @@
 			"posX": 5,
 			"posY": -10,
 			"color": 7368816,
-			"alignment": "bottom_left"
+			"alignment": "bottom_left",
+			"action": {
+				"type": "openLink",
+				"link": "https://modrinth.com/modpack/the-lost-era/versions"
+			}
 		}
 	},
 	"alignments": {
