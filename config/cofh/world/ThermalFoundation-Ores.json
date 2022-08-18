@@ -42,8 +42,8 @@
     "lead": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 95},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 5}
         ],
         "clusterSize": 8,
         "numClusters": 4,

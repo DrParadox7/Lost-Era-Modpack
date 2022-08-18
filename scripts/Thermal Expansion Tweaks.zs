@@ -7,6 +7,7 @@ val Mithril = <ore:ingotMithril>;
 Mithril.add(<ThermalFoundation:material:70>);
 
 #Tesseract 
+recipes.remove(<ThermalExpansion:Tesseract>);
 recipes.addShapeless(<ThermalExpansion:Tesseract>, [<ThermalExpansion:Frame:11>, <NuclearCraft:antimatter>]);
 
 #Cinnabar
@@ -113,8 +114,8 @@ recipes.remove(<ThermalExpansion:augment:113>);
 recipes.remove(<ThermalExpansion:augment:114>);
 
 recipes.addShaped(<ThermalExpansion:augment:112>, [[<ore:ingotInvar>, <minecraft:glass>,<ore:ingotInvar>], [<minecraft:string>, <ThermalExpansion:material>, <minecraft:string>], [<ore:ingotInvar>, <minecraft:ender_eye>, <ore:ingotInvar>]]);
-recipes.addShaped(<ThermalExpansion:augment:113>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<minecraft:leather>, <ThermalExpansion:material>, <minecraft:leather>], [<ore:ingotElectrumFlux>, <minecraft:ender_eye>, <ore:ingotElectrumFlux>]]);
-recipes.addShaped(<ThermalExpansion:augment:114>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<minecraft:web>, <ThermalExpansion:material>, <minecraft:web>], [<ore:ingotPlatinum>, <minecraft:ender_eye>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<ThermalExpansion:augment:113>, [[<ore:ingotElectrumFlux>, <ThermalExpansion:Glass>, <ore:ingotElectrumFlux>], [<minecraft:lead>, <ThermalExpansion:material>, <minecraft:lead>], [<ore:ingotElectrumFlux>, <minecraft:ender_eye>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<ThermalExpansion:augment:114>, [[<ore:ingotPlatinum>, <ThermalExpansion:Glass:1>, <ore:ingotPlatinum>], [<etfuturum:slime>, <ThermalExpansion:material>, <etfuturum:slime>], [<ore:ingotPlatinum>, <minecraft:ender_eye>, <ore:ingotPlatinum>]]);
 
 #Igneous Upgrades
 recipes.remove(<ThermalExpansion:augment:312>);

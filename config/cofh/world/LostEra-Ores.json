@@ -17,7 +17,9 @@
         "dimensions": [
             -1,
             1,
-			7
+			7,
+            6,
+            -112
         ]
     },
     "CertusQuartz": {
@@ -27,10 +29,10 @@
             {"name": "appliedenergistics2:tile.OreQuartz", "weight":95},
             {"name": "appliedenergistics2:tile.OreQuartzCharged", "weight":5}
         ],
-        "clusterSize": 8,
-        "numClusters": 6,
-        "minHeight": 30,
-        "maxHeight": 55,
+        "clusterSize": 6,
+        "numClusters": 5,
+        "minHeight": 5,
+        "maxHeight": 50,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -46,20 +48,18 @@
     "Aluminium": {
         "template": "uniform",
         "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
-        "clusterSize": 6,
-        "numClusters": 6,
-        "minHeight": 40,
-        "maxHeight": 70,
+        "clusterSize": 5,
+        "numClusters": 2,
+        "minHeight": 30,
+        "maxHeight": 55,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1,
-			7
+            0
         ]
     },
     "Apatite": {
@@ -198,9 +198,9 @@
         "template": "uniform",
         "block": "qCraft:quantumore",
         "material": "stone",
-        "clusterSize": 4,
-        "numClusters": 3,
-        "chunkChance": 2,
+        "clusterSize": 1,
+        "numClusters": 10,
+        "chunkChance": 1,
         "minHeight": 1,
         "maxHeight": 63,
         "retrogen": "false",
@@ -212,7 +212,7 @@
         ]
     },
     "Limestone": {
-        "template": "uniform",
+        "template": "cave", 
         "block": [
 			{"name": "harvestcraft:salt", "weight":23},
 			{"name": "chisel:limestone", "weight":77}
@@ -238,21 +238,6 @@
             -1,
             1,
             69
-        ]
-    },
-	"bitumen": {
-        "template": "normal",
-        "block": {"name": "Metallurgy:utility.ore", "metadata": 4},
-        "clusterSize": 6,
-        "numClusters": 3,
-        "meanHeight": 16,
-        "maxVariance": 8,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            6
         ]
     },
     "Amethyst": {

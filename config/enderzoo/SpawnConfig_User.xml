@@ -1,5 +1,62 @@
 <SpawnConfig>
 
+  <entry id="ConcussionCreeper" mobName="enderzoo.ConcussionCreeper" creatureType="monster" rate="40"
+    minGroupSize="1" maxGroupSize="3" remove="true">
+    <biomeFilter type="any">
+      <biome type="BASE_LAND_TYPES" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+      <biome type="MUSHROOM" exclude="true" />
+    </biomeFilter>   
+    <dimensionExclude name="Twilight Forest"/>           
+    <dimensionExclude name="Dungeon"/>
+  </entry>
+  
+  <entry id="ConcussionCreeper" mobName="enderzoo.ConcussionCreeper" creatureType="monster" rate="40"
+    minGroupSize="1" maxGroupSize="3" remove="false">
+    <biomeFilter type="all">
+      <biome type="Mining Biome" />
+    </biomeFilter>   
+  </entry>
+
+  <entry id="EnderMiny" mobName="enderzoo.Enderminy" rate="30" remove="true">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="JUNGLE" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="Twilight Forest"/>
+  </entry>
+
+    <entry id="EnderMiny" mobName="enderzoo.Enderminy" rate="10">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="JUNGLE" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="Twilight Forest"/>
+  </entry>
+
+    <entry id="DireWolf" mobName="enderzoo.DireWolf" rate="30" minGroupSize="2" maxGroupSize="6" remove="true">
+    <biomeFilter type="all">
+      <biome type="SNOWY" />      
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
+  <entry id="DireWolf" mobName="enderzoo.DireWolf" rate="20" minGroupSize="1" maxGroupSize="4">
+    <biomeFilter type="all">
+      <biome type="SNOWY" />      
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
   <entry id="Blizz" mobName="Blizz" rate="10" minGroupSize="2" maxGroupSize="5">
     <biomeFilter type="any">
       <biome type="SNOWY" />
@@ -90,7 +147,16 @@
       <biome type="DEAD" />      
       <biome type="NETHER" exclude="true" />
     </biomeFilter>
-    <dimensionExclude idStart="-2" idEnd="-3"/>   
+    <dimensionExclude id="-1"/>
+	  <dimensionExclude id="1"/>
+    <dimensionExclude id="3"/>
+	  <dimensionExclude id="-100"/>
+	  <dimensionExclude id="-112"/>
+    <dimensionExclude id="-73"/>
+    <dimensionExclude id="-42"/>
+    <dimensionExclude id="-69"/>
+    <dimensionExclude id="-39"/>
+    <dimensionExclude id="-19"/>
   </entry>
 
   <entry id="Creep" mobName="GrimoireOfGaia.Creep" rate="4" minGroupSize="1" maxGroupSize="1">
@@ -127,8 +193,18 @@
       <biome type="SPOOKY" />      
       <biome type="DEAD" />      
       <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
     </biomeFilter>
-    <dimensionExclude idStart="-2" idEnd="-3"/>  
+    <dimensionExclude id="-1"/>
+	  <dimensionExclude id="1"/>
+    <dimensionExclude id="3"/>
+	  <dimensionExclude id="-100"/>
+	  <dimensionExclude id="-112"/>
+    <dimensionExclude id="-73"/>
+    <dimensionExclude id="-42"/>
+    <dimensionExclude id="-69"/>
+    <dimensionExclude id="-39"/>
+    <dimensionExclude id="-19"/>
   </entry>
   
   <entry id="Dullahan" mobName="GrimoireOfGaia.Dullahan" rate="7" minGroupSize="1" maxGroupSize="1">
@@ -137,7 +213,16 @@
       <biome type="MAGICAL" /> 
       <biome type="END" exclude="true" />
     </biomeFilter>
-    <dimensionExclude idStart="-2" idEnd="-3"/>   
+    <dimensionExclude id="-1"/>
+	  <dimensionExclude id="1"/>
+    <dimensionExclude id="3"/>
+	  <dimensionExclude id="-100"/>
+	  <dimensionExclude id="-112"/>
+    <dimensionExclude id="-73"/>
+    <dimensionExclude id="-42"/>
+    <dimensionExclude id="-69"/>
+    <dimensionExclude id="-39"/>
+    <dimensionExclude id="-19"/> 
   </entry>
 
   <entry id="EnderEye" mobName="GrimoireOfGaia.Ender Eye" rate="7" minGroupSize="1" maxGroupSize="1">
@@ -160,8 +245,16 @@
       <biome type="MAGICAL" />     
       <biome type="END" exclude="true" /> 
     </biomeFilter>
-    <dimensionExclude name="Twilight Forest"/>
-
+    <dimensionExclude id="-1"/>
+	  <dimensionExclude id="1"/>
+    <dimensionExclude id="3"/>
+	  <dimensionExclude id="-100"/>
+	  <dimensionExclude id="-112"/>
+    <dimensionExclude id="-73"/>
+    <dimensionExclude id="-42"/>
+    <dimensionExclude id="-69"/>
+    <dimensionExclude id="-39"/>
+    <dimensionExclude id="-19"/>
   </entry>
 
   <entry id="Jorogumo" mobName="GrimoireOfGaia.Jorogumo" rate="5" minGroupSize="1" maxGroupSize="1">
@@ -182,6 +275,16 @@
       <biome type="MAGICAL" />   
       <biome type="END" exclude="true" />  
     </biomeFilter>
+  <dimensionExclude id="-1"/>
+	<dimensionExclude id="1"/>
+  <dimensionExclude id="3"/>
+	<dimensionExclude id="-100"/>
+	<dimensionExclude id="-112"/>
+  <dimensionExclude id="-73"/>
+  <dimensionExclude id="-42"/>
+  <dimensionExclude id="-69"/>
+  <dimensionExclude id="-39"/>
+  <dimensionExclude id="-19"/>
     <dimensionExclude name="Twilight Forest"/>
   </entry>
 
@@ -189,6 +292,16 @@
     <biomeFilter type="all">
       <biome name="Cherry Blossom Grove" />      
     </biomeFilter>
+  <dimensionExclude id="-1"/>
+	<dimensionExclude id="1"/>
+  <dimensionExclude id="3"/>
+	<dimensionExclude id="-100"/>
+	<dimensionExclude id="-112"/>
+  <dimensionExclude id="-73"/>
+  <dimensionExclude id="-42"/>
+  <dimensionExclude id="-69"/>
+  <dimensionExclude id="-39"/>
+  <dimensionExclude id="-19"/>
   </entry>
 
   <entry id="EnderGirl" mobName="GrimoireOfGaia.Ender Dragon Girl" rate="1" minGroupSize="0" maxGroupSize="1">
@@ -196,6 +309,15 @@
       <biome type="END" />
       <biome name="Eldritch" exclude="true" />  
     </biomeFilter>
+  <dimensionExclude id="-1"/>
+  <dimensionExclude id="3"/>
+	<dimensionExclude id="-100"/>
+	<dimensionExclude id="-112"/>
+  <dimensionExclude id="-73"/>
+  <dimensionExclude id="-42"/>
+  <dimensionExclude id="-69"/>
+  <dimensionExclude id="-39"/>
+  <dimensionExclude id="-19"/>
   </entry>
 
   <entry id="Mermaid" mobName="GrimoireOfGaia.Mermaid" rate="2" minGroupSize="1" maxGroupSize="1">
@@ -204,6 +326,16 @@
       <biome type="JUNGLE" exclude="true" />  
       <biome type="SNOWY" exclude="true" />  
     </biomeFilter>
+  <dimensionExclude id="-1"/>
+	<dimensionExclude id="1"/>
+  <dimensionExclude id="3"/>
+	<dimensionExclude id="-100"/>
+	<dimensionExclude id="-112"/>
+  <dimensionExclude id="-73"/>
+  <dimensionExclude id="-42"/>
+  <dimensionExclude id="-69"/>
+  <dimensionExclude id="-39"/>
+  <dimensionExclude id="-19"/>
   </entry>
 
   <entry id="Sharko" mobName="GrimoireOfGaia.Sharko" rate="1" minGroupSize="1" maxGroupSize="1">
@@ -212,12 +344,44 @@
       <biome type="JUNGLE" exclude="true" />  
       <biome type="SNOWY" exclude="true" />  
     </biomeFilter>
+  <dimensionExclude id="-1"/>
+	<dimensionExclude id="1"/>
+  <dimensionExclude id="3"/>
+	<dimensionExclude id="-100"/>
+	<dimensionExclude id="-112"/>
+  <dimensionExclude id="-73"/>
+  <dimensionExclude id="-42"/>
+  <dimensionExclude id="-69"/>
+  <dimensionExclude id="-39"/>
+  <dimensionExclude id="-19"/>
   </entry>
 
-  <entry id="Wizards" mobName="Wizardry.Evil Wizard" rate="1" remove= "true">
+  <entry id="Dryad" mobName="am2.entities.EntityDryad" rate="11" minGroupSize="1" maxGroupSize="3">
+      <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="PLAINS" />
+      <biome type="MOUNTAIN" />
+      <biome type="HILLS" />
+      <biome type="SWAMP" />
+      <biome type="SNOWY" />
+      <biome type="MUSHROOM" />
+      <biome type="MAGICAL" />
+      <biome type="DEAD" exclude="true" />
+      <biome type="WASTELAND" exclude="true" /> 
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" /> 
+    </biomeFilter>
+	<dimensionExclude id="-1"/>
+	<dimensionExclude id="1"/>
+  <dimensionExclude id="3"/>
+	<dimensionExclude id="-100"/>
+	<dimensionExclude id="-112"/>
+  <dimensionExclude id="-73"/>
+  <dimensionExclude id="-42"/>
+  <dimensionExclude id="-69"/>
+  <dimensionExclude id="-39"/>
+  <dimensionExclude id="-19"/>
   </entry>
-
-
 
  --> 
 

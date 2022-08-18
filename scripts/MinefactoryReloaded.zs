@@ -122,6 +122,19 @@ mods.thermalexpansion.Furnace.removeRecipe(<gregtech_addon:metaitem_1:17874>);
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <MineFactoryReloaded:plastic.bag>, <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>, 25);
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <MineFactoryReloaded:straw>, <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>, 55);
 
+#Pokeballs
+#Single-use
+recipes.remove(<MineFactoryReloaded:safarinet.singleuse>);
+recipes.addShaped(<MineFactoryReloaded:safarinet.singleuse>, [[<minecraft:iron_ingot>, <MineFactoryReloaded:plastic.sheet>, <minecraft:iron_ingot>], [<MineFactoryReloaded:plastic.sheet>, <minecraft:ender_pearl>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:iron_ingot>, <MineFactoryReloaded:plastic.sheet>, <minecraft:iron_ingot>]]);
+
+#Reusable
+recipes.remove(<MineFactoryReloaded:safarinet.reusable>);
+recipes.addShaped(<MineFactoryReloaded:safarinet.reusable>, [[<ore:ingotSteel>, <Mekanism:Polyethene:2>, <ore:ingotSteel>], [<Mekanism:Polyethene:2>, <StevesCarts:ModuleComponents:45>, <Mekanism:Polyethene:2>], [<ore:ingotSteel>, <Mekanism:Polyethene:2>, <ore:ingotSteel>]]);
+
+#Porta Spawner
+recipes.remove(<MineFactoryReloaded:portaspawner>);
+recipes.addShaped(<MineFactoryReloaded:portaspawner>, [[<ore:ingotRefinedGlowstone>, <Mekanism:TeleportationCore>, <ore:ingotRefinedGlowstone>], [<rftools:infusedDiamondItem>, <minecraft:nether_star>, <rftools:infusedDiamondItem>], [<ore:ingotRefinedGlowstone>, <Mekanism:ControlCircuit:2>, <ore:ingotRefinedGlowstone>]]);
+
 ###Plastic Rework###
 
 recipes.remove(<MineFactoryReloaded:machineblock>);
@@ -148,7 +161,6 @@ recipes.remove(<MineFactoryReloaded:rednet.memorycard>);
 recipes.remove(<MineFactoryReloaded:upgrade.logic>);
 recipes.remove(<MineFactoryReloaded:syringe.empty>);
 recipes.remove(<MineFactoryReloaded:safarinet.launcher>);
-recipes.remove(<MineFactoryReloaded:safarinet.singleuse>);
 recipes.remove(<MineFactoryReloaded:xpextractor>);
 recipes.remove(<MineFactoryReloaded:straw>);
 recipes.remove(<MineFactoryReloaded:plastic.cup>);
@@ -186,7 +198,6 @@ recipes.addShaped(<MineFactoryReloaded:rednet.memorycard>, [[<minecraft:gold_nug
 recipes.addShaped(<MineFactoryReloaded:upgrade.logic>, [[<minecraft:redstone>, <MineFactoryReloaded:plastic.sheet>, <minecraft:redstone>], [<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:rednet.memorycard>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:redstone>, <MineFactoryReloaded:plastic.sheet>, <minecraft:redstone>]]);
 recipes.addShaped(<MineFactoryReloaded:syringe.empty>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:rubber.bar>, <MineFactoryReloaded:plastic.sheet>], [<MineFactoryReloaded:plastic.sheet>, null, <MineFactoryReloaded:plastic.sheet>], [null, <minecraft:iron_ingot>, null]]);
 recipes.addShaped(<MineFactoryReloaded:safarinet.launcher>, [[<MineFactoryReloaded:plastic.sheet>, <minecraft:gunpowder>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:glowstone_dust>, <minecraft:gunpowder>, <minecraft:glowstone_dust>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
-recipes.addShaped(<MineFactoryReloaded:safarinet.singleuse>*3, [[<minecraft:string>, <MineFactoryReloaded:plastic.sheet>, <minecraft:string>], [null, <ore:slimeball>, null], [<minecraft:string>, null, <minecraft:string>]]);
 recipes.addShaped(<MineFactoryReloaded:xpextractor>, [[<MineFactoryReloaded:plastic.sheet>, <ore:blockGlass>, <MineFactoryReloaded:plastic.sheet>], [<MineFactoryReloaded:plastic.sheet>, <ore:blockGlass>, <MineFactoryReloaded:plastic.sheet>], [<MineFactoryReloaded:rubber.bar>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:rubber.bar>]]);
 recipes.addShaped(<MineFactoryReloaded:straw>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, null], [<MineFactoryReloaded:plastic.sheet>, null, null], [<MineFactoryReloaded:plastic.sheet>, null, null]]);
 recipes.addShaped(<MineFactoryReloaded:plastic.cup>*16, [[null, null, null], [<MineFactoryReloaded:plastic.sheet>, null, <MineFactoryReloaded:plastic.sheet>], [null, <MineFactoryReloaded:plastic.sheet>, null]]);

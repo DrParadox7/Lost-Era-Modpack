@@ -72,6 +72,10 @@
     {
       "item": "Mekanism:PortableTeleporter",
       "damage": "*"
+    },
+    {
+      "item": "AWWayofTime:airSigil",
+      "damage": "*"
     }
   ]
 }

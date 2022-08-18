@@ -37,6 +37,9 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2>*4, [[<ore:ingotTin>, <
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3>*4, [[<ore:ingotCopper>, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ore:ingotCopper>, null]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:4>*4, [[<ore:ingotLead>, <ore:ingotLead>, null], [<ore:ingotLead>, <ore:ingotLead>, null]]);
 
+#Rock Crusher
+recipes.remove(<Railcraft:machine.alpha:15>);
+recipes.addShaped(<Railcraft:machine.alpha:15>*4, [[<ore:plateSteel>, <Railcraft:part.gear:2>, <ore:plateSteel>], [<Railcraft:part.gear:2>, null, <Railcraft:part.gear:2>], [<ore:plateSteel>, <Railcraft:part.gear:2>, <ore:plateSteel>]]);
 
 ### Tanks ###
 recipes.remove(<Railcraft:machine.beta>);

@@ -196,17 +196,20 @@ recipes.addShaped(<Mekanism:MachineBlock3:6>, [[<ore:ingotSteel>, <ore:gearCoppe
 
 #Energy Cubes
 # Basic
-recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [[<Mekanism:ControlCircuit>], [<ThermalExpansion:Cell:1>]]);
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [[null, <Mekanism:NetworkReader>, null], [<ThermalExpansion:transfuser>, <ThermalExpansion:Cell:1>, <ThermalExpansion:transfuser>], [null, <Mekanism:ControlCircuit>,null]]);
+recipes.addShapeless(<ThermalExpansion:Cell:1>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Basic"}), <ThermalExpansion:wrench>.reuse()]);
 
 # Advanced
-recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [[<Mekanism:ControlCircuit:1>], [<ThermalExpansion:Cell:2>]]);
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [[null, <Mekanism:NetworkReader>, null], [<ThermalExpansion:transfuser>, <ThermalExpansion:Cell:2>, <ThermalExpansion:transfuser>], [null, <Mekanism:ControlCircuit:1>,null]]);
+recipes.addShapeless(<ThermalExpansion:Cell:2>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Advanced"}), <ThermalExpansion:wrench>.reuse()]);
 
 # Elite
-recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [[<Mekanism:ControlCircuit:2>], [<ThermalExpansion:Cell:3>]]);
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [[null, <Mekanism:NetworkReader>, null], [<ThermalExpansion:transfuser>, <ThermalExpansion:Cell:3>, <ThermalExpansion:transfuser>], [null, <Mekanism:ControlCircuit:2>,null]]);
+recipes.addShapeless(<ThermalExpansion:Cell:3>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Elite"}), <ThermalExpansion:wrench>.reuse()]);
 
 # Ultimate
-recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<Mekanism:ControlCircuit:3>], [<ThermalExpansion:Cell:4>]]);
-
+recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[null, <Mekanism:NetworkReader>, null], [<ThermalExpansion:transfuser>, <ThermalExpansion:Cell:4>, <ThermalExpansion:transfuser>], [null, <Mekanism:ControlCircuit:3>,null]]);
+recipes.addShapeless(<ThermalExpansion:Cell:4>, [<Mekanism:EnergyCube>.onlyWithTag({tier: "Ultimate"}), <ThermalExpansion:wrench>.reuse()]);
 
 #Obsidian TNT
 recipes.addShaped(<Mekanism:ObsidianTNT>, [[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>], [<minecraft:tnt>, <minecraft:tnt>, <minecraft:tnt>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
@@ -408,16 +411,13 @@ mods.mekanism.Enrichment.addRecipe(<gregtech_addon:metaitem_1:2500>, <IC2:itemPa
 
 #Biofuel
 mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
-mods.mekanism.Reaction.addRecipe(<Forestry:mulch>, <liquid:biomass>*250, <gas:methane>*500, <Mekanism:BioFuel>*9, <gas:ethene>*6, 200, 500);
-
-mods.mekanism.Separator.addRecipe(<liquid:sewage>, 200, <gas:methane>, <gas:water>);
-
-#Ethene alt
-mods.mekanism.Reaction.addRecipe(<ThermalExpansion:material:516>, <liquid:oil>*250, <gas:water>*1000, <Mekanism:Substrate>, <gas:ethene>*45, 500, 400);
-mods.mekanism.Reaction.removeRecipe(<Mekanism:Substrate>, <gas:ethene>, <Mekanism:BioFuel>, <liquid:water>, <gas:hydrogen>);
+mods.mekanism.Reaction.addRecipe(<Forestry:mulch>, <liquid:biomass>*5, <gas:hydrogen>*30, <Mekanism:BioFuel>, <gas:ethene>*2, 500, 50);
 
 #Teleportator
 mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>,1200000,[<Mekanism:ReinforcedAlloy>, <RedstoneArsenal:material:96>, <Mekanism:ReinforcedAlloy>]);
+
+#Methane Production
+mods.mekanism.Separator.addRecipe(<liquid:sewage>, 175, <gas:methane>, <gas:water>);
 
 #Ethanol to Ethylene
 mods.mekanism.ThermalEvaporation.addRecipe(<liquid:bioethanol>*50, <liquid:ethene>);

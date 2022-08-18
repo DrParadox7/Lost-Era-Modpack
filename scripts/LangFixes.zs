@@ -74,4 +74,10 @@ game.setLocalization("en_US", "entity.ItemFrame.name", "Item Frame");
 
 game.setLocalization("en_US", "tile.warpdrive.detection.siren32767.name", "Air Raid Siren");
 
+#Tweaks
+
+#Remove references to disabled Tinker Canisters:
+game.setLocalization("en_US", "canister.red.tooltip1", "Instant Health");
+
+
 print("Initialized 'LangFixes.zs'");

@@ -2,9 +2,13 @@
 #Author: TechnoParadox
 print("Initializing 'TinkerConstruct.zs'...");
 
-#Smeltery changes
-recipes.remove(<TConstruct:CraftedSoil:6>);
-recipes.addShapeless(<TConstruct:CraftedSoil:6>*4, [<minecraft:magma_cream>, <minecraft:soul_sand>, <minecraft:gravel>, <ore:dustObsidian>]);
+#Remove Wooden Rails
+recipes.remove(<TConstruct:rail.wood>);
+
+#Stone Rods
+recipes.remove(<TConstruct:toolRod:1>);
+recipes.addShaped(<TConstruct:toolRod:1>, [[<minecraft:cobblestone>, null], [<minecraft:cobblestone>, null]]);
+recipes.addShaped(<TConstruct:toolRod:1>*3, [[<minecraft:stone>, null], [<minecraft:stone>, null]]);
 
 #OP Moss
 recipes.remove(<TConstruct:materials:6>);
@@ -33,8 +37,13 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
+#Grout
 recipes.remove(<TConstruct:CraftedSoil:1>);
-recipes.addShapeless(<TConstruct:CraftedSoil:1>*4, [<Metallurgy:utility.item:4>, <minecraft:sand>, <minecraft:gravel>, <ore:dustObsidian>]);
+recipes.addShapeless(<TConstruct:CraftedSoil:1>*3, [<Metallurgy:utility.item:4>, <minecraft:sand>, <minecraft:gravel>, <minecraft:clay>]);
+
+#Nether Grout
+recipes.remove(<TConstruct:CraftedSoil:6>);
+recipes.addShapeless(<TConstruct:CraftedSoil:6>*3, [<minecraft:blaze_powder>, <minecraft:soul_sand>, <minecraft:gravel>, <etfuturum:magma>]);
 
 #Metallurgy integration - Alloy
 mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);

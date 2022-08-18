@@ -2,6 +2,7 @@
 # Proper syntax is "NAME META". Example (for stone):
 # minecraft:stone 0
 Thaumcraft:blockAiry 0
+AWWayofTime:demonPortalMain 0
 openmodularturrets:baseTierWood 0
 openmodularturrets:baseTierOneBlock 0
 openmodularturrets:baseTierTwoBlock 0

@@ -64,6 +64,13 @@ mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:11>, 500000,
 #x64
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <qCraft:essence>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]); 
 
+
+### Others ###
+
+#Deep Dark Portal
+recipes.remove(<ExtraUtilities:dark_portal>);
+recipes.addShaped(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:cobblestone_compressed:3>, <Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:3>], [<Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:4>, <Aroma1997sDimension:portalIgniter>], [<ExtraUtilities:cobblestone_compressed:3>, <Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:3>]]);
+
 #Natura Compat
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>], [<minecraft:enchanted_book>, <Natura:Natura.bookshelf:*>, <minecraft:enchanted_book>], [<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>]]);
 

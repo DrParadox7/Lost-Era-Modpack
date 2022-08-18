@@ -1,4 +1,19 @@
 {
+    "Aroma_bitumen": {
+        "template": "cave", 
+        "block": {"name": "Metallurgy:utility.ore", "metadata": 4},
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            6
+        ]
+    },
     "Aroma_coal": {
         "template": "uniform",
         "block": "coal_ore",
@@ -164,6 +179,42 @@
             "all"
         ],
         "dimensionRestriction": "whitelist",
+        "dimensions": [
+            6
+        ]
+    },
+    "Aroma_Aluminium": {
+        "template": "uniform",
+        "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 125,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            6
+        ]
+    },
+    "Aroma_Zinc": {
+        "template": "underfluid",
+        "block": {"name": "Metallurgy:precious.ore"},
+        "material": "stone",
+        "genFluid": "lava",
+        "clusterSize": 6,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 125,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
         "dimensions": [
             6
         ]

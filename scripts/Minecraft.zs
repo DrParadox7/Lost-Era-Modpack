@@ -15,7 +15,6 @@ recipes.remove(<minecraft:wooden_door>);
 recipes.addShaped(<minecraft:wooden_door>, [[<minecraft:planks>, <minecraft:planks>, null], [<minecraft:planks>, <minecraft:planks>, null], [<minecraft:planks>, <minecraft:planks>, null]]);
 
 #SaltBalance
-mods.thermalexpansion.Pulverizer.removeRecipe(<harvestcraft:salt>);
 mods.thermalexpansion.Pulverizer.addRecipe(40, <harvestcraft:salt>, <harvestcraft:saltItem>*8);
 
 #Cake buckets
@@ -27,8 +26,8 @@ recipes.addShaped(<BiomesOPlenty:ancientStaff:4>, [[<BiomesOPlenty:misc:10>, <mi
 
 #Biomes o'Plenty utility plants
 recipes.addShapeless(<minecraft:spider_eye>, [<BiomesOPlenty:flowers:13>]);
-recipes.addShapeless(<minecraft:glowstone_dust>, [<BiomesOPlenty:flowers:3>, <Botania:pestleAndMortar>.reuse()]);
-recipes.addShapeless(<BiomesOPlenty:misc:11>, [<BiomesOPlenty:coral1:15>, <Botania:pestleAndMortar>.reuse()]);
+recipes.addShapeless(<minecraft:glowstone_dust>, [<BiomesOPlenty:flowers:3>, <Botania:pestleAndMortar>]);
+recipes.addShapeless(<BiomesOPlenty:misc:11>, [<BiomesOPlenty:coral1:15>, <Botania:pestleAndMortar>]);
 
 #Disable dupe inducing cabinets
 recipes.remove(<ExtraUtilities:filing:*>);
@@ -61,21 +60,26 @@ recipes.addShaped(<WR-CBE|Logic:wirelessLogic:2>,[[<WR-CBE|Core:blazeTransceiver
 mods.tconstruct.Drying.removeRecipe(<WitchingGadgets:item.WG_MagicFood:2>);
 mods.tconstruct.Drying.addRecipe(<WitchingGadgets:item.WG_MagicFood:2>, <Thaumcraft:ItemZombieBrain>, 24000);
 
-#Loot Balance 
+### Loot Changes ###
+
+#Ambrosia
 vanilla.loot.removeChestLoot("dungeonChest", <Forestry:ambrosia>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <Forestry:ambrosia>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <Forestry:ambrosia>);
 
+#Starry Apple
 vanilla.loot.removeChestLoot("dungeonChest", <hardcorewither:StarryApple>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <hardcorewither:StarryApple>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <hardcorewither:StarryApple>);
 
+#Warp Scrolls
 vanilla.loot.addChestLoot("dungeonChest", <waystones:warpScroll>.weight(8), 1, 3);
 vanilla.loot.addChestLoot("mineshaftCorridor", <waystones:warpScroll>.weight(8), 1, 3);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <waystones:warpScroll>.weight(10), 1, 5);
 
-mods.thaumcraft.Loot.addUncommonLoot(<waystones:warpScroll>, 10);
+mods.thaumcraft.Loot.addUncommonLoot(<waystones:warpScroll>, 8);
 
+#Purple Drink
 vanilla.loot.removeChestLoot("dungeonChest", <gregtech_addon:metaitem_1:32100>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <gregtech_addon:metaitem_1:32100>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <gregtech_addon:metaitem_1:32100>);
@@ -84,5 +88,10 @@ vanilla.loot.addChestLoot("dungeonChest", <gregtech_addon:metaitem_1:32100>.weig
 vanilla.loot.addChestLoot("mineshaftCorridor", <gregtech_addon:metaitem_1:32100>.weight(45), 2, 5);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <gregtech_addon:metaitem_1:32100>.weight(45), 3, 12);
 
+#Division Sigil 
+vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:divisionSigil>.weight(5), 1, 1);
+
+#Portaspawner
+vanilla.loot.removeChestLoot("mfr:villageZoolologist", <MineFactoryReloaded:portaspawner>);
 print("Initialized 'Minecraft.zs'");
 
