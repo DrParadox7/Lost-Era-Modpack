@@ -152,17 +152,6 @@
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
-				
-				<!-- Hell is the nether. It's located below earth. In other words, falling below bedrock will drop you to the nether... -->
-				<celestialObject id="hell">
-					<parent>
-						<center x="0" z="0" />
-					</parent>
-					<size x="7500" z="7500" />
-					<dimension id="-1" isBreathable="true" gravity="normal">
-						<center x="0" z="0" />
-					</dimension>
-				</celestialObject>
 			</celestialObject>	
 		</celestialObject>
 		
