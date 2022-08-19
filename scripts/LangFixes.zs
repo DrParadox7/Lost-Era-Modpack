@@ -86,6 +86,8 @@ game.setLocalization("en_US", "block.saplings.name", "Tree Sapling");
 
 game.setLocalization("en_US", "key.control", "Forge Multipart");
 
+game.setLocalization("en_US", "am2.spell.meltarmor", "Melt Armor");
+
 #Tweaks
 
 #Remove references to disabled Tinker Canisters:
