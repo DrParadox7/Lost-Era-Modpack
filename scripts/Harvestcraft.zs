@@ -11,6 +11,9 @@ print("Initializing 'Harvestcraft.zs'...");
 val toast = <ore:foodToast>;
 toast.add(<cookingforblockheads:toast>);
 
+#Flour Compat
+recipes.remove(<Natura:barleyFood:*>);
+
 #Toaster
 recipes.remove(<cookingforblockheads:toaster>);
 recipes.addShaped(<cookingforblockheads:toaster>, [[null, null, null], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>, <minecraft:iron_ingot>], [<ore:gearIron>, <minecraft:redstone>, <ore:gearIron>]]);
@@ -50,27 +53,29 @@ mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBuc
 mods.campfirebackport.addCampfireRecipe("both", [<minecraft:bucket>], <minecraft:bucket>, 1);
 mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBucketFired>], <IguanaTweaksTConstruct:clayBucketFired>, 1);
 
-#Blood Magic
-mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <ThermalFoundation:material:16>, 1, 100);
-mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <Railcraft:dust:1>, 1, 100);
-
-#Botania
-mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 2, <harvestcraft:saltItem>, 15);
-
-#Thaumcraft
-mods.thaumcraft.Aspects.remove(<harvestcraft:saltItem>, "terra 1, aqua 1");
-mods.thaumcraft.Aspects.set(<harvestcraft:saltItem>, "vitreus 2, spiritus 1");
-
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>*2, <harvestcraft:saltItem>, "terra 2, spiritus 1");
-mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>);
-mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
+#Distilling Water for salt
+mods.forestry.Still.addRecipe(<liquid:chlorine> ,<liquid:water> * 100, 30);
+mods.forestry.Carpenter.addRecipe(<harvestcraft:saltItem> * 5, [[<harvestcraft:saltItem>]], <liquid:chlorine> * 25, 20);
 
 #Forestry
 mods.forestry.Centrifuge.removeRecipe(<ExtraBees:honeyComb:6>);
-mods.forestry.Centrifuge.addRecipe([<ExtraBees:propolis> % 100, <Forestry:honeyDrop> % 90, <harvestcraft:saltItem> % 75], <ExtraBees:honeyComb:6>, 100);
+mods.forestry.Centrifuge.addRecipe([<ExtraBees:propolis> % 100, <Forestry:honeyDrop> % 90, <harvestcraft:saltItem> % 90, <harvestcraft:saltItem> % 40], <ExtraBees:honeyComb:6>, 100);
 
 #Greggy
 recipes.addShapeless(<gregtech_addon:metaitem_1:2817>*3, [<gregtech_addon:metaitem_1:2017>, <gregtech_addon:metaitem_1:30023>.giveBack(<IC2:itemCellEmpty>)]);
+
+#BloodMagic
+mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <minecraft:sugar>, 1, 25);
+
+#Thaumcraft
+mods.thaumcraft.Aspects.set(<harvestcraft:saltItem>, "aqua 2, perditio 1");
+
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>*3, <harvestcraft:saltItem>, "aqua 2, perditio 1");
+mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>);
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
+
+#Botania
+mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 3, <harvestcraft:saltItem>, 15);
 
 #Informative tooltip 
 <harvestcraft:sunflowerseedsItem>.addTooltip("Obtained from fertilizing sunflowers");
