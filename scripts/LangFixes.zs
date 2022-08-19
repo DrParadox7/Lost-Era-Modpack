@@ -74,6 +74,18 @@ game.setLocalization("en_US", "entity.ItemFrame.name", "Item Frame");
 
 game.setLocalization("en_US", "tile.warpdrive.detection.siren32767.name", "Air Raid Siren");
 
+game.setLocalization("en_US", "enchantment.Soul Tether I", "Soul Tether I");
+
+game.setLocalization("en_US", "death.attack.Overheat", "was killed by overheating their power armor.");
+
+game.setLocalization("en_US", "block..NLeaves.name", "Tree Leaves");
+
+game.setLocalization("en_US", "block.Leaves..name", "Tree Leaves");
+
+game.setLocalization("en_US", "block.saplings.name", "Tree Sapling");
+
+game.setLocalization("en_US", "key.control", "Forge Multipart");
+
 #Tweaks
 
 #Remove references to disabled Tinker Canisters:
