@@ -76,6 +76,8 @@ game.setLocalization("en_US", "entity.MinecartRideable.name", "Minecart");
 
 game.setLocalization("en_US", "entity.MinecartChest.name", "Chest Cart");
 
+game.setLocalization("en_US", "entity.MinecartHopper.name", "Hopper Cart");
+
 game.setLocalization("en_US", "entity.RandomThings.spirit.name", "Spirit");
 
 game.setLocalization("en_US", "tile.railcraft.default.name", "Minetrack");
@@ -93,6 +95,8 @@ game.setLocalization("en_US", "block.Leaves..name", "Tree Leaves");
 game.setLocalization("en_US", "block.saplings.name", "Tree Sapling");
 
 game.setLocalization("en_US", "tile.sink.name", "Sink");
+
+
 
 
 #NEI Dungeon Errors
