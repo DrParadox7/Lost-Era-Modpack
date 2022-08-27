@@ -155,5 +155,34 @@ NEI.hide(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponPropInvisible>);
 NEI.hide(<AWWayofTime:blockSchemSaver>);
 NEI.hide(<AWWayofTime:blockMimic>);
 
+#NVL Icons for Machines.
+#Not worth to include since theyre uncraftable and do nothing.
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemDirections_DOWN">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemDirections_UP">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemDirections_NORTH">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemDirections_SOUTH">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemDirections_EAST">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemDirections_WEST">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_0">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_1">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_2">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_3">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_4">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_5">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_6">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_7">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_8">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_9">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_10">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_11">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_12">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_13">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_14">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_15">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_16">);
+NEI.hide(<"NVLWarpdriveExtensions:NVLItemLTFBControl_17">);
+
+
+
 #Wither affected by Looting
 NEI.addEntry(<minecraft:nether_star>.withTag({display: {Lore: ["§8Now affected by §5Looting"]}}));
