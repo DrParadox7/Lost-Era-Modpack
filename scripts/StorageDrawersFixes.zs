@@ -33,7 +33,8 @@ val ForestryPlanksArray = [
 <Forestry:planks:25>,
 <Forestry:planks:26>,
 <Forestry:planks:27>,
-<Forestry:planks:28>
+<Forestry:planks:28>,
+<minecraft:planks>
 ] as IItemStack[];
 
 
@@ -54,6 +55,7 @@ val ForestrySingleDrawerArray = [
 <StorageDrawersForestry:fullDrawers1B:10>,
 <StorageDrawersForestry:fullDrawers1B:11>,
 <StorageDrawersForestry:fullDrawers1B:12>,
+<StorageDrawers:fullDrawers1>
 ] as IItemStack[];
 
 
@@ -61,7 +63,7 @@ val ForestrySingleDrawerArray = [
 for i, Drawer in ForestrySingleDrawerArray
 {
 var Planks = ForestryPlanksArray[i];
-
+recipes.removeShaped(Drawer);
 recipes.addShaped(Drawer*1,
     [
     [Planks,Planks,Planks],
@@ -88,6 +90,7 @@ val ForestryDoubleDrawerArray = [
 <StorageDrawersForestry:fullDrawers2B:10>,
 <StorageDrawersForestry:fullDrawers2B:11>,
 <StorageDrawersForestry:fullDrawers2B:12>,
+<StorageDrawers:fullDrawers2>
 ] as IItemStack[];
 
 
@@ -122,6 +125,7 @@ val ForestryQuadDrawerArray = [
 <StorageDrawersForestry:fullDrawers4B:10>,
 <StorageDrawersForestry:fullDrawers4B:11>,
 <StorageDrawersForestry:fullDrawers4B:12>,
+<StorageDrawers:fullDrawers4>
 ] as IItemStack[];
 
 for i, Drawer in ForestryQuadDrawerArray
@@ -198,7 +202,8 @@ val ForestrySlabsArray = [
 <Forestry:slabs:25>,
 <Forestry:slabs:26>,
 <Forestry:slabs:27>,
-<Forestry:slabs:28>
+<Forestry:slabs:28>,
+<minecraft:wooden_slab>
 ] as IItemStack[];
 
 
@@ -233,6 +238,7 @@ val ForestryDoubleSlabDrawerArray = [
 <StorageDrawersForestry:halfDrawers2B:10>,
 <StorageDrawersForestry:halfDrawers2B:11>,
 <StorageDrawersForestry:halfDrawers2B:12>,
+<StorageDrawers:halfDrawers2>
 ] as IItemStack[];
 
 for i, Drawer in ForestryDoubleSlabDrawerArray
@@ -281,6 +287,7 @@ val ForestryQuadSlabsArray = [
 <StorageDrawersForestry:halfDrawers4B:10>,
 <StorageDrawersForestry:halfDrawers4B:11>,
 <StorageDrawersForestry:halfDrawers4B:12>,
+<StorageDrawers:halfDrawers4>
 ] as IItemStack[];
 
 for i, Drawer in ForestryQuadSlabsArray
@@ -297,4 +304,3 @@ recipes.addShaped(Drawer*4,
 }
 
 print("Initialized 'StorageDrawersFixes.zs'");
-
