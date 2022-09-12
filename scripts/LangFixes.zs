@@ -96,6 +96,8 @@ game.setLocalization("en_US", "block.saplings.name", "Tree Sapling");
 
 game.setLocalization("en_US", "tile.sink.name", "Sink");
 
+game.setLocalization("en_US", "tile.pipeBlock.name", "Pipe");
+
 
 
 
