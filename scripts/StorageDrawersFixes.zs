@@ -303,4 +303,118 @@ recipes.addShaped(Drawer*4,
     ]);
 }
 
+
+
+
+// Compacting Drawer in 4x4
+
+//4x4 Results from Compactable Array 
+
+val QuadCompactedArray = [
+<IC2:itemDust:5>,
+<IC2:itemDust:4>,
+<IC2:itemDust:6>,
+<ThermalFoundation:material:37>,
+<IC2:itemDust:3>,
+<IC2:itemDust:7>,
+<ThermalFoundation:material:36>,
+<IC2:itemDust:10>,
+<Metallurgy:precious.dust>,
+<gregtech_addon:metaitem_1:2028>,
+<gregtech_addon:metaitem_1:2081>,
+<IC2:itemDust:2>,
+<minecraft:iron_ingot>,
+<minecraft:gold_ingot>,
+<minecraft:diamond>,
+<minecraft:emerald>,
+<minecraft:ender_pearl>,
+<minecraft:blaze_rod>,
+<Thaumcraft:ItemResource:9>,
+<MagicBees:miscResources:4>,
+<Thaumcraft:ItemShard>,
+<Thaumcraft:ItemShard:2>,
+<Thaumcraft:ItemShard:1>,
+<Thaumcraft:ItemShard:3>,
+<Thaumcraft:ItemShard:4>,
+<Thaumcraft:ItemShard:5>
+
+] as IItemStack[];
+// ---
+
+//Ingredients that can be 4x4 compacted to the Compacted Array
+
+val QuadCompactableArray = [
+<ExtraBees:misc:6>,
+<ExtraBees:misc:7>,
+<ExtraBees:misc:8>,
+<ExtraBees:misc:9>,
+<ExtraBees:misc:10>,
+<ExtraBees:misc:11>,
+<ExtraBees:misc:12>,
+<ExtraBees:misc:13>,
+<ExtraBees:misc:14>,
+<ExtraBees:misc:15>,
+<ExtraBees:misc:16>,
+<ExtraBees:misc:18>,
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:0>,
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:1>,
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:2>,
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:3>,
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:5>,
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>,
+<MagicBees:miscResources>,
+<MagicBees:miscResources:3>,
+<MagicBees:miscResources:18>,
+<MagicBees:miscResources:19>,
+<MagicBees:miscResources:20>,
+<MagicBees:miscResources:21>,
+<MagicBees:miscResources:22>,
+<MagicBees:miscResources:23>
+] as IItemStack[];
+// ---
+
+for i, QuadCompacted in QuadCompactedArray
+{
+var QuadCompactable = QuadCompactableArray[i];
+mods.storagedrawers.Compaction.add(QuadCompacted, QuadCompactable, 4);
+}
+
+
+
+
+// Compacting Drawer in 9x9
+
+//9x9 Results from Compactable Array 
+
+val NonaCompactedArray = [
+<minecraft:diamond>,
+<minecraft:emerald>,
+<gregtech_addon:metaitem_1:8502>,
+<gregtech_addon:metaitem_1:8503>,
+<minecraft:dye:4>,
+<minecraft:diamond>,
+<minecraft:emerald>,
+<Forestry:apatite>
+] as IItemStack[];
+// ---
+
+//Ingredients that can be 9x9 compacted to the Compacted Array
+val NonaCompactableArray = [
+<ExtraBees:misc:1>,
+<ExtraBees:misc:2>,
+<ExtraBees:misc:3>,
+<ExtraBees:misc:4>,
+<ExtraBees:misc:5>,
+<MagicBees:beeNugget:5>,
+<MagicBees:beeNugget:6>,
+<MagicBees:beeNugget:7>
+] as IItemStack[];
+// ---
+
+for i, NonaCompacted in NonaCompactedArray
+{
+var NonaCompactable = NonaCompactableArray[i];
+mods.storagedrawers.Compaction.add(NonaCompacted, NonaCompactable, 9);
+}
+
 print("Initialized 'StorageDrawersFixes.zs'");
