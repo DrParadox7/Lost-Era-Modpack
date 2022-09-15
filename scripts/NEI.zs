@@ -154,6 +154,7 @@ NEI.hide(<Genetics:serum>);
 NEI.hide(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponPropInvisible>);
 NEI.hide(<AWWayofTime:blockSchemSaver>);
 NEI.hide(<AWWayofTime:blockMimic>);
+NEI.hide(<chisel:bloodBrick>);
 
 #NVL Icons for Machines.
 #Not worth to include since theyre uncraftable and do nothing.

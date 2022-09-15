@@ -98,6 +98,31 @@ game.setLocalization("en_US", "tile.sink.name", "Sink");
 
 game.setLocalization("en_US", "tile.pipeBlock.name", "Pipe");
 
+game.setLocalization("en_US", "tile.ovenon.name", "Oven");
+
+game.setLocalization("en_US", "tile.churnon.name", "Churn");
+
+game.setLocalization("en_US", "tile.quernon.name", "Quern");
+
+game.setLocalization("en_US", "tile.magicLight.name", "Magic Light");
+
+game.setLocalization("en_US", "tile.vanishingCobweb.name", "Vanishing Cobweb");
+
+game.setLocalization("en_US", "binniecore.item.container.refactory.ambrosia", "");
+
+game.setLocalization("en_US", "binniecore.item.container.refactory.ichor", "");
+
+game.setLocalization("en_US", "binniecore.item.container.capsule.ambrosia", "");
+
+game.setLocalization("en_US", "binniecore.item.container.capsule.ichor", "");
+
+game.setLocalization("en_US", "binniecore.item.container.can.ambrosia", "");
+
+game.setLocalization("en_US", "binniecore.item.container.can.ichor", "");
+
+game.setLocalization("en_US", "binniecore.item.container.bucket.ambrosia", "");
+
+game.setLocalization("en_US", "binniecore.item.container.bucket.ichor", "");
 
 
 
