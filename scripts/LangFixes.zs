@@ -61,6 +61,37 @@ game.setLocalization("en_US", "enchantment.Soul Tether I", "Soul Tether I");
 
 game.setLocalization("en_US", "death.attack.Overheat", "was made to a baked potato by overheating their power armor.");
 
+game.setLocalization("en_US", "tile.sink.name", "Sink");
+
+game.setLocalization("en_US", "tile.pipeBlock.name", "Pipe");
+
+game.setLocalization("en_US", "tile.ovenon.name", "Oven");
+
+game.setLocalization("en_US", "tile.churnon.name", "Churn");
+
+game.setLocalization("en_US", "tile.quernon.name", "Quern");
+
+game.setLocalization("en_US", "tile.magicLight.name", "Magic Light");
+
+game.setLocalization("en_US", "tile.vanishingCobweb.name", "Vanishing Cobweb");
+
+game.setLocalization("en_US", "binniecore.item.container.refactory.ambrosia", "Ambrosia Capsul");
+
+game.setLocalization("en_US", "binniecore.item.container.refactory.ichor", "Ambrosia Capsule");
+
+game.setLocalization("en_US", "binniecore.item.container.capsule.ambrosia", "Ambrosia Capsule");
+
+game.setLocalization("en_US", "binniecore.item.container.capsule.ichor", "Ichor Capsule");
+
+game.setLocalization("en_US", "binniecore.item.container.can.ambrosia", "Ambrosia Containter");
+
+game.setLocalization("en_US", "binniecore.item.container.can.ichor", "Ichor Container");
+
+game.setLocalization("en_US", "binniecore.item.container.bucket.ambrosia", "Ambrosia Bucket");
+
+game.setLocalization("en_US", "binniecore.item.container.bucket.ichor", "Ichor Bucket");
+
+game.setLocalization("en_US", "binniecore.beemodifier.genetic_decay", "Genetic Decay");
 
 
 #Broken localization in Waila
@@ -93,36 +124,6 @@ game.setLocalization("en_US", "block..NLeaves.name", "Tree Leaves");
 game.setLocalization("en_US", "block.Leaves..name", "Tree Leaves");
 
 game.setLocalization("en_US", "block.saplings.name", "Tree Sapling");
-
-game.setLocalization("en_US", "tile.sink.name", "Sink");
-
-game.setLocalization("en_US", "tile.pipeBlock.name", "Pipe");
-
-game.setLocalization("en_US", "tile.ovenon.name", "Oven");
-
-game.setLocalization("en_US", "tile.churnon.name", "Churn");
-
-game.setLocalization("en_US", "tile.quernon.name", "Quern");
-
-game.setLocalization("en_US", "tile.magicLight.name", "Magic Light");
-
-game.setLocalization("en_US", "tile.vanishingCobweb.name", "Vanishing Cobweb");
-
-game.setLocalization("en_US", "binniecore.item.container.refactory.ambrosia", "");
-
-game.setLocalization("en_US", "binniecore.item.container.refactory.ichor", "");
-
-game.setLocalization("en_US", "binniecore.item.container.capsule.ambrosia", "");
-
-game.setLocalization("en_US", "binniecore.item.container.capsule.ichor", "");
-
-game.setLocalization("en_US", "binniecore.item.container.can.ambrosia", "");
-
-game.setLocalization("en_US", "binniecore.item.container.can.ichor", "");
-
-game.setLocalization("en_US", "binniecore.item.container.bucket.ambrosia", "");
-
-game.setLocalization("en_US", "binniecore.item.container.bucket.ichor", "");
 
 
 
