@@ -1,3 +1,5 @@
+import mods.nei.NEI;
+
 #Name: LangFixes.zs
 print("Initializing 'LangFixes.zs'...");
 
@@ -16,6 +18,10 @@ game.setLocalization("en_US", "item.ItemGhastlySkull1.lore", "Why would you want
 
 game.setLocalization("en_US", "item.ItemGhastlySkull2.lore", "This item is a test item.");
 
+
+game.setLocalization("en_US", "item.cookingforblockheads:toast.name", "Toast");
+
+game.setLocalization("en_US", "tile.cookingforblockheads:toaster.name", "Toaster");
 
 game.setLocalization("en_US", "tile.BiblioClipboard.name", "Clipboard");
 
@@ -59,7 +65,17 @@ game.setLocalization("en_US", "am2.spell.meltarmor", "Melt Armor");
 
 game.setLocalization("en_US", "enchantment.Soul Tether I", "Soul Tether I");
 
-game.setLocalization("en_US", "death.attack.Overheat", "was made to a baked potato by overheating their power armor.");
+game.setLocalization("en_US", "death.attack.Overheat", "self-immolated in their power armor.");
+
+game.setLocalization("en_US", "tile.chestTrap.name", "Chest");
+
+game.setLocalization("en_US", "tile.appliedenergistics2.BlockGrinder.name", "Manual Grindstone");
+
+game.setLocalization("en_US", "item.botania:craftPattern32767.name", "Crafting Pattern");
+
+game.setLocalization("en_US", "module.chisel.name", "Chisel Module");
+
+game.setLocalization("en_US", "module.chisel.name", "Chisel Module");
 
 game.setLocalization("en_US", "tile.sink.name", "Sink");
 
@@ -193,5 +209,26 @@ game.setLocalization("en_US", "vn_armorer", "Armorer");
 #Remove references to disabled Tinker Canisters:
 game.setLocalization("en_US", "canister.red.tooltip1", "Instant Health");
 
+#Mek: Osmium to Platinum conversion
+game.setLocalization("en_US", "tile.BasicBlock.OsmiumBlock.name", "Platinum Block");
+game.setLocalization("en_US", "tile.MachineBlock.OsmiumCompressor.name", "Platinum Compressor");
+game.setLocalization("en_US", "tile.OreBlock.OsmiumOre.name", "Platinum Ore");
+game.setLocalization("en_US", "item.osmiumDust.name", "Platinum Dust");
+game.setLocalization("en_US", "item.osmiumClump.name", "Platinum Clump");
+game.setLocalization("en_US", "item.osmiumShard.name", "Platinum Shard");
+game.setLocalization("en_US", "item.osmiumCrystal.name", "Platinum Crystal");
+game.setLocalization("en_US", "item.dirtyOsmiumDust.name", "Dirty Platinum Dust");
+game.setLocalization("en_US", "item.osmiumIngot.name", "Platinum Ingot");
+game.setLocalization("en_US", "gas.liquidOsmium", "Liquid Platinum");
+game.setLocalization("en_US", "gas.osmium", "Platinum Slurry");
+game.setLocalization("en_US", "gas.cleanOsmium", "Clean Platinum Slurry");
+game.setLocalization("en_US", "oregas.osmium", "PlatinumOre");
+game.setLocalization("en_US", "tooltip.OsmiumCompressor", "A fairly advanced machine used to compress Platinum into various dusts in order to create their ingot counterparts.");
+
+#Wild Barley
+game.setLocalization("en_US", "item.barleyBag.name", "Wild Barley Seed Bag");
+game.setLocalization("en_US", "item.barley.seed.name", "Wild Barley Seeds");
+game.setLocalization("en_US", "item.barley.plant.name", "Wild Barley");
+game.setLocalization("en_US", "item.barley.flour.name", "Wild Barley Flour");
 
 print("Initialized 'LangFixes.zs'");

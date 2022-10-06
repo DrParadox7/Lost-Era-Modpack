@@ -121,6 +121,7 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brew
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:flint_and_steel>, [<minecraft:iron_ingot>, <minecraft:flint>, <AWWayofTime:incendium>], 2, 500);
 
 #End Crystal
+recipes.remove(<etfuturum:end_crystal>);
 mods.bloodmagic.Alchemy.addRecipe(<etfuturum:end_crystal>, [<AWWayofTime:blockCrystal>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:nether_star>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>], 5, 30000);
 
 ###  Equipment  ###

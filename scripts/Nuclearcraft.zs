@@ -43,6 +43,9 @@ recipes.addShaped(<NuclearCraft:parts:10>, [[<ore:ingotIron>, <minecraft:iron_ba
 
 #Capsule
 mods.buildcraft.AssemblyTable.addRecipe(<NuclearCraft:fuel:48>, 5000, [<ore:plateLead>*8, <NuclearCraft:reactorBlock:1>]);
+recipes.addShapeless(<NuclearCraft:fuel:48>, [<NuclearCraft:fuel:47>]);
+recipes.addShapeless(<NuclearCraft:fuel:48>, [<NuclearCraft:fuel:49>]);
+recipes.addShapeless(<NuclearCraft:fuel:48>, [<NuclearCraft:fuel:50>]);
 
 #PlutoRTG
 recipes.addShapeless(<NuclearCraft:fuel:46>, [<NuclearCraft:fuel:48>, <ore:Pu238>]);

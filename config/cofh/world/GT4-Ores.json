@@ -2,6 +2,7 @@
     "Galena": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 1},
+        "material": "stone",
         "clusterSize": 16,
         "numClusters": 1,
         "chunkChance": 3,
@@ -22,6 +23,7 @@
     "Desert_Ruby": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 3},
+        "material": "stone",
         "clusterSize": 1,
         "numClusters": 8,
         "chunkChance": 1,
@@ -33,6 +35,18 @@
             {
                 "type": "dictionary", 
                 "entry": "SANDY"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "SAVANNA"
+            },
+            {
+                "type": "name", 
+                "entry": "Shrubland"
+            },
+            {
+                "type": "name", 
+                "entry": "Volcano"
             }
         ],
         "dimensionRestriction": "whitelist",
@@ -45,6 +59,7 @@
     "Ocean_Sapphire": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 4},
+        "material": "stone",
         "clusterSize": 1,
         "numClusters": 8,
         "chunkChance": 1,
@@ -56,6 +71,10 @@
             {
                 "type": "dictionary", 
                 "entry": "OCEAN"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "BEACH"
             }
         ],
         "dimensionRestriction": "whitelist",
@@ -68,6 +87,7 @@
     "Bauxite": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 5},
+        "material": "stone",
         "clusterSize": 16,
         "numClusters": 2,
         "chunkChance": 1,
@@ -95,6 +115,7 @@
     "Bauxite_high": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 5},
+        "material": "stone",
         "clusterSize": 16,
         "numClusters": 3,
         "chunkChance": 1,
@@ -122,6 +143,7 @@
     "tetrahedrite": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 13},
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 1,
         "chunkChance": 6,
@@ -153,6 +175,7 @@
     "tetrahedrite_high": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 13},
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 1,
         "chunkChance": 1,
@@ -184,6 +207,7 @@
     "cassiterite": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 14},
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 1,
         "chunkChance": 12,
@@ -203,6 +227,10 @@
             {
                 "type": "dictionary", 
                 "entry": "MOUNTAIN"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "COLD"
             }
         ],
         "dimensionRestriction": "whitelist",
@@ -215,6 +243,7 @@
     "cassiterite_high": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 14},
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 1,
         "chunkChance": 3,
@@ -234,6 +263,10 @@
             {
                 "type": "dictionary", 
                 "entry": "MOUNTAIN"
+            },
+            {
+                "type": "dictionary", 
+                "entry": "COLD"
             }
         ],
         "dimensionRestriction": "whitelist",
@@ -246,6 +279,7 @@
     "NickelGT": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 14},
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 1,
         "chunkChance": 18,
@@ -273,6 +307,7 @@
     "pyrite": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 6},
+        "material": "netherrack",
         "clusterSize": 4,
         "numClusters": 4,
         "chunkChance": 1,
@@ -289,6 +324,7 @@
     "cinnabar": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 7},
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 4,
         "chunkChance": 2,
@@ -305,6 +341,7 @@
     "sphalerite": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 8},
+        "material": "netherrack",
         "clusterSize": 8,
         "numClusters": 8,
         "chunkChance": 2,

@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 #Name: ThaumicAddons.zs
 #Author: TechnoParadox
 print("Initializing 'ThaumicAddons.zs'...");
@@ -115,10 +117,15 @@ mods.thaumcraft.Research.addResearch("TTENCHTS", "TT_CATEGORY", "praecantatio 10
 game.setLocalization("en_US", "tc.research_name.TTENCHTS", "Infusion Enchanting II!");
 game.setLocalization("en_US", "tc.research_text.TTENCHTS", "[TT] Picking your luck");
 
-mods.thaumcraft.Research.addPage("TTENCHTS", "derp.research_page.TTENCHTS");
-game.setLocalization("en_US", "derp.research_page.TTENCHTS", "You grew tired of getting terrible enchantments for your efforts.<BR>After thoroughly researching the properties of essentia, you have attained a new breakthrough in Infusion Enchanting!");
+mods.thaumcraft.Research.addPage("TTENCHTS", "lostera.research_page.TTENCHTS");
+game.setLocalization("en_US", "lostera.research_page.TTENCHTS", "You grew tired of getting terrible enchantments for your efforts.<BR>After thoroughly researching the properties of essentia, you have attained a new breakthrough in Infusion Enchanting!");
 
 mods.thaumcraft.Research.setSpikey("TTENCHTS", true);
+
+#Faulty 
+#Broken Seals
+mods.thaumcraft.Research.orphanResearch("JARSEAL");
+mods.thaumcraft.Research.removeResearch("JARSEAL");
 
 #Connections
 mods.thaumcraft.Research.addPrereq("TTENCHTS", "INFUSIONENCHANTMENT", false);
@@ -145,7 +152,6 @@ mods.thaumcraft.Research.clearPrereqs("WARP_GATE");
 mods.thaumcraft.Research.addPrereq("ICHORCLOTH_HELM_GEM", "ICHORCLOTH_ARMOR", false);
 mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_CHEST_GEM", false);
 mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_BOOTS_GEM", false);
-
 
 ######Forgotten x Forbidden ######
 mods.thaumcraft.Research.addPrereq("GenericTheory", "WHISPERWEED", true);
@@ -202,11 +208,17 @@ game.setLocalization("en_US", "item.magianaturalis:focusBuild.name", "Wand Focus
 recipes.addShapeless(<magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}), [<minecraft:brick>, <magianaturalis:item.focusBuild>]);
 mods.thaumcraft.Research.addCraftingPage("FOCUS_BUILD", <magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}));
 
-#Removed the duping scythe
+#Duping scythe
 mods.thaumcraft.Research.orphanResearch("SICKLE_ABUNDANCE");
 mods.thaumcraft.Research.removeResearch("SICKLE_ABUNDANCE");
 
-#Fix Magia Naturalis missing lang 
+#Sickle Research auto unlocked
+mods.thaumcraft.Research.setAutoUnlock("SICKLE_THAUM", true);
+
+#Lock Infusion research behind infusion JAR_PRISON
+mods.thaumcraft.Research.addPrereq("JAR_PRISON", "INFUSION", true);
+
+#Fix Magia Naturalis missing lang
 game.setLocalization("en_US", "item.magianaturalis:voidSickle.name", "Void Sickle");
 
 #Fix Automagy rendering invalid shard for recipe
@@ -222,9 +234,206 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
 mods.thaumcraft.Arcane.addShapeless("ORE", <Thaumcraft:blockCosmeticSolid:6>*3, "terra 1, ignis 1", [<minecraft:stone>, <ore:shardSliver>, <minecraft:stone>]);
 mods.thaumcraft.Arcane.addShaped("ORE", <Thaumcraft:blockCosmeticSolid:6> * 8, "terra 1, ignis 1", [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <Thaumcraft:ItemShard:*>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 
+#Entity in a Jar 
+mods.thaumcraft.Infusion.removeRecipe(<magianaturalis:block.jarPrison>);
+mods.thaumcraft.Infusion.addRecipe("JAR_PRISON", <Thaumcraft:blockJar>, [<minecraft:gold_ingot>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:lead>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>], "vinculum 8, alienis 8, permutatio 8, vacuous 8, tutamen 8", <magianaturalis:block.jarPrison>, 3);
+mods.thaumcraft.Research.refreshResearchRecipe("JAR_PRISON");
+mods.thaumcraft.Research.addPrereq("JAR_PRISON", "WARDEDARCANA", false);
+
 #Wrath Cage Rebalance 
 mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WrathCage>);
 mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <ThaumicHorizons:planarConduit>, [<Thaumcraft:ItemResource:15>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>, <ThaumicTinkerer:kamiResource>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:15>, <ForbiddenMagic:NetherShard>, <ThaumicTinkerer:kamiResource>, <Thaumcraft:ItemResource:16>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:16>], "ira 32, praecantatio 32, bestia 32, machina 16", <ForbiddenMagic:WrathCage>, 10);
 mods.thaumcraft.Research.refreshResearchRecipe("WRATHCAGE");
+
+
+###Alchemical Duplication
+
+#Amethyst
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <etfuturum:amethyst_shard>*2, <etfuturum:amethyst_shard>, "aqua 2, praecantatio 2, vitreus 4");
+mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <etfuturum:amethyst_shard>);
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
+
+
+###Alchemical Manufacture
+
+#Saltblock
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <harvestcraft:spamcompressedsaltBlockalt>, <minecraft:sandstone>, "aqua 2, vitreus 4");
+mods.thaumcraft.Research.addCruciblePage("ALCHEMICALMANUFACTURE", <harvestcraft:spamcompressedsaltBlockalt>);
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALMANUFACTURE");
+
+
+#Alcheponics (Thaumic Horizons) Compat with Modded Crops
+val CropsArray = [
+<harvestcraft:cantaloupeItem>,
+<harvestcraft:candleberryItem>,
+<harvestcraft:cactusfruitItem>,
+<harvestcraft:blueberryItem>,
+<harvestcraft:blackberryItem>,
+<harvestcraft:beetItem>,
+<harvestcraft:barleyItem>,
+<harvestcraft:bambooshootItem>,
+<harvestcraft:asparagusItem>,
+<harvestcraft:cucumberItem>,
+<harvestcraft:cornItem>,
+<harvestcraft:celeryItem>,
+<harvestcraft:raspberryItem>,
+<harvestcraft:radishItem>,
+<harvestcraft:peanutItem>,
+<harvestcraft:parsnipItem>,
+<harvestcraft:onionItem>,
+<harvestcraft:oatsItem>,
+<harvestcraft:grapeItem>,
+<harvestcraft:gingerItem>,
+<harvestcraft:garlicItem>,
+<harvestcraft:ediblerootItem>,
+<harvestcraft:lettuceItem>,
+<harvestcraft:scallionItem>,
+<harvestcraft:artichokeItem>,
+<harvestcraft:brusselsproutItem>,
+<harvestcraft:cabbageItem>,
+<harvestcraft:ryeItem>,
+<harvestcraft:rutabagaItem>,
+<harvestcraft:rhubarbItem>,
+<harvestcraft:soybeanItem>,
+<harvestcraft:beanItem>,
+<harvestcraft:spinachItem>,
+<harvestcraft:zucchiniItem>,
+<harvestcraft:wintersquashItem>,
+<harvestcraft:turnipItem>,
+<harvestcraft:sweetpotatoItem>,
+<harvestcraft:strawberryItem>,
+<harvestcraft:spiceleafItem>,
+<harvestcraft:kiwiItem>,
+<harvestcraft:pineappleItem>,
+<harvestcraft:cottonItem>,
+<harvestcraft:tomatoItem>,
+<harvestcraft:peasItem>,
+<harvestcraft:okraItem>,
+<harvestcraft:eggplantItem>,
+<harvestcraft:chilipepperItem>,
+<harvestcraft:bellpepperItem>,
+<harvestcraft:leekItem>,
+<harvestcraft:cauliflowerItem>,
+<harvestcraft:broccoliItem>,
+<harvestcraft:tealeafItem>,
+<harvestcraft:waterchestnutItem>,
+<harvestcraft:seaweedItem>,
+<harvestcraft:cranberryItem>,
+<harvestcraft:curryleafItem>,
+<harvestcraft:riceItem>,
+<BiomesOPlenty:food:11>,
+<Natura:barleyFood>,
+<witchery:ingredient:21>,
+<witchery:ingredient:22>,
+<witchery:ingredient:69>,
+<minecraft:snowball>,
+<witchery:ingredient:111>,
+<witchery:ingredient:156>,
+<etfuturum:beetroot>
+] as IItemStack[];
+
+val SeedsArray = [
+<harvestcraft:cantaloupeItem>,
+<harvestcraft:candleberryItem>,
+<harvestcraft:cactusfruitItem>,
+<harvestcraft:blueberryItem>,
+<harvestcraft:blackberryItem>,
+<harvestcraft:beetItem>,
+<harvestcraft:barleyItem>,
+<harvestcraft:bambooshootItem>,
+<harvestcraft:asparagusItem>,
+<harvestcraft:cucumberItem>,
+<harvestcraft:cornItem>,
+<harvestcraft:celeryItem>,
+<harvestcraft:raspberryItem>,
+<harvestcraft:radishItem>,
+<harvestcraft:peanutItem>,
+<harvestcraft:parsnipItem>,
+<harvestcraft:onionItem>,
+<harvestcraft:oatsItem>,
+<harvestcraft:grapeItem>,
+<harvestcraft:gingerItem>,
+<harvestcraft:garlicItem>,
+<harvestcraft:ediblerootItem>,
+<harvestcraft:lettuceItem>,
+<harvestcraft:scallionItem>,
+<harvestcraft:artichokeItem>,
+<harvestcraft:brusselsproutItem>,
+<harvestcraft:cabbageItem>,
+<harvestcraft:ryeItem>,
+<harvestcraft:rutabagaItem>,
+<harvestcraft:rhubarbItem>,
+<harvestcraft:soybeanItem>,
+<harvestcraft:beanItem>,
+<harvestcraft:spinachItem>,
+<harvestcraft:zucchiniItem>,
+<harvestcraft:wintersquashItem>,
+<harvestcraft:turnipItem>,
+<harvestcraft:sweetpotatoItem>,
+<harvestcraft:strawberryItem>,
+<harvestcraft:spiceleafItem>,
+<harvestcraft:kiwiItem>,
+<harvestcraft:pineappleItem>,
+<harvestcraft:cottonItem>,
+<harvestcraft:tomatoItem>,
+<harvestcraft:peasItem>,
+<harvestcraft:okraItem>,
+<harvestcraft:eggplantItem>,
+<harvestcraft:chilipepperItem>,
+<harvestcraft:bellpepperItem>,
+<harvestcraft:leekItem>,
+<harvestcraft:cauliflowerItem>,
+<harvestcraft:broccoliItem>,
+<harvestcraft:tealeafItem>,
+<harvestcraft:waterchestnutItem>,
+<harvestcraft:seaweedItem>,
+<harvestcraft:cranberryItem>,
+<harvestcraft:curryleafItem>,
+<harvestcraft:riceItem>,
+<BiomesOPlenty:turnipSeeds>,
+<Natura:barley.seed>,
+<witchery:seedsbelladonna>,
+<witchery:seedsmandrake>,
+<witchery:seedsartichoke>,
+<witchery:seedssnowbell>,
+<witchery:seedswormwood>,
+<witchery:seedswolfsbane>,
+<etfuturum:beetroot_seeds>
+] as IItemStack[];
+
+
+for i, Crops in CropsArray
+{
+var Seeds = SeedsArray[i];
+mods.thaumcraft.Crucible.addRecipe("alcheponics", Crops*2, Seeds, "aqua 2, lux 2, terra 2");
+mods.thaumcraft.Research.addCruciblePage("alcheponics", Crops);
+
+}
+mods.thaumcraft.Research.refreshResearchRecipe("alcheponics");
+
+
+#Meat Growth (Thaumic Horizons) Compat with Modded Raw Flesh
+
+val RawMeatArray = [
+<harvestcraft:muttonrawItem>,
+<harvestcraft:turkeyrawItem>,
+<harvestcraft:rabbitrawItem>,
+<harvestcraft:venisonrawItem>,
+<Natura:impmeat>,
+<TwilightForest:item.venisonRaw>
+] as IItemStack[];
+
+for i, RawMeat in RawMeatArray
+{
+mods.thaumcraft.Crucible.addRecipe("meatGrowth", RawMeat*2, RawMeat, "victus 3");
+mods.thaumcraft.Research.addCruciblePage("meatGrowth", RawMeat);
+}
+mods.thaumcraft.Research.refreshResearchRecipe("meatGrowth");
+
+### Dangerous or unbalanced content
+mods.thaumcraft.Research.orphanResearch("REPAIRER");
+mods.thaumcraft.Research.removeResearch("REPAIRER");
+mods.thaumcraft.Research.orphanResearch("ANIMATION_TABLET");
+mods.thaumcraft.Research.removeResearch("ANIMATION_TABLET");
 
 print("Initialized 'ThaumicAddons.zs'");

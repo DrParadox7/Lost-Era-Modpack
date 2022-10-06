@@ -2,6 +2,20 @@
 #Author: TechnoParadox
 print("Initializing 'GT Compat.zs'...");
 
+#Helpful ore tooltips
+<gregtech_addon:ore:2>.addTooltip("Found in Space");
+<gregtech_addon:ore:3>.addTooltip("Found in Arid areas");
+<gregtech_addon:ore:4>.addTooltip("Found in Oceans");
+<gregtech_addon:ore:5>.addTooltip("Found in Forest & Plains");
+<gregtech_addon:ore:6>.addTooltip("Found in the Nether");
+<gregtech_addon:ore:8>.addTooltip("Found near lava");
+<gregtech_addon:ore:9>.addTooltip("Found in the End");
+<gregtech_addon:ore:10>.addTooltip("Found in the End");
+<gregtech_addon:ore:11>.addTooltip("Found in the End");
+<gregtech_addon:ore:12>.addTooltip("Found in the End");
+<gregtech_addon:ore:13>.addTooltip("Found in Mountains, Jungles and fungi areas");
+<gregtech_addon:ore:14>.addTooltip("Found in Mountains and other Cold biomes");
+
 #Remove compat with TiC Aluminium 
 
 val alumingot = <ore:ingotAluminium>;
@@ -18,9 +32,6 @@ alumoreberry.remove(<TConstruct:oreBerries:4>);
 #Stop GT from overriding Enderium
 recipes.remove(<gregtech_addon:metaitem_1:11321>);
 recipes.remove(<gregtech_addon:metaitem_1:9321>);
-
-recipes.remove(<TConstruct:materials:42>);
-recipes.addShapeless(<TConstruct:materials:42>, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustBrass>]);
 
 #Allow GT to handle this recipe 
 recipes.remove(<IC2:blockGenerator:2>);
@@ -112,5 +123,9 @@ recipes.addShaped(<ThermalFoundation:material:136>, [[null, <ore:ingotInvar>, nu
 recipes.addShaped(<ThermalFoundation:material:138>, [[null, <ore:ingotSignalum>, null], [<ore:ingotSignalum>, <ore:gearIron>, <ore:ingotSignalum>], [null, <ore:ingotSignalum>, null]]);
 recipes.addShaped(<ThermalFoundation:material:139>, [[null, <ore:ingotLumium>, null], [<ore:ingotLumium>, <ore:gearIron>, <ore:ingotLumium>], [null, <ore:ingotLumium>, null]]);
 recipes.addShaped(<ThermalFoundation:material:140>, [[null, <ore:ingotEnderium>, null], [<ore:ingotEnderium>, <ore:gearIron>, <ore:ingotEnderium>], [null, <ore:ingotEnderium>, null]]);
+
+#Pulverizer Exploit
+mods.thermalexpansion.Pulverizer.removeRecipe(<BiomesOPlenty:gemOre:12>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<BiomesOPlenty:gemOre:2>);
 
 print("Initialized 'GT Compat.zs'");

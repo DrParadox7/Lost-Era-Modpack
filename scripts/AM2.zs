@@ -126,19 +126,19 @@ recipes.addShaped(<arsmagica2:mageBoots>, [[<arsmagica2:rune>, <minecraft:leathe
 
 #Rune hood
 recipes.remove(<arsmagica2:battlemageHood>);
-recipes.addShaped(<arsmagica2:battlemageHood>, [[<arsmagica2:essence:4>, <Botania:manaResource:9>, <arsmagica2:essence:4>], [<minecraft:obsidian>, <Botania:manasteelHelm>, <minecraft:obsidian>], [<arsmagica2:goldInlay>, <minecraft:obsidian>, <arsmagica2:goldInlay>]]);
+recipes.addShaped(<arsmagica2:battlemageHood>, [[<minecraft:obsidian>, <arsmagica2:goldInlay>, <minecraft:obsidian>], [<minecraft:obsidian>, <Botania:manasteelHelm>, <minecraft:obsidian>], [null, <arsmagica2:essence:4>, null]]);
 
 #Rune chest
 recipes.remove(<arsmagica2:battlemageArmor>);
-recipes.addShaped(<arsmagica2:battlemageArmor>, [[<arsmagica2:essence:1>, <Botania:manaResource:9>, <arsmagica2:essence:1>], [<minecraft:obsidian>, <Botania:manasteelChest>, <minecraft:obsidian>], [<arsmagica2:goldInlay>, <minecraft:obsidian>, <arsmagica2:goldInlay>]]);
+recipes.addShaped(<arsmagica2:battlemageArmor>, [[<arsmagica2:goldInlay>, <arsmagica2:essence:1>, <arsmagica2:goldInlay>], [<minecraft:obsidian>, <Botania:manasteelChest>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
 #Rune legs
 recipes.remove(<arsmagica2:battlemageLeggings>);
-recipes.addShaped(<arsmagica2:battlemageLeggings>, [[<arsmagica2:essence:3>, <Botania:manaResource:9>, <arsmagica2:essence:3>], [<minecraft:obsidian>, <Botania:manasteelLegs>, <minecraft:obsidian>], [<arsmagica2:goldInlay>, <minecraft:obsidian>, <arsmagica2:goldInlay>]]);
+recipes.addShaped(<arsmagica2:battlemageLeggings>, [[<minecraft:obsidian>, <Botania:manasteelLegs>, <minecraft:obsidian>], [<arsmagica2:goldInlay>, <arsmagica2:essence:3>, <arsmagica2:goldInlay>], [<minecraft:obsidian>, null, <minecraft:obsidian>]]);
 
 #Rune shoes
 recipes.remove(<arsmagica2:battlemageBoots>);
-recipes.addShaped(<arsmagica2:battlemageBoots>, [[<arsmagica2:essence:2>, <Botania:manaResource:9>, <arsmagica2:essence:2>], [<minecraft:obsidian>, <Botania:manasteelBoots>, <minecraft:obsidian>], [<arsmagica2:goldInlay>, <minecraft:obsidian>, <arsmagica2:goldInlay>]]);
+recipes.addShaped(<arsmagica2:battlemageBoots>, [[<arsmagica2:goldInlay>, null, <arsmagica2:goldInlay>], [<minecraft:obsidian>, <arsmagica2:essence:2>, <minecraft:obsidian>], [<minecraft:obsidian>, <Botania:manasteelBoots>, <minecraft:obsidian>]]);
 
 #Helpful Tooltips
 <arsmagica2:lesserManaPotion>.addTooltip("Restores 100 Mana");

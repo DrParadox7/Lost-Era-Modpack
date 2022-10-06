@@ -22,17 +22,17 @@ plutonium.add(<NuclearCraft:fuel:46>);
 #Basic
 recipes.remove(<WarpDrive:blockHull1_plain>);
 recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<IC2:itemPartAlloy>, <ore:dustNetherQuartz>, <IC2:itemPartAlloy>], [<ore:dustNetherQuartz>, null, <ore:dustNetherQuartz>], [<IC2:itemPartAlloy>, <ore:dustNetherQuartz>, <IC2:itemPartAlloy>]]);
-recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<NuclearCraft:parts:3>, <ore:dustNetherQuartz>, <NuclearCraft:parts:3>], [<ore:dustNetherQuartz>, null, <ore:dustNetherQuartz>], [<NuclearCraft:parts:3>, <ore:dustNetherQuartz>, <NuclearCraft:parts:3>]]);
+recipes.addShaped(<WarpDrive:blockHull1_plain>*4, [[<NuclearCraft:parts>, <ore:dustNetherQuartz>, <NuclearCraft:parts>], [<ore:dustNetherQuartz>, null, <ore:dustNetherQuartz>], [<NuclearCraft:parts>, <ore:dustNetherQuartz>, <NuclearCraft:parts>]]);
 
 #Advanced
 recipes.remove(<WarpDrive:blockHull2_plain>);
 recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<IC2:itemPartCarbonPlate>, <ore:blockHull1_plain>, <IC2:itemPartCarbonPlate>], [<ore:blockHull1_plain>, null, <ore:blockHull1_plain>], [<IC2:itemPartCarbonPlate>, <ore:blockHull1_plain>, <IC2:itemPartCarbonPlate>]]);
-recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<NuclearCraft:parts:8>, <ore:blockHull1_plain>, <NuclearCraft:parts:8>], [<ore:blockHull1_plain>, null, <ore:blockHull1_plain>], [<NuclearCraft:parts:8>, <ore:blockHull1_plain>, <NuclearCraft:parts:8>]]);
+recipes.addShaped(<WarpDrive:blockHull2_plain>*4, [[<NuclearCraft:parts:3>, <ore:blockHull1_plain>, <NuclearCraft:parts:3>], [<ore:blockHull1_plain>, null, <ore:blockHull1_plain>], [<NuclearCraft:parts:3>, <ore:blockHull1_plain>, <NuclearCraft:parts:3>]]);
 
 #Superior
 recipes.remove(<WarpDrive:blockHull3_plain>);
 recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<IC2:itemPartIridium>, <ore:blockHull2_plain>, <IC2:itemPartIridium>], [<ore:blockHull2_plain>, null, <ore:blockHull2_plain>], [<IC2:itemPartIridium>, <ore:blockHull2_plain>, <IC2:itemPartIridium>]]);
-recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<NuclearCraft:parts:9>, <ore:blockHull2_plain>, <NuclearCraft:parts:9>], [<ore:blockHull2_plain>, null, <ore:blockHull2_plain>], [<NuclearCraft:parts:9>, <ore:blockHull2_plain>, <NuclearCraft:parts:9>]]);
+recipes.addShaped(<WarpDrive:blockHull3_plain>*4, [[<NuclearCraft:parts:8>, <ore:blockHull2_plain>, <NuclearCraft:parts:8>], [<ore:blockHull2_plain>, null, <ore:blockHull2_plain>], [<NuclearCraft:parts:8>, <ore:blockHull2_plain>, <NuclearCraft:parts:8>]]);
 
 #####################   EQUIPMENT    ###############################
 
@@ -188,7 +188,7 @@ recipes.remove(<WarpDrive:blockCloakingCore>);
 #IC2 Recipe
 recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<IC2:itemPartIridium>, <IC2:blockAlloyGlass>, <IC2:itemPartIridium>], [<IC2:blockAlloyGlass>, <RandomThings:ingredient:5>, <IC2:blockAlloyGlass>], [<IC2:itemPartIridium>, <IC2:blockAlloyGlass>, <IC2:itemPartIridium>]]);
 #RF Recipe
-recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<NuclearCraft:parts:9>, <MekanismGenerators:ReactorGlass:1>, <NuclearCraft:parts:9>], [<MekanismGenerators:ReactorGlass:1>, <RandomThings:ingredient:5>, <MekanismGenerators:ReactorGlass:1>], [<NuclearCraft:parts:9>, <MekanismGenerators:ReactorGlass:1>, <NuclearCraft:parts:9>]]);
+recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<NuclearCraft:parts:8>, <MekanismGenerators:ReactorGlass:1>, <NuclearCraft:parts:8>], [<MekanismGenerators:ReactorGlass:1>, <RandomThings:ingredient:5>, <MekanismGenerators:ReactorGlass:1>], [<NuclearCraft:parts:8>, <MekanismGenerators:ReactorGlass:1>, <NuclearCraft:parts:8>]]);
 
 ###  Warp Isolation Block
 recipes.remove(<WarpDrive:blockWarpIsolation>);
@@ -230,12 +230,12 @@ recipes.addShaped(<WarpDrive:blockProjector1:1>, [[<minecraft:iron_ingot>, <Warp
 ###  Forcefield (tier 2)
 recipes.remove(<WarpDrive:blockProjector2:1>);
 recipes.addShaped(<WarpDrive:blockProjector2:1>, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1:1>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockProjector1:1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1:1>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1:1>, <IC2:itemPartCarbonPlate>]]);
-recipes.addShaped(<WarpDrive:blockProjector2:1>, [[<NuclearCraft:parts:8>, <WarpDrive:blockProjector1:1>, <NuclearCraft:parts:8>], [<WarpDrive:blockProjector1:1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1:1>], [<NuclearCraft:parts:8>, <WarpDrive:blockProjector1:1>, <NuclearCraft:parts:8>]]);
+recipes.addShaped(<WarpDrive:blockProjector2:1>, [[<NuclearCraft:parts:3>, <WarpDrive:blockProjector1:1>, <NuclearCraft:parts:3>], [<WarpDrive:blockProjector1:1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1:1>], [<NuclearCraft:parts:3>, <WarpDrive:blockProjector1:1>, <NuclearCraft:parts:3>]]);
 
 ###  Forcefield (tier 3)
 recipes.remove(<WarpDrive:blockProjector3:1>);
 recipes.addShaped(<WarpDrive:blockProjector3:1>, [[<IC2:itemPartIridium>, <WarpDrive:blockProjector2:1>, <IC2:itemPartIridium>], [<WarpDrive:blockProjector2:1>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1:1>], [<IC2:itemPartIridium>, <WarpDrive:blockProjector2:1>, <IC2:itemPartIridium>]]);
-recipes.addShaped(<WarpDrive:blockProjector3:1>, [[<NuclearCraft:parts:9>, <WarpDrive:blockProjector2:1>, <NuclearCraft:parts:9>], [<WarpDrive:blockProjector2:1>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1:1>], [<NuclearCraft:parts:9>, <WarpDrive:blockProjector2:1>, <NuclearCraft:parts:9>]]);
+recipes.addShaped(<WarpDrive:blockProjector3:1>, [[<NuclearCraft:parts:8>, <WarpDrive:blockProjector2:1>, <NuclearCraft:parts:8>], [<WarpDrive:blockProjector2:1>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1:1>], [<NuclearCraft:parts:8>, <WarpDrive:blockProjector2:1>, <NuclearCraft:parts:8>]]);
 
 
 
@@ -246,12 +246,12 @@ recipes.addShapedMirrored(<WarpDrive:blockProjector1:1>, [[<minecraft:iron_ingot
 ###  Forcefield Half(tier 2)
 recipes.remove(<WarpDrive:blockProjector2>);
 recipes.addShaped(<WarpDrive:blockProjector2>, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockProjector1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockProjector1>, <IC2:itemPartCarbonPlate>]]);
-recipes.addShaped(<WarpDrive:blockProjector2>, [[<NuclearCraft:parts:8>, <WarpDrive:blockProjector1>, <NuclearCraft:parts:8>], [<WarpDrive:blockProjector1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1>], [<NuclearCraft:parts:8>, <WarpDrive:blockProjector1>, <NuclearCraft:parts:8>]]);
+recipes.addShaped(<WarpDrive:blockProjector2>, [[<NuclearCraft:parts:3>, <WarpDrive:blockProjector1>, <NuclearCraft:parts:3>], [<WarpDrive:blockProjector1>, <ore:blockHull2_glass>, <WarpDrive:blockProjector1>], [<NuclearCraft:parts:3>, <WarpDrive:blockProjector1>, <NuclearCraft:parts:3>]]);
 
 ###  Forcefield Half(tier 3)
 recipes.remove(<WarpDrive:blockProjector3>);
 recipes.addShaped(<WarpDrive:blockProjector3>, [[<IC2:itemPartIridium>, <WarpDrive:blockProjector2>, <IC2:itemPartIridium>], [<WarpDrive:blockProjector2>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1>], [<IC2:itemPartIridium>, <WarpDrive:blockProjector2>, <IC2:itemPartIridium>]]);
-recipes.addShaped(<WarpDrive:blockProjector3>, [[<NuclearCraft:parts:9>, <WarpDrive:blockProjector2>, <NuclearCraft:parts:9>], [<WarpDrive:blockProjector2>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1>], [<NuclearCraft:parts:9>, <WarpDrive:blockProjector2>, <NuclearCraft:parts:9>]]);
+recipes.addShaped(<WarpDrive:blockProjector3>, [[<NuclearCraft:parts:8>, <WarpDrive:blockProjector2>, <NuclearCraft:parts:8>], [<WarpDrive:blockProjector2>, <ore:blockHull3_glass>, <WarpDrive:blockProjector1>], [<NuclearCraft:parts:8>, <WarpDrive:blockProjector2>, <NuclearCraft:parts:8>]]);
 
 
 
@@ -263,13 +263,13 @@ recipes.addShaped(<WarpDrive:blockForceFieldRelay1>, [[<minecraft:iron_ingot>, <
 ###  ForceField Relay (tier 2)
 recipes.remove(<WarpDrive:blockForceFieldRelay2>);
 recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<IC2:itemPartCarbonPlate>, <WarpDrive:blockForceFieldRelay1>, <IC2:itemPartCarbonPlate>], [<WarpDrive:blockForceFieldRelay1>, <ore:blockHull2_glass>, <WarpDrive:blockForceFieldRelay1>], [<IC2:itemPartCarbonPlate>, <WarpDrive:blockForceFieldRelay1>, <IC2:itemPartCarbonPlate>]]);
-recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<NuclearCraft:parts:8>, <WarpDrive:blockForceFieldRelay1>, <NuclearCraft:parts:8>], [<WarpDrive:blockForceFieldRelay1>, <ore:blockHull2_glass>, <WarpDrive:blockForceFieldRelay1>], [<NuclearCraft:parts:8>, <WarpDrive:blockForceFieldRelay1>, <NuclearCraft:parts:8>]]);
+recipes.addShaped(<WarpDrive:blockForceFieldRelay2>, [[<NuclearCraft:parts:3>, <WarpDrive:blockForceFieldRelay1>, <NuclearCraft:parts:3>], [<WarpDrive:blockForceFieldRelay1>, <ore:blockHull2_glass>, <WarpDrive:blockForceFieldRelay1>], [<NuclearCraft:parts:3>, <WarpDrive:blockForceFieldRelay1>, <NuclearCraft:parts:3>]]);
 
 
 ###  ForceField Relay (tier 3)
 recipes.remove(<WarpDrive:blockForceFieldRelay3>);
-recipes.addShaped(<WarpDrive:blockProjector3>, [[<IC2:itemPartIridium>, <WarpDrive:blockForceFieldRelay2>, <IC2:itemPartIridium>], [<WarpDrive:blockForceFieldRelay2>, <ore:blockHull3_glass>, <WarpDrive:blockForceFieldRelay2>], [<IC2:itemPartIridium>, <WarpDrive:blockForceFieldRelay2>, <IC2:itemPartIridium>]]);
-recipes.addShaped(<WarpDrive:blockProjector3>, [[<NuclearCraft:parts:9>, <WarpDrive:blockForceFieldRelay2>, <NuclearCraft:parts:9>], [<WarpDrive:blockForceFieldRelay2>, <ore:blockHull3_glass>, <WarpDrive:blockForceFieldRelay2>], [<NuclearCraft:parts:9>, <WarpDrive:blockForceFieldRelay2>, <NuclearCraft:parts:9>]]);
+recipes.addShaped(<WarpDrive:blockForceFieldRelay3>, [[<IC2:itemPartIridium>, <WarpDrive:blockForceFieldRelay2>, <IC2:itemPartIridium>], [<WarpDrive:blockForceFieldRelay2>, <ore:blockHull3_glass>, <WarpDrive:blockForceFieldRelay2>], [<IC2:itemPartIridium>, <WarpDrive:blockForceFieldRelay2>, <IC2:itemPartIridium>]]);
+recipes.addShaped(<WarpDrive:blockForceFieldRelay3>, [[<NuclearCraft:parts:8>, <WarpDrive:blockForceFieldRelay2>, <NuclearCraft:parts:8>], [<WarpDrive:blockForceFieldRelay2>, <ore:blockHull3_glass>, <WarpDrive:blockForceFieldRelay2>], [<NuclearCraft:parts:8>, <WarpDrive:blockForceFieldRelay2>, <NuclearCraft:parts:8>]]);
 
 
 ######Suit#####

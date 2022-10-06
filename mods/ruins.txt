@@ -135,7 +135,6 @@ specific_Wetland=75
 specific_Woodland=75
 specific_Xeric Shrubland=75
 specific_Coral Reef=75
-specific_WitchwoodForest=75
 specific_Tropics=75
 specific_Volcano=75
 specific_Mangrove=75

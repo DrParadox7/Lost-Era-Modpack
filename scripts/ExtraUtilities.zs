@@ -65,6 +65,14 @@ mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:11>, 500000,
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:11>, [[<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <qCraft:essence>, <ExtraUtilities:generator.8:11>], [<ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>, <ExtraUtilities:generator.8:11>]]); 
 
 
+#Disabled Generators
+recipes.remove(<ExtraUtilities:generator:10>);
+recipes.remove(<ExtraUtilities:generator:1>);
+recipes.remove(<ExtraUtilities:generator:2>);
+recipes.remove(<ExtraUtilities:generator:7>);
+recipes.remove(<ExtraUtilities:generator:3>);
+recipes.remove(<ExtraUtilities:generator:4>);
+
 ### Others ###
 
 #Deep Dark Portal
@@ -82,10 +90,10 @@ recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
 
 #QED Rebalance
 recipes.remove(<ExtraUtilities:endConstructor>);
-recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>], [<ExtraUtilities:decorativeBlock1:1>, <qCraft:quantumcomputer>, <ExtraUtilities:decorativeBlock1:1>], [<ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor>, [[<minecraft:ender_eye>, <ExtraUtilities:decorativeBlock1:1>, <minecraft:ender_eye>], [<ExtraUtilities:decorativeBlock1:1>, <qCraft:quantumcomputer>, <ExtraUtilities:decorativeBlock1:1>], [<minecraft:ender_eye>, <ExtraUtilities:decorativeBlock1:1>, <minecraft:ender_eye>]]);
 
 recipes.remove(<ExtraUtilities:endConstructor:2>);
-recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, null, null], [null, <Botania:enderEyeBlock>, null], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, null, null], [null, <ExtraUtilities:decorativeBlock1:11>, null], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:1>]]);
 
 #Ender Pump
 recipes.remove(<ExtraUtilities:enderThermicPump>);

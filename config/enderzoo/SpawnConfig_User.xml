@@ -15,7 +15,7 @@
   <entry id="ConcussionCreeper" mobName="enderzoo.ConcussionCreeper" creatureType="monster" rate="40"
     minGroupSize="1" maxGroupSize="3" remove="false">
     <biomeFilter type="all">
-      <biome type="Mining Biome" />
+      <biome name="Mining Biome" />
     </biomeFilter>   
   </entry>
 
@@ -304,22 +304,6 @@
   <dimensionExclude id="-19"/>
   </entry>
 
-  <entry id="EnderGirl" mobName="GrimoireOfGaia.Ender Dragon Girl" rate="1" minGroupSize="0" maxGroupSize="1">
-    <biomeFilter type="all">
-      <biome type="END" />
-      <biome name="Eldritch" exclude="true" />  
-    </biomeFilter>
-  <dimensionExclude id="-1"/>
-  <dimensionExclude id="3"/>
-	<dimensionExclude id="-100"/>
-	<dimensionExclude id="-112"/>
-  <dimensionExclude id="-73"/>
-  <dimensionExclude id="-42"/>
-  <dimensionExclude id="-69"/>
-  <dimensionExclude id="-39"/>
-  <dimensionExclude id="-19"/>
-  </entry>
-
   <entry id="Mermaid" mobName="GrimoireOfGaia.Mermaid" rate="2" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="all">
       <biome type="BEACH" />
@@ -345,33 +329,6 @@
       <biome type="SNOWY" exclude="true" />  
     </biomeFilter>
   <dimensionExclude id="-1"/>
-	<dimensionExclude id="1"/>
-  <dimensionExclude id="3"/>
-	<dimensionExclude id="-100"/>
-	<dimensionExclude id="-112"/>
-  <dimensionExclude id="-73"/>
-  <dimensionExclude id="-42"/>
-  <dimensionExclude id="-69"/>
-  <dimensionExclude id="-39"/>
-  <dimensionExclude id="-19"/>
-  </entry>
-
-  <entry id="Dryad" mobName="am2.entities.EntityDryad" rate="11" minGroupSize="1" maxGroupSize="3">
-      <biomeFilter type="any">
-      <biome type="FOREST" />
-      <biome type="PLAINS" />
-      <biome type="MOUNTAIN" />
-      <biome type="HILLS" />
-      <biome type="SWAMP" />
-      <biome type="SNOWY" />
-      <biome type="MUSHROOM" />
-      <biome type="MAGICAL" />
-      <biome type="DEAD" exclude="true" />
-      <biome type="WASTELAND" exclude="true" /> 
-      <biome type="NETHER" exclude="true" />
-      <biome type="END" exclude="true" /> 
-    </biomeFilter>
-	<dimensionExclude id="-1"/>
 	<dimensionExclude id="1"/>
   <dimensionExclude id="3"/>
 	<dimensionExclude id="-100"/>

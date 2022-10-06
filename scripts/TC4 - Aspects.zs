@@ -1,5 +1,14 @@
 print("Initializing 'Thaumcraft-Aspects.zs'...");
 
+
+### AE2 ###
+
+# Quartz
+mods.thaumcraft.Aspects.set(<appliedenergistics2:tile.OreQuartz>, "vitreus 3, terra 1");
+
+# Charged Quartz
+mods.thaumcraft.Aspects.set(<appliedenergistics2:tile.OreQuartzCharged>, "vitreus 3, terra 1, potentia 3");
+
 ### Ars Magica ###
 
 # Entities
@@ -367,9 +376,6 @@ mods.thaumcraft.Aspects.set(<IC2:itemPartCircuitAdv>, "fabrico 9, ordo 7, machin
 
 # Advanced Alloy
 mods.thaumcraft.Aspects.set(<IC2:itemPartAlloy>, "metallum 4, vacuos 2");
-
-# Mixed Metal Ingot
-mods.thaumcraft.Aspects.set(<IC2:itemIngot:4>, "metallum 3");
 
 # Reinforced Block
 mods.thaumcraft.Aspects.set(<IC2:blockAlloy>, "metallum 4, ordo 3, terra 2, fabrico 2");

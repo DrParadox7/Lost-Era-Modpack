@@ -19,10 +19,6 @@ mods.forestry.Moistener.addRecipe(<RandomThings:fertilizedDirt>, <Forestry:soil>
 recipes.remove(<RandomThings:enderLetter>);
 recipes.addShaped(<RandomThings:enderLetter>, [[<minecraft:ender_eye>], [<Forestry:letters>], [<minecraft:ender_pearl>]]);
 
-#Magnetic Force
-recipes.remove(<RandomThings:magneticForce>);
-#recipes.addShapeless(<RandomThings:magneticForce>, [<BiomesOPlenty:misc:11>, <HardcoreEnderExpansion:curse>, <HardcoreEnderExpansion:endoplasm>, <minecraft:map>]);
-
 #Player Detector
 recipes.remove(<RandomThings:onlineDetector>);
 recipes.addShaped(<RandomThings:onlineDetector>, [[<minecraft:redstone_lamp>, <ExtraUtilities:budoff:3>, <minecraft:redstone_lamp>], [<ore:ingotRedAlloy>, <RandomThings:ingredient>, <ore:ingotRedAlloy>], [<minecraft:redstone_lamp>, <ExtraUtilities:budoff:3>, <minecraft:redstone_lamp>]]);
@@ -38,5 +34,8 @@ recipes.addShaped(<RandomThings:enderEnergyDistributor>, [[<ore:ingotEnderium>, 
 #SpectreKey
 recipes.remove(<RandomThings:spectreKey>);
 recipes.addShaped(<RandomThings:spectreKey>, [[null, <RandomThings:ingredient:3>, null], [<RandomThings:ingredient:3>, <ExtraUtilities:unstableingot:*>, <RandomThings:ingredient:3>], [null, <RandomThings:ingredient:3>, null]]);
+
+#WhiteStone
+recipes.addShaped(<RandomThings:whitestone>, [[<minecraft:diamond>, <etfuturum:totem_of_undying>, <minecraft:diamond>], [<etfuturum:totem_of_undying>, <minecraft:nether_star>, <etfuturum:totem_of_undying>], [<minecraft:diamond>, <etfuturum:totem_of_undying>, <minecraft:diamond>]]);
 
 print("Initialized 'RandomThings.zs'");

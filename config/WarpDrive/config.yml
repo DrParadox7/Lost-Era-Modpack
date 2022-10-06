@@ -106,7 +106,7 @@ client {
     S:tooltip_armor_stats=ALWAYS
 
     # When to show burn time in tooltips. Valid values are NEVER, ON_SNEAK, ADVANCED_TOOLTIPS, CREATIVE_ONLY, ALWAYS.
-    S:tooltip_burn_time=ALWAYS
+    S:tooltip_burn_time=NEVER
 
     # When to show durability in tooltips. Valid values are NEVER, ON_SNEAK, ADVANCED_TOOLTIPS, CREATIVE_ONLY, ALWAYS.
     S:tooltip_durability=NEVER

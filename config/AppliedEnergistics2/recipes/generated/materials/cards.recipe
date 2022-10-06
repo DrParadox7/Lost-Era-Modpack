@@ -33,3 +33,15 @@ shapeless=
 shapeless=
     ae2:ItemMaterial.BasicCard oredictionary:craftingTableWood
     -> ae2:ItemMaterial.CardCrafting
+
+shaped=
+    ae2:ItemMaterial.AdvCard ae2:ItemMaterial.Cell16kPart _,
+    ae2:ItemMaterial.Cell16kPart ae2:ItemPart.Interface _,
+    _ _ _
+    -> ae2:ItemMaterial.CardPatternCapacity
+
+shaped=
+    ae2:ItemMaterial.AdvCard ae2:ItemMaterial.Cell16kPart _,
+    ae2:ItemMaterial.Cell16kPart ae2:BlockInterface _,
+    _ _ _
+    -> ae2:ItemMaterial.CardPatternCapacity

@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 #Name: TinkerConstruct.zs
 #Author: TechnoParadox
 print("Initializing 'TinkerConstruct.zs'...");
@@ -13,6 +15,15 @@ recipes.addShaped(<TConstruct:toolRod:1>*3, [[<minecraft:stone>, null], [<minecr
 #OP Moss
 recipes.remove(<TConstruct:materials:6>);
 recipes.addShaped(<TConstruct:materials:6>, [[<witchery:ingredient:15>, <witchery:spanishmoss>, <witchery:ingredient:15>], [<witchery:spanishmoss>, <witchery:ingredient:43>, <witchery:spanishmoss>], [<witchery:ingredient:15>, <witchery:spanishmoss>, <witchery:ingredient:15>]]);
+
+#Graveyard Soil
+recipes.remove(<TConstruct:CraftedSoil:3>);
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:3>);
+recipes.addShaped(<TConstruct:CraftedSoil:3>*4, [[null, <ore:blockDirt>, null], [<ore:blockDirt>, <witchery:ingredient:115>, <ore:blockDirt>], [null, <ore:blockDirt>, null]]);
+
+#Consecrated Soil
+furnace.remove(<TConstruct:CraftedSoil:4>);
+recipes.addShaped(<TConstruct:CraftedSoil:4>*4, [[null, <ore:blockDirt>, null], [<ore:blockDirt>, <minecraft:speckled_melon>, <ore:blockDirt>], [null, <ore:blockDirt>, null]]);
 
 #Tool Stat Nerf for better Metallurgy
 mods.tconstruct.ToolStats.setHarvestLevel("Steel", 3);
@@ -45,26 +56,65 @@ recipes.addShapeless(<TConstruct:CraftedSoil:1>*3, [<Metallurgy:utility.item:4>,
 recipes.remove(<TConstruct:CraftedSoil:6>);
 recipes.addShapeless(<TConstruct:CraftedSoil:6>*3, [<minecraft:blaze_powder>, <minecraft:soul_sand>, <minecraft:gravel>, <etfuturum:magma>]);
 
+#Remove Melting from some materials
+val MaterialArray = [
+<minecraft:stone>,
+<minecraft:cobblestone>,
+<ExtraUtilities:cobblestone_compressed>,
+<ExtraUtilities:cobblestone_compressed:1>,
+<ExtraUtilities:cobblestone_compressed:2>,
+<ExtraUtilities:cobblestone_compressed:3>,
+<TConstruct:binding:1>,
+<TConstruct:scytheBlade:1>,
+<TConstruct:BowLimbPart:1>,
+<TConstruct:toolShard:1>,
+<TConstruct:excavatorHead:1>,
+<TConstruct:swordBlade:1>,
+<TConstruct:toughRod:1>,
+<TConstruct:pickaxeHead:1>,
+<TConstruct:signHead:1>,
+<TConstruct:largeSwordBlade:1>,
+<TConstruct:handGuard:1>,
+<TConstruct:CrossbowBodyPart:1>,
+<TConstruct:chiselHead:1>,
+<TConstruct:broadAxeHead:1>,
+<TConstruct:crossbar:1>,
+<TConstruct:fullGuard:1>,
+<TConstruct:toolRod:1>,
+<TConstruct:ShurikenPart:1>,
+<TConstruct:hatchetHead:1>,
+<TConstruct:wideGuard:1>,
+<TConstruct:toughBinding:1>,
+<TConstruct:frypanHead:1>,
+<TConstruct:shovelHead:1>,
+<TConstruct:heavyPlate:1>,
+<TConstruct:hammerHead:1>,
+<TConstruct:knifeBlade:1>,
+<TConstruct:CrossbowLimbPart:1>,
+<ThermalFoundation:material:44>,
+<ThermalFoundation:material:512>,
+<ThermalFoundation:material:513>
+] as IItemStack[];
+
+for i, Material in MaterialArray
+{
+mods.tconstruct.Smeltery.removeMelting(Material);
+}
+
 #Metallurgy integration - Alloy
 mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);
-mods.tconstruct.Smeltery.addAlloy(<liquid:aluminumbrass.molten> * 64, [<liquid:aluminum.molten> * 48, <liquid:brass.molten> * 16]);
+mods.tconstruct.Smeltery.addAlloy(<liquid:aluminumbrass.molten> * 64, [<liquid:aluminum.molten> * 48, <liquid:gold.molten> * 16]);
 
 recipes.remove(<TConstruct:materials:42>);
-recipes.addShapeless(<TConstruct:materials:42> * 4, [<ore:dustAluminium>, <ore:dustAluminium>, <ore:dustAluminium>, <ore:dustBrass>]);
+recipes.addShapeless(<TConstruct:materials:42> * 4, [<ore:dustAluminium>, <ore:dustAluminium>, <ore:dustAluminium>, <ore:dustGold>]);
 
-mods.tconstruct.Smeltery.removeMelting(<minecraft:stone>);
-mods.tconstruct.Smeltery.removeMelting(<minecraft:cobblestone>);
-mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed>);
-mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:1>);
-mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:2>);
-mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:3>);
+#Aluminum Brass Dust 
+recipes.remove(<TConstruct:materials:42>);
+recipes.addShapeless(<TConstruct:materials:42>*4, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustGold>]);
 
 #Thermal Expansion stuff
-mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:44>);
 mods.tconstruct.Smeltery.removeMelting(<ore:glowstone>);
 mods.tconstruct.Smeltery.removeMelting(<ore:dustGlowstone>);
-mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:512>);
-mods.tconstruct.Smeltery.removeMelting(<ThermalFoundation:material:513>);
 
 mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
 
@@ -107,9 +157,5 @@ mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:11303>, "Ele
 mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.block:4>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
-
-#Aluminum Brass Dust 
-recipes.remove(<TConstruct:materials:42>);
-recipes.addShapeless(<TConstruct:materials:42>*4, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustBrass>]);
 
 print("Initialized 'TinkerConstruct.zs'");

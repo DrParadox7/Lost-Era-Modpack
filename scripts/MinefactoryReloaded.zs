@@ -125,15 +125,15 @@ mods.thermalexpansion.Pulverizer.addRecipe(2400, <MineFactoryReloaded:straw>, <M
 #Pokeballs
 #Single-use
 recipes.remove(<MineFactoryReloaded:safarinet.singleuse>);
-recipes.addShaped(<MineFactoryReloaded:safarinet.singleuse>, [[<minecraft:iron_ingot>, <MineFactoryReloaded:plastic.sheet>, <minecraft:iron_ingot>], [<MineFactoryReloaded:plastic.sheet>, <minecraft:ender_pearl>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:iron_ingot>, <MineFactoryReloaded:plastic.sheet>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<MineFactoryReloaded:safarinet.singleuse>*3, [[<minecraft:string>, <MineFactoryReloaded:plastic.sheet>, <minecraft:string>], [null, <ore:slimeball>, null], [<minecraft:string>, null, <minecraft:string>]]);
 
 #Reusable
 recipes.remove(<MineFactoryReloaded:safarinet.reusable>);
-recipes.addShaped(<MineFactoryReloaded:safarinet.reusable>, [[<ore:ingotSteel>, <Mekanism:Polyethene:2>, <ore:ingotSteel>], [<Mekanism:Polyethene:2>, <StevesCarts:ModuleComponents:45>, <Mekanism:Polyethene:2>], [<ore:ingotSteel>, <Mekanism:Polyethene:2>, <ore:ingotSteel>]]);
+recipes.addShaped(<MineFactoryReloaded:safarinet.reusable>, [[<ore:ingotSteel>, <MineFactoryReloaded:plastic.sheet>, <ore:ingotSteel>], [<MineFactoryReloaded:plastic.sheet>, <minecraft:ender_pearl>, <MineFactoryReloaded:plastic.sheet>], [<ore:ingotSteel>, <MineFactoryReloaded:plastic.sheet>, <ore:ingotSteel>]]);
 
 #Porta Spawner
 recipes.remove(<MineFactoryReloaded:portaspawner>);
-recipes.addShaped(<MineFactoryReloaded:portaspawner>, [[<ore:ingotRefinedGlowstone>, <Mekanism:TeleportationCore>, <ore:ingotRefinedGlowstone>], [<rftools:infusedDiamondItem>, <minecraft:nether_star>, <rftools:infusedDiamondItem>], [<ore:ingotRefinedGlowstone>, <Mekanism:ControlCircuit:2>, <ore:ingotRefinedGlowstone>]]);
+recipes.addShaped(<MineFactoryReloaded:portaspawner>, [[<ore:ingotRefinedGlowstone>, <Mekanism:TeleportationCore>, <ore:ingotRefinedGlowstone>], [<rftools:dimensionalShardItem>, <minecraft:nether_star>, <rftools:dimensionalShardItem>], [<ore:ingotRefinedGlowstone>, <Mekanism:ControlCircuit:2>, <ore:ingotRefinedGlowstone>]]);
 
 ###Plastic Rework###
 

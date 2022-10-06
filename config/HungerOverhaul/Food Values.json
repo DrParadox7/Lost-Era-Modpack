@@ -11,13 +11,13 @@
 			"name": "Natura:berryMedley",
 			"meta": 0,
 			"hunger": 4,
-			"saturationModifier": 1
+			"saturationModifier": 0.5
 		},
 		{
 			"name": "harvestcraft:californiarollItem",
 			"meta": 0,
 			"hunger": 6,
-			"saturationModifier": 0.6
+			"saturationModifier": 0.5
 		},
 		{
 			"name": "harvestcraft:chocolatebaconItem",
@@ -164,7 +164,7 @@
 			"name": "harvestcraft:onionsoupItem",
 			"meta": 0,
 			"hunger": 10,
-			"saturationModifier": 0.8
+			"saturationModifier": 0.5
 		},
 		{
 		
@@ -185,7 +185,7 @@
 			"name": "harvestcraft:sausageinbreadItem",
 			"meta": 0,
 			"hunger": 12,
-			"saturationModifier": 0.8
+			"saturationModifier": 0.5
 		},
 		{
 		
@@ -199,7 +199,7 @@
 			"name": "harvestcraft:epicbaconItem",
 			"meta": 0,
 			"hunger": 7,
-			"saturationModifier": 0.8
+			"saturationModifier": 0.5
 		},
 		{
 		
@@ -241,7 +241,7 @@
 			"name": "harvestcraft:bangersandmashItem",
 			"meta": 0,
 			"hunger": 2,
-			"saturationModifier": 0.7
+			"saturationModifier": 0.5
 		},
 		{
 		
@@ -469,6 +469,27 @@
 		},
 		{
 		
+			"name": "harvestcraft:chaoscookieItem",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "harvestcraft:stockItem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "harvestcraft:toastsandwichItem",
+			"meta": 0,
+			"hunger": 14,
+			"saturationModifier": 1
+		},
+		{
+		
 			"name": "cookingforblockheads:toast",
 			"meta": 0,
 			"hunger": 4,
@@ -487,6 +508,41 @@
 			"meta": 0,
 			"hunger": 20,
 			"saturationModifier": 1
+		},
+		{
+		
+			"name": "TConstruct:strangeFood",
+			"meta": 2,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "TConstruct:jerky",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "TConstruct:jerky",
+			"meta": 1,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "TConstruct:jerky",
+			"meta": 3,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+		{
+		
+			"name": "TConstruct:jerky",
+			"meta": 4,
+			"hunger": 2,
+			"saturationModifier": 0.5
 		}
 	]
 }

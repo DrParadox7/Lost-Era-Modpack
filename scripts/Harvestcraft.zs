@@ -11,8 +11,27 @@ print("Initializing 'Harvestcraft.zs'...");
 val toast = <ore:foodToast>;
 toast.add(<cookingforblockheads:toast>);
 
-#Flour Compat
+#Snail is not a fish
+val fish =<ore:listAllfishraw>;
+fish.remove(<harvestcraft:snailrawItem>);
+
+#Wild Barley should not be equivalent to Barley
+val barley = <ore:cropBarley>;
+
+barley.remove(<Natura:barleyFood>);
+recipes.addShaped(<minecraft:bread>, [[<Natura:barleyFood>, <Natura:barleyFood>, <Natura:barleyFood>]]);
 recipes.remove(<Natura:barleyFood:*>);
+
+#Missing Food
+recipes.remove(<harvestcraft:paneertikkamasalaItem>);
+recipes.addShapeless(<harvestcraft:paneertikkamasalaItem>, [<ore:toolSaucepan>, <ore:foodPaneer>, <ore:cropBellpepper>, <ore:foodGarammasala>, <ore:foodCurrypowder>, <ore:cropTomato>, <ore:foodCoconutcream>, <ore:cropOnion>, <ore:cropGinger>]);
+recipes.addShapeless(<harvestcraft:mochiItem>, [<ore:toolMortarandpestle>, <ore:cropRice>, <ore:listAllsugar>, <ore:listAllwater>]);
+recipes.addShapeless(<harvestcraft:jamrollItem>, [<ore:toolBakeware>, <ore:foodChocolatebar>, <ore:foodFlour>, <ore:foodRaspberryjelly>]);
+recipes.addShapeless(<harvestcraft:paneerItem>, [<ore:toolPot>, <ore:listAllmilk>, <ore:foodVinegar>, <ore:foodLemonaide>]);
+
+#ToolRack Fix
+recipes.remove(<cookingforblockheads:toolrack>);
+recipes.addShaped(<cookingforblockheads:toolrack>, [[<ore:pressurePlateWood>, <ore:pressurePlateWood>, <ore:pressurePlateWood>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
 
 #Toaster
 recipes.remove(<cookingforblockheads:toaster>);
@@ -25,6 +44,12 @@ recipes.addShaped(<ExtraUtilities:heatingElement>, [[<ore:nuggetCopper>, <ore:nu
 #Honey sandwich
 recipes.remove(<harvestcraft:honeysandwichItem>);
 recipes.addShapeless(<harvestcraft:honeysandwichItem>, [<harvestcraft:cuttingboardItem>, <ore:listAllnutbutter>, <ore:foodHoneydrop>, <minecraft:bread>]);
+
+#Stock Balance
+recipes.remove(<harvestcraft:stockItem>);
+recipes.addShapeless(<harvestcraft:stockItem>, [<ore:toolPot>, <minecraft:bone>]);
+recipes.addShapeless(<harvestcraft:stockItem>*2, [<ore:toolPot>, <ore:listAllveggie>]);
+recipes.addShapeless(<harvestcraft:stockItem>*3, [<ore:toolPot>, <ore:listAllmeatraw>]);
 
 #Candle Forestry Compat
 recipes.addShapeless(<harvestcraft:pamcandleDeco1>, [<ore:itemBeeswax>, <minecraft:string>]);
@@ -53,9 +78,8 @@ mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBuc
 mods.campfirebackport.addCampfireRecipe("both", [<minecraft:bucket>], <minecraft:bucket>, 1);
 mods.campfirebackport.addCampfireRecipe("both", [<IguanaTweaksTConstruct:clayBucketFired>], <IguanaTweaksTConstruct:clayBucketFired>, 1);
 
-#Distilling Water for salt
-mods.forestry.Still.addRecipe(<liquid:chlorine> ,<liquid:water> * 100, 30);
-mods.forestry.Carpenter.addRecipe(<harvestcraft:saltItem> * 5, [[<harvestcraft:saltItem>]], <liquid:chlorine> * 25, 20);
+#Furnace
+furnace.addRecipe(<harvestcraft:saltItem>, <harvestcraft:freshwaterItem>);
 
 #Forestry
 mods.forestry.Centrifuge.removeRecipe(<ExtraBees:honeyComb:6>);
@@ -66,13 +90,6 @@ recipes.addShapeless(<gregtech_addon:metaitem_1:2817>*3, [<gregtech_addon:metait
 
 #BloodMagic
 mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <minecraft:sugar>, 1, 25);
-
-#Thaumcraft
-mods.thaumcraft.Aspects.set(<harvestcraft:saltItem>, "aqua 2, perditio 1");
-
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>*3, <harvestcraft:saltItem>, "aqua 2, perditio 1");
-mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <harvestcraft:saltItem>);
-mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
 
 #Botania
 mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 3, <harvestcraft:saltItem>, 15);

@@ -186,7 +186,7 @@
     "Aroma_Aluminium": {
         "template": "uniform",
         "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
-        "clusterSize": 6,
+        "clusterSize": 5,
         "numClusters": 3,
         "minHeight": 0,
         "maxHeight": 125,
@@ -195,26 +195,7 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            6
-        ]
-    },
-    "Aroma_Zinc": {
-        "template": "underfluid",
-        "block": {"name": "Metallurgy:precious.ore"},
-        "material": "stone",
-        "genFluid": "lava",
-        "clusterSize": 6,
-        "numClusters": 6,
-        "minHeight": 0,
-        "maxHeight": 125,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
             6
         ]

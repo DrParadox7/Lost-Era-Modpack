@@ -7,12 +7,9 @@ print("Initializing 'Minecraft.zs'...");
 recipes.removeShapeless(<minecraft:flint_and_steel>, [<ore:ingotIron>, <ore:itemFlint>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
 
-#Trapped Chest Buff
-game.setLocalization("en_US", "tile.chestTrap.name", "Chest");
-
 #Door Dupe fix
 recipes.remove(<minecraft:wooden_door>);
-recipes.addShaped(<minecraft:wooden_door>, [[<minecraft:planks>, <minecraft:planks>, null], [<minecraft:planks>, <minecraft:planks>, null], [<minecraft:planks>, <minecraft:planks>, null]]);
+recipes.addShaped(<minecraft:wooden_door>, [[<minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>]]);
 
 #SaltBalance
 mods.thermalexpansion.Pulverizer.addRecipe(40, <harvestcraft:salt>, <harvestcraft:saltItem>*8);
@@ -31,10 +28,6 @@ recipes.addShapeless(<BiomesOPlenty:misc:11>, [<BiomesOPlenty:coral1:15>, <Botan
 
 #Disable dupe inducing cabinets
 recipes.remove(<ExtraUtilities:filing:*>);
-
-#Cooking for Blockheads Missing localization
-game.setLocalization("en_US", "item.cookingforblockheads:toast.name", "Toast");
-game.setLocalization("en_US", "tile.cookingforblockheads:toaster.name", "Toaster");
 
 #Food Fixes
 recipes.remove(<harvestcraft:honeycombchocolatebarItem>);
@@ -58,7 +51,10 @@ recipes.addShaped(<WR-CBE|Logic:wirelessLogic:2>,[[<WR-CBE|Core:blazeTransceiver
 
 #Thaumcraft Brains Drying Rack
 mods.tconstruct.Drying.removeRecipe(<WitchingGadgets:item.WG_MagicFood:2>);
-mods.tconstruct.Drying.addRecipe(<WitchingGadgets:item.WG_MagicFood:2>, <Thaumcraft:ItemZombieBrain>, 24000);
+mods.tconstruct.Drying.addRecipe(<Thaumcraft:ItemZombieBrain>, <WitchingGadgets:item.WG_MagicFood:2>, 24000);
+
+#Drying Rack Mutton
+mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky:3>, 24000);
 
 ### Loot Changes ###
 
@@ -93,5 +89,13 @@ vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:divisionSigil>.weigh
 
 #Portaspawner
 vanilla.loot.removeChestLoot("mfr:villageZoolologist", <MineFactoryReloaded:portaspawner>);
+
+#Totem Undying
+vanilla.loot.addChestLoot("pyramidDesertyChest", <etfuturum:totem_of_undying>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <etfuturum:totem_of_undying>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1), 1, 1);
+
+
 print("Initialized 'Minecraft.zs'");
 

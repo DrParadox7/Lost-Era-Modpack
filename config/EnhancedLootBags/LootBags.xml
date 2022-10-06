@@ -143,7 +143,7 @@
         <Loot Identifier="53e2d7ad-98d4-4866-a7aa-b3bd8d75c68b" ItemName="BiblioCraft:item.AtlasBook" Amount="1" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="2ba77237-f913-4828-bf97-6ee2f065172f" ItemName="OpenBlocks:cartographer" Amount="1" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="3aa54815-e7c0-40f6-bf50-6111539ea3b5" ItemName="Forestry:engine:4" Amount="1" NBTTag="" Chance="18" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="0d39dd7a-2bd0-4ee5-8062-4a42664ee9c4" ItemName="RandomThings:whitestone" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0d39dd7a-2bd0-4ee5-8062-4a42664ee9c4" ItemName="etfuturum:totem_of_undying" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ccc492e1-3761-4154-87ab-1cd379b1efa4" ItemName="minecraft:iron_horse_armor" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="82a44e1d-ddf4-4b17-ac42-d73db1c74e56" ItemName="minecraft:diamond_horse_armor" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0ab5d5ad-44f1-4c9a-8b6a-37389e181663" ItemName="minecraft:name_tag" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -153,12 +153,10 @@
         <Loot Identifier="8f7a4149-00b2-48ad-85ed-f70588e96890" ItemName="TConstruct:diamondApple" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="57bf25e4-defc-43f6-bdbf-655a68292826" ItemName="Botania:spellCloth" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="197c4df0-10d1-4ea4-bc5a-aeb1e3244664" ItemName="minecraft:golden_apple:1" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="17110e40-ad2b-44f8-b354-20950fdb2e28" ItemName="RandomThings:magneticForce" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a4672bd9-16a8-494b-9c27-afe8cc85d61d" ItemName="OpenBlocks:technicolorGlasses" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b3b8b5ba-1a1a-4c72-b2fb-d9882b1f4cac" ItemName="HardcoreEnderExpansion:knowledge_note" Amount="1" NBTTag="{pts:10b}" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="59f17dbf-c1f5-4558-9662-a11aebfebbe4" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.BagRecord" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e361b737-035c-434a-9824-609baa3795ff" ItemName="ExtraUtilities:decorativeBlock2:7" Amount="16" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="b188dc1c-07bd-490c-8354-ed0233d22f3a" ItemName="PortalGun:PortalTurret" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="547ad01c-4540-45b0-9e8c-beaf5aeadd98" ItemName="TConstruct:slime.sapling" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e8d7bf8f-4657-41f5-9821-8729ce638bae" ItemName="OpenBlocks:ropeladder" Amount="24" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="7bd676e2-b1e9-46cf-ab99-2ca01af98d8c" ItemName="TConstruct:ore.berries.one:9" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -369,15 +367,11 @@
         <Loot Identifier="453ff36b-ae87-4b09-aa2d-8a6dc9d0628c" ItemName="CarpentersBlocks:itemCarpentersDoor" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ef638cc8-213c-46a9-9e64-5b5097039864" ItemName="OpenBlocks:ladder" Amount="16" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0eb27cdd-0ade-40c3-a408-3fafa60e6b96" ItemName="ProjRed|Illumination:projectred.illumination.lamp:16" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="1dd5e43e-7136-4b03-a0ea-744d4c1e716d" ItemName="PortalGun:PortalTurret:2" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ba5bae06-247e-4239-82cf-843b48f44a3e" ItemName="PortalGun:RecordStillAlive" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6e547fef-7dbe-4485-9139-9e43cdc7f336" ItemName="OpenBlocks:sky:1" Amount="16" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cdae6ef7-d6fe-4727-925c-9f553b537090" ItemName="CarpentersBlocks:blockCarpentersLadder" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="104da947-18e5-4187-b630-9a7c57aeb349" ItemName="PortalGun:RecordRadioLoop" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="029ba9d8-1ddc-4882-be9b-3d897cb8f306" ItemName="TConstruct:slime.pad" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2499e418-c632-4ec0-be8c-48cae0e5e2f3" ItemName="RandomThings:soundRecorder" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="968f12ab-8e40-4b07-9c45-9941b8a67e7c" ItemName="TConstruct:GlassBlock" Amount="32" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="5d989362-668f-4470-be46-a0b424ed8f67" ItemName="PortalGun:RecordWantYouGone" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="0fb14d44-d659-466d-8c79-2aca4853e1ab" ItemName="ProjRed|Illumination:projectred.illumination.lamp:16" Amount="3" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="1f7c56eb-26a5-4987-822d-33677e0a45b6" ItemName="minecraft:flower_pot" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c0b940bc-0b28-4bd4-b037-cddcbf69b4ea" ItemName="minecraft:brick_block" Amount="64" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>

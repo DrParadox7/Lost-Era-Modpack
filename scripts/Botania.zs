@@ -19,4 +19,7 @@ mods.botania.Orechid.removeOre(<ore:oreVinteum>);
 mods.botania.Orechid.addOre(<ore:orePlatinum>, 250);
 mods.botania.Orechid.addOre(<ore:oreVinteum>, 950);
 
+#Blaze Lamp shouldn't act as fuel
+furnace.setFuel(<Botania:blazeBlock>, 0);
+
 print("Initialized 'Botania.zs'");
