@@ -168,7 +168,7 @@ game.setLocalization("en_US", "tile.thaumicexploration:floatCandle.32767.name", 
 
 game.setLocalization("en_US", "itemm.ItemBaubleBlanks.32767.name", "Mundane Amulet / Mundane Ring");
 
-game.setLocalization("en_US", "tile.for.factory.name", "A Machine");
+game.setLocalization("en_US", "tile.for.factory.name", "Moistener");
 
 #NEI Dungeon Errors
 
