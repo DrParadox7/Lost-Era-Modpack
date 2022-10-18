@@ -1,3 +1,5 @@
+//To hide an item from NEI, use NEI.hide("Item");
+
 if (FML.isModLoaded("pokepatch")) {
     NEI.hide("MekanismTools:*");
     NEI.hide("appliedenergistics2:item.ToolCertusQuartzAxe");
