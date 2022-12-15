@@ -109,6 +109,25 @@ game.setLocalization("en_US", "binniecore.item.container.bucket.ichor", "Ichor B
 
 game.setLocalization("en_US", "binniecore.beemodifier.genetic_decay", "Genetic Decay");
 
+game.setLocalization("en_US", "IguanaTweaksTConstruct:clayBucketsTinkers:31", "Molten Nether Quarts Clay Bucket"
+
+game.setLocalization("en_US", "tile.molten.quarts.name", "Molten Quartz");
+
+game.setLocalization("en_US", "tile.TFBossSpawner.5.name", "Snow Queen Spawner");
+
+game.setLocalization("en_US", "tile.chisel.bloodBrick.name", "Blood Brick");
+
+game.setLocalization("en_US", "fluid.element.Lv.name", "Livermorium");
+
+game.setLocalization("en_US", "fluid.element.Nh.name", "Nihonium");
+
+game.setLocalization("en_US", "fluid.element.Og.name", "Oganesson");
+
+game.setLocalization("en_US", "fluid.element.Ts.name", "Tennessine");
+
+game.setLocalization("en_US", "fluid.element.Fl.name", "Flerovium");
+
+game.setLocalization("en_US", "fluid.element.Mc.name", "Moscovium");
 
 #Broken localization in Waila
 game.setLocalization("en_US", "block.leaves.name", "Leaves");
@@ -141,7 +160,15 @@ game.setLocalization("en_US", "block.Leaves..name", "Tree Leaves");
 
 game.setLocalization("en_US", "block.saplings.name", "Tree Sapling");
 
+game.setLocalization("en_US", "tile.ghostBlock.orange.name", "Projected Blueprint Block");
 
+game.setLocalization("en_US", "tile.blockCandle.32767.name", "Tallow Candle");
+
+game.setLocalization("en_US", "tile.thaumicexploration:floatCandle.32767.name", "Floating Tallow Candle");
+
+game.setLocalization("en_US", "itemm.ItemBaubleBlanks.32767.name", "Mundane Amulet / Mundane Ring");
+
+game.setLocalization("en_US", "tile.for.factory.name", "Moistener");
 
 #NEI Dungeon Errors
 
