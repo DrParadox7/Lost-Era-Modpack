@@ -314,29 +314,29 @@
         "minHeight": 0,
         "maxHeight": 64,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -1
-        ]
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
     },
     "cinnabar": {
         "template": "uniform",
         "block": {"name": "gregtech_addon:ore", "metadata": 7},
-        "material": "stone",
+        "material": "netherrack",
         "clusterSize": 8,
         "numClusters": 4,
         "chunkChance": 2,
         "minHeight": 64,
         "maxHeight": 128,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -1
-        ]
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
     },
     "sphalerite": {
         "template": "uniform",
@@ -361,8 +361,7 @@
         "material": "stone",
         "genFluid": "lava",
         "clusterSize": 8,
-        "numClusters": 2,
-        "chunkChance": 2,
+        "numClusters": 6,
         "minHeight": 0,
         "maxHeight": 20,
         "retrogen": "true",
@@ -383,12 +382,12 @@
         "minHeight": 16,
         "maxHeight": 220,
         "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "END"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
     },
     "Sheldonite": {
         "template": "uniform",
@@ -400,12 +399,12 @@
         "minHeight": 16,
         "maxHeight": 220,
         "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "END"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
     },
     "Olivine": {
         "template": "uniform",
@@ -417,12 +416,12 @@
         "minHeight": 16,
         "maxHeight": 220,
         "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "END"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
     },
     "Sodalite": {
         "template": "uniform",
@@ -434,11 +433,11 @@
         "minHeight": 16,
         "maxHeight": 220,
         "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "END"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": []
     }
 }   

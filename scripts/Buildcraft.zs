@@ -3,17 +3,33 @@
 
 print("Initializing 'Buildcraft.zs'...");
 
-#machines
+#Pump
 recipes.remove(<BuildCraft|Factory:pumpBlock>);
-recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<OpenBlocks:tank>, <ore:chipsetIron>, <OpenBlocks:tank>], [<ore:gearIron>, <minecraft:bucket>, <ore:gearIron>], [null, <BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron>, null]]);
+recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<minecraft:iron_ingot>, <ThermalExpansion:pump>, <minecraft:iron_ingot>], [<BuildCraft|Factory:tankBlock>, <ore:gearIron>, <BuildCraft|Factory:tankBlock>], [<minecraft:iron_ingot>, <ThermalExpansion:material:1>, <minecraft:iron_ingot>]]);
 
-#quarry
+#Mining Well
+recipes.remove(<BuildCraft|Factory:miningWellBlock>);
+recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<minecraft:iron_ingot>, <ThermalFoundation:tool.pickaxeInvar>, <minecraft:iron_ingot>], [<ThermalExpansion:material>, <ore:gearIron>, <ThermalExpansion:material>], [<minecraft:iron_ingot>, <ThermalExpansion:material:1>, <minecraft:iron_ingot>]]);
+
+#Filler
+recipes.remove(<BuildCraft|Builders:fillerBlock>);
+recipes.addShaped(<BuildCraft|Builders:fillerBlock>, [[<minecraft:iron_ingot>, <BuildCraft|Builders:templateItem>, <minecraft:iron_ingot>], [<BuildCraft|Core:markerBlock>, <ore:gearGold>, <BuildCraft|Core:markerBlock>], [<minecraft:iron_ingot>, <ThermalExpansion:material:1>, <minecraft:iron_ingot>]]);
+
+#Builder
+recipes.remove(<BuildCraft|Builders:builderBlock>);
+recipes.addShaped(<BuildCraft|Builders:builderBlock>, [[<minecraft:iron_ingot>, <BuildCraft|Builders:blueprintItem>, <minecraft:iron_ingot>], [<BuildCraft|Core:markerBlock>, <ore:gearDiamond>, <BuildCraft|Core:markerBlock>], [<minecraft:iron_ingot>, <ThermalExpansion:material:1>, <minecraft:iron_ingot>]]);
+
+#Quarry
 recipes.remove(<BuildCraft|Builders:machineBlock>);
-mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Builders:machineBlock>,1000000,[<BuildCraft|Core:ironGearItem>, <BuildCraft|Silicon:redstoneChipset:3>, <BuildCraft|Core:ironGearItem>, <BuildCraft|Core:goldGearItem>, <Railcraft:part.gear:2>, <BuildCraft|Core:goldGearItem>, <BuildCraft|Core:diamondGearItem>, <BuildCraft|Factory:miningWellBlock>, <BuildCraft|Core:diamondGearItem>]);
+mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Builders:machineBlock>,1000000,[<BuildCraft|Builders:builderBlock>, <minecraft:diamond_pickaxe>, <BuildCraft|Factory:miningWellBlock>]);
+
+#Lasers 
+recipes.remove(<BuildCraft|Silicon:laserBlock>);
+recipes.addShaped(<BuildCraft|Silicon:laserBlock>, [[null, <RedstoneArsenal:material:96>, null], [<minecraft:obsidian>, <ThermalExpansion:material:1>, <minecraft:obsidian>]]);
 
 #Assembly Table 
 recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
-recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<minecraft:obsidian>, <RedstoneArsenal:material:96>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:redstone>, <minecraft:obsidian>], [<minecraft:obsidian>, <ore:gearDiamond>, <minecraft:obsidian>]]);
+recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<minecraft:obsidian>, <ThermalExpansion:Glass>, <minecraft:obsidian>], [<minecraft:obsidian>, <RedstoneArsenal:material:96>, <minecraft:obsidian>], [<minecraft:obsidian>, <ore:gearDiamond>, <minecraft:obsidian>]]);
 
 #Charging Table
 recipes.remove(<BuildCraft|Silicon:laserTableBlock:3>);

@@ -23,6 +23,9 @@ recipes.addShapeless(<Natura:natura.flintandblaze>, [<minecraft:stick>, <witcher
 recipes.remove(<ExtraUtilities:golden_bag>);
 recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>], [<witchery:ingredient:100>, <minecraft:ender_pearl>, <witchery:ingredient:100>], [<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>]]);
 
+#Patch cheap silver for tech users
+recipes.removeShapeless(<IC2:itemDust:6>, [<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,]);
+
 #Helpful tooltips 
 <witchery:ingredient:105>.addTooltip("Removes 1 status effect");
 <witchery:ingredient:112>.addTooltip("Wandering soul of the Dream Realms");

@@ -14,12 +14,6 @@ mods.tconstruct.Smeltery.addMelting(<Botania:manaResource:7>, <liquid:elementium
 mods.tconstruct.Smeltery.addMelting(<Botania:storage:2>, <liquid:elementium.molten> * 1296, 900, <Botania:storage:2>);
 mods.tconstruct.Smeltery.addMelting(<Botania:manaResource:19>, <liquid:elementium.molten> * 16, 700, <Botania:storage:2>);
 
-#Void Metal
-mods.tconstruct.Smeltery.addMelting(<WitchingGadgets:WG_MetalDevice:1>, <liquid:voidmetal.molten> * 144, 900, <WitchingGadgets:WG_MetalDevice:1>);
-mods.tconstruct.Smeltery.addMelting(<Thaumcraft:ItemResource:16>, <liquid:voidmetal.molten> * 1296, 750, <WitchingGadgets:WG_MetalDevice:1>);
-mods.tconstruct.Smeltery.addMelting(<Thaumcraft:ItemNugget:7>, <liquid:voidmetal.molten> * 16, 700, <WitchingGadgets:WG_MetalDevice:1>);
-
-
 #Casting
 
 val halfMaterial = 72;
@@ -35,160 +29,129 @@ val octoMaterial = 1152;
 #Block Cast
 mods.tconstruct.Casting.addBasinRecipe(<Botania:storage:1>, <liquid:terrasteel.molten> * 1296, null, false, 100);
 mods.tconstruct.Casting.addBasinRecipe(<Botania:storage:2>, <liquid:elementium.molten> * 1296, null, false, 100);
-mods.tconstruct.Casting.addBasinRecipe(<WitchingGadgets:WG_MetalDevice:1>, <liquid:voidmetal.molten> * 1296, null, false, 100);
 
 
 #Ingot Cast
 mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:4>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:7>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<Thaumcraft:ItemResource:16>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern>, false, 50);
 
 #Nugget Cast
 mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:18>, <liquid:terrasteel.molten> * 16, <TConstruct:metalPattern:27>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:199>, <liquid:elementium.molten> * 16, <TConstruct:metalPattern:27>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<Thaumcraft:ItemNugget:7>, <liquid:voidmetal.molten> * 16, <TConstruct:metalPattern:27>, false, 50);
 
 
 
 #Rod Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toolrod:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:1>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toolrod:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:1>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toolrod:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:1>, false, 50);
 
 #Pickaxe Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:pickaxeHead:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:2>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:pickaxeHead:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:2>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:pickaxeHead:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:2>, false, 50);
 
 #Shovel Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:shovelHead:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:3>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:shovelHead:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:3>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:shovelHead:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:3>, false, 50);
 
 #Axe Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:axeHead:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:4>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:axeHead:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:4>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:axeHead:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:4>, false, 50);
 
 #Axe Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:axeHead:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:4>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:axeHead:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:4>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:axeHead:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:4>, false, 50);
 
 #Sword Blade Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:swordBlade:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:5>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:swordBlade:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:5>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:swordBlade:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:5>, false, 50);
 
 #Wide Guard Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeGuard:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:6>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeGuard:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:6>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeGuard:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:6>, false, 50);
 
 #Hand Guard Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:mediumGuard:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:7>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:mediumGuard:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:7>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:mediumGuard:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:7>, false, 50);
 
 #Crossbar Guard Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:crossbar:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:8>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:crossbar:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:8>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:crossbar:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:8>, false, 50);
 
 #Binding Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:binding:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:9>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:binding:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:9>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:binding:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:9>, false, 50);
 
 #Frypan Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:frypanHead:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:10>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:frypanHead:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:10>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:frypanHead:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:10>, false, 50);
 
 #battelSign Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:battelSign:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:11>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:battelSign:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:11>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:battelSign:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:11>, false, 50);
 
 #Knife Blade Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:knifeBlade:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:12>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:knifeBlade:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:12>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:knifeBlade:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:12>, false, 50);
 
 #Chisel Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:chiselHead:146>, <liquid:terrasteel.molten> * halfMaterial, <TConstruct:metalPattern:13>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:chiselHead:147>, <liquid:elementium.molten> * halfMaterial, <TConstruct:metalPattern:13>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:chiselHead:172>, <liquid:voidmetal.molten> * halfMaterial, <TConstruct:metalPattern:13>, false, 50);
 
 #Tough Rod Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toughrod:146>, <liquid:terrasteel.molten> * tripleMaterial, <TConstruct:metalPattern:14>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toughrod:147>, <liquid:elementium.molten> * tripleMaterial, <TConstruct:metalPattern:14>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toughrod:172>, <liquid:voidmetal.molten> * tripleMaterial, <TConstruct:metalPattern:14>, false, 50);
 
 #Tough Bind Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toughbind:146>, <liquid:terrasteel.molten> * tripleMaterial, <TConstruct:metalPattern:15>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toughbind:147>, <liquid:elementium.molten> * tripleMaterial, <TConstruct:metalPattern:15>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toughbind:172>, <liquid:voidmetal.molten> * tripleMaterial, <TConstruct:metalPattern:15>, false, 50);
 
 #Large Plate Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeplate:146>, <liquid:terrasteel.molten> * octoMaterial, <TConstruct:metalPattern:16>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeplate:147>, <liquid:elementium.molten> * octoMaterial, <TConstruct:metalPattern:16>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeplate:172>, <liquid:voidmetal.molten> * octoMaterial, <TConstruct:metalPattern:16>, false, 50);
 
 #Broadaxe Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:lumberaxeHead:146>, <liquid:terrasteel.molten> * octoMaterial, <TConstruct:metalPattern:17>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:lumberaxeHead:147>, <liquid:elementium.molten> * octoMaterial, <TConstruct:metalPattern:17>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:lumberaxeHead:172>, <liquid:voidmetal.molten> * octoMaterial, <TConstruct:metalPattern:17>, false, 50);
 
 #Scythe Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:scytheHead:146>, <liquid:terrasteel.molten> * octoMaterial, <TConstruct:metalPattern:18>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:scytheHead:147>, <liquid:elementium.molten> * octoMaterial, <TConstruct:metalPattern:18>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:scytheHead:172>, <liquid:voidmetal.molten> * octoMaterial, <TConstruct:metalPattern:18>, false, 50);
 
 #Excavator Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:excavatorHead:146>, <liquid:terrasteel.molten> * octoMaterial, <TConstruct:metalPattern:19>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:excavatorHead:147>, <liquid:elementium.molten> * octoMaterial, <TConstruct:metalPattern:19>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:excavatorHead:172>, <liquid:voidmetal.molten> * octoMaterial, <TConstruct:metalPattern:19>, false, 50);
 
 #Large Blade Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeSwordBlade:146>, <liquid:terrasteel.molten> * octoMaterial, <TConstruct:metalPattern:20>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeSwordBlade:147>, <liquid:elementium.molten> * octoMaterial, <TConstruct:metalPattern:20>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:largeSwordBlade:172>, <liquid:voidmetal.molten> * octoMaterial, <TConstruct:metalPattern:20>, false, 50);
 
 #Hammer Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:hammerHead:146>, <liquid:terrasteel.molten> * octoMaterial, <TConstruct:metalPattern:21>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:hammerHead:147>, <liquid:elementium.molten> * octoMaterial, <TConstruct:metalPattern:21>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:hammerHead:172>, <liquid:voidmetal.molten> * octoMaterial, <TConstruct:metalPattern:21>, false, 50);
 
 #Full Guard Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:fullGuard:146>, <liquid:terrasteel.molten> * tripleMaterial, <TConstruct:metalPattern:22>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:fullGuard:147>, <liquid:elementium.molten> * tripleMaterial, <TConstruct:metalPattern:22>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:fullGuard:172>, <liquid:voidmetal.molten> * tripleMaterial, <TConstruct:metalPattern:22>, false, 50);
 
 #Arrow Head Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:arrowhead:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:metalPattern:25>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:arrowhead:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:metalPattern:25>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:arrowhead:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:metalPattern:25>, false, 50);
 
 #Shuriken Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:shuriken:146>, <liquid:terrasteel.molten> * fullMaterial, <TConstruct:Cast>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:shuriken:147>, <liquid:elementium.molten> * fullMaterial, <TConstruct:Cast>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:shuriken:172>, <liquid:voidmetal.molten> * fullMaterial, <TConstruct:Cast>, false, 50);
 
 #Crossbow Limb Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowLimb:146>, <liquid:terrasteel.molten> * quadMaterial, <TConstruct:Cast:1>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowLimb:147>, <liquid:elementium.molten> * quadMaterial, <TConstruct:Cast:1>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowLimb:172>, <liquid:voidmetal.molten> * quadMaterial, <TConstruct:Cast:1>, false, 50);
 
 #Crossbow Body Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowBody:146>, <liquid:terrasteel.molten> * pentaMaterial, <TConstruct:Cast:2>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowBody:147>, <liquid:elementium.molten> * pentaMaterial, <TConstruct:Cast:2>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowBody:172>, <liquid:voidmetal.molten> * pentaMaterial, <TConstruct:Cast:2>, false, 50);
 
 #Bow Limb Cast
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:146>, <liquid:terrasteel.molten> * fullhalfMaterial, <TConstruct:Cast:3>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:147>, <liquid:elementium.molten> * fullhalfMaterial, <TConstruct:Cast:3>, false, 50);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:172>, <liquid:voidmetal.molten> * fullhalfMaterial, <TConstruct:Cast:3>, false, 50);
 
 
 #Thaumium

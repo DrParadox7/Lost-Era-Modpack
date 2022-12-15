@@ -187,7 +187,7 @@ recipes.addShaped(<openmodularturrets:fenceTierFive>*4, [[<minecraft:ender_eye>,
 
 #Structural Blocks - Block
 recipes.remove(<openmodularturrets:hardWallTierOne>);
-furnace.addRecipe(<openmodularturrets:hardWallTierOne>, <Railcraft:cube:1>);
+recipes.addShaped(<openmodularturrets:hardWallTierOne>*8, [[<Railcraft:cube:1>, <Railcraft:cube:1>, <Railcraft:cube:1>], [<Railcraft:cube:1>, <ore:ingotSteel>, <Railcraft:cube:1>], [<Railcraft:cube:1>, <Railcraft:cube:1>, <Railcraft:cube:1>]]);
 
 recipes.remove(<openmodularturrets:hardWallTierTwo>);
 recipes.addShaped(<openmodularturrets:hardWallTierTwo>*4, [[<openmodularturrets:fenceTierOne>, <openmodularturrets:hardWallTierOne>, <openmodularturrets:fenceTierOne>], [<openmodularturrets:hardWallTierOne>, <ore:dustHydratedCoal>, <openmodularturrets:hardWallTierOne>], [<openmodularturrets:fenceTierOne>, <openmodularturrets:hardWallTierOne>, <openmodularturrets:fenceTierOne>]]);

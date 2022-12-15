@@ -12,10 +12,6 @@ recipes.remove(<TConstruct:toolRod:1>);
 recipes.addShaped(<TConstruct:toolRod:1>, [[<minecraft:cobblestone>, null], [<minecraft:cobblestone>, null]]);
 recipes.addShaped(<TConstruct:toolRod:1>*3, [[<minecraft:stone>, null], [<minecraft:stone>, null]]);
 
-#OP Moss
-recipes.remove(<TConstruct:materials:6>);
-recipes.addShaped(<TConstruct:materials:6>, [[<witchery:ingredient:15>, <witchery:spanishmoss>, <witchery:ingredient:15>], [<witchery:spanishmoss>, <witchery:ingredient:43>, <witchery:spanishmoss>], [<witchery:ingredient:15>, <witchery:spanishmoss>, <witchery:ingredient:15>]]);
-
 #Graveyard Soil
 recipes.remove(<TConstruct:CraftedSoil:3>);
 mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:3>);
@@ -27,7 +23,6 @@ recipes.addShaped(<TConstruct:CraftedSoil:4>*4, [[null, <ore:blockDirt>, null], 
 
 #Tool Stat Nerf for better Metallurgy
 mods.tconstruct.ToolStats.setHarvestLevel("Steel", 3);
-mods.tconstruct.ToolStats.setHarvestLevel("Alumite", 3);
 mods.tconstruct.ToolStats.setHarvestLevel("Manasteel", 2);
 mods.tconstruct.ToolStats.setHandleModifier("MagicWood", 0.25);
 
@@ -101,16 +96,14 @@ for i, Material in MaterialArray
 mods.tconstruct.Smeltery.removeMelting(Material);
 }
 
-#Metallurgy integration - Alloy
+#Aluminum Brass Alloy (Now Gold Solder Alloy)
 mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);
-mods.tconstruct.Smeltery.addAlloy(<liquid:aluminumbrass.molten> * 64, [<liquid:aluminum.molten> * 48, <liquid:gold.molten> * 16]);
-
+mods.tconstruct.Smeltery.addAlloy(<liquid:aluminumbrass.molten> * 576, [<liquid:gold.molten> * 432, <liquid:tin.molten> * 144]);
 recipes.remove(<TConstruct:materials:42>);
-recipes.addShapeless(<TConstruct:materials:42> * 4, [<ore:dustAluminium>, <ore:dustAluminium>, <ore:dustAluminium>, <ore:dustGold>]);
 
-#Aluminum Brass Dust 
-recipes.remove(<TConstruct:materials:42>);
-recipes.addShapeless(<TConstruct:materials:42>*4, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>, <ore:dustGold>]);
+#Force TMechworks to use only Gold Solder plates
+recipes.removeShaped(<TMechworks:RedstoneMachine>, [[<*>, <TConstruct:blankPattern:2>, <*>],[<*>, <*>, <*>],[<*>, <minecraft:redstone>, <*>]]);
+recipes.removeShaped(<TMechworks:RedstoneMachine:2>, [[null, <TConstruct:blankPattern:2>, null],[<*>, <*>, <*>],[null, <*>, null]]);
 
 #Thermal Expansion stuff
 mods.tconstruct.Smeltery.removeMelting(<ore:glowstone>);
@@ -142,7 +135,6 @@ furnace.remove(<ProjRed|Core:projectred.core.part:10>);
 mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:40>);
 
 #Add Electrum repair material
-
 #Nuggets
 mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.nugget:4>, "Electrum", 24);
 mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:material:103>, "Electrum", 24);

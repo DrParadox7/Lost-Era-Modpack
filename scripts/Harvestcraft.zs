@@ -15,7 +15,7 @@ toast.add(<cookingforblockheads:toast>);
 val fish =<ore:listAllfishraw>;
 fish.remove(<harvestcraft:snailrawItem>);
 
-#Wild Barley should not be equivalent to Barley
+#Wild Grain should not be equivalent to Barley
 val barley = <ore:cropBarley>;
 
 barley.remove(<Natura:barleyFood>);

@@ -551,10 +551,10 @@ ship {
     I:teleport_energy_per_entity=1000000
 
     # Maximum ship mass (in blocks) to jump on a planet
-    I:volume_max_on_planet_surface=1200
+    I:volume_max_on_planet_surface=3000
 
     # Minimum ship mass (in blocks) to enter or exit hyperspace without a jumpgate
-    I:volume_min_for_hyperspace=3000
+    I:volume_min_for_hyperspace=4000
 
     # Ship volume won't be refreshed unless it's older than that many seconds
     I:volume_scan_age_tolerance=120

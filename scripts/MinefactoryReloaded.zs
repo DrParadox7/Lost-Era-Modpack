@@ -46,13 +46,13 @@ recipes.addShaped(<MineFactoryReloaded:machine.0:8>, [[<MineFactoryReloaded:plas
 recipes.addShaped(<MineFactoryReloaded:machine.0:12>, [[<MineFactoryReloaded:plastic.sheet>, <Railcraft:machine.alpha:11>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:golden_carrot>, <ThermalExpansion:Frame>, <minecraft:golden_carrot>], [<Railcraft:part.circuit:2>, <ThermalExpansion:material:1>, <Railcraft:part.circuit:2>]]);
 
 #Deep Storage Unit
-recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<MineFactoryReloaded:plastic.sheet>, <Mekanism:TeleportationCore>, <MineFactoryReloaded:plastic.sheet>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Frame:11>, <ExtraUtilities:bedrockiumIngot>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:material>, <MineFactoryReloaded:plastic.sheet>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<Mekanism:Polyethene:2>, <Mekanism:TeleportationCore>, <Mekanism:Polyethene:2>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Frame:11>, <ExtraUtilities:bedrockiumIngot>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:material>, <MineFactoryReloaded:plastic.sheet>]]);
 
 #Laser Precharger
 recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:plastic.sheet>], [<Mekanism:AtomicAlloy>, <Mekanism:MachineBlock2:14>, <Mekanism:AtomicAlloy>], [<ore:gearLumium>, <Mekanism:MachineBlock2:13>, <ore:gearLumium>]]);
 
 #Laser Drill
-recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>], [<MekanismGenerators:ReactorGlass:1>, <Mekanism:MachineBlock2:15>, <MekanismGenerators:ReactorGlass:1>], [<Mekanism:ControlCircuit:3>, <MekanismGenerators:ReactorGlass:1>, <Mekanism:ControlCircuit:3>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<Mekanism:Polyethene:2>, <MineFactoryReloaded:plastic.sheet>, <Mekanism:Polyethene:2>], [ <Mekanism:ControlCircuit:3>, <MekanismGenerators:ReactorGlass:1>, <Mekanism:ControlCircuit:3>], [<MineFactoryReloaded:plastic.sheet>, <Mekanism:MachineBlock2:15>, <MineFactoryReloaded:plastic.sheet>]]);
 
 #Chipsets
 recipes.remove(<MineFactoryReloaded:upgrade.logic:*>);
@@ -97,12 +97,6 @@ mods.forestry.Centrifuge.addRecipe([<MineFactoryReloaded:rubber.raw>*2% 120, <mi
 
 mods.thermalexpansion.Smelter.addRecipe(800, <MineFactoryReloaded:rubber.raw>*2, <ThermalFoundation:material:16>, <MineFactoryReloaded:rubber.bar>*2, <MineFactoryReloaded:rubber.bar>, 5);
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <gregtech_addon:metaitem_1:2880>);
-
-#Ethanol to Ethylene
-#mods.mekanism.SolarEvaporation.addRecipe(<liquid:bioethanol>*10, <liquid:ethene>);
-
-#Plastic dust
-mods.mekanism.Crusher.addRecipe(<Mekanism:Polyethene>, <MineFactoryReloaded:plastic.raw>*12);
 
 #Plastic furnace removal
 furnace.remove(<MineFactoryReloaded:plastic.raw>);
@@ -249,11 +243,6 @@ recipes.addShaped(<MineFactoryReloaded:upgrade.radius:11>, [[<minecraft:cobblest
 #Localizations
 game.setLocalization("en_US", "item.HDPEPellet.name", "Polyethene");
 game.setLocalization("en_US", "item.mfr.plastic.raw.name", "Raw LDPE");
-
-#Plastic creation (Early game)
-mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.raw>, [[<Forestry:mulch>]], <liquid:bioethanol>* 100, 20);
-mods.forestry.Carpenter.addRecipe(<MineFactoryReloaded:plastic.sheet>*4, [[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>],[<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.raw>]], <liquid:resin>* 50, 20);
-mods.mekanism.Enrichment.addRecipe(<MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:plastic.sheet>);
 
 #Laser Focus 
 MiningLaser.removeOre(<Metallurgy:ender.ore:*>);

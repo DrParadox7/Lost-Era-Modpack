@@ -18,8 +18,7 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 
 #Concrete
 recipes.remove(<Railcraft:cube:1>);
-recipes.addShaped(<Railcraft:cube:1>*16, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <ThermalExpansion:material:514>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
-recipes.addShaped(<Railcraft:cube:1>*16, [[<minecraft:sand>, <minecraft:water_bucket>, <minecraft:sand>], [<ore:dustSulfur>, <IC2:itemSlag>, <ore:dustSulfur>], [<minecraft:gravel>, <chisel:limestone>, <minecraft:gravel>]]);
+recipes.addShaped(<Railcraft:cube:1>*4, [[<minecraft:sand>, <minecraft:clay_ball>, <minecraft:sand>], [<minecraft:gravel>, <minecraft:water_bucket>, <minecraft:gravel>], [<minecraft:sand>, <minecraft:clay_ball>, <minecraft:sand>]]);
 
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 21000, <Railcraft:cube:2>);

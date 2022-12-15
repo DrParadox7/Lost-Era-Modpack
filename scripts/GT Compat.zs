@@ -16,18 +16,6 @@ print("Initializing 'GT Compat.zs'...");
 <gregtech_addon:ore:13>.addTooltip("Found in Mountains, Jungles and fungi areas");
 <gregtech_addon:ore:14>.addTooltip("Found in Mountains and other Cold biomes");
 
-#Remove compat with TiC Aluminium 
-
-val alumingot = <ore:ingotAluminium>;
-val alumnugget = <ore:nuggetAluminium>;
-val alumdust = <ore:dustAluminium>;
-val alumoreberry = <ore:oreberryAluminium>;
-
-alumingot.remove(<TConstruct:materials:11>);
-alumnugget.remove(<TConstruct:materials:22>);
-alumnugget.remove(<TConstruct:oreBerries:4>);
-alumdust.remove(<TConstruct:materials:40>);
-alumoreberry.remove(<TConstruct:oreBerries:4>);
 
 #Stop GT from overriding Enderium
 recipes.remove(<gregtech_addon:metaitem_1:11321>);

@@ -59,7 +59,7 @@ recipes.addShapeless(<NuclearCraft:fuel:140>, [<NuclearCraft:fuel:48>, <ore:Cf25
 mods.thermalexpansion.Smelter.removeRecipe(<ore:dustCoal>, <ore:ingotLead>);
 mods.mekanism.Enrichment.removeRecipe(<NuclearCraft:material:7>, <NuclearCraft:parts>);
 ####
-recipes.addShaped(<NuclearCraft:parts>*4, [[<ore:plateLead>, <minecraft:redstone>, <ore:plateLead>], [<minecraft:redstone>, <NuclearCraft:parts:4>, <minecraft:redstone>], [<ore:plateLead>, <minecraft:redstone>, <ore:plateLead>]]);
+recipes.addShaped(<NuclearCraft:parts>*4, [[<ore:plateSteel>, <ore:dustLead>, <ore:plateSteel>], [<ore:dustLead>, <Mekanism:EnrichedAlloy>, <ore:dustLead>], [<ore:plateSteel>, <ore:dustLead>, <ore:plateSteel>]]);
 
 #Magnesium ingot
 recipes.remove(<NuclearCraft:material:71>);

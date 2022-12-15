@@ -1,9 +1,9 @@
 {
     "Aroma_bitumen": {
-        "template": "cave", 
+        "template": "uniform", 
         "block": {"name": "Metallurgy:utility.ore", "metadata": 4},
-        "clusterSize": 6,
-        "numClusters": 10,
+        "clusterSize": 9,
+        "numClusters": 6,
         "minHeight": 0,
         "maxHeight": 128,
         "retrogen": "true",
@@ -173,23 +173,6 @@
         "chunkChance": 2,
         "minHeight": 5,
         "maxHeight": 20,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            6
-        ]
-    },
-    "Aroma_Aluminium": {
-        "template": "uniform",
-        "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
-        "clusterSize": 5,
-        "numClusters": 3,
-        "minHeight": 0,
-        "maxHeight": 125,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [

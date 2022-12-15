@@ -154,13 +154,12 @@
             0
         ]
     },
-    "quantum": {
+    "Quantum": {
         "template": "uniform",
         "block": "qCraft:quantumore",
         "material": "stone",
-        "clusterSize": 1,
-        "numClusters": 10,
-        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 16,
         "minHeight": 1,
         "maxHeight": 63,
         "retrogen": "false",
@@ -185,7 +184,9 @@
         "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
-		"biomes":[],	
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
@@ -210,10 +211,96 @@
         "maxHeight": 256,
         "retrogen": "false",
         "biomeRestriction": "none",
-        "biomes": [],
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
             1
+        ]
+    },
+    "Uranium": {
+        "template": "uniform",
+        "block": {"name": "IC2:blockOreUran"},
+        "clusterSize": 1,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "Thorium": {
+        "template": "uniform",
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 5},
+        "clusterSize": 2,
+        "numClusters": 15,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "Boron": {
+        "template": "uniform",
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 8},
+        "material": "minecraft:end_stone",
+        "clusterSize": 3,
+        "numClusters": 16,
+        "minHeight": 5,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "END"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "Cobalt": {
+        "template": "uniform",
+        "block": {"name": "TConstruct:SearedBrick", "metadata": 1},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 1,
+        "numClusters": 18,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "name", "entry": "Hell", "rarity": 2}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+        0
+        ]
+    },
+    "Ardite": {
+        "template": "uniform",
+        "block": {"name": "TConstruct:SearedBrick", "metadata": 2},
+        "material": {"name": "minecraft:netherrack"},
+        "clusterSize": 1,
+        "numClusters": 18,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Phantasmagoric Inferno"},
+            {"type": "name", "entry": "Hell", "rarity": 2}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+        0
         ]
     }
 }

@@ -11,6 +11,11 @@ dustQuartz.addAll(<ore:dustNetherQuartz>);
 mods.thermalexpansion.Crucible.addRecipe(100000, <ThermalFoundation:material:76>, <liquid:enderium.molten> * 144);
 mods.thermalexpansion.Crucible.addRecipe(11111, <ThermalFoundation:material:108>, <liquid:enderium.molten> * 16);
 
+### Alloys: ###
+recipes.addShapeless(<ThermalFoundation:material:39>, [<ore:dustGold>, <ore:dustSilver>]);
+recipes.addShapeless(<ThermalFoundation:material:40>*2, [<ore:dustIron>, <ore:dustIron>, <ore:dustNickel>]);
+recipes.addShapeless(<ThermalFoundation:material:41>*3, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>]);
+
 ### Item Ducts ###
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:*>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_16:*>);

@@ -30,7 +30,7 @@
 		  name and description support colors with § or & as the escape code. '\n' is also supported.
 		  nbt defines a JSON string for custom tags. It's used by WarpDrive extensions.
 		  -->
-		<size x="400000" z="400000" />
+		<size x="2000000" z="2000000" />
 		<name>Hyperspace</name>
 		<description>Your ship warp bubble is your\nonly protection.</description>
 		
@@ -81,7 +81,7 @@
 			<parent>
 				<center x="50000" z="10000" />
 			</parent>
-			<size x="300000" z="300000" />
+			<size x="1000000" z="1000000" />
 			<name>Space</name>
 			<description>The void, filled with §6resources§r.</description>
 			<dimension id="-2" isBreathable="false" gravity="legacySpace">
@@ -141,7 +141,7 @@
 					<!-- coordinates in the solar system, measured in blocks -->
 					<center x="-40000" z="30000" />
 				</parent>
-				<size x="60000" z="60000" />
+				<size x="50000" z="50000" />
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -152,7 +152,18 @@
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
-			</celestialObject>	
+			</celestialObject>
+			
+			<!-- Pluto is The End. It's a far planet. --> 
+			<celestialObject id="pluto">
+				<parent>
+					<center x="90000" z="70000" />
+				</parent>
+				<size x="4000" z="4000" />
+				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="minecraft:textures/blocks/end_stone.png" periodU="150" />
+				<render red="0.50" green="0.50" blue="0.40" alpha="0.30" />
+			</celestialObject>
+			
 		</celestialObject>
 		
 	</celestialObject>

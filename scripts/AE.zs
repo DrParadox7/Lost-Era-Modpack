@@ -15,19 +15,5 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:55>, [<appliede
 #Processing Pattern Terminal
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:500>, [<appliedenergistics2:item.ItemMultiPart:400>, <appliedenergistics2:item.ItemMultiMaterial:22>]);
 
-#Tools
-recipes.remove(<appliedenergistics2:item.ToolCertusQuartzAxe>);
-recipes.remove(<appliedenergistics2:item.ToolCertusQuartzHoe>);
-recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSpade>);
-recipes.remove(<appliedenergistics2:item.ToolCertusQuartzPickaxe>);
-recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSword>);
-
-recipes.remove(<appliedenergistics2:item.ToolNetherQuartzAxe>);
-recipes.remove(<appliedenergistics2:item.ToolNetherQuartzHoe>);
-recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSpade>);
-recipes.remove(<appliedenergistics2:item.ToolNetherQuartzPickaxe>);
-recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSword>);
-
-
 print("Initialized 'AE.zs'");
 

@@ -67,6 +67,9 @@ block_tags {
     S:"TConstruct:slime.gel"=Log
     S:"TConstruct:slime.leaves"=Leaf
     S:"Thaumcraft:blockCustomPlant"=NoCamouflage
+    S:"ThermalDynamics:ThermalDynamics_0"=Anchor
+    S:"ThermalDynamics:ThermalDynamics_19"=Anchor
+    S:"ThermalDynamics:ThermalDynamics_32"=Anchor
     S:"ThermalExpansion:Cache"=NoCamouflage
     S:"ThermalExpansion:Device"=NoCamouflage
     S:"ThermalExpansion:Machine"=NoCamouflage

@@ -67,18 +67,15 @@
 
 		<!-- Adding Thermal equal loot w/ same probability -->
 
-		<loot item="ThermalDynamics:ThermalDynamics_0"       minQuantity="1" maxQuantity="2"  weight="18" /><!-- Leadstone Fluxduct -->
-		<loot item="ThermalDynamics:ThermalDynamics_0"     damage="1"  minQuantity="1" maxQuantity="2"  weight="19" /><!-- Hardened Fluxduct -->
-		<loot item="ThermalDynamics:ThermalDynamics_0"     damage="3"  minQuantity="1" maxQuantity="2"  weight="10" /><!-- Redstone Fluxduct (empty) -->
-		<loot item="ThermalDynamics:ThermalDynamics_0"     damage="5"  minQuantity="1" maxQuantity="2"  weight="5" /><!-- Resonant Fluxduct (empty) -->
-		<loot item="ThermalExpansion:Glass"               damage="1" minQuantity="5" maxQuantity="12" weight="20" /><!-- Hardened Lumium Glass -->
-		<loot item="ThermalFoundation:material"         damage="71"  minQuantity="8" maxQuantity="16"  weight="30"  /><!-- Electrum Ingot -->
-		<loot item="ThermalFoundation:material"         damage="68"  minQuantity="8" maxQuantity="16"  weight="30"  /><!-- Ferrous Ingot -->
-		<loot item="ThermalExpansion:Plate"                 damage="6"minQuantity="1" maxQuantity="1"  weight="1"  /><!-- Teleport Plate -->
+		<loot item="ThermalDynamics:ThermalDynamics_0"      minQuantity="1" maxQuantity="2"  weight="18" /><!-- Leadstone Fluxduct -->
+		<loot item="ThermalDynamics:ThermalDynamics_0"     	damage="1"  minQuantity="1" maxQuantity="2"  weight="19" /><!-- Hardened Fluxduct -->
+		<loot item="ThermalDynamics:ThermalDynamics_0"     	damage="3"  minQuantity="1" maxQuantity="2"  weight="10" /><!-- Redstone Fluxduct (empty) -->
+		<loot item="ThermalDynamics:ThermalDynamics_0"     	damage="5"  minQuantity="1" maxQuantity="2"  weight="5" /><!-- Resonant Fluxduct (empty) -->
+		<loot item="ThermalExpansion:Glass"               	damage="1" minQuantity="5" maxQuantity="12" weight="20" /><!-- Hardened Lumium Glass -->
+		<loot item="ThermalFoundation:material"         	damage="71"  minQuantity="8" maxQuantity="16"  weight="30" /><!-- Electrum Ingot -->
+		<loot item="ThermalFoundation:material"         	damage="68"  minQuantity="8" maxQuantity="16"  weight="30" /><!-- Ferrous Ingot -->
+		<loot item="ThermalExpansion:Plate"                 damage="6" minQuantity="1" maxQuantity="1"  weight="1" /><!-- Teleport Plate -->
 
-
-
-		
 		<!-- nano armor? -->
 		<!-- ICBM rocket launcher platform minQuantity="1" maxQuantity="2" -->
 		<!-- ICBM missile damage=0 to 9 minQuantity="2" maxQuantity="3" -->
