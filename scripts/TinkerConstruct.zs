@@ -45,11 +45,17 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
 #Grout
 recipes.remove(<TConstruct:CraftedSoil:1>);
-recipes.addShapeless(<TConstruct:CraftedSoil:1>*3, [<Metallurgy:utility.item:4>, <minecraft:sand>, <minecraft:gravel>, <minecraft:clay>]);
+recipes.addShapeless(<TConstruct:CraftedSoil:1>*8, [<minecraft:coal_block>, <minecraft:sand>, <minecraft:gravel>, <minecraft:clay>]);
 
 #Nether Grout
 recipes.remove(<TConstruct:CraftedSoil:6>);
-recipes.addShapeless(<TConstruct:CraftedSoil:6>*3, [<minecraft:blaze_powder>, <minecraft:soul_sand>, <minecraft:gravel>, <etfuturum:magma>]);
+recipes.addShapeless(<TConstruct:CraftedSoil:6>*8, [<minecraft:quartz>, <minecraft:soul_sand>, <minecraft:gravel>, <etfuturum:magma>]);
+
+furnace.remove(<TConstruct:materials:37>);
+furnace.addRecipe(<TConstruct:materials:37>*3, <TConstruct:CraftedSoil:6>);
+
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:6>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <TConstruct:CraftedSoil:6>, <TConstruct:materials:37>*3);
 
 #Remove Melting from some materials
 val MaterialArray = [
