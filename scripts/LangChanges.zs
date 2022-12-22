@@ -129,6 +129,42 @@ game.setLocalization("en_US", "fluid.element.Fl.name", "Flerovium");
 
 game.setLocalization("en_US", "fluid.element.Mc.name", "Moscovium");
 
+game.setLocalization("en_US", "tile.chisel.sandstone2.name", "Fancy Sandstonne");
+
+game.setLocalization("en_US", "tile.chisel.sandstone.16.desc", "Fancy Sandstone Bricks");
+
+game.setLocalization("en_US", "tile.chisel.sandstone.17.desc", "Fancy Smooth Sandstone");
+
+game.setLocalization("en_US", "tile.dirt.13.desc", "Intertwined Dirt");
+game.setLocalization("en_US", "tile.dirt.14.desc", "Straight Dirt");
+game.setLocalization("en_US", "tile.dirt.15.desc", "Dirt Panel");
+
+game.setLocalization("en_US", "tile.imperial.0.desc", "Overgrown Imperial");
+game.setLocalization("en_US", "tile.imperial.1.desc", "Even More Overgrown Imperal");
+game.setLocalization("en_US", "tile.imperial.2.desc", "Rusted Screws in Imperial Plating");
+game.setLocalization("en_US", "tile.imperial.3.desc", "White Striped Imperial");
+game.setLocalization("en_US", "tile.imperial.4.desc", "Orange Striped Imperial");
+
+game.setLocalization("en_US", "tile.rebel.0.desc", "Rusted Rebel");
+game.setLocalization("en_US", "tile.rebel.1.desc", "Even More Rusted Rebel");
+game.setLocalization("en_US", "tile.rebel.2.desc", "Rusted Screws in Rebel Plating");
+game.setLocalization("en_US", "tile.rebel.3.desc", "White Striped Rebel");
+game.setLocalization("en_US", "tile.rebel.4.desc", "Red Striped Rebel");
+
+game.setLocalization("en_US", "tile.valentines.2.desc", "Cobbled Heart Block");
+game.setLocalization("en_US", "tile.valentines.3.desc", "Cobbled Pink Heart Block");
+game.setLocalization("en_US", "tile.valentines.4.desc", "Cobbled Pink Heart");
+game.setLocalization("en_US", "tile.valentines.5.desc", "Pink Metal");
+game.setLocalization("en_US", "tile.valentines.6.desc", "Cobbled Pink");
+game.setLocalization("en_US", "tile.valentines.7.desc", "Pink Metal with Gold");
+game.setLocalization("en_US", "tile.valentines.8.desc", "Pink Grate");
+game.setLocalization("en_US", "tile.valentines.9.desc", "");
+
+game.setLocalization("en_US", "AWWayofTime:fluidSigil", "Fluid Sigil");
+
+game.setLocalization("en_US", "item.injection.15.name", "Useless Injection");
+
+
 #Broken localization in Waila
 game.setLocalization("en_US", "block.leaves.name", "Leaves");
 
@@ -169,6 +205,39 @@ game.setLocalization("en_US", "tile.thaumicexploration:floatCandle.32767.name", 
 game.setLocalization("en_US", "itemm.ItemBaubleBlanks.32767.name", "Mundane Amulet / Mundane Ring");
 
 game.setLocalization("en_US", "tile.for.factory.name", "Moistener");
+
+game.setLocalization("en_US", "item.botania:grassSeeds32757.name", "Pasture Seeds");
+
+game.setLocalization("en_US", "item.botania.cosmetic32767.name", "Botania Accessory");
+
+game.setLocalization("en_US", "Speed Upgrade.name", "Speed Upgrade");
+
+game.setLocalization("en_US", "item.upgrade_speed,name.desc", "Increases the rate at wich the Auto Chisel works");
+
+game.setLocalization("en_US", "Automation Upgrade.name", "Automation Upgrade");
+
+game.setLocalization("en_US", "item.upgrade_automation,name.desc", "Allows things to push in and out of the Auto Chisel");
+
+game.setLocalization("en_US", "Stack Upgrade.name", "Stack Upgrade");
+
+game.setLocalization("en_US", "item.upgrade_stack,name.desc", "Allows it to chisel stacks at a time in the Auto Chisel");
+
+game.setLocalization("en_US", "Reversion Upgrade.name", "Reversion Upgrade");
+
+game.setLocalization("en_US", "item.upgrade_reversion,name.desc", "Reverts the base slot to its orginal form in the Auto Chisel");
+
+game.setLocalization("en_US", "fluid.element.Lv.name", "Livermorium");
+
+game.setLocalization("en_US", "fluid.element.Nh.name", "Nihonium");
+
+game.setLocalization("en_US", "fluid.element.Og.name", "Oganesson");
+
+game.setLocalization("en_US", "fluid.element.Ts.name", "Tennessine");
+
+game.setLocalization("en_US", "fluid.element.Fl.name", "Flerovium");
+
+game.setLocalization("en_US", "fluid.element.Mc.name", "Moscovium");
+
 
 #NEI Dungeon Errors
 
