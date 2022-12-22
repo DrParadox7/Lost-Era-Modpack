@@ -91,7 +91,7 @@ game.setLocalization("en_US", "tile.magicLight.name", "Magic Light");
 
 game.setLocalization("en_US", "tile.vanishingCobweb.name", "Vanishing Cobweb");
 
-game.setLocalization("en_US", "binniecore.item.container.refactory.ambrosia", "Ambrosia Capsul");
+game.setLocalization("en_US", "binniecore.item.container.refactory.ambrosia", "Ambrosia Capsule");
 
 game.setLocalization("en_US", "binniecore.item.container.refactory.ichor", "Ambrosia Capsule");
 
@@ -99,7 +99,7 @@ game.setLocalization("en_US", "binniecore.item.container.capsule.ambrosia", "Amb
 
 game.setLocalization("en_US", "binniecore.item.container.capsule.ichor", "Ichor Capsule");
 
-game.setLocalization("en_US", "binniecore.item.container.can.ambrosia", "Ambrosia Containter");
+game.setLocalization("en_US", "binniecore.item.container.can.ambrosia", "Ambrosia Container");
 
 game.setLocalization("en_US", "binniecore.item.container.can.ichor", "Ichor Container");
 
@@ -129,7 +129,7 @@ game.setLocalization("en_US", "fluid.element.Fl.name", "Flerovium");
 
 game.setLocalization("en_US", "fluid.element.Mc.name", "Moscovium");
 
-game.setLocalization("en_US", "tile.chisel.sandstone2.name", "Fancy Sandstonne");
+game.setLocalization("en_US", "tile.chisel.sandstone2.name", "Fancy Sandstone");
 
 game.setLocalization("en_US", "tile.chisel.sandstone.16.desc", "Fancy Sandstone Bricks");
 
@@ -140,7 +140,7 @@ game.setLocalization("en_US", "tile.dirt.14.desc", "Straight Dirt");
 game.setLocalization("en_US", "tile.dirt.15.desc", "Dirt Panel");
 
 game.setLocalization("en_US", "tile.imperial.0.desc", "Overgrown Imperial");
-game.setLocalization("en_US", "tile.imperial.1.desc", "Even More Overgrown Imperal");
+game.setLocalization("en_US", "tile.imperial.1.desc", "Even More Overgrown Imperial");
 game.setLocalization("en_US", "tile.imperial.2.desc", "Rusted Screws in Imperial Plating");
 game.setLocalization("en_US", "tile.imperial.3.desc", "White Striped Imperial");
 game.setLocalization("en_US", "tile.imperial.4.desc", "Orange Striped Imperial");
@@ -182,7 +182,7 @@ game.setLocalization("en_US", "entity.MinecartHopper.name", "Hopper Cart");
 
 game.setLocalization("en_US", "entity.RandomThings.spirit.name", "Spirit");
 
-game.setLocalization("en_US", "tile.railcraft.default.name", "Minetrack");
+game.setLocalization("en_US", "tile.railcraft.default.name", "Rail");
 
 game.setLocalization("en_US", "tile.botania:spreader10.name", "Mana Spreader");
 
@@ -212,7 +212,7 @@ game.setLocalization("en_US", "item.botania.cosmetic32767.name", "Botania Access
 
 game.setLocalization("en_US", "Speed Upgrade.name", "Speed Upgrade");
 
-game.setLocalization("en_US", "item.upgrade_speed,name.desc", "Increases the rate at wich the Auto Chisel works");
+game.setLocalization("en_US", "item.upgrade_speed,name.desc", "Increases the rate at which the Auto Chisel works");
 
 game.setLocalization("en_US", "Automation Upgrade.name", "Automation Upgrade");
 
@@ -224,7 +224,7 @@ game.setLocalization("en_US", "item.upgrade_stack,name.desc", "Allows it to chis
 
 game.setLocalization("en_US", "Reversion Upgrade.name", "Reversion Upgrade");
 
-game.setLocalization("en_US", "item.upgrade_reversion,name.desc", "Reverts the base slot to its orginal form in the Auto Chisel");
+game.setLocalization("en_US", "item.upgrade_reversion,name.desc", "Reverts the base slot to its original form in the Auto Chisel");
 
 game.setLocalization("en_US", "fluid.element.Lv.name", "Livermorium");
 
