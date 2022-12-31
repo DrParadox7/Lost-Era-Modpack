@@ -1,0 +1,188 @@
+{
+  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
+  "_schemaVersion": 1,
+  "_lastMCVersionId": 5,
+  "generalSettings": {
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "showTime": true,
+    "detectBiomeData": false,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "935444978514157588",
+    "defaultIcon": "lostera",
+    "enableJoinRequests": false,
+    "partyPrivacyLevel": 1,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "lostera",
+    "dimensionData": {
+      "outer_lands": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "eldritch"
+      },
+      "default": {
+        "textOverride": "In The {dimension.name}"
+      },
+      "hyperspace": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "hyperspace_wd"
+      },
+      "mirror": {
+        "textOverride": "Inside a {dimension.name}"
+      },
+      "spectreworld": {
+        "textOverride": "In The Spectre World",
+        "iconOverride": "spectre"
+      },
+      "spirit_world": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "dream"
+      },
+      "pocket_plane": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "simplevoidworld"
+      },
+      "solarsystem": {
+        "textOverride": "In Space",
+        "iconOverride": "space_wd"
+      },
+      "underdark": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "deepdark"
+      },
+      "the_last_millenium": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "last_millenium"
+      },
+      "compactmachinesworld": {
+        "textOverride": "Inside a Compact Machine",
+        "iconOverride": "compactmachine"
+      },
+      "the_outer_lands": {
+        "textOverride": "In The {dimension.name}",
+        "iconOverride": "eldritch"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "lostera",
+    "fallbackServerName": "Lost Era Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}"
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer"
+    }
+  },
+  "advancedSettings": {
+    "enableCommands": true,
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "renderTooltips": true,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "roundSize": 3,
+    "includeExtraGuiClasses": false,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address != null ? server.address : server.address.raw}",
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s"
+  },
+  "accessibilitySettings": {
+    "tooltipBackgroundColor": "0xF0100010",
+    "tooltipBorderColor": "0x505000FF",
+    "guiBackgroundColor": "minecraft:textures/gui/options_background.png",
+    "buttonBackgroundColor": "minecraft:textures/gui/widgets.png",
+    "languageId": "en_US",
+    "showBackgroundAsDark": true,
+    "stripTranslationColors": false,
+    "showLoggingInChat": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 210
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "{menu.message}{dimension.message}",
+      "gameState": "{server.message}",
+      "largeImageKey": "{menu.icon}{dimension.icon}",
+      "largeImageText": "Minecraft 1.7.10",
+      "smallImageKey": "{server.icon}{pack.icon}",
+      "smallImageText": "{server.message}",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info_health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}
