@@ -1,0 +1,25 @@
+{
+    "ores": [
+      "oreIron",
+      "400",
+      "oreGold",
+      "30",
+      "oreCopper",
+      "200",
+      "oreTin",
+      "140",
+      "oreSilver",
+      "70",
+      "oreLead",
+      "80",
+      "oreLapis",
+      "60",
+      "oreRedstone",
+      "100"
+    ],
+    "radius": 7,
+    "cost": 1000000,
+    "focusModId": "minecraft",
+    "focusName": "iron_ingot",
+    "focusMeta": 0
+  }

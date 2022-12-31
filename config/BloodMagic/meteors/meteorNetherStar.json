@@ -1,0 +1,23 @@
+{
+    "ores": [
+      "oreDiamond",
+     "150",
+     "oreEmerald",
+     "100",
+     "oreQuartz",
+     "250",
+     "oreSunstone",
+     "5",
+     "oreMoonstone",
+     "50",
+     "oreIridium",
+     "5",
+     "oreCertusQuartz",
+     "150"
+    ],
+    "radius": 7,
+    "cost": 1000000,
+    "focusModId": "minecraft",
+    "focusName": "nether_star",
+    "focusMeta": 0
+  }

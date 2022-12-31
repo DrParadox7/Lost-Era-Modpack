@@ -1,0 +1,18 @@
+{
+    "ores": [
+      "oreDiamond",
+      "100",
+      "oreEmerald",
+      "75",
+      "oreCinnabar",
+      "200",
+      "oreAmber",
+      "200"
+    ],
+    "radius": 5,
+    "cost": 1000000,
+    "focusModId": "minecraft",
+    "focusName": "diamond",
+    "focusMeta": 0
+  }
+  

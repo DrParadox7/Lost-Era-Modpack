@@ -1,0 +1,15 @@
+{
+    "ores": [
+      "oreCoal",
+      "150",
+      "oreApatite",
+      "50",
+      "oreIron",
+      "50"
+    ],
+    "radius": 16,
+    "cost": 1000000,
+    "focusModId": "minecraft",
+    "focusName": "stone",
+    "focusMeta": 0
+  }
