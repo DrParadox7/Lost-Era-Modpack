@@ -21,6 +21,10 @@ recipes.addShaped(<TConstruct:CraftedSoil:3>*4, [[null, <ore:blockDirt>, null], 
 furnace.remove(<TConstruct:CraftedSoil:4>);
 recipes.addShaped(<TConstruct:CraftedSoil:4>*4, [[null, <ore:blockDirt>, null], [<ore:blockDirt>, <minecraft:speckled_melon>, <ore:blockDirt>], [null, <ore:blockDirt>, null]]);
 
+#Ball of Moss
+recipes.remove(<TConstruct:materials:6>);
+recipes.addShapeless(<TConstruct:materials:6>, [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>,<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>,<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]);
+
 #Tool Stat Nerf for better Metallurgy
 mods.tconstruct.ToolStats.setHarvestLevel("Steel", 3);
 mods.tconstruct.ToolStats.setHarvestLevel("Manasteel", 2);

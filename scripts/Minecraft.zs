@@ -99,5 +99,8 @@ vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1)
 #Disable Natura's boring 2x2 sulfur -> gunpowder recipe
 recipes.removeShaped(<minecraft:gunpowder>, [[<ore:dustSulfur>, <ore:dustSulfur>],[<ore:dustSulfur>, <ore:dustSulfur>]]);
 
+#Moss recipe
+recipes.addShapeless(<BiomesOPlenty:moss>, [<minecraft:mossy_cobblestone>]);
+
 print("Initialized 'Minecraft.zs'");
 

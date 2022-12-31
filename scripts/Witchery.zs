@@ -12,8 +12,7 @@ recipes.addShaped(<harvestcraft:sink>, [[<ore:ingotSteel>, <ore:logWood>, <ore:i
 
 #Misc
 recipes.remove(<ExtraUtilities:golden_lasso>);
-recipes.addShaped(<ExtraUtilities:golden_lasso>, [[<witchery:ingredient:102>, <witchery:ingredient:102>, null], [<witchery:ingredient:102>, <minecraft:ender_pearl>, null], [null, null, <witchery:ingredient:102>]]);
-recipes.addShaped(<ExtraUtilities:golden_lasso>, [[<WitchingGadgets:item.WG_Material:1>, <WitchingGadgets:item.WG_Material:1>, null], [<WitchingGadgets:item.WG_Material:1>, <minecraft:ender_pearl>, null], [null, null, <WitchingGadgets:item.WG_Material:1>]]);
+recipes.addShaped(<ExtraUtilities:golden_lasso>, [[<witchery:ingredient:100>, <witchery:ingredient:100>, null], [<witchery:ingredient:100>, <witchery:ingredient:95>, null], [null, null, <witchery:ingredient:100>]]);
 
 #Wand Fire
 recipes.remove(<Natura:natura.flintandblaze>);
@@ -21,10 +20,10 @@ recipes.addShapeless(<Natura:natura.flintandblaze>, [<minecraft:stick>, <witcher
 
 #Bag of holding
 recipes.remove(<ExtraUtilities:golden_bag>);
-recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>], [<witchery:ingredient:100>, <minecraft:ender_pearl>, <witchery:ingredient:100>], [<witchery:ingredient:72>, <witchery:ingredient:102>, <witchery:ingredient:72>]]);
+recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:102>, <witchery:ingredient:72>, <witchery:ingredient:102>], [<witchery:ingredient:102>, <witchery:ingredient:112>, <witchery:ingredient:102>], [<witchery:ingredient:102>, <witchery:ingredient:72>, <witchery:ingredient:102>]]);
 
 #Patch cheap silver for tech users
-recipes.removeShapeless(<IC2:itemDust:6>, [<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,<witchery:ingredient:157>,]);
+recipes.removeShapeless(<IC2:itemDust:6>, [<witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>,]);
 
 #Helpful tooltips 
 <witchery:ingredient:105>.addTooltip("Removes 1 status effect");

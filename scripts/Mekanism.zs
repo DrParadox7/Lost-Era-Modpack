@@ -20,7 +20,7 @@ portableTank.add(<ThermalExpansion:Tank:1>);
 
 #Steel Casing
 recipes.remove(<Mekanism:BasicBlock:8>); 
-recipes.addShaped(<Mekanism:BasicBlock:8>, [[<Mekanism:EnrichedAlloy>, <ore:ingotSteel>, <Mekanism:EnrichedAlloy>], [<ore:ingotSteel>, <Mekanism:ControlCircuit:1>, <ore:ingotSteel>], [<Mekanism:EnrichedAlloy>, <ore:ingotSteel>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:BasicBlock:8>, [[<Mekanism:EnrichedAlloy>, <ore:ingotSteel>, <Mekanism:EnrichedAlloy>], [<ore:ingotSteel>, <Mekanism:ControlCircuit>, <ore:ingotSteel>], [<Mekanism:EnrichedAlloy>, <ore:ingotSteel>, <Mekanism:EnrichedAlloy>]]);
 
 #Dynamic Tank
 recipes.remove(<Mekanism:BasicBlock:9>); 
@@ -364,13 +364,13 @@ recipes.remove(<MekanismGenerators:Reactor:*>);
 recipes.addShaped(<MekanismGenerators:Reactor>, [[<Mekanism:ControlCircuit:3>, <ore:paneGlass>, <Mekanism:ControlCircuit:3>], [<MekanismGenerators:Reactor:1>, <Mekanism:GasTank:*>, <MekanismGenerators:Reactor:1>], [<MekanismGenerators:Reactor:1>, <MekanismGenerators:Reactor:1>, <MekanismGenerators:Reactor:1>]]);
 
 ##Reactor Casing
-recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [[null, <Mekanism:BasicBlock:8>, null], [<Mekanism:BasicBlock:8>, <Mekanism:ControlCircuit:1>, <Mekanism:BasicBlock:8>], [null, <Mekanism:BasicBlock:8>, null]]);
+recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [[<Mekanism:Polyethene:2>, <Mekanism:BasicBlock:8>, <Mekanism:Polyethene:2>], [<Mekanism:BasicBlock:8>, <Mekanism:AtomicAlloy>, <Mekanism:BasicBlock:8>], [<Mekanism:Polyethene:2>, <Mekanism:BasicBlock:8>, <Mekanism:Polyethene:2>]]);
 
 #Reactor Port
 recipes.addShaped(<MekanismGenerators:Reactor:3> * 2, [[null, <MekanismGenerators:Reactor:1>, null], [<MekanismGenerators:Reactor:1>, <Mekanism:ControlCircuit:3>, <MekanismGenerators:Reactor:1>], [null, <MekanismGenerators:Reactor:1>, null]]);
 
 #Reactor Adapter
-recipes.addShaped(<MekanismGenerators:Reactor:4>, [[null, <minecraft:redstone>, null], [<minecraft:redstone>, <MekanismGenerators:Reactor:1>, <minecraft:redstone>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<MekanismGenerators:Reactor:4>, [[null, <Mekanism:EnrichedAlloy>, null], [<Mekanism:EnrichedAlloy>, <MekanismGenerators:Reactor:1>, <Mekanism:EnrichedAlloy>], [null, <Mekanism:EnrichedAlloy>, null]]);
 
 #Reactor Glass
 recipes.addShaped(<MekanismGenerators:ReactorGlass> * 4, [[null, <MekanismGenerators:Reactor:1>, null], [<MekanismGenerators:Reactor:1>, <Mekanism:BasicBlock:10>, <MekanismGenerators:Reactor:1>], [null, <MekanismGenerators:Reactor:1>, null]]);

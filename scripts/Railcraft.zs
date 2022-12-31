@@ -6,6 +6,9 @@ print("Initializing 'Railcraft(Tweaks).zs'...");
 recipes.remove(<Railcraft:cart.redstone.flux>);
 recipes.addShaped(<Railcraft:cart.redstone.flux>, [[null, <ThermalExpansion:Frame:5>, null], [null, <minecraft:minecart>, null], [null, null, null]]);
 
+#Creosote Wood as Fuel
+furnace.setFuel(<Railcraft:cube:8>, 750);
+
 #Balanced Turbine
 recipes.remove(<Railcraft:part.turbine.blade>);
 recipes.addShaped(<Railcraft:part.turbine.blade>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>]]);
@@ -26,6 +29,12 @@ mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 2100
 #Balance Rolling Machine
 recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>], [<minecraft:piston>, <ore:craftingTableWood>, <minecraft:piston>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
+
+#Rebar, Rails, Metal Posts and Shunting Wires to be crafted exclusively at the Rolling Machine
+recipes.remove(<Railcraft:part.rebar>);
+recipes.remove(<Railcraft:part.rail:*>);
+recipes.remove(<Railcraft:post:2>);
+recipes.remove(<Railcraft:machine.delta>);
 
 #Rolling plates uses no iron
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:*>);

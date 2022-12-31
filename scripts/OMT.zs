@@ -8,13 +8,7 @@ val strongGlass = <ore:strongGlass>;
 strongGlass.add(<IC2:blockAlloyGlass>);
 strongGlass.add(<MekanismGenerators:ReactorGlass>);
 
-#Useless parts
-recipes.remove(<openmodularturrets:chamberTierOne>);
-recipes.remove(<openmodularturrets:chamberTierTwo>);
-recipes.remove(<openmodularturrets:chamberTierThree>);
-recipes.remove(<openmodularturrets:chamberTierFour>);
-recipes.remove(<openmodularturrets:chamberTierFive>);
-
+#Barrels
 recipes.remove(<openmodularturrets:barrelTierOne>);
 recipes.remove(<openmodularturrets:barrelTierTwo>);
 recipes.remove(<openmodularturrets:barrelTierThree>);
@@ -23,7 +17,7 @@ recipes.remove(<openmodularturrets:barrelTierFive>);
 
 #Sensors
 recipes.remove(<openmodularturrets:sensorTierOneItem>);
-recipes.addShaped(<openmodularturrets:sensorTierOneItem>, [[<OpenComputers:item:32>, <minecraft:tripwire_hook>, <OpenComputers:item:32>], [<minecraft:spider_eye>, <ore:gearWood>, <minecraft:spider_eye>], [<OpenComputers:item:32>, <minecraft:redstone>, <OpenComputers:item:32>]]);
+recipes.addShaped(<openmodularturrets:sensorTierOneItem>, [[<OpenComputers:item:32>, <minecraft:tripwire_hook>, <OpenComputers:item:32>], [<minecraft:tripwire_hook>, <minecraft:redstone>, <minecraft:tripwire_hook>], [<OpenComputers:item:32>, <minecraft:tripwire_hook>, <OpenComputers:item:32>]]);
 
 recipes.remove(<openmodularturrets:sensorTierTwoItem>);
 recipes.addShaped(<openmodularturrets:sensorTierTwoItem>, [[<ore:ingotSteel>, <minecraft:ender_eye>, <ore:ingotSteel>], [<minecraft:glass>, <openmodularturrets:sensorTierOneItem>, <minecraft:glass>], [<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>]]);
@@ -39,19 +33,35 @@ recipes.addShaped(<openmodularturrets:sensorTierFiveItem>, [[<ore:ingotObsidian>
 
 #Turret Bases
 recipes.remove(<openmodularturrets:baseTierWood>);
-recipes.addShaped(<openmodularturrets:baseTierWood>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:gearWood>, <openmodularturrets:sensorTierOneItem>, <ore:gearWood>], [<ore:ingotIron>, <minecraft:clock>, <ore:ingotIron>]]);
+recipes.addShaped(<openmodularturrets:baseTierWood>, [[<ore:ingotIron>, <openmodularturrets:chamberTierOne>, <ore:ingotIron>], [<ore:gearWood>, <openmodularturrets:sensorTierOneItem>, <ore:gearWood>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
 
 recipes.remove(<openmodularturrets:baseTierOneBlock>);
-recipes.addShaped(<openmodularturrets:baseTierOneBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:gearIron>, <openmodularturrets:sensorTierTwoItem>, <ore:gearIron>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
+recipes.addShaped(<openmodularturrets:baseTierOneBlock>, [[<ore:ingotIron>, <openmodularturrets:chamberTierTwo>, <ore:ingotIron>], [<ore:gearIron>, <openmodularturrets:sensorTierTwoItem>, <ore:gearIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
 
 recipes.remove(<openmodularturrets:baseTierTwoBlock>);
-recipes.addShaped(<openmodularturrets:baseTierTwoBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:gearGold>, <openmodularturrets:sensorTierThreeItem>, <ore:gearGold>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
+recipes.addShaped(<openmodularturrets:baseTierTwoBlock>, [[<ore:ingotIron>, <openmodularturrets:chamberTierThree>, <ore:ingotIron>], [<ore:gearGold>, <openmodularturrets:sensorTierThreeItem>, <ore:gearGold>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
 
 recipes.remove(<openmodularturrets:baseTierThreeBlock>);
-recipes.addShaped(<openmodularturrets:baseTierThreeBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<ore:gearDiamond>, <openmodularturrets:sensorTierFourItem>, <ore:gearDiamond>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
+recipes.addShaped(<openmodularturrets:baseTierThreeBlock>, [[<ore:ingotIron>, <openmodularturrets:chamberTierFour>, <ore:ingotIron>], [<ore:gearDiamond>, <openmodularturrets:sensorTierFourItem>, <ore:gearDiamond>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
 
 recipes.remove(<openmodularturrets:baseTierFourBlock>);
-recipes.addShaped(<openmodularturrets:baseTierFourBlock>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:obsidian>, <openmodularturrets:sensorTierFiveItem>, <minecraft:obsidian>], [<ore:ingotIron>, <openmodularturrets:ioBus>, <ore:ingotIron>]]);
+recipes.addShaped(<openmodularturrets:baseTierFourBlock>, [[<ore:ingotIron>, <openmodularturrets:chamberTierFive>, <ore:ingotIron>], [<minecraft:obsidian>, <openmodularturrets:sensorTierFiveItem>, <minecraft:obsidian>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+
+#Chambers
+recipes.remove(<openmodularturrets:chamberTierOne>);
+recipes.addShaped(<openmodularturrets:chamberTierOne>, [[<Railcraft:slab:38>, <Railcraft:slab:38>, <Railcraft:slab:38>], [null, null, <openmodularturrets:ioBus>], [<Railcraft:slab:38>, <Railcraft:slab:38>, <Railcraft:slab:38>]]);
+
+recipes.remove(<openmodularturrets:chamberTierTwo>);
+recipes.addShaped(<openmodularturrets:chamberTierTwo>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, null, <openmodularturrets:ioBus>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
+
+recipes.remove(<openmodularturrets:chamberTierThree>);
+recipes.addShaped(<openmodularturrets:chamberTierThree>, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [null, null, <openmodularturrets:ioBus>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
+
+recipes.remove(<openmodularturrets:chamberTierFour>);
+recipes.addShaped(<openmodularturrets:chamberTierFour>, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>], [null, null, <openmodularturrets:ioBus>], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]]);
+
+recipes.remove(<openmodularturrets:chamberTierFive>);
+recipes.addShaped(<openmodularturrets:chamberTierFive>, [[<ore:ingotDesichalkos>, <ore:ingotDesichalkos>, <ore:ingotDesichalkos>], [null, null, <openmodularturrets:ioBus>], [<ore:ingotDesichalkos>, <ore:ingotDesichalkos>, <ore:ingotDesichalkos>]]);
 
 #Upgrades
 recipes.remove(<openmodularturrets:efficiencyUpgradeItem>);
@@ -151,7 +161,7 @@ recipes.addShaped(<openmodularturrets:ferroSlug>, [[null, <minecraft:redstone>, 
 
 #ADDONS
 recipes.remove(<openmodularturrets:concealerAddon>);
-recipes.addShaped(<openmodularturrets:concealerAddon>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <minecraft:ghast_tear>, <ore:ingotRedAlloy>], [null, <ore:ingotRedAlloy>, null]]);
+recipes.addShaped(<openmodularturrets:concealerAddon>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <RandomThings:ingredient:5>, <ore:ingotRedAlloy>], [null, <ore:ingotRedAlloy>, null]]);
 
 recipes.remove(<openmodularturrets:damageAmpAddon>);
 recipes.addShaped(<openmodularturrets:damageAmpAddon>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <minecraft:golden_apple:1>, <ore:ingotRedAlloy>], [null, <ore:ingotRedAlloy>, null]]);
@@ -187,7 +197,7 @@ recipes.addShaped(<openmodularturrets:fenceTierFive>*4, [[<minecraft:ender_eye>,
 
 #Structural Blocks - Block
 recipes.remove(<openmodularturrets:hardWallTierOne>);
-recipes.addShaped(<openmodularturrets:hardWallTierOne>*8, [[<Railcraft:cube:1>, <Railcraft:cube:1>, <Railcraft:cube:1>], [<Railcraft:cube:1>, <ore:ingotSteel>, <Railcraft:cube:1>], [<Railcraft:cube:1>, <Railcraft:cube:1>, <Railcraft:cube:1>]]);
+recipes.addShaped(<openmodularturrets:hardWallTierOne>*8, [[<Railcraft:cube:1>, <Railcraft:part.rebar>, <Railcraft:cube:1>], [<Railcraft:part.rebar>, <Railcraft:cube:1>, <Railcraft:part.rebar>], [<Railcraft:cube:1>, <Railcraft:part.rebar>, <Railcraft:cube:1>]]);
 
 recipes.remove(<openmodularturrets:hardWallTierTwo>);
 recipes.addShaped(<openmodularturrets:hardWallTierTwo>*4, [[<openmodularturrets:fenceTierOne>, <openmodularturrets:hardWallTierOne>, <openmodularturrets:fenceTierOne>], [<openmodularturrets:hardWallTierOne>, <ore:dustHydratedCoal>, <openmodularturrets:hardWallTierOne>], [<openmodularturrets:fenceTierOne>, <openmodularturrets:hardWallTierOne>, <openmodularturrets:fenceTierOne>]]);

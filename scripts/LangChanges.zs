@@ -109,7 +109,7 @@ game.setLocalization("en_US", "binniecore.item.container.bucket.ichor", "Ichor B
 
 game.setLocalization("en_US", "binniecore.beemodifier.genetic_decay", "Genetic Decay");
 
-game.setLocalization("en_US", "IguanaTweaksTConstruct:clayBucketsTinkers:31", "Molten Nether Quarts Clay Bucket"
+game.setLocalization("en_US", "IguanaTweaksTConstruct:clayBucketsTinkers:31", "Molten Nether Quarts Clay Bucket");
 
 game.setLocalization("en_US", "tile.molten.quarts.name", "Molten Quartz");
 
