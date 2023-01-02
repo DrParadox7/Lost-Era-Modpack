@@ -61,6 +61,10 @@ furnace.addRecipe(<TConstruct:materials:37>*3, <TConstruct:CraftedSoil:6>);
 mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:6>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <TConstruct:CraftedSoil:6>, <TConstruct:materials:37>*3);
 
+#Ingot & Nuggets Templates
+recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <minecraft:iron_ingot>.reuse()]);
+recipes.addShapeless(<TConstruct:clayPattern:27>, [<TConstruct:blankPattern:3>, <ore:nuggetIron>.reuse()]);
+
 #Remove Melting from some materials
 val MaterialArray = [
 <minecraft:stone>,
