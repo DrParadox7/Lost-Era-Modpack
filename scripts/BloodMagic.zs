@@ -122,7 +122,7 @@ mods.bloodmagic.Alchemy.addRecipe(<minecraft:flint_and_steel>, [<minecraft:iron_
 
 #End Crystal
 recipes.remove(<etfuturum:end_crystal>);
-mods.bloodmagic.Alchemy.addRecipe(<etfuturum:end_crystal>, [<AWWayofTime:blockCrystal>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:nether_star>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>], 5, 30000);
+mods.bloodmagic.Alchemy.addRecipe(<etfuturum:end_crystal>, [<AWWayofTime:blockCrystal>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:nether_star>, <AWWayofTime:bloodMagicBaseItems:17>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>], 5, 30000);
 
 ###  Equipment  ###
 
