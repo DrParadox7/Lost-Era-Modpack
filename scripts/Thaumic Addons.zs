@@ -255,7 +255,7 @@ mods.thaumcraft.Arcane.addShaped("ORE", <Thaumcraft:blockCosmeticSolid:6> * 8, "
 
 #Entity in a Jar 
 mods.thaumcraft.Infusion.removeRecipe(<magianaturalis:block.jarPrison>);
-mods.thaumcraft.Infusion.addRecipe("JAR_PRISON", <Thaumcraft:blockJar>, [<minecraft:gold_ingot>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:lead>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>], "vinculum 8, alienis 8, permutatio 8, vacuous 8, tutamen 8", <magianaturalis:block.jarPrison>, 3);
+mods.thaumcraft.Infusion.addRecipe("JAR_PRISON", <Thaumcraft:blockJar>, [<minecraft:gold_ingot>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:lead>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>], "vinculum 8, alienis 8, permutatio 8, vacuos 8, tutamen 8", <magianaturalis:block.jarPrison>, 3);
 mods.thaumcraft.Research.refreshResearchRecipe("JAR_PRISON");
 mods.thaumcraft.Research.addPrereq("JAR_PRISON", "WARDEDARCANA", false);
 #########################

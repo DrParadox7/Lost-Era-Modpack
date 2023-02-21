@@ -219,7 +219,7 @@
             "alignment" : "bottom_right"
         },
 		"version": {
-			"text": "file:mainmenu:version.txt",
+			"text": "1.5.6",
 			"posX": 5,
 			"posY": -10,
 			"color": 7368816,

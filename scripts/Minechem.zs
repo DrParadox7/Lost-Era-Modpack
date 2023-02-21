@@ -26,7 +26,7 @@ recipes.addShaped(<minechem:tile.chemicalSynthesizer>, [[<Mekanism:Polyethene:2>
 recipes.addShaped(<minechem:tile.blueprintProjector>, [[null, <Mekanism:Polyethene:2>, null], [<ThermalExpansion:Light:1>.withTag({Style: 3 as byte}), <minecraft:glass_pane>, <minechem:minechemOpticalMicroscopeLens:3>], [null, <Mekanism:Polyethene:2>, null]]);
 recipes.addShaped(<minechem:minechemAtomicManipulator>, [[<Mekanism:Polyethene:2>, <Mekanism:EnrichedAlloy>, <Mekanism:Polyethene:2>], [<Mekanism:EnrichedAlloy>, <Mekanism:ReinforcedAlloy>, <Mekanism:EnrichedAlloy>], [<Mekanism:Polyethene:2>, <Mekanism:EnrichedAlloy>, <Mekanism:Polyethene:2>]]);
 recipes.addShaped(<minechem:tile.leadChest>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <minecraft:chest>, <ore:plateLead>], [null, <ore:plateLead>, null]]);
-recipes.addShaped(<minechem:minechemPolytool>, [[null, <NuclearCraft:material:78>, <IC2:itemPartIndustrialDiamond>], [null, <Mekanism:Polyethene:3>, <NuclearCraft:material:78>], [<Mekanism:Polyethene:2>, null, null]]);
+recipes.addShaped(<minechem:minechemPolytool>, [[null, <Mekanism:Polyethene>, <IC2:itemPartIndustrialDiamond>], [null, <Mekanism:Polyethene:3>, <Mekanism:Polyethene>], [<Mekanism:Polyethene:2>, null, null]]);
 
 recipes.addShaped(<minechem:tile.fusionWall>*16, [[<Mekanism:Polyethene:2>, <minechem:minechemElement:82>, <Mekanism:Polyethene:2>], [<minechem:minechemElement:82>, <minechem:minechemElement:22>, <minechem:minechemElement:82>], [<Mekanism:Polyethene:2>, <minechem:minechemElement:82>, <Mekanism:Polyethene:2>]]);
 recipes.addShaped(<minechem:tile.fusionWall:1>*16, [[<Mekanism:Polyethene:2>, <minechem:minechemElement:74>, <Mekanism:Polyethene:2>], [<minechem:minechemElement:74>, <minechem:minechemElement:4>, <minechem:minechemElement:74>], [<Mekanism:Polyethene:2>, <minechem:minechemElement:74>, <Mekanism:Polyethene:2>]]);
@@ -59,8 +59,6 @@ val Hydroxilapatite = <minechem:minechemMolecule:42>;
 Decomposer.removeRecipe(<IC2:itemDust:11>);
 Decomposer.removeRecipe(<Mekanism:OtherDust:6>);
 Decomposer.removeRecipe(<Railcraft:dust>);
-Decomposer.removeRecipe(<NuclearCraft:material:7>);
-Decomposer.removeRecipe(<NuclearCraft:blockBlock:7>);
 Decomposer.removeRecipe(<minechem:minechemPolytool>);
 Decomposer.removeRecipe(<minecraft:bucket>);
 Decomposer.removeRecipe(<minecraft:dye:15>);
@@ -68,13 +66,10 @@ Decomposer.removeRecipe(<minecraft:dye:15>);
 Decomposer.addRecipe(<gregtech_addon:metaitem_1:2822>,0.95,[[Ti, Al*16, H*10, O*12]]);
 Decomposer.addRecipe(<gregtech_addon:metaitem_1:3822>,0.95,[[Ti, Al*16, H*10, O*12]]);
 Decomposer.addRecipe(<gregtech_addon:metaitem_1:4822>,0.95,[[Ti, Al*16, H*10, O*12]]);
-Decomposer.addRecipe(<NuclearCraft:material:7>,0.8,[[Au*8, Ti*8]]);
-Decomposer.addRecipe(<NuclearCraft:blockBlock:7>,0.8,[[Au*375, Ti*375]]);
 Decomposer.addRecipe(<NuclearCraft:material:43>,0.8,[[B*24]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:9>,0.8,[[B*216]]);
 Decomposer.addRecipe(<NuclearCraft:material:5>,0.8,[[Th*48]]);
 Decomposer.addRecipe(<NuclearCraft:blockBlock:5>,0.8,[[Th*432]]);
-Decomposer.addRecipe(<NuclearCraft:material:78>,0.8,[[C*12]]);
 Decomposer.addRecipe(<minecraft:dye:15>,0.20,[[Hydroxilapatite*1]]);
 Decomposer.addRecipe(<IC2:itemRubber>,0.9,[[<minechem:minechemMolecule:30>*8]]);
 
@@ -94,9 +89,6 @@ Synthesiser.removeRecipe(<Railcraft:dust>);
 Synthesiser.removeRecipe(<NuclearCraft:material:5>);
 Synthesiser.removeRecipe(<NuclearCraft:blockBlock:5>);
 Synthesiser.removeRecipe(<minecraft:dye:15>);
-
-Synthesiser.addRecipe([Ti, Al*16, H*10, O*12],<gregtech_addon:metaitem_1:2822>,true,600);
-Synthesiser.addRecipe([Au*8, Ti*8],<NuclearCraft:material:7>,true,1040);
 
 Synthesiser.addRecipe([<minechem:minechemMolecule:30>*8],<IC2:itemRubber>,true,200);
 

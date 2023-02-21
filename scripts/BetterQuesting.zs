@@ -143,7 +143,4 @@ Trowel.add(<Botany:trowelIron>);
 Trowel.add(<Botany:trowelGold>);
 Trowel.add(<Botany:trowelDiamond>);
 
-#Botania Quest Localization
-game.setLocalization("en_US", "item.botania:craftPattern32767.name", "Crafting Pattern");
-
 print("Initialized 'BetterQuests.zs'");

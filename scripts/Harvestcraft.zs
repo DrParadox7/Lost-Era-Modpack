@@ -29,6 +29,10 @@ recipes.addShapeless(<harvestcraft:mochiItem>, [<ore:toolMortarandpestle>, <ore:
 recipes.addShapeless(<harvestcraft:jamrollItem>, [<ore:toolBakeware>, <ore:foodChocolatebar>, <ore:foodFlour>, <ore:foodRaspberryjelly>]);
 recipes.addShapeless(<harvestcraft:paneerItem>, [<ore:toolPot>, <ore:listAllmilk>, <ore:foodVinegar>, <ore:foodLemonaide>]);
 
+#Missing oredict
+val flour = <ore:foodFlour>;
+flour.add(<gregtech_addon:materials:14>);
+
 #ToolRack Fix
 recipes.remove(<cookingforblockheads:toolrack>);
 recipes.addShaped(<cookingforblockheads:toolrack>, [[<ore:pressurePlateWood>, <ore:pressurePlateWood>, <ore:pressurePlateWood>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
@@ -66,6 +70,9 @@ recipes.remove(<harvestcraft:freshmilkItem>);
 recipes.addShapeless(<harvestcraft:freshmilkItem>, [<IguanaTweaksTConstruct:clayBucketMilk>]);
 recipes.addShapeless(<harvestcraft:freshmilkItem>, [<minecraft:milk_bucket>]);
 
+#Prevent Tofu to live fish conversion
+recipes.removeShapeless(<minecraft:fish>, [<harvestcraft:firmtofuItem>]);
+
 #Upgraded Oven recipe
 recipes.remove(<cookingforblockheads:cookingoven>);
 recipes.addShaped(<cookingforblockheads:cookingoven>, [[<minecraft:stained_glass:15>, <minecraft:stained_glass:15>, <minecraft:stained_glass:15>], [<minecraft:iron_ingot>, <harvestcraft:oven>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
@@ -95,7 +102,7 @@ mods.bloodmagic.Altar.addRecipe(<harvestcraft:saltItem>, <minecraft:sugar>, 1, 2
 mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 3, <harvestcraft:saltItem>, 15);
 
 #Informative tooltip 
-<harvestcraft:sunflowerseedsItem>.addTooltip("Obtained from fertilizing sunflowers");
+<harvestcraft:sunflowerseedsItem>.addTooltip("harvestcraft.tooltip.sunflowerSeeds");
 
 
 print("Initialized 'Harvestcraft.zs'");

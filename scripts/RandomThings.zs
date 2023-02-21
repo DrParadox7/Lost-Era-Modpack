@@ -13,7 +13,7 @@ recipes.addShaped(<RandomThings:imbuingStation>, [[<witchery:spanishmoss>, <mine
 recipes.remove(<RandomThings:fertilizedDirt>);
 mods.forestry.Moistener.addRecipe(<RandomThings:fertilizedDirt>, <Forestry:soil>, 2400);
 
-<RandomThings:fertilizedDirt>.addTooltip("Crops on this soil grow 3x as fast and cannot be trampled");
+<RandomThings:fertilizedDirt>.addTooltip("randomthings.tooltip.fertilizedDirt");
 
 #Ender Letter
 recipes.remove(<RandomThings:enderLetter>);
@@ -31,9 +31,13 @@ recipes.addShaped(<RandomThings:energyDistributor>, [[<ore:ingotInvar>, <Thermal
 recipes.remove(<RandomThings:enderEnergyDistributor>);
 recipes.addShaped(<RandomThings:enderEnergyDistributor>, [[<ore:ingotEnderium>, <minecraft:ender_eye>, <ore:ingotEnderium>], [<RedstoneArsenal:material:96>, <RandomThings:energyDistributor>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:material:2>, <ore:ingotEnderium>]]);
 
+#Spectre Ingot
+recipes.remove(<RandomThings:ingredient:4>);
+recipes.addShapeless(<RandomThings:ingredient:4>, [<ore:ingotUnstable>, <RandomThings:ingredient:3>]);
+
 #SpectreKey
 recipes.remove(<RandomThings:spectreKey>);
-recipes.addShaped(<RandomThings:spectreKey>, [[null, <RandomThings:ingredient:3>, null], [<RandomThings:ingredient:3>, <ExtraUtilities:unstableingot:*>, <RandomThings:ingredient:3>], [null, <RandomThings:ingredient:3>, null]]);
+recipes.addShaped(<RandomThings:spectreKey>, [[null, <RandomThings:ingredient:3>, null], [<RandomThings:ingredient:3>, <ore:ingotUnstable>, <RandomThings:ingredient:3>], [null, <RandomThings:ingredient:3>, null]]);
 
 #WhiteStone
 recipes.addShaped(<RandomThings:whitestone>, [[<minecraft:diamond>, <etfuturum:totem_of_undying>, <minecraft:diamond>], [<etfuturum:totem_of_undying>, <minecraft:nether_star>, <etfuturum:totem_of_undying>], [<minecraft:diamond>, <etfuturum:totem_of_undying>, <minecraft:diamond>]]);

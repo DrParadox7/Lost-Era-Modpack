@@ -1,4 +1,4 @@
-#Name: AE.zs
+#Name: AE2.zs
 #Author: TechnoParadox
 
 print("Initializing 'AE.zs'...");
@@ -15,5 +15,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:55>, [<appliede
 #Processing Pattern Terminal
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:500>, [<appliedenergistics2:item.ItemMultiPart:400>, <appliedenergistics2:item.ItemMultiMaterial:22>]);
 
-print("Initialized 'AE.zs'");
+#Singularity Tooltip
+<appliedenergistics2:item.ItemMultiMaterial:47>.addTooltip("ae2.tooltip.singularity");
 
+print("Initialized 'AE2.zs'");

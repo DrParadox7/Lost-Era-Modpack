@@ -23,7 +23,7 @@ recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, n
 
 ### Generators ###
 #Survivalist 
-recipes.addShaped(<ExtraUtilities:generator>, [[<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>.noReturn(), <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+recipes.addShaped(<ExtraUtilities:generator>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>.noReturn(), <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
 #x8
 mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8>, 500000, [<ExtraUtilities:generator>*8, <BuildCraft|Silicon:redstoneCrystal>]);
 #x64
@@ -37,7 +37,7 @@ mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:9>, 500000, 
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:generator.64:9>, [[<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <qCraft:essence>, <ExtraUtilities:generator.8:9>], [<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8:9>]]); 
 
 #Culinary
-recipes.addShaped(<ExtraUtilities:generator:5>, [[<cookingforblockheads:fridge>, <harvestcraft:oven>, <cookingforblockheads:fridge>], [<minecraft:iron_ingot>, <cookingforblockheads:recipebook:3>, <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
+recipes.addShaped(<ExtraUtilities:generator:5>, [[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>], [<minecraft:iron_ingot>, <harvestcraft:oven>, <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);
 #x8
 mods.buildcraft.AssemblyTable.addRecipe(<ExtraUtilities:generator.8:5>, 500000, [<ExtraUtilities:generator:5>*8, <BuildCraft|Silicon:redstoneCrystal>]);
 #x64

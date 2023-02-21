@@ -3,13 +3,17 @@
 
 print("Initializing 'FloodLights.zs'...");
 
+#Non-Electric Lantern
+recipes.remove(<FloodLights:carbonLantern>);
+recipes.addShaped(<FloodLights:carbonLantern>, [[null, <ore:paneGlass>, null], [<ore:paneGlass>, <FloodLights:mantle>, <ore:paneGlass>], [<FloodLights:carbonDissolver>, <minecraft:coal>, <minecraft:iron_ingot>]]);
+
 #Carbon Floodlight
 recipes.remove(<FloodLights:carbonFloodlight>);
-recipes.addShaped(<FloodLights:carbonFloodlight>, [[<etfuturum:smooth_stone>, <minecraft:glass_pane>, <etfuturum:smooth_stone>], [<ExtraUtilities:cobblestone_compressed:1>, <FloodLights:carbonLantern>, <ExtraUtilities:cobblestone_compressed:1>], [<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:1>]]);
+recipes.addShaped(<FloodLights:carbonFloodlight>, [[<etfuturum:smooth_stone>, <minecraft:glass_pane>, <etfuturum:smooth_stone>], [<etfuturum:smooth_stone>, <FloodLights:carbonLantern>, <etfuturum:smooth_stone>], [<etfuturum:smooth_stone>, <etfuturum:smooth_stone>, <etfuturum:smooth_stone>]]);
 
 #Electric Floodlight
 recipes.remove(<FloodLights:electricFloodlight>);
-recipes.addShaped(<FloodLights:electricFloodlight>, [[<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>], [<ore:gemMercury>, <FloodLights:electricIncandescentLightBulb>, <ore:gemMercury>], [<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>]]);
+recipes.addShaped(<FloodLights:electricFloodlight>, [[<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>], [<ore:ingotIron>, <FloodLights:electricIncandescentLightBulb>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>]]);
 
 #UV Floodlight
 recipes.remove(<FloodLights:uvFloodlight>);

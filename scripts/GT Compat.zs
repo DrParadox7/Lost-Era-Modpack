@@ -3,19 +3,18 @@
 print("Initializing 'GT Compat.zs'...");
 
 #Helpful ore tooltips
-<gregtech_addon:ore:2>.addTooltip("Found in Space");
-<gregtech_addon:ore:3>.addTooltip("Found in Arid areas");
-<gregtech_addon:ore:4>.addTooltip("Found in Oceans");
-<gregtech_addon:ore:5>.addTooltip("Found in Forest & Plains");
-<gregtech_addon:ore:6>.addTooltip("Found in the Nether");
-<gregtech_addon:ore:8>.addTooltip("Found near lava");
-<gregtech_addon:ore:9>.addTooltip("Found in the End");
-<gregtech_addon:ore:10>.addTooltip("Found in the End");
-<gregtech_addon:ore:11>.addTooltip("Found in the End");
-<gregtech_addon:ore:12>.addTooltip("Found in the End");
-<gregtech_addon:ore:13>.addTooltip("Found in Mountains, Jungles and fungi areas");
-<gregtech_addon:ore:14>.addTooltip("Found in Mountains and other Cold biomes");
-
+<gregtech_addon:ore:2>.addTooltip("gt4.tooltip.iridiumOre");
+<gregtech_addon:ore:3>.addTooltip("gt4.tooltip.rubyOre");
+<gregtech_addon:ore:4>.addTooltip("gt4.tooltip.sapphireOre");
+<gregtech_addon:ore:5>.addTooltip("gt4.tooltip.bauxiteOre");
+<gregtech_addon:ore:6>.addTooltip("gt4.tooltip.pyriteOre");
+<gregtech_addon:ore:8>.addTooltip("gt4.tooltip.sphaleriteOre");
+<gregtech_addon:ore:9>.addTooltip("gt4.tooltip.endOre");
+<gregtech_addon:ore:10>.addTooltip("gt4.tooltip.endOre");
+<gregtech_addon:ore:11>.addTooltip("gt4.tooltip.endOre");
+<gregtech_addon:ore:12>.addTooltip("gt4.tooltip.endOre");
+<gregtech_addon:ore:13>.addTooltip("gt4.tooltip.tetrahedriteOre");
+<gregtech_addon:ore:14>.addTooltip("gt4.tooltip.cassiteriteOre");
 
 #Stop GT from overriding Enderium
 recipes.remove(<gregtech_addon:metaitem_1:11321>);

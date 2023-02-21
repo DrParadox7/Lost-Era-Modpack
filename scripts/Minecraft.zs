@@ -3,16 +3,20 @@
 
 print("Initializing 'Minecraft.zs'...");
 
-#Flint&Steel=useSteel
+#Flint&Steel uses steel
 recipes.removeShapeless(<minecraft:flint_and_steel>, [<ore:ingotIron>, <ore:itemFlint>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotIron>, <minecraft:blaze_powder>, <minecraft:gunpowder>, <minecraft:flint>]);
+
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotDamascusSteel>, <minecraft:flint>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotShadowSteel>, <minecraft:flint>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotBlackSteel>, <minecraft:flint>]);
 
 #Door Dupe fix
 recipes.remove(<minecraft:wooden_door>);
+recipes.remove(<minecraft:iron_door>);
 recipes.addShaped(<minecraft:wooden_door>, [[<minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>]]);
-
-#SaltBalance
-mods.thermalexpansion.Pulverizer.addRecipe(40, <harvestcraft:salt>, <harvestcraft:saltItem>*8);
+recipes.addShaped(<minecraft:iron_door>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
 #Cake buckets
 recipes.addShaped(<minecraft:cake>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
@@ -101,6 +105,9 @@ recipes.removeShaped(<minecraft:gunpowder>, [[<ore:dustSulfur>, <ore:dustSulfur>
 
 #Moss recipe
 recipes.addShapeless(<BiomesOPlenty:moss>, [<minecraft:mossy_cobblestone>]);
+
+#Extract Lava from Magma
+mods.thermalexpansion.Transposer.addExtractRecipe(800, <etfuturum:magma>, <liquid:lava> * 500, <minecraft:netherrack>, 100);
 
 print("Initialized 'Minecraft.zs'");
 

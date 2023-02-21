@@ -11,11 +11,6 @@ recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);
 
 recipes.remove(<WarpDrive:blockEnergyBank:*>);
 
-#oredicts
-val plutonium = <ore:warpfieldCatalyst>;
-plutonium.add(<IC2:itemPlutonium>);
-plutonium.add(<NuclearCraft:fuel:46>);
-
 
 #####################   HULLS    ###############################
 
@@ -103,7 +98,7 @@ recipes.addShaped(<WarpDrive:itemComponent:4>, [[<minecraft:gold_ingot>, <WarpDr
 
 #Superconductor
 recipes.remove(<WarpDrive:itemComponent:20>);
-recipes.addShaped(<WarpDrive:itemComponent:20>, [[<ore:dustBoron>, <ore:ingotTough>, <ore:dustBoron>], [<ore:ingotTough>, <WarpDrive:itemComponent:2>, <ore:ingotTough>], [<ore:dustBoron>, <ore:ingotTough>, <ore:dustBoron>]]);
+recipes.addShaped(<WarpDrive:itemComponent:20>, [[<minecraft:redstone>, <ExtraUtilities:bedrockiumIngot>, <minecraft:redstone>], [<ExtraUtilities:bedrockiumIngot>, <WarpDrive:itemComponent:2>, <ExtraUtilities:bedrockiumIngot>], [<minecraft:redstone>, <ExtraUtilities:bedrockiumIngot>, <minecraft:redstone>]]);
 
 #Power Interface
 recipes.remove(<WarpDrive:itemComponent:6>);
@@ -192,7 +187,7 @@ recipes.addShaped(<WarpDrive:blockCloakingCore>, [[<NuclearCraft:parts:8>, <Meka
 
 ###  Warp Isolation Block
 recipes.remove(<WarpDrive:blockWarpIsolation>);
-recipes.addShaped(<WarpDrive:blockWarpIsolation>, [[<ore:ingotTough>, <WarpDrive:blockHull3_plain>, <ore:ingotTough>], [<WarpDrive:blockHull3_plain>, <ore:warpfieldCatalyst>, <WarpDrive:blockHull3_plain>], [<ore:ingotTough>, <WarpDrive:blockHull3_plain>, <ore:ingotTough>]]);
+recipes.addShaped(<WarpDrive:blockWarpIsolation>, [[<minecraft:ender_eye>, <WarpDrive:blockHull3_plain>, <minecraft:ender_eye>], [<WarpDrive:blockHull3_plain>, <minecraft:nether_star>, <WarpDrive:blockHull3_plain>], [<minecraft:ender_eye>, <WarpDrive:blockHull3_plain>, <minecraft:ender_eye>]]);
 
 ###  Reactor Laser Monitor
 recipes.remove(<WarpDrive:blockIC2reactorLaserMonitor>);

@@ -130,7 +130,7 @@
 		"ingredients" : [
 			[  { "registryName" : "Mekanism:ReinforcedAlloy" }, { "registryName" : "Mekanism:AtomicAlloy" }, { "registryName" : "Mekanism:ReinforcedAlloy" } ],
 			[  { "registryName" : "Mekanism:ControlCircuit", "meta" : 2 }, { "oredictName" : "componentMVCapacitor" }, { "registryName" : "Mekanism:ControlCircuit", "meta" : 2 } ],
-			[  { "oredictName" : "ingotHardCarbon" }, { "registryName" : "ThermalExpansion:material", "meta" : 3 }, { "oredictName" : "ingotHardCarbon" } ]
+			[  { "oredictName" : "ingotRefinedLapis" }, { "registryName" : "ThermalExpansion:material", "meta" : 3 }, { "oredictName" : "ingotRefinedLapis" } ]
 		],
 		"result" : {
 			"oredictName" : "componentHVCapacitor"

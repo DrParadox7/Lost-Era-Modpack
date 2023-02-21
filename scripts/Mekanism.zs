@@ -364,7 +364,7 @@ recipes.remove(<MekanismGenerators:Reactor:*>);
 recipes.addShaped(<MekanismGenerators:Reactor>, [[<Mekanism:ControlCircuit:3>, <ore:paneGlass>, <Mekanism:ControlCircuit:3>], [<MekanismGenerators:Reactor:1>, <Mekanism:GasTank:*>, <MekanismGenerators:Reactor:1>], [<MekanismGenerators:Reactor:1>, <MekanismGenerators:Reactor:1>, <MekanismGenerators:Reactor:1>]]);
 
 ##Reactor Casing
-recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [[<Mekanism:Polyethene:2>, <Mekanism:BasicBlock:8>, <Mekanism:Polyethene:2>], [<Mekanism:BasicBlock:8>, <Mekanism:AtomicAlloy>, <Mekanism:BasicBlock:8>], [<Mekanism:Polyethene:2>, <Mekanism:BasicBlock:8>, <Mekanism:Polyethene:2>]]);
+recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [[null, <Mekanism:BasicBlock:8>, null], [<Mekanism:BasicBlock:8>, <Mekanism:AtomicAlloy>, <Mekanism:BasicBlock:8>], [null, <Mekanism:BasicBlock:8>, null]]);
 
 #Reactor Port
 recipes.addShaped(<MekanismGenerators:Reactor:3> * 2, [[null, <MekanismGenerators:Reactor:1>, null], [<MekanismGenerators:Reactor:1>, <Mekanism:ControlCircuit:3>, <MekanismGenerators:Reactor:1>], [null, <MekanismGenerators:Reactor:1>, null]]);
@@ -403,7 +403,7 @@ mods.mekanism.Enrichment.addRecipe(<IC2:itemDust2:1>, <IC2:itemPartIndustrialDia
 mods.mekanism.Enrichment.addRecipe(<gregtech_addon:metaitem_1:2500>, <IC2:itemPartIndustrialDiamond>);
 
 #Teleportator
-mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>,1200000,[<Mekanism:ReinforcedAlloy>, <RedstoneArsenal:material:96>, <Mekanism:ReinforcedAlloy>]);
+mods.buildcraft.AssemblyTable.addRecipe(<Mekanism:TeleportationCore>*2,1200000,[<Mekanism:ReinforcedAlloy>*2, <appliedenergistics2:item.ItemMultiMaterial:47>]);
 
 #Methane Production
 mods.mekanism.Separator.addRecipe(<liquid:sewage>, 175, <gas:methane>, <gas:water>);

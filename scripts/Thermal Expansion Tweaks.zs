@@ -31,10 +31,10 @@ mods.forestry.ThermionicFabricator.removeCast(<Forestry:thermionicTubes:12>);
 mods.forestry.ThermionicFabricator.addCast(<Forestry:thermionicTubes:12> *2, [[<Botania:manaResource:15>, <ore:ingotEnderium>, <Botania:manaResource:15>], [<minecraft:ender_eye>, <ore:ingotEnderium>, <minecraft:ender_eye>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]], 1000);
 
 #Obsidian before diamond exploit patch
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte, Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:1>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte, Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte, Augments: [{Slot: 0, id: 4622 as short, Count: 1 as byte, Damage: 0 as short}, {Slot: 1, id: 4622 as short, Count: 1 as byte, Damage: 32 as short}, {Slot: 2, id: 4622 as short, Count: 1 as byte, Damage: 16 as short}]}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>, [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:1>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
+recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
 
 #Blizz Dust
 recipes.remove(<ThermalFoundation:material:513>);
@@ -147,5 +147,13 @@ recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ore:ingotRedAlloy>, null],
 recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotInvar>, null], [<ore:ingotInvar>, <ThermalExpansion:Cell:1>, <ore:ingotInvar>], [null, <ore:ingotInvar>, null]]);
 recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:5>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
 recipes.addShaped(<ThermalExpansion:Cell:2>, [[<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
+
+#Portable Tank
+recipes.remove(<ThermalExpansion:Tank:1>);
+recipes.addShaped(<ThermalExpansion:Tank:1>, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <BuildCraft|Factory:tankBlock>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
+
+recipes.removeShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:blockGlass>, <ore:ingotInvar>], [<ore:blockGlass>, <ore:ingotCopper>, <ore:blockGlass>], [<ore:ingotInvar>, <ore:blockGlass>, <ore:ingotInvar>]]);
+
+recipes.addShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>], [<ore:ingotCopper>, <BuildCraft|Factory:tankBlock>, <ore:ingotCopper>], [<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>]]);
 
 print("Initialized 'ThermalExpansion.zs'");

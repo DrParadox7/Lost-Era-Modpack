@@ -35,17 +35,9 @@ recipes.remove(<TConstruct:heartCanister:2>);
 recipes.remove(<TConstruct:heartCanister:4>);
 recipes.remove(<TConstruct:heartCanister:6>);
 recipes.remove(<TConstruct:heartCanister>);
-
-<TConstruct:heartCanister:3>.addTooltip("Can be eaten to restore 20 hearts");
-<TConstruct:heartCanister:5>.addTooltip("Can be eaten to restore 30 hearts");
-
-#In case bucket dupes ever pop up
-mods.tconstruct.Smeltery.removeMelting(<minecraft:bucket>);
-
-#Aroma Dim integration
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
+<TConstruct:heartCanister:3>.addTooltip("canister.yellow.tooltip2");
+<TConstruct:heartCanister:5>.addTooltip("canister.green.tooltip2");
+game.setLocalization("en_US", "canister.red.tooltip1", "Instant Health");
 
 #Grout
 recipes.remove(<TConstruct:CraftedSoil:1>);
@@ -60,55 +52,6 @@ furnace.addRecipe(<TConstruct:materials:37>*3, <TConstruct:CraftedSoil:6>);
 
 mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:6>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <TConstruct:CraftedSoil:6>, <TConstruct:materials:37>*3);
-
-#Ingot & Nuggets Templates
-recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <minecraft:iron_ingot>.reuse()]);
-recipes.addShapeless(<TConstruct:clayPattern:27>, [<TConstruct:blankPattern:3>, <ore:nuggetIron>.reuse()]);
-
-#Remove Melting from some materials
-val MaterialArray = [
-<minecraft:stone>,
-<minecraft:cobblestone>,
-<ExtraUtilities:cobblestone_compressed>,
-<ExtraUtilities:cobblestone_compressed:1>,
-<ExtraUtilities:cobblestone_compressed:2>,
-<ExtraUtilities:cobblestone_compressed:3>,
-<TConstruct:binding:1>,
-<TConstruct:scytheBlade:1>,
-<TConstruct:BowLimbPart:1>,
-<TConstruct:toolShard:1>,
-<TConstruct:excavatorHead:1>,
-<TConstruct:swordBlade:1>,
-<TConstruct:toughRod:1>,
-<TConstruct:pickaxeHead:1>,
-<TConstruct:signHead:1>,
-<TConstruct:largeSwordBlade:1>,
-<TConstruct:handGuard:1>,
-<TConstruct:CrossbowBodyPart:1>,
-<TConstruct:chiselHead:1>,
-<TConstruct:broadAxeHead:1>,
-<TConstruct:crossbar:1>,
-<TConstruct:fullGuard:1>,
-<TConstruct:toolRod:1>,
-<TConstruct:ShurikenPart:1>,
-<TConstruct:hatchetHead:1>,
-<TConstruct:wideGuard:1>,
-<TConstruct:toughBinding:1>,
-<TConstruct:frypanHead:1>,
-<TConstruct:shovelHead:1>,
-<TConstruct:heavyPlate:1>,
-<TConstruct:hammerHead:1>,
-<TConstruct:knifeBlade:1>,
-<TConstruct:CrossbowLimbPart:1>,
-<ThermalFoundation:material:44>,
-<ThermalFoundation:material:512>,
-<ThermalFoundation:material:513>
-] as IItemStack[];
-
-for i, Material in MaterialArray
-{
-mods.tconstruct.Smeltery.removeMelting(Material);
-}
 
 #Aluminum Brass Alloy (Now Gold Solder Alloy)
 mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);
@@ -163,5 +106,30 @@ mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:11303>, "Ele
 mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.block:4>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
+
+#Traveller's Gear 
+# Vest
+recipes.remove(<TConstruct:travelVest>);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:travelVest>, <liquid:obsidian.molten> * 288, <minecraft:leather_chestplate>, true, 50);
+
+# Boots
+recipes.remove(<TConstruct:travelBoots>);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:travelBoots>, <liquid:tin.molten> * 144, <minecraft:leather_boots>, true, 25);
+
+# Belt
+recipes.remove(<TConstruct:travelBelt>);
+recipes.addShaped(<TConstruct:travelBelt>, [[null, <minecraft:chest>, null], [<minecraft:leather>, <TConstruct:binding:2>, <minecraft:leather>], [null, <minecraft:leather>, null]]);
+
+# Wings
+recipes.remove(<TConstruct:travelWings>);
+recipes.addShaped(<TConstruct:travelWings>, [[<TConstruct:materials:14>, <minecraft:leather>, <TConstruct:materials:14>], [<minecraft:feather>, <TConstruct:toughBinding:14>, <minecraft:feather>], [<minecraft:feather>, null, <minecraft:feather>]]);
+
+# Goggles
+recipes.remove(<TConstruct:travelGoggles>);
+recipes.addShaped(<TConstruct:travelGoggles>, [[<minecraft:leather>, null, <minecraft:leather>], [<ore:blockGlassColorless>, <minecraft:leather>, <ore:blockGlassColorless>], [<TConstruct:materials:14>, null, <TConstruct:materials:14>]]);
+
+# Knapsack
+recipes.remove(<TConstruct:knapsack>);
+recipes.addShaped(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<TConstruct:toughRod:2>, <minecraft:iron_ingot>, <TConstruct:toughRod:2>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
 
 print("Initialized 'TinkerConstruct.zs'");
