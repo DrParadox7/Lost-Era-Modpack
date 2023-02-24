@@ -141,15 +141,15 @@ recipes.remove(<arsmagica2:battlemageBoots>);
 recipes.addShaped(<arsmagica2:battlemageBoots>, [[<arsmagica2:goldInlay>, null, <arsmagica2:goldInlay>], [<minecraft:obsidian>, <arsmagica2:essence:2>, <minecraft:obsidian>], [<minecraft:obsidian>, <Botania:manasteelBoots>, <minecraft:obsidian>]]);
 
 #Helpful Tooltips
-<arsmagica2:lesserManaPotion>.addTooltip("am2.tooltip.potion1");
-<arsmagica2:standardManaPotion>.addTooltip("am2.tooltip.potion2");
-<arsmagica2:greaterManaPotion>.addTooltip("am2.tooltip.potion3");
-<arsmagica2:epicManaPotion>.addTooltip("am2.tooltip.potion4");
-<arsmagica2:legendaryManaPotion>.addTooltip("am2.tooltip.potion5");
+#<arsmagica2:lesserManaPotion>.addTooltip("am2.tooltip.potion1");
+#<arsmagica2:standardManaPotion>.addTooltip("am2.tooltip.potion2");
+#<arsmagica2:greaterManaPotion>.addTooltip("am2.tooltip.potion3");
+#<arsmagica2:epicManaPotion>.addTooltip("am2.tooltip.potion4");
+#<arsmagica2:legendaryManaPotion>.addTooltip("am2.tooltip.potion5");
 
-<arsmagica2:manaMartini>.addTooltip("am2.tooltip.drink");
-<arsmagica2:liquidEssenceBottle>.addTooltip("am2.tooltip.potionEssence1");
-<arsmagica2:liquidEssenceBottle>.addTooltip("am2.tooltip.potionEssence2");
+#<arsmagica2:manaMartini>.addTooltip("am2.tooltip.drink");
+#<arsmagica2:liquidEssenceBottle>.addTooltip("am2.tooltip.potionEssence1");
+#<arsmagica2:liquidEssenceBottle>.addTooltip("am2.tooltip.potionEssence2");
 
 print("Initialized 'AM2.zs'");
 

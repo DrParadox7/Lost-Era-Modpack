@@ -283,6 +283,6 @@ recipes.addShaped(<BinnieCore:storage:5>, [[<ore:gearDiamond>, <minecraft:book>,
 
 
 #NEI Tooltips
-<Botany:pigment:*>.addTooltip("botany.tooltip.pigment");
+#<Botany:pigment:*>.addTooltip("botany.tooltip.pigment");
 
 print("Initialized 'Binnie.zs'");

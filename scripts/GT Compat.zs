@@ -3,18 +3,18 @@
 print("Initializing 'GT Compat.zs'...");
 
 #Helpful ore tooltips
-<gregtech_addon:ore:2>.addTooltip("gt4.tooltip.iridiumOre");
-<gregtech_addon:ore:3>.addTooltip("gt4.tooltip.rubyOre");
-<gregtech_addon:ore:4>.addTooltip("gt4.tooltip.sapphireOre");
-<gregtech_addon:ore:5>.addTooltip("gt4.tooltip.bauxiteOre");
-<gregtech_addon:ore:6>.addTooltip("gt4.tooltip.pyriteOre");
-<gregtech_addon:ore:8>.addTooltip("gt4.tooltip.sphaleriteOre");
-<gregtech_addon:ore:9>.addTooltip("gt4.tooltip.endOre");
-<gregtech_addon:ore:10>.addTooltip("gt4.tooltip.endOre");
-<gregtech_addon:ore:11>.addTooltip("gt4.tooltip.endOre");
-<gregtech_addon:ore:12>.addTooltip("gt4.tooltip.endOre");
-<gregtech_addon:ore:13>.addTooltip("gt4.tooltip.tetrahedriteOre");
-<gregtech_addon:ore:14>.addTooltip("gt4.tooltip.cassiteriteOre");
+#<gregtech_addon:ore:2>.addTooltip("gt4.tooltip.iridiumOre");
+#<gregtech_addon:ore:3>.addTooltip("gt4.tooltip.rubyOre");
+#<gregtech_addon:ore:4>.addTooltip("gt4.tooltip.sapphireOre");
+#<gregtech_addon:ore:5>.addTooltip("gt4.tooltip.bauxiteOre");
+#<gregtech_addon:ore:6>.addTooltip("gt4.tooltip.pyriteOre");
+#<gregtech_addon:ore:8>.addTooltip("gt4.tooltip.sphaleriteOre");
+#<gregtech_addon:ore:9>.addTooltip("gt4.tooltip.endOre");
+#<gregtech_addon:ore:10>.addTooltip("gt4.tooltip.endOre");
+#<gregtech_addon:ore:11>.addTooltip("gt4.tooltip.endOre");
+#<gregtech_addon:ore:12>.addTooltip("gt4.tooltip.endOre");
+#<gregtech_addon:ore:13>.addTooltip("gt4.tooltip.tetrahedriteOre");
+#<gregtech_addon:ore:14>.addTooltip("gt4.tooltip.cassiteriteOre");
 
 #Stop GT from overriding Enderium
 recipes.remove(<gregtech_addon:metaitem_1:11321>);

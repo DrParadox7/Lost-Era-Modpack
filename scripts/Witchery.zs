@@ -26,10 +26,10 @@ recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:102>, <wit
 recipes.removeShapeless(<IC2:itemDust:6>, [<witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>,]);
 
 #Helpful tooltips 
-<witchery:ingredient:105>.addTooltip("tooltip.ingredient105");
-<witchery:ingredient:112>.addTooltip("tooltip.ingredient112");
-<witchery:somniancotton>.addTooltip("tooltip.somniaCotton");
-<witchery:ingredient:99>.addTooltip("tooltip.ingredient99");
-<witchery:ingredient:103>.addTooltip("tooltip.ingredient103");
+#<witchery:ingredient:105>.addTooltip("tooltip.ingredient105");
+#<witchery:ingredient:112>.addTooltip("tooltip.ingredient112");
+#<witchery:somniancotton>.addTooltip("tooltip.somniaCotton");
+#<witchery:ingredient:99>.addTooltip("tooltip.ingredient99");
+#<witchery:ingredient:103>.addTooltip("tooltip.ingredient103");
 
 print("Initialized 'Witchery.zs'");

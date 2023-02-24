@@ -13,7 +13,7 @@ recipes.addShaped(<RandomThings:imbuingStation>, [[<witchery:spanishmoss>, <mine
 recipes.remove(<RandomThings:fertilizedDirt>);
 mods.forestry.Moistener.addRecipe(<RandomThings:fertilizedDirt>, <Forestry:soil>, 2400);
 
-<RandomThings:fertilizedDirt>.addTooltip("randomthings.tooltip.fertilizedDirt");
+#<RandomThings:fertilizedDirt>.addTooltip("randomthings.tooltip.fertilizedDirt");
 
 #Ender Letter
 recipes.remove(<RandomThings:enderLetter>);

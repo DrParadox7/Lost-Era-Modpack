@@ -53,6 +53,16 @@ furnace.addRecipe(<TConstruct:materials:37>*3, <TConstruct:CraftedSoil:6>);
 mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:CraftedSoil:6>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <TConstruct:CraftedSoil:6>, <TConstruct:materials:37>*3);
 
+#Ingot & Nuggets Templates
+recipes.remove(<TConstruct:clayPattern>);
+recipes.remove(<TConstruct:clayPattern:27>);
+recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <minecraft:iron_ingot>.reuse()]);
+recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <minecraft:gold_ingot>.reuse()]);
+recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <minecraft:brick>.reuse()]);
+recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <minecraft:netherbrick>.reuse()]);
+recipes.addShapeless(<TConstruct:clayPattern:27>, [<TConstruct:blankPattern:3>, <ore:nuggetIron>.reuse()]);
+recipes.addShapeless(<TConstruct:clayPattern:27>, [<TConstruct:blankPattern:3>, <ore:nuggetGold>.reuse()]);
+
 #Aluminum Brass Alloy (Now Gold Solder Alloy)
 mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);
 mods.tconstruct.Smeltery.addAlloy(<liquid:aluminumbrass.molten> * 576, [<liquid:gold.molten> * 432, <liquid:tin.molten> * 144]);
