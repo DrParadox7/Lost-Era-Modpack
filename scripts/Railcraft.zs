@@ -1,7 +1,7 @@
-#Name: Railcraft(Tweaks).zs
+#Name: Railcraft.zs
 #Author: TechnoParadox
 
-print("Initializing 'Railcraft(Tweaks).zs'...");
+print("Initializing 'Railcraft.zs'...");
 
 recipes.remove(<Railcraft:cart.redstone.flux>);
 recipes.addShaped(<Railcraft:cart.redstone.flux>, [[null, <ThermalExpansion:Frame:5>, null], [null, <minecraft:minecart>, null], [null, null, null]]);
@@ -104,4 +104,8 @@ recipes.remove(<Railcraft:machine.beta:4>);
 mods.railcraft.Rolling.addShaped(<Railcraft:machine.beta:3>, [[null, <Railcraft:machine.beta>, null], [<Railcraft:machine.beta>, null, <Railcraft:machine.beta>], [null, <Railcraft:machine.beta>, null]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:machine.beta:4>, [[null, <Railcraft:machine.beta:13>, null], [<Railcraft:machine.beta:13>, null, <Railcraft:machine.beta:13>], [null, <Railcraft:machine.beta:13>, null]]);
 
-print("Initialized 'Railcraft(Tweaks).zs'");
+#Wood Tie buffs
+recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+recipes.addShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>.giveBack(<minecraft:glass_bottle>), null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+
+print("Initialized 'Railcraft.zs'");
