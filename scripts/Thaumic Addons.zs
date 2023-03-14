@@ -133,38 +133,6 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:enchanter>);
 mods.thaumcraft.Research.orphanResearch("ENCHANTER");
 mods.thaumcraft.Research.removeResearch("ENCHANTER");
 
-#Enchant Infusion Conversion           **ENCHANTMENT IDs MUST MATCH**
-mods.thaumcraft.Infusion.addEnchantment("ASCENT_BOOST", 220, 5, "iter 16, potentia 2",  [<minecraft:slime_ball>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("AUTO_SMELT", 222, 5, "ignis 2, metallum 4",  [<Thaumcraft:ItemResource:1>, <Thaumcraft:ItemNugget:16>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("DESINTEGRATE", 223, 5, "potentia 16, perfodio 8",  [<Thaumcraft:ItemResource>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("DISPERSEDSTRIKE", 166, 6, "desidia 16, telum 2",  [<minecraft:iron_sword>, <minecraft:gunpowder>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("FOCUSEDSTRIKE", 169, 6, "ira 8, superbia 2",  [<minecraft:iron_sword>, <minecraft:skull:1>, <minecraft:blaze_rod>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("FINALSTRIKE", 168, 8, "exanimis 16, telum 8",  [<minecraft:diamond_sword>, <ThaumicTinkerer:kamiResource:6>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:7>]);
-mods.thaumcraft.Infusion.addEnchantment("POUNCE", 170, 6, "bestia 12",  [<minecraft:fireworks>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("QUICK_DRAW", 224, 5, "aer 8, motus 4, volatus 4",  [<WitchingGadgets:item.WG_Material:1>, <minecraft:ender_pearl>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("SHATTER", 167, 6, "vitreus 16, perditio 8",  [<minecraft:diamond>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("SHOCKWAVE", 171, 6, "iter 8, perditio 16",  [<minecraft:tnt>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("SLOW_FALL", 221, 5, "volatus 4, vinculum 2, tempus 2",  [<minecraft:feather>, <minecraft:feather>, <Thaumcraft:ItemResource:14>, <minecraft:feather>]);
-mods.thaumcraft.Infusion.addEnchantment("TUNNEL", 172, 6, "perfodio 8, iter 4",  [<minecraft:furnace_minecart>, <minecraft:rail>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("VALIANCE", 173, 6, "victus 8, mortuus 8",  [<minecraft:golden_sword>, <minecraft:emerald>, <Thaumcraft:ItemResource:14>]);
-mods.thaumcraft.Infusion.addEnchantment("VAMPIRISM", 225, 5, "fames 8, victus 4",  [<minecraft:bone>, <minecraft:beef>, <minecraft:potion:8229>, <Thaumcraft:ItemResource:14>]);
-
-#Display Enchant Infusion           **ENCHANTMENT IDs MUST MATCH**
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_ASCENT_BOOST", 220);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_AUTO_SMELT", 222);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_DESINTEGRATE", 223);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_DISPERSED", 166);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_FOCUSED", 169);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_FINAL", 168);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_POUNCE", 170);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_QUICK_DRAW", 224);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_SHATTER", 167);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_SHOCKWAVE", 171);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_SLOW_FALL", 221);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_TUNNEL", 172);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_VALIANCE", 173);
-mods.thaumcraft.Research.addEnchantmentPage("TTENCH_VAMPIRISM", 225);
-
 ####RESEARCH####
 #Enchant Entry
 mods.thaumcraft.Research.addResearch("TTENCHTS", "TT_CATEGORY", "praecantatio 10, cognitio 20, machina 5", 5, 4, 8, <thaumcraftneiplugin:Aspect>.withTag({Aspects: [{amount: 2, key: "praecantatio"}]}));
