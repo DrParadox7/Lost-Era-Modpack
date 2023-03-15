@@ -74,8 +74,8 @@ recipes.removeShaped(<TMechworks:RedstoneMachine:2>, [[null, <TConstruct:blankPa
 
 #Thermal Expansion stuff
 mods.tconstruct.Smeltery.removeMelting(<ore:glowstone>);
+mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:color_blockRedstone:*>);
 mods.tconstruct.Smeltery.removeMelting(<ore:dustGlowstone>);
-
 mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
 
 #Mithril not becoming mana metal
