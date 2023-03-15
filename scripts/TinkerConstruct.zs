@@ -118,25 +118,30 @@ mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electru
 mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
 
 #Traveller's Gear 
+# Goggles
+val googles = <TConstruct:travelGoggles>.withTag({TinkerArmor: {BaseDurability: 1035, Upgrades: 0, BaseDefense: 0.0, Built: 1 as byte, MaxDefense: 4.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
+recipes.remove(googles);
+recipes.addShaped(googles, [[<minecraft:leather>, null, <minecraft:leather>], [<ore:blockGlassColorless>, <minecraft:leather>, <ore:blockGlassColorless>], [<TConstruct:materials:14>, null, <TConstruct:materials:14>]]);
+
 # Vest
-recipes.remove(<TConstruct:travelVest>);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:travelVest>, <liquid:obsidian.molten> * 288, <minecraft:leather_chestplate>, true, 50);
-
-# Boots
-recipes.remove(<TConstruct:travelBoots>);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:travelBoots>, <liquid:tin.molten> * 144, <minecraft:leather_boots>, true, 25);
-
-# Belt
-recipes.remove(<TConstruct:travelBelt>);
-recipes.addShaped(<TConstruct:travelBelt>, [[null, <minecraft:chest>, null], [<minecraft:leather>, <TConstruct:binding:2>, <minecraft:leather>], [null, <minecraft:leather>, null]]);
+val vest = <TConstruct:travelVest>.withTag({TinkerArmor: {BaseDurability: 1035, Upgrades: 0, BaseDefense: 4.0, Built: 1 as byte, MaxDefense: 10.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
+recipes.remove(vest);
+mods.tconstruct.Casting.addTableRecipe(vest, <liquid:obsidian.molten> * 288, <minecraft:leather_chestplate>, true, 50);
 
 # Wings
-recipes.remove(<TConstruct:travelWings>);
-recipes.addShaped(<TConstruct:travelWings>, [[<TConstruct:materials:14>, <minecraft:leather>, <TConstruct:materials:14>], [<minecraft:feather>, <TConstruct:toughBinding:14>, <minecraft:feather>], [<minecraft:feather>, null, <minecraft:feather>]]);
+val wings = <TConstruct:travelWings>.withTag({TinkerArmor: {BaseDurability: 1035, Upgrades: 0, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 8.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
+recipes.remove(wings);
+recipes.addShaped(wings, [[<TConstruct:materials:14>, <minecraft:leather>, <TConstruct:materials:14>], [<minecraft:feather>, <TConstruct:toughBinding:14>, <minecraft:feather>], [<minecraft:feather>, null, <minecraft:feather>]]);
 
-# Goggles
-recipes.remove(<TConstruct:travelGoggles>);
-recipes.addShaped(<TConstruct:travelGoggles>, [[<minecraft:leather>, null, <minecraft:leather>], [<ore:blockGlassColorless>, <minecraft:leather>, <ore:blockGlassColorless>], [<TConstruct:materials:14>, null, <TConstruct:materials:14>]]);
+# Boots
+val boots = <TConstruct:travelBoots>.withTag({TinkerArmor: {BaseDurability: 1035, Upgrades: 0, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 6.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
+recipes.remove(boots);
+mods.tconstruct.Casting.addTableRecipe(boots, <liquid:tin.molten> * 144, <minecraft:leather_boots>, true, 25);
+
+# Belt
+val belt = <TConstruct:travelBelt>.withTag({TinkerAccessory: {BaseDurability: 500, Built: 1 as byte, Damage: 0, BonusDurability: 0, TotalDurability: 500, ModDurability: 0.0 as float, Modifiers: 5, Broken: 0 as byte}});
+recipes.remove(belt);
+recipes.addShaped(belt, [[null, <minecraft:chest>, null], [<minecraft:leather>, <TConstruct:binding:2>, <minecraft:leather>], [null, <minecraft:leather>, null]]);
 
 # Knapsack
 recipes.remove(<TConstruct:knapsack>);
