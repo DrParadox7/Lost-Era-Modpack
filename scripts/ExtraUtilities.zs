@@ -21,6 +21,9 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamon
 recipes.addShaped(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <minecraft:gold_block>, <minecraft:golden_sword>], [<minecraft:gold_block>, <ExtraUtilities:spike_base>, <minecraft:gold_block>]]);
 recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, <ExtraUtilities:spike_base_wood>, <minecraft:iron_block>]]);
 
+#Disable dupe inducing cabinets
+recipes.remove(<ExtraUtilities:filing:*>);
+
 ### Generators ###
 #Survivalist 
 recipes.addShaped(<ExtraUtilities:generator>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>.noReturn(), <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);

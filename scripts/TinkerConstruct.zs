@@ -147,4 +147,11 @@ recipes.addShaped(belt, [[null, <minecraft:chest>, null], [<minecraft:leather>, 
 recipes.remove(<TConstruct:knapsack>);
 recipes.addShaped(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<TConstruct:toughRod:2>, <minecraft:iron_ingot>, <TConstruct:toughRod:2>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
 
+#Thaumcraft Brains Drying Rack
+mods.tconstruct.Drying.removeRecipe(<WitchingGadgets:item.WG_MagicFood:2>);
+mods.tconstruct.Drying.addRecipe(<Thaumcraft:ItemZombieBrain>, <WitchingGadgets:item.WG_MagicFood:2>, 24000);
+
+#Drying Rack Mutton
+mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky:3>, 24000);
+
 print("Initialized 'TinkerConstruct.zs'");

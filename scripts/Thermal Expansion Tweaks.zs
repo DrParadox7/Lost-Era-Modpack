@@ -156,4 +156,11 @@ recipes.removeShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:blockGl
 
 recipes.addShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>], [<ore:ingotCopper>, <BuildCraft|Factory:tankBlock>, <ore:ingotCopper>], [<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>]]);
 
+
+#Prevents client-crash with Pulverizer recipes
+val log = <ore:logWood>;
+log.remove(<Natura:willow:32767>);
+log.remove(<Natura:Rare Tree:32767>);
+log.remove(<Natura:Dark Tree:32767>);
+
 print("Initialized 'ThermalExpansion.zs'");

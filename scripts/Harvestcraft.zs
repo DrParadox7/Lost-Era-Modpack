@@ -104,5 +104,8 @@ mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 3, <harvestcr
 #Informative tooltip 
 <harvestcraft:sunflowerseedsItem>.addTooltip("harvestcraft.tooltip.sunflowerSeeds");
 
+#Food Fixes
+recipes.remove(<harvestcraft:honeycombchocolatebarItem>);
+recipes.addShapeless(<harvestcraft:honeycombchocolatebarItem>, [<harvestcraft:saucepanItem>,<harvestcraft:chocolatebarItem>, <Forestry:beeCombs>]);
 
 print("Initialized 'Harvestcraft.zs'");
