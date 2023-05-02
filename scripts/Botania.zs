@@ -14,6 +14,9 @@ recipes.addShaped(<Botania:cocoon>, [[<minecraft:string>, <minecraft:string>, <m
 #Rubberwood compat with Pure Daisy
 mods.botania.PureDaisy.addRecipe(<MineFactoryReloaded:rubberwood.log:*>, <Botania:livingwood>);
 
+#One-Winged Angel Flügel Tiara
+recipes.addShapeless(<Botania:flightTiara:2>, [<Botania:flightTiara:*>, <ThaumicTinkerer:darkQuartzItem>]);
+
 #Orechid Balance
 mods.botania.Orechid.removeOre(<ore:oreMithril>);
 mods.botania.Orechid.removeOre(<ore:oreAdamantium>);
