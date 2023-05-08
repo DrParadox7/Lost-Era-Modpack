@@ -322,6 +322,10 @@ appliedenergistics2:tile.BlockCraftingUnit:0, Crafting Unit
 appliedenergistics2:tile.BlockCraftingUnit:1, Crafting Co-Processing Unit
 appliedenergistics2:tile.BlockCraftingUnit:2, Quad Core Co-Processing Unit
 appliedenergistics2:tile.BlockCraftingUnit:3, 16 Core Co-Processing Unit
+appliedenergistics2:tile.BlockAdvancedCraftingUnit:0, 64 Core Co-Processing Unit
+appliedenergistics2:tile.BlockAdvancedCraftingUnit:1, 256 Core Co-Processing Unit
+appliedenergistics2:tile.BlockAdvancedCraftingUnit:2, 1024 Core Co-Processing Unit
+appliedenergistics2:tile.BlockAdvancedCraftingUnit:3, 4096 Core Co-Processing Unit
 appliedenergistics2:tile.BlockCraftingStorage:0, 1k Crafting Storage
 appliedenergistics2:tile.BlockCraftingStorage:1, 4k Crafting Storage
 appliedenergistics2:tile.BlockCraftingStorage:2, 16k Crafting Storage
@@ -435,7 +439,6 @@ MineFactoryReloaded:rednet.logic, Programmable RedNet Controller
 MineFactoryReloaded:rednet.panel:0, RedNet Historian
 MineFactoryReloaded:rail.cargo.pickup, Cargo Pickup Rail
 MineFactoryReloaded:rail.cargo.dropoff, Cargo Dropoff Rail
-MineFactoryReloaded:rail.passenger.pickup, Passenger Pickup Rail
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -748,6 +751,7 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, TNT Cart
 minecraft:hopper_minecart, Hopper Cart
+MineFactoryReloaded:rail.passenger.pickup, Passenger Pickup Rail
 MineFactoryReloaded:rail.passenger.dropoff, Passenger Dropoff Rail
 MineFactoryReloaded:rubberwood.sapling:0, Rubber Sapling
 MineFactoryReloaded:rubberwood.sapling:1, Sacred Rubber Sapling
@@ -791,6 +795,12 @@ MineFactoryReloaded:stainedglass.pane:15, Stained Glass Pane (Black)
 MineFactoryReloaded:road:0, Road
 MineFactoryReloaded:road:1, Road Light
 MineFactoryReloaded:road:4, Road Light (Inverted)
+minecraft:iron_horse_armor, Iron Horse Armor
+minecraft:golden_horse_armor, Gold Horse Armor
+minecraft:diamond_horse_armor, Diamond Horse Armor
+minecraft:lead, Lead
+minecraft:name_tag, Name Tag
+minecraft:command_block_minecart, Minecart with Command Block
 MineFactoryReloaded:plastic:0, Block of Plastic
 MineFactoryReloaded:plastic:1, Plastic Paver
 MineFactoryReloaded:plastic:2, Plastic Column
@@ -798,12 +808,6 @@ MineFactoryReloaded:plastic:3, Large Plastic Bricks
 MineFactoryReloaded:plastic:4, Chiseled Plastic Bricks
 MineFactoryReloaded:plastic:5, Plastic Road
 MineFactoryReloaded:plastic:6, Plastic Bricks
-minecraft:iron_horse_armor, Iron Horse Armor
-minecraft:golden_horse_armor, Gold Horse Armor
-minecraft:diamond_horse_armor, Diamond Horse Armor
-minecraft:lead, Lead
-minecraft:name_tag, Name Tag
-minecraft:command_block_minecart, Minecart with Command Block
 MineFactoryReloaded:brick:0, Ice Bricks
 MineFactoryReloaded:brick:1, Glowstone Bricks
 MineFactoryReloaded:brick:2, Lapis Bricks
@@ -7200,21 +7204,6 @@ etfuturum:trapdoor_birch, Birch Trapdoor
 etfuturum:trapdoor_jungle, Jungle Trapdoor
 etfuturum:trapdoor_acacia, Acacia Trapdoor
 etfuturum:trapdoor_dark_oak, Dark Oak Trapdoor
-etfuturum:white_bed, White Bed
-etfuturum:orange_bed, Orange Bed
-etfuturum:magenta_bed, Magenta Bed
-etfuturum:light_blue_bed, Light Blue Bed
-etfuturum:yellow_bed, Yellow Bed
-etfuturum:lime_bed, Lime Bed
-etfuturum:pink_bed, Pink Bed
-etfuturum:gray_bed, Gray Bed
-etfuturum:light_gray_bed, tile.etfuturum.light_gray_bed.name
-etfuturum:cyan_bed, Cyan Bed
-etfuturum:purple_bed, Purple Bed
-etfuturum:blue_bed, Blue Bed
-etfuturum:brown_bed, Brown Bed
-etfuturum:green_bed, Green Bed
-etfuturum:black_bed, Black Bed
 Metallurgy:machine.frame, Machine Frame
 Metallurgy:crusher, Crusher
 Metallurgy:alloyer, Alloyer
@@ -7353,18 +7342,6 @@ Metallurgy:nether.brick:9, Sanguinite Brick
 Metallurgy:nether.brick:10, Shadow Steel Brick
 Metallurgy:nether.brick:11, Inolashite Brick
 Metallurgy:nether.brick:12, Amordrine Brick
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 Metallurgy:ignatius.molten, Molten Ignatius
 Metallurgy:shadow.iron.molten, Molten Shadow Iron
 Metallurgy:lemurite.molten, Molten Lemurite
@@ -7381,6 +7358,18 @@ Metallurgy:amordrine.molten, Molten Amordrine
 Metallurgy:precious.ore:0, Zinc Ore
 Metallurgy:precious.ore:1, Silver Ore
 Metallurgy:precious.ore:2, Platinum Ore
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 Metallurgy:precious.block:0, Zinc Block
 Metallurgy:precious.block:1, Silver Block
 Metallurgy:precious.block:2, Platinum Block
@@ -7617,43 +7606,43 @@ ExtraTiC:moltenElementium, Molten Elementium
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
+ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:funnel, Essentia Funnel
 ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
 ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
-ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:repairer, Thaumic Restorer
 ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:infusedFarmland, Infused Farmland
 ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:dislocator, Transvector Dislocator
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -13206,12 +13195,14 @@ appliedenergistics2:item.ItemMultiMaterial:52, Blank Pattern
 appliedenergistics2:item.ItemMultiMaterial:23, Calculation Processor
 appliedenergistics2:item.ItemMultiMaterial:13, Inscriber Calculation Press
 appliedenergistics2:item.ItemMultiMaterial:16, Printed Calculation Circuit
+appliedenergistics2:item.ItemMultiMaterial:63, Advanced Blocking Card
 appliedenergistics2:item.ItemMultiMaterial:27, Capacity Card
 appliedenergistics2:item.ItemMultiMaterial:53, Crafting Card
 appliedenergistics2:item.ItemMultiMaterial:29, Fuzzy Card
 appliedenergistics2:item.ItemMultiMaterial:31, Inverter Card
 appliedenergistics2:item.ItemMultiMaterial:55, Oredictionary Filter Card
 appliedenergistics2:item.ItemMultiMaterial:54, Pattern Capacity Card
+appliedenergistics2:item.ItemMultiMaterial:62, Pattern Refiller Card
 appliedenergistics2:item.ItemMultiMaterial:26, Redstone Card
 appliedenergistics2:item.ItemMultiMaterial:30, Acceleration Card
 appliedenergistics2:item.ItemMultiMaterial:56, Hyper-Acceleration Card
@@ -15094,9 +15085,9 @@ TConstruct:Mold:2, Crossbow Body Mold
 TConstruct:Mold:3, Bow Limb Mold
 TConstruct:GlassArrows, item.tconstruct.glassArrows.name
 TConstruct:Boneana, Broadsword
+TConstruct:gearCast, Gear Cast
 TConstruct:slimesling, Slimesling
 TConstruct:slime_boots, Slime Boots
-TConstruct:gearCast, Gear Cast
 Natura:redwoodDoorItem:0, Redwood Door
 Natura:redwoodDoorItem:1, Eucalyptus Door
 Natura:redwoodDoorItem:2, Hopseed Door
@@ -15990,7 +15981,7 @@ Forestry:hunterBagT2, Hunter's Woven Backpack
 Forestry:adventurerBag, Adventurer's Backpack
 Forestry:adventurerBagT2, Adventurer's Woven Backpack
 Forestry:builderBag, Builder's Backpack
-Forestry:builderBagT2, Builder's WovenBackpack
+Forestry:builderBagT2, Builder's Woven Backpack
 Forestry:cratedPeat, item.cratedPeat.name
 Forestry:cratedApatite, item.cratedApatite.name
 Forestry:cratedFertilizer, item.cratedFertilizer.name
@@ -18410,7 +18401,6 @@ etfuturum:lingering_potion:8269, Lingering Potion of Water Breathing
 etfuturum:lingering_potion:8238, Lingering Potion of Invisibility
 etfuturum:lingering_potion:8270, Lingering Potion of Invisibility
 etfuturum:dragon_breath, Dragon's Breath
-etfuturum:elytra, Elytra
 etfuturum:end_crystal, End Crystal
 etfuturum:totem_of_undying, Totem of Undying
 etfuturum:suspicious_stew, Suspicious Stew
@@ -18418,15 +18408,6 @@ etfuturum:sweet_berries, Sweet Berries
 etfuturum:pigstep_record, Music Disc
 etfuturum:otherside_record, Music Disc
 etfuturum:amethyst_shard, Amethyst Shard
-etfuturum:shulker_box_upgrade:0, Vanilla to Iron Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:1, Vanilla to Copper Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:2, Iron to Gold Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:3, Gold to Diamond Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:4, Diamond to Obsidian Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:5, Diamond to Crystal Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:6, Copper to Iron Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:7, Copper to Silver Shulker Box Upgrade
-etfuturum:shulker_box_upgrade:8, Silver to Gold Shulker Box Upgrade
 etfuturum:item_sign_spruce, Spruce Sign
 etfuturum:item_sign_birch, Birch Sign
 etfuturum:item_sign_jungle, Jungle Sign
@@ -22800,14 +22781,14 @@ IronChest:diamondCrystalUpgrade, Diamond to Crystal Chest Upgrade
 IronChest:woodIronUpgrade, Wood to Iron Chest Upgrade
 IronChest:woodCopperUpgrade, Wood to Copper Chest Upgrade
 IronChest:diamondObsidianUpgrade, Diamond to Obsidian Chest Upgrade
-ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
-ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
-ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
+ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
 ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
-ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
 ironchestminecarts:minecart_chest_silver, Minecart with Silver Chest
 ironchestminecarts:minecart_chest_gold, Minecart with Gold Chest
-ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
+ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
+ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
+ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
+ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
 magianaturalis:item.researchLog, Research Log
 magianaturalis:item.alchemicalStone:0, Phenomorphous Catalyst Stone
 magianaturalis:item.alchemicalStone:1, Quicksilver Alchemist Stone
@@ -28935,21 +28916,6 @@ ThermalDynamics:cover:0, Birch Trapdoor Cover
 ThermalDynamics:cover:0, Jungle Trapdoor Cover
 ThermalDynamics:cover:0, Acacia Trapdoor Cover
 ThermalDynamics:cover:0, Dark Oak Trapdoor Cover
-ThermalDynamics:cover:0, White Bed Cover
-ThermalDynamics:cover:0, Orange Bed Cover
-ThermalDynamics:cover:0, Magenta Bed Cover
-ThermalDynamics:cover:0, Light Blue Bed Cover
-ThermalDynamics:cover:0, Yellow Bed Cover
-ThermalDynamics:cover:0, Lime Bed Cover
-ThermalDynamics:cover:0, Pink Bed Cover
-ThermalDynamics:cover:0, Gray Bed Cover
-ThermalDynamics:cover:0, tile.etfuturum.light_gray_bed.name Cover
-ThermalDynamics:cover:0, Cyan Bed Cover
-ThermalDynamics:cover:0, Purple Bed Cover
-ThermalDynamics:cover:0, Blue Bed Cover
-ThermalDynamics:cover:0, Brown Bed Cover
-ThermalDynamics:cover:0, Green Bed Cover
-ThermalDynamics:cover:0, Black Bed Cover
 ThermalDynamics:cover:0, Copper Ore Cover
 ThermalDynamics:cover:0, Tin Ore Cover
 ThermalDynamics:cover:0, Manganese Ore Cover
@@ -29327,25 +29293,25 @@ ThermalDynamics:cover:0, Molten Elementium Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
 ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Paving Stair of Travel Cover
 ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Paving Stair of Travel Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
