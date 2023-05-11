@@ -236,7 +236,7 @@ recipes.addShaped(<WarpDrive:blockProjector3:1>, [[<NuclearCraft:parts:8>, <Warp
 
 ###  Forcefield Half(tier 1)
 recipes.remove(<WarpDrive:blockProjector1>);
-recipes.addShapedMirrored(<WarpDrive:blockProjector1:1>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:19>, <OpenComputers:item:25>, <ore:blockHull1_glass>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>]]);
+recipes.addShapedMirrored(<WarpDrive:blockProjector1>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:19>, <OpenComputers:item:25>, <ore:blockHull1_glass>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent>, <minecraft:iron_ingot>]]);
 
 ###  Forcefield Half(tier 2)
 recipes.remove(<WarpDrive:blockProjector2>);
