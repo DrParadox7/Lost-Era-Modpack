@@ -2,7 +2,7 @@
     "copper": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
+        "clusterSize": 10,
         "numClusters": 10,
         "minHeight": 40,
         "maxHeight": 75,
@@ -22,7 +22,7 @@
     "tin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 10,
         "minHeight": 20,
         "maxHeight": 55,
@@ -45,9 +45,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 95},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 5}
         ],
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 4,
-        "chunkChance": 2,
         "minHeight": 10,
         "maxHeight": 35,
         "retrogen": "true",
