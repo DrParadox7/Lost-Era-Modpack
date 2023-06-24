@@ -18,3 +18,9 @@ include file("default.recipes")
 # default.recipes file to get an idea how recipes have to be structured. You'll
 # want to define your recipes after all includes, to avoid those overwriting
 # your recipes.
+
+chunkloaderUpgrade {
+  input: [[ingotGold, blockGlass, ingotGold]
+          ["oc:circuitChip3", {block="railcraft.machine.alpha", subID=0}, "oc:circuitChip3"]
+          [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
+}
