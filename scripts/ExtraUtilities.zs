@@ -139,16 +139,16 @@ recipes.addShaped(<ExtraUtilities:drum:1>, [[<ExtraUtilities:bedrockiumIngot>, <
 
 #Item Extractor
 recipes.remove(<ExtraUtilities:extractor_base:*>);
-recipes.addShaped(<ExtraUtilities:extractor_base>, [[<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>], [<AWWayofTime:reinforcedSlate>, <minecraft:ender_pearl>, <AWWayofTime:reinforcedSlate>], [<minecraft:redstone>, <minecraft:chest>, <minecraft:redstone>]]);
+recipes.addShaped(<ExtraUtilities:extractor_base>*2, [[<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>], [<AWWayofTime:reinforcedSlate>, <minecraft:ender_pearl>, <AWWayofTime:reinforcedSlate>], [<minecraft:redstone>, <minecraft:chest>, <minecraft:redstone>]]);
 
 #Fluid Extractor
-recipes.addShaped(<ExtraUtilities:extractor_base:6>, [[<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>], [<AWWayofTime:reinforcedSlate>, <minecraft:ender_pearl>, <AWWayofTime:reinforcedSlate>], [<minecraft:redstone>, <minecraft:cauldron>, <minecraft:redstone>]]);
+recipes.addShaped(<ExtraUtilities:extractor_base:6>*2, [[<ExtraUtilities:pipes>, <AWWayofTime:bloodMagicBaseItems:4>, <ExtraUtilities:pipes>], [<AWWayofTime:reinforcedSlate>, <minecraft:ender_pearl>, <AWWayofTime:reinforcedSlate>], [<minecraft:redstone>, <minecraft:cauldron>, <minecraft:redstone>]]);
 
 #Item Retriever
-recipes.addShaped(<ExtraUtilities:extractor_base_remote>, [[null, <minecraft:ender_eye>, null], [<ExtraUtilities:extractor_base>, <AWWayofTime:weakBloodShard>, <ExtraUtilities:extractor_base>], [null, <minecraft:ender_eye>, null]]);
+recipes.addShaped(<ExtraUtilities:extractor_base_remote>*2, [[null, <minecraft:ender_eye>, null], [<ExtraUtilities:extractor_base>, <AWWayofTime:weakBloodShard>, <ExtraUtilities:extractor_base>], [null, <minecraft:ender_eye>, null]]);
 
 #Fluid Retriever
-recipes.addShaped(<ExtraUtilities:extractor_base_remote:6>, [[null, <minecraft:ender_eye>, null], [<ExtraUtilities:extractor_base:6>, <AWWayofTime:weakBloodShard>, <ExtraUtilities:extractor_base:6>], [null, <minecraft:ender_eye>, null]]);
+recipes.addShaped(<ExtraUtilities:extractor_base_remote:6>*2, [[null, <minecraft:ender_eye>, null], [<ExtraUtilities:extractor_base:6>, <AWWayofTime:weakBloodShard>, <ExtraUtilities:extractor_base:6>], [null, <minecraft:ender_eye>, null]]);
 
 
 #Item Pipe 
