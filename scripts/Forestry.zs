@@ -17,7 +17,7 @@ mods.forestry.Carpenter.addRecipe(<Forestry:ingotBronze> * 3, [[<ore:ingotCopper
 ##Machines##
 #Mailbox
 recipes.remove(<Forestry:mail>);
-recipes.addShaped(<Forestry:mail>, [[<ore:ingotTin>, <Forestry:letters>, <ore:ingotTin>], [<Forestry:letters>, <minecraft:chest>, <Forestry:letters>], [<ore:ingotTin>, <Forestry:letters>, <ore:ingotTin>]]);
+recipes.addShaped(<Forestry:mail>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <Forestry:letters>, <ore:ingotLead>], [<ore:ingotLead>, <minecraft:compass>, <ore:ingotLead>]]);
 
 #Trading Station
 recipes.remove(<Forestry:mail:1>);
@@ -29,7 +29,7 @@ recipes.remove(<Forestry:stamps:*>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:*>, <liquid:seedoil>);
 
 #1n
-recipes.addShaped(<Forestry:stamps> * 4, [[<ore:ingotTin>], [<minecraft:paper>]]);
+recipes.addShaped(<Forestry:stamps> * 4, [[<ore:ingotLead>], [<minecraft:paper>]]);
 
 #2n
 recipes.addShaped(<Forestry:stamps:1> * 4, [[<ore:ingotGold>], [<minecraft:paper>]]);
