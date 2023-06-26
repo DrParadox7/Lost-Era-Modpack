@@ -108,4 +108,7 @@ mods.botania.ManaInfusion.addConjuration(<harvestcraft:saltItem> * 3, <harvestcr
 recipes.remove(<harvestcraft:honeycombchocolatebarItem>);
 recipes.addShapeless(<harvestcraft:honeycombchocolatebarItem>, [<harvestcraft:saucepanItem>,<harvestcraft:chocolatebarItem>, <Forestry:beeCombs>]);
 
+#Hardened leather
+recipes.addShapeless(<harvestcraft:hardenedleatherItem>, [<minecraft:leather>, <ore:itemBeeswax>]);
+
 print("Initialized 'Harvestcraft.zs'");
