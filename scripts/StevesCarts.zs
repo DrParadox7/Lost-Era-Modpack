@@ -72,5 +72,8 @@ recipes.addShaped(<StevesCarts:CartModule:73>, [[<ore:paneGlassColorless>, null,
 recipes.remove(<StevesCarts:CartModule:66>);
 recipes.addShaped(<StevesCarts:CartModule:66>, [[null, <StevesCarts:ModuleComponents:9>, null], [<minecraft:redstone>, <StevesCarts:CartModule:65>, <minecraft:redstone>], [null, <ore:ingotGold>, null]]);
 
+#Raw Hardened - now with added oredict
+recipes.addShaped(<StevesCarts:ModuleComponents:18>*2, [[<minecraft:obsidian>, null, <minecraft:obsidian>], [null, <ore:gemDiamond>, null], [<minecraft:obsidian>, null, <minecraft:obsidian>]]);
+
 print("Initialized 'StevesCarts.zs'");
 
