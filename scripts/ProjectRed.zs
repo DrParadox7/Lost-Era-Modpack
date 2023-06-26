@@ -14,9 +14,17 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:58>, [[<ProjRed|Core:projec
 recipes.addShaped(<ProjRed|Core:projectred.core.part:42>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <ore:itemSilicon>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
 recipes.addShaped(<ProjRed|Core:projectred.core.part:43>, [[<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>], [<minecraft:glowstone_dust>, <ore:itemSilicon>, <minecraft:glowstone_dust>], [<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>]]);
 
-#Red Iron Compound
-recipes.addShaped(<ProjRed|Core:projectred.core.part:40>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+#Red Alloy Compound
+recipes.addShaped(<ProjRed|Core:projectred.core.part:40>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <ore:ingotCopper>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
 mods.railcraft.BlastFurnace.addRecipe(<ProjRed|Core:projectred.core.part:40>, true, false, 2500, <ProjRed|Core:projectred.core.part:10>);
+
+#Red Alloy Ingot
+mods.thermalexpansion.Smelter.removeRecipe(<minecraft:redstone>*4, <minecraft:iron_ingot>);
+mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:64>, <minecraft:redstone>*4, <ProjRed|Core:projectred.core.part:10>);
+
+#Red Alloy Smeltery
+mods.tconstruct.Smeltery.removeAlloy(<liquid:redmetal.molten>);
+mods.tconstruct.Smeltery.addAlloy(<liquid:redmetal.molten> * 144, [<liquid:redstone.molten> * 432, <liquid:copper.molten> * 144]);
 
 #Bundled Cable
 recipes.remove(<ProjRed|Transmission:projectred.transmission.wire:17>);
