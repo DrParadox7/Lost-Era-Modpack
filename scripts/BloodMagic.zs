@@ -277,12 +277,16 @@ recipes.addShaped(<AWWayofTime:inputRoutingFocus>, [[null, <minecraft:gold_ingot
 #Output 
 recipes.remove(<AWWayofTime:outputRoutingFocus:*>);
 recipes.addShaped(<AWWayofTime:outputRoutingFocus>, [[null, <minecraft:redstone>, null],[<minecraft:gold_ingot>, <AWWayofTime:bloodMagicBaseItems:32>, <minecraft:gold_ingot>],[null, <minecraft:redstone>, null]]);
+recipes.addShapeless(<AWWayofTime:outputRoutingFocus>, [<AWWayofTime:outputRoutingFocus:*>]);
 
 #Output (ModItem)
 recipes.addShaped(<AWWayofTime:outputRoutingFocus:1>, [[null, <minecraft:feather>, null],[<minecraft:paper>, <AWWayofTime:outputRoutingFocus>, <minecraft:paper>],[null, <minecraft:dye>, null]]);
 
 #Output (Ignore Meta)
 recipes.addShaped(<AWWayofTime:outputRoutingFocus:2>, [[null, <minecraft:dye:*>, null],[<minecraft:dye:*>, <AWWayofTime:outputRoutingFocus>, <minecraft:dye:*>],[null, <minecraft:dye:*>, null]]);
+
+#Output (MatchNBT)
+recipes.addShaped(<AWWayofTime:outputRoutingFocus:3>, [[null, <minecraft:sign>, null],[<minecraft:sign>, <AWWayofTime:outputRoutingFocus>, <minecraft:sign>],[null, <minecraft:sign>, null]]);
 
 #Output (Global)
 recipes.addShaped(<AWWayofTime:outputRoutingFocus:4>, [[null, <minecraft:string>, null],[<minecraft:web>, <AWWayofTime:outputRoutingFocus>, <minecraft:web>],[null, <minecraft:string>, null]]);
