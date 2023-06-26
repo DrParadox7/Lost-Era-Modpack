@@ -4,7 +4,8 @@
 print("Initializing 'Wizardry.zs'...");
 
 #Magic Crystal
-mods.botania.ManaInfusion.addInfusion(<wizardry:magic_crystal>*4, <arsmagica2:itemOre:4>, 500);
+mods.botania.ManaInfusion.addConjuration(<wizardry:magic_crystal> * 2, <wizardry:magic_crystal>, 1000);
+mods.botania.ManaInfusion.addConjuration(<wizardry:crystal_block> * 2, <wizardry:crystal_block>, 9000);
 
 #Magic Wand
 recipes.removeShaped(<wizardry:magic_wand:*>);
