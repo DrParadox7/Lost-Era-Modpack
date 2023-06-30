@@ -23,13 +23,13 @@ recipes.remove(<ExtraUtilities:golden_bag>);
 recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:102>, <witchery:ingredient:72>, <witchery:ingredient:102>], [<witchery:ingredient:102>, <witchery:ingredient:112>, <witchery:ingredient:102>], [<witchery:ingredient:102>, <witchery:ingredient:72>, <witchery:ingredient:102>]]);
 
 #Patch cheap silver for tech users
-recipes.removeShapeless(<IC2:itemDust:6>, [<witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>,]);
+recipes.removeShapeless(<ore:dustSilver>, [<witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>]);
 
 #Helpful tooltips 
-#<witchery:ingredient:105>.addTooltip("tooltip.ingredient105");
-#<witchery:ingredient:112>.addTooltip("tooltip.ingredient112");
-#<witchery:somniancotton>.addTooltip("tooltip.somniaCotton");
-#<witchery:ingredient:99>.addTooltip("tooltip.ingredient99");
-#<witchery:ingredient:103>.addTooltip("tooltip.ingredient103");
+<witchery:ingredient:105>.addTooltip("Removes 1 status effect");
+<witchery:ingredient:112>.addTooltip("Wandering soul from the Dream Realm");
+<witchery:somniancotton>.addTooltip("Found in Dreams");
+<witchery:ingredient:99>.addTooltip("Found in Nightmares");
+<witchery:ingredient:103>.addTooltip("Essence of Nightmare denizens");
 
 print("Initialized 'Witchery.zs'");
