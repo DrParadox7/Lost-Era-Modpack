@@ -5,6 +5,7 @@ print("Initializing 'Mekanism.zs'...");
 
 // ================================================================================
 #Oredictionary
+recipes.addShaped(<Mekanism:Dictionary>, [[null, <Mekanism:ControlCircuit>, null],[null, <minecraft:book>, null]]);
 
 #Induction Components
 val coilGold = <ore:coilGold>;
