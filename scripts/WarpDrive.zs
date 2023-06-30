@@ -58,7 +58,7 @@ recipes.addShaped(<WarpDrive:itemComponent>, [[<minecraft:glowstone_dust>, <ore:
 
 #Ender Crystal
 recipes.remove(<WarpDrive:itemComponent:1>);
-recipes.addShapeless(<WarpDrive:itemComponent:1>, [<ExtraUtilities:unstableingot:*>, <appliedenergistics2:item.ItemMultiMaterial:12>, <minecraft:ender_eye>, <ore:dustLithium>]);
+recipes.addShaped(<WarpDrive:itemComponent:1>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <minecraft:ender_eye>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
 
 #Diamond Crystal
 recipes.remove(<WarpDrive:itemComponent:2>);
@@ -68,7 +68,7 @@ recipes.addShaped(<WarpDrive:itemComponent:2>, [[<minecraft:glowstone_dust>, <or
 recipes.remove(<WarpDrive:itemComponent:13>);
 recipes.addShaped(<WarpDrive:itemComponent:13>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <minecraft:enchanted_book>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
 
-#Capacitative Crystal
+#Capacitive Crystal
 recipes.remove(<WarpDrive:itemComponent:7>);
 recipes.addShaped(<WarpDrive:itemComponent:7>, [[<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>], [<ore:dustLithium>, <BiomesOPlenty:gems>, <ore:dustLithium>], [<minecraft:glowstone_dust>, <ore:dustLithium>, <minecraft:glowstone_dust>]]);
 
