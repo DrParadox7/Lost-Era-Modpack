@@ -20,9 +20,6 @@ print("Initializing 'GT Compat.zs'...");
 recipes.remove(<gregtech_addon:metaitem_1:11321>);
 recipes.remove(<gregtech_addon:metaitem_1:9321>);
 
-#Allow GT to handle this recipe 
-recipes.remove(<IC2:blockGenerator:2>);
-
 #Indestructible turbine 
 recipes.remove(<compactkineticgenerators:IridiumRotor>);
 recipes.remove(<compactkineticgenerators:IridiumBlade>);

@@ -33,13 +33,10 @@ pump.remove(<BuildCraft|Factory:pumpBlock>);
 
 #IC2 crops are impregnated
 recipes.remove(<IC2:blockCrop>);
-recipes.addShaped(<IC2:blockCrop>*2, [[<Forestry:oakStick>, null, <Forestry:oakStick>], [<Forestry:oakStick>, null, <Forestry:oakStick>], [null, null, null]]);
+recipes.addShaped(<IC2:blockCrop>*4, [[<Forestry:oakStick>, null, <Forestry:oakStick>], [<Forestry:oakStick>, null, <Forestry:oakStick>], [null, null, null]]);
 
 #IC2 Silicon is also used for Silicon
 furnace.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>, <IC2:itemDust2>);
-
-#IC2 missing recipes
-recipes.addShaped(<IC2:blockGenerator:2>*2, [[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:plankWood>, <IC2:blockGenerator>, <ore:plankWood>], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
 
 #Lazy Wiring
 recipes.addShaped(<IC2:itemCable:1>*3, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
