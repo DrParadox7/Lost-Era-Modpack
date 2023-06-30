@@ -92,31 +92,6 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.mo
 #Extra Utils Compat
 mods.tconstruct.Casting.addBasinRecipe(<ExtraUtilities:decorativeBlock1:1>, <liquid:ender> * 150, <minecraft:obsidian>, true, 160);
 
-#Mechworks
-
-#Signal Bus
-recipes.remove(<TMechworks:SignalBus>);
-recipes.addShaped(<TMechworks:SignalBus>, [[<TMechworks:LengthWire>, <TMechworks:LengthWire>, <TMechworks:LengthWire>], [<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>]]);
-
-furnace.remove(<ProjRed|Core:projectred.core.part:10>);
-mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:40>);
-
-#Add Electrum repair material
-#Nuggets
-mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.nugget:4>, "Electrum", 24);
-mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:material:103>, "Electrum", 24);
-mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:9303>, "Electrum", 24);
-
-#Ingots
-mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:electrum.ingot>, "Electrum", 216);
-mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:material:71>, "Electrum", 216);
-mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:11303>, "Electrum", 216);
-
-#Blocks
-mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.block:4>, "Electrum", 1944);
-mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electrum", 1944);
-mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
-
 #Traveller's Gear 
 # Goggles
 val googles = <TConstruct:travelGoggles>.withTag({TinkerArmor: {BaseDurability: 1035, Upgrades: 0, BaseDefense: 0.0, Built: 1 as byte, MaxDefense: 4.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
@@ -153,5 +128,34 @@ mods.tconstruct.Drying.addRecipe(<Thaumcraft:ItemZombieBrain>, <WitchingGadgets:
 
 #Drying Rack Mutton
 mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky:3>, 24000);
+
+#Add Electrum repair material
+#Nuggets
+mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.nugget:4>, "Electrum", 24);
+mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:material:103>, "Electrum", 24);
+mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:9303>, "Electrum", 24);
+
+#Ingots
+mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:electrum.ingot>, "Electrum", 216);
+mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:material:71>, "Electrum", 216);
+mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:metaitem_1:11303>, "Electrum", 216);
+
+#Blocks
+mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.block:4>, "Electrum", 1944);
+mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electrum", 1944);
+mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
+
+### Mechworks ###
+
+#Signal Bus
+recipes.remove(<TMechworks:SignalBus>);
+recipes.addShaped(<TMechworks:SignalBus>, [[<TMechworks:LengthWire>, <TMechworks:LengthWire>, <TMechworks:LengthWire>], [<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>]]);
+
+furnace.remove(<ProjRed|Core:projectred.core.part:10>);
+mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:40>);
+
+#Igniter
+recipes.remove(<TMechworks:RedstoneMachine:1>);
+recipes.addShaped(<TMechworks:RedstoneMachine:1>, [[<ore:ingotAluminiumBrass>, <TConstruct:blankPattern:1>, <ore:ingotAluminiumBrass>], [<ore:ingotBronze>, <ProjRed|Expansion:projectred.expansion.machine2:4>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotRedAlloy>, <ore:ingotBronze>]]);
 
 print("Initialized 'TinkerConstruct.zs'");
