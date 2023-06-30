@@ -143,4 +143,16 @@ Trowel.add(<Botany:trowelIron>);
 Trowel.add(<Botany:trowelGold>);
 Trowel.add(<Botany:trowelDiamond>);
 
+#OpenSecurity
+val SecureDoor = <ore:doorSecure>;
+SecureDoor.add(<opensecurity:opensecurity.securityDoor>);
+SecureDoor.add(<opensecurity:opensecurity.securityDoorPrivate>);
+
+#IC2 Cables
+val EUCable = <ore:EUCable>;
+EUCable.add(<IC2:itemCable:13>);
+EUCable.add(<IC2:itemCable>);
+EUCable.add(<IC2:itemCable:3>);
+EUCable.add(<IC2:itemCable:6>);
+
 print("Initialized 'BetterQuests.zs'");
