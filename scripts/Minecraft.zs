@@ -83,5 +83,7 @@ recipes.addShapeless(<BiomesOPlenty:moss>, [<minecraft:mossy_cobblestone>]);
 #Extract Lava from Magma
 mods.thermalexpansion.Transposer.addExtractRecipe(800, <etfuturum:magma>, <liquid:lava> * 500, <minecraft:netherrack>, 100);
 
-print("Initialized 'Minecraft.zs'");
+#Make nametag loot-exclusive
+recipes.remove(<minecraft:name_tag>);
 
+print("Initialized 'Minecraft.zs'");
