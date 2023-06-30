@@ -16,6 +16,6 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:55>, [<appliede
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:500>, [<appliedenergistics2:item.ItemMultiPart:400>, <appliedenergistics2:item.ItemMultiMaterial:22>]);
 
 #Singularity Tooltip
-<appliedenergistics2:item.ItemMultiMaterial:47>.addTooltip("ae2.tooltip.singularity");
+#<appliedenergistics2:item.ItemMultiMaterial:47>.addTooltip("ae2.tooltip.singularity");
 
 print("Initialized 'AE2.zs'");
