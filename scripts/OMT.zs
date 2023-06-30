@@ -193,7 +193,7 @@ recipes.remove(<openmodularturrets:fenceTierFour>);
 recipes.addShaped(<openmodularturrets:fenceTierFour>*4, [[<minecraft:enchanted_book>, <openmodularturrets:fenceTierThree>, <minecraft:enchanted_book>], [<openmodularturrets:fenceTierThree>, <ore:gemDiamond>, <openmodularturrets:fenceTierThree>], [<minecraft:enchanted_book>, <openmodularturrets:fenceTierThree>, <minecraft:enchanted_book>]]);
 
 recipes.remove(<openmodularturrets:fenceTierFive>);
-recipes.addShaped(<openmodularturrets:fenceTierFive>*4, [[<minecraft:ender_eye>, <openmodularturrets:fenceTierFour>, <minecraft:ender_eye>], [<openmodularturrets:fenceTierFour>, <ore:ingotObsidian>, <openmodularturrets:fenceTierFour>], [<minecraft:ender_eye>, <openmodularturrets:fenceTierFour>, <minecraft:ender_eye>]]);
+recipes.addShaped(<openmodularturrets:fenceTierFive>*4, [[<minecraft:ender_pearl>, <openmodularturrets:fenceTierFour>, <minecraft:ender_pearl>], [<openmodularturrets:fenceTierFour>, <HardcoreEnderExpansion:end_powder>, <openmodularturrets:fenceTierFour>], [<minecraft:ender_pearl>, <openmodularturrets:fenceTierFour>, <minecraft:ender_pearl>]]);
 
 #Structural Blocks - Block
 recipes.remove(<openmodularturrets:hardWallTierOne>);
@@ -206,7 +206,7 @@ recipes.remove(<openmodularturrets:hardWallTierThree>);
 recipes.addShaped(<openmodularturrets:hardWallTierThree>*4, [[<ore:ingotLead>, <openmodularturrets:hardWallTierTwo>, <ore:ingotLead>], [<openmodularturrets:hardWallTierTwo>, <minecraft:magma_cream>, <openmodularturrets:hardWallTierTwo>], [<ore:ingotLead>, <openmodularturrets:hardWallTierTwo>, <ore:ingotLead>]]);
 
 recipes.remove(<openmodularturrets:hardWallTierFour>);
-recipes.addShaped(<openmodularturrets:hardWallTierFour>*4, [[<ore:ingotObsidian>, <openmodularturrets:hardWallTierThree>, <ore:ingotObsidian>], [<openmodularturrets:hardWallTierThree>, <ore:dustDiamond>, <openmodularturrets:hardWallTierThree>], [<ore:ingotObsidian>, <openmodularturrets:hardWallTierThree>, <ore:ingotObsidian>]]);
+recipes.addShaped(<openmodularturrets:hardWallTierFour>*4, [[<minecraft:obsidian>, <openmodularturrets:hardWallTierThree>, <minecraft:obsidian>], [<openmodularturrets:hardWallTierThree>, <ore:dustDiamond>, <openmodularturrets:hardWallTierThree>], [<minecraft:obsidian>, <openmodularturrets:hardWallTierThree>, <minecraft:obsidian>]]);
 
 recipes.remove(<openmodularturrets:hardWallTierFive>);
 recipes.addShaped(<openmodularturrets:hardWallTierFive>*4, [[<ExtraUtilities:bedrockiumIngot>, <openmodularturrets:hardWallTierFour>, <ExtraUtilities:bedrockiumIngot>], [<openmodularturrets:hardWallTierFour>, <minecraft:ender_eye>, <openmodularturrets:hardWallTierFour>], [<ExtraUtilities:bedrockiumIngot>, <openmodularturrets:hardWallTierFour>, <ExtraUtilities:bedrockiumIngot>]]);
