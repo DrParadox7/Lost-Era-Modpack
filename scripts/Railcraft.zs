@@ -15,8 +15,6 @@ recipes.addShaped(<Railcraft:part.turbine.blade>, [[<ore:plateSteel>, <ore:ingot
 recipes.addShaped(<Railcraft:part.turbine.disk>, [[<IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>], [<IC2:itemRecipePart:10>, <ore:blockSteel>, <IC2:itemRecipePart:10>], [<IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>]]);
 
 #Balance Steel
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 
 #Concrete

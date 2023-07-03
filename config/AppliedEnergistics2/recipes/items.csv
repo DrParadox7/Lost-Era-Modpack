@@ -1365,7 +1365,7 @@ BuildCraft|Core:markerBlock, Land Mark
 BuildCraft|Core:pathMarkerBlock, Path Mark
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
-ExtraUtilities:endConstructor:0, QED (Quantum Enrichment Device)
+ExtraUtilities:endConstructor:0, QED (Quasar Entanglement Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -1887,7 +1887,7 @@ TConstruct:fluid.molten.glass, Molten Glass
 TConstruct:molten.stone, Seared Stone
 TConstruct:molten.netherrack, Seared Netherrack
 TConstruct:molten.emerald, Liquified Emerald
-TConstruct:molten.quartz, Liquified Quartz
+TConstruct:molten.quartz, Molten Nether Quartz
 TConstruct:fluid.molten.nickel, Molten Nickel
 TConstruct:fluid.molten.lead, Molten Lead
 TConstruct:fluid.molten.silver, Molten Silver
@@ -4125,16 +4125,18 @@ Botany:ceramic, tile.ceramic.name
 Botany:stained, tile.stained.name
 Botany:ceramicPattern, tile.ceramicPattern.name
 Botany:ceramicBrick, tile.ceramicBrick.name
-Genetics:machine:0, Isolator
-Genetics:machine:1, Sequencer
-Genetics:machine:2, Polymeriser
-Genetics:machine:3, Inoculator
-Genetics:labMachine:0, Lab Stand
-Genetics:labMachine:1, Analyzer
-Genetics:labMachine:2, Incubator
-Genetics:labMachine:3, Genepool
-Genetics:labMachine:4, Acclimatiser
-Genetics:advMachine:0, Splicer
+ExtraBees:ectoplasm, Ectoplasm
+ExtraBees:hive:0, Water Hive
+ExtraBees:hive:1, Rock Hive
+ExtraBees:hive:2, Nether Hive
+ExtraBees:hive:3, Marble Hive
+ExtraBees:alveary:0, Mutator
+ExtraBees:alveary:1, Frame Housing
+ExtraBees:alveary:2, Rain Shield
+ExtraBees:alveary:3, Alveary Lighting
+ExtraBees:alveary:4, Electrical Stimulator
+ExtraBees:alveary:5, Hatchery
+ExtraBees:alveary:6, Alveary Transmission
 ExtraTrees:planks, tile.planks.name
 ExtraTrees:fence, Fence
 ExtraTrees:multifence, tile.multifence.name
@@ -4185,18 +4187,16 @@ ExtraTrees:machine:1, Woodworker
 ExtraTrees:machine:2, Panelworker
 ExtraTrees:machine:3, Glassworker
 ExtraTrees:machine:4, Tileworker
-ExtraBees:ectoplasm, Ectoplasm
-ExtraBees:hive:0, Water Hive
-ExtraBees:hive:1, Rock Hive
-ExtraBees:hive:2, Nether Hive
-ExtraBees:hive:3, Marble Hive
-ExtraBees:alveary:0, Mutator
-ExtraBees:alveary:1, Frame Housing
-ExtraBees:alveary:2, Rain Shield
-ExtraBees:alveary:3, Alveary Lighting
-ExtraBees:alveary:4, Electrical Stimulator
-ExtraBees:alveary:5, Hatchery
-ExtraBees:alveary:6, Alveary Transmission
+Genetics:machine:0, Isolator
+Genetics:machine:1, Sequencer
+Genetics:machine:2, Polymeriser
+Genetics:machine:3, Inoculator
+Genetics:labMachine:0, Lab Stand
+Genetics:labMachine:1, Analyzer
+Genetics:labMachine:2, Incubator
+Genetics:labMachine:3, Genepool
+Genetics:labMachine:4, Acclimatiser
+Genetics:advMachine:0, Splicer
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -4840,6 +4840,12 @@ Botania:pavement5Slab:0, Green Portuguese Pavement Slab
 Botania:pavement5SlabFull:0, Green Portuguese Pavement Slab
 VillageNames:lunarinGoldBlock, Lunarin Style Gold Brick
 VillageNames:lunarinIronBlock, Lunarin Style Iron Brick
+VillageNames:sea_lantern, Sea Lantern
+VillageNames:prismarine:0, Prismarine
+VillageNames:prismarine:1, Prismarine Bricks
+VillageNames:prismarine:2, Dark Prismarine
+VillageNames:sponge:0, Sponge
+VillageNames:sponge:1, Wet Sponge
 VillageNames:glazedTerracotta:0, White Glazed Terracotta
 VillageNames:glazedTerracotta:1, Orange Glazed Terracotta
 VillageNames:glazedTerracotta:2, Magenta Glazed Terracotta
@@ -5073,15 +5079,6 @@ witchery:cstonepressureplate, Pressure Plate
 witchery:csnowpressureplate, Snow Pressure Plate
 witchery:cbuttonwood, Button
 witchery:cbuttonstone, Button
-BuildCraft|Builders:machineBlock, Quarry
-BuildCraft|Builders:fillerBlock, Filler
-BuildCraft|Builders:frameBlock, Frame
-BuildCraft|Builders:builderBlock, Builder Block
-BuildCraft|Builders:architectBlock, Architect Table
-BuildCraft|Builders:libraryBlock, Electronic Library
-BuildCraft|Builders:constructionMarkerBlock, Construction Mark
-BuildCraft|Robotics:zonePlan, Zone Planner
-BuildCraft|Robotics:requester, Requester
 BuildCraft|Silicon:laserBlock, Laser
 BuildCraft|Silicon:laserTableBlock:0, Assembly Table
 BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
@@ -5090,6 +5087,8 @@ BuildCraft|Silicon:laserTableBlock:3, Charging Table
 BuildCraft|Silicon:laserTableBlock:4, Programming Table
 BuildCraft|Silicon:laserTableBlock:5, Stamping Table
 BuildCraft|Silicon:packagerBlock, Recipe Packager
+BuildCraft|Robotics:zonePlan, Zone Planner
+BuildCraft|Robotics:requester, Requester
 BuildCraft|Energy:blockOil, Oil
 BuildCraft|Energy:blockFuel, Fuel
 BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
@@ -5103,6 +5102,13 @@ BuildCraft|Factory:pumpBlock, Pump
 BuildCraft|Factory:floodGateBlock, Flood Gate
 BuildCraft|Factory:refineryBlock, Refinery
 BuildCraft|Factory:blockHopper, Chute
+BuildCraft|Builders:machineBlock, Quarry
+BuildCraft|Builders:fillerBlock, Filler
+BuildCraft|Builders:frameBlock, Frame
+BuildCraft|Builders:builderBlock, Builder Block
+BuildCraft|Builders:architectBlock, Architect Table
+BuildCraft|Builders:libraryBlock, Electronic Library
+BuildCraft|Builders:constructionMarkerBlock, Construction Mark
 campfirebackport:campfire, Campfire
 campfirebackport:soul_campfire, Soul Campfire
 campfirebackport:campfire_base, Campfire Base
@@ -7353,11 +7359,6 @@ Metallurgy:kalendrite.molten, Molten Kalendrite
 Metallurgy:vulcanite.molten, Molten Vulcanite
 Metallurgy:sanguinite.molten, Molten Sanguinite
 Metallurgy:shadow.steel.molten, Molten Shadow Steel
-Metallurgy:inolashite.molten, Molten Inolashite
-Metallurgy:amordrine.molten, Molten Amordrine
-Metallurgy:precious.ore:0, Zinc Ore
-Metallurgy:precious.ore:1, Silver Ore
-Metallurgy:precious.ore:2, Platinum Ore
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -7370,6 +7371,11 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+Metallurgy:inolashite.molten, Molten Inolashite
+Metallurgy:amordrine.molten, Molten Amordrine
+Metallurgy:precious.ore:0, Zinc Ore
+Metallurgy:precious.ore:1, Silver Ore
+Metallurgy:precious.ore:2, Platinum Ore
 Metallurgy:precious.block:0, Zinc Block
 Metallurgy:precious.block:1, Silver Block
 Metallurgy:precious.block:2, Platinum Block
@@ -7606,43 +7612,43 @@ ExtraTiC:moltenElementium, Molten Elementium
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
-ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
 ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:infusedFarmland, Infused Farmland
 ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
+ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:infusedFarmland, Infused Farmland
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -11238,6 +11244,12 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Portuguese Pavement
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lunarin Style Gold Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lunarin Style Iron Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sea Lantern
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Prismarine
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Prismarine Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Prismarine
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sponge
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Wet Sponge
 appliedenergistics2:item.ItemFacade:0, Cable Facade - White Glazed Terracotta
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Orange Glazed Terracotta
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Magenta Glazed Terracotta
@@ -12697,8 +12709,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Salt Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
@@ -13222,6 +13234,7 @@ appliedenergistics2:item.ItemMultiMaterial:1, Charged Certus Quartz Crystal
 appliedenergistics2:item.ItemMultiMaterial:2, Certus Quartz Dust
 appliedenergistics2:item.ItemMultiMaterial:61, ME Advanced Storage Housing
 appliedenergistics2:item.ItemMultiMaterial:39, ME Storage Housing
+appliedenergistics2:item.ItemMultiMaterial:46, Ender Dust
 appliedenergistics2:item.ItemMultiMaterial:24, Engineering Processor
 appliedenergistics2:item.ItemMultiMaterial:14, Inscriber Engineering Press
 appliedenergistics2:item.ItemMultiMaterial:17, Printed Engineering Circuit
@@ -15085,9 +15098,6 @@ TConstruct:Mold:2, Crossbow Body Mold
 TConstruct:Mold:3, Bow Limb Mold
 TConstruct:GlassArrows, item.tconstruct.glassArrows.name
 TConstruct:Boneana, Broadsword
-TConstruct:gearCast, Gear Cast
-TConstruct:slimesling, Slimesling
-TConstruct:slime_boots, Slime Boots
 Natura:redwoodDoorItem:0, Redwood Door
 Natura:redwoodDoorItem:1, Eucalyptus Door
 Natura:redwoodDoorItem:2, Hopseed Door
@@ -16287,38 +16297,38 @@ BiblioWoodsNatura:seatBack5:9, Silverbell Seat Back
 BiblioWoodsNatura:seatBack5:10, Sakura Seat Back
 BiblioWoodsNatura:seatBack5:11, Tiger Seat Back
 BiblioWoodsNatura:seatBack5:12, Willow Seat Back
-BinnieCore:containerBucket:128, Sap Bucket
-BinnieCore:containerBucket:129, Resin Bucket
-BinnieCore:containerBucket:130, Latex Bucket
-BinnieCore:containerBucket:131, Turpentine Bucket
 BinnieCore:containerBucket:64, Acid Bucket
 BinnieCore:containerBucket:65, Poison Bucket
 BinnieCore:containerBucket:66, Ambrosia Bucket
 BinnieCore:containerBucket:67, Ichor Bucket
 BinnieCore:containerBucket:68, Nitrogen Bucket
-BinnieCore:containerCapsule:128, Sap Capsule
-BinnieCore:containerCapsule:129, Resin Capsule
-BinnieCore:containerCapsule:130, Latex Capsule
-BinnieCore:containerCapsule:131, Turpentine Capsule
+BinnieCore:containerBucket:128, Sap Bucket
+BinnieCore:containerBucket:129, Resin Bucket
+BinnieCore:containerBucket:130, Latex Bucket
+BinnieCore:containerBucket:131, Turpentine Bucket
 BinnieCore:containerCapsule:64, Acid Capsule
 BinnieCore:containerCapsule:65, Poison Capsule
 BinnieCore:containerCapsule:66, Ambrosia Capsule
 BinnieCore:containerCapsule:67, Ichor Capsule
 BinnieCore:containerCapsule:68, Nitrogen Capsule
+BinnieCore:containerCapsule:128, Sap Capsule
+BinnieCore:containerCapsule:129, Resin Capsule
+BinnieCore:containerCapsule:130, Latex Capsule
+BinnieCore:containerCapsule:131, Turpentine Capsule
 BinnieCore:containerRefractory:64, Acid Capsule
 BinnieCore:containerRefractory:65, Poison Capsule
 BinnieCore:containerRefractory:66, Ambrosia Capsule
 BinnieCore:containerRefractory:67, Ichor Capsule
 BinnieCore:containerRefractory:68, Nitrogen Capsule
-BinnieCore:containerCan:128, Sap Can
-BinnieCore:containerCan:129, Resin Can
-BinnieCore:containerCan:130, Latex Can
-BinnieCore:containerCan:131, Turpentine Can
 BinnieCore:containerCan:64, Acid Can
 BinnieCore:containerCan:65, Poison Can
 BinnieCore:containerCan:66, Ambrosia Can
 BinnieCore:containerCan:67, Ichor Can
 BinnieCore:containerCan:68, Nitrogen Can
+BinnieCore:containerCan:128, Sap Can
+BinnieCore:containerCan:129, Resin Can
+BinnieCore:containerCan:130, Latex Can
+BinnieCore:containerCan:131, Turpentine Can
 BinnieCore:containerCylinder:768, Growth Medium Cylinder
 BinnieCore:containerCylinder:769, Bacteria Cylinder
 BinnieCore:containerCylinder:770, Polymerized Bacteria Cylinder
@@ -16525,25 +16535,66 @@ Botany:clay:76, Clay
 Botany:clay:77, Clay
 Botany:clay:78, Clay
 Botany:clay:79, Clay
-Genetics:serumArray, item.serumArray.name
-Genetics:misc:0, Reinforced Casing
-Genetics:misc:1, DNA Dye
-Genetics:misc:2, Fluorescent Dye
-Genetics:misc:3, Enzyme
-Genetics:misc:4, Growth Medium
-Genetics:misc:5, Blank Sequence
-Genetics:misc:6, Empty Serum Vial
-Genetics:misc:7, Empty Serum Array
-Genetics:misc:8, Glass Cylinder
-Genetics:misc:9, Integrated Circuit Board
-Genetics:misc:10, Integrated CPU
-Genetics:misc:11, Integrated Casing
-Genetics:serum, item.serum.name
-Genetics:sequence, item.sequence.name
-Genetics:database, item.database.name
-Genetics:analyst, item.analyst.name
-Genetics:registry, item.registry.name
-Genetics:masterRegistry, item.masterRegistry.name
+ExtraBees:hiveFrame.cocoa, item.hiveFrame.name
+ExtraBees:hiveFrame.cage, item.hiveFrame.name
+ExtraBees:hiveFrame.soul, item.hiveFrame.name
+ExtraBees:hiveFrame.clay, item.hiveFrame.name
+ExtraBees:hiveFrame.debug, item.hiveFrame.name
+ExtraBees:propolis:0, Watery Propolis
+ExtraBees:propolis:1, Oily Propolis
+ExtraBees:propolis:2, Petroleum Propolis
+ExtraBees:propolis:3, Creosote Propolis
+ExtraBees:honeyDrop:1, Acidic Drop
+ExtraBees:honeyDrop:2, Venomous Drop
+ExtraBees:honeyDrop:3, Juicy Drop
+ExtraBees:honeyDrop:4, Kelvin Drop
+ExtraBees:honeyDrop:5, Milkdew
+ExtraBees:honeyDrop:6, Nutdew
+ExtraBees:honeyDrop:7, Tipsy Drop
+ExtraBees:honeyDrop:8, Red Tinted Honey
+ExtraBees:honeyDrop:9, Yellow Tinted Honey
+ExtraBees:honeyDrop:10, Blue Tinted Honey
+ExtraBees:honeyDrop:11, Green Tinted Honey
+ExtraBees:honeyDrop:12, Black Tinted Honey
+ExtraBees:honeyDrop:13, White Tinted Honey
+ExtraBees:honeyDrop:14, Brown Tinted Honey
+ExtraBees:honeyDrop:15, Orange Tinted Honey
+ExtraBees:honeyDrop:16, Cyan Tinted Honey
+ExtraBees:honeyDrop:17, Purple Tinted Honey
+ExtraBees:honeyDrop:18, Gray Tinted Honey
+ExtraBees:honeyDrop:19, Light Blue Tinted Honey
+ExtraBees:honeyDrop:20, Pink Tinted Honey
+ExtraBees:honeyDrop:21, Lime Green Tinted Honey
+ExtraBees:honeyDrop:22, Magenta Tinted Honey
+ExtraBees:honeyDrop:23, Light Gray Tinted Honey
+ExtraBees:dictionary, item.dictionary.name
+ExtraBees:misc:0, Scented Gear
+ExtraBees:misc:1, Diamond Fragment
+ExtraBees:misc:2, Emerald Fragment
+ExtraBees:misc:3, Ruby Fragment
+ExtraBees:misc:4, Sapphire Fragment
+ExtraBees:misc:5, Lapis Fragment
+ExtraBees:misc:6, Iron Grains
+ExtraBees:misc:7, Gold Grains
+ExtraBees:misc:8, Silver Grains
+ExtraBees:misc:9, Platinum Grains
+ExtraBees:misc:10, Copper Grains
+ExtraBees:misc:11, Tin Grains
+ExtraBees:misc:12, Nickel Grains
+ExtraBees:misc:13, Lead Grains
+ExtraBees:misc:14, Zinc Grains
+ExtraBees:misc:15, Titanium Grains
+ExtraBees:misc:16, Tungsten Grains
+ExtraBees:misc:17, Radioactive Fragments
+ExtraBees:misc:18, Coal Grains
+ExtraBees:misc:19, Red Dye
+ExtraBees:misc:20, Yellow Dye
+ExtraBees:misc:21, Blue Dye
+ExtraBees:misc:22, Green Dye
+ExtraBees:misc:23, White Dye
+ExtraBees:misc:24, Black Dye
+ExtraBees:misc:25, Brown Dye
+ExtraBees:misc:26, Clay Dust
 ExtraTrees:database, item.database.name
 ExtraTrees:databaseMoth, item.databaseMoth.name
 ExtraTrees:misc:1, Sawdust
@@ -16613,66 +16664,25 @@ ExtraTrees:food:58, Starfruit
 ExtraTrees:food:59, Candlenut
 ExtraTrees:hammer, item.hammer.name
 ExtraTrees:durableHammer, item.durableHammer.name
-ExtraBees:hiveFrame.cocoa, item.hiveFrame.name
-ExtraBees:hiveFrame.cage, item.hiveFrame.name
-ExtraBees:hiveFrame.soul, item.hiveFrame.name
-ExtraBees:hiveFrame.clay, item.hiveFrame.name
-ExtraBees:hiveFrame.debug, item.hiveFrame.name
-ExtraBees:propolis:0, Watery Propolis
-ExtraBees:propolis:1, Oily Propolis
-ExtraBees:propolis:2, Petroleum Propolis
-ExtraBees:propolis:3, Creosote Propolis
-ExtraBees:honeyDrop:1, Acidic Drop
-ExtraBees:honeyDrop:2, Venomous Drop
-ExtraBees:honeyDrop:3, Juicy Drop
-ExtraBees:honeyDrop:4, Kelvin Drop
-ExtraBees:honeyDrop:5, Milkdew
-ExtraBees:honeyDrop:6, Nutdew
-ExtraBees:honeyDrop:7, Tipsy Drop
-ExtraBees:honeyDrop:8, Red Tinted Honey
-ExtraBees:honeyDrop:9, Yellow Tinted Honey
-ExtraBees:honeyDrop:10, Blue Tinted Honey
-ExtraBees:honeyDrop:11, Green Tinted Honey
-ExtraBees:honeyDrop:12, Black Tinted Honey
-ExtraBees:honeyDrop:13, White Tinted Honey
-ExtraBees:honeyDrop:14, Brown Tinted Honey
-ExtraBees:honeyDrop:15, Orange Tinted Honey
-ExtraBees:honeyDrop:16, Cyan Tinted Honey
-ExtraBees:honeyDrop:17, Purple Tinted Honey
-ExtraBees:honeyDrop:18, Gray Tinted Honey
-ExtraBees:honeyDrop:19, Light Blue Tinted Honey
-ExtraBees:honeyDrop:20, Pink Tinted Honey
-ExtraBees:honeyDrop:21, Lime Green Tinted Honey
-ExtraBees:honeyDrop:22, Magenta Tinted Honey
-ExtraBees:honeyDrop:23, Light Gray Tinted Honey
-ExtraBees:dictionary, item.dictionary.name
-ExtraBees:misc:0, Scented Gear
-ExtraBees:misc:1, Diamond Fragment
-ExtraBees:misc:2, Emerald Fragment
-ExtraBees:misc:3, Ruby Fragment
-ExtraBees:misc:4, Sapphire Fragment
-ExtraBees:misc:5, Lapis Fragment
-ExtraBees:misc:6, Iron Grains
-ExtraBees:misc:7, Gold Grains
-ExtraBees:misc:8, Silver Grains
-ExtraBees:misc:9, Platinum Grains
-ExtraBees:misc:10, Copper Grains
-ExtraBees:misc:11, Tin Grains
-ExtraBees:misc:12, Nickel Grains
-ExtraBees:misc:13, Lead Grains
-ExtraBees:misc:14, Zinc Grains
-ExtraBees:misc:15, Titanium Grains
-ExtraBees:misc:16, Tungsten Grains
-ExtraBees:misc:17, Radioactive Fragments
-ExtraBees:misc:18, Coal Grains
-ExtraBees:misc:19, Red Dye
-ExtraBees:misc:20, Yellow Dye
-ExtraBees:misc:21, Blue Dye
-ExtraBees:misc:22, Green Dye
-ExtraBees:misc:23, White Dye
-ExtraBees:misc:24, Black Dye
-ExtraBees:misc:25, Brown Dye
-ExtraBees:misc:26, Clay Dust
+Genetics:serumArray, item.serumArray.name
+Genetics:misc:0, Reinforced Casing
+Genetics:misc:1, DNA Dye
+Genetics:misc:2, Fluorescent Dye
+Genetics:misc:3, Enzyme
+Genetics:misc:4, Growth Medium
+Genetics:misc:5, Blank Sequence
+Genetics:misc:6, Empty Serum Vial
+Genetics:misc:7, Empty Serum Array
+Genetics:misc:8, Glass Cylinder
+Genetics:misc:9, Integrated Circuit Board
+Genetics:misc:10, Integrated CPU
+Genetics:misc:11, Integrated Casing
+Genetics:serum, item.serum.name
+Genetics:sequence, item.sequence.name
+Genetics:database, item.database.name
+Genetics:analyst, item.analyst.name
+Genetics:registry, item.registry.name
+Genetics:masterRegistry, item.masterRegistry.name
 biomestats:biome_analyser, Biome Thermometer
 AWWayofTime:weakBloodOrb, Weak Blood Orb
 AWWayofTime:apprenticeBloodOrb, Apprentice Blood Orb
@@ -17191,6 +17201,8 @@ VillageNames:koentusvillagebook, Koentus Village Book
 VillageNames:fronosvillagebook, Fronos Village Book
 VillageNames:nibiruvillagebook, Nibiru Village Book
 VillageNames:abandonedbasebook, Abandoned Base Book
+VillageNames:prismarine_shard, Prismarine Shard
+VillageNames:prismarine_crystals, Prismarine Crystals
 witchery:ingredient:0, Candelabra
 witchery:ingredient:1, Chalice
 witchery:ingredient:2, Chalice (Filled)
@@ -17474,11 +17486,6 @@ witchery:garlic, Garlic
 witchery:bucketspirit, Spirit Bucket
 witchery:buckethollowtears, Hollow Tears Bucket
 witchery:bucketbrew, item.witchery:bucketbrew.name
-BuildCraft|Builders:templateItem, Template
-BuildCraft|Builders:blueprintItem, Blueprint
-BuildCraft|Robotics:robot, Robot
-BuildCraft|Robotics:robotStation, item.robotStation.name
-BuildCraft|Robotics:redstone_board, Redstone Board
 BuildCraft|Silicon:redstoneChipset:0, Redstone Chipset
 BuildCraft|Silicon:redstoneChipset:1, Iron Chipset
 BuildCraft|Silicon:redstoneChipset:2, Golden Chipset
@@ -17489,6 +17496,9 @@ BuildCraft|Silicon:redstoneChipset:6, Redstone Comp Chipset
 BuildCraft|Silicon:redstoneChipset:7, Emerald Chipset
 BuildCraft|Silicon:package, Package
 BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
+BuildCraft|Robotics:robot, Robot
+BuildCraft|Robotics:robotStation, item.robotStation.name
+BuildCraft|Robotics:redstone_board, Redstone Board
 BuildCraft|Energy:bucketOil, Oil Bucket
 BuildCraft|Energy:bucketFuel, Fuel Bucket
 BuildCraft|Transport:pipeWaterproof, Pipe Sealant
@@ -17571,6 +17581,8 @@ BuildCraft|Transport:pipeLens:32, Lens (Clear)
 BuildCraft|Transport:pipeLens:33, Filter (Clear)
 BuildCraft|Transport:pipePowerAdapter, item.pipePowerAdapter.name
 BuildCraft|Transport:gateCopier, Gate Copier
+BuildCraft|Builders:templateItem, Template
+BuildCraft|Builders:blueprintItem, Blueprint
 BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis:0, Apiarist's Pipe
 CarpentersBlocks:itemCarpentersHammer, Carpenter's Hammer
 CarpentersBlocks:itemCarpentersChisel, Carpenter's Chisel
@@ -18307,27 +18319,67 @@ EnderZoo:confusingDust, Confusing Powder
 EnderZoo:enderFragment, Ender Fragment
 EnderZoo:guardiansBow, Guardians Bow
 enhancedlootbags:lootbag:0, LootBag (Default)
-enhancedlootbags:lootbag:0, LootBag (Default)
-enhancedlootbags:lootbag:1, LootBag (Ordinary)
-enhancedlootbags:lootbag:1, LootBag (Ordinary)
-enhancedlootbags:lootbag:2, LootBag (Lucrative)
-enhancedlootbags:lootbag:2, LootBag (Lucrative)
-enhancedlootbags:lootbag:5, LootBag (Armory Supplies)
-enhancedlootbags:lootbag:5, LootBag (Armory Supplies)
-enhancedlootbags:lootbag:6, LootBag (Forgotten Boons)
-enhancedlootbags:lootbag:6, LootBag (Forgotten Boons)
-enhancedlootbags:lootbag:77, LootBag (Gardners' Subscription)
-enhancedlootbags:lootbag:77, LootBag (Gardners' Subscription)
-enhancedlootbags:lootbag:7, LootBag (Decor)
-enhancedlootbags:lootbag:7, LootBag (Decor)
-enhancedlootbags:lootbag:8, LootBag (Nodal Loot)
-enhancedlootbags:lootbag:8, LootBag (Nodal Loot)
-enhancedlootbags:lootbag:9, LootBag (Builder Bag)
-enhancedlootbags:lootbag:9, LootBag (Builder Bag)
-enhancedlootbags:lootbag:10, LootBag (Scrapyard Bag)
-enhancedlootbags:lootbag:10, LootBag (Scrapyard Bag)
+enhancedlootbags:lootbag:1, LootBag (Scavenged Goods)
+enhancedlootbags:lootbag:2, LootBag (Logic Trinkets)
+enhancedlootbags:lootbag:3, LootBag (Locomotive Spares)
+enhancedlootbags:lootbag:4, LootBag (Scrapyard Spares)
+enhancedlootbags:lootbag:5, LootBag (Meteoric Remnants)
+enhancedlootbags:lootbag:6, LootBag (Matter Energy Components)
+enhancedlootbags:lootbag:7, LootBag (Gardners' Subscription)
+enhancedlootbags:lootbag:8, LootBag (Circuitry Elements)
+enhancedlootbags:lootbag:9, LootBag (Comb Framework)
+enhancedlootbags:lootbag:10, LootBag (Magic Comb Framework)
 enhancedlootbags:lootbag:11, LootBag (Jojamart Sponsorship)
-enhancedlootbags:lootbag:11, LootBag (Jojamart Sponsorship)
+enhancedlootbags:lootbag:12, LootBag (Hive Goods)
+enhancedlootbags:lootbag:13, LootBag (Floral Boon)
+enhancedlootbags:lootbag:14, LootBag (Mana Constructs)
+enhancedlootbags:lootbag:15, LootBag (Magic Catalysts)
+enhancedlootbags:lootbag:16, LootBag (Mana Lightshows)
+enhancedlootbags:lootbag:17, LootBag (Elven Heritage)
+enhancedlootbags:lootbag:18, LootBag (Gaia Bestowal)
+enhancedlootbags:lootbag:19, LootBag (Terrestrial Conjures)
+enhancedlootbags:lootbag:20, LootBag (Simply Decor)
+enhancedlootbags:lootbag:21, LootBag (Fashion Guru)
+enhancedlootbags:lootbag:22, LootBag (Sparkly Gizmos)
+enhancedlootbags:lootbag:23, LootBag (Twilight Spoils)
+enhancedlootbags:lootbag:24, LootBag (Apprentice Kit)
+enhancedlootbags:lootbag:25, LootBag (Advanced Kit)
+enhancedlootbags:lootbag:26, LootBag (Master Kit)
+enhancedlootbags:lootbag:27, LootBag (Runic Bag)
+enhancedlootbags:lootbag:28, LootBag (Arcane Bag)
+enhancedlootbags:lootbag:29, LootBag (Essence Bag)
+enhancedlootbags:lootbag:30, LootBag (Thaumaturge's Supplies)
+enhancedlootbags:lootbag:31, LootBag (Magic Artillery)
+enhancedlootbags:lootbag:32, LootBag (Alchemy Supplies)
+enhancedlootbags:lootbag:33, LootBag (Transmundane Bag)
+enhancedlootbags:lootbag:34, LootBag (Cultist Faith)
+enhancedlootbags:lootbag:35, LootBag (Witchcraft Supplies)
+enhancedlootbags:lootbag:36, LootBag (Infernal Reverence)
+enhancedlootbags:lootbag:37, LootBag (Wicca's Favour)
+enhancedlootbags:lootbag:38, LootBag (Ritualistic Offerings)
+enhancedlootbags:lootbag:39, LootBag (Stolen Brews)
+enhancedlootbags:lootbag:40, LootBag (Divine Retribution)
+enhancedlootbags:lootbag:41, LootBag (Subconscious Treasures)
+enhancedlootbags:lootbag:42, LootBag (Exhalted Emporium)
+enhancedlootbags:lootbag:43, LootBag (Altar Expansion)
+enhancedlootbags:lootbag:44, LootBag (Haunted Transfers)
+enhancedlootbags:lootbag:45, LootBag (Mineral Deposits)
+enhancedlootbags:lootbag:46, LootBag (Electronic Scraps)
+enhancedlootbags:lootbag:47, LootBag (Industrial Supplies)
+enhancedlootbags:lootbag:48, LootBag (Zero Protocol)
+enhancedlootbags:lootbag:49, LootBag (Nuclear Physics)
+enhancedlootbags:lootbag:50, LootBag (Redstone Advent)
+enhancedlootbags:lootbag:51, LootBag (Sparking Innovation)
+enhancedlootbags:lootbag:52, LootBag (Energetic Defence)
+enhancedlootbags:lootbag:53, LootBag (Resonant Overclock)
+enhancedlootbags:lootbag:54, LootBag (Laser Engineering)
+enhancedlootbags:lootbag:55, LootBag (Mechanical Resonance)
+enhancedlootbags:lootbag:56, LootBag (Machinery Hivemind)
+enhancedlootbags:lootbag:57, LootBag (Polymer Systems)
+enhancedlootbags:lootbag:58, LootBag (Dimensional Descent)
+enhancedlootbags:lootbag:59, LootBag (Atomic Era)
+enhancedlootbags:lootbag:60, LootBag (Space-time Technology)
+enhancedlootbags:lootbag:61, LootBag (Hyperspace Physics)
 etfuturum:prismarine_shard, Prismarine Shard
 etfuturum:prismarine_crystals, Prismarine Crystal
 etfuturum:beetroot, Beetroot
@@ -22781,14 +22833,14 @@ IronChest:diamondCrystalUpgrade, Diamond to Crystal Chest Upgrade
 IronChest:woodIronUpgrade, Wood to Iron Chest Upgrade
 IronChest:woodCopperUpgrade, Wood to Copper Chest Upgrade
 IronChest:diamondObsidianUpgrade, Diamond to Obsidian Chest Upgrade
-ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
-ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
-ironchestminecarts:minecart_chest_silver, Minecart with Silver Chest
-ironchestminecarts:minecart_chest_gold, Minecart with Gold Chest
 ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
-ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
+ironchestminecarts:minecart_chest_gold, Minecart with Gold Chest
+ironchestminecarts:minecart_chest_silver, Minecart with Silver Chest
+ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
 ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
+ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
 ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
+ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
 magianaturalis:item.researchLog, Research Log
 magianaturalis:item.alchemicalStone:0, Phenomorphous Catalyst Stone
 magianaturalis:item.alchemicalStone:1, Quicksilver Alchemist Stone
@@ -25685,7 +25737,7 @@ ThermalDynamics:cover:0, Molten Glass Cover
 ThermalDynamics:cover:0, Seared Stone Cover
 ThermalDynamics:cover:0, Seared Netherrack Cover
 ThermalDynamics:cover:0, Liquified Emerald Cover
-ThermalDynamics:cover:0, Liquified Quartz Cover
+ThermalDynamics:cover:0, Molten Nether Quartz Cover
 ThermalDynamics:cover:0, Molten Nickel Cover
 ThermalDynamics:cover:0, Molten Lead Cover
 ThermalDynamics:cover:0, Molten Silver Cover
@@ -26451,12 +26503,12 @@ ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
-ThermalDynamics:cover:0, Fence Gate Cover
 ThermalDynamics:cover:0, Ectoplasm Cover
 ThermalDynamics:cover:0, Water Hive Cover
 ThermalDynamics:cover:0, Rock Hive Cover
 ThermalDynamics:cover:0, Nether Hive Cover
 ThermalDynamics:cover:0, Marble Hive Cover
+ThermalDynamics:cover:0, Fence Gate Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -26951,6 +27003,12 @@ ThermalDynamics:cover:0, Green Portuguese Pavement Slab Cover
 ThermalDynamics:cover:0, Green Portuguese Pavement Slab Cover
 ThermalDynamics:cover:0, Lunarin Style Gold Brick Cover
 ThermalDynamics:cover:0, Lunarin Style Iron Brick Cover
+ThermalDynamics:cover:0, Sea Lantern Cover
+ThermalDynamics:cover:0, Prismarine Cover
+ThermalDynamics:cover:0, Prismarine Bricks Cover
+ThermalDynamics:cover:0, Dark Prismarine Cover
+ThermalDynamics:cover:0, Sponge Cover
+ThermalDynamics:cover:0, Wet Sponge Cover
 ThermalDynamics:cover:0, White Glazed Terracotta Cover
 ThermalDynamics:cover:0, Orange Glazed Terracotta Cover
 ThermalDynamics:cover:0, Magenta Glazed Terracotta Cover
@@ -27129,11 +27187,11 @@ ThermalDynamics:cover:0, Flowing Spirit Cover
 ThermalDynamics:cover:0, Flowing Spirit Cover
 ThermalDynamics:cover:0, Disease Cover
 ThermalDynamics:cover:0, tile.witchery:brew.name Cover
-ThermalDynamics:cover:0, Frame Cover
 ThermalDynamics:cover:0, Oil Cover
 ThermalDynamics:cover:0, Fuel Cover
 ThermalDynamics:cover:0, tile.blockRedPlasma.name Cover
 ThermalDynamics:cover:0, Mining Pipe Cover
+ThermalDynamics:cover:0, Frame Cover
 ThermalDynamics:cover:0, Creosote Cover
 ThermalDynamics:cover:0, Steam Cover
 ThermalDynamics:cover:0, Block of Coal Coke Cover
@@ -29293,25 +29351,25 @@ ThermalDynamics:cover:0, Molten Elementium Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
 ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Paving Stair of Travel Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Paving Stair of Travel Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
