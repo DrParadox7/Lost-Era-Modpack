@@ -3,8 +3,9 @@
 
 print("Initializing 'AE.zs'...");
 
+#Grindstone
 recipes.remove(<appliedenergistics2:tile.BlockGrinder>);
-recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>, [[<minecraft:cobblestone>, <BuildCraft|Core:woodenGearItem>, <minecraft:cobblestone>], [<ExtraUtilities:cobblestone_compressed>, <minecraft:diamond>, <ExtraUtilities:cobblestone_compressed>], [<ExtraUtilities:cobblestone_compressed>, <ExtraUtilities:cobblestone_compressed>, <ExtraUtilities:cobblestone_compressed>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>, [[<minecraft:cobblestone>, <BuildCraft|Core:woodenGearItem>, <minecraft:cobblestone>], [<BuildCraft|Core:stoneGearItem>, <minecraft:diamond>, <BuildCraft|Core:stoneGearItem>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 #AE2 Missing Pattern Capacity Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:54>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <minecraft:comparator>]);
