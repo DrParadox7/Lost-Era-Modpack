@@ -19,7 +19,6 @@ recipes.remove(<MineFactoryReloaded:portaspawner>);
 
 #Upgrades
 recipes.remove(<MineFactoryReloaded:upgrade.radius:*>);
-game.setLocalization("en_US", "item.mfr.upgrade.radius.platinum.name", "Upgrade (Mithril)");
 
 #AutoSpawner
 recipes.addShaped(<MineFactoryReloaded:machine.1:9>, [[<rftools:matterBeamerBlock>, <NuclearCraft:antimatter>, <rftools:matterBeamerBlock>], [<MineFactoryReloaded:syringe.growth>, <MineFactoryReloaded:tank>, <MineFactoryReloaded:syringe.health>], [<rftools:matterBeamerBlock>, <rftools:spawnerBlock>, <rftools:matterBeamerBlock>]]);

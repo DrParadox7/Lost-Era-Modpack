@@ -2,11 +2,7 @@
 
 print("Initializing 'Binnie.zs'...");
 
-#Genetics Localization fixes
-game.setLocalization("en_US", "binniecore.beemodifier.genetic_decay", "Genetic Decay");
-
 #Multifence fixes
-game.setLocalization("en_US", "extratrees.block.woodslab.name2", "%1$sMultifence");
 recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131073}), [[<minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:1>], [<minecraft:planks:1>, null, <minecraft:planks:1>], [null, null, null]]);
 #Solid Fence
 recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 132097}), [[null, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 131073}), <ExtraTrees:multifence:16387>.withTag({meta: 131073}), <ExtraTrees:multifence:16387>.withTag({meta: 131073})], [null, null, null]]);

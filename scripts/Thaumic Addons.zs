@@ -60,11 +60,8 @@ mods.thaumcraft.Crucible.addRecipe("ANCIENT_STONE", <Thaumcraft:blockCosmeticSol
 
 #Research
 mods.thaumcraft.Research.addResearch("ANCIENT_STONE", "ARTIFICE", "terra 4, alienis 4", 8, 0, 1, <Thaumcraft:blockCosmeticSolid:12>);
-game.setLocalization("en_US", "tc.research_name.ANCIENT_STONE", "Ancient Stone");
-game.setLocalization("en_US", "tc.research_text.ANCIENT_STONE", "[KR] Building blocks from beyond.");
 
 mods.thaumcraft.Research.addPage("ANCIENT_STONE", "krypt.research_page.ANCIENT_STONE");
-game.setLocalization("en_US", "krypt.research_page.ANCIENT_STONE", "Your trips to the Outer Lands have not only increased your knowledge into areas of thaumaturgy, but also interior design! The ancient stones lining the walls of the labyrinth are beautiful in their own way, and you must have some more for your base. <BR>By infusing some Arcane Stone with a touch of void magic, you have managed to replicate the otherworldly blocks, and no longer need to strip the walls bare if you want to build with them.");
 
 mods.thaumcraft.Research.addPrereq("ANCIENT_STONE", "ENTEROUTER", true);
 mods.thaumcraft.Research.addPrereq("ANCIENT_STONE", "ARCANESTONE", false);
@@ -112,11 +109,6 @@ recipes.addShapeless(<ThaumicTinkerer:ichorclothHelmGem>.withTag({AMArmorPropert
 mods.thaumcraft.Research.addCraftingPage("ICHORCLOTH_HELM_GEM", <ThaumicTinkerer:ichorclothHelmGem>.withTag({AMArmorProperties: {armorEffects: "hungerup"}}));
 mods.thaumcraft.Research.refreshResearchRecipe("ICHORCLOTH_HELM_GEM");
 
-game.setLocalization("en_US", "ttresearch.page.ICHORCLOTH_HELM_GEM.0", "You found a way of upgrading the Ichorcloth Cowl into a more powerful form.<BR><BR>First and foremost, the cowl doubles as goggles of revealing.<BR>Second, the wearer is granted unlimited underwater breath as well as crystal clear underwater vision.<BR>Lastly, one wearing this cowl will never find themselves on an empty stomach, quenching their hunger from atmospheric Vis much like a node although it must be first fed with a Thaumic cake. Pressing U will toggle this armors effects.");
-
-#Ichorium Updated Page Description ICHORIUM
-game.setLocalization("en_US", "ttresearch.page.ICHORIUM.0", "More endeavours with Ichor reveal its property to blend with most mundane materials. Most of the blends result in absolutely nothing, however, you have managed to blend it with diamonds and fabric in the past, and this time, with Void metal.<BR><BR>This metal is extremely strong and resilient, to a point where mundane materials could never get. You haven't found any uses for it yet, but you know it shouldn't take you too long.");
-
 #Food Talisman Balance
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:talismanFood>);
 mods.thaumcraft.Infusion.addRecipe("TALISMANFOOD", <Thaumcraft:ItemResource:15>, [<ForbiddenMagic:RingNutrition>, <harvestcraft:epicbaconItem>, <harvestcraft:supremepizzaItem>, <harvestcraft:delightedmealItem>, <harvestcraft:extremechiliItem>, <harvestcraft:creamcookieItem>], "fames 30, corpus 25, messis 25, permutatio 10", <ThaumicExploration:talismanFood>.withTag({saturation: 0.0 as float, food: 0.0 as float}), 5);
@@ -136,11 +128,7 @@ mods.thaumcraft.Research.removeResearch("ENCHANTER");
 ####RESEARCH####
 #Enchant Entry
 mods.thaumcraft.Research.addResearch("TTENCHTS", "TT_CATEGORY", "praecantatio 10, cognitio 20, machina 5", 5, 4, 8, <thaumcraftneiplugin:Aspect>.withTag({Aspects: [{amount: 2, key: "praecantatio"}]}));
-game.setLocalization("en_US", "tc.research_name.TTENCHTS", "Infusion Enchanting II!");
-game.setLocalization("en_US", "tc.research_text.TTENCHTS", "[TT] Picking your luck");
-
 mods.thaumcraft.Research.addPage("TTENCHTS", "lostera.research_page.TTENCHTS");
-game.setLocalization("en_US", "lostera.research_page.TTENCHTS", "You grew tired of getting terrible enchantments for your efforts.<BR>After thoroughly researching the properties of essentia, you have attained a new breakthrough in Infusion Enchanting!");
 
 mods.thaumcraft.Research.setSpikey("TTENCHTS", true);
 
@@ -189,7 +177,6 @@ mods.thaumcraft.Research.removeResearch("ANIMATION_TABLET");
 
 ###### Magia Naturalis ##########
 #Fix construction focus
-game.setLocalization("en_US", "item.magianaturalis:focusBuild.name", "Wand Focus: Construction (Inert)");
 recipes.addShapeless(<magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}), [<minecraft:brick>, <magianaturalis:item.focusBuild>]);
 mods.thaumcraft.Research.addCraftingPage("FOCUS_BUILD", <magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}));
 
@@ -203,8 +190,6 @@ mods.thaumcraft.Research.setAutoUnlock("SICKLE_THAUM", true);
 #Lock Infusion research behind infusion JAR_PRISON
 mods.thaumcraft.Research.addPrereq("JAR_PRISON", "INFUSION", true);
 
-#Fix Magia Naturalis missing lang
-game.setLocalization("en_US", "item.magianaturalis:voidSickle.name", "Void Sickle");
 #########################
 
 ###### Automagy ##########
