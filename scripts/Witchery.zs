@@ -25,6 +25,13 @@ recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:102>, <wit
 #Patch cheap silver for tech users
 recipes.removeShapeless(<ore:dustSilver>, [<witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>]);
 
+#Remove Artichoke oredict from Water Artichoke
+val artichoke = <ore:cropArtichoke>;
+val veggie = <ore:listAllveggie>;
+
+artichoke.remove(<witchery:ingredient:69>);
+veggie.remove(<witchery:ingredient:69>);
+
 #Helpful tooltips 
 <witchery:ingredient:105>.addTooltip("Removes 1 status effect");
 <witchery:ingredient:112>.addTooltip("Wandering soul from the Dream Realm");
