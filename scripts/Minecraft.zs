@@ -12,12 +12,6 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotDamascusSteel>, <mi
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotShadowSteel>, <minecraft:flint>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotBlackSteel>, <minecraft:flint>]);
 
-#Door Dupe fix
-recipes.remove(<minecraft:wooden_door>);
-recipes.remove(<minecraft:iron_door>);
-recipes.addShaped(<minecraft:wooden_door>, [[<minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>]]);
-recipes.addShaped(<minecraft:iron_door>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
-
 #Cake buckets
 recipes.addShaped(<minecraft:cake>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
 recipes.addShaped(<minecraft:cake>, [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]);
@@ -68,20 +62,11 @@ vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:divisionSigil>.weigh
 #Portaspawner
 vanilla.loot.removeChestLoot("mfr:villageZoolologist", <MineFactoryReloaded:portaspawner>);
 
-#Totem Undying
-vanilla.loot.addChestLoot("pyramidDesertyChest", <etfuturum:totem_of_undying>.weight(5), 1, 1);
-vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("netherFortress", <etfuturum:totem_of_undying>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1), 1, 1);
-
 #Disable Natura's boring 2x2 sulfur -> gunpowder recipe
 recipes.removeShaped(<minecraft:gunpowder>, [[<ore:dustSulfur>, <ore:dustSulfur>],[<ore:dustSulfur>, <ore:dustSulfur>]]);
 
 #Moss recipe
 recipes.addShapeless(<BiomesOPlenty:moss>, [<minecraft:mossy_cobblestone>]);
-
-#Extract Lava from Magma
-mods.thermalexpansion.Transposer.addExtractRecipe(800, <etfuturum:magma>, <liquid:lava> * 500, <minecraft:netherrack>, 100);
 
 #Make nametag loot-exclusive
 recipes.remove(<minecraft:name_tag>);
