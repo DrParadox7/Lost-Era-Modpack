@@ -219,7 +219,7 @@ recipes.addShaped(<Mekanism:GasTank>.withTag({tier: 3}), [[<ore:ingotRefinedObsi
 
 #Cardboard Box 
 recipes.remove(<Mekanism:CardboardBox>);
-mods.forestry.Carpenter.addRecipe(<Mekanism:CardboardBox>, [[null, <ore:dustWood>, null], [<ore:dustWood>, null, <ore:dustWood>],[null, <ore:dustWood>, null]], <liquid:resin> * 250, 140);
+recipes.addShaped(<Mekanism:CardboardBox>, [[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>], [<ore:dustWood>, <ore:slimeball>, <ore:dustWood>],[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 
 #Pressurized Tube
 recipes.remove(<Mekanism:PartTransmitter:*>);
