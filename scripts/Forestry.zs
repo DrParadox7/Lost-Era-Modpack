@@ -11,13 +11,12 @@ recipes.remove(<Forestry:gearBronze>);
 mods.forestry.Carpenter.addRecipe(<Forestry:ingotBronze> * 3, [[<ore:ingotCopper>, <ore:ingotCopper>, null],[<ore:ingotCopper>, <ore:ingotTin>, null]], <liquid:lava> * 100, 120);
 
 
-
 #### Postal Rework #### 
 
 ##Machines##
 #Mailbox
 recipes.remove(<Forestry:mail>);
-recipes.addShaped(<Forestry:mail>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <Forestry:letters>, <ore:ingotLead>], [<ore:ingotLead>, <minecraft:compass>, <ore:ingotLead>]]);
+recipes.addShaped(<Forestry:mail>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Forestry:letters>, <ore:ingotTin>], [<ore:ingotTin>, <minecraft:compass>, <ore:ingotTin>]]);
 
 #Trading Station
 recipes.remove(<Forestry:mail:1>);
@@ -29,20 +28,20 @@ recipes.remove(<Forestry:stamps:*>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:*>, <liquid:seedoil>);
 
 #1n
-recipes.addShaped(<Forestry:stamps> * 4, [[<ore:ingotLead>], [<minecraft:paper>]]);
+recipes.addShaped(<Forestry:stamps> * 6, [[<ore:ingotTin>], [<minecraft:paper>]]);
 
 #2n
-recipes.addShaped(<Forestry:stamps:1> * 4, [[<ore:ingotGold>], [<minecraft:paper>]]);
+recipes.addShaped(<Forestry:stamps:1> * 6, [[<ore:ingotGold>], [<minecraft:paper>]]);
 
 #5n
-recipes.addShaped(<Forestry:stamps:2> * 4, [[<minecraft:nether_wart>], [<minecraft:paper>]]);
+recipes.addShaped(<Forestry:stamps:2> * 6, [[<minecraft:nether_wart>], [<minecraft:paper>]]);
 
 #10n
-recipes.addShaped(<Forestry:stamps:3> * 4, [[<minecraft:ender_pearl>], [<minecraft:paper>]]);
+recipes.addShaped(<Forestry:stamps:3> * 6, [[<minecraft:ender_pearl>], [<minecraft:paper>]]);
 
 #Envelope
 recipes.remove(<Forestry:letters>);
-recipes.addShaped(<Forestry:letters> *2, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <harvestcraft:waxItem>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-recipes.addShaped(<Forestry:letters> *2, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <ore:itemBeeswax>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<Forestry:letters> * 4, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <harvestcraft:waxItem>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<Forestry:letters> * 4, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <ore:itemBeeswax>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 print("Initialized 'Forestry.zs'");
