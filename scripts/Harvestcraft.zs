@@ -60,7 +60,7 @@ recipes.addShapeless(<harvestcraft:pamcandleDeco1>, [<ore:itemBeeswax>, <minecra
 
 #Easier Tier 1 Oven
 recipes.remove(<harvestcraft:oven>);
-recipes.addShaped(<harvestcraft:oven>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<Railcraft:brick.bleachedbone:2>, <campfirebackport:campfire_base>, <Railcraft:brick.bleachedbone:2>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
+recipes.addShaped(<harvestcraft:oven>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<ore:hardenedClay>, <campfirebackport:campfire_base>, <ore:hardenedClay>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
 
 #Clay buckets can be used for milk  bottles
 recipes.addShapeless(<MineFactoryReloaded:milkbottle>, [<IguanaTweaksTConstruct:clayBucketMilk>, <minecraft:glass_bottle>]);
