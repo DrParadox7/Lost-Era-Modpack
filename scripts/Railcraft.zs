@@ -106,4 +106,7 @@ mods.railcraft.Rolling.addShaped(<Railcraft:machine.beta:4>, [[null, <Railcraft:
 recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 recipes.addShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>.giveBack(<minecraft:glass_bottle>), null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
+#Wood Rails
+mods.railcraft.Rolling.addShaped(<Railcraft:part.rail:2> * 2, [[<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>]]);
+
 print("Initialized 'Railcraft.zs'");
