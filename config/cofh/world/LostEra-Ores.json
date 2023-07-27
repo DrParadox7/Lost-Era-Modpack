@@ -48,7 +48,7 @@
     "UnderwaterOres": {
         "template": "underwater",
         "block": [
-			{"name": "Mekanism:OreBlock", "weight":2},
+			{"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 5},
 			{"name": "minecraft:sand", "weight":16},
 			{"name": "minecraft:gravel", "weight":32},
 			{"name": "minecraft:clay", "weight":5},
