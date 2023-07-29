@@ -150,8 +150,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
         ],
-        "clusterSize": 6,
-        "numClusters": 5,
+        "clusterSize": 10,
+        "numClusters": 10,
         "minHeight": 10,
         "maxHeight": 52,
         "retrogen": "true",
@@ -167,9 +167,8 @@
     "Aroma_nickel": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
-        "clusterSize": 4,
-        "numClusters": 2,
-        "chunkChance": 2,
+        "clusterSize": 8,
+        "numClusters": 4,
         "minHeight": 5,
         "maxHeight": 30,
         "retrogen": "true",
