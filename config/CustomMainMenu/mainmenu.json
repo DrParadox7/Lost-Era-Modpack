@@ -219,7 +219,7 @@
             "alignment" : "bottom_right"
         },
 		"version": {
-			"text": "1.6.0",
+			"text": "1.6.1",
 			"posX": 5,
 			"posY": -10,
 			"color": 7368816,
