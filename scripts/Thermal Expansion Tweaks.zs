@@ -13,11 +13,12 @@ recipes.addShapeless(<ThermalExpansion:Tesseract>, [<ThermalExpansion:Frame:11>,
 #Cinnabar Processing
 mods.thermalexpansion.Pulverizer.removeRecipe(<Thaumcraft:blockCustomOre>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<Thaumcraft:ItemNugget:21>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:redstone_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:gold_ore>);
 
-mods.thermalexpansion.Pulverizer.addRecipe(3200, <Thaumcraft:blockCustomOre>, <Thaumcraft:ItemResource:3>, <ThermalFoundation:material:20>, 5);
-mods.thermalexpansion.Pulverizer.addRecipe(3200, <Thaumcraft:ItemNugget:21>, <Thaumcraft:ItemResource:3>*3, <ThermalFoundation:material:20>, 25);
-
-mods.thermalexpansion.Furnace.addRecipe(1000, <ThermalFoundation:material:20>, <Thaumcraft:ItemResource:3>);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <ThermalExpansion:material:515>, <ThermalFoundation:material:20>, <liquid:redstone> * 300);
+mods.thermalexpansion.Pulverizer.addRecipe(3200, <minecraft:redstone_ore>, <minecraft:redstone> * 6, <ThermalFoundation:material:16>, 20);
+mods.thermalexpansion.Pulverizer.addRecipe(4000, <minecraft:gold_ore>, <ThermalFoundation:material:1> * 2, <ThermalFoundation:material:34>, 5);
 
 #Lapis Dust
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <minecraft:dye:4>, <NuclearCraft:material:10>);
@@ -39,8 +40,6 @@ recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), [[nu
 #Transposer recipes
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
 mods.thermalexpansion.Transposer.removeFillRecipe(<Thaumcraft:blockCustomOre>, <liquid:cryotheum>);
-
-mods.thermalexpansion.Transposer.addFillRecipe(4000, <Thaumcraft:blockCustomOre>, <ThermalFoundation:material:20> * 3, <liquid:cryotheum> * 200);
 
 #Upgrades Rebalance
 
