@@ -3,3 +3,11 @@ shaped=
     oredictionary:dustGlowstone certusCrystal oredictionary:dustGlowstone,
     oredictionary:ingotIron oredictionary:ingotIron oredictionary:ingotIron
     -> ae2:ItemMaterial.BlankPattern
+
+shapeless=
+   ae2:item.ItemMultiMaterial:28 minecraft:book
+    -> ae2:item.ItemMultiMaterial:55
+
+shapeless=
+   ae2:item.ItemMultiPart:400 ae2:item.ItemMultiMaterial:22
+    -> ae2:item.ItemMultiPart:500
