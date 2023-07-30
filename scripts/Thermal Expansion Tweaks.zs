@@ -10,7 +10,7 @@ Mithril.add(<ThermalFoundation:material:70>);
 recipes.remove(<ThermalExpansion:Tesseract>);
 recipes.addShapeless(<ThermalExpansion:Tesseract>, [<ThermalExpansion:Frame:11>, <NuclearCraft:antimatter>]);
 
-#Cinnabar
+#Cinnabar Processing
 mods.thermalexpansion.Pulverizer.removeRecipe(<Thaumcraft:blockCustomOre>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<Thaumcraft:ItemNugget:21>);
 
@@ -22,6 +22,10 @@ mods.thermalexpansion.Furnace.addRecipe(1000, <ThermalFoundation:material:20>, <
 #Lapis Dust
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <minecraft:dye:4>, <NuclearCraft:material:10>);
 
+#Cryotheum Dust uses Lapis Dust
+recipes.remove(<ThermalFoundation:material:513>);
+recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
+
 #Enderium Compat
 recipes.remove(<ThermalFoundation:material:44>);
 recipes.addShapeless(<ThermalFoundation:material:44>*4, [<ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <ore:dustPlatinum>, <ore:bucketEnder>]);
@@ -32,48 +36,11 @@ recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), [[nu
 recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
 recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
 
-#Blizz Dust
-recipes.remove(<ThermalFoundation:material:513>);
-recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
-
-#### Bauxide Processing
-
-#Allow for user error and add to accuracy (Slag is mixed materials)
-mods.thermalexpansion.Furnace.addRecipe(1000, <gregtech_addon:metaitem_1:3822>, <ThermalExpansion:material:514>);
-
-#Impure
-mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech_addon:ore:5>);
-mods.thermalexpansion.Pulverizer.addRecipe(3200, <gregtech_addon:ore:5>, <gregtech_addon:metaitem_1:3822>*2);
-
-#Pure
-mods.mekanism.Reaction.addRecipe(<gregtech_addon:metaitem_1:3822>, <liquid:water>*250, <gas:hydrogenchloride>*250, <gregtech_addon:metaitem_1:4822>, <gas:oxygen>, 8000, 100);
-
-#Process into Titanium
-mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalFoundation:material:512>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 45);
-mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalFoundation:material:20>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 100);
-mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <minecraft:sand>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 15);
-mods.thermalexpansion.Smelter.addRecipe(4000, <gregtech_addon:metaitem_1:4822>, <ThermalExpansion:material:515>, <TConstruct:materials:12>, <gregtech_addon:metaitem_1:1028>, 75);
-
 #Transposer recipes
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
 mods.thermalexpansion.Transposer.removeFillRecipe(<Thaumcraft:blockCustomOre>, <liquid:cryotheum>);
 
 mods.thermalexpansion.Transposer.addFillRecipe(4000, <Thaumcraft:blockCustomOre>, <ThermalFoundation:material:20> * 3, <liquid:cryotheum> * 200);
-
-#Redstone Energy Cell
-recipes.removeShaped(<ThermalExpansion:Cell:3>);
-recipes.addShaped(<ThermalExpansion:Cell:3>, [[null, <RedstoneArsenal:material:32>, null], [<RedstoneArsenal:material:32>, <ThermalExpansion:Frame:7>, <RedstoneArsenal:material:32>], [null, <ThermalExpansion:material:3>, null]]);
-
-#Fix bronze armor variety inbalance
-recipes.remove(<ThermalFoundation:armor.helmetBronze>);
-recipes.remove(<ThermalFoundation:armor.plateBronze>);
-recipes.remove(<ThermalFoundation:armor.legsBronze>);
-recipes.remove(<ThermalFoundation:armor.bootsBronze>);
-recipes.remove(<ThermalFoundation:tool.swordBronze>);
-recipes.remove(<ThermalFoundation:tool.shovelBronze>);
-recipes.remove(<ThermalFoundation:tool.pickaxeBronze>);
-recipes.remove(<ThermalFoundation:tool.axeBronze>);
-recipes.remove(<ThermalFoundation:tool.hoeBronze>);
 
 #Upgrades Rebalance
 
@@ -134,8 +101,7 @@ recipes.addShaped(<ThermalExpansion:capacitor:3>, [[<ProjRed|Core:projectred.cor
 recipes.addShaped(<ThermalExpansion:capacitor:4>, [[<BuildCraft|Silicon:redstoneCrystal>, <ore:gearElectrum>, <BuildCraft|Silicon:redstoneCrystal>], [<ore:ingotElectrum>, <ThermalExpansion:capacitor:3>, <ore:ingotElectrum>], [<ThermalExpansion:Glass>, <ore:dustSignalum>, <ThermalExpansion:Glass>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:5>, [[<RedstoneArsenal:material:96>, <ore:gearEnderium>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:capacitor:4>, <ore:ingotEnderium>], [<ThermalExpansion:Glass:1>, <ore:dustElectrumFlux>, <ThermalExpansion:Glass:1>]]);
 
-#Energy Cells (Frames only)
-
+# Energy Cells
 #Leadstone Cell
 recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
 
@@ -144,13 +110,18 @@ recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotInvar>, null], [<
 recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:5>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
 recipes.addShaped(<ThermalExpansion:Cell:2>, [[<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
 
-#Portable Tank
+#Redstone Energy Cell
+recipes.removeShaped(<ThermalExpansion:Cell:3>);
+recipes.addShaped(<ThermalExpansion:Cell:3>, [[null, <RedstoneArsenal:material:32>, null], [<RedstoneArsenal:material:32>, <ThermalExpansion:Frame:7>, <RedstoneArsenal:material:32>], [null, <ThermalExpansion:material:3>, null]]);
+
+
+#Portable Tanks
 recipes.remove(<ThermalExpansion:Tank:1>);
 recipes.addShaped(<ThermalExpansion:Tank:1>, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <BuildCraft|Factory:tankBlock>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
 
 recipes.removeShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:blockGlass>, <ore:ingotInvar>], [<ore:blockGlass>, <ore:ingotCopper>, <ore:blockGlass>], [<ore:ingotInvar>, <ore:blockGlass>, <ore:ingotInvar>]]);
-
 recipes.addShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>], [<ore:ingotCopper>, <BuildCraft|Factory:tankBlock>, <ore:ingotCopper>], [<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>]]);
+
 
 
 #Prevents client-crash with Pulverizer recipes
