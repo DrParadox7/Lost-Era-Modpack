@@ -14,8 +14,8 @@ recipes.remove(<IC2:itemPartCarbonMesh>);
 recipes.remove(<gregtech_addon:metaitem_1:32200>);
 
 #Bronze Balance
-recipes.removeShapeless(<ore:ingotBronze>);
-recipes.removeShapeless(<ore:dustBronze>*2);
+recipes.removeShapeless(<ore:ingotBronze>, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>]);
+recipes.removeShapeless(<ore:dustBronze>*2, [<ore:dustCopper>, <ore:dustTin>]);
 
 #Remove GT making RC stuff
 recipes.remove(<Railcraft:part.plate:*>);
