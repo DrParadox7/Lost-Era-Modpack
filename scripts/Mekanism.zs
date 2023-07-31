@@ -78,7 +78,7 @@ recipes.remove(<Mekanism:MachineBlock:*>);
 recipes.addShaped(<Mekanism:MachineBlock>, [[<Mekanism:EnrichedAlloy>, <ore:blockGlassHardened>, <Mekanism:EnrichedAlloy>], [<ore:gearInvar>, <Mekanism:ControlCircuit>, <ore:gearInvar>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:1>, <Mekanism:EnrichedAlloy>]]);
 
 #Platinum Compressor
-recipes.addShaped(<Mekanism:MachineBlock:1>, [[<ore:ingotPlatinum>, <ore:blockGlassHardened>, <ore:ingotPlatinum>], [<ThermalExpansion:pump>, <Mekanism:ControlCircuit:1>, <ThermalExpansion:pump>], [<ore:ingotPlatinum>, <ThermalExpansion:material:1>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<Mekanism:MachineBlock:1>, [[<Mekanism:ReinforcedAlloy>, <ore:blockGlassHardened>, <Mekanism:ReinforcedAlloy>], [<ThermalExpansion:pump>, <Mekanism:ControlCircuit:1>, <ThermalExpansion:pump>], [<Mekanism:ReinforcedAlloy>, <ThermalExpansion:material:1>, <Mekanism:ReinforcedAlloy>]]);
 
 #Combiner
 recipes.addShaped(<Mekanism:MachineBlock:2>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>], [<minecraft:cobblestone>, <Mekanism:ControlCircuit>, <minecraft:cobblestone>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>]]);
@@ -90,19 +90,19 @@ recipes.addShaped(<Mekanism:MachineBlock:3>, [[<Mekanism:EnrichedAlloy>, <ore:bl
 recipes.addShaped(<Mekanism:MachineBlock:4>, [[<Mekanism:MachineBlock2:9>, <Mekanism:Robit:*>, <Mekanism:MachineBlock2:9>], [<Mekanism:AtomicDisassembler>, <BuildCraft|Builders:machineBlock>, <Mekanism:AtomicDisassembler>], [<Mekanism:AtomicAlloy>, <Mekanism:TeleportationCore>, <Mekanism:AtomicAlloy>]]);
 
 #Metallurgic Infuser
-recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ThermalExpansion:pump>, <RedstoneArsenal:material:96>, <ThermalExpansion:pump>], [<ore:gearPlatinum>, <ThermalExpansion:Machine:3>, <ore:gearPlatinum>], [<ore:ingotElectrumFlux>, <ThermalExpansion:material:1>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ThermalExpansion:pump>, <RedstoneArsenal:material:96>, <ThermalExpansion:pump>], [<ore:gearSignalum>, <ThermalExpansion:Machine:3>, <ore:gearSignalum>], [<ore:ingotElectrumFlux>, <ThermalExpansion:material:1>, <ore:ingotElectrumFlux>]]);
 
 #Purification Chamber
-recipes.addShaped(<Mekanism:MachineBlock:9>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>], [<ore:gearPlatinum>, <Mekanism:MachineBlock>, <ore:gearPlatinum>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock:9>, [[<Mekanism:EnrichedAlloy>, <ore:blockGlassHardened>, <Mekanism:EnrichedAlloy>], [<ore:gearElectrum>, <Mekanism:ControlCircuit:1>, <ore:gearElectrum>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:1>, <Mekanism:EnrichedAlloy>]]);
 
 #Energized Smelter
-recipes.addShaped(<Mekanism:MachineBlock:10>, [[<Mekanism:EnrichedAlloy>, <ThermalExpansion:igniter>, <Mekanism:EnrichedAlloy>], [<ore:gearSignalum>, <Mekanism:ControlCircuit>, <ore:gearSignalum>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:3>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock:10>, [[<Mekanism:EnrichedAlloy>, <ThermalExpansion:igniter>, <Mekanism:EnrichedAlloy>], [<ore:gearBronze>, <Mekanism:ControlCircuit>, <ore:gearBronze>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:3>, <Mekanism:EnrichedAlloy>]]);
 
 #Teleporter
 recipes.addShaped(<Mekanism:MachineBlock:11>, [[<Mekanism:ControlCircuit>, <Mekanism:WalkieTalkie>, <Mekanism:ControlCircuit>], [<ore:gearEnderium>, <Mekanism:BasicBlock:8>, <ore:gearEnderium>], [<Mekanism:ControlCircuit>, <Mekanism:TeleportationCore>, <Mekanism:ControlCircuit>]]);
 
 #Pump
-recipes.addShaped(<Mekanism:MachineBlock:12>, [[null, <Mekanism:ControlCircuit>, null], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:Tank:1>, <Mekanism:EnrichedAlloy>], [<ore:ingotPlatinum>, <ThermalExpansion:pump>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<Mekanism:MachineBlock:12>, [[null, <Mekanism:ControlCircuit>, null], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:Tank:1>, <Mekanism:EnrichedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:pump>, <ore:ingotInvar>]]);
 
 #Personal Chest 
 recipes.addShaped(<Mekanism:MachineBlock:13>, [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>], [<minecraft:chest>, <Mekanism:ControlCircuit>, <minecraft:chest>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
@@ -116,22 +116,22 @@ recipes.addShaped(<Mekanism:MachineBlock:14>, [[<ore:pressurePlateStone>, <ore:p
 recipes.remove(<Mekanism:MachineBlock2:*>); 
 
 #Rotary Condensentrator
-recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>], [<Mekanism:GasTank:*>, <ore:gearPlatinum>, <Mekanism:MachineBlock2:11>], [<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:11>, <Mekanism:ControlCircuit>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:0>, [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>], [<Mekanism:GasTank:*>, <ore:gearGold>, <Mekanism:MachineBlock2:11>], [<Mekanism:ControlCircuit>, <Mekanism:BasicBlock:11>, <Mekanism:ControlCircuit>]]);
 
 #Chemical Oxidizer
-recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:blockGlassHardened>, <ThermalFoundation:bucket:3>, <ore:blockGlassHardened>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:8>, <Mekanism:GasTank:*>], [<ore:ingotSteel>, <ThermalExpansion:material:1>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:blockGlassHardened>, <ThermalFoundation:bucket:3>, <ore:blockGlassHardened>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:8>, <Mekanism:GasTank:*>], [<Mekanism:ControlCircuit:1>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:1>]]);
 
 #Chemical Infuser
-recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<Mekanism:ControlCircuit:1>, <ore:blockGlassHardened>, <Mekanism:ControlCircuit:1>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<ore:ingotSteel>, <ThermalExpansion:material:1>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>], [<Mekanism:ControlCircuit:2>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:2>]]);
 
 #Chemical Injection Chamber
 recipes.addShaped(<Mekanism:MachineBlock2:3>, [[<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>], [<ore:gearElectrum>, <Mekanism:MachineBlock:9>, <ore:gearElectrum>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:ReinforcedAlloy>]]);
 
 #Electrolytic Separator
-recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:ingotPlatinum>, <Mekanism:ControlCircuit:1>, <ore:ingotPlatinum>], [<Mekanism:GasTank:*>, <Mekanism:ElectrolyticCore>, <Mekanism:GasTank:*>], [<ore:ingotPlatinum>, <ThermalExpansion:material:1>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:blockGlassHardened>, <Mekanism:ElectrolyticCore>, <ore:blockGlassHardened>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:8>, <Mekanism:GasTank:*>], [<Mekanism:ControlCircuit:1>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:1>]]);
 
 #Precision Sawmill
-recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<Mekanism:EnrichedAlloy>, <ore:blockGlassHardened>, <Mekanism:EnrichedAlloy>], [<ThermalExpansion:material>, <ore:gearBronze>, <ThermalExpansion:material>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:1>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<Mekanism:EnrichedAlloy>, <ore:blockGlassHardened>, <Mekanism:EnrichedAlloy>], [<ore:gearIron>, <Mekanism:ControlCircuit>, <ore:gearIron>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:1>, <Mekanism:EnrichedAlloy>]]);
 
 #Chemical Dissolution Chamber
 recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:EnrichedAlloy>], [<ore:blockClothRock>, <ore:gearPlatinum>, <ore:blockClothRock>], [<Mekanism:EnrichedAlloy>, <ThermalExpansion:material:1>, <Mekanism:EnrichedAlloy>]]);
@@ -146,7 +146,7 @@ recipes.addShaped(<Mekanism:MachineBlock2:8>, [[<Mekanism:Polyethene:2>, <Therma
 recipes.addShaped(<Mekanism:MachineBlock2:9>, [[null, <ThermalExpansion:material:2>, null], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<Railcraft:part.gear:2>, <ThermalExpansion:material>, <Railcraft:part.gear:2>]]);
 
 #Pressurised Reaction chamber
-recipes.addShaped(<Mekanism:MachineBlock2:10>, [[null, <Mekanism:EnrichedAlloy>, null], [<Mekanism:ControlCircuit>, <Mekanism:MachineBlock>, <Mekanism:ControlCircuit>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:*>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:10>, [[<ore:blockGlassHardened>, <Mekanism:MachineBlock2:11>, <ore:blockGlassHardened>], [<Mekanism:GasTank>, <Mekanism:BasicBlock:8>, <Mekanism:GasTank>], [<Mekanism:ControlCircuit:1>, <ThermalExpansion:material:1>, <Mekanism:ControlCircuit:1>]]);
 
 #Tanks
 recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({tier: 0}), [[null, <ore:blockGlassHardened>, null], [<ore:blockGlassHardened>, <Mekanism:EnrichedAlloy>, <ore:blockGlassHardened>], [null, <ore:blockGlassHardened>, null]]);
@@ -318,10 +318,10 @@ recipes.remove(<MekanismGenerators:Generator:*>);
 recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [<minecraft:obsidian>, <ThermalExpansion:material:2>, <minecraft:obsidian>]]);
 
 #Basic Solar
-recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<Mekanism:EnrichedAlloy>, <ore:ingotIron>, <Mekanism:EnrichedAlloy>], [<ore:dustPlatinum>, <ThermalExpansion:material:2>, <ore:dustPlatinum>]]);
+recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit>, <Mekanism:EnrichedAlloy>], [null , <ThermalExpansion:material:2>, null]]);
 
 #Gas-Burning Generator
-recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotPlatinum>, <ThermalExpansion:igniter>, <ore:ingotPlatinum>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<ore:ingotPlatinum>, <ThermalExpansion:material:2>, <ore:ingotPlatinum>]]);
+recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotInvar>, <ThermalExpansion:igniter>, <ore:ingotInvar>], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:material:2>, <ore:ingotInvar>]]);
 
 #Bio-generator
 recipes.addShaped(<MekanismGenerators:Generator:4>, [[<ore:blockGlassHardened>, <Mekanism:ControlCircuit:1>, <ore:blockGlassHardened>], [<Mekanism:GasTank:*>, <Mekanism:BasicBlock2:5>, <Mekanism:GasTank:*>], [<ore:ingotSteel>, <ThermalExpansion:material:2>, <ore:ingotSteel>]]);
