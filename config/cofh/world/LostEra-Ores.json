@@ -69,7 +69,7 @@
 		"height": 3,
         "minHeight": 20,
         "maxHeight": 39,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "whitelist",
 		"biomes":[
 		{
@@ -95,7 +95,7 @@
 		"chunkChance": 10,
         "minHeight": 20,
         "maxHeight": 100,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "whitelist",
 		"biomes":[
 		{
@@ -124,7 +124,7 @@
 		"chunkChance": 2,
         "minHeight": 30,
         "maxHeight": 66,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "whitelist",
 		"biomes":[
 		    {
