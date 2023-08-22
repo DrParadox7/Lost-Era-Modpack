@@ -1217,4 +1217,15 @@
         <Loot Identifier="hyperspace-crystalemerald" ItemName="WarpDrive:itemComponent" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="hyperspace-crystaldiamond" ItemName="WarpDrive:itemComponent:2" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+    <LootGroup GroupMetaID="62" GroupName="Practical Metalsmithing" Rarity="0" MinItems="3" MaxItems="4" CombineTrashGroup="false">
+        <Loot Identifier="metalsmithing-sand" ItemName="minecraft:sand" Amount="4" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-gravel" ItemName="minecraft:gravel" Amount="4" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-coal" ItemName="minecraft:coal" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-coalBlock" ItemName="minecraft:coal_block" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-clay" ItemName="minecraft:clay_ball" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-clayblock" ItemName="minecraft:clay" Amount="2" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-searedbrick" ItemName="TConstruct:materials:2" Amount="2" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="metalsmithing-searedbrickNether" ItemName="TConstruct:materials:37" Amount="2" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="metalsmithing-lava" ItemName="IguanaTweaksTConstruct:clayBucketLava" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
