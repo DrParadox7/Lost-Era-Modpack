@@ -17,6 +17,8 @@ recipes.addShapeless(<ThermalFoundation:material:40>*2, [<ore:dustIron>, <ore:du
 recipes.addShapeless(<ThermalFoundation:material:41>*3, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>]);
 
 ### Item Ducts ###
+mods.thermalexpansion.Pulverizer.removeRecipe(<ThermalDynamics:ThermalDynamics_0:*>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<ThermalDynamics:ThermalDynamics_16:*>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:*>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_16:*>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_32:*>);
