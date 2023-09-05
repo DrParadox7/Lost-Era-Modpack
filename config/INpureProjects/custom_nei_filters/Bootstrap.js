@@ -12,3 +12,4 @@ var Tcon_enabled = true;
 var Binnie_enabled = true;
 var FM_enabled = true;
 var AM2_enabled = true;
+var EtFuturum_enabled = true;

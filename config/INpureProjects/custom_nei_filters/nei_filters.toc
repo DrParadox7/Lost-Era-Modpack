@@ -19,3 +19,4 @@ WG.js
 AM2.js
 FM.js
 LostEra.js
+EtFuturum.js
