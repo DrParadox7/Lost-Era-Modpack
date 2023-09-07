@@ -413,6 +413,10 @@ mods.mekanism.Separator.addRecipe(<liquid:sewage>, 175, <gas:methane>, <gas:wate
 mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
 mods.mekanism.Infuser.addRecipe("CARBON", 40, <minecraft:iron_ingot>, <Mekanism:Ingot:4>);
 
+#Remove dupe enabling recipes
+mods.mekanism.Sawmill.removeRecipe(<minecraft:torch>);
+
+
 #MEKANISM TOOLS
 #Remove Paxel
 recipes.remove(<MekanismTools:WoodPaxel>);
