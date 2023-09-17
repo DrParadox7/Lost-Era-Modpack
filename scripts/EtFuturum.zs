@@ -21,7 +21,10 @@ mods.etfuturum.composting.addCompostable(<BiomesOPlenty:foliage:*>, 10);
 mods.etfuturum.composting.addCompostable(<Botany:plant:*>, 10);
 mods.etfuturum.composting.addCompostable(<IC2:itemWeed>, 10);
 mods.etfuturum.composting.addCompostable(<Natura:waterdrop>, 10);
-mods.etfuturum.composting.addCompostable(<TwilightForest:tile.TFPlant:*>, 10);
+mods.etfuturum.composting.addCompostable(<TwilightForest:tile.TFPlant:4>, 10);
+mods.etfuturum.composting.addCompostable(<TwilightForest:tile.TFPlant:8>, 10);
+mods.etfuturum.composting.addCompostable(<TwilightForest:tile.TFPlant:9>, 10);
+mods.etfuturum.composting.addCompostable(<TwilightForest:tile.TFPlant:14>, 10);
 
 #Seeds
 mods.etfuturum.composting.addCompostable(<ore:listAllseed>, 30);
@@ -45,6 +48,7 @@ mods.etfuturum.composting.addCompostable(<BiomesOPlenty:wisteria>, 50);
 mods.etfuturum.composting.addCompostable(<BiomesOPlenty:flowers:*>, 50);
 mods.etfuturum.composting.addCompostable(<BiomesOPlenty:flowers2:*>, 50);
 mods.etfuturum.composting.addCompostable(<BiomesOPlenty:mushrooms:*>, 50);
+mods.etfuturum.composting.addCompostable(<TwilightForest:tile.TFPlant:10>, 50);
 mods.etfuturum.composting.addCompostable(<BiomesOPlenty:food:1>, 25);
 mods.etfuturum.composting.addCompostable(<BiomesOPlenty:lilyBop:*>, 50);
 mods.etfuturum.composting.addCompostable(<Botany:flower>, 50);
