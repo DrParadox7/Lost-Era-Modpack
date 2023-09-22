@@ -99,16 +99,6 @@ mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <gregtech_addon:met
 
 #Plastic furnace removal
 furnace.remove(<MineFactoryReloaded:plastic.raw>);
-furnace.remove(<MineFactoryReloaded:plastic.ruler>);
-furnace.remove(<MineFactoryReloaded:plastic.bag>);
-furnace.remove(<MineFactoryReloaded:plastic.sheet>);
-furnace.remove(<MineFactoryReloaded:straw>);
-
-mods.thermalexpansion.Furnace.removeRecipe(<plastic.raw>);
-mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:ruler>);
-mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:plastic.bag>);
-mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:plastic.sheet>);
-mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:straw>);
 
 #Rubber Furnace removal
 mods.thermalexpansion.Furnace.removeRecipe(<MineFactoryReloaded:rubber.bar>);
