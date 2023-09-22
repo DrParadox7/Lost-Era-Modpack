@@ -116,7 +116,6 @@
 - MetallurgyCore [LGPL 2.1] (https://www.curseforge.com/project/78640/license)
 - MineChem [DBaJ] (https://github.com/iopleke/Minechem/blob/1.7.10-v6/LICENSE.md)
 - MineFactoryReloaded [ARR] (https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1292152-powercrystals-mods-minefactoryreloaded) {Author: You are free to include any of these mods in any modpacks without needing to ask permission}
-- Mobs Info [LGPL-3.0-only] (https://github.com/kuba6000/Mobs-Info/blob/master/LICENSE)
 - ModTweaker2 [MIT] (https://github.com/jaredlll08/ModTweaker/blob/master-MC1.7.10/LICENSE)
 - Modern Splash [MIT] (https://github.com/kappa-maintainer/ModernSplash/blob/master/LICENSE)
 - Modern Keybindings [Unlicense] (https://github.com/Nova-Committee/ModernKeyBinding)
