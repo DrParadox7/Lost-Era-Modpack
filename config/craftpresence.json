@@ -9,6 +9,7 @@
     "detectMultiMCManifest": false,
     "detectMCUpdaterInstance": false,
     "detectTechnicPack": false,
+    "detectModrinthPack": true,
     "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
@@ -565,15 +566,6 @@
         "blue": 16,
         "alpha": 208
       }
-    },
-    "buttonBackground": {
-      "start": {
-        "red": 255,
-        "green": 255,
-        "blue": 255,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/widgets.png"
     },
     "languageId": "en_US",
     "stripTranslationColors": false,

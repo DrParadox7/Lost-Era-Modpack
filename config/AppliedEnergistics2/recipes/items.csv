@@ -42,7 +42,7 @@ minecraft:lapis_block, Lapis Lazuli Block
 minecraft:dispenser, Dispenser
 minecraft:sandstone:0, Sandstone
 minecraft:sandstone:1, Chiseled Sandstone
-minecraft:sandstone:2, Cut Sandstone
+minecraft:sandstone:2, Smooth Sandstone
 minecraft:noteblock, Note Block
 minecraft:golden_rail, Booster Track
 minecraft:detector_rail, Detector Track
@@ -82,7 +82,7 @@ minecraft:brown_mushroom, Mushroom
 minecraft:red_mushroom, Mushroom
 minecraft:gold_block, Block of Gold
 minecraft:iron_block, Block of Iron
-minecraft:stone_slab:0, Smooth Stone Slab
+minecraft:stone_slab:0, Stone Slab
 minecraft:stone_slab:1, Sandstone Slab
 minecraft:stone_slab:3, Cobblestone Slab
 minecraft:stone_slab:4, Bricks Slab
@@ -92,12 +92,12 @@ minecraft:stone_slab:7, Quartz Slab
 minecraft:brick_block, Bricks
 minecraft:tnt, TNT
 minecraft:bookshelf, Bookshelf
-minecraft:mossy_cobblestone, Mossy Cobblestone
+minecraft:mossy_cobblestone, Moss Stone
 minecraft:obsidian, Obsidian
 minecraft:torch, Torch
 minecraft:fire, Fire
-minecraft:mob_spawner:0, Spawner
-minecraft:oak_stairs, Oak Stairs
+minecraft:mob_spawner:0, Monster Spawner
+minecraft:oak_stairs, Oak Wood Stairs
 minecraft:chest, Chest
 minecraft:diamond_ore, Diamond Ore
 minecraft:diamond_block, Block of Diamond
@@ -143,13 +143,13 @@ minecraft:stained_glass:12, Brown Stained Glass
 minecraft:stained_glass:13, Green Stained Glass
 minecraft:stained_glass:14, Red Stained Glass
 minecraft:stained_glass:15, Black Stained Glass
-minecraft:trapdoor, Oak Trapdoor
-minecraft:monster_egg:0, Infested Stone
-minecraft:monster_egg:1, Infested Cobblestone
-minecraft:monster_egg:2, Infested Stone Bricks
-minecraft:monster_egg:3, Infested Mossy Stone Bricks
-minecraft:monster_egg:4, Infested Cracked Stone Bricks
-minecraft:monster_egg:5, Infested Chiseled Stone Bricks
+minecraft:trapdoor, Trapdoor
+minecraft:monster_egg:0, Stone Monster Egg
+minecraft:monster_egg:1, Cobblestone Monster Egg
+minecraft:monster_egg:2, Stone Brick Monster Egg
+minecraft:monster_egg:3, Mossy Stone Brick Monster Egg
+minecraft:monster_egg:4, Cracked Stone Brick Monster Egg
+minecraft:monster_egg:5, Chiseled Stone Brick Monster Egg
 minecraft:stonebrick:0, Stone Bricks
 minecraft:stonebrick:1, Mossy Stone Bricks
 minecraft:stonebrick:2, Cracked Stone Bricks
@@ -165,7 +165,7 @@ minecraft:brick_stairs, Brick Stairs
 minecraft:stone_brick_stairs, Stone Brick Stairs
 minecraft:mycelium, Mycelium
 minecraft:waterlily, Lily Pad
-minecraft:nether_brick, Nether Bricks
+minecraft:nether_brick, Nether Brick
 minecraft:nether_brick_fence, Nether Brick Fence
 minecraft:nether_brick_stairs, Nether Brick Stairs
 minecraft:enchanting_table, Enchantment Table
@@ -174,21 +174,21 @@ minecraft:end_portal_frame, End Portal
 minecraft:end_stone, End Stone
 minecraft:dragon_egg, Dragon Egg
 minecraft:redstone_lamp, Redstone Lamp
-minecraft:wooden_slab:0, Oak Slab
-minecraft:wooden_slab:1, Spruce Slab
-minecraft:wooden_slab:2, Birch Slab
-minecraft:wooden_slab:3, Jungle Slab
-minecraft:wooden_slab:4, Acacia Slab
-minecraft:wooden_slab:5, Dark Oak Slab
+minecraft:wooden_slab:0, Oak Wood Slab
+minecraft:wooden_slab:1, Spruce Wood Slab
+minecraft:wooden_slab:2, Birch Wood Slab
+minecraft:wooden_slab:3, Jungle Wood Slab
+minecraft:wooden_slab:4, Acacia Wood Slab
+minecraft:wooden_slab:5, Dark Oak Wood Slab
 minecraft:cocoa, Cocoa
 minecraft:sandstone_stairs, Sandstone Stairs
 minecraft:emerald_ore, Emerald Ore
 minecraft:ender_chest, Ender Chest
 minecraft:tripwire_hook, Tripwire Hook
 minecraft:emerald_block, Block of Emerald
-minecraft:spruce_stairs, Spruce Stairs
-minecraft:birch_stairs, Birch Stairs
-minecraft:jungle_stairs, Jungle Stairs
+minecraft:spruce_stairs, Spruce Wood Stairs
+minecraft:birch_stairs, Birch Wood Stairs
+minecraft:jungle_stairs, Jungle Wood Stairs
 minecraft:command_block, Command Block
 minecraft:beacon, Beacon
 minecraft:cobblestone_wall:0, Cobblestone Wall
@@ -202,13 +202,13 @@ minecraft:anvil:2, Very Damaged Anvil
 minecraft:trapped_chest, Trapped Chest
 minecraft:light_weighted_pressure_plate, Weighted Pressure Plate (Light)
 minecraft:heavy_weighted_pressure_plate, Weighted Pressure Plate (Heavy)
-minecraft:daylight_detector, Daylight Detector
+minecraft:daylight_detector, Daylight Sensor
 minecraft:redstone_block, Block of Redstone
 minecraft:quartz_ore, Nether Quartz Ore
 minecraft:hopper, Hopper
 minecraft:quartz_block:0, Block of Quartz
 minecraft:quartz_block:1, Chiseled Quartz Block
-minecraft:quartz_block:2, Quartz Pillar
+minecraft:quartz_block:2, Pillar Quartz Block
 minecraft:quartz_stairs, Quartz Stairs
 minecraft:activator_rail, Activator Track
 minecraft:dropper, Dropper
@@ -248,8 +248,8 @@ minecraft:leaves2:0, Acacia Leaves
 minecraft:leaves2:1, Dark Oak Leaves
 minecraft:log2:0, Acacia Log
 minecraft:log2:1, Dark Oak Log
-minecraft:acacia_stairs, Acacia Stairs
-minecraft:dark_oak_stairs, Dark Oak Stairs
+minecraft:acacia_stairs, Acacia Wood Stairs
+minecraft:dark_oak_stairs, Dark Oak Wood Stairs
 arsmagica2:essenceRefiner, Essence Refiner
 arsmagica2:mageTorch, Mage Light
 arsmagica2:essenceConduit, Etherium Conduit
@@ -277,7 +277,7 @@ minecraft:coal_block, Block of Coal
 minecraft:packed_ice, Packed Ice
 minecraft:double_plant:0, Sunflower
 minecraft:double_plant:1, Lilac
-minecraft:double_plant:2, Tallgrass
+minecraft:double_plant:2, Double Tallgrass
 minecraft:double_plant:3, Large Fern
 minecraft:double_plant:4, Rose Bush
 minecraft:double_plant:5, Peony
@@ -460,7 +460,7 @@ minecraft:lava_bucket, Lava Bucket
 minecraft:minecart, Minecart
 minecraft:saddle, Saddle
 minecraft:iron_door, Iron Door
-minecraft:redstone, Redstone Dust
+minecraft:redstone, Redstone
 minecraft:snowball, Snowball
 minecraft:boat, Boat
 minecraft:leather, Leather
@@ -508,7 +508,7 @@ minecraft:repeater, Redstone Repeater
 minecraft:cookie, Cookie
 minecraft:filled_map:0, Map
 minecraft:shears, Shears
-minecraft:melon, Melon Slice
+minecraft:melon, Melon
 minecraft:pumpkin_seeds, Pumpkin Seeds
 minecraft:melon_seeds, Melon Seeds
 minecraft:beef, Raw Beef
@@ -723,9 +723,15 @@ appliedenergistics2:tile.BlockQuartzGrowthAccelerator, Crystal Growth Accelerato
 appliedenergistics2:tile.BlockEnergyCell, Energy Cell
 appliedenergistics2:tile.BlockDenseEnergyCell, Dense Energy Cell
 appliedenergistics2:tile.BlockCreativeEnergyCell, Creative Energy Cell
-appliedenergistics2:tile.BlockCraftingUnit, Crafting Unit
-appliedenergistics2:tile.BlockCraftingStorage, 1k Crafting Storage
-appliedenergistics2:tile.BlockCraftingMonitor, Crafting Monitor
+appliedenergistics2:tile.BlockCraftingUnit:0, Crafting Unit
+appliedenergistics2:tile.BlockCraftingUnit:1, Crafting Co-Processing Unit
+appliedenergistics2:tile.BlockCraftingUnit:2, Quad Core Co-Processing Unit
+appliedenergistics2:tile.BlockCraftingUnit:3, 16 Core Co-Processing Unit
+appliedenergistics2:tile.BlockCraftingStorage:0, 1k Crafting Storage
+appliedenergistics2:tile.BlockCraftingStorage:1, 4k Crafting Storage
+appliedenergistics2:tile.BlockCraftingStorage:2, 16k Crafting Storage
+appliedenergistics2:tile.BlockCraftingStorage:3, 64k Crafting Storage
+appliedenergistics2:tile.BlockCraftingMonitor:0, Crafting Monitor
 appliedenergistics2:tile.BlockMolecularAssembler, Molecular Assembler
 appliedenergistics2:tile.BlockLightDetector, Light Detecting Fixture
 appliedenergistics2:tile.BlockPaint, tile.appliedenergistics2.BlockPaint.name
@@ -2841,7 +2847,7 @@ HardcoreEnderExpansion:dungeon_puzzle:5, Dungeon Puzzle (Distributor - Spread - 
 HardcoreEnderExpansion:dungeon_puzzle:6, Dungeon Puzzle (Distributor - Square - Unlit)
 HardcoreEnderExpansion:dungeon_puzzle:7, Dungeon Puzzle (Distributor - Square - Lit)
 HardcoreEnderExpansion:laboratory_floor, Laboratory Floor
-HardcoreEnderExpansion:custom_spawner, Spawner
+HardcoreEnderExpansion:custom_spawner, Monster Spawner
 HardcoreEnderExpansion:cinder, Cinder
 HardcoreEnderExpansion:spooky_leaves, Spooky Leaves
 HardcoreEnderExpansion:igneous_rock_ore, Igneous Rock Ore
@@ -4134,79 +4140,6 @@ BinnieCore:storage:2, Bronze Compartment
 BinnieCore:storage:3, Iron Compartment
 BinnieCore:storage:4, Gold Compartment
 BinnieCore:storage:5, Diamond Compartment
-Genetics:machine:0, Isolator
-Genetics:machine:1, Sequencer
-Genetics:machine:2, Polymeriser
-Genetics:machine:3, Inoculator
-Genetics:labMachine:0, Lab Stand
-Genetics:labMachine:1, Analyzer
-Genetics:labMachine:2, Incubator
-Genetics:labMachine:3, Genepool
-Genetics:labMachine:4, Acclimatiser
-Genetics:advMachine:0, Splicer
-ExtraTrees:planks, tile.planks.name
-ExtraTrees:fence, Fence
-ExtraTrees:multifence, tile.multifence.name
-ExtraTrees:log, Wooden Log
-ExtraTrees:gate, tile.null.name
-ExtraTrees:slab:0, Fir Wood Slab
-ExtraTrees:slab:1, Cedar Wood Slab
-ExtraTrees:slab:2, Hemlock Wood Slab
-ExtraTrees:slab:3, Cypress Wood Slab
-ExtraTrees:slab:4, Fig Wood Slab
-ExtraTrees:slab:5, Beech Wood Slab
-ExtraTrees:slab:6, Alder Wood Slab
-ExtraTrees:slab:7, Hazel Wood Slab
-ExtraTrees:slab:8, Hornbeam Wood Slab
-ExtraTrees:slab:9, Box Wood Slab
-ExtraTrees:slab:10, Butternut Wood Slab
-ExtraTrees:slab:11, Hickory Wood Slab
-ExtraTrees:slab:12, Whitebeam Wood Slab
-ExtraTrees:slab:13, Elm Wood Slab
-ExtraTrees:slab:14, Apple Wood Slab
-ExtraTrees:slab:15, Yew Wood Slab
-ExtraTrees:slab:16, Pear Wood Slab
-ExtraTrees:slab:17, Hawthorn Wood Slab
-ExtraTrees:slab:18, Rowan Wood Slab
-ExtraTrees:slab:19, Elder Wood Slab
-ExtraTrees:slab:20, Maclura Wood Slab
-ExtraTrees:slab:21, Syzgium Wood Slab
-ExtraTrees:slab:22, Brazilwood Wood Slab
-ExtraTrees:slab:23, Logwood Wood Slab
-ExtraTrees:slab:24, Iroko Wood Slab
-ExtraTrees:slab:25, Locust Wood Slab
-ExtraTrees:slab:26, Eucalyptus Wood Slab
-ExtraTrees:slab:27, Purpleheart Wood Slab
-ExtraTrees:slab:28, Ash Wood Slab
-ExtraTrees:slab:29, Holly Wood Slab
-ExtraTrees:slab:30, Olive Wood Slab
-ExtraTrees:slab:31, Sweetgum Wood Slab
-ExtraTrees:slab:32, Rosewood Wood Slab
-ExtraTrees:slab:33, Gingko Wood Slab
-ExtraTrees:slab:34, Pink Ivory Wood Slab
-ExtraTrees:door, tile.door.name
-ExtraTrees:stairs, tile.stairs.name
-ExtraTrees:carpentry, tile.carpentry.name
-ExtraTrees:panel, tile.carpentry.name
-ExtraTrees:stainedglass, Stained Glass
-ExtraTrees:machine:0, Lumbermill
-ExtraTrees:machine:1, Woodworker
-ExtraTrees:machine:2, Panelworker
-ExtraTrees:machine:3, Glassworker
-ExtraTrees:machine:4, Tileworker
-ExtraBees:ectoplasm, Ectoplasm
-ExtraBees:hive:0, Water Hive
-ExtraBees:hive:1, Rock Hive
-ExtraBees:hive:2, Nether Hive
-ExtraBees:hive:3, Marble Hive
-ExtraBees:alveary:0, Mutator
-ExtraBees:alveary:1, Frame Housing
-ExtraBees:alveary:2, Rain Shield
-ExtraBees:alveary:3, Alveary Lighting
-ExtraBees:alveary:4, Electrical Stimulator
-ExtraBees:alveary:5, Hatchery
-ExtraBees:alveary:6, Alveary Transmission
-ExtraBees:alveary:7, Alveary Unlighting
 Botany:flower, Flower
 Botany:plant:0, Weeds
 Botany:plant:1, Long Weeds
@@ -4271,6 +4204,79 @@ Botany:ceramic, tile.ceramic.name
 Botany:stained, tile.stained.name
 Botany:ceramicPattern, tile.ceramicPattern.name
 Botany:ceramicBrick, tile.ceramicBrick.name
+Genetics:machine:0, Isolator
+Genetics:machine:1, Sequencer
+Genetics:machine:2, Polymeriser
+Genetics:machine:3, Inoculator
+Genetics:labMachine:0, Lab Stand
+Genetics:labMachine:1, Analyzer
+Genetics:labMachine:2, Incubator
+Genetics:labMachine:3, Genepool
+Genetics:labMachine:4, Acclimatiser
+Genetics:advMachine:0, Splicer
+ExtraBees:ectoplasm, Ectoplasm
+ExtraBees:hive:0, Water Hive
+ExtraBees:hive:1, Rock Hive
+ExtraBees:hive:2, Nether Hive
+ExtraBees:hive:3, Marble Hive
+ExtraBees:alveary:0, Mutator
+ExtraBees:alveary:1, Frame Housing
+ExtraBees:alveary:2, Rain Shield
+ExtraBees:alveary:3, Alveary Lighting
+ExtraBees:alveary:4, Electrical Stimulator
+ExtraBees:alveary:5, Hatchery
+ExtraBees:alveary:6, Alveary Transmission
+ExtraBees:alveary:7, Alveary Unlighting
+ExtraTrees:planks, tile.planks.name
+ExtraTrees:fence, Fence
+ExtraTrees:multifence, tile.multifence.name
+ExtraTrees:log, Wooden Log
+ExtraTrees:gate, tile.null.name
+ExtraTrees:slab:0, Fir Wood Slab
+ExtraTrees:slab:1, Cedar Wood Slab
+ExtraTrees:slab:2, Hemlock Wood Slab
+ExtraTrees:slab:3, Cypress Wood Slab
+ExtraTrees:slab:4, Fig Wood Slab
+ExtraTrees:slab:5, Beech Wood Slab
+ExtraTrees:slab:6, Alder Wood Slab
+ExtraTrees:slab:7, Hazel Wood Slab
+ExtraTrees:slab:8, Hornbeam Wood Slab
+ExtraTrees:slab:9, Box Wood Slab
+ExtraTrees:slab:10, Butternut Wood Slab
+ExtraTrees:slab:11, Hickory Wood Slab
+ExtraTrees:slab:12, Whitebeam Wood Slab
+ExtraTrees:slab:13, Elm Wood Slab
+ExtraTrees:slab:14, Apple Wood Slab
+ExtraTrees:slab:15, Yew Wood Slab
+ExtraTrees:slab:16, Pear Wood Slab
+ExtraTrees:slab:17, Hawthorn Wood Slab
+ExtraTrees:slab:18, Rowan Wood Slab
+ExtraTrees:slab:19, Elder Wood Slab
+ExtraTrees:slab:20, Maclura Wood Slab
+ExtraTrees:slab:21, Syzgium Wood Slab
+ExtraTrees:slab:22, Brazilwood Wood Slab
+ExtraTrees:slab:23, Logwood Wood Slab
+ExtraTrees:slab:24, Iroko Wood Slab
+ExtraTrees:slab:25, Locust Wood Slab
+ExtraTrees:slab:26, Eucalyptus Wood Slab
+ExtraTrees:slab:27, Purpleheart Wood Slab
+ExtraTrees:slab:28, Ash Wood Slab
+ExtraTrees:slab:29, Holly Wood Slab
+ExtraTrees:slab:30, Olive Wood Slab
+ExtraTrees:slab:31, Sweetgum Wood Slab
+ExtraTrees:slab:32, Rosewood Wood Slab
+ExtraTrees:slab:33, Gingko Wood Slab
+ExtraTrees:slab:34, Pink Ivory Wood Slab
+ExtraTrees:door, tile.door.name
+ExtraTrees:stairs, tile.stairs.name
+ExtraTrees:carpentry, tile.carpentry.name
+ExtraTrees:panel, tile.carpentry.name
+ExtraTrees:stainedglass, Stained Glass
+ExtraTrees:machine:0, Lumbermill
+ExtraTrees:machine:1, Woodworker
+ExtraTrees:machine:2, Panelworker
+ExtraTrees:machine:3, Glassworker
+ExtraTrees:machine:4, Tileworker
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -5353,7 +5359,7 @@ Railcraft:brick.sandy:2, Sandy Block
 Railcraft:brick.sandy:3, Ornate Sandy Stone
 Railcraft:brick.sandy:4, Etched Sandy Stone
 Railcraft:brick.sandy:5, Sandy Cobblestone
-Railcraft:brick.nether:0, Nether Bricks
+Railcraft:brick.nether:0, Nether Brick
 Railcraft:brick.nether:1, Fitted Nether Stone
 Railcraft:brick.nether:2, Nether Block
 Railcraft:brick.nether:3, Ornate Nether Stone
@@ -5632,7 +5638,13 @@ TwilightForest:tile.CinderFurnaceIdle, Cinder Furnace [NYI]
 TwilightForest:tile.CinderFurnaceLit, Cinder Furnace [NYI]
 TwilightForest:tile.CinderLog:0, Cinder Log [NYI]
 TwilightForest:tile.CastleDoor:0, Blue Castle Door
+TwilightForest:tile.CastleDoor:1, Yellow Castle Door
+TwilightForest:tile.CastleDoor:2, Pink Castle Door
+TwilightForest:tile.CastleDoor:3, Violet Castle Door
 TwilightForest:tile.CastleDoorVanished:0, Blue Castle Door
+TwilightForest:tile.CastleDoorVanished:1, Yellow Castle Door
+TwilightForest:tile.CastleDoorVanished:2, Pink Castle Door
+TwilightForest:tile.CastleDoorVanished:3, Violet Castle Door
 TwilightForest:tile.TFPlank:0, Twilight Oak Planks
 TwilightForest:tile.TFPlank:1, Canopy Planks
 TwilightForest:tile.TFPlank:2, Mangrove Planks
@@ -7096,14 +7108,10 @@ wizardry:vanishing_cobweb, tile.vanishingCobweb.name
 EnderZoo:blockConfusingCharge, Confusing Charge
 EnderZoo:blockEnderCharge, Ender Charge
 EnderZoo:blockConcussionCharge, Concussion Charge
-etfuturum:crying_obsidian, Crying Obsidian
-etfuturum:rose, Rose
-etfuturum:old_gravel, Old Gravel
 etfuturum:prismarine_block:0, Prismarine
 etfuturum:prismarine_block:1, Prismarine Bricks
 etfuturum:prismarine_block:2, Dark Prismarine
 etfuturum:sea_lantern, Sea Lantern
-etfuturum:daylight_detector_inverted, Inverted Daylight Detector
 etfuturum:red_sandstone:0, Red Sandstone
 etfuturum:red_sandstone:1, Chiseled Red Sandstone
 etfuturum:red_sandstone:2, Cut Red Sandstone
@@ -7127,7 +7135,6 @@ etfuturum:banner:13, Green Banner
 etfuturum:banner:14, Red Banner
 etfuturum:banner:15, Black Banner
 etfuturum:slime, Slime Block
-etfuturum:beetroots, Beetroots
 etfuturum:purpur_block, Purpur Block
 etfuturum:purpur_pillar, Purpur Pillar
 etfuturum:end_bricks, End Stone Bricks
@@ -7140,7 +7147,6 @@ etfuturum:red_netherbrick:0, Red Nether Bricks
 etfuturum:red_netherbrick:1, Cracked Nether Bricks
 etfuturum:red_netherbrick:2, Chiseled Nether Bricks
 etfuturum:nether_wart, Nether Wart Block
-etfuturum:barrier, Barrier
 etfuturum:blue_ice, Blue Ice
 etfuturum:smooth_stone, Smooth Stone
 etfuturum:smooth_sandstone, Smooth Sandstone
@@ -7203,7 +7209,8 @@ etfuturum:red_sandstone_stairs, Red Sandstone Stairs
 etfuturum:purpur_stairs, Purpur Stairs
 etfuturum:red_sandstone_slab:0, Red Sandstone Slab
 etfuturum:red_sandstone_slab:1, Cut Red Sandstone Slab
-etfuturum:purpur_slab:0, Purpur Slab
+etfuturum:purpur_slab, Purpur Slab
+etfuturum:double_purpur_slab, Purpur Slab
 etfuturum:stone_slab:0, Stone Slab
 etfuturum:stone_slab:1, Mossy Cobblestone Slab
 etfuturum:stone_slab:2, Mossy Stone Brick Slab
@@ -7219,14 +7226,19 @@ etfuturum:mossy_stone_brick_stairs, Mossy Stone Brick Stairs
 etfuturum:mossy_cobblestone_stairs, Mossy Cobblestone Stairs
 etfuturum:stone_stairs, Stone Stairs
 etfuturum:end_brick_stairs, End Stone Brick Stairs
-etfuturum:smooth_sandstone_slab:0, Smooth Sandstone Slab
-etfuturum:smooth_red_sandstone_slab:0, Smooth Red Sandstone Slab
+etfuturum:smooth_sandstone_slab, Smooth Sandstone Slab
+etfuturum:double_smooth_sandstone_slab, Smooth Sandstone Slab
+etfuturum:smooth_red_sandstone_slab, Smooth Red Sandstone Slab
+etfuturum:double_smooth_red_sandstone_slab, Smooth Red Sandstone Slab
 etfuturum:prismarine_slab:0, Prismarine Slab
 etfuturum:prismarine_slab:1, Prismarine Bricks Slab
 etfuturum:prismarine_slab:2, Dark Prismarine Slab
-etfuturum:smooth_quartz_slab:0, Smooth Quartz Slab
-etfuturum:red_netherbrick_slab:0, Red Nether Brick Slab
-etfuturum:end_brick_slab:0, End Stone Brick Slab
+etfuturum:smooth_quartz_slab, Smooth Quartz Slab
+etfuturum:double_smooth_quartz_slab, Smooth Quartz Slab
+etfuturum:red_netherbrick_slab, Red Nether Brick Slab
+etfuturum:double_red_netherbrick_slab, Red Nether Brick Slab
+etfuturum:end_brick_slab, End Stone Brick Slab
+etfuturum:double_end_brick_slab, End Stone Brick Slab
 etfuturum:deepslate_slab:0, Cobbled Deepslate Slab
 etfuturum:deepslate_slab:1, Polished Deepslate Slab
 etfuturum:deepslate_brick_slab:0, Deepslate Brick Slab
@@ -7240,20 +7252,9 @@ etfuturum:magma, Magma Block
 etfuturum:barrel, Barrel
 etfuturum:lantern, Lantern
 etfuturum:smoker, Smoker
-etfuturum:lit_smoker, tile.etfuturum.lit_smoker.name
 etfuturum:blast_furnace, Blast Furnace
-etfuturum:lit_blast_furnace, tile.etfuturum.lit_blast_furnace.name
 etfuturum:composter, Composter
-etfuturum:sign_spruce, tile.etfuturum.sign_spruce.name
-etfuturum:wall_sign_spruce, tile.etfuturum.wall_sign_spruce.name
-etfuturum:sign_birch, tile.etfuturum.sign_birch.name
-etfuturum:wall_sign_birch, tile.etfuturum.wall_sign_birch.name
-etfuturum:sign_jungle, tile.etfuturum.sign_jungle.name
-etfuturum:wall_sign_jungle, tile.etfuturum.wall_sign_jungle.name
-etfuturum:sign_acacia, tile.etfuturum.sign_acacia.name
-etfuturum:wall_sign_acacia, tile.etfuturum.wall_sign_acacia.name
-etfuturum:sign_dark_oak, tile.etfuturum.sign_dark_oak.name
-etfuturum:wall_sign_dark_oak, tile.etfuturum.wall_sign_dark_oak.name
+etfuturum:chain, Chain
 etfuturum:trapdoor_spruce, Spruce Trapdoor
 etfuturum:trapdoor_birch, Birch Trapdoor
 etfuturum:trapdoor_jungle, Jungle Trapdoor
@@ -7272,6 +7273,9 @@ etfuturum:pressure_plate_dark_oak, Dark Oak Pressure Plate
 etfuturum:fence_spruce, Spruce Fence
 etfuturum:fence_birch, Birch Fence
 etfuturum:fence_jungle, Jungle Fence
+etfuturum:fence_acacia, Acacia Fence
+etfuturum:fence_dark_oak, Dark Oak Fence
+etfuturum:fence_gate_spruce, Spruce Fence Gate
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -7284,9 +7288,6 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
-etfuturum:fence_acacia, Acacia Fence
-etfuturum:fence_dark_oak, Dark Oak Fence
-etfuturum:fence_gate_spruce, Spruce Fence Gate
 etfuturum:fence_gate_birch, Birch Fence Gate
 etfuturum:fence_gate_jungle, Jungle Fence Gate
 etfuturum:fence_gate_acacia, Acacia Fence Gate
@@ -7296,6 +7297,26 @@ etfuturum:door_birch, Birch Door
 etfuturum:door_jungle, Jungle Door
 etfuturum:door_acacia, Acacia Door
 etfuturum:door_dark_oak, Dark Oak Door
+etfuturum:crying_obsidian, Crying Obsidian
+etfuturum:rose, Rose
+etfuturum:old_gravel, Old Gravel
+etfuturum:light:0, Light
+etfuturum:light:1, Light
+etfuturum:light:2, Light
+etfuturum:light:3, Light
+etfuturum:light:4, Light
+etfuturum:light:5, Light
+etfuturum:light:6, Light
+etfuturum:light:7, Light
+etfuturum:light:8, Light
+etfuturum:light:9, Light
+etfuturum:light:10, Light
+etfuturum:light:11, Light
+etfuturum:light:12, Light
+etfuturum:light:13, Light
+etfuturum:light:14, Light
+etfuturum:light:15, Light
+etfuturum:barrier, Barrier
 Metallurgy:machine.frame, Machine Frame
 Metallurgy:crusher, Crusher
 Metallurgy:alloyer, Alloyer
@@ -7686,43 +7707,43 @@ ExtraTiC:moltenElementium, Molten Elementium
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
 ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
 ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:infusedFarmland, Infused Farmland
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:spawner, Tablet of Necromancy
 ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
+ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
-ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:infusedFarmland, Infused Farmland
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:platform, Ethereal Platform
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -10310,7 +10331,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Lazuli Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Lazuli Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Sandstone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cut Sandstone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smooth Sandstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Wool
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Orange Wool
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Magenta Wool
@@ -10332,7 +10353,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Iron
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - TNT
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bookshelf
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Moss Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Obsidian
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Diamond Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Diamond
@@ -10359,12 +10380,12 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Brown Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Stained Glass
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Stone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Mossy Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Cracked Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Chiseled Stone Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cobblestone Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Brick Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Stone Brick Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Stone Brick Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Stone Brick Monster Egg
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Stone Bricks
@@ -10372,7 +10393,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mushroom
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mushroom
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Melon
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Redstone Lamp
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Emerald Ore
@@ -10381,7 +10402,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Redstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Quartz Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Quartz Pillar
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - White Terracotta
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Orange Terracotta
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Magenta Terracotta
@@ -11414,7 +11435,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ornate Sandy Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Etched Sandy Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandy Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fitted Nether Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ornate Nether Stone
@@ -11512,6 +11533,9 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Pink Castle Rune Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Violet Castle Rune Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Cinder Log [NYI]
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Castle Door
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Castle Door
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pink Castle Door
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Violet Castle Door
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Twilight Oak Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Canopy Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mangrove Planks
@@ -12551,8 +12575,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.null.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Confusing Charge
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ender Charge
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Concussion Charge
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Crying Obsidian
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Old Gravel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Prismarine
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Prismarine Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Prismarine
@@ -12608,6 +12630,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Smooth Basalt
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Calcite
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Amethyst Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tinted Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crying Obsidian
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Old Gravel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tin Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Manganese Ore
@@ -16294,38 +16318,38 @@ BiblioWoodsNatura:seatBack5:9, Silverbell Seat Back
 BiblioWoodsNatura:seatBack5:10, Sakura Seat Back
 BiblioWoodsNatura:seatBack5:11, Tiger Seat Back
 BiblioWoodsNatura:seatBack5:12, Willow Seat Back
-BinnieCore:containerBucket:128, Sap Bucket
-BinnieCore:containerBucket:129, Resin Bucket
-BinnieCore:containerBucket:130, Latex Bucket
-BinnieCore:containerBucket:131, Turpentine Bucket
 BinnieCore:containerBucket:64, Acid Bucket
 BinnieCore:containerBucket:65, Poison Bucket
 BinnieCore:containerBucket:66, Ambrosia Bucket
 BinnieCore:containerBucket:67, Ichor Bucket
 BinnieCore:containerBucket:68, Nitrogen Bucket
-BinnieCore:containerCapsule:128, Sap Capsule
-BinnieCore:containerCapsule:129, Resin Capsule
-BinnieCore:containerCapsule:130, Latex Capsule
-BinnieCore:containerCapsule:131, Turpentine Capsule
+BinnieCore:containerBucket:128, Sap Bucket
+BinnieCore:containerBucket:129, Resin Bucket
+BinnieCore:containerBucket:130, Latex Bucket
+BinnieCore:containerBucket:131, Turpentine Bucket
 BinnieCore:containerCapsule:64, Acid Capsule
 BinnieCore:containerCapsule:65, Poison Capsule
 BinnieCore:containerCapsule:66, Ambrosia Capsule
 BinnieCore:containerCapsule:67, Ichor Capsule
 BinnieCore:containerCapsule:68, Nitrogen Capsule
+BinnieCore:containerCapsule:128, Sap Capsule
+BinnieCore:containerCapsule:129, Resin Capsule
+BinnieCore:containerCapsule:130, Latex Capsule
+BinnieCore:containerCapsule:131, Turpentine Capsule
 BinnieCore:containerRefractory:64, Acid Capsule
 BinnieCore:containerRefractory:65, Poison Capsule
 BinnieCore:containerRefractory:66, Ambrosia Capsule
 BinnieCore:containerRefractory:67, Ichor Capsule
 BinnieCore:containerRefractory:68, Nitrogen Capsule
-BinnieCore:containerCan:128, Sap Can
-BinnieCore:containerCan:129, Resin Can
-BinnieCore:containerCan:130, Latex Can
-BinnieCore:containerCan:131, Turpentine Can
 BinnieCore:containerCan:64, Acid Can
 BinnieCore:containerCan:65, Poison Can
 BinnieCore:containerCan:66, Ambrosia Can
 BinnieCore:containerCan:67, Ichor Can
 BinnieCore:containerCan:68, Nitrogen Can
+BinnieCore:containerCan:128, Sap Can
+BinnieCore:containerCan:129, Resin Can
+BinnieCore:containerCan:130, Latex Can
+BinnieCore:containerCan:131, Turpentine Can
 BinnieCore:containerCylinder:768, Growth Medium Cylinder
 BinnieCore:containerCylinder:769, Bacteria Cylinder
 BinnieCore:containerCylinder:770, Polymerized Bacteria Cylinder
@@ -16333,166 +16357,18 @@ BinnieCore:containerCylinder:771, Raw DNA Cylinder
 BinnieCore:containerCylinder:772, Bacteria Vector Cylinder
 BinnieCore:genesis, item.genesis.name
 BinnieCore:fieldKit, item.fieldKit.name
-Genetics:serumArray, item.serumArray.name
-Genetics:misc:0, Reinforced Casing
-Genetics:misc:1, DNA Dye
-Genetics:misc:2, Fluorescent Dye
-Genetics:misc:3, Enzyme
-Genetics:misc:4, Growth Medium
-Genetics:misc:5, Blank Sequence
-Genetics:misc:6, Empty Serum Vial
-Genetics:misc:7, Empty Serum Array
-Genetics:misc:8, Glass Cylinder
-Genetics:misc:9, Integrated Circuit Board
-Genetics:misc:10, Integrated CPU
-Genetics:misc:11, Integrated Casing
-Genetics:serum, item.serum.name
-Genetics:sequence, item.sequence.name
-Genetics:database, item.database.name
-Genetics:analyst, item.analyst.name
-Genetics:registry, item.registry.name
-Genetics:masterRegistry, item.masterRegistry.name
-ExtraTrees:database, item.database.name
-ExtraTrees:databaseMoth, item.databaseMoth.name
-ExtraTrees:misc:1, Sawdust
-ExtraTrees:misc:2, Bark
-ExtraTrees:misc:3, Proven Gear
-ExtraTrees:misc:4, Wood Polish
-ExtraTrees:misc:5, Glass Fittings
-ExtraTrees:food:0, Crabapple
-ExtraTrees:food:1, Orange
-ExtraTrees:food:2, Kumquat
-ExtraTrees:food:3, Lime
-ExtraTrees:food:4, Wild Cherry
-ExtraTrees:food:5, Sour Cherry
-ExtraTrees:food:6, Black Cherry
-ExtraTrees:food:7, Blackthorn
-ExtraTrees:food:8, Cherry Plum
-ExtraTrees:food:9, Almond
-ExtraTrees:food:10, Apricot
-ExtraTrees:food:11, Grapefruit
-ExtraTrees:food:12, Peach
-ExtraTrees:food:13, Satsuma
-ExtraTrees:food:14, Buddhas Hand
-ExtraTrees:food:15, Citron
-ExtraTrees:food:16, Finger Lime
-ExtraTrees:food:17, Key Lime
-ExtraTrees:food:18, Manderin
-ExtraTrees:food:19, Nectarine
-ExtraTrees:food:20, Pomelo
-ExtraTrees:food:21, Tangerine
-ExtraTrees:food:22, Pear
-ExtraTrees:food:23, Sand Pear
-ExtraTrees:food:24, Hazelnut
-ExtraTrees:food:25, Butternut
-ExtraTrees:food:26, Beechnut
-ExtraTrees:food:27, Pecan Nut
-ExtraTrees:food:28, Banana
-ExtraTrees:food:29, Red Banana
-ExtraTrees:food:30, Plantain
-ExtraTrees:food:31, Brazil Nut
-ExtraTrees:food:32, Fig
-ExtraTrees:food:33, Acorn
-ExtraTrees:food:34, Elderberry
-ExtraTrees:food:35, Olive
-ExtraTrees:food:36, Gingko Nut
-ExtraTrees:food:37, Coffee
-ExtraTrees:food:38, Osange Orange
-ExtraTrees:food:39, Clove
-ExtraTrees:food:40, Papayimar
-ExtraTrees:food:41, Blackcurrant
-ExtraTrees:food:42, Redcurrant
-ExtraTrees:food:43, Blackberry
-ExtraTrees:food:44, Raspberry
-ExtraTrees:food:45, Blueberry
-ExtraTrees:food:46, Cranberry
-ExtraTrees:food:47, Juniper
-ExtraTrees:food:48, Gooseberry
-ExtraTrees:food:49, Golden Raspberry
-ExtraTrees:food:50, Coconut
-ExtraTrees:food:51, Cashew
-ExtraTrees:food:52, Avacado
-ExtraTrees:food:53, Nutmeg
-ExtraTrees:food:54, Allspice
-ExtraTrees:food:55, Chilli
-ExtraTrees:food:56, Star Anise
-ExtraTrees:food:57, Mango
-ExtraTrees:food:58, Starfruit
-ExtraTrees:food:59, Candlenut
-ExtraTrees:hammer, item.hammer.name
-ExtraTrees:durableHammer, item.durableHammer.name
-ExtraBees:hiveFrame.cocoa, item.hiveFrame.name
-ExtraBees:hiveFrame.cage, item.hiveFrame.name
-ExtraBees:hiveFrame.soul, item.hiveFrame.name
-ExtraBees:hiveFrame.clay, item.hiveFrame.name
-ExtraBees:hiveFrame.debug, item.hiveFrame.name
-ExtraBees:propolis:0, Watery Propolis
-ExtraBees:propolis:1, Oily Propolis
-ExtraBees:propolis:2, Petroleum Propolis
-ExtraBees:propolis:3, Creosote Propolis
-ExtraBees:honeyDrop:1, Acidic Drop
-ExtraBees:honeyDrop:2, Venomous Drop
-ExtraBees:honeyDrop:3, Juicy Drop
-ExtraBees:honeyDrop:4, Kelvin Drop
-ExtraBees:honeyDrop:5, Milkdew
-ExtraBees:honeyDrop:6, Nutdew
-ExtraBees:honeyDrop:7, Tipsy Drop
-ExtraBees:honeyDrop:8, Red Tinted Honey
-ExtraBees:honeyDrop:9, Yellow Tinted Honey
-ExtraBees:honeyDrop:10, Blue Tinted Honey
-ExtraBees:honeyDrop:11, Green Tinted Honey
-ExtraBees:honeyDrop:12, Black Tinted Honey
-ExtraBees:honeyDrop:13, White Tinted Honey
-ExtraBees:honeyDrop:14, Brown Tinted Honey
-ExtraBees:honeyDrop:15, Orange Tinted Honey
-ExtraBees:honeyDrop:16, Cyan Tinted Honey
-ExtraBees:honeyDrop:17, Purple Tinted Honey
-ExtraBees:honeyDrop:18, Gray Tinted Honey
-ExtraBees:honeyDrop:19, Light Blue Tinted Honey
-ExtraBees:honeyDrop:20, Pink Tinted Honey
-ExtraBees:honeyDrop:21, Lime Green Tinted Honey
-ExtraBees:honeyDrop:22, Magenta Tinted Honey
-ExtraBees:honeyDrop:23, Light Gray Tinted Honey
-ExtraBees:dictionary, item.dictionary.name
-ExtraBees:misc:0, Scented Gear
-ExtraBees:misc:1, Diamond Fragment
-ExtraBees:misc:2, Emerald Fragment
-ExtraBees:misc:3, Ruby Fragment
-ExtraBees:misc:4, Sapphire Fragment
-ExtraBees:misc:5, Lapis Fragment
-ExtraBees:misc:6, Iron Grains
-ExtraBees:misc:7, Gold Grains
-ExtraBees:misc:8, Silver Grains
-ExtraBees:misc:9, Platinum Grains
-ExtraBees:misc:10, Copper Grains
-ExtraBees:misc:11, Tin Grains
-ExtraBees:misc:12, Nickel Grains
-ExtraBees:misc:13, Lead Grains
-ExtraBees:misc:14, Zinc Grains
-ExtraBees:misc:15, Titanium Grains
-ExtraBees:misc:16, Tungsten Grains
-ExtraBees:misc:17, Radioactive Fragments
-ExtraBees:misc:18, Coal Grains
-ExtraBees:misc:19, Red Dye
-ExtraBees:misc:20, Yellow Dye
-ExtraBees:misc:21, Blue Dye
-ExtraBees:misc:22, Green Dye
-ExtraBees:misc:23, White Dye
-ExtraBees:misc:24, Black Dye
-ExtraBees:misc:25, Brown Dye
-ExtraBees:misc:26, Clay Dust
 Botany:database, item.database.name
 Botany:trowelWood, Wooden Trowel
 Botany:trowelStone, Stone Trowel
 Botany:trowelIron, Iron Trowel
 Botany:trowelDiamond, Diamond Trowel
 Botany:trowelGold, Gold Trowel
-Botany:insulatedTube:0, Cooper Insulated Tube
-Botany:insulatedTube:128, Cooper Insulated Tube
-Botany:insulatedTube:256, Cooper Insulated Tube
-Botany:insulatedTube:384, Cooper Insulated Tube
-Botany:insulatedTube:512, Cooper Insulated Tube
-Botany:insulatedTube:640, Cooper Insulated Tube
+Botany:insulatedTube:0, Copper Insulated Tube
+Botany:insulatedTube:128, Copper Insulated Tube
+Botany:insulatedTube:256, Copper Insulated Tube
+Botany:insulatedTube:384, Copper Insulated Tube
+Botany:insulatedTube:512, Copper Insulated Tube
+Botany:insulatedTube:640, Copper Insulated Tube
 Botany:insulatedTube:1, Tin Insulated Tube
 Botany:insulatedTube:129, Tin Insulated Tube
 Botany:insulatedTube:257, Tin Insulated Tube
@@ -16680,6 +16556,154 @@ Botany:clay:76, Clay
 Botany:clay:77, Clay
 Botany:clay:78, Clay
 Botany:clay:79, Clay
+Genetics:serumArray, item.serumArray.name
+Genetics:misc:0, Reinforced Casing
+Genetics:misc:1, DNA Dye
+Genetics:misc:2, Fluorescent Dye
+Genetics:misc:3, Enzyme
+Genetics:misc:4, Growth Medium
+Genetics:misc:5, Blank Sequence
+Genetics:misc:6, Empty Serum Vial
+Genetics:misc:7, Empty Serum Array
+Genetics:misc:8, Glass Cylinder
+Genetics:misc:9, Integrated Circuit Board
+Genetics:misc:10, Integrated CPU
+Genetics:misc:11, Integrated Casing
+Genetics:serum, item.serum.name
+Genetics:sequence, item.sequence.name
+Genetics:database, item.database.name
+Genetics:analyst, item.analyst.name
+Genetics:registry, item.registry.name
+Genetics:masterRegistry, item.masterRegistry.name
+ExtraBees:hiveFrame.cocoa, item.hiveFrame.name
+ExtraBees:hiveFrame.cage, item.hiveFrame.name
+ExtraBees:hiveFrame.soul, item.hiveFrame.name
+ExtraBees:hiveFrame.clay, item.hiveFrame.name
+ExtraBees:hiveFrame.debug, item.hiveFrame.name
+ExtraBees:propolis:0, Watery Propolis
+ExtraBees:propolis:1, Oily Propolis
+ExtraBees:propolis:2, Petroleum Propolis
+ExtraBees:propolis:3, Creosote Propolis
+ExtraBees:honeyDrop:1, Acidic Drop
+ExtraBees:honeyDrop:2, Venomous Drop
+ExtraBees:honeyDrop:3, Juicy Drop
+ExtraBees:honeyDrop:4, Kelvin Drop
+ExtraBees:honeyDrop:5, Milkdew
+ExtraBees:honeyDrop:6, Nutdew
+ExtraBees:honeyDrop:7, Tipsy Drop
+ExtraBees:honeyDrop:8, Red Tinted Honey
+ExtraBees:honeyDrop:9, Yellow Tinted Honey
+ExtraBees:honeyDrop:10, Blue Tinted Honey
+ExtraBees:honeyDrop:11, Green Tinted Honey
+ExtraBees:honeyDrop:12, Black Tinted Honey
+ExtraBees:honeyDrop:13, White Tinted Honey
+ExtraBees:honeyDrop:14, Brown Tinted Honey
+ExtraBees:honeyDrop:15, Orange Tinted Honey
+ExtraBees:honeyDrop:16, Cyan Tinted Honey
+ExtraBees:honeyDrop:17, Purple Tinted Honey
+ExtraBees:honeyDrop:18, Gray Tinted Honey
+ExtraBees:honeyDrop:19, Light Blue Tinted Honey
+ExtraBees:honeyDrop:20, Pink Tinted Honey
+ExtraBees:honeyDrop:21, Lime Green Tinted Honey
+ExtraBees:honeyDrop:22, Magenta Tinted Honey
+ExtraBees:honeyDrop:23, Light Gray Tinted Honey
+ExtraBees:dictionary, item.dictionary.name
+ExtraBees:misc:0, Scented Gear
+ExtraBees:misc:1, Diamond Fragment
+ExtraBees:misc:2, Emerald Fragment
+ExtraBees:misc:3, Ruby Fragment
+ExtraBees:misc:4, Sapphire Fragment
+ExtraBees:misc:5, Lapis Fragment
+ExtraBees:misc:6, Iron Grains
+ExtraBees:misc:7, Gold Grains
+ExtraBees:misc:8, Silver Grains
+ExtraBees:misc:9, Platinum Grains
+ExtraBees:misc:10, Copper Grains
+ExtraBees:misc:11, Tin Grains
+ExtraBees:misc:12, Nickel Grains
+ExtraBees:misc:13, Lead Grains
+ExtraBees:misc:14, Zinc Grains
+ExtraBees:misc:15, Titanium Grains
+ExtraBees:misc:16, Tungsten Grains
+ExtraBees:misc:17, Radioactive Fragments
+ExtraBees:misc:18, Coal Grains
+ExtraBees:misc:19, Red Dye
+ExtraBees:misc:20, Yellow Dye
+ExtraBees:misc:21, Blue Dye
+ExtraBees:misc:22, Green Dye
+ExtraBees:misc:23, White Dye
+ExtraBees:misc:24, Black Dye
+ExtraBees:misc:25, Brown Dye
+ExtraBees:misc:26, Clay Dust
+ExtraTrees:database, item.database.name
+ExtraTrees:databaseMoth, item.databaseMoth.name
+ExtraTrees:misc:1, Sawdust
+ExtraTrees:misc:2, Bark
+ExtraTrees:misc:3, Proven Gear
+ExtraTrees:misc:4, Wood Polish
+ExtraTrees:misc:5, Glass Fittings
+ExtraTrees:food:0, Crabapple
+ExtraTrees:food:1, Orange
+ExtraTrees:food:2, Kumquat
+ExtraTrees:food:3, Lime
+ExtraTrees:food:4, Wild Cherry
+ExtraTrees:food:5, Sour Cherry
+ExtraTrees:food:6, Black Cherry
+ExtraTrees:food:7, Blackthorn
+ExtraTrees:food:8, Cherry Plum
+ExtraTrees:food:9, Almond
+ExtraTrees:food:10, Apricot
+ExtraTrees:food:11, Grapefruit
+ExtraTrees:food:12, Peach
+ExtraTrees:food:13, Satsuma
+ExtraTrees:food:14, Buddhas Hand
+ExtraTrees:food:15, Citron
+ExtraTrees:food:16, Finger Lime
+ExtraTrees:food:17, Key Lime
+ExtraTrees:food:18, Manderin
+ExtraTrees:food:19, Nectarine
+ExtraTrees:food:20, Pomelo
+ExtraTrees:food:21, Tangerine
+ExtraTrees:food:22, Pear
+ExtraTrees:food:23, Sand Pear
+ExtraTrees:food:24, Hazelnut
+ExtraTrees:food:25, Butternut
+ExtraTrees:food:26, Beechnut
+ExtraTrees:food:27, Pecan Nut
+ExtraTrees:food:28, Banana
+ExtraTrees:food:29, Red Banana
+ExtraTrees:food:30, Plantain
+ExtraTrees:food:31, Brazil Nut
+ExtraTrees:food:32, Fig
+ExtraTrees:food:33, Acorn
+ExtraTrees:food:34, Elderberry
+ExtraTrees:food:35, Olive
+ExtraTrees:food:36, Gingko Nut
+ExtraTrees:food:37, Coffee
+ExtraTrees:food:38, Osange Orange
+ExtraTrees:food:39, Clove
+ExtraTrees:food:40, Papayimar
+ExtraTrees:food:41, Blackcurrant
+ExtraTrees:food:42, Redcurrant
+ExtraTrees:food:43, Blackberry
+ExtraTrees:food:44, Raspberry
+ExtraTrees:food:45, Blueberry
+ExtraTrees:food:46, Cranberry
+ExtraTrees:food:47, Juniper
+ExtraTrees:food:48, Gooseberry
+ExtraTrees:food:49, Golden Raspberry
+ExtraTrees:food:50, Coconut
+ExtraTrees:food:51, Cashew
+ExtraTrees:food:52, Avacado
+ExtraTrees:food:53, Nutmeg
+ExtraTrees:food:54, Allspice
+ExtraTrees:food:55, Chilli
+ExtraTrees:food:56, Star Anise
+ExtraTrees:food:57, Mango
+ExtraTrees:food:58, Starfruit
+ExtraTrees:food:59, Candlenut
+ExtraTrees:hammer, item.hammer.name
+ExtraTrees:durableHammer, item.durableHammer.name
 biomestats:biome_analyser, Biome Thermometer
 AWWayofTime:weakBloodOrb, Weak Blood Orb
 AWWayofTime:apprenticeBloodOrb, Apprentice Blood Orb
@@ -18377,6 +18401,7 @@ enhancedlootbags:lootbag:58, LootBag (Dimensional Descent)
 enhancedlootbags:lootbag:59, LootBag (Atomic Era)
 enhancedlootbags:lootbag:60, LootBag (Space-time Technology)
 enhancedlootbags:lootbag:61, LootBag (Hyperspace Physics)
+enhancedlootbags:lootbag:62, LootBag (Practical Metalsmithing)
 etfuturum:prismarine_shard, Prismarine Shard
 etfuturum:prismarine_crystals, Prismarine Crystal
 etfuturum:beetroot, Beetroot
@@ -21400,82 +21425,34 @@ gregtech_addon:components:267, Extruder shape (Hammers)
 gregtech_addon:components:268, Extruder shape (Files)
 gregtech_addon:components:269, Extruder shape (Saws)
 gregtech_addon:components:270, Extruder shape (Gears)
-gregtech_addon:metaitem_1:2006, Lithium Dust
 gregtech_addon:metaitem_1:2008, Beryllium Dust
-gregtech_addon:metaitem_1:2009, Boron Dust
 gregtech_addon:metaitem_1:2010, Carbon Dust
 gregtech_addon:metaitem_1:2017, Sodium Dust
 gregtech_addon:metaitem_1:2018, Magnesium Dust
 gregtech_addon:metaitem_1:2019, Aluminium Dust
 gregtech_addon:metaitem_1:2020, Silicon Dust
 gregtech_addon:metaitem_1:2021, Phosphor Dust
-gregtech_addon:metaitem_1:2022, Sulfur Dust
 gregtech_addon:metaitem_1:2025, Potassium Dust
 gregtech_addon:metaitem_1:2026, Calcium Dust
-gregtech_addon:metaitem_1:2027, Scandium Dust
 gregtech_addon:metaitem_1:2028, Titanium Dust
-gregtech_addon:metaitem_1:2029, Vanadium Dust
 gregtech_addon:metaitem_1:2030, Chrome Dust
 gregtech_addon:metaitem_1:2031, Manganese Dust
-gregtech_addon:metaitem_1:2032, Iron Dust
 gregtech_addon:metaitem_1:2033, Cobalt Dust
 gregtech_addon:metaitem_1:2034, Nickel Dust
-gregtech_addon:metaitem_1:2035, Copper Dust
 gregtech_addon:metaitem_1:2036, Zinc Dust
-gregtech_addon:metaitem_1:2043, Rubidium Dust
-gregtech_addon:metaitem_1:2044, Strontium Dust
-gregtech_addon:metaitem_1:2045, Yttrium Dust
-gregtech_addon:metaitem_1:2047, Niobium Dust
-gregtech_addon:metaitem_1:2048, Molybdenum Dust
-gregtech_addon:metaitem_1:2052, Palladium Dust
-gregtech_addon:metaitem_1:2054, Silver Dust
-gregtech_addon:metaitem_1:2055, Cadmium Dust
-gregtech_addon:metaitem_1:2056, Indium Dust
-gregtech_addon:metaitem_1:2057, Tin Dust
 gregtech_addon:metaitem_1:2058, Antimony Dust
-gregtech_addon:metaitem_1:2059, Tellurium Dust
-gregtech_addon:metaitem_1:2062, Caesium Dust
-gregtech_addon:metaitem_1:2063, Barium Dust
-gregtech_addon:metaitem_1:2064, Lanthanum Dust
-gregtech_addon:metaitem_1:2065, Cerium Dust
-gregtech_addon:metaitem_1:2066, Praseodymium Dust
-gregtech_addon:metaitem_1:2067, Neodymium Dust
-gregtech_addon:metaitem_1:2068, Promethium Dust
-gregtech_addon:metaitem_1:2069, Samarium Dust
-gregtech_addon:metaitem_1:2070, Europium Dust
-gregtech_addon:metaitem_1:2071, Gadolinium Dust
-gregtech_addon:metaitem_1:2072, Terbium Dust
-gregtech_addon:metaitem_1:2073, Dysprosium Dust
-gregtech_addon:metaitem_1:2074, Holmium Dust
-gregtech_addon:metaitem_1:2075, Erbium Dust
-gregtech_addon:metaitem_1:2076, Thulium Dust
-gregtech_addon:metaitem_1:2077, Ytterbium Dust
-gregtech_addon:metaitem_1:2078, Lutetium Dust
-gregtech_addon:metaitem_1:2080, Tantalum Dust
 gregtech_addon:metaitem_1:2081, Tungsten Dust
-gregtech_addon:metaitem_1:2083, Osmium Dust
 gregtech_addon:metaitem_1:2084, Iridium Dust
-gregtech_addon:metaitem_1:2085, Platinum Dust
-gregtech_addon:metaitem_1:2086, Gold Dust
-gregtech_addon:metaitem_1:2089, Lead Dust
 gregtech_addon:metaitem_1:2096, Thorium Dust
 gregtech_addon:metaitem_1:2097, Uranium 235 Dust
 gregtech_addon:metaitem_1:2098, Uranium 238 Dust
 gregtech_addon:metaitem_1:2100, Plutonium 244 Dust
-gregtech_addon:metaitem_1:2101, Plutonium 241 Dust
-gregtech_addon:metaitem_1:2103, Americium Dust
-gregtech_addon:metaitem_1:2129, Neutronium Dust
-gregtech_addon:metaitem_1:2299, Stone Dust
-gregtech_addon:metaitem_1:2300, Bronze Dust
 gregtech_addon:metaitem_1:2301, Brass Dust
 gregtech_addon:metaitem_1:2302, Invar Dust
 gregtech_addon:metaitem_1:2303, Electrum Dust
-gregtech_addon:metaitem_1:2304, Wrought Iron Dust
 gregtech_addon:metaitem_1:2305, Steel Dust
 gregtech_addon:metaitem_1:2306, Stainless Steel Dust
-gregtech_addon:metaitem_1:2307, Pig Iron Dust
 gregtech_addon:metaitem_1:2308, Red Alloy Dust
-gregtech_addon:metaitem_1:2309, Blue Alloy Dust
 gregtech_addon:metaitem_1:2310, Cupronickel Dust
 gregtech_addon:metaitem_1:2311, Nichrome Dust
 gregtech_addon:metaitem_1:2312, Kanthal Dust
@@ -21483,293 +21460,95 @@ gregtech_addon:metaitem_1:2313, Magnalium Dust
 gregtech_addon:metaitem_1:2314, Soldering Alloy Dust
 gregtech_addon:metaitem_1:2315, Battery Alloy Dust
 gregtech_addon:metaitem_1:2316, Tungstensteel Dust
-gregtech_addon:metaitem_1:2317, Osmiridium Dust
-gregtech_addon:metaitem_1:2318, Sunnarium Dust
-gregtech_addon:metaitem_1:2319, Adamantium Dust
-gregtech_addon:metaitem_1:2320, Fluxed Electrum Dust
-gregtech_addon:metaitem_1:2321, Enderium Dust
-gregtech_addon:metaitem_1:2322, HSLA Steel Dust
-gregtech_addon:metaitem_1:2323, Infused Gold Dust
-gregtech_addon:metaitem_1:2324, Naquadah Dust
-gregtech_addon:metaitem_1:2325, Naquadah Alloy Dust
-gregtech_addon:metaitem_1:2326, Refined Glowstone Dust
-gregtech_addon:metaitem_1:2327, Refined Obsidian Dust
-gregtech_addon:metaitem_1:2328, Duranium Dust
-gregtech_addon:metaitem_1:2329, Tritanium Dust
-gregtech_addon:metaitem_1:2330, Thaumium Dust
-gregtech_addon:metaitem_1:2331, Mithril Dust
-gregtech_addon:metaitem_1:2332, Midasium Dust
-gregtech_addon:metaitem_1:2333, Astral Silver Dust
-gregtech_addon:metaitem_1:2334, Black Steel Dust
-gregtech_addon:metaitem_1:2335, Damascus Steel Dust
-gregtech_addon:metaitem_1:2336, Shadowiron Dust
-gregtech_addon:metaitem_1:2337, Shadowsteel Dust
-gregtech_addon:metaitem_1:2338, Ironwood Dust
-gregtech_addon:metaitem_1:2339, Steelleaf Dust
-gregtech_addon:metaitem_1:2340, Meteoric Iron Dust
-gregtech_addon:metaitem_1:2341, Meteoric Steel Dust
-gregtech_addon:metaitem_1:2342, Dark Iron Dust
 gregtech_addon:metaitem_1:2343, Cobalt Brass Dust
-gregtech_addon:metaitem_1:2344, Ultimet Dust
-gregtech_addon:metaitem_1:2345, Electrotine Alloy Dust
-gregtech_addon:metaitem_1:2500, Diamond Dust
 gregtech_addon:metaitem_1:2501, Emerald Dust
 gregtech_addon:metaitem_1:2502, Ruby Dust
 gregtech_addon:metaitem_1:2503, Sapphire Dust
 gregtech_addon:metaitem_1:2504, Green Sapphire Dust
 gregtech_addon:metaitem_1:2505, Peridot Dust
 gregtech_addon:metaitem_1:2506, Nether Star Dust
-gregtech_addon:metaitem_1:2507, Topaz Dust
-gregtech_addon:metaitem_1:2508, Tanzanite Dust
-gregtech_addon:metaitem_1:2509, Amethyst Dust
-gregtech_addon:metaitem_1:2510, Opal Dust
-gregtech_addon:metaitem_1:2511, Jasper Dust
-gregtech_addon:metaitem_1:2513, Blue Topaz Dust
-gregtech_addon:metaitem_1:2514, Amber Dust
-gregtech_addon:metaitem_1:2515, Dilithium Dust
-gregtech_addon:metaitem_1:2516, Certus Quartz Dust
-gregtech_addon:metaitem_1:2517, Flux Crystal Dust
-gregtech_addon:metaitem_1:2518, Forcicium Dust
-gregtech_addon:metaitem_1:2519, Forcillium Dust
-gregtech_addon:metaitem_1:2520, Monazite Dust
-gregtech_addon:metaitem_1:2521, Force Dust
 gregtech_addon:metaitem_1:2522, Nether Quartz Dust
-gregtech_addon:metaitem_1:2523, Quartzite Dust
 gregtech_addon:metaitem_1:2524, Lazurite Dust
 gregtech_addon:metaitem_1:2525, Sodalite Dust
-gregtech_addon:metaitem_1:2526, Lapis Dust
 gregtech_addon:metaitem_1:2527, Red Garnet Dust
 gregtech_addon:metaitem_1:2528, Yellow Garnet Dust
-gregtech_addon:metaitem_1:2529, Vinteum Dust
-gregtech_addon:metaitem_1:2530, Apatite Dust
-gregtech_addon:metaitem_1:2531, Niter Dust
 gregtech_addon:metaitem_1:2532, Enderpearl Dust
 gregtech_addon:metaitem_1:2533, Endereye Dust
 gregtech_addon:metaitem_1:2534, Phosphorus Dust
-gregtech_addon:metaitem_1:2535, Coal Dust
 gregtech_addon:metaitem_1:2536, Charcoal Dust
-gregtech_addon:metaitem_1:2537, Jade Dust
 gregtech_addon:metaitem_1:2538, Lignite Coal Dust
 gregtech_addon:metaitem_1:2702, Ice Dust
 gregtech_addon:metaitem_1:2802, Flint Dust
 gregtech_addon:metaitem_1:2804, Obsidian Dust
-gregtech_addon:metaitem_1:2805, Clay Dust
 gregtech_addon:metaitem_1:2807, Netherrack Dust
 gregtech_addon:metaitem_1:2808, Endstone Dust
 gregtech_addon:metaitem_1:2809, Wood Dust
-gregtech_addon:metaitem_1:2812, Nikolite Dust
-gregtech_addon:metaitem_1:2813, Bluestone Dust
 gregtech_addon:metaitem_1:2814, Nether Brick Dust
-gregtech_addon:metaitem_1:2815, Ashes Dust
 gregtech_addon:metaitem_1:2816, Dark Ashes Dust
 gregtech_addon:metaitem_1:2817, Salt Dust
 gregtech_addon:metaitem_1:2818, Hydrated Coal Dust
-gregtech_addon:metaitem_1:2819, Electrotine Dust
 gregtech_addon:metaitem_1:2820, Almandine Dust
 gregtech_addon:metaitem_1:2821, Andradite Dust
 gregtech_addon:metaitem_1:2822, Bauxite Dust
 gregtech_addon:metaitem_1:2823, Calcite Dust
 gregtech_addon:metaitem_1:2824, Cassiterite Dust
-gregtech_addon:metaitem_1:2825, Chromite Dust
 gregtech_addon:metaitem_1:2826, Cinnabar Dust
-gregtech_addon:metaitem_1:2827, Cobaltite Dust
 gregtech_addon:metaitem_1:2828, Cooperite Dust
-gregtech_addon:metaitem_1:2829, Deep Iron Dust
 gregtech_addon:metaitem_1:2830, Galena Dust
 gregtech_addon:metaitem_1:2831, Grossular Dust
-gregtech_addon:metaitem_1:2832, Liveroot Dust
 gregtech_addon:metaitem_1:2833, Phosphate Dust
 gregtech_addon:metaitem_1:2834, Pyrite Dust
 gregtech_addon:metaitem_1:2835, Pyrope Dust
 gregtech_addon:metaitem_1:2836, Saltpeter Dust
-gregtech_addon:metaitem_1:2837, Silicon Dioxide Dust
 gregtech_addon:metaitem_1:2838, Spessartine Dust
 gregtech_addon:metaitem_1:2839, Sphalerite Dust
 gregtech_addon:metaitem_1:2840, Tetrahedrite Dust
 gregtech_addon:metaitem_1:2841, Tungstate Dust
 gregtech_addon:metaitem_1:2842, Uvarovite Dust
-gregtech_addon:metaitem_1:2843, Pyrotheum Dust
-gregtech_addon:metaitem_1:2844, Basalt Dust
-gregtech_addon:metaitem_1:2845, Marble Dust
-gregtech_addon:metaitem_1:2846, Redrock Dust
 gregtech_addon:metaitem_1:2847, Potassium Feldspar Dust
 gregtech_addon:metaitem_1:2848, Biotite Dust
 gregtech_addon:metaitem_1:2849, Black Granite Dust
 gregtech_addon:metaitem_1:2850, Red Granite Dust
-gregtech_addon:metaitem_1:2851, Blizz Dust
-gregtech_addon:metaitem_1:2852, Blueschist Dust
-gregtech_addon:metaitem_1:2853, Cobalt Hexahydrate Dust
 gregtech_addon:metaitem_1:2854, Construction Foam Dust
-gregtech_addon:metaitem_1:2855, Chalcopyrite Dust
-gregtech_addon:metaitem_1:2856, Chalk Dust
-gregtech_addon:metaitem_1:2857, Chert Dust
-gregtech_addon:metaitem_1:2858, Crude Oil Dust
-gregtech_addon:metaitem_1:2859, Dacite Dust
-gregtech_addon:metaitem_1:2860, Eclogite Dust
-gregtech_addon:metaitem_1:2861, Emery Dust
-gregtech_addon:metaitem_1:2862, Epidote Dust
-gregtech_addon:metaitem_1:2863, Gabbro Dust
-gregtech_addon:metaitem_1:2864, Gneiss Dust
-gregtech_addon:metaitem_1:2865, Graphite Dust
-gregtech_addon:metaitem_1:2866, Green Schist Dust
-gregtech_addon:metaitem_1:2867, Greenstone Dust
-gregtech_addon:metaitem_1:2868, Greywacke Dust
-gregtech_addon:metaitem_1:2869, Komatiite Dust
-gregtech_addon:metaitem_1:2870, Magnetite Dust
 gregtech_addon:metaitem_1:2871, Malachite Dust
-gregtech_addon:metaitem_1:2872, Migmatite Dust
-gregtech_addon:metaitem_1:2873, Pitchblende Dust
 gregtech_addon:metaitem_1:2874, Plastic Dust
-gregtech_addon:metaitem_1:2875, Rhyolite Dust
-gregtech_addon:metaitem_1:2876, Siltstone Dust
-gregtech_addon:metaitem_1:2877, Soapstone Dust
 gregtech_addon:metaitem_1:2879, Paper Dust
 gregtech_addon:metaitem_1:2880, Rubber Dust
 gregtech_addon:metaitem_1:2881, Wheat Dust
-gregtech_addon:metaitem_1:2882, Wulfenite Dust
-gregtech_addon:metaitem_1:2883, Powellite Dust
-gregtech_addon:metaitem_1:2884, Desh Dust
 gregtech_addon:metaitem_1:2885, Milk Dust
-gregtech_addon:metaitem_1:2886, Chocolate Dust
-gregtech_addon:metaitem_1:2887, Coffee Dust
-gregtech_addon:metaitem_1:2900, Mirabilite Dust
-gregtech_addon:metaitem_1:2901, Mica Dust
-gregtech_addon:metaitem_1:2902, Talc Dust
-gregtech_addon:metaitem_1:2903, Trona Dust
-gregtech_addon:metaitem_1:2904, Barite Dust
-gregtech_addon:metaitem_1:2905, Bastnasite Dust
-gregtech_addon:metaitem_1:2906, Garnierite Dust
-gregtech_addon:metaitem_1:2907, Lepidolite Dust
-gregtech_addon:metaitem_1:2908, Magnesite Dust
-gregtech_addon:metaitem_1:2909, Pentlandite Dust
-gregtech_addon:metaitem_1:2910, Scheelite Dust
-gregtech_addon:metaitem_1:2911, Alunite Dust
-gregtech_addon:metaitem_1:2912, Chrysotile Dust
-gregtech_addon:metaitem_1:2913, Celestine Dust
-gregtech_addon:metaitem_1:2914, Dolomite Dust
-gregtech_addon:metaitem_1:2915, Wollastonite Dust
-gregtech_addon:metaitem_1:2916, Zeolite Dust
-gregtech_addon:metaitem_1:2917, Banded Iron Dust
-gregtech_addon:metaitem_1:2918, Ilmenite Dust
-gregtech_addon:metaitem_1:2919, Pollucite Dust
-gregtech_addon:metaitem_1:2920, Spodumene Dust
-gregtech_addon:metaitem_1:2921, Tantalite Dust
-gregtech_addon:metaitem_1:2922, Uraninite Dust
-gregtech_addon:metaitem_1:2923, Vanadium Magnetite Dust
-gregtech_addon:metaitem_1:2924, Kyanite Dust
-gregtech_addon:metaitem_1:2925, Perlite Dust
-gregtech_addon:metaitem_1:2926, Pumice Dust
-gregtech_addon:metaitem_1:2927, Bentonite Dust
-gregtech_addon:metaitem_1:2928, Fullers Earth Dust
-gregtech_addon:metaitem_1:2929, Kaolinite Dust
-gregtech_addon:metaitem_1:2930, Brown Limonite Dust
-gregtech_addon:metaitem_1:2931, Yellow Limonite Dust
-gregtech_addon:metaitem_1:2932, Vermiculite Dust
-gregtech_addon:metaitem_1:2933, Glauconite Dust
-gregtech_addon:metaitem_1:2934, Gypsum Dust
-gregtech_addon:metaitem_1:2935, Basaltic Mineral Sand Dust
-gregtech_addon:metaitem_1:2936, Granitic Mineral Sand Dust
-gregtech_addon:metaitem_1:2937, Cassiterite Sand Dust
-gregtech_addon:metaitem_1:2938, Garnet Sand Dust
-gregtech_addon:metaitem_1:2939, Quartz Sand Dust
-gregtech_addon:metaitem_1:2940, Volcanic Ashes Dust
-gregtech_addon:metaitem_1:2941, Borax Dust
-gregtech_addon:metaitem_1:2942, Molybdenite Dust
-gregtech_addon:metaitem_1:2943, Pyrolusite Dust
-gregtech_addon:metaitem_1:2944, Rock Salt Dust
-gregtech_addon:metaitem_1:2945, Stibnite Dust
-gregtech_addon:metaitem_1:2946, Asbestos Dust
-gregtech_addon:metaitem_1:2948, Diatomite Dust
 gregtech_addon:metaitem_1:8502, Ruby
 gregtech_addon:metaitem_1:8503, Sapphire
 gregtech_addon:metaitem_1:8504, Green Sapphire
 gregtech_addon:metaitem_1:8505, Peridot
-gregtech_addon:metaitem_1:8507, Topaz
-gregtech_addon:metaitem_1:8508, Tanzanite
-gregtech_addon:metaitem_1:8509, Amethyst
-gregtech_addon:metaitem_1:8510, Opal
-gregtech_addon:metaitem_1:8511, Jasper
-gregtech_addon:metaitem_1:8513, Blue Topaz
-gregtech_addon:metaitem_1:8514, Amber
-gregtech_addon:metaitem_1:8515, Dilithium
-gregtech_addon:metaitem_1:8516, Certus Quartz
-gregtech_addon:metaitem_1:8517, Flux Crystal
-gregtech_addon:metaitem_1:8518, Forcicium
-gregtech_addon:metaitem_1:8519, Forcillium
-gregtech_addon:metaitem_1:8520, Monazite
-gregtech_addon:metaitem_1:8521, Force
-gregtech_addon:metaitem_1:8523, Quartzite
 gregtech_addon:metaitem_1:8524, Lazurite
 gregtech_addon:metaitem_1:8525, Sodalite
 gregtech_addon:metaitem_1:8527, Red Garnet
 gregtech_addon:metaitem_1:8528, Yellow Garnet
-gregtech_addon:metaitem_1:8529, Vinteum
-gregtech_addon:metaitem_1:8530, Apatite
-gregtech_addon:metaitem_1:8531, Niter
 gregtech_addon:metaitem_1:8534, Phosphorus
 gregtech_addon:metaitem_1:8538, Lignite Coal
 gregtech_addon:metaitem_1:11008, Beryllium Ingot
 gregtech_addon:metaitem_1:11018, Magnesium Ingot
 gregtech_addon:metaitem_1:11019, Aluminium Ingot
 gregtech_addon:metaitem_1:11020, Silicon Ingot
-gregtech_addon:metaitem_1:11027, Scandium Ingot
 gregtech_addon:metaitem_1:11028, Titanium Ingot
-gregtech_addon:metaitem_1:11029, Vanadium Ingot
 gregtech_addon:metaitem_1:11030, Chrome Ingot
 gregtech_addon:metaitem_1:11031, Manganese Ingot
 gregtech_addon:metaitem_1:11033, Cobalt Ingot
 gregtech_addon:metaitem_1:11034, Nickel Ingot
-gregtech_addon:metaitem_1:11035, Copper Ingot
 gregtech_addon:metaitem_1:11036, Zinc Ingot
-gregtech_addon:metaitem_1:11043, Rubidium Ingot
-gregtech_addon:metaitem_1:11045, Yttrium Ingot
-gregtech_addon:metaitem_1:11047, Niobium Ingot
-gregtech_addon:metaitem_1:11048, Molybdenum Ingot
-gregtech_addon:metaitem_1:11052, Palladium Ingot
-gregtech_addon:metaitem_1:11054, Silver Ingot
-gregtech_addon:metaitem_1:11056, Indium Ingot
-gregtech_addon:metaitem_1:11057, Tin Ingot
 gregtech_addon:metaitem_1:11058, Antimony Ingot
-gregtech_addon:metaitem_1:11059, Tellurium Ingot
-gregtech_addon:metaitem_1:11062, Caesium Ingot
-gregtech_addon:metaitem_1:11064, Lanthanum Ingot
-gregtech_addon:metaitem_1:11065, Cerium Ingot
-gregtech_addon:metaitem_1:11066, Praseodymium Ingot
-gregtech_addon:metaitem_1:11067, Neodymium Ingot
-gregtech_addon:metaitem_1:11068, Promethium Ingot
-gregtech_addon:metaitem_1:11069, Samarium Ingot
-gregtech_addon:metaitem_1:11070, Europium Ingot
-gregtech_addon:metaitem_1:11071, Gadolinium Ingot
-gregtech_addon:metaitem_1:11072, Terbium Ingot
-gregtech_addon:metaitem_1:11073, Dysprosium Ingot
-gregtech_addon:metaitem_1:11074, Holmium Ingot
-gregtech_addon:metaitem_1:11075, Erbium Ingot
-gregtech_addon:metaitem_1:11076, Thulium Ingot
-gregtech_addon:metaitem_1:11077, Ytterbium Ingot
-gregtech_addon:metaitem_1:11078, Lutetium Ingot
-gregtech_addon:metaitem_1:11080, Tantalum Ingot
 gregtech_addon:metaitem_1:11081, Tungsten Ingot
-gregtech_addon:metaitem_1:11083, Osmium Ingot
 gregtech_addon:metaitem_1:11084, Iridium Ingot
-gregtech_addon:metaitem_1:11085, Platinum Ingot
-gregtech_addon:metaitem_1:11089, Lead Ingot
 gregtech_addon:metaitem_1:11096, Thorium Ingot
 gregtech_addon:metaitem_1:11097, Uranium 235 Ingot
 gregtech_addon:metaitem_1:11098, Uranium 238 Ingot
 gregtech_addon:metaitem_1:11100, Plutonium 244 Ingot
-gregtech_addon:metaitem_1:11101, Plutonium 241 Ingot
-gregtech_addon:metaitem_1:11103, Americium Ingot
-gregtech_addon:metaitem_1:11129, Neutronium Ingot
-gregtech_addon:metaitem_1:11300, Bronze Ingot
 gregtech_addon:metaitem_1:11301, Brass Ingot
 gregtech_addon:metaitem_1:11302, Invar Ingot
 gregtech_addon:metaitem_1:11303, Electrum Ingot
-gregtech_addon:metaitem_1:11304, Wrought Iron Ingot
 gregtech_addon:metaitem_1:11305, Steel Ingot
 gregtech_addon:metaitem_1:11306, Stainless Steel Ingot
-gregtech_addon:metaitem_1:11307, Pig Iron Ingot
 gregtech_addon:metaitem_1:11308, Red Alloy Ingot
-gregtech_addon:metaitem_1:11309, Blue Alloy Ingot
 gregtech_addon:metaitem_1:11310, Cupronickel Ingot
 gregtech_addon:metaitem_1:11311, Nichrome Ingot
 gregtech_addon:metaitem_1:11312, Kanthal Ingot
@@ -21777,105 +21556,33 @@ gregtech_addon:metaitem_1:11313, Magnalium Ingot
 gregtech_addon:metaitem_1:11314, Soldering Alloy Ingot
 gregtech_addon:metaitem_1:11315, Battery Alloy Ingot
 gregtech_addon:metaitem_1:11316, Tungstensteel Ingot
-gregtech_addon:metaitem_1:11317, Osmiridium Ingot
-gregtech_addon:metaitem_1:11318, Sunnarium Ingot
-gregtech_addon:metaitem_1:11319, Adamantium Ingot
-gregtech_addon:metaitem_1:11320, Fluxed Electrum Ingot
-gregtech_addon:metaitem_1:11321, Enderium Ingot
-gregtech_addon:metaitem_1:11322, HSLA Steel Ingot
-gregtech_addon:metaitem_1:11323, Infused Gold Ingot
-gregtech_addon:metaitem_1:11324, Naquadah Ingot
-gregtech_addon:metaitem_1:11325, Naquadah Alloy Ingot
-gregtech_addon:metaitem_1:11326, Refined Glowstone Ingot
-gregtech_addon:metaitem_1:11327, Refined Obsidian Ingot
-gregtech_addon:metaitem_1:11328, Duranium Ingot
-gregtech_addon:metaitem_1:11329, Tritanium Ingot
-gregtech_addon:metaitem_1:11330, Thaumium Ingot
-gregtech_addon:metaitem_1:11331, Mithril Ingot
-gregtech_addon:metaitem_1:11332, Midasium Ingot
-gregtech_addon:metaitem_1:11333, Astral Silver Ingot
-gregtech_addon:metaitem_1:11334, Black Steel Ingot
-gregtech_addon:metaitem_1:11335, Damascus Steel Ingot
-gregtech_addon:metaitem_1:11336, Shadowiron Ingot
-gregtech_addon:metaitem_1:11337, Shadowsteel Ingot
-gregtech_addon:metaitem_1:11338, Ironwood Ingot
-gregtech_addon:metaitem_1:11339, Steelleaf Ingot
-gregtech_addon:metaitem_1:11340, Meteoric Iron Ingot
-gregtech_addon:metaitem_1:11341, Meteoric Steel Ingot
-gregtech_addon:metaitem_1:11342, Dark Iron Ingot
 gregtech_addon:metaitem_1:11343, Cobalt Brass Ingot
-gregtech_addon:metaitem_1:11344, Ultimet Ingot
-gregtech_addon:metaitem_1:11345, Electrotine Alloy Ingot
-gregtech_addon:metaitem_1:11521, Force Ingot
 gregtech_addon:metaitem_1:11828, Cooperite Ingot
-gregtech_addon:metaitem_1:11829, Deep Iron Ingot
 gregtech_addon:metaitem_1:11874, Plastic Ingot
-gregtech_addon:metaitem_1:11880, Rubber Ingot
-gregtech_addon:metaitem_1:11884, Desh Ingot
 gregtech_addon:metaitem_1:17008, Beryllium Plate
 gregtech_addon:metaitem_1:17018, Magnesium Plate
 gregtech_addon:metaitem_1:17019, Aluminium Plate
 gregtech_addon:metaitem_1:17020, Silicon Plate
-gregtech_addon:metaitem_1:17027, Scandium Plate
 gregtech_addon:metaitem_1:17028, Titanium Plate
-gregtech_addon:metaitem_1:17029, Vanadium Plate
 gregtech_addon:metaitem_1:17030, Chrome Plate
 gregtech_addon:metaitem_1:17031, Manganese Plate
-gregtech_addon:metaitem_1:17032, Iron Plate
 gregtech_addon:metaitem_1:17033, Cobalt Plate
 gregtech_addon:metaitem_1:17034, Nickel Plate
-gregtech_addon:metaitem_1:17035, Copper Plate
 gregtech_addon:metaitem_1:17036, Zinc Plate
-gregtech_addon:metaitem_1:17043, Rubidium Plate
-gregtech_addon:metaitem_1:17045, Yttrium Plate
-gregtech_addon:metaitem_1:17047, Niobium Plate
-gregtech_addon:metaitem_1:17048, Molybdenum Plate
-gregtech_addon:metaitem_1:17052, Palladium Plate
-gregtech_addon:metaitem_1:17054, Silver Plate
-gregtech_addon:metaitem_1:17056, Indium Plate
-gregtech_addon:metaitem_1:17057, Tin Plate
 gregtech_addon:metaitem_1:17058, Antimony Plate
-gregtech_addon:metaitem_1:17059, Tellurium Plate
-gregtech_addon:metaitem_1:17062, Caesium Plate
-gregtech_addon:metaitem_1:17064, Lanthanum Plate
-gregtech_addon:metaitem_1:17065, Cerium Plate
-gregtech_addon:metaitem_1:17066, Praseodymium Plate
-gregtech_addon:metaitem_1:17067, Neodymium Plate
-gregtech_addon:metaitem_1:17068, Promethium Plate
-gregtech_addon:metaitem_1:17069, Samarium Plate
-gregtech_addon:metaitem_1:17070, Europium Plate
-gregtech_addon:metaitem_1:17071, Gadolinium Plate
-gregtech_addon:metaitem_1:17072, Terbium Plate
-gregtech_addon:metaitem_1:17073, Dysprosium Plate
-gregtech_addon:metaitem_1:17074, Holmium Plate
-gregtech_addon:metaitem_1:17075, Erbium Plate
-gregtech_addon:metaitem_1:17076, Thulium Plate
-gregtech_addon:metaitem_1:17077, Ytterbium Plate
-gregtech_addon:metaitem_1:17078, Lutetium Plate
-gregtech_addon:metaitem_1:17080, Tantalum Plate
 gregtech_addon:metaitem_1:17081, Tungsten Plate
-gregtech_addon:metaitem_1:17083, Osmium Plate
 gregtech_addon:metaitem_1:17084, Iridium Plate
 gregtech_addon:metaitem_1:17085, Platinum Plate
-gregtech_addon:metaitem_1:17086, Gold Plate
-gregtech_addon:metaitem_1:17089, Lead Plate
 gregtech_addon:metaitem_1:17096, Thorium Plate
 gregtech_addon:metaitem_1:17097, Uranium 235 Plate
 gregtech_addon:metaitem_1:17098, Uranium 238 Plate
 gregtech_addon:metaitem_1:17100, Plutonium 244 Plate
-gregtech_addon:metaitem_1:17101, Plutonium 241 Plate
-gregtech_addon:metaitem_1:17103, Americium Plate
-gregtech_addon:metaitem_1:17129, Neutronium Plate
-gregtech_addon:metaitem_1:17300, Bronze Plate
 gregtech_addon:metaitem_1:17301, Brass Plate
 gregtech_addon:metaitem_1:17302, Invar Plate
 gregtech_addon:metaitem_1:17303, Electrum Plate
-gregtech_addon:metaitem_1:17304, Wrought Iron Plate
 gregtech_addon:metaitem_1:17305, Steel Plate
 gregtech_addon:metaitem_1:17306, Stainless Steel Plate
-gregtech_addon:metaitem_1:17307, Pig Iron Plate
 gregtech_addon:metaitem_1:17308, Red Alloy Plate
-gregtech_addon:metaitem_1:17309, Blue Alloy Plate
 gregtech_addon:metaitem_1:17310, Cupronickel Plate
 gregtech_addon:metaitem_1:17311, Nichrome Plate
 gregtech_addon:metaitem_1:17312, Kanthal Plate
@@ -21883,35 +21590,7 @@ gregtech_addon:metaitem_1:17313, Magnalium Plate
 gregtech_addon:metaitem_1:17314, Soldering Alloy Plate
 gregtech_addon:metaitem_1:17315, Battery Alloy Plate
 gregtech_addon:metaitem_1:17316, Tungstensteel Plate
-gregtech_addon:metaitem_1:17317, Osmiridium Plate
-gregtech_addon:metaitem_1:17318, Sunnarium Plate
-gregtech_addon:metaitem_1:17319, Adamantium Plate
-gregtech_addon:metaitem_1:17320, Fluxed Electrum Plate
-gregtech_addon:metaitem_1:17321, Enderium Plate
-gregtech_addon:metaitem_1:17322, HSLA Steel Plate
-gregtech_addon:metaitem_1:17323, Infused Gold Plate
-gregtech_addon:metaitem_1:17324, Naquadah Plate
-gregtech_addon:metaitem_1:17325, Naquadah Alloy Plate
-gregtech_addon:metaitem_1:17326, Refined Glowstone Plate
-gregtech_addon:metaitem_1:17327, Refined Obsidian Plate
-gregtech_addon:metaitem_1:17328, Duranium Plate
-gregtech_addon:metaitem_1:17329, Tritanium Plate
-gregtech_addon:metaitem_1:17330, Thaumium Plate
-gregtech_addon:metaitem_1:17331, Mithril Plate
-gregtech_addon:metaitem_1:17332, Midasium Plate
-gregtech_addon:metaitem_1:17333, Astral Silver Plate
-gregtech_addon:metaitem_1:17334, Black Steel Plate
-gregtech_addon:metaitem_1:17335, Damascus Steel Plate
-gregtech_addon:metaitem_1:17336, Shadowiron Plate
-gregtech_addon:metaitem_1:17337, Shadowsteel Plate
-gregtech_addon:metaitem_1:17338, Ironwood Plate
-gregtech_addon:metaitem_1:17339, Steelleaf Plate
-gregtech_addon:metaitem_1:17340, Meteoric Iron Plate
-gregtech_addon:metaitem_1:17341, Meteoric Steel Plate
-gregtech_addon:metaitem_1:17342, Dark Iron Plate
 gregtech_addon:metaitem_1:17343, Cobalt Brass Plate
-gregtech_addon:metaitem_1:17344, Ultimet Plate
-gregtech_addon:metaitem_1:17345, Electrotine Alloy Plate
 gregtech_addon:metaitem_1:17500, Diamond Plate
 gregtech_addon:metaitem_1:17501, Emerald Plate
 gregtech_addon:metaitem_1:17502, Ruby Plate
@@ -21919,30 +21598,12 @@ gregtech_addon:metaitem_1:17503, Sapphire Plate
 gregtech_addon:metaitem_1:17504, Green Sapphire Plate
 gregtech_addon:metaitem_1:17505, Peridot Plate
 gregtech_addon:metaitem_1:17506, Nether Star Plate
-gregtech_addon:metaitem_1:17507, Topaz Plate
-gregtech_addon:metaitem_1:17508, Tanzanite Plate
-gregtech_addon:metaitem_1:17509, Amethyst Plate
-gregtech_addon:metaitem_1:17510, Opal Plate
-gregtech_addon:metaitem_1:17511, Jasper Plate
-gregtech_addon:metaitem_1:17513, Blue Topaz Plate
-gregtech_addon:metaitem_1:17514, Amber Plate
-gregtech_addon:metaitem_1:17515, Dilithium Plate
-gregtech_addon:metaitem_1:17516, Certus Quartz Plate
-gregtech_addon:metaitem_1:17517, Flux Crystal Plate
-gregtech_addon:metaitem_1:17518, Forcicium Plate
-gregtech_addon:metaitem_1:17519, Forcillium Plate
-gregtech_addon:metaitem_1:17520, Monazite Plate
-gregtech_addon:metaitem_1:17521, Force Plate
 gregtech_addon:metaitem_1:17522, Nether Quartz Plate
-gregtech_addon:metaitem_1:17523, Quartzite Plate
 gregtech_addon:metaitem_1:17524, Lazurite Plate
 gregtech_addon:metaitem_1:17525, Sodalite Plate
 gregtech_addon:metaitem_1:17526, Lapis Plate
 gregtech_addon:metaitem_1:17527, Red Garnet Plate
 gregtech_addon:metaitem_1:17528, Yellow Garnet Plate
-gregtech_addon:metaitem_1:17529, Vinteum Plate
-gregtech_addon:metaitem_1:17530, Apatite Plate
-gregtech_addon:metaitem_1:17531, Niter Plate
 gregtech_addon:metaitem_1:17534, Phosphorus Plate
 gregtech_addon:metaitem_1:17535, Coal Plate
 gregtech_addon:metaitem_1:17536, Charcoal Plate
@@ -21951,26 +21612,16 @@ gregtech_addon:metaitem_1:17804, Obsidian Plate
 gregtech_addon:metaitem_1:17809, Wood Plate
 gregtech_addon:metaitem_1:17810, Redstone Plate
 gregtech_addon:metaitem_1:17811, Glowstone Plate
-gregtech_addon:metaitem_1:17812, Nikolite Plate
-gregtech_addon:metaitem_1:17819, Electrotine Plate
 gregtech_addon:metaitem_1:17828, Cooperite Plate
-gregtech_addon:metaitem_1:17829, Deep Iron Plate
 gregtech_addon:metaitem_1:17849, Black Granite Plate
 gregtech_addon:metaitem_1:17850, Red Granite Plate
 gregtech_addon:metaitem_1:17874, Plastic Plate
 gregtech_addon:metaitem_1:17880, Rubber Plate
-gregtech_addon:metaitem_1:17884, Desh Plate
-gregtech_addon:metaitem_1:18879, Double Paper Plate
-gregtech_addon:metaitem_1:19879, Triple Paper Plate
-gregtech_addon:metaitem_1:20879, Quadruple Paper Plate
-gregtech_addon:metaitem_1:21879, Quintuple Paper Plate
 gregtech_addon:metaitem_1:23008, Beryllium Rod
 gregtech_addon:metaitem_1:23018, Magnesium Rod
 gregtech_addon:metaitem_1:23019, Aluminium Rod
 gregtech_addon:metaitem_1:23020, Silicon Rod
-gregtech_addon:metaitem_1:23027, Scandium Rod
 gregtech_addon:metaitem_1:23028, Titanium Rod
-gregtech_addon:metaitem_1:23029, Vanadium Rod
 gregtech_addon:metaitem_1:23030, Chrome Rod
 gregtech_addon:metaitem_1:23031, Manganese Rod
 gregtech_addon:metaitem_1:23032, Iron Rod
@@ -21978,35 +21629,10 @@ gregtech_addon:metaitem_1:23033, Cobalt Rod
 gregtech_addon:metaitem_1:23034, Nickel Rod
 gregtech_addon:metaitem_1:23035, Copper Rod
 gregtech_addon:metaitem_1:23036, Zinc Rod
-gregtech_addon:metaitem_1:23043, Rubidium Rod
-gregtech_addon:metaitem_1:23045, Yttrium Rod
-gregtech_addon:metaitem_1:23047, Niobium Rod
-gregtech_addon:metaitem_1:23048, Molybdenum Rod
-gregtech_addon:metaitem_1:23052, Palladium Rod
 gregtech_addon:metaitem_1:23054, Silver Rod
-gregtech_addon:metaitem_1:23056, Indium Rod
 gregtech_addon:metaitem_1:23057, Tin Rod
 gregtech_addon:metaitem_1:23058, Antimony Rod
-gregtech_addon:metaitem_1:23059, Tellurium Rod
-gregtech_addon:metaitem_1:23062, Caesium Rod
-gregtech_addon:metaitem_1:23064, Lanthanum Rod
-gregtech_addon:metaitem_1:23065, Cerium Rod
-gregtech_addon:metaitem_1:23066, Praseodymium Rod
-gregtech_addon:metaitem_1:23067, Neodymium Rod
-gregtech_addon:metaitem_1:23068, Promethium Rod
-gregtech_addon:metaitem_1:23069, Samarium Rod
-gregtech_addon:metaitem_1:23070, Europium Rod
-gregtech_addon:metaitem_1:23071, Gadolinium Rod
-gregtech_addon:metaitem_1:23072, Terbium Rod
-gregtech_addon:metaitem_1:23073, Dysprosium Rod
-gregtech_addon:metaitem_1:23074, Holmium Rod
-gregtech_addon:metaitem_1:23075, Erbium Rod
-gregtech_addon:metaitem_1:23076, Thulium Rod
-gregtech_addon:metaitem_1:23077, Ytterbium Rod
-gregtech_addon:metaitem_1:23078, Lutetium Rod
-gregtech_addon:metaitem_1:23080, Tantalum Rod
 gregtech_addon:metaitem_1:23081, Tungsten Rod
-gregtech_addon:metaitem_1:23083, Osmium Rod
 gregtech_addon:metaitem_1:23084, Iridium Rod
 gregtech_addon:metaitem_1:23085, Platinum Rod
 gregtech_addon:metaitem_1:23086, Gold Rod
@@ -22015,19 +21641,13 @@ gregtech_addon:metaitem_1:23096, Thorium Rod
 gregtech_addon:metaitem_1:23097, Uranium 235 Rod
 gregtech_addon:metaitem_1:23098, Uranium 238 Rod
 gregtech_addon:metaitem_1:23100, Plutonium 244 Rod
-gregtech_addon:metaitem_1:23101, Plutonium 241 Rod
-gregtech_addon:metaitem_1:23103, Americium Rod
-gregtech_addon:metaitem_1:23129, Neutronium Rod
 gregtech_addon:metaitem_1:23300, Bronze Rod
 gregtech_addon:metaitem_1:23301, Brass Rod
 gregtech_addon:metaitem_1:23302, Invar Rod
 gregtech_addon:metaitem_1:23303, Electrum Rod
-gregtech_addon:metaitem_1:23304, Wrought Iron Rod
 gregtech_addon:metaitem_1:23305, Steel Rod
 gregtech_addon:metaitem_1:23306, Stainless Steel Rod
-gregtech_addon:metaitem_1:23307, Pig Iron Rod
 gregtech_addon:metaitem_1:23308, Red Alloy Rod
-gregtech_addon:metaitem_1:23309, Blue Alloy Rod
 gregtech_addon:metaitem_1:23310, Cupronickel Rod
 gregtech_addon:metaitem_1:23311, Nichrome Rod
 gregtech_addon:metaitem_1:23312, Kanthal Rod
@@ -22035,483 +21655,20 @@ gregtech_addon:metaitem_1:23313, Magnalium Rod
 gregtech_addon:metaitem_1:23314, Soldering Alloy Rod
 gregtech_addon:metaitem_1:23315, Battery Alloy Rod
 gregtech_addon:metaitem_1:23316, Tungstensteel Rod
-gregtech_addon:metaitem_1:23317, Osmiridium Rod
-gregtech_addon:metaitem_1:23318, Sunnarium Rod
-gregtech_addon:metaitem_1:23319, Adamantium Rod
-gregtech_addon:metaitem_1:23320, Fluxed Electrum Rod
-gregtech_addon:metaitem_1:23321, Enderium Rod
-gregtech_addon:metaitem_1:23322, HSLA Steel Rod
-gregtech_addon:metaitem_1:23323, Infused Gold Rod
-gregtech_addon:metaitem_1:23324, Naquadah Rod
-gregtech_addon:metaitem_1:23325, Naquadah Alloy Rod
-gregtech_addon:metaitem_1:23326, Refined Glowstone Rod
-gregtech_addon:metaitem_1:23327, Refined Obsidian Rod
-gregtech_addon:metaitem_1:23328, Duranium Rod
-gregtech_addon:metaitem_1:23329, Tritanium Rod
-gregtech_addon:metaitem_1:23330, Thaumium Rod
-gregtech_addon:metaitem_1:23331, Mithril Rod
-gregtech_addon:metaitem_1:23332, Midasium Rod
-gregtech_addon:metaitem_1:23333, Astral Silver Rod
-gregtech_addon:metaitem_1:23334, Black Steel Rod
-gregtech_addon:metaitem_1:23335, Damascus Steel Rod
-gregtech_addon:metaitem_1:23336, Shadowiron Rod
-gregtech_addon:metaitem_1:23337, Shadowsteel Rod
-gregtech_addon:metaitem_1:23338, Ironwood Rod
-gregtech_addon:metaitem_1:23339, Steelleaf Rod
-gregtech_addon:metaitem_1:23340, Meteoric Iron Rod
-gregtech_addon:metaitem_1:23341, Meteoric Steel Rod
-gregtech_addon:metaitem_1:23342, Dark Iron Rod
 gregtech_addon:metaitem_1:23343, Cobalt Brass Rod
-gregtech_addon:metaitem_1:23344, Ultimet Rod
-gregtech_addon:metaitem_1:23345, Electrotine Alloy Rod
-gregtech_addon:metaitem_1:23521, Force Rod
 gregtech_addon:metaitem_1:23828, Cooperite Rod
-gregtech_addon:metaitem_1:23829, Deep Iron Rod
 gregtech_addon:metaitem_1:23874, Plastic Rod
 gregtech_addon:metaitem_1:23880, Rubber Rod
-gregtech_addon:metaitem_1:23884, Desh Rod
 gregtech_addon:metaitem_1:24500, Diamond Lens
 gregtech_addon:metaitem_1:24501, Emerald Lens
 gregtech_addon:metaitem_1:24502, Ruby Lens
 gregtech_addon:metaitem_1:24503, Sapphire Lens
 gregtech_addon:metaitem_1:24504, Green Sapphire Lens
 gregtech_addon:metaitem_1:24505, Peridot Lens
-gregtech_addon:metaitem_1:24507, Topaz Lens
-gregtech_addon:metaitem_1:24508, Tanzanite Lens
-gregtech_addon:metaitem_1:24509, Amethyst Lens
-gregtech_addon:metaitem_1:24510, Opal Lens
-gregtech_addon:metaitem_1:24511, Jasper Lens
-gregtech_addon:metaitem_1:24513, Blue Topaz Lens
-gregtech_addon:metaitem_1:24514, Amber Lens
-gregtech_addon:metaitem_1:24515, Dilithium Lens
 gregtech_addon:metaitem_1:24527, Red Garnet Lens
 gregtech_addon:metaitem_1:24528, Yellow Garnet Lens
 gregtech_addon:metaitem_1:24532, Enderpearl Lens
 gregtech_addon:metaitem_1:24533, Endereye Lens
-gregtech_addon:metaitem_1:25008, Beryllium Round
-gregtech_addon:metaitem_1:25018, Magnesium Round
-gregtech_addon:metaitem_1:25019, Aluminium Round
-gregtech_addon:metaitem_1:25020, Silicon Round
-gregtech_addon:metaitem_1:25027, Scandium Round
-gregtech_addon:metaitem_1:25028, Titanium Round
-gregtech_addon:metaitem_1:25029, Vanadium Round
-gregtech_addon:metaitem_1:25030, Chrome Round
-gregtech_addon:metaitem_1:25031, Manganese Round
-gregtech_addon:metaitem_1:25032, Iron Round
-gregtech_addon:metaitem_1:25033, Cobalt Round
-gregtech_addon:metaitem_1:25034, Nickel Round
-gregtech_addon:metaitem_1:25035, Copper Round
-gregtech_addon:metaitem_1:25036, Zinc Round
-gregtech_addon:metaitem_1:25043, Rubidium Round
-gregtech_addon:metaitem_1:25045, Yttrium Round
-gregtech_addon:metaitem_1:25047, Niobium Round
-gregtech_addon:metaitem_1:25048, Molybdenum Round
-gregtech_addon:metaitem_1:25052, Palladium Round
-gregtech_addon:metaitem_1:25054, Silver Round
-gregtech_addon:metaitem_1:25056, Indium Round
-gregtech_addon:metaitem_1:25057, Tin Round
-gregtech_addon:metaitem_1:25058, Antimony Round
-gregtech_addon:metaitem_1:25059, Tellurium Round
-gregtech_addon:metaitem_1:25062, Caesium Round
-gregtech_addon:metaitem_1:25064, Lanthanum Round
-gregtech_addon:metaitem_1:25065, Cerium Round
-gregtech_addon:metaitem_1:25066, Praseodymium Round
-gregtech_addon:metaitem_1:25067, Neodymium Round
-gregtech_addon:metaitem_1:25068, Promethium Round
-gregtech_addon:metaitem_1:25069, Samarium Round
-gregtech_addon:metaitem_1:25070, Europium Round
-gregtech_addon:metaitem_1:25071, Gadolinium Round
-gregtech_addon:metaitem_1:25072, Terbium Round
-gregtech_addon:metaitem_1:25073, Dysprosium Round
-gregtech_addon:metaitem_1:25074, Holmium Round
-gregtech_addon:metaitem_1:25075, Erbium Round
-gregtech_addon:metaitem_1:25076, Thulium Round
-gregtech_addon:metaitem_1:25077, Ytterbium Round
-gregtech_addon:metaitem_1:25078, Lutetium Round
-gregtech_addon:metaitem_1:25080, Tantalum Round
-gregtech_addon:metaitem_1:25081, Tungsten Round
-gregtech_addon:metaitem_1:25083, Osmium Round
-gregtech_addon:metaitem_1:25084, Iridium Round
-gregtech_addon:metaitem_1:25085, Platinum Round
-gregtech_addon:metaitem_1:25086, Gold Round
-gregtech_addon:metaitem_1:25089, Lead Round
-gregtech_addon:metaitem_1:25096, Thorium Round
-gregtech_addon:metaitem_1:25097, Uranium 235 Round
-gregtech_addon:metaitem_1:25098, Uranium 238 Round
-gregtech_addon:metaitem_1:25100, Plutonium 244 Round
-gregtech_addon:metaitem_1:25101, Plutonium 241 Round
-gregtech_addon:metaitem_1:25103, Americium Round
-gregtech_addon:metaitem_1:25129, Neutronium Round
-gregtech_addon:metaitem_1:25300, Bronze Round
-gregtech_addon:metaitem_1:25301, Brass Round
-gregtech_addon:metaitem_1:25302, Invar Round
-gregtech_addon:metaitem_1:25303, Electrum Round
-gregtech_addon:metaitem_1:25304, Wrought Iron Round
-gregtech_addon:metaitem_1:25305, Steel Round
-gregtech_addon:metaitem_1:25306, Stainless Steel Round
-gregtech_addon:metaitem_1:25307, Pig Iron Round
-gregtech_addon:metaitem_1:25308, Red Alloy Round
-gregtech_addon:metaitem_1:25309, Blue Alloy Round
-gregtech_addon:metaitem_1:25310, Cupronickel Round
-gregtech_addon:metaitem_1:25311, Nichrome Round
-gregtech_addon:metaitem_1:25312, Kanthal Round
-gregtech_addon:metaitem_1:25313, Magnalium Round
-gregtech_addon:metaitem_1:25314, Soldering Alloy Round
-gregtech_addon:metaitem_1:25315, Battery Alloy Round
-gregtech_addon:metaitem_1:25316, Tungstensteel Round
-gregtech_addon:metaitem_1:25317, Osmiridium Round
-gregtech_addon:metaitem_1:25318, Sunnarium Round
-gregtech_addon:metaitem_1:25319, Adamantium Round
-gregtech_addon:metaitem_1:25320, Fluxed Electrum Round
-gregtech_addon:metaitem_1:25321, Enderium Round
-gregtech_addon:metaitem_1:25322, HSLA Steel Round
-gregtech_addon:metaitem_1:25323, Infused Gold Round
-gregtech_addon:metaitem_1:25324, Naquadah Round
-gregtech_addon:metaitem_1:25325, Naquadah Alloy Round
-gregtech_addon:metaitem_1:25326, Refined Glowstone Round
-gregtech_addon:metaitem_1:25327, Refined Obsidian Round
-gregtech_addon:metaitem_1:25328, Duranium Round
-gregtech_addon:metaitem_1:25329, Tritanium Round
-gregtech_addon:metaitem_1:25330, Thaumium Round
-gregtech_addon:metaitem_1:25331, Mithril Round
-gregtech_addon:metaitem_1:25332, Midasium Round
-gregtech_addon:metaitem_1:25333, Astral Silver Round
-gregtech_addon:metaitem_1:25334, Black Steel Round
-gregtech_addon:metaitem_1:25335, Damascus Steel Round
-gregtech_addon:metaitem_1:25336, Shadowiron Round
-gregtech_addon:metaitem_1:25337, Shadowsteel Round
-gregtech_addon:metaitem_1:25338, Ironwood Round
-gregtech_addon:metaitem_1:25339, Steelleaf Round
-gregtech_addon:metaitem_1:25340, Meteoric Iron Round
-gregtech_addon:metaitem_1:25341, Meteoric Steel Round
-gregtech_addon:metaitem_1:25342, Dark Iron Round
-gregtech_addon:metaitem_1:25343, Cobalt Brass Round
-gregtech_addon:metaitem_1:25344, Ultimet Round
-gregtech_addon:metaitem_1:25345, Electrotine Alloy Round
-gregtech_addon:metaitem_1:25521, Force Round
-gregtech_addon:metaitem_1:25828, Cooperite Round
-gregtech_addon:metaitem_1:25829, Deep Iron Round
-gregtech_addon:metaitem_1:25874, Plastic Round
-gregtech_addon:metaitem_1:25880, Rubber Round
-gregtech_addon:metaitem_1:25884, Desh Round
-gregtech_addon:metaitem_1:26008, Beryllium Bolt
-gregtech_addon:metaitem_1:26018, Magnesium Bolt
-gregtech_addon:metaitem_1:26019, Aluminium Bolt
-gregtech_addon:metaitem_1:26020, Silicon Bolt
-gregtech_addon:metaitem_1:26027, Scandium Bolt
-gregtech_addon:metaitem_1:26028, Titanium Bolt
-gregtech_addon:metaitem_1:26029, Vanadium Bolt
-gregtech_addon:metaitem_1:26030, Chrome Bolt
-gregtech_addon:metaitem_1:26031, Manganese Bolt
-gregtech_addon:metaitem_1:26032, Iron Bolt
-gregtech_addon:metaitem_1:26033, Cobalt Bolt
-gregtech_addon:metaitem_1:26034, Nickel Bolt
-gregtech_addon:metaitem_1:26035, Copper Bolt
-gregtech_addon:metaitem_1:26036, Zinc Bolt
-gregtech_addon:metaitem_1:26043, Rubidium Bolt
-gregtech_addon:metaitem_1:26045, Yttrium Bolt
-gregtech_addon:metaitem_1:26047, Niobium Bolt
-gregtech_addon:metaitem_1:26048, Molybdenum Bolt
-gregtech_addon:metaitem_1:26052, Palladium Bolt
-gregtech_addon:metaitem_1:26054, Silver Bolt
-gregtech_addon:metaitem_1:26056, Indium Bolt
-gregtech_addon:metaitem_1:26057, Tin Bolt
-gregtech_addon:metaitem_1:26058, Antimony Bolt
-gregtech_addon:metaitem_1:26059, Tellurium Bolt
-gregtech_addon:metaitem_1:26062, Caesium Bolt
-gregtech_addon:metaitem_1:26064, Lanthanum Bolt
-gregtech_addon:metaitem_1:26065, Cerium Bolt
-gregtech_addon:metaitem_1:26066, Praseodymium Bolt
-gregtech_addon:metaitem_1:26067, Neodymium Bolt
-gregtech_addon:metaitem_1:26068, Promethium Bolt
-gregtech_addon:metaitem_1:26069, Samarium Bolt
-gregtech_addon:metaitem_1:26070, Europium Bolt
-gregtech_addon:metaitem_1:26071, Gadolinium Bolt
-gregtech_addon:metaitem_1:26072, Terbium Bolt
-gregtech_addon:metaitem_1:26073, Dysprosium Bolt
-gregtech_addon:metaitem_1:26074, Holmium Bolt
-gregtech_addon:metaitem_1:26075, Erbium Bolt
-gregtech_addon:metaitem_1:26076, Thulium Bolt
-gregtech_addon:metaitem_1:26077, Ytterbium Bolt
-gregtech_addon:metaitem_1:26078, Lutetium Bolt
-gregtech_addon:metaitem_1:26080, Tantalum Bolt
-gregtech_addon:metaitem_1:26081, Tungsten Bolt
-gregtech_addon:metaitem_1:26083, Osmium Bolt
-gregtech_addon:metaitem_1:26084, Iridium Bolt
-gregtech_addon:metaitem_1:26085, Platinum Bolt
-gregtech_addon:metaitem_1:26086, Gold Bolt
-gregtech_addon:metaitem_1:26089, Lead Bolt
-gregtech_addon:metaitem_1:26096, Thorium Bolt
-gregtech_addon:metaitem_1:26097, Uranium 235 Bolt
-gregtech_addon:metaitem_1:26098, Uranium 238 Bolt
-gregtech_addon:metaitem_1:26100, Plutonium 244 Bolt
-gregtech_addon:metaitem_1:26101, Plutonium 241 Bolt
-gregtech_addon:metaitem_1:26103, Americium Bolt
-gregtech_addon:metaitem_1:26129, Neutronium Bolt
-gregtech_addon:metaitem_1:26300, Bronze Bolt
-gregtech_addon:metaitem_1:26301, Brass Bolt
-gregtech_addon:metaitem_1:26302, Invar Bolt
-gregtech_addon:metaitem_1:26303, Electrum Bolt
-gregtech_addon:metaitem_1:26304, Wrought Iron Bolt
-gregtech_addon:metaitem_1:26305, Steel Bolt
-gregtech_addon:metaitem_1:26306, Stainless Steel Bolt
-gregtech_addon:metaitem_1:26307, Pig Iron Bolt
-gregtech_addon:metaitem_1:26308, Red Alloy Bolt
-gregtech_addon:metaitem_1:26309, Blue Alloy Bolt
-gregtech_addon:metaitem_1:26310, Cupronickel Bolt
-gregtech_addon:metaitem_1:26311, Nichrome Bolt
-gregtech_addon:metaitem_1:26312, Kanthal Bolt
-gregtech_addon:metaitem_1:26313, Magnalium Bolt
-gregtech_addon:metaitem_1:26314, Soldering Alloy Bolt
-gregtech_addon:metaitem_1:26315, Battery Alloy Bolt
-gregtech_addon:metaitem_1:26316, Tungstensteel Bolt
-gregtech_addon:metaitem_1:26317, Osmiridium Bolt
-gregtech_addon:metaitem_1:26318, Sunnarium Bolt
-gregtech_addon:metaitem_1:26319, Adamantium Bolt
-gregtech_addon:metaitem_1:26320, Fluxed Electrum Bolt
-gregtech_addon:metaitem_1:26321, Enderium Bolt
-gregtech_addon:metaitem_1:26322, HSLA Steel Bolt
-gregtech_addon:metaitem_1:26323, Infused Gold Bolt
-gregtech_addon:metaitem_1:26324, Naquadah Bolt
-gregtech_addon:metaitem_1:26325, Naquadah Alloy Bolt
-gregtech_addon:metaitem_1:26326, Refined Glowstone Bolt
-gregtech_addon:metaitem_1:26327, Refined Obsidian Bolt
-gregtech_addon:metaitem_1:26328, Duranium Bolt
-gregtech_addon:metaitem_1:26329, Tritanium Bolt
-gregtech_addon:metaitem_1:26330, Thaumium Bolt
-gregtech_addon:metaitem_1:26331, Mithril Bolt
-gregtech_addon:metaitem_1:26332, Midasium Bolt
-gregtech_addon:metaitem_1:26333, Astral Silver Bolt
-gregtech_addon:metaitem_1:26334, Black Steel Bolt
-gregtech_addon:metaitem_1:26335, Damascus Steel Bolt
-gregtech_addon:metaitem_1:26336, Shadowiron Bolt
-gregtech_addon:metaitem_1:26337, Shadowsteel Bolt
-gregtech_addon:metaitem_1:26338, Ironwood Bolt
-gregtech_addon:metaitem_1:26339, Steelleaf Bolt
-gregtech_addon:metaitem_1:26340, Meteoric Iron Bolt
-gregtech_addon:metaitem_1:26341, Meteoric Steel Bolt
-gregtech_addon:metaitem_1:26342, Dark Iron Bolt
-gregtech_addon:metaitem_1:26343, Cobalt Brass Bolt
-gregtech_addon:metaitem_1:26344, Ultimet Bolt
-gregtech_addon:metaitem_1:26345, Electrotine Alloy Bolt
-gregtech_addon:metaitem_1:26521, Force Bolt
-gregtech_addon:metaitem_1:26828, Cooperite Bolt
-gregtech_addon:metaitem_1:26829, Deep Iron Bolt
-gregtech_addon:metaitem_1:26874, Plastic Bolt
-gregtech_addon:metaitem_1:26880, Rubber Bolt
-gregtech_addon:metaitem_1:26884, Desh Bolt
-gregtech_addon:metaitem_1:27008, Beryllium Screw
-gregtech_addon:metaitem_1:27018, Magnesium Screw
-gregtech_addon:metaitem_1:27019, Aluminium Screw
-gregtech_addon:metaitem_1:27020, Silicon Screw
-gregtech_addon:metaitem_1:27027, Scandium Screw
-gregtech_addon:metaitem_1:27028, Titanium Screw
-gregtech_addon:metaitem_1:27029, Vanadium Screw
-gregtech_addon:metaitem_1:27030, Chrome Screw
-gregtech_addon:metaitem_1:27031, Manganese Screw
-gregtech_addon:metaitem_1:27032, Iron Screw
-gregtech_addon:metaitem_1:27033, Cobalt Screw
-gregtech_addon:metaitem_1:27034, Nickel Screw
-gregtech_addon:metaitem_1:27035, Copper Screw
-gregtech_addon:metaitem_1:27036, Zinc Screw
-gregtech_addon:metaitem_1:27043, Rubidium Screw
-gregtech_addon:metaitem_1:27045, Yttrium Screw
-gregtech_addon:metaitem_1:27047, Niobium Screw
-gregtech_addon:metaitem_1:27048, Molybdenum Screw
-gregtech_addon:metaitem_1:27052, Palladium Screw
-gregtech_addon:metaitem_1:27054, Silver Screw
-gregtech_addon:metaitem_1:27056, Indium Screw
-gregtech_addon:metaitem_1:27057, Tin Screw
-gregtech_addon:metaitem_1:27058, Antimony Screw
-gregtech_addon:metaitem_1:27059, Tellurium Screw
-gregtech_addon:metaitem_1:27062, Caesium Screw
-gregtech_addon:metaitem_1:27064, Lanthanum Screw
-gregtech_addon:metaitem_1:27065, Cerium Screw
-gregtech_addon:metaitem_1:27066, Praseodymium Screw
-gregtech_addon:metaitem_1:27067, Neodymium Screw
-gregtech_addon:metaitem_1:27068, Promethium Screw
-gregtech_addon:metaitem_1:27069, Samarium Screw
-gregtech_addon:metaitem_1:27070, Europium Screw
-gregtech_addon:metaitem_1:27071, Gadolinium Screw
-gregtech_addon:metaitem_1:27072, Terbium Screw
-gregtech_addon:metaitem_1:27073, Dysprosium Screw
-gregtech_addon:metaitem_1:27074, Holmium Screw
-gregtech_addon:metaitem_1:27075, Erbium Screw
-gregtech_addon:metaitem_1:27076, Thulium Screw
-gregtech_addon:metaitem_1:27077, Ytterbium Screw
-gregtech_addon:metaitem_1:27078, Lutetium Screw
-gregtech_addon:metaitem_1:27080, Tantalum Screw
-gregtech_addon:metaitem_1:27081, Tungsten Screw
-gregtech_addon:metaitem_1:27083, Osmium Screw
-gregtech_addon:metaitem_1:27084, Iridium Screw
-gregtech_addon:metaitem_1:27085, Platinum Screw
-gregtech_addon:metaitem_1:27086, Gold Screw
-gregtech_addon:metaitem_1:27089, Lead Screw
-gregtech_addon:metaitem_1:27096, Thorium Screw
-gregtech_addon:metaitem_1:27097, Uranium 235 Screw
-gregtech_addon:metaitem_1:27098, Uranium 238 Screw
-gregtech_addon:metaitem_1:27100, Plutonium 244 Screw
-gregtech_addon:metaitem_1:27101, Plutonium 241 Screw
-gregtech_addon:metaitem_1:27103, Americium Screw
-gregtech_addon:metaitem_1:27129, Neutronium Screw
-gregtech_addon:metaitem_1:27300, Bronze Screw
-gregtech_addon:metaitem_1:27301, Brass Screw
-gregtech_addon:metaitem_1:27302, Invar Screw
-gregtech_addon:metaitem_1:27303, Electrum Screw
-gregtech_addon:metaitem_1:27304, Wrought Iron Screw
-gregtech_addon:metaitem_1:27305, Steel Screw
-gregtech_addon:metaitem_1:27306, Stainless Steel Screw
-gregtech_addon:metaitem_1:27307, Pig Iron Screw
-gregtech_addon:metaitem_1:27308, Red Alloy Screw
-gregtech_addon:metaitem_1:27309, Blue Alloy Screw
-gregtech_addon:metaitem_1:27310, Cupronickel Screw
-gregtech_addon:metaitem_1:27311, Nichrome Screw
-gregtech_addon:metaitem_1:27312, Kanthal Screw
-gregtech_addon:metaitem_1:27313, Magnalium Screw
-gregtech_addon:metaitem_1:27314, Soldering Alloy Screw
-gregtech_addon:metaitem_1:27315, Battery Alloy Screw
-gregtech_addon:metaitem_1:27316, Tungstensteel Screw
-gregtech_addon:metaitem_1:27317, Osmiridium Screw
-gregtech_addon:metaitem_1:27318, Sunnarium Screw
-gregtech_addon:metaitem_1:27319, Adamantium Screw
-gregtech_addon:metaitem_1:27320, Fluxed Electrum Screw
-gregtech_addon:metaitem_1:27321, Enderium Screw
-gregtech_addon:metaitem_1:27322, HSLA Steel Screw
-gregtech_addon:metaitem_1:27323, Infused Gold Screw
-gregtech_addon:metaitem_1:27324, Naquadah Screw
-gregtech_addon:metaitem_1:27325, Naquadah Alloy Screw
-gregtech_addon:metaitem_1:27326, Refined Glowstone Screw
-gregtech_addon:metaitem_1:27327, Refined Obsidian Screw
-gregtech_addon:metaitem_1:27328, Duranium Screw
-gregtech_addon:metaitem_1:27329, Tritanium Screw
-gregtech_addon:metaitem_1:27330, Thaumium Screw
-gregtech_addon:metaitem_1:27331, Mithril Screw
-gregtech_addon:metaitem_1:27332, Midasium Screw
-gregtech_addon:metaitem_1:27333, Astral Silver Screw
-gregtech_addon:metaitem_1:27334, Black Steel Screw
-gregtech_addon:metaitem_1:27335, Damascus Steel Screw
-gregtech_addon:metaitem_1:27336, Shadowiron Screw
-gregtech_addon:metaitem_1:27337, Shadowsteel Screw
-gregtech_addon:metaitem_1:27338, Ironwood Screw
-gregtech_addon:metaitem_1:27339, Steelleaf Screw
-gregtech_addon:metaitem_1:27340, Meteoric Iron Screw
-gregtech_addon:metaitem_1:27341, Meteoric Steel Screw
-gregtech_addon:metaitem_1:27342, Dark Iron Screw
-gregtech_addon:metaitem_1:27343, Cobalt Brass Screw
-gregtech_addon:metaitem_1:27344, Ultimet Screw
-gregtech_addon:metaitem_1:27345, Electrotine Alloy Screw
-gregtech_addon:metaitem_1:27521, Force Screw
-gregtech_addon:metaitem_1:27828, Cooperite Screw
-gregtech_addon:metaitem_1:27829, Deep Iron Screw
-gregtech_addon:metaitem_1:27874, Plastic Screw
-gregtech_addon:metaitem_1:27880, Rubber Screw
-gregtech_addon:metaitem_1:27884, Desh Screw
-gregtech_addon:metaitem_1:28008, Beryllium Ring
-gregtech_addon:metaitem_1:28018, Magnesium Ring
-gregtech_addon:metaitem_1:28019, Aluminium Ring
-gregtech_addon:metaitem_1:28020, Silicon Ring
-gregtech_addon:metaitem_1:28027, Scandium Ring
-gregtech_addon:metaitem_1:28028, Titanium Ring
-gregtech_addon:metaitem_1:28029, Vanadium Ring
-gregtech_addon:metaitem_1:28030, Chrome Ring
-gregtech_addon:metaitem_1:28031, Manganese Ring
-gregtech_addon:metaitem_1:28032, Iron Ring
-gregtech_addon:metaitem_1:28033, Cobalt Ring
-gregtech_addon:metaitem_1:28034, Nickel Ring
-gregtech_addon:metaitem_1:28035, Copper Ring
-gregtech_addon:metaitem_1:28036, Zinc Ring
-gregtech_addon:metaitem_1:28043, Rubidium Ring
-gregtech_addon:metaitem_1:28045, Yttrium Ring
-gregtech_addon:metaitem_1:28047, Niobium Ring
-gregtech_addon:metaitem_1:28048, Molybdenum Ring
-gregtech_addon:metaitem_1:28052, Palladium Ring
-gregtech_addon:metaitem_1:28054, Silver Ring
-gregtech_addon:metaitem_1:28056, Indium Ring
-gregtech_addon:metaitem_1:28057, Tin Ring
-gregtech_addon:metaitem_1:28058, Antimony Ring
-gregtech_addon:metaitem_1:28059, Tellurium Ring
-gregtech_addon:metaitem_1:28062, Caesium Ring
-gregtech_addon:metaitem_1:28064, Lanthanum Ring
-gregtech_addon:metaitem_1:28065, Cerium Ring
-gregtech_addon:metaitem_1:28066, Praseodymium Ring
-gregtech_addon:metaitem_1:28067, Neodymium Ring
-gregtech_addon:metaitem_1:28068, Promethium Ring
-gregtech_addon:metaitem_1:28069, Samarium Ring
-gregtech_addon:metaitem_1:28070, Europium Ring
-gregtech_addon:metaitem_1:28071, Gadolinium Ring
-gregtech_addon:metaitem_1:28072, Terbium Ring
-gregtech_addon:metaitem_1:28073, Dysprosium Ring
-gregtech_addon:metaitem_1:28074, Holmium Ring
-gregtech_addon:metaitem_1:28075, Erbium Ring
-gregtech_addon:metaitem_1:28076, Thulium Ring
-gregtech_addon:metaitem_1:28077, Ytterbium Ring
-gregtech_addon:metaitem_1:28078, Lutetium Ring
-gregtech_addon:metaitem_1:28080, Tantalum Ring
-gregtech_addon:metaitem_1:28081, Tungsten Ring
-gregtech_addon:metaitem_1:28083, Osmium Ring
-gregtech_addon:metaitem_1:28084, Iridium Ring
-gregtech_addon:metaitem_1:28085, Platinum Ring
-gregtech_addon:metaitem_1:28086, Gold Ring
-gregtech_addon:metaitem_1:28089, Lead Ring
-gregtech_addon:metaitem_1:28096, Thorium Ring
-gregtech_addon:metaitem_1:28097, Uranium 235 Ring
-gregtech_addon:metaitem_1:28098, Uranium 238 Ring
-gregtech_addon:metaitem_1:28100, Plutonium 244 Ring
-gregtech_addon:metaitem_1:28101, Plutonium 241 Ring
-gregtech_addon:metaitem_1:28103, Americium Ring
-gregtech_addon:metaitem_1:28129, Neutronium Ring
-gregtech_addon:metaitem_1:28300, Bronze Ring
-gregtech_addon:metaitem_1:28301, Brass Ring
-gregtech_addon:metaitem_1:28302, Invar Ring
-gregtech_addon:metaitem_1:28303, Electrum Ring
-gregtech_addon:metaitem_1:28304, Wrought Iron Ring
-gregtech_addon:metaitem_1:28305, Steel Ring
-gregtech_addon:metaitem_1:28306, Stainless Steel Ring
-gregtech_addon:metaitem_1:28307, Pig Iron Ring
-gregtech_addon:metaitem_1:28308, Red Alloy Ring
-gregtech_addon:metaitem_1:28309, Blue Alloy Ring
-gregtech_addon:metaitem_1:28310, Cupronickel Ring
-gregtech_addon:metaitem_1:28311, Nichrome Ring
-gregtech_addon:metaitem_1:28312, Kanthal Ring
-gregtech_addon:metaitem_1:28313, Magnalium Ring
-gregtech_addon:metaitem_1:28314, Soldering Alloy Ring
-gregtech_addon:metaitem_1:28315, Battery Alloy Ring
-gregtech_addon:metaitem_1:28316, Tungstensteel Ring
-gregtech_addon:metaitem_1:28317, Osmiridium Ring
-gregtech_addon:metaitem_1:28318, Sunnarium Ring
-gregtech_addon:metaitem_1:28319, Adamantium Ring
-gregtech_addon:metaitem_1:28320, Fluxed Electrum Ring
-gregtech_addon:metaitem_1:28321, Enderium Ring
-gregtech_addon:metaitem_1:28322, HSLA Steel Ring
-gregtech_addon:metaitem_1:28323, Infused Gold Ring
-gregtech_addon:metaitem_1:28324, Naquadah Ring
-gregtech_addon:metaitem_1:28325, Naquadah Alloy Ring
-gregtech_addon:metaitem_1:28326, Refined Glowstone Ring
-gregtech_addon:metaitem_1:28327, Refined Obsidian Ring
-gregtech_addon:metaitem_1:28328, Duranium Ring
-gregtech_addon:metaitem_1:28329, Tritanium Ring
-gregtech_addon:metaitem_1:28330, Thaumium Ring
-gregtech_addon:metaitem_1:28331, Mithril Ring
-gregtech_addon:metaitem_1:28332, Midasium Ring
-gregtech_addon:metaitem_1:28333, Astral Silver Ring
-gregtech_addon:metaitem_1:28334, Black Steel Ring
-gregtech_addon:metaitem_1:28335, Damascus Steel Ring
-gregtech_addon:metaitem_1:28336, Shadowiron Ring
-gregtech_addon:metaitem_1:28337, Shadowsteel Ring
-gregtech_addon:metaitem_1:28338, Ironwood Ring
-gregtech_addon:metaitem_1:28339, Steelleaf Ring
-gregtech_addon:metaitem_1:28340, Meteoric Iron Ring
-gregtech_addon:metaitem_1:28341, Meteoric Steel Ring
-gregtech_addon:metaitem_1:28342, Dark Iron Ring
-gregtech_addon:metaitem_1:28343, Cobalt Brass Ring
-gregtech_addon:metaitem_1:28344, Ultimet Ring
-gregtech_addon:metaitem_1:28345, Electrotine Alloy Ring
-gregtech_addon:metaitem_1:28521, Force Ring
-gregtech_addon:metaitem_1:28828, Cooperite Ring
-gregtech_addon:metaitem_1:28829, Deep Iron Ring
-gregtech_addon:metaitem_1:28874, Plastic Ring
-gregtech_addon:metaitem_1:28880, Rubber Ring
-gregtech_addon:metaitem_1:28884, Desh Ring
 gregtech_addon:metaitem_1:30001, Hydrogen Cell
 gregtech_addon:metaitem_1:30002, Deuterium Cell
 gregtech_addon:metaitem_1:30003, Tritium Cell
@@ -22519,7 +21676,6 @@ gregtech_addon:metaitem_1:30004, Helium Cell
 gregtech_addon:metaitem_1:30005, Helium-3 Cell
 gregtech_addon:metaitem_1:30006, Lithium Cell
 gregtech_addon:metaitem_1:30008, Beryllium Cell
-gregtech_addon:metaitem_1:30009, Boron Cell
 gregtech_addon:metaitem_1:30010, Carbon Cell
 gregtech_addon:metaitem_1:30012, Nitrogen Cell
 gregtech_addon:metaitem_1:30014, Fluorine Cell
@@ -22551,7 +21707,6 @@ gregtech_addon:metaitem_1:30720, Sulfuric Acid Cell
 gregtech_addon:metaitem_1:30811, Glowstone Cell
 gregtech_addon:metaitem_1:30833, Phosphate Cell
 gregtech_addon:metaitem_1:30837, Silicon Dioxide Cell
-gregtech_addon:metaitem_1:30853, Cobalt Hexahydrate Cell
 gregtech_addon:metaitem_1:30885, Milk Cell
 gregtech_addon:metaitem_1:32000, Copper GT Credit
 gregtech_addon:metaitem_1:32001, Cupronickel GT Credit
@@ -22600,86 +21755,6 @@ gregtech_addon:metaitem_1:32697, Lapotronic Energy Orb
 gregtech_addon:metaitem_1:32697, Lapotronic Energy Orb
 gregtech_addon:metaitem_1:32698, Zero Point Module
 gregtech_addon:metaitem_1:32765, Mc Guffium 239
-gregtech_addon:metaitem_2:32, Iron Sword Blade
-gregtech_addon:metaitem_2:86, Gold Sword Blade
-gregtech_addon:metaitem_2:299, Stone Sword Blade
-gregtech_addon:metaitem_2:300, Bronze Sword Blade
-gregtech_addon:metaitem_2:305, Steel Sword Blade
-gregtech_addon:metaitem_2:316, Tungstensteel Sword Blade
-gregtech_addon:metaitem_2:500, Diamond Sword Blade
-gregtech_addon:metaitem_2:809, Wood Sword Blade
-gregtech_addon:metaitem_2:874, Plastic Sword Blade
-gregtech_addon:metaitem_2:880, Rubber Sword Blade
-gregtech_addon:metaitem_2:1032, Iron Pickaxe Head
-gregtech_addon:metaitem_2:1086, Gold Pickaxe Head
-gregtech_addon:metaitem_2:1299, Stone Pickaxe Head
-gregtech_addon:metaitem_2:1300, Bronze Pickaxe Head
-gregtech_addon:metaitem_2:1305, Steel Pickaxe Head
-gregtech_addon:metaitem_2:1316, Tungstensteel Pickaxe Head
-gregtech_addon:metaitem_2:1500, Diamond Pickaxe Head
-gregtech_addon:metaitem_2:1809, Wood Pickaxe Head
-gregtech_addon:metaitem_2:1874, Plastic Pickaxe Head
-gregtech_addon:metaitem_2:1880, Rubber Pickaxe Head
-gregtech_addon:metaitem_2:2032, Iron Shovel Head
-gregtech_addon:metaitem_2:2086, Gold Shovel Head
-gregtech_addon:metaitem_2:2299, Stone Shovel Head
-gregtech_addon:metaitem_2:2300, Bronze Shovel Head
-gregtech_addon:metaitem_2:2305, Steel Shovel Head
-gregtech_addon:metaitem_2:2316, Tungstensteel Shovel Head
-gregtech_addon:metaitem_2:2500, Diamond Shovel Head
-gregtech_addon:metaitem_2:2809, Wood Shovel Head
-gregtech_addon:metaitem_2:2874, Plastic Shovel Head
-gregtech_addon:metaitem_2:2880, Rubber Shovel Head
-gregtech_addon:metaitem_2:3032, Iron Axe Head
-gregtech_addon:metaitem_2:3086, Gold Axe Head
-gregtech_addon:metaitem_2:3299, Stone Axe Head
-gregtech_addon:metaitem_2:3300, Bronze Axe Head
-gregtech_addon:metaitem_2:3305, Steel Axe Head
-gregtech_addon:metaitem_2:3316, Tungstensteel Axe Head
-gregtech_addon:metaitem_2:3500, Diamond Axe Head
-gregtech_addon:metaitem_2:3809, Wood Axe Head
-gregtech_addon:metaitem_2:3874, Plastic Axe Head
-gregtech_addon:metaitem_2:3880, Rubber Axe Head
-gregtech_addon:metaitem_2:4032, Iron Hoe Head
-gregtech_addon:metaitem_2:4086, Gold Hoe Head
-gregtech_addon:metaitem_2:4299, Stone Hoe Head
-gregtech_addon:metaitem_2:4300, Bronze Hoe Head
-gregtech_addon:metaitem_2:4305, Steel Hoe Head
-gregtech_addon:metaitem_2:4316, Tungstensteel Hoe Head
-gregtech_addon:metaitem_2:4500, Diamond Hoe Head
-gregtech_addon:metaitem_2:4809, Wood Hoe Head
-gregtech_addon:metaitem_2:4874, Plastic Hoe Head
-gregtech_addon:metaitem_2:4880, Rubber Hoe Head
-gregtech_addon:metaitem_2:5032, Iron Hammer Head
-gregtech_addon:metaitem_2:5086, Gold Hammer Head
-gregtech_addon:metaitem_2:5299, Stone Hammer Head
-gregtech_addon:metaitem_2:5300, Bronze Hammer Head
-gregtech_addon:metaitem_2:5305, Steel Hammer Head
-gregtech_addon:metaitem_2:5316, Tungstensteel Hammer Head
-gregtech_addon:metaitem_2:5500, Diamond Hammer Head
-gregtech_addon:metaitem_2:5809, Wood Hammer Head
-gregtech_addon:metaitem_2:5874, Plastic Hammer Head
-gregtech_addon:metaitem_2:5880, Rubber Hammer Head
-gregtech_addon:metaitem_2:6032, Iron File Head
-gregtech_addon:metaitem_2:6086, Gold File Head
-gregtech_addon:metaitem_2:6299, Stone File Head
-gregtech_addon:metaitem_2:6300, Bronze File Head
-gregtech_addon:metaitem_2:6305, Steel File Head
-gregtech_addon:metaitem_2:6316, Tungstensteel File Head
-gregtech_addon:metaitem_2:6500, Diamond File Head
-gregtech_addon:metaitem_2:6809, Wood File Head
-gregtech_addon:metaitem_2:6874, Plastic File Head
-gregtech_addon:metaitem_2:6880, Rubber File Head
-gregtech_addon:metaitem_2:7032, Iron Saw Blade
-gregtech_addon:metaitem_2:7086, Gold Saw Blade
-gregtech_addon:metaitem_2:7299, Stone Saw Blade
-gregtech_addon:metaitem_2:7300, Bronze Saw Blade
-gregtech_addon:metaitem_2:7305, Steel Saw Blade
-gregtech_addon:metaitem_2:7316, Tungstensteel Saw Blade
-gregtech_addon:metaitem_2:7500, Diamond Saw Blade
-gregtech_addon:metaitem_2:7809, Wood Saw Blade
-gregtech_addon:metaitem_2:7874, Plastic Saw Blade
-gregtech_addon:metaitem_2:7880, Rubber Saw Blade
 gregtech_addon:metaitem_2:31010, Carbon Gear
 gregtech_addon:metaitem_2:31019, Aluminium Gear
 gregtech_addon:metaitem_2:31028, Titanium Gear
@@ -22687,16 +21762,12 @@ gregtech_addon:metaitem_2:31030, Chrome Gear
 gregtech_addon:metaitem_2:31032, Iron Gear
 gregtech_addon:metaitem_2:31034, Nickel Gear
 gregtech_addon:metaitem_2:31035, Copper Gear
-gregtech_addon:metaitem_2:31052, Palladium Gear
 gregtech_addon:metaitem_2:31054, Silver Gear
 gregtech_addon:metaitem_2:31057, Tin Gear
 gregtech_addon:metaitem_2:31081, Tungsten Gear
-gregtech_addon:metaitem_2:31083, Osmium Gear
 gregtech_addon:metaitem_2:31084, Iridium Gear
-gregtech_addon:metaitem_2:31085, Platinum Gear
 gregtech_addon:metaitem_2:31086, Gold Gear
 gregtech_addon:metaitem_2:31089, Lead Gear
-gregtech_addon:metaitem_2:31129, Neutronium Gear
 gregtech_addon:metaitem_2:31299, Stone Gear
 gregtech_addon:metaitem_2:31300, Bronze Gear
 gregtech_addon:metaitem_2:31301, Brass Gear
@@ -22706,22 +21777,12 @@ gregtech_addon:metaitem_2:31305, Steel Gear
 gregtech_addon:metaitem_2:31306, Stainless Steel Gear
 gregtech_addon:metaitem_2:31313, Magnalium Gear
 gregtech_addon:metaitem_2:31316, Tungstensteel Gear
-gregtech_addon:metaitem_2:31317, Osmiridium Gear
-gregtech_addon:metaitem_2:31319, Adamantium Gear
-gregtech_addon:metaitem_2:31322, HSLA Steel Gear
-gregtech_addon:metaitem_2:31323, Infused Gold Gear
-gregtech_addon:metaitem_2:31325, Naquadah Alloy Gear
-gregtech_addon:metaitem_2:31330, Thaumium Gear
-gregtech_addon:metaitem_2:31338, Ironwood Gear
 gregtech_addon:metaitem_2:31343, Cobalt Brass Gear
-gregtech_addon:metaitem_2:31344, Ultimet Gear
 gregtech_addon:metaitem_2:31500, Diamond Gear
-gregtech_addon:metaitem_2:31521, Force Gear
 gregtech_addon:metaitem_2:31809, Wood Gear
 gregtech_addon:metaitem_2:31828, Cooperite Gear
 gregtech_addon:metaitem_2:31849, Black Granite Gear
 gregtech_addon:metaitem_2:31850, Red Granite Gear
-gregtech_addon:metaitem_2:31865, Graphite Gear
 gregtech_addon:metaitem_2:31874, Plastic Gear
 gregtech_addon:metaitem_2:31880, Rubber Gear
 gregtech_addon:integrated_circuit:0, Integrated Circuit
@@ -22842,14 +21903,14 @@ IronChest:diamondCrystalUpgrade, Diamond to Crystal Chest Upgrade
 IronChest:woodIronUpgrade, Wood to Iron Chest Upgrade
 IronChest:woodCopperUpgrade, Wood to Copper Chest Upgrade
 IronChest:diamondObsidianUpgrade, Diamond to Obsidian Chest Upgrade
-ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
+ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
+ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
 ironchestminecarts:minecart_chest_silver, Minecart with Silver Chest
 ironchestminecarts:minecart_chest_gold, Minecart with Gold Chest
-ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
-ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
 ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
 ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
-ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
+ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
+ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
 magianaturalis:item.researchLog, Research Log
 magianaturalis:item.alchemicalStone:0, Phenomorphous Catalyst Stone
 magianaturalis:item.alchemicalStone:1, Quicksilver Alchemist Stone
@@ -24831,7 +23892,7 @@ ThermalDynamics:cover:0, Lapis Lazuli Ore Cover
 ThermalDynamics:cover:0, Lapis Lazuli Block Cover
 ThermalDynamics:cover:0, Sandstone Cover
 ThermalDynamics:cover:0, Chiseled Sandstone Cover
-ThermalDynamics:cover:0, Cut Sandstone Cover
+ThermalDynamics:cover:0, Smooth Sandstone Cover
 ThermalDynamics:cover:0, Booster Track Cover
 ThermalDynamics:cover:0, Detector Track Cover
 ThermalDynamics:cover:0, Sticky Piston Cover
@@ -24870,7 +23931,7 @@ ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Block of Gold Cover
 ThermalDynamics:cover:0, Block of Iron Cover
-ThermalDynamics:cover:0, Smooth Stone Slab Cover
+ThermalDynamics:cover:0, Stone Slab Cover
 ThermalDynamics:cover:0, Sandstone Slab Cover
 ThermalDynamics:cover:0, Cobblestone Slab Cover
 ThermalDynamics:cover:0, Bricks Slab Cover
@@ -24880,11 +23941,11 @@ ThermalDynamics:cover:0, Quartz Slab Cover
 ThermalDynamics:cover:0, Bricks Cover
 ThermalDynamics:cover:0, TNT Cover
 ThermalDynamics:cover:0, Bookshelf Cover
-ThermalDynamics:cover:0, Mossy Cobblestone Cover
+ThermalDynamics:cover:0, Moss Stone Cover
 ThermalDynamics:cover:0, Obsidian Cover
 ThermalDynamics:cover:0, Torch Cover
 ThermalDynamics:cover:0, Fire Cover
-ThermalDynamics:cover:0, Oak Stairs Cover
+ThermalDynamics:cover:0, Oak Wood Stairs Cover
 ThermalDynamics:cover:0, Diamond Ore Cover
 ThermalDynamics:cover:0, Block of Diamond Cover
 ThermalDynamics:cover:0, Crafting Table Cover
@@ -24926,13 +23987,13 @@ ThermalDynamics:cover:0, Brown Stained Glass Cover
 ThermalDynamics:cover:0, Green Stained Glass Cover
 ThermalDynamics:cover:0, Red Stained Glass Cover
 ThermalDynamics:cover:0, Black Stained Glass Cover
-ThermalDynamics:cover:0, Oak Trapdoor Cover
-ThermalDynamics:cover:0, Infested Stone Cover
-ThermalDynamics:cover:0, Infested Cobblestone Cover
-ThermalDynamics:cover:0, Infested Stone Bricks Cover
-ThermalDynamics:cover:0, Infested Mossy Stone Bricks Cover
-ThermalDynamics:cover:0, Infested Cracked Stone Bricks Cover
-ThermalDynamics:cover:0, Infested Chiseled Stone Bricks Cover
+ThermalDynamics:cover:0, Trapdoor Cover
+ThermalDynamics:cover:0, Stone Monster Egg Cover
+ThermalDynamics:cover:0, Cobblestone Monster Egg Cover
+ThermalDynamics:cover:0, Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Mossy Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Cracked Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Chiseled Stone Brick Monster Egg Cover
 ThermalDynamics:cover:0, Stone Bricks Cover
 ThermalDynamics:cover:0, Mossy Stone Bricks Cover
 ThermalDynamics:cover:0, Cracked Stone Bricks Cover
@@ -24948,27 +24009,27 @@ ThermalDynamics:cover:0, Brick Stairs Cover
 ThermalDynamics:cover:0, Stone Brick Stairs Cover
 ThermalDynamics:cover:0, Mycelium Cover
 ThermalDynamics:cover:0, Lily Pad Cover
-ThermalDynamics:cover:0, Nether Bricks Cover
+ThermalDynamics:cover:0, Nether Brick Cover
 ThermalDynamics:cover:0, Nether Brick Fence Cover
 ThermalDynamics:cover:0, Nether Brick Stairs Cover
 ThermalDynamics:cover:0, End Portal Cover
 ThermalDynamics:cover:0, End Stone Cover
 ThermalDynamics:cover:0, Dragon Egg Cover
 ThermalDynamics:cover:0, Redstone Lamp Cover
-ThermalDynamics:cover:0, Oak Slab Cover
-ThermalDynamics:cover:0, Spruce Slab Cover
-ThermalDynamics:cover:0, Birch Slab Cover
-ThermalDynamics:cover:0, Jungle Slab Cover
-ThermalDynamics:cover:0, Acacia Slab Cover
-ThermalDynamics:cover:0, Dark Oak Slab Cover
+ThermalDynamics:cover:0, Oak Wood Slab Cover
+ThermalDynamics:cover:0, Spruce Wood Slab Cover
+ThermalDynamics:cover:0, Birch Wood Slab Cover
+ThermalDynamics:cover:0, Jungle Wood Slab Cover
+ThermalDynamics:cover:0, Acacia Wood Slab Cover
+ThermalDynamics:cover:0, Dark Oak Wood Slab Cover
 ThermalDynamics:cover:0, Cocoa Cover
 ThermalDynamics:cover:0, Sandstone Stairs Cover
 ThermalDynamics:cover:0, Emerald Ore Cover
 ThermalDynamics:cover:0, Tripwire Hook Cover
 ThermalDynamics:cover:0, Block of Emerald Cover
-ThermalDynamics:cover:0, Spruce Stairs Cover
-ThermalDynamics:cover:0, Birch Stairs Cover
-ThermalDynamics:cover:0, Jungle Stairs Cover
+ThermalDynamics:cover:0, Spruce Wood Stairs Cover
+ThermalDynamics:cover:0, Birch Wood Stairs Cover
+ThermalDynamics:cover:0, Jungle Wood Stairs Cover
 ThermalDynamics:cover:0, Cobblestone Wall Cover
 ThermalDynamics:cover:0, Mossy Cobblestone Wall Cover
 ThermalDynamics:cover:0, Carrots Cover
@@ -24983,7 +24044,7 @@ ThermalDynamics:cover:0, Block of Redstone Cover
 ThermalDynamics:cover:0, Nether Quartz Ore Cover
 ThermalDynamics:cover:0, Block of Quartz Cover
 ThermalDynamics:cover:0, Chiseled Quartz Block Cover
-ThermalDynamics:cover:0, Quartz Pillar Cover
+ThermalDynamics:cover:0, Pillar Quartz Block Cover
 ThermalDynamics:cover:0, Quartz Stairs Cover
 ThermalDynamics:cover:0, Activator Track Cover
 ThermalDynamics:cover:0, White Terracotta Cover
@@ -25022,8 +24083,8 @@ ThermalDynamics:cover:0, Acacia Leaves Cover
 ThermalDynamics:cover:0, Acacia Leaves Cover
 ThermalDynamics:cover:0, Acacia Log Cover
 ThermalDynamics:cover:0, Dark Oak Log Cover
-ThermalDynamics:cover:0, Acacia Stairs Cover
-ThermalDynamics:cover:0, Dark Oak Stairs Cover
+ThermalDynamics:cover:0, Acacia Wood Stairs Cover
+ThermalDynamics:cover:0, Dark Oak Wood Stairs Cover
 ThermalDynamics:cover:0, Mage Light Cover
 ThermalDynamics:cover:0, Hay Bale Cover
 ThermalDynamics:cover:0, Carpet Cover
@@ -25047,7 +24108,7 @@ ThermalDynamics:cover:0, Block of Coal Cover
 ThermalDynamics:cover:0, Packed Ice Cover
 ThermalDynamics:cover:0, Sunflower Cover
 ThermalDynamics:cover:0, Lilac Cover
-ThermalDynamics:cover:0, Tallgrass Cover
+ThermalDynamics:cover:0, Double Tallgrass Cover
 ThermalDynamics:cover:0, Large Fern Cover
 ThermalDynamics:cover:0, Rose Bush Cover
 ThermalDynamics:cover:0, Peony Cover
@@ -26491,12 +25552,6 @@ ThermalDynamics:cover:0, Mead Cover
 ThermalDynamics:cover:0, Candle Stump Cover
 ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Mushroom Cover
-ThermalDynamics:cover:0, Fence Gate Cover
-ThermalDynamics:cover:0, Ectoplasm Cover
-ThermalDynamics:cover:0, Water Hive Cover
-ThermalDynamics:cover:0, Rock Hive Cover
-ThermalDynamics:cover:0, Nether Hive Cover
-ThermalDynamics:cover:0, Marble Hive Cover
 ThermalDynamics:cover:0, Weeds Cover
 ThermalDynamics:cover:0, Long Weeds Cover
 ThermalDynamics:cover:0, Very Long Weeds Cover
@@ -26556,6 +25611,12 @@ ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
+ThermalDynamics:cover:0, Ectoplasm Cover
+ThermalDynamics:cover:0, Water Hive Cover
+ThermalDynamics:cover:0, Rock Hive Cover
+ThermalDynamics:cover:0, Nether Hive Cover
+ThermalDynamics:cover:0, Marble Hive Cover
+ThermalDynamics:cover:0, Fence Gate Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -27297,7 +26358,7 @@ ThermalDynamics:cover:0, Sandy Block Cover
 ThermalDynamics:cover:0, Ornate Sandy Stone Cover
 ThermalDynamics:cover:0, Etched Sandy Stone Cover
 ThermalDynamics:cover:0, Sandy Cobblestone Cover
-ThermalDynamics:cover:0, Nether Bricks Cover
+ThermalDynamics:cover:0, Nether Brick Cover
 ThermalDynamics:cover:0, Fitted Nether Stone Cover
 ThermalDynamics:cover:0, Nether Block Cover
 ThermalDynamics:cover:0, Ornate Nether Stone Cover
@@ -27498,7 +26559,13 @@ ThermalDynamics:cover:0, Green Force Field Cover
 ThermalDynamics:cover:0, Blue Force Field Cover
 ThermalDynamics:cover:0, Cinder Log [NYI] Cover
 ThermalDynamics:cover:0, Blue Castle Door Cover
+ThermalDynamics:cover:0, Yellow Castle Door Cover
+ThermalDynamics:cover:0, Pink Castle Door Cover
+ThermalDynamics:cover:0, Violet Castle Door Cover
 ThermalDynamics:cover:0, Blue Castle Door Cover
+ThermalDynamics:cover:0, Yellow Castle Door Cover
+ThermalDynamics:cover:0, Pink Castle Door Cover
+ThermalDynamics:cover:0, Violet Castle Door Cover
 ThermalDynamics:cover:0, Twilight Oak Planks Cover
 ThermalDynamics:cover:0, Canopy Planks Cover
 ThermalDynamics:cover:0, Mangrove Planks Cover
@@ -28865,9 +27932,6 @@ ThermalDynamics:cover:0, tile.null.name Cover
 ThermalDynamics:cover:0, Confusing Charge Cover
 ThermalDynamics:cover:0, Ender Charge Cover
 ThermalDynamics:cover:0, Concussion Charge Cover
-ThermalDynamics:cover:0, Crying Obsidian Cover
-ThermalDynamics:cover:0, Rose Cover
-ThermalDynamics:cover:0, Old Gravel Cover
 ThermalDynamics:cover:0, Prismarine Cover
 ThermalDynamics:cover:0, Prismarine Bricks Cover
 ThermalDynamics:cover:0, Dark Prismarine Cover
@@ -28879,7 +27943,6 @@ ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Coarse Dirt Cover
 ThermalDynamics:cover:0, Slime Block Cover
-ThermalDynamics:cover:0, Beetroots Cover
 ThermalDynamics:cover:0, Purpur Block Cover
 ThermalDynamics:cover:0, Purpur Pillar Cover
 ThermalDynamics:cover:0, End Stone Bricks Cover
@@ -28892,7 +27955,6 @@ ThermalDynamics:cover:0, Red Nether Bricks Cover
 ThermalDynamics:cover:0, Cracked Nether Bricks Cover
 ThermalDynamics:cover:0, Chiseled Nether Bricks Cover
 ThermalDynamics:cover:0, Nether Wart Block Cover
-ThermalDynamics:cover:0, Barrier Cover
 ThermalDynamics:cover:0, Blue Ice Cover
 ThermalDynamics:cover:0, Smooth Stone Cover
 ThermalDynamics:cover:0, Smooth Sandstone Cover
@@ -28991,6 +28053,7 @@ ThermalDynamics:cover:0, Iron Trapdoor Cover
 ThermalDynamics:cover:0, Magma Block Cover
 ThermalDynamics:cover:0, Lantern Cover
 ThermalDynamics:cover:0, Composter Cover
+ThermalDynamics:cover:0, Chain Cover
 ThermalDynamics:cover:0, Spruce Trapdoor Cover
 ThermalDynamics:cover:0, Birch Trapdoor Cover
 ThermalDynamics:cover:0, Jungle Trapdoor Cover
@@ -29021,6 +28084,26 @@ ThermalDynamics:cover:0, Birch Door Cover
 ThermalDynamics:cover:0, Jungle Door Cover
 ThermalDynamics:cover:0, Acacia Door Cover
 ThermalDynamics:cover:0, Dark Oak Door Cover
+ThermalDynamics:cover:0, Crying Obsidian Cover
+ThermalDynamics:cover:0, Rose Cover
+ThermalDynamics:cover:0, Old Gravel Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Light Cover
+ThermalDynamics:cover:0, Barrier Cover
 ThermalDynamics:cover:0, Copper Ore Cover
 ThermalDynamics:cover:0, Tin Ore Cover
 ThermalDynamics:cover:0, Manganese Ore Cover
@@ -29398,25 +28481,25 @@ ThermalDynamics:cover:0, Molten Elementium Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
 ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Paving Stair of Travel Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
 ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Paving Stair of Travel Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
