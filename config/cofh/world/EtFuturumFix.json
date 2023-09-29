@@ -1,0 +1,20 @@
+{
+    "tuff": {
+        "template": "uniform",
+        "block": "etfuturum:tuff",
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 22,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			7
+        ]
+    }
+}
