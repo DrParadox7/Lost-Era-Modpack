@@ -1269,4 +1269,11 @@
         <Loot Identifier="treasure-fancyGlasses" ItemName="OpenBlocks:technicolorGlasses" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="treasure-strangeGlasses" ItemName="OpenBlocks:seriousGlasses" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
     </LootGroup>
+        <LootGroup GroupMetaID="65" GroupName="Crop Science" Rarity="0" MinItems="4" MaxItems="6" CombineTrashGroup="false">
+        <Loot Identifier="cropScience-fertilizer" ItemName="IC2:itemFertilizer" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cropScience-stick" ItemName="Forestry:oakStick" Amount="8" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cropScience-watering" ItemName="IC2:itemCellHydrant:1" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cropScience-weedex" ItemName="IC2:itemWeedEx" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cropScience-subscription" ItemName="enhancedlootbags:lootbag:7" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
