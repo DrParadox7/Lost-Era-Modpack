@@ -21,8 +21,7 @@ recipes.addShaped(<BiomesOPlenty:ancientStaff:4>, [[<BiomesOPlenty:misc:10>, <mi
 
 #Biomes o'Plenty utility plants
 recipes.addShapeless(<minecraft:spider_eye>, [<BiomesOPlenty:flowers:13>]);
-recipes.addShapeless(<minecraft:glowstone_dust>, [<BiomesOPlenty:flowers:3>, <Botania:pestleAndMortar>]);
-recipes.addShapeless(<BiomesOPlenty:misc:11>, [<BiomesOPlenty:coral1:15>, <Botania:pestleAndMortar>]);
+recipes.addShapeless(<minecraft:dye:13>, [<BiomesOPlenty:coral1:15>]);
 
 #Bibliocraft Plates
 recipes.remove(<BiblioCraft:BiblioStuffs:2>);

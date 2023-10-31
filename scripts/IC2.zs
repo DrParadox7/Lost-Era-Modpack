@@ -80,5 +80,20 @@ recipes.remove(<IC2:itemToolWrenchElectric:*>);
 #Chainsaw
 recipes.remove(<IC2:itemToolChainsaw:*>);
 
+#Weeding Throwel
+recipes.remove(<IC2:itemWeedingTrowel>);
+recipes.addShaped(<IC2:itemWeedingTrowel>, [[<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null], [null, <Forestry:oakStick>, null]]);
+
+#Crop-Matron
+recipes.remove(<IC2:blockMachine2:2>);
+recipes.addShaped(<IC2:blockMachine2:2>, [[<ore:circuitData>, <ore:craftingMonitorTier02>, <ore:circuitData>], [<IC2:upgradeModule:4>, <gregtech_addon:machine:19>, <IC2:upgradeModule:3>], [<ore:circuitData>, <ore:circuitAdv>, <ore:circuitData>]]);
+
+#Crop Harvester
+recipes.remove(<IC2:blockMachine3:7>);
+recipes.addShaped(<IC2:blockMachine3:7>, [[null, <ore:circuitAdv>, null], [<ore:circuitAdv>, <gregtech_addon:machine:26>, <ore:circuitAdv>], [null, <ore:circuitAdv>, null]]);
+
+#Fertilizer
+recipes.addShaped(<IC2:itemFertilizer>*8, [[<Forestry:mulch>, <minecraft:dye:15>, <Forestry:mulch>], [<ore:dustSulfur>, <Forestry:fertilizerCompound>, <ore:dustSulfur>], [<Forestry:mulch>, <minecraft:dye:15>, <Forestry:mulch>]]);
+
 print("Initialized 'IC2.zs'");
 

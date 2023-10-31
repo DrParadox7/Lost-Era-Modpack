@@ -10,6 +10,8 @@ recipes.remove(<Forestry:gearBronze>);
 #Bronze
 mods.forestry.Carpenter.addRecipe(<Forestry:ingotBronze> * 3, [[<ore:ingotCopper>, <ore:ingotCopper>, null],[<ore:ingotCopper>, <ore:ingotTin>, null]], <liquid:lava> * 100, 120);
 
+#IC2 Seed Squeezing
+mods.forestry.Squeezer.addRecipe(<liquid:seedoil> * 10, <Forestry:mulch> % 0, [<IC2:itemCropSeed>], 20); 
 
 #### Postal Rework #### 
 
