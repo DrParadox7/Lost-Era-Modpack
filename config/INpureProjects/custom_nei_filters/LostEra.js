@@ -119,4 +119,33 @@ if (FML.isModLoaded("pokepatch")) {
     NEI.hide("Railcraft", "worldlogic");
     NEI.hide("minechem", "fluid.*");
     NEI.hide("minechem", "minechemBucket.*");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:18");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:19");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:30");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:31");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:32");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:33");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:34");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:35");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:36");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:37");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:38");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:39");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:60");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:61");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:62");
+    NEI.hide("StevesCarts", "tile.ModuleComponents:63");
+    NEI.hide("openmodularturrets", "bulletThrowable");
+    NEI.hide("openmodularturrets", "grenadeThrowable");
+    NEI.hide("openmodularturrets", "barrelTierTwo");
+    NEI.hide("openmodularturrets", "barrelTierThree");
+    NEI.hide("openmodularturrets", "barrelTierFour");
+    NEI.hide("openmodularturrets", "barrelTierFive>");
+    NEI.hide("openmodularturrets", "chamberTierTwo");
+    NEI.hide("openmodularturrets", "chamberTierThree");
+    NEI.hide("openmodularturrets", "chamberTierFour");
+    NEI.hide("openmodularturrets", "chamberTierFive>");
+    NEI.hide("openmodularturrets", "ioBus>");
+    NEI.hide("openmodularturrets", "potentiaAddon");
+
 }
