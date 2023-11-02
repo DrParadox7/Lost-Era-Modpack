@@ -3,6 +3,11 @@
 
 print("Initializing 'Minecraft.zs'...");
 
+
+#Crying Obsidian
+recipes.remove(<etfuturum:crying_obsidian>);
+recipes.addShaped(<etfuturum:crying_obsidian>*5, [[<minecraft:obsidian>, <BiomesOPlenty:gems>, <minecraft:obsidian>], [<BiomesOPlenty:gems>, <minecraft:obsidian>, <BiomesOPlenty:gems>], [<minecraft:obsidian>, <BiomesOPlenty:gems>, <minecraft:obsidian>]]);
+
 #Totem Undying
 vanilla.loot.addChestLoot("pyramidDesertyChest", <etfuturum:totem_of_undying>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.weight(2), 1, 1);

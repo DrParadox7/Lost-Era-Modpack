@@ -7,6 +7,10 @@ print("Initializing 'StevesCarts.zs'...");
 recipes.remove(<StevesCarts:BlockAdvDetector>);
 recipes.addShaped(<StevesCarts:BlockAdvDetector>, [[null, <minecraft:dye:4>, null], [<minecraft:dye:4>, <minecraft:detector_rail>, <minecraft:dye:4>], [null, <minecraft:dye:4>, null]]);
 
+#Cargo Manager
+recipes.remove(<StevesCarts:BlockCargoManager>);
+recipes.addShaped(<StevesCarts:BlockCargoManager>, [[<minecraft:stone>, <StevesCarts:ModuleComponents:9>, <minecraft:stone>], [<minecraft:chest>, <minecraft:hopper>, <minecraft:chest>], [<minecraft:stone>, <minecraft:comparator>, <minecraft:stone>]]);
+
 #### Remove Microcrafting from Steve's StevesCarts ####
 
 #Panes
@@ -22,11 +26,51 @@ recipes.remove(<StevesCarts:ModuleComponents:61>);
 recipes.remove(<StevesCarts:ModuleComponents:62>);
 recipes.remove(<StevesCarts:ModuleComponents:63>);
 
-#Cargo Manager
-recipes.remove(<StevesCarts:BlockCargoManager>);
-recipes.addShaped(<StevesCarts:BlockCargoManager>, [[<minecraft:stone>, <StevesCarts:ModuleComponents:9>, <minecraft:stone>], [<minecraft:chest>, <minecraft:hopper>, <minecraft:chest>], [<minecraft:stone>, <minecraft:comparator>, <minecraft:stone>]]);
+#Raw Hardened
+recipes.remove(<StevesCarts:ModuleComponents:18>);
 
-## Storage modules
+#Refined Hardened
+furnace.remove(<StevesCarts:ModuleComponents:19>);
+mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:18>);
+
+
+####Material Rework ####
+#Mesh
+recipes.remove(<StevesCarts:ModuleComponents:20>);
+recipes.addShaped(<StevesCarts:ModuleComponents:20>, [[<ore:barsIron>, <StevesCarts:ModuleComponents:22>, <ore:barsIron>], [<StevesCarts:ModuleComponents:22>, <ore:barsIron>, <StevesCarts:ModuleComponents:22>], [<ore:barsIron>, <StevesCarts:ModuleComponents:22>, <ore:barsIron>]]);
+
+#Stabilized Metal
+recipes.remove(<StevesCarts:ModuleComponents:21>);
+recipes.addShaped(<StevesCarts:ModuleComponents:21>*4, [[<minecraft:obsidian>, <ore:gemDiamond>, <minecraft:obsidian>], [<ore:gemDiamond>, <ore:blockIron>, <ore:gemDiamond>], [<minecraft:obsidian>, <ore:gemDiamond>, <minecraft:obsidian>]]);
+
+#Refined Metal
+furnace.remove(<StevesCarts:ModuleComponents:22>);
+mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:21>);
+mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:21>, false, false, 2500, <StevesCarts:ModuleComponents:22>);
+
+#Eye of Galgador
+recipes.remove(<StevesCarts:ModuleComponents:45>);
+recipes.addShaped(<StevesCarts:ModuleComponents:45>, [[<minecraft:nether_wart>, <minecraft:ghast_tear>, <minecraft:nether_wart>], [<minecraft:glowstone_dust>, <minecraft:ender_eye>, <minecraft:glowstone_dust>], [<minecraft:nether_wart>, <minecraft:magma_cream>, <minecraft:nether_wart>]]);
+
+#Lump of Galgador
+recipes.remove(<StevesCarts:ModuleComponents:46>);
+recipes.addShaped(<StevesCarts:ModuleComponents:46>*4, [[<etfuturum:crying_obsidian>, <StevesCarts:ModuleComponents:45>, <etfuturum:crying_obsidian>], [<StevesCarts:ModuleComponents:45>, <StevesCarts:BlockMetalStorage>, <StevesCarts:ModuleComponents:45>], [<etfuturum:crying_obsidian>, <StevesCarts:ModuleComponents:45>, <etfuturum:crying_obsidian>]]);
+
+#Galgadorian Metal
+furnace.remove(<StevesCarts:ModuleComponents:47>);
+mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:46>);
+mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:46>, false, false, 21000, <StevesCarts:ModuleComponents:47>);
+
+#Large Lump of Galgador
+recipes.remove(<StevesCarts:ModuleComponents:48>);
+recipes.addShaped(<StevesCarts:ModuleComponents:48>, [[<StevesCarts:ModuleComponents:46>, <StevesCarts:ModuleComponents:46>, <StevesCarts:ModuleComponents:46>], [<StevesCarts:ModuleComponents:46>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:46>], [<StevesCarts:ModuleComponents:46>, <StevesCarts:ModuleComponents:46>, <StevesCarts:ModuleComponents:46>]]);
+
+#Enhanced Galgadorian Metal
+furnace.remove(<StevesCarts:ModuleComponents:49>);
+mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:48>);
+mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:48>, false, false, 64000, <StevesCarts:ModuleComponents:49>*2);
+
+#### Storage modules ####
 
 #Internal Storage
 recipes.remove(<StevesCarts:CartModule:5>);
@@ -72,8 +116,21 @@ recipes.addShaped(<StevesCarts:CartModule:73>, [[<ore:paneGlassColorless>, null,
 recipes.remove(<StevesCarts:CartModule:66>);
 recipes.addShaped(<StevesCarts:CartModule:66>, [[null, <StevesCarts:ModuleComponents:9>, null], [<minecraft:redstone>, <StevesCarts:CartModule:65>, <minecraft:redstone>], [null, <ore:ingotGold>, null]]);
 
-#Raw Hardened - now with added oredict
-recipes.addShaped(<StevesCarts:ModuleComponents:18>*2, [[<minecraft:obsidian>, null, <minecraft:obsidian>], [null, <ore:gemDiamond>, null], [<minecraft:obsidian>, null, <minecraft:obsidian>]]);
+### Cart Modules ###
+
+#Divine Shield
+recipes.remove(<StevesCarts:CartModule:32>);
+recipes.addShaped(<StevesCarts:CartModule:32>, [[<minecraft:obsidian>, <ore:gemDiamond>, <minecraft:obsidian>], [<ore:gemDiamond>, <StevesCarts:ModuleComponents:5>, <ore:gemDiamond>], [<minecraft:obsidian>, <ore:gemDiamond>, <minecraft:obsidian>]]);
+
+#Chunk Loader
+recipes.remove(<StevesCarts:CartModule:49>);
+recipes.addShaped(<StevesCarts:CartModule:49>, [[<StevesCarts:ModuleComponents:22>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:22>], [<StevesCarts:ModuleComponents:9>, <Railcraft:machine.alpha>, <StevesCarts:ModuleComponents:9>], [<StevesCarts:ModuleComponents:22>, <StevesCarts:ModuleComponents:16>, <StevesCarts:ModuleComponents:22>]]);
+
+### Assembler Modules ###
+
+#Upgrade Entropy
+recipes.remove(<StevesCarts:upgrade:16>);
+recipes.addShaped(<StevesCarts:upgrade:16>, [[<StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:22>, null], [<BiomesOPlenty:gems>, <ore:gemDiamond>, <BiomesOPlenty:gems>], [null, <StevesCarts:upgrade:15>, <StevesCarts:ModuleComponents:45>]]);
 
 print("Initialized 'StevesCarts.zs'");
 
