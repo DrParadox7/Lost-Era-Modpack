@@ -12,8 +12,8 @@ compactMachine.add(<CompactMachines:machine:*>);
 
 
 #Main Components
-mods.extraUtils.QED.addShapedRecipe(<CompactMachines:resizingcube> * 2, [[<qCraft:dust>, <ExtraUtilities:bedrockiumIngot>, <qCraft:dust>], [<ExtraUtilities:bedrockiumIngot>, <RandomThings:ingredient:6>, <ExtraUtilities:bedrockiumIngot>], [<qCraft:dust>, <ExtraUtilities:bedrockiumIngot>, <qCraft:dust>]]);
-mods.extraUtils.QED.addShapedRecipe(<CompactMachines:innerwall> * 2, [[null, <CompactMachines:resizingcube>, null], [<CompactMachines:resizingcube>, <MagicBees:miscResources:17>, <CompactMachines:resizingcube>], [null, <CompactMachines:resizingcube>, null]]);
+mods.extraUtils.QED.addShapedRecipe(<CompactMachines:resizingcube> * 2, [[<minecraft:piston>, <minecraft:ender_pearl>, <minecraft:piston>], [<minecraft:ender_pearl>, <qCraft:essence>, <minecraft:ender_pearl>], [<minecraft:piston>, <minecraft:ender_pearl>, <minecraft:piston>]]);
+mods.extraUtils.QED.addShapedRecipe(<CompactMachines:innerwall> * 4, [[<CompactMachines:resizingcube>, <ExtraUtilities:bedrockiumIngot>, <CompactMachines:resizingcube>], [<ExtraUtilities:bedrockiumIngot>, <MagicBees:miscResources:17>, <ExtraUtilities:bedrockiumIngot>], [<CompactMachines:resizingcube>, <ExtraUtilities:bedrockiumIngot>, <CompactMachines:resizingcube>]]);
 
 ### Compact Machines
 
