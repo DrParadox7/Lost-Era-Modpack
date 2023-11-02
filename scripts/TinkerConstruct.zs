@@ -92,6 +92,9 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.mo
 #Extra Utils Compat
 mods.tconstruct.Casting.addBasinRecipe(<ExtraUtilities:decorativeBlock1:1>, <liquid:ender> * 150, <minecraft:obsidian>, true, 160);
 
+#Steel Alloy Recipe
+mods.tconstruct.Smeltery.addAlloy(<liquid:steel.molten> * 288, [<liquid:iron.molten> * 288, <liquid:pyrotheum> * 100]);
+
 #Traveller's Gear 
 # Goggles
 val googles = <TConstruct:travelGoggles>.withTag({TinkerArmor: {BaseDurability: 1035, Upgrades: 0, BaseDefense: 0.0, Built: 1 as byte, MaxDefense: 4.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
