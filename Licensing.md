@@ -25,7 +25,6 @@
 - BareRuins [ARR] (https://www.curseforge.com/project/539188/license) {Creator made it for use and distribution for the Lost Era}
 - Baubles Expanded [CC BY-NC-SA 3.0] (https://github.com/jss2a98aj/Baubles-Expanded/blob/1.7.10/LICENSE)
 - BD Lib [MIT] (https://github.com/bdew-minecraft/bdlib/blob/mc1.18.2/LICENSE)
-- BetterFps [LGPL-2.1] (https://github.com/Guichaguri/BetterFps/blob/1.7/LICENSE)
 - BetterHorseHud [GPL-3.0] (https://github.com/DouweKoopmans/BetterHorseHud/blob/master/LICENSE)
 - BetterQuesting [MIT] (https://github.com/DrParadox7/BetterQuesting/blob/1.7.10/LICENSE)
 - BiblioCraft [ARR] (https://www.bibliocraftmod.com/copyright/#modpacks) {From Author: As long as you provide proper credit to me and have a link back to www.bibliocraftmod.com, you can use my mod(s) in your mod pack.}
@@ -93,6 +92,7 @@
 - Hardcore Wither [BSD-3-Clause] (https://modrinth.com/mod/hardcore-wither/versions?g=1.7.10)
 - HardcoreDarkness [ARR] (https://www.curseforge.com/project/225957/license) {Author: Feel free to use this mod in a modpack}
 - HardcoreEnderExpansion [ARR] (https://hee.chylex.com/license)
+- Hodgepodge [LGPL-3.0] (https://github.com/GTNewHorizons/Hodgepodge/blob/master/LICENSE.txt)
 - HungerOverhaul [ARR] (https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) {Author: Feel free to use this mod in your modpack.}
 - IguanaTinkerTweaks [CC BY-SA 4.0] (https://www.curseforge.com/project/223248/license)
 - ImmersiveCavegen [MIT] (https://www.curseforge.com/project/521557/license)
@@ -124,7 +124,6 @@
 - NEI Addons [Public] (https://github.com/bdew-minecraft/neiaddons)
 - NEI Integration [MIT] (https://github.com/Tonius/NEI-Integration/blob/master/LICENSE)
 - Neodymium [GPL-3.0] (https://github.com/makamys/Neodymium/blob/master/COPYING.GPL)
-- Netty Patch [GPL-3.0] (https://github.com/GTNewHorizons/Netty-Patcher/blob/master/LICENSE)
 - NoMobSpawningOnTrees [MIT] (https://github.com/oldjunyi/NoMobSpawningOnTrees/blob/1.7.10/LICENSE.md)
 - NotEnoughItems-Unofficial [LGPL-2.0] (https://github.com/GTNewHorizons/NotEnoughItems/blob/master/LICENSE.txt)
 - NotEnoughPets [GPL-3.0] (https://gitgud.io/AstroTibs/not-enough-cats/-/blob/master/LICENSE)
