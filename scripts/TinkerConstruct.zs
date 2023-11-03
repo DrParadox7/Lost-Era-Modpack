@@ -93,7 +93,7 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.mo
 mods.tconstruct.Casting.addBasinRecipe(<ExtraUtilities:decorativeBlock1:1>, <liquid:ender> * 150, <minecraft:obsidian>, true, 160);
 
 #Steel Alloy Recipe
-mods.tconstruct.Smeltery.addAlloy(<liquid:steel.molten> * 288, [<liquid:iron.molten> * 288, <liquid:pyrotheum> * 100]);
+mods.tconstruct.Smeltery.addAlloy(<liquid:steel.molten> * 144, [<liquid:iron.molten> * 144, <liquid:pyrotheum> * 100]);
 
 #Traveller's Gear 
 # Goggles
