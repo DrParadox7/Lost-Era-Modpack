@@ -1,0 +1,9 @@
+{
+  "useURL": true,
+  "allowModifications": true,
+  "url": "https://raw.githubusercontent.com/DrParadox7/Lost-Era-Modpack/main/servers.json",
+  "servers": {
+    "The Lost Era Official": "LostEra.modded.fun"
+  },
+  "DO_NOT_EDIT_prevDefaultServers": []
+}

@@ -62,6 +62,7 @@
 - Crops++ [MIT] (https://github.com/bartimaeusnek/crops-plus-plus/blob/master/LICENSE)
 - CustomMainMenu [MIT] (https://github.com/lumien231/Custom-Main-Menu/blob/master/LICENSE.txt)
 - DefaultWorldGenerator [MIT] (https://www.curseforge.com/project/226188/license)
+- DefaultServerList [LGPL-3.0] (https://modrinth.com/mod/defaultserverlist)
 - Dimensional Flight Ban [Public Domain] (https://www.curseforge.com/project/244204/license)
 - Dynamic Lights [Custom] (http://atomicstryker.net/about.php) {TLDR: These are allowed to make use of my work so long no profits are made in the process.}
 - DynamicLightsPatch [ARR] (https://www.curseforge.com/project/544402/license) {Creator made it for use and distribution for the Lost Era}
