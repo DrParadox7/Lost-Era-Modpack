@@ -320,7 +320,7 @@
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}",
+        "textOverride": "Playing on {server.name}",
         "data": {
           "enabled": true,
           "useAsMain": false,
