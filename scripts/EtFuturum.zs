@@ -8,6 +8,12 @@ print("Initializing 'Minecraft.zs'...");
 recipes.remove(<etfuturum:crying_obsidian>);
 recipes.addShaped(<etfuturum:crying_obsidian>*5, [[<minecraft:obsidian>, <BiomesOPlenty:gems>, <minecraft:obsidian>], [<BiomesOPlenty:gems>, <minecraft:obsidian>, <BiomesOPlenty:gems>], [<minecraft:obsidian>, <BiomesOPlenty:gems>, <minecraft:obsidian>]]);
 
+#Honeycomb Block
+recipes.addShaped(<etfuturum:honeycomb_block>, [[<ore:beeComb>, <ore:beeComb>, null], [<ore:beeComb>, <ore:beeComb>, null]]);
+
+#Honey Block
+recipes.addShaped(<etfuturum:honey_block>, [[<ore:dropHoney>, <ore:dropHoney>, null], [<ore:dropHoney>, <ore:dropHoney>, null]]);
+
 #Totem Undying
 vanilla.loot.addChestLoot("pyramidDesertyChest", <etfuturum:totem_of_undying>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.weight(2), 1, 1);
