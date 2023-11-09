@@ -18,7 +18,7 @@ mods.forestry.Squeezer.addRecipe(<liquid:seedoil> * 10, <Forestry:mulch> % 0, [<
 ##Machines##
 #Mailbox
 recipes.remove(<Forestry:mail>);
-recipes.addShaped(<Forestry:mail>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Forestry:letters>, <ore:ingotTin>], [<ore:ingotTin>, <minecraft:compass>, <ore:ingotTin>]]);
+recipes.addShaped(<Forestry:mail>, [[<Forestry:letters>, <ore:ingotTin>, <Forestry:letters>], [<ore:ingotTin>, <minecraft:compass>, <ore:ingotTin>], [<Forestry:letters>, <ore:ingotTin>, <Forestry:letters>]]);
 
 #Trading Station
 recipes.remove(<Forestry:mail:1>);
