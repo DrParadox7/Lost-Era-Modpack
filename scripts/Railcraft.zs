@@ -17,6 +17,10 @@ recipes.addShaped(<Railcraft:part.turbine.disk>, [[<IC2:itemRecipePart:10>, <IC2
 #Balance Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
 
+#Coal Coke only made in Coke Oven
+mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:fuel.coke>);
+mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube>);
+
 #Concrete
 recipes.remove(<Railcraft:cube:1>);
 recipes.addShaped(<Railcraft:cube:1>*4, [[<minecraft:sand>, <minecraft:clay_ball>, <minecraft:sand>], [<minecraft:gravel>, <minecraft:water_bucket>, <minecraft:gravel>], [<minecraft:sand>, <minecraft:clay_ball>, <minecraft:sand>]]);
