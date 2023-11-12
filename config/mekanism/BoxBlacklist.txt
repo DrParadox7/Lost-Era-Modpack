@@ -37,3 +37,4 @@ ThermalExpansion:Strongbox 3
 ThermalExpansion:Strongbox 4
 CarpentersBlocks:blockCarpentersSafe 0
 Botania:specialFlower 0
+etfuturum:budding_amethyst 0
