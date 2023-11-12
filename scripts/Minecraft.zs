@@ -70,4 +70,7 @@ recipes.addShapeless(<BiomesOPlenty:moss>, [<minecraft:mossy_cobblestone>]);
 #Make nametag loot-exclusive
 recipes.remove(<minecraft:name_tag>);
 
+#Nature sticks can burn 
+furnace.setFuel(<Natura:natura.stick:*>, 100);
+
 print("Initialized 'Minecraft.zs'");
