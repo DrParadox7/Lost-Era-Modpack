@@ -26,7 +26,7 @@ recipes.remove(<MineFactoryReloaded:machine.1:12>);
 ########
 
 #Fisher
-recipes.remove(<MineFactoryReloaded:machine.0:0>);
+recipes.remove(<MineFactoryReloaded:machine.0:1>);
 recipes.addShaped(<MineFactoryReloaded:machine.0:1>, [[<MineFactoryReloaded:plastic.sheet>, <ThermalFoundation:tool.fishingRodInvar>, <MineFactoryReloaded:plastic.sheet>], [<harvestcraft:fishtrap>, <ThermalExpansion:Frame>, <harvestcraft:fishtrap>], [<ore:gearIron>, <ThermalExpansion:material:1>, <ore:gearIron>]]);
 
 #Rancher
