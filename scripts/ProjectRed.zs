@@ -20,7 +20,7 @@ mods.railcraft.BlastFurnace.addRecipe(<ProjRed|Core:projectred.core.part:40>, tr
 
 #Red Alloy Ingot
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:redstone>*4, <minecraft:iron_ingot>);
-mods.thermalexpansion.Smelter.addRecipe(4000, <ThermalFoundation:material:64>, <minecraft:redstone>*4, <ProjRed|Core:projectred.core.part:10>);
+mods.thermalexpansion.Smelter.addRecipe(1000, <ThermalFoundation:material:64>, <minecraft:redstone>*4, <ProjRed|Core:projectred.core.part:10>);
 
 #Red Alloy Smeltery
 mods.tconstruct.Smeltery.removeAlloy(<liquid:redmetal.molten>);
