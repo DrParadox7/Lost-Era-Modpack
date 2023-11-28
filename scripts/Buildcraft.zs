@@ -35,4 +35,8 @@ recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<minecraft:obsidian>, 
 recipes.remove(<BuildCraft|Silicon:laserTableBlock:3>);
 recipes.addShaped(<BuildCraft|Silicon:laserTableBlock:3>, [[<minecraft:obsidian>, <ThermalExpansion:material:3>, <minecraft:obsidian>], [<minecraft:obsidian>, <BuildCraft|Silicon:redstoneChipset>, <minecraft:obsidian>], [<minecraft:obsidian>, <ore:gearGold>, <minecraft:obsidian>]]);
 
+#Redstone Cristal Buff
+mods.buildcraft.AssemblyTable.removeRecipe(<BuildCraft|Silicon:redstoneCrystal>);
+mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneCrystal>, 1800000, [<minecraft:redstone_block>]);
+
 print("Initialized 'Buildcraft.zs'");
