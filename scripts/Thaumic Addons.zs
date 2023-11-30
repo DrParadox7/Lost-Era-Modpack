@@ -152,11 +152,12 @@ mods.thaumcraft.Research.addPrereq("WRATHCAGE", "ICHOR", false);
 
 #Is this even necessary? Let's have it just in case.
 mods.thaumcraft.Research.clearPrereqs("ICHORCLOTH_HELM_GEM");
-mods.thaumcraft.Research.clearPrereqs("WARP_GATE");
-
 mods.thaumcraft.Research.addPrereq("ICHORCLOTH_HELM_GEM", "ICHORCLOTH_ARMOR", false);
+
+mods.thaumcraft.Research.clearPrereqs("WARP_GATE");
 mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_CHEST_GEM", false);
 mods.thaumcraft.Research.addPrereq("WARP_GATE", "ICHORCLOTH_BOOTS_GEM", false);
+mods.thaumcraft.Research.addPrereq("WARP_GATE", "DISLOCATOR", false);
 
 ######Forgotten x Forbidden ######
 mods.thaumcraft.Research.addPrereq("GenericTheory", "WHISPERWEED", true);
@@ -166,7 +167,8 @@ mods.thaumcraft.Research.addPrereq("SuperpositionRing", "WHISPERWEED", true);
 mods.thaumcraft.Research.addPrereq("DISLOCATOR", "ICHORIUM", true);
 mods.thaumcraft.Research.addPrereq("DISLOCATOR", "AVARICIOUS", true);
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:dislocator>);
-mods.thaumcraft.Arcane.addShaped("DISLOCATOR", <ThaumicTinkerer:dislocator>, "terra 5, perditio 5", [[<ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemResource:10>, <ThaumicTinkerer:kamiResource:7>], [<Automagy:avaricePearl:1>, <ThaumicTinkerer:interface>, <Automagy:avaricePearl:1>], [<ThaumicTinkerer:kamiResource:7>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource:7>]]);
+mods.thaumcraft.Arcane.addShaped("DISLOCATOR", <ThaumicTinkerer:dislocator>, "terra 16, perditio 16", [[<ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemResource:10>, <ThaumicTinkerer:kamiResource:7>], [<Automagy:avaricePearl:1>, <ThaumicTinkerer:interface>, <Automagy:avaricePearl:1>], [<ThaumicTinkerer:kamiResource:7>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource:7>]]);
+mods.thaumcraft.Research.refreshResearchRecipe("DISLOCATOR");
 
 ### Dangerous or unbalanced content
 mods.thaumcraft.Research.orphanResearch("REPAIRER");
