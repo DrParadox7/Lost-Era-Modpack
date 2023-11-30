@@ -122,9 +122,8 @@ recipes.remove(<MineFactoryReloaded:portaspawner>);
 recipes.addShaped(<MineFactoryReloaded:portaspawner>, [[<ore:ingotRefinedGlowstone>, <Mekanism:TeleportationCore>, <ore:ingotRefinedGlowstone>], [<rftools:dimensionalShardItem>, <minecraft:nether_star>, <rftools:dimensionalShardItem>], [<ore:ingotRefinedGlowstone>, <Mekanism:ControlCircuit:2>, <ore:ingotRefinedGlowstone>]]);
 
 #Sugar Charcoal Rework
-furnace.remove(<MineFactoryReloaded:sugarcharcoal>);
 mods.thermalexpansion.Furnace.removeRecipe(<minecraft:sugar>);
-mods.railcraft.CokeOven.addRecipe(<MineFactoryReloaded:sugarcharcoal>, <liquid:creosote> * 5, <minecraft:sugar>, 800); 
+mods.railcraft.CokeOven.addRecipe(<MineFactoryReloaded:sugarcharcoal>, <liquid:creosote> * 5, <minecraft:reeds>, 800); 
 
 #Laser Focus 
 MiningLaser.removeOre(<Metallurgy:ender.ore:*>);
