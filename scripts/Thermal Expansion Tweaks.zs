@@ -6,6 +6,10 @@ print("Initializing 'ThermalExpansion.zs'...");
 val Mithril = <ore:ingotMithril>;
 Mithril.add(<ThermalFoundation:material:70>);
 
+#Remove Dye tag from sulfur
+val Yellow = <ore:dyeYellow>;
+Yellow.remove(<ThermalFoundation:material:16>);
+
 #Tesseract 
 recipes.remove(<ThermalExpansion:Tesseract>);
 recipes.addShapeless(<ThermalExpansion:Tesseract>, [<ThermalExpansion:Frame:11>, <NuclearCraft:antimatter>]);
