@@ -2,6 +2,8 @@
     "food": {
         "items": [
             "minecraft:apple",
+            "minecraft:golden_apple",
+            "minecraft:golden_apple:1",
             "minecraft:melon",
             "BiomesOPlenty:food",
             "BiomesOPlenty:food:3",
@@ -88,10 +90,12 @@
             "Natura:berry.nether:3",
             "Natura:berryMedley",
             "Natura:Natura.netherfood",
+            "TConstruct:diamondApple",
             "ThaumicExploration:taintBerry",
             "berriespp:foodBerries",
             "etfuturum:chorus_fruit",
             "etfuturum:sweet_berries",
+            "hardcorewither:StarryApple",
             "harvestcraft:pamcherrycheeseCake",
             "harvestcraft:pampineappleupsidedownCake",
             "harvestcraft:pampavlovaCake",

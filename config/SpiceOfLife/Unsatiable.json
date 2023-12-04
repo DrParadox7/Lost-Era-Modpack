@@ -2,12 +2,9 @@
 	"food": {
 		"items": [
 			"IC2:itemTinCanFilled",
-			"minecraft:golden_apple:0",
 			"Forestry:beverage:2",
 			"BiomesOPlenty:food:10",
-			"TConstruct:diamondApple",
 			"TwilightForest:item.meefStroganoff",
-			"hardcorewither:StarryApple",
 			"Forestry:ambrosia",
 			"ForbiddenMagic:ArcaneCakeItem",
 			"witchery:ingredient:158",
