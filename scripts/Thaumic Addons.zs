@@ -171,8 +171,6 @@ mods.thaumcraft.Arcane.addShaped("DISLOCATOR", <ThaumicTinkerer:dislocator>, "te
 mods.thaumcraft.Research.refreshResearchRecipe("DISLOCATOR");
 
 ### Dangerous or unbalanced content
-mods.thaumcraft.Research.orphanResearch("REPAIRER");
-mods.thaumcraft.Research.removeResearch("REPAIRER");
 mods.thaumcraft.Research.orphanResearch("ANIMATION_TABLET");
 mods.thaumcraft.Research.removeResearch("ANIMATION_TABLET");
 #########################
