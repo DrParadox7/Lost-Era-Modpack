@@ -46,7 +46,7 @@ recipes.addShaped(<StevesCarts:ModuleComponents:21>*4, [[<minecraft:obsidian>, <
 #Refined Metal
 furnace.remove(<StevesCarts:ModuleComponents:22>);
 mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:21>);
-mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:21>, true, false, 2500, <StevesCarts:ModuleComponents:22>);
+mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:21>, true, false, 1000, <StevesCarts:ModuleComponents:22>);
 
 #Eye of Galgador
 recipes.remove(<StevesCarts:ModuleComponents:45>);
@@ -59,7 +59,7 @@ recipes.addShaped(<StevesCarts:ModuleComponents:46>*4, [[<etfuturum:crying_obsid
 #Galgadorian Metal
 furnace.remove(<StevesCarts:ModuleComponents:47>);
 mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:46>);
-mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:46>, true, false, 21000, <StevesCarts:ModuleComponents:47>);
+mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:46>, true, false, 9000, <StevesCarts:ModuleComponents:47>);
 
 #Large Lump of Galgador
 recipes.remove(<StevesCarts:ModuleComponents:48>);
@@ -68,7 +68,7 @@ recipes.addShaped(<StevesCarts:ModuleComponents:48>, [[<StevesCarts:ModuleCompon
 #Enhanced Galgadorian Metal
 furnace.remove(<StevesCarts:ModuleComponents:49>);
 mods.thermalexpansion.Furnace.removeRecipe(<StevesCarts:ModuleComponents:48>);
-mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:48>, true, false, 64000, <StevesCarts:ModuleComponents:49>*2);
+mods.railcraft.BlastFurnace.addRecipe(<StevesCarts:ModuleComponents:48>, true, false, 36000, <StevesCarts:ModuleComponents:49>*2);
 
 #### Storage modules ####
 

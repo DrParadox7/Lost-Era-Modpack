@@ -14,8 +14,14 @@ recipes.remove(<Railcraft:part.turbine.blade>);
 recipes.addShaped(<Railcraft:part.turbine.blade>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<Railcraft:part.turbine.disk>, [[<IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>], [<IC2:itemRecipePart:10>, <ore:blockSteel>, <IC2:itemRecipePart:10>], [<IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:10>]]);
 
-#Balance Steel
+# Remove GT4 Steel overriding recipes
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech_addon:metaitem_1:11305>);
+
+# Steel Crafting
+mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 1000, <Railcraft:ingot>);
+mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 9000, <Railcraft:cube:2>);
+recipes.addShapeless(<Railcraft:cube:2>, [<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>]);
+recipes.addShapeless(<Railcraft:ingot> * 9, [<Railcraft:cube:2>]);
 
 #Coal Coke only made in Coke Oven
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:fuel.coke>);
@@ -24,9 +30,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube>);
 #Concrete
 recipes.remove(<Railcraft:cube:1>);
 recipes.addShaped(<Railcraft:cube:1>*4, [[<minecraft:sand>, <minecraft:clay_ball>, <minecraft:sand>], [<minecraft:gravel>, <minecraft:water_bucket>, <minecraft:gravel>], [<minecraft:sand>, <minecraft:clay_ball>, <minecraft:sand>]]);
-
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 2500, <Railcraft:ingot>);
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_block>, false, false, 21000, <Railcraft:cube:2>);
 
 #Balance Rolling Machine
 recipes.remove(<Railcraft:machine.alpha:8>);
