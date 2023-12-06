@@ -63,6 +63,10 @@ recipes.addShapeless(<TConstruct:clayPattern>, [<TConstruct:blankPattern:3>, <mi
 recipes.addShapeless(<TConstruct:clayPattern:27>, [<TConstruct:blankPattern:3>, <ore:nuggetIron>.reuse()]);
 recipes.addShapeless(<TConstruct:clayPattern:27>, [<TConstruct:blankPattern:3>, <ore:nuggetGold>.reuse()]);
 
+#Buff Manyullin Alloy
+mods.tconstruct.Smeltery.removeAlloy(<liquid:manyullyn.molten>);
+mods.tconstruct.Smeltery.addAlloy(<liquid:manyullyn.molten> * 288, [<liquid:ardite.molten> * 144, <liquid:cobalt.molten> * 144]);
+
 #Aluminum Brass Alloy (Now Gold Solder Alloy)
 mods.tconstruct.Smeltery.removeAlloy(<liquid:aluminumbrass.molten>);
 mods.tconstruct.Smeltery.addAlloy(<liquid:aluminumbrass.molten> * 576, [<liquid:gold.molten> * 432, <liquid:tin.molten> * 144]);
