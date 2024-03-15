@@ -20,6 +20,10 @@ vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.wei
 vanilla.loot.addChestLoot("netherFortress", <etfuturum:totem_of_undying>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1), 1, 1);
 
+#Iron Trapdoor
+recipes.remove(<etfuturum:iron_trapdoor>);
+recipes.addShaped(<etfuturum:iron_trapdoor>*2, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+
 #Extract Lava from Magma
 mods.thermalexpansion.Transposer.addExtractRecipe(800, <etfuturum:magma>, <liquid:lava> * 500, <minecraft:netherrack>, 100);
 
