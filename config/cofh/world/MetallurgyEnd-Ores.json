@@ -12,8 +12,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
     },
 "Meutoite": {
         "template": "uniform",
@@ -28,7 +30,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
     }
 }

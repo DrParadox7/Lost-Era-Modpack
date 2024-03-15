@@ -17,6 +17,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -53,6 +54,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -81,6 +83,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -109,6 +112,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -137,6 +141,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -169,6 +174,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -201,6 +207,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -237,6 +244,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -273,6 +281,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -301,6 +310,7 @@
         "dimensions": [
             0,
             6,
+            -37,
             -100
         ]
     },
@@ -318,8 +328,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "NETHER"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]    
     },
     "cinnabar": {
         "template": "uniform",
@@ -335,8 +347,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "NETHER"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]    
     },
     "sphalerite": {
         "template": "uniform",
@@ -386,8 +400,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]    
     },
     "Sheldonite": {
         "template": "uniform",
@@ -403,8 +419,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]    
     },
     "Olivine": {
         "template": "uniform",
@@ -420,8 +438,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]    
     },
     "Sodalite": {
         "template": "uniform",
@@ -437,7 +457,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]    
     }
 }   

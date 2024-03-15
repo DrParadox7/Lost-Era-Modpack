@@ -11,12 +11,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1,
-			7,
-			6
+            0,
+            6,
+            -37,
+            -100
         ]
     },
     "tin": {
@@ -31,12 +31,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1,
-			7,
-			6
+            0,
+            6,
+            -37,
+            -100
         ]
     },
     "lead": {
@@ -54,12 +54,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1,
-			7,
-			6
+            0,
+            6,
+            -37,
+            -100
         ]
     },
     "nickel": {
@@ -77,12 +77,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-           -1,
-            1,
-			7,
-			6
+            0,
+            6,
+            -37,
+            -100
         ]
     }
 }   

@@ -10,11 +10,12 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1,
-			7
+            0,
+            6,
+            -37,
+            -100
         ]
     }
 }

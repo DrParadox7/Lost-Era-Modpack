@@ -15,11 +15,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1,
-			7
+            0,
+            6,
+            -37,
+            -100
         ]
     },
     "Apatite": {
@@ -37,11 +38,13 @@
 			"type": "dictionary", 
 			"entry": "MOUNTAIN"
 		}
-	],	
-        "dimensionRestriction": "blacklist",
+	],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0,
+            6,
+            -37,
+            -100
         ]
     },
     "UnderwaterOres": {
@@ -77,10 +80,10 @@
 			"entry": "Deep Ocean"
 		} 
 	],	
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0,
+            -100
         ]
     },
     "OceanSalt": {
@@ -103,10 +106,10 @@
 			"entry": "OCEAN"
 		}	
 	    ],	
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0,
+            -100
         ]
     },
     "BeachSalt": {
@@ -185,18 +188,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -100,
-            -112,
-            -73,
-            -42,
-            -39,
-            -38,
-            -2,
-            -1,
-            1,
-            69
+            0,
+            6,
+            -37,
+            -100
         ]
     },
     "Amethyst": {
@@ -229,8 +226,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "none",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
     },
     "Thorium": {
         "template": "uniform",
@@ -244,8 +245,12 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "none",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6,
+            -100
+        ]
     },
     "Boron": {
         "template": "uniform",
@@ -260,8 +265,10 @@
         "biomes": [
             {"type": "dictionary", "entry": "END"}
         ],
-        "dimensionRestriction": "none",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
     },
     "Cobalt": {
         "template": "uniform",
@@ -277,9 +284,9 @@
             {"type": "dictionary", "entry": "SANDY"},
             {"type": "name", "entry": "Hell", "rarity": 2}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
     "Ardite": {
@@ -296,9 +303,9 @@
             {"type": "name", "entry": "Phantasmagoric Inferno"},
             {"type": "name", "entry": "Hell", "rarity": 2}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     }
 }

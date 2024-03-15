@@ -13,9 +13,9 @@
             {"type": "name", "entry": "Phantasmagoric Inferno"},
             {"type": "name", "entry": "Hell", "rarity": 3}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
     "Shadow_Iron": {
@@ -31,9 +31,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "SANDY"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            0
+            -1
         ]
     },
     "Lemurite": {
@@ -49,9 +49,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "SANDY"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-           0
+            -1
         ]
     },
     "Alduorite": {
@@ -67,9 +67,9 @@
         "biomes": [
             {"type": "name", "entry": "Visceral Heap"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
     "Ceruclase": {
@@ -85,9 +85,9 @@
         "biomes": [
             {"type": "name", "entry": "Visceral Heap"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-           0
+            -1
         ]
     },
 	"Midasium": {
@@ -103,9 +103,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "NETHER"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
 	"Kalendrite": {
@@ -121,9 +121,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "SANDY"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
 	"Vyroxeres": {
@@ -139,9 +139,9 @@
         "biomes": [
             {"type": "name", "entry": "Visceral Heap"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
 	"Vulcanite": {
@@ -158,9 +158,9 @@
             {"type": "name", "entry": "Phantasmagoric Inferno"},
             {"type": "name", "entry": "Hell", "rarity": 3}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     },
 	"Sanguinite": {
@@ -176,9 +176,9 @@
         "biomes": [
             {"type": "dictionary", "entry": "NETHER"}
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-        0
+            -1
         ]
     }
 }
