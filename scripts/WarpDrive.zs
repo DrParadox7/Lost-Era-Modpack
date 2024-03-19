@@ -143,7 +143,7 @@ recipes.addShaped(<WarpDrive:blockLaser>, [[<minecraft:iron_ingot>, <WarpDrive:i
 
 ###  Laser Medium (Particle Booster)
 recipes.remove(<WarpDrive:blockLaserMedium>);
-recipes.addShaped(<WarpDrive:blockLaserMedium>, [[<minecraft:iron_ingot>, <ore:strongGlass>, <minecraft:iron_ingot>], [<WarpDrive:itemComponent:3>, <WarpDrive:itemComponent:7>, <WarpDrive:itemComponent:3>], [<minecraft:iron_ingot>, <ore:strongGlass>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<WarpDrive:blockLaserMedium>, [[<minecraft:iron_ingot>, <WarpDrive:itemComponent:3>, <minecraft:iron_ingot>], [<WarpDrive:blockHull1_glass>, <WarpDrive:itemComponent:7>, <WarpDrive:blockHull1_glass>], [<minecraft:iron_ingot>, <WarpDrive:itemComponent:3>, <minecraft:iron_ingot>]]);
 
 ###  Laser+Camera
 recipes.remove(<WarpDrive:blockLaserCamera>);
