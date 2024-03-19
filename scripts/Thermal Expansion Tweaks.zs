@@ -35,12 +35,6 @@ recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>
 recipes.remove(<ThermalFoundation:material:44>);
 recipes.addShapeless(<ThermalFoundation:material:44>*4, [<ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <ore:dustPlatinum>, <ore:bucketEnder>]);
 
-#Obsidian before diamond exploit patch
-recipes.addShaped(<ThermalExpansion:Machine:7>, [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 1 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:1>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 2 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-recipes.addShaped(<ThermalExpansion:Machine:7>.withTag({Level: 3 as byte}), [[null, <minecraft:piston>, null], [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>], [<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
-
 #Transposer recipes
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
 mods.thermalexpansion.Transposer.removeFillRecipe(<Thaumcraft:blockCustomOre>, <liquid:cryotheum>);
@@ -124,7 +118,6 @@ recipes.addShaped(<ThermalExpansion:Tank:1>, [[null, <ore:ingotCopper>, null], [
 
 recipes.removeShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:blockGlass>, <ore:ingotInvar>], [<ore:blockGlass>, <ore:ingotCopper>, <ore:blockGlass>], [<ore:ingotInvar>, <ore:blockGlass>, <ore:ingotInvar>]]);
 recipes.addShaped(<ThermalExpansion:Tank:2>, [[<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>], [<ore:ingotCopper>, <BuildCraft|Factory:tankBlock>, <ore:ingotCopper>], [<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>]]);
-
 
 
 #Prevents client-crash with Pulverizer recipes
