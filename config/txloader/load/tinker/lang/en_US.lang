@@ -1,0 +1,20 @@
+#Missing Localizations
+
+tile.chisel.sandstone2.name=Fancy Sandstone
+tile.chisel.sandstone.16.desc=Fancy Sandstone Bricks
+tile.chisel.sandstone.17.desc=Fancy Smooth Sandstone
+
+#LE Localization Changes
+
+item.tconstruct.Materials.AluBrassIngot.name=Gold Solder Ingot
+item.tconstruct.Materials.AluBrassNugget.name=Gold Solder Nugget
+item.tconstruct.Materials.AluBrassDust.name=Gold Solder Dust
+StorageMetals.AlBrass.name=Block of Gold Solder
+
+tile.fluid.molten.alubrass.name=Molten Gold Solder
+LiquidMetal.AluBrass.name=Molten Gold Solder
+fluid.aluminumbrass.molten=Molten Gold Solder
+item.tconstruct.bucket.AluBrass.name=Molten Gold Solder Bucket
+item.iguana.tcon.clayBucket.AluBrass.name=Molten Gold Solder Clay Bucket
+
+canister.red.tooltip1=Instant Health

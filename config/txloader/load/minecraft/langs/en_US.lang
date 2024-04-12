@@ -1,0 +1,12 @@
+#Missing Localizations
+
+tile.chestTrap.name=Chest
+entity.MinecartRideable.name=Minecart
+entity.MinecartChest.name=Chest Cart
+entity.MinecartHopper.name=Hopper Cart
+entity.ItemFrame.name=Item Frame
+block.leaves.name=Leaves
+block..NLeaves.name=Tree Leaves
+block.Leaves..name=Tree Leaves
+block.saplings.name=Tree Sapling
+netherFortress=Nether Fortress

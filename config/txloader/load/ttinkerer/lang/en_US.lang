@@ -1,0 +1,9 @@
+# Custom Research Localizations
+
+ttresearch.page.ICHORCLOTH_HELM_GEM.0=You found a way of upgrading the Ichorcloth Cowl into a more powerful form.<BR><BR>First and foremost, the cowl doubles as goggles of revealing.<BR>Second, the wearer is granted unlimited underwater breath as well as crystal clear underwater vision.<BR>Lastly, one wearing this cowl will never find themselves on an empty stomach, quenching their hunger from atmospheric Vis much like a node although it must be first fed with a Thaumic cake. Pressing U will toggle this armors effects.
+ttresearch.page.ICHORIUM.0=More endeavours with Ichor reveal its property to blend with most mundane materials. Most of the blends result in absolutely nothing, however, you have managed to blend it with diamonds and fabric in the past, and this time, with Void metal.<BR><BR>This metal is extremely strong and resilient, to a point where mundane materials could never get. You haven't found any uses for it yet, but you know it shouldn't take you too long.
+
+tc.research_name.TTENCHTS=Infusion Enchanting II!
+tc.research_text.TTENCHTS=[TT] Picking your luck
+
+lostera.research_page.TTENCHTS=You grew tired of getting terrible enchantments for your efforts.<BR>After thoroughly researching the properties of essentia, you have attained a new breakthrough in Infusion Enchanting!

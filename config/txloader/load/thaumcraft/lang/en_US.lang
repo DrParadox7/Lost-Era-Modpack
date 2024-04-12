@@ -1,0 +1,10 @@
+#Missing Localizations
+
+nodetype.null.name=Null Node
+tile.blockManaPod.name=Mana Bean Pod
+
+#Custom Localizations
+tc.research_name.ANCIENT_STONE=Ancient Stone
+tc.research_text.ANCIENT_STONE=[KR] Building blocks from beyond.
+krypt.research_page.ANCIENT_STONE=Your trips to the Outer Lands have not only increased your knowledge into areas of thaumaturgy, but also interior design! The ancient stones lining the walls of the labyrinth are beautiful in their own way, and you must have some more for your base. <BR>By infusing some Arcane Stone with a touch of void magic, you have managed to replicate the otherworldly blocks, and no longer need to strip the walls bare if you want to build with them.
+

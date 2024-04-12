@@ -1,0 +1,12 @@
+#Missing Localizations
+
+tile.chisel.bloodBrick.name=Blood Brick
+item.upgrade_speed,name.desc=Increases the rate at which the Auto Chisel works
+item.upgrade_automation,name.desc=Allows things to push in and out of the Auto Chisel
+item.upgrade_stack,name.desc=Allows it to chisel stacks at a time in the Auto Chisel
+item.upgrade_reversion,name.desc=Reverts the base slot to its original form in the Auto Chisel
+module.chisel.name=Chisel Module
+module.chisel.name=Chisel Module
+Automation Upgrade.name=Automation Upgrade
+Stack Upgrade.name=Stack Upgrade
+Reversion Upgrade.name=Reversion Upgrade

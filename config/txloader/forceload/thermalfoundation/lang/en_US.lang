@@ -1,0 +1,51 @@
+#LE Localization Changes
+
+#Rename Thermal Foundation metals to their legitimate names
+item.thermalfoundation.material.dustNickel.name=Pulverized Nickel
+item.thermalfoundation.material.dustPlatinum.name=Pulverized Platinum
+item.thermalfoundation.material.dustMithril.name=Pulverized Mithril
+
+item.thermalfoundation.material.ingotNickel.name=Nickel Ingot
+item.thermalfoundation.material.ingotPlatinum.name=Platinum Ingot
+item.thermalfoundation.material.ingotMithril.name=Mithril Ingot
+item.thermalfoundation.material.nuggetNickel.name=Nickel Nugget
+item.thermalfoundation.material.nuggetPlatinum.name=Platinum Nugget
+item.thermalfoundation.material.nuggetMithril.name=Mithril Nugget
+
+item.thermalfoundation.material.gearNickel.name=Nickel Gear
+item.thermalfoundation.material.gearPlatinum.name=Platinum Gear
+item.thermalfoundation.material.gearMithril.name=Mithril Gear
+
+item.thermalfoundation.armor.nickelHelmet.name=Nickel Helmet
+item.thermalfoundation.armor.nickelPlate.name=Nickel Chestplate
+item.thermalfoundation.armor.nickelLegs.name=Nickel Leggings
+item.thermalfoundation.armor.nickelBoots.name=Nickel Boots
+
+item.thermalfoundation.armor.platinumHelmet.name=Platinum Helmet
+item.thermalfoundation.armor.platinumPlate.name=Platinum Chestplate
+item.thermalfoundation.armor.platinumLegs.name=Platinum Leggings
+item.thermalfoundation.armor.platinumBoots.name=Platinum Boots
+
+item.thermalfoundation.tool.nickelSword.name=Nickel Sword
+item.thermalfoundation.tool.nickelShovel.name=Nickel Shovel
+item.thermalfoundation.tool.nickelPickaxe.name=Nickel Pickaxe
+item.thermalfoundation.tool.nickelAxe.name=Nickel Axe
+item.thermalfoundation.tool.nickelHoe.name=Nickel Hoe
+item.thermalfoundation.tool.nickelShears.name=Nickel Shears
+item.thermalfoundation.tool.nickelFishingRod.name=Nickel Fishing Rod
+item.thermalfoundation.tool.nickelSickle.name=Nickel Sickle
+item.thermalfoundation.tool.nickelBow.name=Nickel Reinforced Bow
+
+item.thermalfoundation.tool.platinumSword.name=Platinum Sword
+item.thermalfoundation.tool.platinumShovel.name=Platinum Shovel
+item.thermalfoundation.tool.platinumPickaxe.name=Platinum Pickaxe
+item.thermalfoundation.tool.platinumAxe.name=Platinum Axe
+item.thermalfoundation.tool.platinumHoe.name=Platinum Hoe
+item.thermalfoundation.tool.platinumShears.name=Platinum Shears
+item.thermalfoundation.tool.platinumFishingRod.name=Platinum Fishing Rod
+item.thermalfoundation.tool.platinumSickle.name=Platinum Sickle
+item.thermalfoundation.tool.platinumBow.name=Platinum Reinforced Bow
+
+tile.thermalfoundation.ore.nickel.name=Nickel Ore
+tile.thermalfoundation.ore.platinum.name=Platinum Ore
+tile.thermalfoundation.ore.mithril.name=Mithril Ore

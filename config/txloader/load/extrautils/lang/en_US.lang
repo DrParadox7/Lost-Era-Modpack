@@ -1,0 +1,7 @@
+#Missing Localizations
+
+tile.extrautils:pureLove.name=Pure Love
+tile.dirt.name=Compressed Dirt
+tile.sand.name=Compressed Sand
+
+item.extrautils:defoliageAxe.documentation=When you 'attack' a living creature, it will take some health from you and use it to heal the target, with a slight bonus. If used on undead creatures, you will still be damaged but the target will injured by four times that amount of damage."

@@ -1,0 +1,18 @@
+#LE Localization Changes
+
+#Osmium to Platinum conversion
+tile.BasicBlock.OsmiumBlock.name=Platinum Block
+tile.MachineBlock.OsmiumCompressor.name=Platinum Compressor
+tile.OreBlock.OsmiumOre.name=Platinum Ore
+item.osmiumDust.name=Platinum Dust
+item.osmiumClump.name=Platinum Clump
+item.osmiumShard.name=Platinum Shard
+item.osmiumCrystal.name=Platinum Crystal
+item.dirtyOsmiumDust.name=Dirty Platinum Dust
+item.osmiumIngot.name=Platinum Ingot
+gas.liquidOsmium=Liquid Platinum
+gas.osmium=Platinum Slurry
+gas.cleanOsmium=Clean Platinum Slurry
+oregas.osmium=PlatinumOre
+tooltip.OsmiumCompressor=A fairly advanced machine used to compress Platinum into various dusts in order to create their ingot counterparts.
+item.HDPEPellet.name=Polyethene

@@ -1,0 +1,36 @@
+
+item.projectred.core.part.red_iron_comp.name=Red Alloy Compound
+
+#LE Thaumcraft Integration
+
+tc.research_name.PIPES=Hextech Transport
+tc.research_text.PIPES=Magic always finds a way!
+tc.research_name.CHIP=Crystal Circuitry
+tc.research_text.CHIP=Smarter than golems!
+tc.research_name.PIPESADV=Logic Expansion
+tc.research_text.PIPESADV=Advanced Network Control
+tc.research_name.LATENTPIPES=Network Control
+tc.research_text.LATENTPIPES=Can't keep up?
+
+item.projectred.core.part.null_chip.name=Crystal Interpreter
+item.projectred.transportation.routingchip|0.name=Item Responder Crystal
+item.projectred.transportation.routingchip|1.name=Dynamic Item Responder Crystal
+item.projectred.transportation.routingchip|2.name=Item Overflow Responder Crystal
+item.projectred.transportation.routingchip|3.name=Item Terminator Crystal
+item.projectred.transportation.routingchip|4.name=Item Extractor Crystal
+item.projectred.transportation.routingchip|5.name=Item Broadcaster Crystal
+item.projectred.transportation.routingchip|6.name=Item Stock Keeper Crystal
+item.projectred.transportation.routingchip|7.name=Item Crafting Crystal
+item.projectred.transportation.routingchip|8.name=Item Crafting Extension Crystal
+
+
+lostera.research_page.PIPES0=While golems can manage your goods they are not awfully bright, which can sometimes lead to unexpected accidents.<BR>So you have developed magical pipes for managing your belongings!<BR>Similar to golemancy, these pipes must be configured with Crystal Chips to be told what to do.
+lostera.research_page.PIPES1=There are 3 Basic Pipes you've developed:<BR>§lRouted Interface Pipe:§r Placed adjacent to chest, allows the pipe network to interface with said inventory.<BR>§lRouted Junction Pipe:§r Placed at intersections, manages the traffic of items and their path.<BR>§lItem Transport Pipe:§r Connects pipes to each other, alowing the transfer of items to one another.
+
+lostera.research_page.CHIP1=Crystal Chips allows a thaumaturge to empower magical pipes to item manipulation!<BR> The aspect used as catalyst will determine how it can influence items.<BR>They all can be configured by right click.<BR>§lItem Extractor Chip:§r Allows the extraction of items from the connected inventory.<BR>§lItem Responder Chip:§r Allows the network to recognise the connected inventory as an valid destination.
+lostera.research_page.CHIP2=§lItem Dynamic Responder Chip:§r Same as the Responder chip except the filters are set to the items in the inventory.<BR>§lItem Stock Keeper Chip:§r Ensures a configured amount of items in connected inventory at all times.<BR>§lItem Overflow Chip:§r Accept items only if other valid destinations are full (overflowing).<BR>§lItem Terminator Chip:§r Once all detected inventories are full, requests items from those (usually to delete them).<BR>§lItem Broadcast Chip:§r Broadcasts the current content of the connected inventory to Routed Request Pipes.
+lostera.research_page.CHIP3=§lItem Crafting Chip:§r Request and routes recipe inputs with the same extension and extracts item output from the connected inventory.<BR>§lItem Crafting Extender Chip:§r Recieves recipe inputs requested by the Crafting Chip (with the same extension) into the connected inventory.
+
+lostera.research_page.PIPESADV=These are pipes are imbued with sentience and logic for your more complex needs.<BR>§lItem Routed Request Pipe:§r It will show the contents of inventories equipped with Broadcaster Chips and deliver those items to you when requested if they also have Extractor Chips.<BR>§lItem Firewall Pipe:§r Allowing for selectively sectioning your networks from extraction, input or crafting operations.
+
+lostera.research_page.LATENTPIPES=These are pipes special pipe that add more control to your network's randomness.<BR>§lNetwork Valve Pipe:§r This a one-way pipe that can be configured to only allow items from ant to a specific direction.<BR>§lNetwork Latency Pipe:§r Each Network Pipe makes every other pipe in the other side appear to be thousands of blocks away.<BR>Useful since pipes with the same priority and same distance will respond at the same time, adding randomness to the whole system.

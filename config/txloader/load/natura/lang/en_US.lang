@@ -1,0 +1,7 @@
+#LE Localization Changes
+
+#Natura Barley -> Wild Grain
+item.barleyBag.name=Wild Grain Seed Bag
+item.barley.seed.name=Wild Grain Seeds
+item.barley.plant.name=Wild Grain
+item.barley.flour.name=Wild Grain Flour
