@@ -45,7 +45,6 @@
 - Campfirebackport [GPL-3.0] (https://github.com/connor135246/Campfire-Backport/blob/master/LICENSE)
 - Careful Cast Corrector [ARR] (https://www.curseforge.com/minecraft/mc-mods/careful-cast-corrector-ccc) {From Page: "Can CCC be included in modpacks?" "Yes"}
 - Carpenter's Blocks [LGPL-2.1] (https://github.com/DrParadox7/CarpentersBlocks/blob/master/LICENSE)
-- CartFixes [ARR] (https://www.curseforge.com/minecraft/mc-mods/cartfixes) {Page: "Do you allow this mod to be used in mod packs?" "absolutely"}
 - Chisel [GPL-2.0] (https://github.com/GTNewHorizons/Chisel/blob/master/LICENSE)
 - ClimateControl [GPL-3.0] (https://www.curseforge.com/project/76544/license)
 - CodeChickenCore [MIT] (https://github.com/GTNewHorizons/CodeChickenCore/blob/master/LICENSE.txt)
@@ -73,7 +72,6 @@
 - EnderZoo [CCO-1.0] (https://github.com/SleepyTrousers/EnderZoo/blob/master/LICENSE)
 - EnhancedLootBags [GPL-3.0] (https://github.com/GTNewHorizons/EnhancedLootBags/blob/master/LICENSE)
 - Et_Futurum_Requiem [LGPL-3.0] (https://github.com/Roadhog360/Et-Futurum-Requiem/blob/master/LICENSE)
-- ExtendedPotions [ARR] (https://www.curseforge.com/minecraft/mc-mods/extended-potions) {Author: Feel free to use this mod in any modpack}
 - ExtraTiC [ARR] (https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/1445212-extratic-tinkers-construct-mod-support-add-on) {Author: You can add this mod to your mod pack, public or private, just add a link to this forum page.}
 - Extra Utilities [ARR] (https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k) {Author: You have my permission to use include this mod in any modpack, public or private, provided that credit is given.}
 - Fastcraft+Ruins Patch [ARR] (https://www.curseforge.com/minecraft/mc-mods/fastcraft-ruins-patch) {Creator made it for use and distribution in the Lost Era Modpack}
@@ -105,7 +103,6 @@
 - IronChestMinecarts [ARR] (https://www.curseforge.com/project/224989/license) {Author: Feel free to use this mod in your modpack (public or private) as long as you credit me}
 - ItemBlacklist [BSD] (https://www.curseforge.com/project/237226/license)
 - It's the Little Things [MIT] (https://github.com/zlepper/itlt/blob/master/LICENSE)
-- LunatriusCore [MIT] (https://github.com/Lunatrius/LunatriusCore/blob/master/LICENSE)
 - MagiaNaturalis [Unlicensed] (None exists)
 - MagicBees [WTF] (https://github.com/DrParadox7/MagicBees/blob/1.7.10-krypt/LICENSE)
 - Mantle [MIT] (https://github.com/SlimeKnights/Mantle/tree/1.7.10)
@@ -153,14 +150,12 @@
 - RealStars [LGPL-2.1] (https://github.com/bambam01/RealStars/blob/master/LICENSE-fml.txt)
 - RedstoneArsenal [CoFH DBaJ] (https://oldcofh.github.io/permissions/) {Page: Modpack? Without a doubt}
 - RegionalWater [LGPL-3.0] (https://github.com/Vexxel/Regional-Water)
-- ResourceLoader [ARR] (https://www.curseforge.com/project/226447/license) {Author: You can use this mod in any modpack without asking first}
 - RFTools [MIT] (https://github.com/McJtyMods/RFTools/blob/master/LICENSE.md)
 - RealisticTerrainGenerator [GPL-3.0] (https://github.com/Team-RTG/Realistic-Terrain-Generation/blob/1.7.10-master/LICENSE.txt)
 - Ruins [Custom] (http://atomicstryker.net/about.php) {TLDR: These are allowed to make use of my work so long no profits are made in the process.}
 - SpecialMobs [ARR] (https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1282771-forge-father-toasts-mods-special-mobs-mob) {Author: You may distribute my mods as part of a pack as long as you:* give credit to me somewhere.* do not alter the mod(s).* do not make any money from the distribution of the mod(s). *have fun!}
 - SpiceOfLife [LGPL-3.0] (https://github.com/GTNewHorizons/SpiceOfLife/blob/master/LICENSE.txt)
 - Squidless [DBaJ] (https://www.curseforge.com/project/226115/license)
-- Stackie [MIT] (https://github.com/Lunatrius/Stackie/blob/master/LICENSE)
 - StevesCarts [ARR] (https://www.curseforge.com/minecraft/mc-mods/steves-carts-2) {Author: Feel free to use Steve's Carts 2 on your server and in your modpacks as long as you give me credit for the mod and don't sell in-game items for real life money.}
 - StorageDrawers [LGPL-3.0] (https://github.com/GTNewHorizons/StorageDrawers/blob/master/LICENSE.txt)
 - StorageDrawers-BiomesOPlenty [MIT] (https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/blob/master/LICENSE)
@@ -184,6 +179,7 @@
 - TiCTooltips [Unlicensed] (https://github.com/squeek502/TiC-Tooltips/blob/1.7.10/LICENSE)
 - Tile Entity Reset Fix [MIT] (https://github.com/TCLProject/TileEntityResetFix)
 - TMechworks [MIT] (https://github.com/SlimeKnights/TinkersMechworks)
+- TxLoader [LGPL-3.0-only] (https://github.com/glowredman/TX-Loader?tab=LGPL-3.0-1-ov-file#readme)
 - TravellersGear [Custom] (https://www.curseforge.com/project/224440/license) {Author on Modpacks usage: Absolutely! The more people get to enjoy my mods, the happier I am!}
 - TravellersGearNeo [MIT] (https://github.com/GTNewHorizons/TravellersGearNeo/blob/master/LICENSE)
 - TwilightForest [LGPL-2.1] (https://github.com/GTNewHorizons/twilightforest/blob/master/LICENSE)
