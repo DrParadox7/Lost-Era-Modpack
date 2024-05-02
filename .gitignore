@@ -4,3 +4,4 @@ config/mod-director/icon.png
 config/mod-director/modpack.json
 config/mod-director/optifine.url.json
 config/betterquesting/DefaultQuests.json
+config/mcpatcherforge.cfg
