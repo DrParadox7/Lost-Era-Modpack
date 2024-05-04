@@ -17,7 +17,6 @@ mods.thaumcraft.Aspects.addEntity("arsmagica2.MobFireElemental", "ignis 3, cogni
 mods.thaumcraft.Aspects.addEntity("arsmagica2.EarthElemental", "terra 3, cognitio 1");
 mods.thaumcraft.Aspects.addEntity("arsmagica2.MobHecate", "mortuus 3");
 mods.thaumcraft.Aspects.addEntity("arsmagica2.MobManaCreeper", "potentia 2, ira 2, ignis 2");
-mods.thaumcraft.Aspects.addEntity("arsmagica2.ManaVortex", "potentia 1");
 mods.thaumcraft.Aspects.addEntity("arsmagica2.MobManaElemental", "potentia 3, cognitio 1");
 mods.thaumcraft.Aspects.addEntity("arsmagica2.MobWaterElemental", "aqua 3, cognitio 1");
 mods.thaumcraft.Aspects.addEntity("arsmagica2.MobLightMage", "lux 3, humanus 3");
