@@ -3649,8 +3649,20 @@
             "name": "harvestcraft:leafychickensandwichItem",
             "meta": 0,
             "hunger": [
-                "minecraft:cooked_chicken",
                 "harvestcraft:toastItem",
+                "minecraft:cooked_chicken",
+                "harvestcraft:lettuceItem",
+                "harvestcraft:mayoItem"
+            ],
+            "type": "crafting"
+        },
+        {
+            "name": "harvestcraft:leafyfishsandwichItem",
+            "meta": 0,
+            "hunger": [
+                "harvestcraft:toastItem",
+                "minecraft:cooked_fished",
+                "harvestcraft:lettuceItem",
                 "harvestcraft:mayoItem"
             ],
             "type": "crafting"

@@ -3809,11 +3809,24 @@
         {
             "name": "harvestcraft:leafychickensandwichItem",
             "meta": 0,
-            "hunger": 12,
+            "hunger": 13,
             "type": "crafting",
             "foodGroups": [
                 "Grains",
-                "Meats"
+                "Meats",
+                "Vegetables"
+            ],
+            "saturationModifier": 2.4
+        },
+        {
+            "name": "harvestcraft:leafyfishsandwichItem",
+            "meta": 0,
+            "hunger": 13,
+            "type": "crafting",
+            "foodGroups": [
+                "Grains",
+                "Seafood",
+                "Vegetables"
             ],
             "saturationModifier": 2.4
         },
