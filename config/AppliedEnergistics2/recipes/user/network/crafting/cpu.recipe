@@ -23,7 +23,7 @@ shaped=
     ae2:ItemMaterial.FluixPearl ae2:BlockCraftingUnit:2 ae2:ItemMaterial.FluixPearl,
      -> ae2:BlockCraftingUnit:3
 
-shaped=
+shapeless=
     ae2:BlockCraftingUnit:3
     ae2:BlockCraftingUnit:3
     ae2:BlockCraftingUnit:3

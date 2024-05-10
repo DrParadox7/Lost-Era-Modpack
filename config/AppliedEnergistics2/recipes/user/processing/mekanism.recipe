@@ -1,0 +1,20 @@
+mekechamber= ae2:OreQuartz -> 2 ae2:ItemMaterial.CertusQuartzDust
+mekechamber= ae2:OreQuartzCharged -> 2 ae2:ItemMaterial.CertusQuartzDust
+mekcrusher= ae2:BlockSkyStone:0 -> ae2:ItemMaterial.SkyDust
+mekcrusher= mc:ender_pearl -> ae2:ItemMaterial.EnderDust
+
+mekcrusher= ae2:ItemMaterial.FluixCrystal -> ae2:ItemMaterial.FluixDust
+mekcrusher= ae2:ItemMaterial.PurifiedFluixCrystal -> ae2:ItemMaterial.FluixDust
+
+mekcrusher= ae2:ItemMaterial.CertusQuartzCrystalCharged -> ae2:ItemMaterial.CertusQuartzDust
+mekcrusher= ae2:ItemMaterial.CertusQuartzCrystal -> ae2:ItemMaterial.CertusQuartzDust
+mekcrusher= ae2:ItemMaterial.PurifiedCertusQuartzCrystal -> ae2:ItemMaterial.CertusQuartzDust
+
+mekcrusher= mc:quartz -> ae2:ItemMaterial.NetherQuartzDust
+mekcrusher= ae2:ItemMaterial.PurifiedNetherQuartzCrystal -> ae2:ItemMaterial.NetherQuartzDust
+
+
+#Disabled
+#mekcrusher= oredictionary:cropWheat -> ae2:ItemMaterial.Flour
+#mekcrusher= ae2:ItemMaterial.CertusQuartzCrystalCharged -> ae2:ItemMaterial.CertusQuartzDust
+
