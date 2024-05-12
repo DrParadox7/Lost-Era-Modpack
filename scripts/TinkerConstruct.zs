@@ -152,11 +152,6 @@ mods.tconstruct.Tweaks.addRepairMaterial(<Metallurgy:precious.block:4>, "Electru
 mods.tconstruct.Tweaks.addRepairMaterial(<ThermalFoundation:Storage:7>, "Electrum", 1944);
 mods.tconstruct.Tweaks.addRepairMaterial(<gregtech_addon:block_2:1>, "Electrum", 1944);
 
-#Fix Thaumium repair material
-mods.tconstruct.Tweaks.addRepairMaterial(<Thaumcraft:ItemNugget:6>, "Thaumium", 24);
-mods.tconstruct.Tweaks.addRepairMaterial(<Thaumcraft:ItemResource:2>, "Thaumium", 216);
-mods.tconstruct.Tweaks.addRepairMaterial(<Thaumcraft:blockCosmeticSolid:4>, "Thaumium", 1944);
-
 ### Mechworks ###
 
 #Signal Bus
