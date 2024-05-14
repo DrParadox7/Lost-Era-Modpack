@@ -25,11 +25,11 @@ recipes.addShaped(<RandomThings:onlineDetector>, [[<minecraft:redstone_lamp>, <E
 
 #Energy Distributor
 recipes.remove(<RandomThings:energyDistributor>);
-recipes.addShaped(<RandomThings:energyDistributor>, [[<ore:ingotInvar>, <ThermalExpansion:Plate:1>, <ore:ingotInvar>], [<ore:gearSignalum>, <ThermalExpansion:Frame>, <ore:gearSignalum>], [<ore:ingotInvar>, <ThermalExpansion:material:2>, <ore:ingotInvar>]]);
+recipes.addShaped(<RandomThings:energyDistributor>, [[<ore:ingotInvar>, <RedstoneArsenal:material:96>, <ore:ingotInvar>], [<ore:gearSignalum>, <ThermalExpansion:Frame:2>, <ore:gearSignalum>], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
 
 #Ender Energy Distributor
 recipes.remove(<RandomThings:enderEnergyDistributor>);
-recipes.addShaped(<RandomThings:enderEnergyDistributor>, [[<ore:ingotEnderium>, <minecraft:ender_eye>, <ore:ingotEnderium>], [<RedstoneArsenal:material:96>, <RandomThings:energyDistributor>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:material:2>, <ore:ingotEnderium>]]);
+recipes.addShaped(<RandomThings:enderEnergyDistributor>, [[<ore:ingotEnderium>, <RandomThings:ingredient:6>, <ore:ingotEnderium>], [<ore:gearElectrum>, <ThermalExpansion:Frame:3>, <ore:gearElectrum>], [<ore:ingotEnderium>, <ThermalExpansion:material:3>, <ore:ingotEnderium>]]);
 
 #Spectre Ingot
 recipes.remove(<RandomThings:ingredient:4>);
@@ -41,5 +41,9 @@ recipes.addShaped(<RandomThings:spectreKey>, [[null, <RandomThings:ingredient:3>
 
 #WhiteStone
 recipes.addShaped(<RandomThings:whitestone>, [[<minecraft:diamond>, <etfuturum:totem_of_undying>, <minecraft:diamond>], [<etfuturum:totem_of_undying>, <minecraft:nether_star>, <etfuturum:totem_of_undying>], [<minecraft:diamond>, <etfuturum:totem_of_undying>, <minecraft:diamond>]]);
+
+#Ender Diamond
+recipes.remove(<RandomThings:ingredient:6>);
+mods.thermalexpansion.Transposer.addFillRecipe(8000, <minecraft:diamond>, <RandomThings:ingredient:6>, <liquid:ender> * 1000);
 
 print("Initialized 'RandomThings.zs'");

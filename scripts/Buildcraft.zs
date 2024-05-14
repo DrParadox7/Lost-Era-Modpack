@@ -5,7 +5,7 @@ print("Initializing 'Buildcraft.zs'...");
 
 #Pump
 recipes.remove(<BuildCraft|Factory:pumpBlock>);
-recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<minecraft:iron_ingot>, <ThermalExpansion:pump>, <minecraft:iron_ingot>], [<BuildCraft|Factory:tankBlock>, <ore:gearIron>, <BuildCraft|Factory:tankBlock>], [<minecraft:iron_ingot>, <ThermalExpansion:material:1>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<minecraft:iron_ingot>, <minecraft:bucket>, <minecraft:iron_ingot>], [<ThermalExpansion:material>, <ore:gearIron>, <ThermalExpansion:material>], [<minecraft:iron_ingot>, <ThermalExpansion:material:1>, <minecraft:iron_ingot>]]);
 
 #Mining Well
 recipes.remove(<BuildCraft|Factory:miningWellBlock>);

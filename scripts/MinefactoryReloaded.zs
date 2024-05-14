@@ -7,7 +7,7 @@ print("Initializing 'MinefactoryReloaded.zs'...");
 
 #AutoSpawner
 recipes.remove(<MineFactoryReloaded:machine.1:9>);
-recipes.addShaped(<MineFactoryReloaded:machine.1:9>, [[<rftools:matterBeamerBlock>, <NuclearCraft:antimatter>, <rftools:matterBeamerBlock>], [<MineFactoryReloaded:syringe.growth>, <MineFactoryReloaded:tank>, <MineFactoryReloaded:syringe.health>], [<rftools:matterBeamerBlock>, <rftools:spawnerBlock>, <rftools:matterBeamerBlock>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.1:9>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:portaspawner>, <MineFactoryReloaded:plastic.sheet>], [<NuclearCraft:antimatter>, <ThermalExpansion:Frame>, <NuclearCraft:antimatter>], [<ore:gearEnderium>, <ThermalExpansion:material:1>, <ore:gearEnderium>]]);
 
 #Rails
 recipes.remove(<MineFactoryReloaded:rail.passenger.dropoff>);
@@ -35,7 +35,7 @@ recipes.addShaped(<MineFactoryReloaded:machine.0:3>, [[<MineFactoryReloaded:plas
 
 #Weather Collector
 recipes.remove(<MineFactoryReloaded:machine.0:8>);
-recipes.addShaped(<MineFactoryReloaded:machine.0:8>, [[<MineFactoryReloaded:plastic.sheet>, <Forestry:factory2:1>, <MineFactoryReloaded:plastic.sheet>], [<ThermalExpansion:pump>, <ThermalExpansion:Frame>, <ThermalExpansion:pump>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.0:8>, [[<MineFactoryReloaded:plastic.sheet>, <Forestry:factory2:1>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:sponge>, <ThermalExpansion:Frame>, <minecraft:sponge>], [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 
 #Feeder
 recipes.remove(<MineFactoryReloaded:machine.0:12>);
@@ -55,15 +55,15 @@ recipes.addShaped(<MineFactoryReloaded:machine.1:13>, [[<MineFactoryReloaded:pla
 
 #Deep Storage Unit
 recipes.remove(<MineFactoryReloaded:machine.1:3>);
-recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<Mekanism:Polyethene:2>, <Mekanism:TeleportationCore>, <Mekanism:Polyethene:2>], [<ExtraUtilities:bedrockiumIngot>, <ThermalExpansion:Frame:11>, <ExtraUtilities:bedrockiumIngot>], [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:material>, <MineFactoryReloaded:plastic.sheet>]]);
-
-#Laser Precharger
-recipes.remove(<MineFactoryReloaded:machine.2:1>);
-recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:plastic.sheet>], [<Mekanism:AtomicAlloy>, <Mekanism:MachineBlock2:14>, <Mekanism:AtomicAlloy>], [<ore:gearLumium>, <Mekanism:MachineBlock2:13>, <ore:gearLumium>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.1:3>, [[<MineFactoryReloaded:plastic.sheet>, <minecraft:hopper>, <MineFactoryReloaded:plastic.sheet>], [<minecraft:ender_pearl>, <ThermalExpansion:Frame:11>, <minecraft:ender_pearl>], [<ThermalFoundation:material:140>, <minecraft:ender_chest>, <ThermalFoundation:material:140>]]);
 
 #Laser Drill
 recipes.remove(<MineFactoryReloaded:machine.2>);
-recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<Mekanism:Polyethene:2>, <MineFactoryReloaded:plastic.sheet>, <Mekanism:Polyethene:2>], [ <Mekanism:ControlCircuit:3>, <MekanismGenerators:ReactorGlass:1>, <Mekanism:ControlCircuit:3>], [<MineFactoryReloaded:plastic.sheet>, <Mekanism:MachineBlock2:15>, <MineFactoryReloaded:plastic.sheet>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<MineFactoryReloaded:plastic.sheet>, <minecraft:beacon>, <MineFactoryReloaded:plastic.sheet>], [<ore:blockGlassHardened>, <ThermalExpansion:Frame>, <ore:blockGlassHardened>], [<ore:gearEnderAmethyst>, <ThermalExpansion:material:3>, <ore:gearEnderAmethyst>]]);
+
+#Laser Precharger
+recipes.remove(<MineFactoryReloaded:machine.2:1>);
+recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:plastic.sheet>], [<ore:blockGlassHardened>, <ThermalExpansion:Frame>, <ore:blockGlassHardened>], [<ore:gearLumium>, <ThermalExpansion:material:3>, <ore:gearLumium>]]);
 
 #Chipsets
 recipes.remove(<MineFactoryReloaded:upgrade.logic:*>);
