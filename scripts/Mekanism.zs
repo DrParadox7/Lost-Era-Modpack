@@ -415,8 +415,10 @@ recipes.addShaped(<MekanismGenerators:ReactorGlass:1>, [[null, <MekanismGenerato
 #Mekanism Generator misc:
 
 #Solar panel
-recipes.remove(<MekanismGenerators:SolarPanel>);
 recipes.addShaped(<MekanismGenerators:SolarPanel>, [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [<ore:ingotSteel>, <Mekanism:EnrichedAlloy>, <ore:ingotSteel>], [<ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>]]);
+
+#Turbine Blade
+recipes.addShaped(<MekanismGenerators:TurbineBlade>, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[null, <Mekanism:EnrichedAlloy>, null],[<ore:ingotSteel>, null, <ore:ingotSteel>]]);
 
 // ================================================================================
 #Mekanism Integration:
