@@ -232,10 +232,10 @@ mods.thaumcraft.Aspects.set(<AWWayofTime:energyBlasterSecondTier>, "ira 6, alien
 mods.thaumcraft.Aspects.set(<AWWayofTime:energyBlasterThirdTier>, "ira 6, alienis 5, venenum 1, telum 6");
 
 # Incense
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:4>, "aer 4, tincturem 2, praecantatio 1");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:3>, "aer 4, tincturem 2, praecantatio 1");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:2>, "aer 4, tincturem 2, praecantatio 1");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:1>, "aer 4, tincturem 2, praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:4>, "aer 4, praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:3>, "aer 4, praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:2>, "aer 4, praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:1>, "aer 4, praecantatio 1");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem>, "aer 4, arbor 2");
 
 # Plates and Crystals
@@ -1565,7 +1565,7 @@ mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:8>, "pannus 9, aer 3
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:9>, "tutamen 3, metallum 15");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:10>, "tutamen 8, vitreus 15");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:11>, "machina 8, potentia 5, alienis 5, metallum 9");
-mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:12>, "machina 1, sensus 3, tincturem 3, metallum 1");
+mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:12>, "machina 1, sensus 3, metallum 1");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:13>, "ignis 3, potentia 3");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:14>, "machina 2, cognitio 1, metallum 1");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:15>, "potentia 3, limus 3");
@@ -2179,7 +2179,7 @@ mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:2>, "terra 2, igni
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:3>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:4>, "metallum 4");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:5>, "metallum 3, lucrum 2");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:6>, "tincturem 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:6>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:7>, "lucrum 4, vitreus 4");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:8>, "potentia 2, machina 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:9>, "mortuus 2, corpus 1");
@@ -2195,7 +2195,7 @@ mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:2>, "terra 2,
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:3>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:4>, "metallum 4");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:5>, "metallum 3, lucrum 2");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:6>, "tincturem 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:6>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:7>, "lucrum 4, vitreus 4");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:8>, "potentia 2, machina 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:9>, "mortuus 2, corpus 1");
