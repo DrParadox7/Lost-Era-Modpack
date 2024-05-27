@@ -1,5 +1,6 @@
 print("Initializing 'Thaumcraft-Aspects.zs'...");
 
+var dyeTypes = 16;
 
 ### AE2 ###
 
@@ -29,42 +30,51 @@ mods.thaumcraft.Aspects.setEntity("arsmagica2.HellCow", "bestia 3, terra 3, ira 
 mods.thaumcraft.Aspects.setEntity("arsmagica2.RiftStorage", "vacuos 5, praecantatio 5");
 mods.thaumcraft.Aspects.setEntity("arsmagica2.DaBroom", "praecantatio 1, motus 2, sensus 2, messis 3");
 mods.thaumcraft.Aspects.setEntity("arsmagica2.BattleChicken", "bestia 16, aer 8, motus 12, telum 6");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.ShadowHelper", "alienis 3, praecantatio 3");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.AirSled", "aer 5, motus 5, volatus 5");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.Shockwave", "praecantatio 3, motus 3");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.Whirlwind", "aer 5, tempestas 5");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.ThrownArm", "gelum 5");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.ThrownRock", "terra 5");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.ThrownSickle", "meto 10, motus 5");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.ManaVortex", "praecantatio 3, vinculum 3");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationMagmacube", "sensus 1");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationWitherSkeleton", "sensus 1");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationSpider", "sensus 1");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationEndermite", "sensus 1");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationEnderman", "sensus 1");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationZombie", "sensus 1");
+mods.thaumcraft.Aspects.addEntity("arsmagica2.HallucinationCreeper", "sensus 1");
 
 # Ice Essence
 mods.thaumcraft.Aspects.set(<arsmagica2:essence:6>, "praecantatio 2, gelum 2");
-# Pure Essence
-mods.thaumcraft.Aspects.set(<arsmagica2:essence:10>, "ordo 16, alienis 16, auram 16, potentia 16, praecantatio 16");
-# High Essence Core
-mods.thaumcraft.Aspects.set(<arsmagica2:essence:11>, "praecantatio 12, gelum 2, herba 2, potentia 2");
 # Pig Fat
-mods.thaumcraft.Aspects.set(<arsmagica2:itemOre:8>, "corpus 4, bestia 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:itemOre:8>, "corpus 4, bestia 2");
+# Pure Essence
+mods.thaumcraft.Aspects.set(<arsmagica2:essence:10>, "ordo 10, alienis 5, auram 5, herba 2, gelum 2, potentia 2");
+# High Essence Core
+mods.thaumcraft.Aspects.set(<arsmagica2:essence:11>, "praecantatio 1, gelum 2, herba 5, potentia 2");
 # Warding Candle
 mods.thaumcraft.Aspects.set(<arsmagica2:wardingCandle>, "lux 4, praecantatio 4, corpus 1");
 # Rune Bag
-mods.thaumcraft.Aspects.add(<arsmagica2:runeBag>, "vacuos 3, praecantatio 2");
-#Magic Broom
-mods.thaumcraft.Aspects.add(<arsmagica2:magicBroom>, "praecantatio 2");
+mods.thaumcraft.Aspects.add(<arsmagica2:runeBag>, "vacuos 1");
+# Change Limus to Gelum
+mods.thaumcraft.Aspects.set(<arsmagica2:bookAffinity:7>, "cognitio 4, praecantatio 4, gelum 4");
+# Hell Cow Horn
+mods.thaumcraft.Aspects.add(<arsmagica2:cowHorn>, "infernus 4");
 
-# Life Ward
-mods.thaumcraft.Aspects.add(<arsmagica2:lifeWard>, "praecantatio 10, victus 10, auram 25");
-# Winter Arm
-mods.thaumcraft.Aspects.add(<arsmagica2:winter_arm>, "praecantatio 10, corpus 5, gelum 10, vinculum 10");
-#Air Sled
-mods.thaumcraft.Aspects.add(<arsmagica2:air_sled>, "praecantatio 10, iter 10, motus 10, aer 25");
-# Earth Armor
-mods.thaumcraft.Aspects.add(<arsmagica2:earth_armor>, "praecantatio 10, tutamen 10, terra 25");
-# Water Orbs
-mods.thaumcraft.Aspects.add(<arsmagica2:water_orbs>, "praecantatio 10, tutamen 5, aqua 25");
-#Fire Ears
-mods.thaumcraft.Aspects.add(<arsmagica2:fire_ears>, "praecantatio 10, tutamen 5, ignis 25, corpus 5");
-# Ender Boots
-mods.thaumcraft.Aspects.add(<arsmagica2:enderBoots>, "praecantatio 10, tutamen 5, alienis 25, permutatio 10");
-#Arcane Spellbook
-mods.thaumcraft.Aspects.add(<arsmagica2:arcane_spellbook>, "praecantatio 35, cognitio 10, auram 10");
-#Nature Scythe
-mods.thaumcraft.Aspects.add(<arsmagica2:natureScythe>, "praecantatio 10, herba 25, meto 10");
-#Lightning Charm
-mods.thaumcraft.Aspects.add(<arsmagica2:lightningCharm>, "praecantatio 10, lucrum 10, potentia 25, permutatio 10");
+mods.thaumcraft.Aspects.set(<arsmagica2:imbuedMoonflowerSeeds>, "herba 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:rainRockroseSeeds>, "herba 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:stormSawtoothSeeds>, "herba 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:mageTorch>, "lux 1, praecantatio 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:otherworldAura>, "cognitio 1, alienis 4, auram 4");
+mods.thaumcraft.Aspects.set(<arsmagica2:spatialVortex>, "vacuos 4, praecantatio 4");
+mods.thaumcraft.Aspects.set(<arsmagica2:SpellRune>, "praecantatio 1, vinculum 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:spellBase>, "praecantatio 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:witchwoodDoubleSlab>, "arbor 1");
+mods.thaumcraft.Aspects.set(<arsmagica2:imbuedMoonflower>, "praecantatio 6, alienis 4, vacuos 2");
+mods.thaumcraft.Aspects.set(<arsmagica2:stormSawtooth>, "tempestas 8, praecantatio 5, aer 5, ignis 5");
+mods.thaumcraft.Aspects.set(<arsmagica2:rainRockrose>, "praecantatio 5, tempestas 3, aqua 3");
 
 # Flicker Jars
 mods.thaumcraft.Aspects.add(<arsmagica2:flickerJar>, "vacuos 1");
@@ -232,18 +242,19 @@ mods.thaumcraft.Aspects.set(<AWWayofTime:energyBlasterSecondTier>, "ira 6, alien
 mods.thaumcraft.Aspects.set(<AWWayofTime:energyBlasterThirdTier>, "ira 6, alienis 5, venenum 1, telum 6");
 
 # Incense
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:4>, "aer 4, praecantatio 1");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:3>, "aer 4, praecantatio 1");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:2>, "aer 4, praecantatio 1");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:1>, "aer 4, praecantatio 1");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem>, "aer 4, arbor 2");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:1>, "aer 4, sensus 2,praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:2>, "aer 4, sensus 2,praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:3>, "aer 4, sensus 2,praecantatio 1");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicIncenseItem:4>, "aer 4, sensus 2, praecantatio 1");
+
 
 # Plates and Crystals
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:29>, "vitreus 5, spiritus 20");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:28>, "vitreus 5, victus 20");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:15>, "terra 4, tutamen 2");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:16>, "terra 8, tutamen 4");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:17>, "terra 8, tutamen 4, aqua 4, ignis 4, praecantatio 4 ");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:28>, "vitreus 5, victus 20");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:29>, "vitreus 5, spiritus 20");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:30>, "terra 16, tutamen 8, aqua 4, ignis 4, praecantatio 4, spiritus 16 ");
 mods.thaumcraft.Aspects.add(<AWWayofTime:itemMailCatalogue>, "tempestas 1");
 
@@ -279,11 +290,7 @@ mods.thaumcraft.Aspects.set(<AWWayofTime:simpleCatalyst>, "potentia 1, lux 1, pe
 # MISC
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:32>, "alienis 1");
 mods.thaumcraft.Aspects.add(<AWWayofTime:outputRoutingFocus>, "iter 1");
-mods.thaumcraft.Aspects.add(<AWWayofTime:inputRoutingFocus>, "iter 1");
-mods.thaumcraft.Aspects.add(<AWWayofTime:outputRoutingFocus:4>, "iter 1");
-mods.thaumcraft.Aspects.add(<AWWayofTime:outputRoutingFocus:2>, "iter 1");
-mods.thaumcraft.Aspects.add(<AWWayofTime:outputRoutingFocus:3>, "iter 1");
-mods.thaumcraft.Aspects.add(<AWWayofTime:outputRoutingFocus:1>, "iter 1");
+mods.thaumcraft.Aspects.add(<AWWayofTime:inputRoutingFocus:*>, "iter 1");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodLight>, "lux 1, victus 1");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bucketLife>, "aqua 4, victus 4, vacuos 1, metallum 8 ");
 
@@ -293,30 +300,31 @@ mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:3>, "potenti
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:4>, "potentia 4, ordo 4, perditio 4");
 
 # Cores
+
 mods.thaumcraft.Aspects.add(<AWWayofTime:bloodMagicBaseItems:1>, "vitreus 7");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:12>, "vitreus 10, aer 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:11>, "vitreus 10, gelum 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:18>, "vitreus 10, vacuos 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:10>, "vitreus 10, ignis 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:13>, "vitreus 10, terra 5");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:5>, "vitreus 10, volatus 5");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:6>, "vitreus 10, humanus 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:7>, "vitreus 10, ira 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:10>, "vitreus 10, ignis 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:11>, "vitreus 10, gelum 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:12>, "vitreus 10, aer 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:13>, "vitreus 10, terra 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:18>, "vitreus 10, vacuos 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:19>, "vitreus 10, telum 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:20>, "vitreus 10, tutamen 5");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:21>, "vitreus 10, herba 5");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:22>, "vitreus 10, lux 5");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:23>, "vitreus 10, permutatio 5");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:24>, "vitreus 10, potentia 5");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:26>, "vitreus 10, instrumentum 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:19>, "vitreus 10, telum 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:20>, "vitreus 10, tutamen 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:21>, "vitreus 10, herba 5");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseItems:7>, "vitreus 10, ira 5");
 
 # Spell Powders
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:6>, "potentia 3, ignis 3");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:7>, "terra 3, permutatio 3");
-mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:8>, "potentia 3, lux 3");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems>, "telum 3, ira 3");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:1>, "tutamen 3, metallum 3");
 mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:2>, "terra 3, herba 3");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:6>, "potentia 3, ignis 3");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:7>, "terra 3, permutatio 3");
+mods.thaumcraft.Aspects.set(<AWWayofTime:bloodMagicBaseAlchemyItems:8>, "potentia 3, lux 3");
 
 # Demons
 mods.thaumcraft.Aspects.setEntity("AWWayofTime.EarthElemental", "terra 6, infernus 6, auram 12");
@@ -346,6 +354,23 @@ mods.thaumcraft.Aspects.setEntity("AWWayofTime.MinorDemonGruntIce", "gelum 3, in
 mods.thaumcraft.Aspects.setEntity("AWWayofTime.MinorDemonGruntEarth", "terra 3, infernus 16");
 mods.thaumcraft.Aspects.setEntity("AWWayofTime.MinorDemonGrunt", "infernus 16");
 
+#Entities
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.particleBeam", "praecantatio 3");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.bloodLightProjectile", "lux 1, motus 2");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.spellProjectile", "praecantatio 3, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.energyBazookaMain", "ignis 4, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.energyBazookaSecondary", "ignis 2, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.meteor", "ignis 4, terra 4");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.teleportProjectile", "alienis 3, motus 3");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.mudProjectile", "terra 1, aqua 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.waterProjectile", "aqua 2, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.lightningBoltProjectile", "tempestas 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.windGustProjectile", "aer 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.holyProjectile", "lux 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.explosionProjectile", "ira 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.iceProjectile", "gelum 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.fireProjectile", "ignis 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("AWWayofTime.energyBlastProjectile", "potentia 1, motus 1");
 
 ### BoP ###
 
@@ -545,7 +570,8 @@ mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.Phantom", "spiritus 2, tenebrae
 mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.Wasp", "aer 2, volatus 2, telum 1");
 mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.Bird", "bestia 2, volatus 1");
 mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.Pixie", "praecantatio 3, sensus 1");
-
+mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.dart", "telum 1");
+mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.mudball", "terra 2, aqua 2, motus 4");
 
 ### Chisel ###
 # Entities
@@ -613,6 +639,7 @@ mods.thaumcraft.Aspects.set(<wizardry:blank_scroll>, "cognitio 1");
 mods.thaumcraft.Aspects.set(<wizardry:identification_scroll>, "cognitio 1, praecantatio 1, sensus 1");
 mods.thaumcraft.Aspects.set(<wizardry:armour_upgrade>, "praecantatio 4, cognitio 4, tutamen 4");
 
+# Master Books
 mods.thaumcraft.Aspects.add(<wizardry:spell_book:91>, "superbia 1");
 mods.thaumcraft.Aspects.add(<wizardry:spell_book:92>, "superbia 1");
 mods.thaumcraft.Aspects.add(<wizardry:spell_book:93>, "superbia 1");
@@ -870,11 +897,11 @@ mods.thaumcraft.Aspects.set(<ExtraUtilities:cobblestone_compressed:11>, "terra 5
 mods.thaumcraft.Aspects.set(<ExtraUtilities:cobblestone_compressed:15>, "terra 40, perditio 40");
 
 mods.thaumcraft.Aspects.set(<ExtraUtilities:chestMini>, "arbor 1");
-mods.thaumcraft.Aspects.set(<ExtraUtilities:pipes:11>, "potentia 1, iter 1");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:pipes:9>, "iter 1, ordo 1, sensus 1");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:pipes:11>, "potentia 1, iter 1");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:creativebuilderswand>, "instrumentum 8, alienis 16, superbia 16, lucrum 32, spiritus 16");
-mods.thaumcraft.Aspects.set(<ExtraUtilities:unstableingot:2>, "potentia 16, metallum 7, aliens 6, spiritus 6, fabrico 3, lucrum 3");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:unstableingot>, "potentia 16, metallum 7, aliens 6, spiritus 6, fabrico 3, lucrum 3");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:unstableingot:2>, "potentia 16, metallum 7, aliens 6, spiritus 6, fabrico 3, lucrum 3");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:mini-soul:3>, "spiritus 48, victus 32, alienis 16, lux 8");
 
 mods.thaumcraft.Aspects.add(<ExtraUtilities:decorativeBlock2:8>, "luxuria 1");
@@ -886,9 +913,34 @@ mods.thaumcraft.Aspects.set(<ExtraUtilities:watering_can:3>, "desidia 16, aqua 3
 mods.thaumcraft.Aspects.set(<ExtraUtilities:mini-soul>, "spiritus 2, invidia 2");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing>, "metallum 8, volatus 8, invidia 4, motus 6");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing:1>, "metallum 8, volatus 8, superbia 4, motus 6");
-mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing:4>, "metallum 8, volatus 8, lucrum 4, motus 6");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing:2>, "metallum 8, volatus 8, luxuria 4, motus 6");
 mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing:3>, "metallum 8, volatus 8, ira 4, motus 6");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing:4>, "metallum 8, volatus 8, lucrum 4, motus 6");
+
+# Specific to Lost Era
+mods.thaumcraft.Aspects.set(<ExtraUtilities:drum>, "metallum 16, vacuos 8");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:enderThermicPump>, "alienis 8, machina 6, permutatio 4, invidia 4");
+
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator>, "machina 6, potentia 5");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator:5>, "machina 6, potentia 5, fames 4, gula 4");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator:6>, "machina 6, potentia 5, praecantatio 4, aqua 4");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator:8>, "machina 6, potentia 5, ira 4, ignis 4");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator:9>, "machina 6, potentia 5, sensus 4, luxuria 4");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator:11>, "machina 6, potentia 5, praecantatio 10, superbia 10, ordo 10, infernus 10");
+
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.8>, "machina 12, potentia 20");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.8:5>, "machina 12, potentia 20, fames 8, gula 8");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.8:6>, "machina 12, potentia 20, praecantatio 8, aqua 8");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.8:8>, "machina 12, potentia 20, ira 8, ignis 8");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.8:9>, "machina 12, potentia 20, sensus 8, luxuria 8");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.8:11>, "machina 12, potentia 20, praecantatio 20, superbia 20, ordo 20, infernus 20");
+
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.64>, "machina 24, potentia 40");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.64:5>, "machina 24, potentia 40, fames 16, gula 16");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.64:6>, "machina 24, potentia 40, praecantatio 16, aqua 16");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.64:8>, "machina 24, potentia 40, ira 16, ignis 16");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.64:9>, "machina 24, potentia 40, sensus 16, luxuria 16");
+mods.thaumcraft.Aspects.set(<ExtraUtilities:generator.64:11>, "machina 24, potentia 40, praecantatio 40, superbia 40, ordo 40, infernus 40");
 
 
 ### Forbidden Magic ###
@@ -898,16 +950,169 @@ mods.thaumcraft.Aspects.set(<ExtraUtilities:angelRing:3>, "metallum 8, volatus 8
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:5>, "terra 32, praecantatio 24, vitreus 16, infernus 8, tenebrae 4,");
 
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:FMResource:2>, "metallum 1");
+mods.thaumcraft.Aspects.set(<ForbiddenMagic:FMResource:3>, "victus 16, infernus 8, vitium 16");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:FMResource:4>, "metallum 1");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:Boundwell>, "volatus 1, victus 3, praecantatio 1");
-mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCaps:3>, "metallum 3, ordo 2, aer 2, aqua 2, ignis 2, terra 2 ");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCaps:2>, "metallum 3, terra 3");
-mods.thaumcraft.Aspects.set(<ForbiddenMagic:FMResource:3>, "victus 16, infernus 8, vitium 16");
-mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:7>, "victus 16, praecantatio 16, terra 16");
+mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCaps:3>, "metallum 3, ordo 2, aer 2, aqua 2, ignis 2, terra 2 ");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:3>, "victus 16, praecantatio 16, aqua 16");
-mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:11>, "auram 16, praecantatio 16");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:5>, "invidia 16, perditio 16, permutatio 16, praecantatio 16 ");
+mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:7>, "victus 16, praecantatio 16, terra 16");
+mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:11>, "auram 16, praecantatio 16");
 
+### Grimoire Of Gaia ###
+//Created by daforsyth
+
+# Resources
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard>, "metallum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:1>, "metallum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:2>, "vitreus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:3>, "vitreus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:4>, "infernus 1, ordo 0");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:5>, "alienis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>, "ignis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Fragment>, "vitreus 0");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscFurnaceFuel>, "ignis 6, potentia 6");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscSoulFire>, "potentia 4, ignis 4, spiritus 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscSoulFiery>, "potentia 4, ignis 6");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscGigaGear>, "victus 8, ignis 8, potentia 8, superbia 3");
+
+# Food
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel>, "corpus 1, fames 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>, "corpus 2, fames 2");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodCoalfish>, "corpus 3, victus 1, ignis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryHealth>, "victus 1, messis 1, sano 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryCure>, "victus 1, messis 1, ordo 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryIce>, "victus 1, messis 1, gelum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryFire>, "victus 1, messis 1, ignis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodMandrake>, "messis 1, humanus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodDriedNetherWart>, "messis 1, infernus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodSmallAppleGold>, "fames 1, sano 1, praecantatio 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodWitherMeat>, "corpus 3, perditio 2");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodPieBerry>, "fames 3, messis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodPieMandrake>, "fames 3, herba 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.FoodPieMeat>, "corpus 3, fames 3, messis 1");
+
+# Dolls
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:Creeper Girl Doll>, "pannus 3, humanus 1, ignis 1, luxuria 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:Ender Girl Doll>, "pannus 3, humanus 1, alienis 1, luxuria 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:Slime Girl Doll>, "pannus 3, humanus 1, limus 1, luxuria 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:Maid Doll>, "pannus 3, humanus 1, luxuria 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:The Sphinx>, "terra 3, bestia 1, ignis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:The Valkyrie>, "terra 3, bestia 1, volatus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:The Vampire>, "terra 3, humanus 1, fames 1");
+
+# Coins
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscCurrency>, "metallum 1, lucrum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscCurrency:1>, "metallum 3, lucrum 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscCurrency:2>, "metallum 1, lucrum 1");
+
+# Loot
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscPage>, "cognitio 3, invidia 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscBook>, "cognitio 10, pannus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscBook>, "cognitio 10, pannus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscRing>, "metallum 3, motus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscRing:1>, "metallum 3, perfodio 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscRing:2>, "metallum 3, aer 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscRing:3>, "metallum 3, sensus 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.AccessoryRingSpeed>, "metallum 3, motus 4, praecantatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.AccessoryRingHaste>, "metallum 3, perfodio 4, praecantatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.AccessoryRingJump>, "metallum 3, aer 4, praecantatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.AccessoryRingNight>, "metallum 3, sensus 4, praecantatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscWeaponEnchanted>, "pannus 1, ignis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscWeaponEnchanted:1>, "pannus 1, gelum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponFanFire>, "pannus 1, ignis 3, praecantatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponFanIce>, "pannus 1, gelum 3, praecantatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.SpawnCard>, "cognitio 3, praecantatio 3, alienis 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BoxIron>, "metallum 3, vacuos 1, pannus 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BoxGold>, "metallum 3, lucrum 1, vacuos 1, pannus 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BoxDiamond>, "lucrum 3, vacuos 1, pannus 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BagOre>, "bestia 4, pannus 4, lucrum 3, vacuos 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BagBook>, "bestia 3, pannus 3, lucrum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BagRecord>, "bestia 2, pannus 2, lucrum 1");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.BoxOld>, "arbor 3, lucrum 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.AccessoryDollCursed>, "metallum 3, vitium 1, desidia 3");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookFreezing>, "pannus 3, cognitio 3, gelum 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookNightmare>, "pannus 3, cognitio 3, infernus 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookMetal>, "pannus 3, cognitio 3, metallum 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookEnder>, "pannus 3, cognitio 3, alienis 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookHunger>, "pannus 3, cognitio 3, gula 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookBattle>, "pannus 3, cognitio 3, ira 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookNature>, "pannus 3, cognitio 3, herba 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookWither>, "pannus 3, cognitio 3, perditio 2");
+mods.thaumcraft.Aspects.add(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponBookBuff>, "pannus 3, cognitio 3, superbia 2");
+
+# Cards
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.SpawnCardTrader>, "cognitio 2, praecantatio 3, permutatio 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.SpawnCardSlimeGirl>, "cognitio 2, praecantatio 3, limus 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.SpawnCardHolstaurus>, "cognitio 2, praecantatio 3, lucrum 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.SpawnCardEnderGirl>, "cognitio 2, praecantatio 3, alienis 3");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.SpawnCardCreeperGirl>, "cognitio 2, praecantatio 3, ira 3");
+
+# Props
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponProp>, "telum 1, alienis 2");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponProp:1>, "telum 1, ignis 2");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponProp:2>, "telum 1, metallum 2");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponProp:3>, "telum 1, vitreus 2");
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.WeaponPropInvisible>, "telum 1, sensus 2");
+
+# Mobs
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Anubis", "humanus 3, praecantatio 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Banshee", "spiritus 3, sensus 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Baphomet", "infernus 3, humanus 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Bone Knight", "exanimis 3, humanus 1, terra 1, tutamen 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Centaur", "bestia 2, humanus 2, terra 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Cobble Golem", "terra 3, humanus 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Cobblestone Golem", "terra 6, humanus 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Cockatrice", "bestia 2, venenum 3, aer 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Creep", "herba 2, ignis 2, ira 4");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Cyclops", "humanus 3, sensus 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Dhampir", "humanus 3, fames 3, luxuria 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Dryad", "humanus 3, herba 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Dullahan", "humanus 2, spiritus 2, telum 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Ender Dragon Girl", "humanus 2, bestia 2, alienis 3, superbia 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Ender Eye", "bestia 2, sensus 2, volatus 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Cyan Flower", "herba 1, victus 1, sensus 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Mandragora", "humanus 1, herba 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Flesh Lich", "exanimis 2, humanus 1, terra 1, praecantatio 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Gryphon", "bestia 3, volatus 2, terra 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.FutakuchiOnna", "bestia 1, humanus 2, gula 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Hunter", "humanus 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Harpy", "humanus 1, bestia 2, aer 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Kobold", "humanus 1, bestia 2, invidia 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Jorogumo", "bestia 4, humanus 2, pannus 3, terra 1, luxuria 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Mimic", "arbor 6, vacuos 4, vinculum 3, fames 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Mermaid", "humanus 3, bestia 1, aqua 1, luxuria 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Minotaur", "bestia 5, telum 3, motus 3, terra 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Naga", "bestia 3, aqua 1, venenum 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Minotaurus", "bestia 2, humanus 2, terra 1, luxuria 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Sahuagin", "humanus 3, aqua 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.NineTails", "humanus 2, bestia 1, ignis 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Shaman", "humanus 3, praecantatio 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Sharko", "bestia 4, aqua 4, telum 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Satyr", "bestia 2, humanus 1, luxuria 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Selkie", "humanus 2, permutatio 2, aqua 1, luxuria 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Sphinx", "humanus 1, bestia 5, terra 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Spriggan", "humanus 1, arbor 3, herba 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Siren", "humanus 3, bestia 1, aqua 1, sensus 3, luxuria 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Sludge Girl", "humanus 1, limus 3, luxuria 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Valkyrie", "humanus 3, volatus 3, superbia 3, tutamen 6");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Vampire", "humanus 3, fames 3, tenebrae 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Butler", "humanus 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Succubus", "humanus 1, infernus 3, luxuria 4");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Swamper", "bestia 3, herba 3, aqua 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Wither Cow", "bestia 2, exanimis 2, perditio 3, infernus 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Yeti", "bestia 3, gelum 3");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Werecat", "bestia 2, humanus 2, terra 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Witch", "humanus 3, praecantatio 3, aer 1");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Yuki-Onna", "humanus 2, spiritus 2, gelum 4");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Trader", "humanus 3, permutatio 1, luxuria 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Slime Girl", "humanus 2, limus 2, luxuria 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Ender Girl", "humanus 2, alienis 2, luxuria 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Creeper Girl", "humanus 2, ira 2, luxuria 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Holstaurus", "humanus 2, bestia 2, luxuria 2");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Small Fireball", "ignis 4, motus 4");
+mods.thaumcraft.Aspects.setEntity("GrimoireOfGaia.Magic", "praecantatio 4, motus 4");
 
 ### Harvestcraft ###
 
@@ -1296,20 +1501,23 @@ mods.thaumcraft.Aspects.set(<IC2:itemRubber>, "vitreus 2, limus 2");
 mods.thaumcraft.Aspects.set(<gregtech_addon:metaitem_1:11880>, "vitreus 2, limus 2");
 
 ### Magic Bees ###
+mods.thaumcraft.Aspects.set(<MagicBees:miscResources>, "cognitio 0");
+mods.thaumcraft.Aspects.set(<MagicBees:miscResources:1>, "lucrum 1, fames 1");
+mods.thaumcraft.Aspects.set(<MagicBees:miscResources:3>, "mortuus 0, exanimis 0, venenum 0, infernus 0");
+mods.thaumcraft.Aspects.set(<MagicBees:miscResources:4>, "mortuus 1, exanimis 1, venenum 1, infernus 1");
+mods.thaumcraft.Aspects.set(<MagicBees:miscResources:5>, "praecantatio 0, bestia 0, alienis 0, perditio 1");
+mods.thaumcraft.Aspects.set(<MagicBees:miscResources:6>, "praecantatio 1, bestia 1, alienis 1");
 mods.thaumcraft.Aspects.set(<MagicBees:miscResources:19>, "aqua 0, perditio 0");
 mods.thaumcraft.Aspects.set(<MagicBees:miscResources:20>, "ignis 0, perditio 0");
 mods.thaumcraft.Aspects.set(<MagicBees:miscResources:21>, "terra 0, perditio 0");
 mods.thaumcraft.Aspects.set(<MagicBees:miscResources:22>, "ordo 0, perditio 0");
 mods.thaumcraft.Aspects.set(<MagicBees:miscResources:23>, "perditio 0");
-mods.thaumcraft.Aspects.set(<MagicBees:miscResources:1>, "lucrum 1, fames 1");
-mods.thaumcraft.Aspects.set(<MagicBees:miscResources>, "cognitio 0");
-mods.thaumcraft.Aspects.set(<MagicBees:miscResources:5>, "praecantatio 0, bestia 0, alienis 0, perditio 1");
-mods.thaumcraft.Aspects.set(<MagicBees:miscResources:6>, "praecantatio 1, bestia 1, alienis 1");
-mods.thaumcraft.Aspects.set(<MagicBees:miscResources:3>, "mortuus 0, exanimis 0, venenum 0, infernus 0");
-mods.thaumcraft.Aspects.set(<MagicBees:miscResources:4>, "mortuus 1, exanimis 1, venenum 1, infernus 1");
-mods.thaumcraft.Aspects.set(<MagicBees:capsule.magic:*>, "praecantatio 1");
-mods.thaumcraft.Aspects.set(<MagicBees:capsule.void:*>, "metallum 1");
 mods.thaumcraft.Aspects.set(<MagicBees:jellyBabies>, "fames 4");
+
+for i in 0 to 25 {
+mods.thaumcraft.Aspects.set(<MagicBees:capsule.magic>.definition.makeStack(i), "praecantatio 1");
+mods.thaumcraft.Aspects.set(<MagicBees:capsule.void>.definition.makeStack(i), "metallum 1");
+}
 
 ### Mekanism ###
 // Created by daforsyth
@@ -1341,29 +1549,29 @@ mods.thaumcraft.Aspects.set(<Mekanism:FilterUpgrade>, "metallum 2, potentia 1, c
 mods.thaumcraft.Aspects.set(<Mekanism:EnergyUpgrade>, "metallum 2, cognitio 1, potentia 4");
 mods.thaumcraft.Aspects.set(<Mekanism:SpeedUpgrade>, "metallum 2, potentia 1, cognitio 1, motus 3");
 
-# Matierals
-mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:6>, "tenebrae 1, ignis 2, perditio 1");
-mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:5>, "tenebrae 1, ignis 2, perditio 1, lucrum 1");
+# Materials
+mods.thaumcraft.Aspects.set(<Mekanism:Ingot>, "metallum 3, terra 1, tenebrae 1");
 mods.thaumcraft.Aspects.set(<Mekanism:Ingot:1>, "metallum 3, machina 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Ingot:3>, "metallum 3, terra 1, lux 1");
 mods.thaumcraft.Aspects.set(<Mekanism:OreBlock>, "metallum 2, machina 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:5>, "metallum 20, ordo 6");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:1>, "metallum 20, instrumentum 6");
+mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:2>, "metallum 20, tenebrae 6");
+mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:3>, "potentia 13, ignis 13");
+mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:4>, "metallum 20, lux 6");
+mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:5>, "metallum 20, ordo 6");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:12>, "metallum 20, permutatio 6");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:13>, "metallum 20, vitreus 6");
-mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:3>, "potentia 13, ignis 13");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock>, "metallum 20, machina 6");
 mods.thaumcraft.Aspects.set(<Mekanism:Sawdust>, "arbor 1, perditio 1");
 mods.thaumcraft.Aspects.set(<Mekanism:Salt>, "aqua 1, terra 1");
 mods.thaumcraft.Aspects.set(<Mekanism:SaltBlock>, "aqua 3, terra 3");
-mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:3>, "ignis 3, terra 1");
 mods.thaumcraft.Aspects.set(<Mekanism:OtherDust>, "lucrum 3, vitreus 2, perditio 1");
-mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:4>, "potentia 3, ignis 2, venenum 1");
 mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:1>, "metallum 2, ordo 1, perditio 1");
+mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:3>, "ignis 3, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:4>, "potentia 3, ignis 2, venenum 1");
+mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:5>, "tenebrae 1, ignis 2, perditio 1, lucrum 1");
+mods.thaumcraft.Aspects.set(<Mekanism:OtherDust:6>, "tenebrae 1, ignis 2, perditio 1");
 mods.thaumcraft.Aspects.set(<Mekanism:EnrichedIron>, "metallum 1, ordo 1, perditio 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Ingot>, "metallum 3, terra 1, tenebrae 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Ingot:3>, "metallum 3, terra 1, lux 1");
-mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:2>, "metallum 20, tenebrae 6");
-mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:4>, "metallum 20, lux 6");
 mods.thaumcraft.Aspects.set(<Mekanism:Substrate>, "terra 1");
 mods.thaumcraft.Aspects.set(<Mekanism:Polyethene>, "terra 1, humanus 1");
 mods.thaumcraft.Aspects.set(<Mekanism:Polyethene:1>, "terra 3, humanus 3");
@@ -1374,35 +1582,38 @@ mods.thaumcraft.Aspects.set(<Mekanism:BrineBucket>, "metallum 8, vacuos 1, aqua 
 mods.thaumcraft.Aspects.set(<Mekanism:LithiumBucket>, "metallum 8, vacuos 1, aqua 4, venenum 2, ignis 2");
 mods.thaumcraft.Aspects.set(<Mekanism:HeavyWaterBucket>, "metallum 8, vacuos 1, aqua 4, vinculum 4");
 
-# Proccessed Ores
-mods.thaumcraft.Aspects.set(<Mekanism:Shard:6>, "metallum 2, ordo 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Shard:5>, "metallum 2, lucrum 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Shard:4>, "metallum 2, vitreus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Shard:3>, "metallum 2, permutatio 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Shard:1>, "metallum 2, lucrum 2");
+# Processed Ores
 mods.thaumcraft.Aspects.set(<Mekanism:Shard>, "metallum 3");
+mods.thaumcraft.Aspects.set(<Mekanism:Shard:1>, "metallum 2, lucrum 2");
 mods.thaumcraft.Aspects.set(<Mekanism:Shard:2>, "metallum 2, machina 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Clump:6>, "metallum 2, ordo 2");
-mods.thaumcraft.Aspects.set(<Mekanism:Clump:5>, "metallum 2, lucrum 1, ordo 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Clump:4>, "metallum 2, vitreus 1, ordo 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Clump:3>, "metallum 2, permutatio 1, ordo 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Clump:2>, "metallum 2, machina 1, ordo 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Clump:1>, "metallum 2, lucrum 2, ordo 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Shard:3>, "metallum 2, permutatio 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Shard:4>, "metallum 2, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Shard:5>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Shard:6>, "metallum 2, ordo 1");
+
 mods.thaumcraft.Aspects.set(<Mekanism:Clump>, "metallum 3, ordo 1");
-mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:6>, "metallum 2, ordo 1, perditio 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:5>, "metallum 2, lucrum 1, perditio 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:4>, "metallum 2, vitreus 1, perditio 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:3>, "metallum 2, permutatio 1, perditio 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:2>, "metallum 2, machina 1, perditio 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:1>, "metallum 2, lucrum 2, perditio 1, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Clump:1>, "metallum 2, lucrum 2, ordo 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Clump:2>, "metallum 2, machina 1, ordo 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Clump:3>, "metallum 2, permutatio 1, ordo 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Clump:4>, "metallum 2, vitreus 1, ordo 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Clump:5>, "metallum 2, lucrum 1, ordo 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Clump:6>, "metallum 2, ordo 2");
+
 mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust>, "metallum 3, perditio 1, terra 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Crystal:6>, "metallum 2, ordo 1, vitreus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Crystal:5>, "metallum 2, lucrum 1, vitreus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Crystal:4>, "metallum 2, vitreus 2");
-mods.thaumcraft.Aspects.set(<Mekanism:Crystal:3>, "metallum 2, permutatio 1, vitreus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Crystal:2>, "metallum 2, machina 1, vitreus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:Crystal:1>, "metallum 2, lucrum 2, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:1>, "metallum 2, lucrum 2, perditio 1, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:2>, "metallum 2, machina 1, perditio 1, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:3>, "metallum 2, permutatio 1, perditio 1, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:4>, "metallum 2, vitreus 1, perditio 1, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:5>, "metallum 2, lucrum 1, perditio 1, terra 1");
+mods.thaumcraft.Aspects.set(<Mekanism:DirtyDust:6>, "metallum 2, ordo 1, perditio 1, terra 1");
+
 mods.thaumcraft.Aspects.set(<Mekanism:Crystal>, "metallum 3, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Crystal:1>, "metallum 2, lucrum 2, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Crystal:2>, "metallum 2, machina 1, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Crystal:3>, "metallum 2, permutatio 1, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Crystal:4>, "metallum 2, vitreus 2");
+mods.thaumcraft.Aspects.set(<Mekanism:Crystal:5>, "metallum 2, lucrum 1, vitreus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:Crystal:6>, "metallum 2, ordo 1, vitreus 1");
 
 # Tools
 mods.thaumcraft.Aspects.set(<Mekanism:Dictionary>, "cognitio 2, potentia 1, machina 2");
@@ -1426,44 +1637,44 @@ mods.thaumcraft.Aspects.set(<Mekanism:Flamethrower>, "metallum 14, telum 8, igni
 
 # Machines
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock2:9>, "metallum 18, potentia 4, machina 8, tutamen 8, cognitio 8");
-mods.thaumcraft.Aspects.set(<Mekanism:EnergyCube>, "metallum 19, potentia 4, machina 2");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:6>, "metallum 12, machina 4, ignis 4, ordo 2");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:5>, "metallum 11, machina 4, fabrico 6, ordo 2, potentia 2");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:4>, "metallum 16, machina 4, ignis 6, vitreus 2, potentia 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:3>, "metallum 7, machina 4, cognitio 4, ordo 2, potentia 2, sensus 2");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:1>, "metallum 10, machina 4, fabrico 4, potentia 4, lux 4, venenum 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3>, "metallum 21, machina 8, iter 16, potentia 8, alienis 16, permutatio 16");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:13>, "metallum 19, machina 2, potentia 16, ignis 16, lux 16");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:14>, "metallum 20, permutatio 4, potentia 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:15>, "metallum 20, permutatio 4, potentia 4, lucrum 4");
 mods.thaumcraft.Aspects.set(<Mekanism:GasTank:*>, "metallum 6, aer 4, vacuos 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:12>, "metallum 13, aqua 4, potentia 2, machina 2, motus 3, vacuos 2");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:2>, "metallum 17, fabrico 4, permutatio 4, potentia 2, machina 4, aqua 8");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:1>, "metallum 12, perditio 8, potentia 2, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:4>, "metallum 10, perditio 8, potentia 2, machina 4, aer 8");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:6>, "metallum 11, ordo 8, potentia 4, machina 6");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:7>, "metallum 14, aqua 8, potentia 4, machina 6");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:8>, "metallum 14, vitreus 8, potentia 4, machina 6");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2>, "metallum 13, motus 8, aqua 4, aer 4, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:15>, "metallum 12, motus 2, cognitio 4, ordo 4, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:5>, "metallum 14, arbor 8, motus 2, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:10>, "metallum 19, aer 4, aqua 4, terra 4, potentia 4, machina 8");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:14>, "metallum 8, desidia 2 , potentia 8, machina 2");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:12>, "metallum 16, permutatio 3, potentia 2, machina 2, aqua 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:9>, "metallum 12, motus 8, potentia 4, machina 4, terra 6");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:13>, "metallum 8, vacuos 4, potentia 1, machina 2, tutamen 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:4>, "metallum 33, perfodio 16, potentia 16, machina 16, sensus 8");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:3>, "metallum 13, perditio 8, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:EnergyCube>, "metallum 19, potentia 4, machina 2");
 mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock>, "metallum 9, permutatio 4, potentia 4, machina 4");
 mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:1>, "metallum 16, vacuos 4, potentia 4, machina 4");
 mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:2>, "metallum 14, motus 4, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:9>, "metallum 11, ordo 4, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:3>, "metallum 18, aqua 2, perditio 2, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:8>, "metallum 9, ordo 2, vitreus 2, potentia 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:10>, "metallum 5, ignis 4, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:3>, "metallum 13, perditio 8, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:4>, "metallum 33, perfodio 16, potentia 16, machina 16, sensus 8");
 mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:5>, "metallum 9, permutatio 8, potentia 8, machina 8");
 mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:6>, "metallum 11, permutatio 12, potentia 12, machina 12");
 mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:7>, "metallum 11, permutatio 16, potentia 16, machina 16, superbia 1");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:8>, "metallum 9, ordo 2, vitreus 2, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:9>, "metallum 11, ordo 4, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:10>, "metallum 5, ignis 4, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:12>, "metallum 13, aqua 4, potentia 2, machina 2, motus 3, vacuos 2");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:13>, "metallum 8, vacuos 4, potentia 1, machina 2, tutamen 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:14>, "metallum 8, desidia 2 , potentia 8, machina 2");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock:15>, "metallum 12, motus 2, cognitio 4, ordo 4, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2>, "metallum 13, motus 8, aqua 4, aer 4, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:1>, "metallum 12, perditio 8, potentia 2, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:2>, "metallum 17, fabrico 4, permutatio 4, potentia 2, machina 4, aqua 8");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:3>, "metallum 18, aqua 2, perditio 2, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:4>, "metallum 10, perditio 8, potentia 2, machina 4, aer 8");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:5>, "metallum 14, arbor 8, motus 2, potentia 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:6>, "metallum 11, ordo 8, potentia 4, machina 6");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:7>, "metallum 14, aqua 8, potentia 4, machina 6");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:8>, "metallum 14, vitreus 8, potentia 4, machina 6");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:9>, "metallum 12, motus 8, potentia 4, machina 4, terra 6");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:10>, "metallum 19, aer 4, aqua 4, terra 4, potentia 4, machina 8");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:12>, "metallum 16, permutatio 3, potentia 2, machina 2, aqua 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:13>, "metallum 19, machina 2, potentia 16, ignis 16, lux 16");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:14>, "metallum 20, permutatio 4, potentia 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock2:15>, "metallum 20, permutatio 4, potentia 4, lucrum 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3>, "metallum 21, machina 8, iter 16, potentia 8, alienis 16, permutatio 16");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:1>, "metallum 10, machina 4, fabrico 4, potentia 4, lux 4, venenum 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:3>, "metallum 7, machina 4, cognitio 4, ordo 2, potentia 2, sensus 2");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:4>, "metallum 16, machina 4, ignis 6, vitreus 2, potentia 4");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:5>, "metallum 11, machina 4, fabrico 6, ordo 2, potentia 2");
+mods.thaumcraft.Aspects.set(<Mekanism:MachineBlock3:6>, "metallum 12, machina 4, ignis 4, ordo 2");
 
 # Generators
 mods.thaumcraft.Aspects.set(<MekanismGenerators:SolarPanel>, "metallum 2, lux 1, sensus 1");
@@ -1488,12 +1699,12 @@ mods.thaumcraft.Aspects.set(<MekanismGenerators:Reactor:3>, "metallum 21, ordo 8
 mods.thaumcraft.Aspects.set(<MekanismGenerators:Reactor:4>, "metallum 8, ordo 3, machina 4, cognitio 1, potentia 2");
 mods.thaumcraft.Aspects.set(<MekanismGenerators:ReactorGlass>, "vitreus 4, metallum 3, ordo 2");
 mods.thaumcraft.Aspects.set(<MekanismGenerators:ReactorGlass:1>, "vitreus 4, metallum 3, ordo 2, permutatio 8, sensus 4");
+mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:7>, "metallum 3, tenebrae 3, lux 3, alienis 4, machina 4");
+mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:9>, "metallum 5, ordo 1, aqua 4");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:10>, "metallum 3, vitreus 1, aqua 1");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:11>, "metallum 10, ordo 2, aqua 8, iter 2");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:14>, "metallum 16, ignis 1, cognitio 4");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:15>, "metallum 9, ignis 1, iter 2");
-mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:7>, "metallum 3, tenebrae 3, lux 3, alienis 4, machina 4");
-mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock:9>, "metallum 5, ordo 1, aqua 4");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock2>, "metallum 4, ignis 1");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock2:1>, "metallum 2, potentia 1");
 mods.thaumcraft.Aspects.set(<Mekanism:BasicBlock2:2>, "metallum 2, potentia 1, iter 2");
@@ -1520,8 +1731,6 @@ mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:17>, "metallum 3, iter 1, 
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:18>, "metallum 1, iter 1, ignis 1");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:19>, "metallum 2, iter 2, ignis 2");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:2>, "metallum 3, iter 3, potentia 3");
-mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:20>, "metallum 3, iter 3, ignis 3");
-mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:21>, "metallum 4, iter 4, ignis 4");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:3>, "metallum 4, iter 4, potentia 4");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:4>, "metallum 1, iter 1, aqua 1");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:5>, "metallum 2, iter 2, aqua 2");
@@ -1529,20 +1738,34 @@ mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:6>, "metallum 3, iter 3, a
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:7>, "metallum 4, iter 4, aqua 4");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:8>, "metallum 1, iter 1, aer 1");
 mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:9>, "metallum 2, iter 2, aer 2");
+mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:20>, "metallum 3, iter 3, ignis 3");
+mods.thaumcraft.Aspects.set(<Mekanism:PartTransmitter:21>, "metallum 4, iter 4, ignis 4");
 
 # Plastic
-mods.thaumcraft.Aspects.set(<Mekanism:PlasticBlock:*>, "terra 5, humanus 5, sensus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:PlasticFence:*>, "terra 5, humanus 5, sensus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:SlickPlasticBlock:*>, "terra 5, humanus 5, sensus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:GlowPlasticBlock:*>, "terra 5, humanus 5, sensus 1, lux 4");
-mods.thaumcraft.Aspects.set(<Mekanism:ReinforcedPlasticBlock:*>, "terra 5, humanus 5, tutamen 4, sensus 1");
-mods.thaumcraft.Aspects.set(<Mekanism:GlowPanel:*>, "terra 5, humanus 5, lux 4, sensus 1");
+for i in 0 to 16 {
+mods.thaumcraft.Aspects.set(<Mekanism:PlasticBlock>.definition.makeStack(i), "terra 5, humanus 5, sensus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:PlasticFence>.definition.makeStack(i), "terra 5, humanus 5, sensus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:SlickPlasticBlock>.definition.makeStack(i), "terra 5, humanus 5, sensus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:GlowPlasticBlock>.definition.makeStack(i), "terra 5, humanus 5, sensus 1, lux 4");
+mods.thaumcraft.Aspects.set(<Mekanism:ReinforcedPlasticBlock>.definition.makeStack(i), "terra 5, humanus 5, tutamen 4, sensus 1");
+mods.thaumcraft.Aspects.set(<Mekanism:GlowPanel>.definition.makeStack(i), "terra 5, humanus 5, lux 4, sensus 1");
+}
 
 ### MineFactory Reloaded ###
 # Contributor: daforsyth
 
 mods.thaumcraft.Aspects.set(<MineFactoryReloaded:pinkslime:1>, "limus 7, corpus 7, vitreus 5");
 mods.thaumcraft.Aspects.set(<MineFactoryReloaded:plastic.cup>, "vacuos 1");
+mods.thaumcraft.Aspects.set(<MineFactoryReloaded:stainedglass.pane:*>, "vitreus 1");
+mods.thaumcraft.Aspects.set(<MineFactoryReloaded:plastic>, "iter 1, fabrico 1, sensus 1");
+mods.thaumcraft.Aspects.set(<MineFactoryReloaded:plastic:1>, "iter 1, fabrico 1, sensus 1");
+
+mods.thaumcraft.Aspects.setEntity("MineFactoryReloaded.mfrEntityPinkSlime", "limus 2, corpus 2");
+mods.thaumcraft.Aspects.setEntity("MineFactoryReloaded.SafariNet", "vinculum 4, motus 2");
+mods.thaumcraft.Aspects.setEntity("MineFactoryReloaded.Needle", "telum 2, motus 1");
+mods.thaumcraft.Aspects.setEntity("MineFactoryReloaded.Rocket", "ignis 4, ira 4, motus 3");
+mods.thaumcraft.Aspects.setEntity("MineFactoryReloaded.FishingRod", "aqua 1, instrumentum 1, ignis 3, ira 3");
+
 
 ### Modular Power Suits ###
 # Contributor: daforsyth
@@ -1574,7 +1797,7 @@ mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:17>, "machina 5, pot
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:18>, "machina 3, metallum 18, potentia 8, permutatio 8");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:19>, "machina 1, cognitio 4, metallum 1");
 mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:20>, "fabrico 2, humanus 1");
-mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:21>, "metallum 8, aqua 4, gelum 16")
+mods.thaumcraft.Aspects.set(<powersuits:powerArmorComponent:21>, "metallum 8, aqua 4, gelum 16");
 
 
 ### Natura ###
@@ -1646,6 +1869,25 @@ mods.thaumcraft.Aspects.add(<OpenBlocks:stencil:*>, "metallum 9");
 # Elevator
 mods.thaumcraft.Aspects.add(<OpenBlocks:elevator:*>, "pannus 24, fabrico 6, alienis 3, iter 3, praecantatio 1, sensus 1 ");
 mods.thaumcraft.Aspects.add(<OpenBlocks:elevator_rotating:*>, "pannus 18, fabrico 4, alienis 2, iter 2, metallum 6, sensus 1 ");
+
+mods.thaumcraft.Aspects.setEntity("OpenBlocks.Luggage", "iter 1, arbor 4, vacuos 2");
+mods.thaumcraft.Aspects.setEntity("OpenBlocks.Magnet", "metallum 3, potentia 2");
+mods.thaumcraft.Aspects.setEntity("OpenBlocks.Cartographer", "machina 3, sensus 2");
+mods.thaumcraft.Aspects.setEntity("OpenBlocks.GoldenEye", "metallum 8, iter 4, lucrum 3, invidia 3");
+mods.thaumcraft.Aspects.setEntity("OpenBlocks.Player-Magnet", "metallum 3, potentia 2");
+
+### qCraft ###
+//Created by daforsyth
+
+mods.thaumcraft.Aspects.set(<qCraft:dust>, "sensus 2, tempus 1");
+mods.thaumcraft.Aspects.set(<qCraft:quantumoreglowing>, "sensus 2, tempus 2, terra 1");
+mods.thaumcraft.Aspects.set(<qCraft:essence>, "sensus 2, tempus 2");
+mods.thaumcraft.Aspects.set(<qCraft:essence:1>, "sensus 4, tempus 2");
+mods.thaumcraft.Aspects.set(<qCraft:essence:2>, "sensus 2, tempus 2");
+mods.thaumcraft.Aspects.set(<qCraft:quantumlogic>, "machina 2, sensus 3, invidia 1");
+mods.thaumcraft.Aspects.add(<qCraft:goggles>, "sensus 3");
+mods.thaumcraft.Aspects.add(<qCraft:goggles:1>, "sensus 3");
+
 
 # Special Mobs #
 #Entities 
@@ -1774,20 +2016,24 @@ mods.thaumcraft.Aspects.addEntity("SpecialMobs.LavaMonster", "ignis 3, potentia 
 # Entities
 mods.thaumcraft.Aspects.addEntity("testdummy.Dummy", "pannus 3, fabrico 1");
 
+
 ### Thaumcraft ###
 # Contributor: daforsyth
 
 # Entities 
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.Dart", "telum 1");
-mods.thaumcraft.Aspects.setEntity("Thaumcraft.FrostShard", "telum 1, gelum 3");
-mods.thaumcraft.Aspects.setEntity("Thaumcraft.ExplosiveOrb", "ignis 4, ira 4, perditio 4");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.FrostShard", "telum 1, gelum 3, motus 1");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.ExplosiveOrb", "ignis 4, ira 4, perditio 4, motus 1");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.ShockOrb", "praecantatio 3, potentia 4");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.GolemOrb", "praecantatio 3");
-mods.thaumcraft.Aspects.setEntity("Thaumcraft.BottleTaint", "vitreus 1, vitium 16");
-mods.thaumcraft.Aspects.setEntity("Thaumcraft.Alumentum", "potentia 3, ignis 3, perditio 1");
-mods.thaumcraft.Aspects.setEntity("Thaumcraft.FallingTaint", "vitium 2");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.BottleTaint", "vitreus 1, vitium 16, motus 1");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.Alumentum", "potentia 3, ignis 3, perditio 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.FallingTaint", "vitium 2, motus 1");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.AspectOrb", "auram 1");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.PrimalOrb", "praecantatio 4, perditio 6, permutatio 1");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.PrimalArrow", "praecantatio 1, telum 1");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.PechBlast", "praecantatio 2, perditio 2, motus 1");
+mods.thaumcraft.Aspects.setEntity("Thaumcraft.EldritchOrb", "praecantatio 3, alienis 3, vacuos 3, motus 1");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.TravelingTrunk", "vacuos 4, metallum 3, spiritus 3, motus 3, arbor 3, iter 2");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.EldritchOrb", "tenebrae 4, cognitio 3, alienis 3");
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.EldritchCrab", "alienis 4, bestia 3");
@@ -1800,6 +2046,7 @@ mods.thaumcraft.Aspects.setEntity("Thaumcraft.EldritchWarden", "alienis 16, prae
 mods.thaumcraft.Aspects.setEntity("Thaumcraft.EldritchGolem", "alienis 16, superbia 32, machina 48, metallum 32, potentia 32");
 
 mods.thaumcraft.Aspects.add(<Thaumcraft:ItemResource:7>, "pannus 4, praecantatio 1");
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResource:13>, "cognitio 1, limus 0");
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:3>, "metallum 1, aer 3");
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:4>, "metallum 1, terra 3");
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:5>, "metallum 1, ignis 3");
@@ -1846,13 +2093,11 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockWarded>, "terra 4, tutamen 4");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockMagicBox>, "praecantatio 4, vacuos 4");
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemEssence:1>, "vitreus 1");
 mods.thaumcraft.Aspects.set(<Thaumcraft:GolemBell>, "metallum 1, sensus 1");
-mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResource:13>, "cognitio 1, limus 0");
+
 
 ### Thaumic Exploration ###
 mods.thaumcraft.Aspects.set(<ThaumicExploration:boundJar>, "vitreus 5, aqua 1");
-mods.thaumcraft.Aspects.set(<ThaumicExploration:charmTaint>, "vitium 5");
 mods.thaumcraft.Aspects.set(<ThaumicExploration:taintBerry>, "fames 2, vitium 1");
-mods.thaumcraft.Aspects.set(<ThaumicExploration:floatCandle:*>, "aer 1, lux 1");
 
 ### Thaumic Horizons ###
 mods.thaumcraft.Aspects.set(<ThaumicHorizons:soulJar>, "vitreus 5, spiritus 1");
@@ -1891,18 +2136,35 @@ mods.thaumcraft.Aspects.set(<ThermalFoundation:bucket:7>, "metallum 8, aer 16");
 mods.thaumcraft.Aspects.set(<ThermalFoundation:bucket:8>, "metallum 8, tenebrae 16, aqua 4");
 
 # Rockwool
-mods.thaumcraft.Aspects.set(<ThermalExpansion:Rockwool:*>, "pannus 2, perditio 2, fabrico 1");
+for i in 0 to 16 {
+mods.thaumcraft.Aspects.set(<ThermalExpansion:Rockwool>.definition.makeStack(i), "pannus 2, perditio 2, fabrico 1");
+}
 
 # Blaze drops
-mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1026>, "aer 4, praecantatio 2");
-mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1027>, "aer 2, praecantatio 1");
-mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1028>, "tenebrae 4, praecantatio 2");
-mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1029>, "tenebrae 2, praecantatio 1");
 mods.thaumcraft.Aspects.set(<ThermalFoundation:material:17>, "aer 3, terra 1");
 mods.thaumcraft.Aspects.set(<ThermalFoundation:material:514>, "aer 4, potentia 5, praecantatio 1");
 mods.thaumcraft.Aspects.set(<ThermalFoundation:material:515>, "tenebrae 4, potentia 5, praecantatio 1");
 mods.thaumcraft.Aspects.set(<ThermalFoundation:material:516>, "praecantatio 20");
+mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1026>, "aer 4, praecantatio 2");
+mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1027>, "aer 2, praecantatio 1");
+mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1028>, "tenebrae 4, praecantatio 2");
+mods.thaumcraft.Aspects.set(<ThermalFoundation:material:1029>, "tenebrae 2, praecantatio 1");
 
+# Sickles
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleWood>, "arbor 1, meto 1");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleStone>, "meto 2");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleIron>, "meto 3");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleDiamond>, "meto 4");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleGold>, "meto 1");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleCopper>, "meto 2");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleSilver>, "meto 2");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleLead>, "meto 2");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleNickel>, "meto 3");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleElectrum>, "meto 2");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleInvar>, "meto 3");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleBronze>, "meto 3");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sickleTin>, "meto 2");
+mods.thaumcraft.Aspects.add(<ThermalFoundation:tool.sicklePlatinum>, "meto 3");
 
 ### Tinker Construct ###
 # Contributor: daforsyth
@@ -1940,36 +2202,47 @@ mods.thaumcraft.Aspects.set(<TConstruct:materials:27>, "terra 1");
 mods.thaumcraft.Aspects.set(<TConstruct:materials:28>, "metallum 1");
 mods.thaumcraft.Aspects.set(<TConstruct:materials:29>, "metallum 1");
 mods.thaumcraft.Aspects.set(<TConstruct:materials:30>, "metallum 1");
-mods.thaumcraft.Aspects.set(<TConstruct:oreBerries:*>, "metallum 1, messis 1");
+
+mods.thaumcraft.Aspects.set(<TConstruct:oreBerries>, "metallum 1, messis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:oreBerries:1>, "metallum 1, messis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:oreBerries:2>, "metallum 1, messis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:oreBerries:3>, "metallum 1, messis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:oreBerries:4>, "metallum 1, messis 1");
 mods.thaumcraft.Aspects.set(<TConstruct:oreBerries:5>, "cognitio 1, messis 1");
 
 # OreBerry Bushes
-mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.one:9>, "herba 4, metallum 3");
 mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.one:8>, "herba 4, metallum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.one:9>, "herba 4, metallum 3");
 mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.one:10>, "herba 4, metallum 3");
 mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.one:11>, "herba 4, metallum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.two:1>, "spiritus 4, herba 4");
 mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.two:8>, "herba 4, metallum 3");
 mods.thaumcraft.Aspects.set(<TConstruct:ore.berries.two:9>, "spiritus 4, herba 4");
 
 # Blank Casts
+mods.thaumcraft.Aspects.set(<TConstruct:blankPattern>, "arbor 1");
 mods.thaumcraft.Aspects.set(<TConstruct:blankPattern:2>, "metallum 3");
 mods.thaumcraft.Aspects.set(<TConstruct:blankPattern:1>, "metallum 3");
-mods.thaumcraft.Aspects.set(<TConstruct:blankPattern>, "arbor 1");
+mods.thaumcraft.Aspects.set(<TConstruct:blankPattern:3>, "terra 2, aqua 2");
 
 # Misc
 mods.thaumcraft.Aspects.add(<TConstruct:rail.wood>, "iter 1");
 
 # Food
+mods.thaumcraft.Aspects.set(<TConstruct:jerky>, "fames 4, corpus 4, fabrico 2, gula 4");
+mods.thaumcraft.Aspects.set(<TConstruct:jerky:1>, "fames 3, corpus 4, fabrico 2, gula 3");
+mods.thaumcraft.Aspects.set(<TConstruct:jerky:2>, "fames 3, corpus 3, fabrico 2, gula 3");
+mods.thaumcraft.Aspects.set(<TConstruct:jerky:3>, "fames 3, corpus 3, fabrico 2, gula 3");
+mods.thaumcraft.Aspects.set(<TConstruct:jerky:4>, "fames 3, corpus 4, fabrico 2, gula 3");
+mods.thaumcraft.Aspects.set(<TConstruct:jerky:5>, "fames 1, corpus 4, exanimis 2");
 mods.thaumcraft.Aspects.set(<TConstruct:jerky:6>, "fames 2, limus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:jerky:7>, "fames 1, limus 1, victus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:strangeFood:2>, "fames 2, gula 1, corpus 1");
 
-mods.thaumcraft.Aspects.set(<TConstruct:jerky:*>, "fames 4, corpus 4, fabrico 2, gula 4");
-mods.thaumcraft.Aspects.set(<TConstruct:jerky:5>, "fames 1, corpus 4, exanimis 2");
-
 # Parts
 mods.thaumcraft.Aspects.set(<TConstruct:bowstring>, "pannus 3");
 mods.thaumcraft.Aspects.set(<TConstruct:bowstring:1>, "pannus 3, praecantatio 1 ");
+mods.thaumcraft.Aspects.set(<TConstruct:bowstring:2>, "pannus 3, ignis 1 ");
 
 # Tinker ingots
 mods.thaumcraft.Aspects.set(<TConstruct:materials:3>, "metallum 3, infernus 1");
@@ -2010,18 +2283,17 @@ mods.thaumcraft.Aspects.set(<TConstruct:materials:42>, "metallum 2, perditio 1, 
 
 # Smeltery
 mods.thaumcraft.Aspects.set(<TConstruct:CastingChannel>, "terra 2, iter 2, ignis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SearedBlock>, "terra 3, fabrico 1");
 mods.thaumcraft.Aspects.set(<TConstruct:SearedBlock:1>, "terra 1, ignis 1, iter 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SearedBlock:2>, "terra 5, vacuos 4");
 mods.thaumcraft.Aspects.set(<TConstruct:LavaTank>, "terra 4, vacuos 4, vitreus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:LavaTankNether>, "terra 4, vacuos 4, vitreus 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:1>, "terra 5, vacuos 2, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:1>, "terra 5, vacuos 2");
-mods.thaumcraft.Aspects.set(<TConstruct:SearedBlockNether:1>, "terra 1, ignis 1, iter 1, infernus 1");
-
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery>, "terra 5, cognitio 1");
 mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether>, "terra 5, cognitio 1, inferus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SearedBlock>, "terra 3, fabrico 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:1>, "terra 5, vacuos 2, infernus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery>, "terra 5, cognitio 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:1>, "terra 5, vacuos 2");
 mods.thaumcraft.Aspects.set(<TConstruct:SearedBlockNether>, "terra 3, fabrico 1, inferus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SearedBlock:2>, "terra 5, vacuos 4");
+mods.thaumcraft.Aspects.set(<TConstruct:SearedBlockNether:1>, "terra 1, ignis 1, iter 1, infernus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:SearedBlockNether:2>, "terra 5, vacuos 4, inferus 1");
 
 # Random
@@ -2034,18 +2306,18 @@ mods.thaumcraft.Aspects.set(<TConstruct:slime.leaves>, "limus 1, herba 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.stoneladder>, "terra 1");
 mods.thaumcraft.Aspects.set(<TConstruct:slime.grass.tall>, "terra 1, herba 1, aer 1");
 mods.thaumcraft.Aspects.set(<TConstruct:liquid.slime>, "aqua 2, limus 2");
-mods.thaumcraft.Aspects.set(<TConstruct:slime.gel>, "limus 6");
 mods.thaumcraft.Aspects.remove(<minecraft:paper>, "metallum 2");
 mods.thaumcraft.Aspects.set(<TConstruct:materials>, "cognitio 3");
+mods.thaumcraft.Aspects.set(<TConstruct:slime.gel>, "limus 6");
 mods.thaumcraft.Aspects.set(<TConstruct:slime.gel:2>, "limus 6");
 mods.thaumcraft.Aspects.set(<TConstruct:heartCanister>, "metallum 2, vacuos 1");
 
 # Books
 mods.thaumcraft.Aspects.set(<TConstruct:manualBook>, "cognitio 3, instrumentum 1");
+mods.thaumcraft.Aspects.set(<TConstruct:manualBook:1>, "cognitio 3, instrumentum 2");
 mods.thaumcraft.Aspects.set(<TConstruct:manualBook:2>, "cognitio 3, fabrico 2");
 mods.thaumcraft.Aspects.set(<TConstruct:manualBook:3>, "cognitio 3, humanus 2");
 mods.thaumcraft.Aspects.set(<TConstruct:manualBook:4>, "cognitio 3, telum 2");
-mods.thaumcraft.Aspects.set(<TConstruct:manualBook:1>, "cognitio 3, instrumentum 2");
 
 
 # Brownstone
@@ -2054,48 +2326,65 @@ mods.thaumcraft.Aspects.set(<TConstruct:SpeedBlock:*>, "terra 3, motus 1");
 # Glass
 mods.thaumcraft.Aspects.set(<TConstruct:GlassBlock.StainedClear:*>, "vitreus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:GlassBlock>, "vitreus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:GlassPaneClearStained:*>, "vitreus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:GlassPane>, "vitreus 1");
 
 # Seared Stuff
 mods.thaumcraft.Aspects.set(<TConstruct:materials:2>, "ignis 2, terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:materials:37>, "ignis 2, terra 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:2>, "ignis 6, terra 3, infernus 3");
 mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:2>, "ignis 5, terra 5");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:4>, "ignis 4, terra 4");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:5>, "ignis 4, terra 4, perdiditio 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:6>, "ignis 4, terra 4, ordo 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:8>, "ignis 4, terra 4, ordo 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:9>, "ignis 4, terra 4, ordo 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:7>, "ignis 4, terra 4, perdiditio 1");
 mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:10>, "ignis 4, terra 4, ordo 1");
 mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:11>, "ignis 4, terra 4, praecantatio 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:7>, "ignis 4, terra 4, perdiditio 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:5>, "ignis 4, terra 4, perdiditio 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:9>, "ignis 4, terra 4, ordo 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:8>, "ignis 4, terra 4, ordo 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:4>, "ignis 4, terra 4");
-mods.thaumcraft.Aspects.set(<TConstruct:Smeltery:6>, "ignis 4, terra 4, ordo 1");
-
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:2>, "ignis 6, terra 3, infernus 3");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:4>, "ignis 4, terra 3, infernus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:5>, "ignis 4, terra 3, perdiditio 1, infernus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:6>, "ignis 4, terra 3, ordo 1, infernus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:7>, "ignis 4, terra 3, perdiditio 1, infernus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:8>, "ignis 4, terra 3, ordo 1, infernus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:9>, "ignis 4, terra 3, ordo 1, infernus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:10>, "ignis 4, terra 3, ordo 1, infernus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:11>, "ignis 4, terra 3, praecantatio 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:7>, "ignis 4, terra 3, perdiditio 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:5>, "ignis 4, terra 3, perdiditio 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:9>, "ignis 4, terra 3, ordo 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:8>, "ignis 4, terra 3, ordo 1, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:4>, "ignis 4, terra 3, infernus 1");
-mods.thaumcraft.Aspects.set(<TConstruct:SmelteryNether:6>, "ignis 4, terra 3, ordo 1, infernus 1");
 
 # Slabs
 mods.thaumcraft.Aspects.set(<TConstruct:SearedSlab:*>, "terra 1");
 mods.thaumcraft.Aspects.set(<TConstruct:SpeedSlab:*>, "terra 1");
 
 # Blocks
-mods.thaumcraft.Aspects.add(<TConstruct:CraftedSoil:6>, "infernus 1");
+
+mods.thaumcraft.Aspects.add(<TConstruct:CraftedSoil:1>, "aqua 1");
+mods.thaumcraft.Aspects.set(<TConstruct:CraftedSoil:3>, "terra 1, exanimis 1, mortuus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:CraftedSoil:4>, "terra 1, lux 1, ignis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:CraftedSoil:5>, "terra 1, limus 1");
+mods.thaumcraft.Aspects.add(<TConstruct:CraftedSoil:6>, "infernus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:slime.gel:1>, "limus 6");
 mods.thaumcraft.Aspects.set(<TConstruct:GlueBlock>, "limus 4, vinculum 2 ");
-mods.thaumcraft.Aspects.set(<TConstruct:CraftedSoil:5>, "terra 1, limus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:slime.grass>, "terra 1, limus 1, herba 1");
-mods.thaumcraft.Aspects.add(<TConstruct:CraftedSoil:1>, "aqua 1");
+mods.thaumcraft.Aspects.add(<TConstruct:slime.grass:5>, "terra 1, limus 1, herba 1");
 
-# Patterns
-mods.thaumcraft.Aspects.set(<TConstruct:Pattern:*>, "instrumentum 1, arbor 1");
-mods.thaumcraft.Aspects.set(<TConstruct:woodPattern:*>, "instrumentum 1, arbor 1");
-mods.thaumcraft.Aspects.set(<TConstruct:metalPattern:*>, "instrumentum 1, metallum 1");
-mods.thaumcraft.Aspects.set(<TConstruct:Cast:*>, "instrumentum 1, metallum 1");
+for i in 0 to 4 {
+mods.thaumcraft.Aspects.set(<TConstruct:Template>.definition.makeStack(i), "fabrico 1, terra 1, aqua 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Mold>.definition.makeStack(i), "fabrico 1, terra 1, ignis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Pattern>.definition.makeStack(i), "fabrico 1, arbor 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Cast>.definition.makeStack(i), "fabrico 1, metallum 1");
+}
+
+for i in 0 to 26 {
+mods.thaumcraft.Aspects.set(<TConstruct:woodPattern>.definition.makeStack(i), "fabrico 1, arbor 1");
+}
+
+
+# Clay, Ceramic & Metal Patterns
+for i in 0 to 28 {
+mods.thaumcraft.Aspects.set(<TConstruct:clayPattern>.definition.makeStack(i), "fabrico 1, terra 1, aqua 1");
+mods.thaumcraft.Aspects.set(<TConstruct:ceramicPattern>.definition.makeStack(i), "fabrico 1, terra 1, ignis 1");
+mods.thaumcraft.Aspects.set(<TConstruct:metalPattern>.definition.makeStack(i), "fabrico 1, metallum 1");
+}
 
 # Molten Buckets
 mods.thaumcraft.Aspects.set(<TConstruct:buckets>, "metallum 16, ignis 4, vacuos 1");
@@ -2169,12 +2458,15 @@ mods.thaumcraft.Aspects.set(<TConstruct:BattleSignBlock>, "telum 2, sensus 1, su
 mods.thaumcraft.Aspects.set(<TConstruct:HeldItemBlock>, "ignis 2, instrumentum 2, invidia 1");
 
 # Decoration blocks
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock>, "metallum 20, infernus 7");
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:1>, "metallum 20, infernus 7");
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:2>, "metallum 20, superbia 7");
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:6>, "metallum 20, terra 7");
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:7>, "metallum 20, machina 7");
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:8>, "metallum 20, perfodio 7");
+mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:10>, "alienis 12, iter 12, praecantatio 6");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick>, "terra 3, tenebrae 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:1>, "perditio 6, terra 5");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:10>, "limus 2");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:11>, "limus 2, fames 1");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:12>, "terra 1, tenebrae 1");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:13>, "terra 3, tenebrae 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:2>, "terra 2, ignis 1, infernus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:3>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:4>, "metallum 4");
@@ -2183,14 +2475,12 @@ mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:6>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:7>, "lucrum 4, vitreus 4");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:8>, "potentia 2, machina 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:9>, "mortuus 2, corpus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:10>, "limus 2");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:11>, "limus 2, fames 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:12>, "terra 1, tenebrae 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrick:13>, "terra 3, tenebrae 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy>, "terra 3, tenebrae 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:1>, "perditio 6, terra 5");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:10>, "limus 2");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:11>, "limus 2, fames 1");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:12>, "terra 1, tenebrae 1");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:13>, "terra 3, tenebrae 1");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:14>, "terra 2");
-mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:15>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:2>, "terra 2, ignis 1, infernus 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:3>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:4>, "metallum 4");
@@ -2199,6 +2489,12 @@ mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:6>, "terra 2"
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:7>, "lucrum 4, vitreus 4");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:8>, "potentia 2, machina 1");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:9>, "mortuus 2, corpus 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:10>, "limus 2");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:11>, "limus 2, fames 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:12>, "terra 1, tenebrae 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:13>, "terra 3, tenebrae 1");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:14>, "terra 2");
+mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickfancy:15>, "terra 2");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal>, "metallum 20, perfodio 7");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal:1>, "metallum 20, infernus 7");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal:2>, "metallum 20, infernus 7");
@@ -2207,13 +2503,6 @@ mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal:4>, "metallum
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal:5>, "metallum 20, infernus 7");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal:6>, "metallum 20, infernus 7");
 mods.thaumcraft.Aspects.set(<TConstruct:decoration.multibrickmetal:7>, "metallum 20, superbia 7");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock>, "metallum 20, infernus 7");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:1>, "metallum 20, infernus 7");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:10>, "alienis 12, iter 12, praecantatio 6");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:2>, "metallum 20, superbia 7");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:6>, "metallum 20, terra 7");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:7>, "metallum 20, machina 7");
-mods.thaumcraft.Aspects.set(<TConstruct:MetalBlock:8>, "metallum 20, perfodio 7");
 
 
 # Last of stuff
@@ -2223,6 +2512,66 @@ mods.thaumcraft.Aspects.set(<TConstruct:fletching:1>, "volatus 2, herba 3");
 mods.thaumcraft.Aspects.set(<TConstruct:fletching:2>, "volatus 2, limus 3");
 mods.thaumcraft.Aspects.set(<TConstruct:fletching:3>, "volatus 2, limus 3");
 mods.thaumcraft.Aspects.set(<TConstruct:fletching:4>, "volatus 2, limus 1, herba 3");
+
+#Tools
+mods.thaumcraft.Aspects.set(<TConstruct:pickaxe>, "perfodio 3");
+mods.thaumcraft.Aspects.set(<TConstruct:shovel>, "instrumentum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:hatchet>, "instrumentum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:broadsword>, "telum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:longsword>, "telum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:rapier>, "telum 2");
+mods.thaumcraft.Aspects.set(<TConstruct:dagger>, "telum 1");
+mods.thaumcraft.Aspects.set(<TConstruct:frypan>, "telum 2");
+mods.thaumcraft.Aspects.set(<TConstruct:cutlass>, "telum 3");
+mods.thaumcraft.Aspects.set(<TConstruct:battlesign>, "telum 1");
+mods.thaumcraft.Aspects.set(<TConstruct:mattock>, "instrumentum 2, meto 1");
+mods.thaumcraft.Aspects.set(<TConstruct:chisel>, "instrumentum 1");
+mods.thaumcraft.Aspects.set(<TConstruct:lumberaxe>, "instrumentum 8");
+mods.thaumcraft.Aspects.set(<TConstruct:cleaver>, "telum 8");
+mods.thaumcraft.Aspects.set(<TConstruct:scythe>, "telum 4, meto 4");
+mods.thaumcraft.Aspects.set(<TConstruct:hammer>, "perfodio 8");
+mods.thaumcraft.Aspects.set(<TConstruct:excavator>, "instrumentum 8");
+mods.thaumcraft.Aspects.set(<TConstruct:battleaxe>, "telum 8");
+mods.thaumcraft.Aspects.set(<TConstruct:Shuriken>, "telum 1, aer 1");
+mods.thaumcraft.Aspects.set(<TConstruct:ThrowingKnife>, "telum 1, aer 1");
+mods.thaumcraft.Aspects.set(<TConstruct:Javelin>, "telum 3, aer 1");
+mods.thaumcraft.Aspects.set(<TConstruct:ShortBow>, "telum 3, aer 1");
+mods.thaumcraft.Aspects.set(<TConstruct:LongBow>, "telum 4, aer 2");
+mods.thaumcraft.Aspects.set(<TConstruct:Crossbow>, "telum 4, machina 2");
+mods.thaumcraft.Aspects.set(<TConstruct:ArrowAmmo>, "telum 1");
+mods.thaumcraft.Aspects.set(<TConstruct:BoltAmmo>, "telum 1");
+
+# Parts
+mods.thaumcraft.Aspects.set(<TConstruct:toolRod:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:toolShard:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:pickaxeHead:*>, "perfodio 0");
+mods.thaumcraft.Aspects.set(<TConstruct:shovelHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:hatchetHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:binding:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:toughBinding:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:toughRod:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:heavyPlate:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:swordBlade:*>, "telum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:wideGuard:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:handGuard:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:crossbar:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:knifeBlade:*>, "telum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:fullGuard:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:frypanHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:signHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:chiselHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:scytheBlade:*>, "meto 0");
+mods.thaumcraft.Aspects.set(<TConstruct:broadAxeHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:excavatorHead:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:BoltPart:*>, "telum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:CrossbowLimbPart:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:BowLimbPart:*>, "instrumentum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:ShurikenPart:*>, "telum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:arrowhead:*>, "telum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:hammerHead:*>, "perfodio 0");
+mods.thaumcraft.Aspects.set(<TConstruct:largeSwordBlade:*>, "telum 0");
+mods.thaumcraft.Aspects.set(<TConstruct:CrossbowBodyPart:*>, "instrumentum 0");
+
 
 ### Twilight Forest ###
 // Created by DreamMasterXXL
@@ -2317,9 +2666,6 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleMagic:3>, "terra 3, ignis
 mods.thaumcraft.Aspects.set(<TwilightForest:item.nagaScale>, "pannus 3, tutamen 2, bestia 2");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.plateNaga>, "pannus 24, tutamen 16, bestia 16, superbia 4");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.legsNaga>, "pannus 21, tutamen 14, bestia 14, superbia 3");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.scepterTwilight>, "alienis 40, iter 35, praecantatio 25, mortuus 20, corpus 10");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.scepterLifeDrain>, "alienis 40, victus 15, gula 20, praecantatio 25, mortuus 20, corpus 10");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.scepterZombie>, "alienis 40, exanimis 35, praecantatio 25, mortuus 20, corpus 10");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.scepterTwilight:*>, "alienis 40, iter 35, praecantatio 25, mortuus 20, corpus 10");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.scepterLifeDrain:*>, "alienis 40, victus 15, gula 20, praecantatio 25, mortuus 20, corpus 10");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.scepterZombie:*>, "alienis 40, exanimis 35, praecantatio 25, mortuus 20, corpus 10");
@@ -2340,13 +2686,9 @@ mods.thaumcraft.Aspects.set(<TwilightForest:item.meefRaw>, "mortuus 3, victus 2,
 mods.thaumcraft.Aspects.set(<TwilightForest:item.meefSteak>, "mortuus 4, fames 3, fabrico 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.meefStroganoff>, "mortuus 4, fames 4, fabrico 2, arbor 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.mazeWafer>, "messis 4, fames 3, fabrico 1, sano 1");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.oreMagnet>, "metallum 6, perfodio 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.oreMagnet:*>, "metallum 6, perfodio 1");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.crumbleHorn>, "arbor 18, praecantatio 14, ordo 12, auram 8");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.crumbleHorn:*>, "arbor 18, praecantatio 14, ordo 12, auram 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.peacockFan>, "aer 18, volatus 10, motus 10, praecantatio 6, arbor 4");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.peacockFan:*>, "aer 18, volatus 10, motus 10, praecantatio 6, arbor 4");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.moonwormQueen>, "victus 10, lux 10, motus 4");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.moonwormQueen:*>, "victus 10, lux 10, motus 4");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.charmOfLife1>, "sano 16, ordo 16, praecantatio 8, victus 8, lucrum 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.charmOfLife2>, "sano 32, ordo 32, praecantatio 32, victus 32, lucrum 4");
@@ -2372,14 +2714,6 @@ mods.thaumcraft.Aspects.set(<TwilightForest:item.yetiPlate>, "tutanem 8, fabrico
 mods.thaumcraft.Aspects.set(<TwilightForest:item.yetiLegs>, "tutanem 6, fabrico 3, pannus 18, gelum 6, instrumentum 1, praecantatio 3");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.yetiBoots>, "tutanem 3, fabrico 2, pannus 9, gelum 3, instrumentum 1, praecantatio 2");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.magicBeans>, "herba 16, praecantatio 8, sensus 4");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.giantPick>, "perfodio 32, terra 16, perditio 16, arbor 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.giantSword>, "telum 32, terra 16, perditio 16, arbor 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.enderBow>, "telum 3, volatus 1, pannus 2, bestia 2, alienis 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.iceBow>, "telum 3, volatus 1, pannus 2, bestia 2, gelum 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.tripleBow>, "telum 6, volatus 1, pannus 2, bestia 2, arbor 1");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.seekerBow>, "telum 3, volatus 1, pannus 2, bestia 2, iter 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.iceSword>, "telum 4, lucrum 2, praecantatio 2, gelum 6");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.glassSword>, "telum 14, vitreus 20, lucrum 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.giantPick:*>, "perfodio 32, terra 16, perditio 16, arbor 8");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.giantSword:*>, "telum 32, terra 16, perditio 16, arbor 8");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.enderBow:*>, "telum 3, volatus 1, pannus 2, bestia 2, alienis 2");
@@ -2389,9 +2723,104 @@ mods.thaumcraft.Aspects.set(<TwilightForest:item.seekerBow:*>, "telum 3, volatus
 mods.thaumcraft.Aspects.set(<TwilightForest:item.iceSword:*>, "telum 4, lucrum 2, praecantatio 2, gelum 6");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.glassSword:*>, "telum 14, vitreus 20, lucrum 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.knightmetalRing>, "instrumentum 3, ordo 3, fabrico 3");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.chainBlock>, "telum 10, metallum 20, motus 4, lucrum 8, instrumentum 10");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.chainBlock:*>, "telum 10, metallum 20, motus 4, lucrum 8, instrumentum 10");
 
+# Normal spawn
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Wild Boar", "bestia 2, terra 2, victus 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Bighorn Sheep", "bestia 2, terra 2, pannus 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Wild Deer", "bestia 3, terra 2, motus 3, victus 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Tiny Bird", "bestia 1, volatus 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Forest Squirrel", "bestia 1, arbor 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Forest Bunny", "bestia 1, terra 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Forest Raven", "bestia 2, aer 1, tenebrae 3, volatus 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Firefly", "victus 1, volatus 1, lux 1");
+
+# Hostiles
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Redcap", "humanus 1, perfodio 3, terra 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Twilight Kobold", "humanus 1, bestia 2, praecantatio 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Skeleton Druid", "exanimis 3, humanus 1, herba 3, venenum 3");
+
+# Hedge Maze
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Hedge Spider", "bestia 3, perditio 2, herba 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Swarm Spider", "bestia 1, perditio 1, herba 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Hostile Wolf", "bestia 3, terra 3, ira 1");
+
+# Bosses
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Naga", "bestia 20, motus 15, tutamen 12, terra 12");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Snow Queen", "humanus 20, gelum 30, praecantatio 25, invidia 15");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Yeti Boss", "bestia 25, gelum 25, superbia 15, ira 20");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Knight Phantom", "spiritus 25, tutamen 10, mortuus 15, superbia 10");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Tower Boss", "exanimis 20, ira 15, aqua 10, volatus 15, alienis 12");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.HydraHead", "bestia 20, sano 10, tutamen 15, telum 20");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Minoshroom", "bestia 3, humanus 2, motus 3, ira 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Twilight Lich", "exanimis 20, praecantatio 15, humanus 12, invidia 8");
+
+# Hollow Hills
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Redcap Sapper", "humanus 2, perfodio 5, terra 2, ira 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Twilight Wraith", "spiritus 3, exanimis 2, aer 2");
+
+# Snow
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Glacier Penguin", "aer 1, bestia 2, gelum 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Yeti", "bestia 5, gelum 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.WinterWolf", "bestia 5, gelum 3, terra 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.SnowGuardian", "spiritus 4, tutamen 3, gelum 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Stable Ice Core", "gelum 6, ordo 3, praecantatio 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Unstable Ice Core", "gelum 6, perditio 3, praecantatio 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Ice Crystal", "gelum 5");
+
+# Lich Tower
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Death Tome", "bestia 1, cognitio 4, praecantatio 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Lich Minion", "exanimis 3, humanus 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Loyal Zombie", "exanimis 3, humanus 2");
+
+# Swamp
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Mosquito Swarm", "bestia 4, fames 3, aer 3, volatus 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Minotaur", "bestia 3, humanus 2, motus 3, ira 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Fire Beetle", "bestia 3, ignis 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Slime Beetle", "bestia 3, limus 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Pinch Beetle", "bestia 3, vinculum 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Maze Slime", "limus 2, tutamen 2");
+
+# Dark tower
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Mist Wolf", "bestia 5, sensus 4, aer 4, tenebrae 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.King Spider", "bestia 5, superbia 3, perditio 5, motus 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Mini Ghast", "exanimis 1, ignis 2, potentia 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Tower Ghast", "exanimis 3, ignis 2, potentia 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Tower Golem", "humanus 2, metallum 6, machina 6, potentia 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Tower Termite", "bestia 1, arbor 1, perditio 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Redscale Broodling", "bestia 1, arbor 1, perditio 1");
+
+# Champions Area
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Block&Chain Goblin", "humanus 2, metallum 8, telum 6, tutamen 6");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Upper Goblin Knight", "humanus 2, metallum 4, telum 6, tutamen 6");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Lower Goblin Knight", "humanus 2, metallum 4, telum 4, motus 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Helmet Crab", "tutamen 4, bestia 3");
+
+# Troll
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Troll", "humanus 3, terra 4, tenebrae 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Giant Miner", "humanus 20, perfodio 15, superbia 8");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Armored Giant", "humanus 20, tutamen 15, superbia 8");
+
+# Entities
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tflichbolt", "praecantatio 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tflichbomb", "praecantatio 2, ignis 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfnaturebolt", "herba 3, venenum 3, motus 2");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tftwilightwandbolt", "praecantatio 4, motus 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tftomebolt", "cognitio 1, praecantatio 2, motus 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfhydramortar", "ignis 5");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfmoonwormshot", "bestia 1, lux 1, motus 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfslimeblob", "limus 3, motus 3");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfcharmeffect", "praecantatio 8");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfthrownaxe", "telum 10, metallum 8, motus 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfthrownpick", "perfodio 10, metallum 8, motus 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tffallingice", "gelum 10, motus 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfthrownice", "gelum 10, motus 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfSeekerArrow", "telum 1, sensus 1");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tficesnowball", "gelum 4");
+mods.thaumcraft.Aspects.setEntity("TwilightForest.tfchainBlock", "metallum 8, telum 4");
+
+# The Ram
+mods.thaumcraft.Aspects.setEntity("TwilightForest.Questing Ram", "bestia 20, sensus 20, gula 15, pannus 30");
 
 ### Vanilla ###
 # Contributor: daforsyth
@@ -2435,10 +2864,235 @@ mods.thaumcraft.Aspects.set(<minecraft:sugar>, "fames 1");
 //Cauldron
 mods.thaumcraft.Aspects.set(<minecraft:cauldron>, "metallum 6, vacuos 1");
 
+//Items
+mods.thaumcraft.Aspects.set(<minecraft:experience_bottle>, "vitreus 1, cognitio 1");
+mods.thaumcraft.Aspects.set(<minecraft:firework_charge>, "sensus 2, ignis 2, perditio 2");
+mods.thaumcraft.Aspects.set(<minecraft:fireworks>, "sensus 2, ignis 2, aer 1");
+
+
+
+//Entities
+mods.thaumcraft.Aspects.setEntity("ThrownEnderpearl", "alienis 4, iter 2, praecantatio 2, motus 4");
+mods.thaumcraft.Aspects.setEntity("EyeOfEnderSignal", "alienis 4, sensus 4, praecantatio 3, invidia 4, motus 4");
+mods.thaumcraft.Aspects.setEntity("Snowball", "gelum 1, motus 2");
+mods.thaumcraft.Aspects.setEntity("Fireball", "ignis 4, ira 3, motus 2");
+mods.thaumcraft.Aspects.setEntity("SmallFireball", "ignis 2, motus 2");
+mods.thaumcraft.Aspects.setEntity("ThrownPotion", "vitreus 1, praecantatio 2, aqua 2, motus 2");
+mods.thaumcraft.Aspects.setEntity("ThrownExpBottle", "vitreus 1, cognitio 2, motus 2");
+mods.thaumcraft.Aspects.setEntity("WitherSkull", "exanimis 4, perditio 4, ira 4, motus 2");
+mods.thaumcraft.Aspects.setEntity("PrimedTnt", "ignis 4, ira 4");
+mods.thaumcraft.Aspects.setEntity("FallingSand", "terra 1, perditio 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("FireworksRocketEntity", "sensus 2, ignis 2, volatus 1");
+
+### Witchery ####
+//Created by daforsyth
+
+# Plants
+mods.thaumcraft.Aspects.set(<witchery:seedssnowbell>, "herba 1, gelum 1");
+mods.thaumcraft.Aspects.set(<witchery:seedsmandrake>, "herba 1");
+mods.thaumcraft.Aspects.set(<witchery:seedsbelladonna>, "herba 1, venenum 1");
+mods.thaumcraft.Aspects.set(<witchery:seedsartichoke>, "herba 1, aqua 1");
+mods.thaumcraft.Aspects.set(<witchery:garlic>, "messis 2, fames 1");
+mods.thaumcraft.Aspects.set(<witchery:seedswolfsbane>, "herba 1");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:156>, "herba 2, bestia 1, venenum 1");
+mods.thaumcraft.Aspects.set(<witchery:somniancotton>, "herba 1, spiritus 1");
+mods.thaumcraft.Aspects.set(<witchery:bloodrose>, "herba 1, victus 3, sensus 2, telum 2");
+mods.thaumcraft.Aspects.set(<witchery:grassper>, "herba 1, sensus 1");
+mods.thaumcraft.Aspects.set(<witchery:crittersnare>, "herba 3, vinculum 3");
+mods.thaumcraft.Aspects.set(<witchery:glintweed>, "herba 2, lux 2");
+mods.thaumcraft.Aspects.set(<witchery:spanishmoss>, "herba 2, spiritus 1");
+mods.thaumcraft.Aspects.set(<witchery:leapinglily>, "herba 2, aqua 1, motus 2");
+mods.thaumcraft.Aspects.set(<witchery:embermoss>, "herba 2, ignis 1");
+mods.thaumcraft.Aspects.set(<witchery:voidbramble>, "alienis 6, ordo 4, aqua 2, herba 1");
+mods.thaumcraft.Aspects.set(<witchery:seedswormwood>, "herba 1, exanimis 1");
+mods.thaumcraft.Aspects.set(<witchery:seedsmindrake>, "herba 1");
+mods.thaumcraft.Aspects.set(<witchery:leechchest>, "herba 4, vacuos 4, fames 3");
+
+# Mob Drops
+mods.thaumcraft.Aspects.set(<witchery:ingredient:154>, "spiritus 4");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:158>, "corpus 3, victus 1, bestia 1");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:159>, "corpus 3, fames 3, fabrico 1");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:165>, "victus 4, lucrum 4, sano 1");
+mods.thaumcraft.Aspects.set(<witchery:wolfhead>, "mortuus 4, spiritus 4, bestia 4");
+mods.thaumcraft.Aspects.set(<witchery:wolfhead:1>, "mortuus 4, spiritus 4, bestia 4, ignis 4");
+mods.thaumcraft.Aspects.set(<witchery:witchhand>, "corpus 4, praecantatio 6, humanus 3");
+
+# Death
+mods.thaumcraft.Aspects.add(<witchery:deathscowl>, "pannus 7, mortuus 10, gelum 3");
+mods.thaumcraft.Aspects.add(<witchery:deathsrobe>, "pannus 12, mortuus 16, gelum 5");
+mods.thaumcraft.Aspects.add(<witchery:deathsfeet>, "mortuus 8, gelum 2");
+mods.thaumcraft.Aspects.add(<witchery:deathshand>, "mortuus 16, gelum 6, praecantatio 6");
+
+# Vamp book
+mods.thaumcraft.Aspects.set(<witchery:vampirebook>, "cognitio 3, fames 1");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:1>, "cognitio 3, fames 2");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:2>, "cognitio 3, fames 3");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:3>, "cognitio 3, fames 4");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:4>, "cognitio 3, fames 5");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:5>, "cognitio 3, fames 6");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:6>, "cognitio 3, fames 7");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:7>, "cognitio 3, fames 8");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:8>, "cognitio 3, fames 9");
+mods.thaumcraft.Aspects.set(<witchery:vampirebook:9>, "cognitio 3, fames 10");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:160>, "cognitio 1");
+
+# Vamp stuff
+mods.thaumcraft.Aspects.set(<witchery:glassgoblet>, "vitreus 1, vacuos 1");
+mods.thaumcraft.Aspects.set(<witchery:glassgoblet:1>, "vitreus 1, victus 1");
+mods.thaumcraft.Aspects.set(<witchery:bloodedwool>, "pannus 4, fabrico 1, victus 2");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:161>, "pannus 4, victus 2");
+mods.thaumcraft.Aspects.set(<witchery:sungrenade>, "vitreus 1, lux 8");
+
+# Vamp armor
+mods.thaumcraft.Aspects.add(<witchery:vampirehat>, "pannus 7, fames 3");
+mods.thaumcraft.Aspects.add(<witchery:vampirecoat>, "pannus 12, fames 6");
+mods.thaumcraft.Aspects.add(<witchery:vampirecoat_female>, "pannus 12, fames 6");
+mods.thaumcraft.Aspects.add(<witchery:vampirelegs_kilt>, "pannus 10, fames 5");
+mods.thaumcraft.Aspects.add(<witchery:vampirelegs>, "pannus 10, fames 5");
+mods.thaumcraft.Aspects.add(<witchery:vampireboots>, "pannus 6, fames 3");
+mods.thaumcraft.Aspects.add(<witchery:vampirehelmet>, "pannus 7, fames 3");
+mods.thaumcraft.Aspects.add(<witchery:vampirechaincoat>, "pannus 12, fames 6");
+mods.thaumcraft.Aspects.add(<witchery:vampirechaincoat_female>, "pannus 12, fames 6");
+
+# Wolf stuff
+mods.thaumcraft.Aspects.set(<witchery:hornofthehunt>, "sensus 3, telum 2, bestia 3");
+mods.thaumcraft.Aspects.set(<witchery:mooncharm>, "metallum 3, tenebrae 3, permutatio 1");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:155>, "arbor 1, telum 1, metallum 1");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:157>, "metallum 1, lucrum 0");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:162>, "arbor 1, telum 1");
+mods.thaumcraft.Aspects.add(<witchery:wolfaltar>, "bestia 4, praecantatio 2");
+
+# Boss
+mods.thaumcraft.Aspects.add(<witchery:babashat>, "praecantatio 8, aqua 8, potentia 8, vitium 8");
+mods.thaumcraft.Aspects.add(<witchery:huntsmanspear>, "arbor 8, bestia 6, superbia 3");
+mods.thaumcraft.Aspects.set(<witchery:leonardsurn>, "ignis 2, terra 2, infernus 2, praecantatio 2");
+mods.thaumcraft.Aspects.set(<witchery:leonardsurn:1>, "ignis 2, terra 2, infernus 4, praecantatio 4");
+mods.thaumcraft.Aspects.set(<witchery:leonardsurn:2>, "ignis 2, terra 2, infernus 8, praecantatio 8");
+mods.thaumcraft.Aspects.set(<witchery:leonardsurn:3>, "ignis 2, terra 2, infernus 16, praecantatio 16");
+mods.thaumcraft.Aspects.add(<witchery:quiverofmog>, "aer 4, telum 4, praecantatio 6, motus 6");
+mods.thaumcraft.Aspects.add(<witchery:gurdleofgulg>, "terra 4, telum 4, praecantatio 6, ira 6");
+
+# Mirror
+mods.thaumcraft.Aspects.setEntity("witchery.reflection", "infernus 12, humanus 4, sensus 8, invidia 3");
+mods.thaumcraft.Aspects.set(<witchery:dupgrenade>, "ordo 3, sensus 3, vitreus 1");
+mods.thaumcraft.Aspects.set(<witchery:mirrorwall>, "sensus 4, ordo 3, metallum 1");
+mods.thaumcraft.Aspects.set(<witchery:mirror>, "sensus 4, metallum 6, lucrum 3, praecantatio 3");
+
+# Infernus to demons
+mods.thaumcraft.Aspects.add(<witchery:ingredient:23>, "infernus 4");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:80>, "infernus 1");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:136>, "infernus 1");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:137>, "infernus 1");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:138>, "infernus 1");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:139>, "infernus 1");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:140>, "infernus 1");
+mods.thaumcraft.Aspects.setEntity("witchery.hellhound", "bestia 3, ignis 3, infernus 2");
+
+# Mobs
+mods.thaumcraft.Aspects.setEntity("witchery.werevillager", "humanus 3, bestia 3");
+mods.thaumcraft.Aspects.setEntity("witchery.grenade", "vitreus 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("witchery.wolfman", "bestia 6, humanus 3, motus 3, telum 5, ira 3");
+mods.thaumcraft.Aspects.setEntity("witchery.bolt", "telum 1");
+mods.thaumcraft.Aspects.setEntity("witchery.villageguard", "aer 2, humanus 3, tutamen 3, telum 2");
+mods.thaumcraft.Aspects.setEntity("witchery.vampire", "humanus 3, fames 3, superbia 1");
+mods.thaumcraft.Aspects.setEntity("witchery.lilith", "infernus 20, praecantatio 32, ignis 14, tenebrae 20");
+mods.thaumcraft.Aspects.setEntity("witchery.wingedmonkey", "aer 2, bestia 4, humanus 2, volatus 3");
+mods.thaumcraft.Aspects.setEntity("witchery.spellEffect", "praecantatio 3");
+mods.thaumcraft.Aspects.setEntity("witchery.follower", "humanus 3, praecantatio 2");
+
+# Dims
+mods.thaumcraft.Aspects.set(<witchery:tormentstone>, "terra 2, infernus 4");
+mods.thaumcraft.Aspects.set(<witchery:force>, "tutamen 1");
+mods.thaumcraft.Aspects.set(<witchery:tormentportal>, "infernus 8, iter 4, tenebrae 4");
+mods.thaumcraft.Aspects.set(<witchery:spiritportal>, "spiritus 4, iter 2");
+
+# Liquids
+mods.thaumcraft.Aspects.set(<witchery:disease>, "aer 3, praecantatio 1");
+mods.thaumcraft.Aspects.set(<witchery:hollowtears>, "aqua 2, spiritus 3, exanimis 3");
+mods.thaumcraft.Aspects.set(<witchery:spiritflowing>, "spiritus 3, aqua 2, sano 2");
+mods.thaumcraft.Aspects.set(<witchery:buckethollowtears>, "metallum 8, aqua 2, spiritus 3, exanimis 3, vacuos 1");
+mods.thaumcraft.Aspects.set(<witchery:bucketspirit>, "metallum 8, spiritus 3, aqua 2, sano 2");
+mods.thaumcraft.Aspects.set(<witchery:brew.fuel>, "vitreus 1, ignis 3, potentia 3");
+mods.thaumcraft.Aspects.set(<witchery:brew.water>, "vitreus 1, aqua 16, vacuos 4");
+
+# Tools
+mods.thaumcraft.Aspects.set(<witchery:louse>, "bestia 1, fames 2");
+mods.thaumcraft.Aspects.set(<witchery:biomenote>, "cognitio 1, terra 1");
+mods.thaumcraft.Aspects.set(<witchery:mutator>, "arbor 3, praecantatio 1, permutatio 3");
+
+mods.thaumcraft.Aspects.add(<witchery:beartrap>, "vinculum 8");
+mods.thaumcraft.Aspects.set(<witchery:wolftrap>, "metallum 31, vinculum 8, praecantatio 4");
+mods.thaumcraft.Aspects.set(<witchery:taglockkit>, "vitreus 1, telum 1");
+mods.thaumcraft.Aspects.set(<witchery:taglockkit:1>, "vitreus 1, telum 1, victus 1");
+mods.thaumcraft.Aspects.set(<witchery:mysticbranch>, "arbor 4, praecantatio 3");
+mods.thaumcraft.Aspects.set(<witchery:playercompass>, "herba 3, praecantatio 3, sensus 3");
+
+# Circle talisman
+mods.thaumcraft.Aspects.set(<witchery:circletalisman:*>, "ordo 1, praecantatio 1, metallum 2");
+
+# Chalk
+mods.thaumcraft.Aspects.set(<witchery:chalkinfernal>, "arbor 2, ignis 2, infernus 2");
+mods.thaumcraft.Aspects.set(<witchery:chalkheart>, "arbor 2, ignis 2, lucrum 2");
+mods.thaumcraft.Aspects.set(<witchery:chalkotherwhere>, "arbor 2, ignis 2, alienis 2");
+
+# Other
+mods.thaumcraft.Aspects.set(<witchery:cauldron>, "metallum 21, praecantatio 4, perditio 3");
+mods.thaumcraft.Aspects.set(<witchery:crystalball>, "vitreus 4, sensus 4, lucrum 3, praecantatio 3");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:102>, "pannus 1");
+mods.thaumcraft.Aspects.add(<witchery:bloodcrucible>, "vacuos 1");
+mods.thaumcraft.Aspects.add(<witchery:stew>, "messis 3,fames 3");
+mods.thaumcraft.Aspects.set(<witchery:pitdirt>, "terra 2");
+mods.thaumcraft.Aspects.set(<witchery:pitgrass>, "terra 1, herba 1");
+mods.thaumcraft.Aspects.set(<witchery:refillingchest>, "arbor 6, vacuos 4");
+
+# Ice & snow
+mods.thaumcraft.Aspects.set(<witchery:perpetualice>, "gelum 4");
+mods.thaumcraft.Aspects.set(<witchery:icedoubleslab>, "gelum 4");
+mods.thaumcraft.Aspects.set(<witchery:iceslab>, "gelum 1");
+mods.thaumcraft.Aspects.set(<witchery:icestairs>, "gelum 1");
+mods.thaumcraft.Aspects.set(<witchery:icefence>, "gelum 1");
+mods.thaumcraft.Aspects.set(<witchery:icefencegate>, "gelum 4, machina 1, iter 1");
+mods.thaumcraft.Aspects.set(<witchery:ingredient:152>, "gelum 4, machina 1, motus 1");
+mods.thaumcraft.Aspects.set(<witchery:icepressureplate>, "gelum 1, machina 1, sensus 1");
+mods.thaumcraft.Aspects.set(<witchery:icestockade>, "gelum 2");
+mods.thaumcraft.Aspects.set(<witchery:snowdoubleslab>, "gelum 2");
+mods.thaumcraft.Aspects.set(<witchery:snowslab>, "gelum 1");
+mods.thaumcraft.Aspects.add(<witchery:snowpressureplate>, "machina 1, sensus 1");
+
+# Glass
+mods.thaumcraft.Aspects.set(<witchery:shadedglass:*>, "vitreus 1, tenebrae 1");
+
+# Wood
+mods.thaumcraft.Aspects.set(<witchery:witchwoodslab>, "arbor 1");
+mods.thaumcraft.Aspects.set(<witchery:witchwoodslab:1>, "arbor 1");
+mods.thaumcraft.Aspects.set(<witchery:witchwoodslab:2>, "arbor 1");
+mods.thaumcraft.Aspects.set(<witchery:witchwooddoubleslab>, "arbor 1");
+mods.thaumcraft.Aspects.set(<witchery:witchwooddoubleslab:1>, "arbor 1");
+mods.thaumcraft.Aspects.set(<witchery:witchwooddoubleslab:2>, "arbor 1");
+
+# Specteral stone
+mods.thaumcraft.Aspects.set(<witchery:spectralstone:*>, "vitreus 3, spiritus 3, vinculum 1");
+
+# Add Desidia
+mods.thaumcraft.Aspects.add(<witchery:ingredient:95>, "desidia 1");
+mods.thaumcraft.Aspects.add(<witchery:ingredient:98>, "desidia 1");
+
+# Entities
+mods.thaumcraft.Aspects.setEntity("witchery.broom", "volatus 2, arbor 2, praecantatio 2");
+mods.thaumcraft.Aspects.setEntity("witchery.brew", "preacantatio 1, motus 1");
+mods.thaumcraft.Aspects.setEntity("witchery.illusionCreeper", "sensus 1");
+mods.thaumcraft.Aspects.setEntity("witchery.illusionSpider", "sensus 1");
+mods.thaumcraft.Aspects.setEntity("witchery.illusionZombie", "sensus 1");
+mods.thaumcraft.Aspects.setEntity("witchery.corpse", "humanus 3, desidia 3");
+mods.thaumcraft.Aspects.setEntity("witchery.deathhorse", "bestia 3, mortuus 4, motus 3");
+mods.thaumcraft.Aspects.setEntity("witchery.mirrorface", "infernus 4, sensus 4, humanus 1, invidia 2");
+mods.thaumcraft.Aspects.setEntity("witchery.attackbat", "volatus 1, bestia 1, telum 1");
+
 
 # Witching Gadgets
 mods.thaumcraft.Aspects.set(<WitchingGadgets:WG_CustomAir>, "lux 1");
 mods.thaumcraft.Aspects.set(<WitchingGadgets:item.WG_Material:13>, "vitreus 1, perditio 1");
 mods.thaumcraft.Aspects.set(<WitchingGadgets:item.WG_InfusedGem>, "vitreus 4");
+
 
 print("Initialized 'Thaumcraft-Aspects.zs'");
