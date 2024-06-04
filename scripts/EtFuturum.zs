@@ -22,7 +22,7 @@ vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1)
 
 #Iron Trapdoor
 recipes.remove(<etfuturum:iron_trapdoor>);
-recipes.addShaped(<etfuturum:iron_trapdoor>*2, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped(<etfuturum:iron_trapdoor>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:trapdoorWood>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 
 #Extract Lava from Magma
 mods.thermalexpansion.Transposer.addExtractRecipe(800, <etfuturum:magma>, <liquid:lava> * 500, <minecraft:netherrack>, 100);
