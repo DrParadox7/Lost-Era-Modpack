@@ -10,6 +10,13 @@ mods.thaumcraft.Aspects.set(<appliedenergistics2:tile.OreQuartz>, "vitreus 3, te
 # Charged Quartz
 mods.thaumcraft.Aspects.set(<appliedenergistics2:tile.OreQuartzCharged>, "vitreus 3, terra 1, potentia 3");
 
+### Antique Atlas ###
+//Created by daforsyth
+mods.thaumcraft.Aspects.set(<antiqueatlas:emptyAntiqueAtlas>, "cognitio 1");
+mods.thaumcraft.Aspects.set(<antiqueatlas:antiqueAtlas>, "cognitio 1, iter 1");
+
+
+
 ### Ars Magica ###
 # Contributor: daforsyth
 
@@ -98,7 +105,6 @@ mods.thaumcraft.Aspects.set(<arsmagica2:inscriptionUpgrade:2>, "cognitio 5, lux 
 ### Automagy ###
 mods.thaumcraft.Aspects.set(<Automagy:blockXPJar>, "vitreus 5");
 mods.thaumcraft.Aspects.set(<Automagy:blockAmnesiac>, "terra 4, vacuos 4, praecantatio 3, cognitio 3");
-
 
 ### Blood Magic ###
 // Created by daforsyth
@@ -577,8 +583,6 @@ mods.thaumcraft.Aspects.addEntity("BiomesOPlenty.mudball", "terra 2, aqua 2, mot
 # Entities
 mods.thaumcraft.Aspects.addEntity("chisel.snowman", "aqua 1, gelum 3");
 
-
-
 ### EnderZoo ###
 
 # Entities
@@ -590,9 +594,16 @@ mods.thaumcraft.Aspects.addEntity("enderzoo.WitherWitch", "praecantatio 2, mortu
 mods.thaumcraft.Aspects.addEntity("enderzoo.WitherCat", "bestia 2, mortuus 2");
 mods.thaumcraft.Aspects.addEntity("enderzoo.DireWolf", "bestia 3, gelum 2");
 
+### Enhanced LootsBags ###
+// Created by daforsyth
+
+mods.thaumcraft.Aspects.set(<enhancedlootbags:lootbag:*>, "lucrum 0");
 
 ### Electrobobs Wizardry ###
 // Created by daforsyth
+
+mods.thaumcraft.Aspects.setEntity("wizardry.Wizard", "praecantatio 1, humanus 3");
+
 
 # Entities
 mods.thaumcraft.Aspects.setEntity("wizardry.Wizard", "praecantatio 1, humanus 3");
@@ -959,6 +970,9 @@ mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:3>, "victus 16, praecantat
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:5>, "invidia 16, perditio 16, permutatio 16, praecantatio 16 ");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:7>, "victus 16, praecantatio 16, terra 16");
 mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:11>, "auram 16, praecantatio 16");
+
+### Forge Microblocks ###
+mods.thaumcraft.Aspects.set(<ForgeMicroblock:microblock:*>, "sensus 0");
 
 ### Grimoire Of Gaia ###
 //Created by daforsyth
@@ -2011,6 +2025,11 @@ mods.thaumcraft.Aspects.addEntity("SpecialMobs.PlagueZombie", "humanus 1, exanim
 
 mods.thaumcraft.Aspects.addEntity("SpecialMobs.LavaMonster", "ignis 3, potentia 1");
 
+### Standard Expansion ###
+// Created by daforsyth
+
+mods.thaumcraft.Aspects.set(<questbook:ItemQuestBook>, "cognitio 1, sensus 1");
+
 
 # Test Dummies
 # Entities
@@ -2081,8 +2100,6 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockLootUrn:2>, "terra 3, ignis 1, lucr
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockLootCrate>, "arbor 4, metallum 2, lucrum 8");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockLootCrate:1>, "arbor 4, metallum 2, lucrum 16");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockLootCrate:2>, "arbor 4, metallum 2, lucrum 32");
-mods.thaumcraft.Aspects.set(<Thaumcraft:ItemCrystalEssence>, "vitreus 1");
-mods.thaumcraft.Aspects.set(<Thaumcraft:ItemManaBean>, "herba 2, praecantatio 1");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockManaPod>, "herba 2, praecantatio 1");
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResearchNotes>, "cognitio 1");
 mods.thaumcraft.Aspects.set(<Thaumcraft:BlockJarNodeItem>, "vitreus 2, auram 4");
@@ -2091,8 +2108,8 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockArcaneFurnace>, "machina 4, ignis 6
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockHole>, "vacuos 4, praecantatio 2");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockWarded>, "terra 4, tutamen 4");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockMagicBox>, "praecantatio 4, vacuos 4");
-mods.thaumcraft.Aspects.set(<Thaumcraft:ItemEssence:1>, "vitreus 1");
 mods.thaumcraft.Aspects.set(<Thaumcraft:GolemBell>, "metallum 1, sensus 1");
+
 
 
 ### Thaumic Exploration ###
@@ -2834,44 +2851,47 @@ mods.thaumcraft.Aspects.addEntity("Ozelot", "motus 3");
 mods.thaumcraft.Aspects.addEntity("Sheep", "pannus 3");
 
 
-//Lux to Jack o Lantern
+#Lux to Jack o Lantern
 mods.thaumcraft.Aspects.add(<minecraft:lit_pumpkin>, "lux 1");
 
-//Precantio to Mycelium
+#Precantio to Mycelium
 mods.thaumcraft.Aspects.add(<minecraft:mycelium>, "praecantatio 1");
 
-//Sponge
+#Sponge
 mods.thaumcraft.Aspects.set(<minecraft:sponge>, "vacuos 2, aqua 4");
 
-//Pufferfish
+#Pufferfish
 mods.thaumcraft.Aspects.add(<minecraft:fish:3>, "venenum 1");
 
-//Glistening melon
+#Glistening melon
 mods.thaumcraft.Aspects.set(<minecraft:speckled_melon>, "metallum 1, sano 1, fames 1");
 
-//Magma cream
+#Magma cream
 mods.thaumcraft.Aspects.set(<minecraft:magma_cream>, "ignis 1, limus 1");
 
-//Blaze Powder
+#Blaze Powder
 mods.thaumcraft.Aspects.set(<minecraft:blaze_powder>, "ignis 1");
 
-//Golden Carrot
+#Golden Carrot
 mods.thaumcraft.Aspects.add(<minecraft:golden_carrot>, "lucrum 1, metallum 1, fames 1");
 
-//Sugar
+#Sugar
 mods.thaumcraft.Aspects.set(<minecraft:sugar>, "fames 1");
 
-//Cauldron
+#Cauldron
 mods.thaumcraft.Aspects.set(<minecraft:cauldron>, "metallum 6, vacuos 1");
 
-//Items
+#Items
 mods.thaumcraft.Aspects.set(<minecraft:experience_bottle>, "vitreus 1, cognitio 1");
 mods.thaumcraft.Aspects.set(<minecraft:firework_charge>, "sensus 2, ignis 2, perditio 2");
 mods.thaumcraft.Aspects.set(<minecraft:fireworks>, "sensus 2, ignis 2, aer 1");
+mods.thaumcraft.Aspects.set(<minecraft:filled_map:*>, "cognitio 1, iter 1");
+mods.thaumcraft.Aspects.set(<minecraft:map>, "cognitio 1");
 
+#Mob Eggs
+mods.thaumcraft.Aspects.set(<minecraft:spawn_egg:*>, "permutatio 4, victus 3");
 
-
-//Entities
+#Entities
 mods.thaumcraft.Aspects.setEntity("ThrownEnderpearl", "alienis 4, iter 2, praecantatio 2, motus 4");
 mods.thaumcraft.Aspects.setEntity("EyeOfEnderSignal", "alienis 4, sensus 4, praecantatio 3, invidia 4, motus 4");
 mods.thaumcraft.Aspects.setEntity("Snowball", "gelum 1, motus 2");
@@ -2883,6 +2903,26 @@ mods.thaumcraft.Aspects.setEntity("WitherSkull", "exanimis 4, perditio 4, ira 4,
 mods.thaumcraft.Aspects.setEntity("PrimedTnt", "ignis 4, ira 4");
 mods.thaumcraft.Aspects.setEntity("FallingSand", "terra 1, perditio 1, motus 1");
 mods.thaumcraft.Aspects.setEntity("FireworksRocketEntity", "sensus 2, ignis 2, volatus 1");
+
+#Stone slabs
+for i in 0 to 6 {
+mods.thaumcraft.Aspects.set(<minecraft:stone_slab>.definition.makeStack(i), "terra 0");
+}
+mods.thaumcraft.Aspects.add(<minecraft:stone_slab:6>, "ignis 0, infernus 0");
+
+
+#Walls
+mods.thaumcraft.Aspects.set(<minecraft:cobblestone_wall>, "terra 0, tutamen 0");
+mods.thaumcraft.Aspects.set(<minecraft:cobblestone_wall:1>, "terra 0, tutamen 0, herba 0, praecantatio 0");
+
+#Glass Panes
+mods.thaumcraft.Aspects.set(<minecraft:glass_pane>, "vitreus 0");
+mods.thaumcraft.Aspects.set(<minecraft:stained_glass_pane:*>, "vitreus 0");
+
+### Waystones ###
+//Created by daforsyth
+mods.thaumcraft.Aspects.add(<waystones:waystone>, "iter 10");
+mods.thaumcraft.Aspects.add(<waystones:warpScroll>, "cognitio 1, praecantatio 1, iter 3");
 
 ### Witchery ####
 //Created by daforsyth
