@@ -535,7 +535,7 @@ mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard>, "metallu
 mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:1>, "metallum 1");
 mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:2>, "vitreus 1");
 mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:3>, "vitreus 1");
-mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:4>, "infernus 1);
+mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:4>, "infernus 1");
 mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:5>, "alienis 1");
 mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>, "ignis 1");
 mods.thaumcraft.Aspects.set(<GrimoireOfGaia:item.GrimoireOfGaia.MiscFurnaceFuel>, "ignis 6, potentia 6");
@@ -1185,7 +1185,7 @@ mods.thaumcraft.Aspects.set(<qCraft:essence:2>, "sensus 2, permutatio 2");
 # Auto Observer
 mods.thaumcraft.Aspects.set(<qCraft:quantumlogic>, "machina 2, sensus 3, invidia 1");
 # Quantum Goggles
-mods.thaumcraft.Aspects.add(<qCraft:goggles:*>, "tutamen1, sensus 3");
+mods.thaumcraft.Aspects.add(<qCraft:goggles:*>, "tutamen 1, sensus 3");
 
 
 ### Special Mobs ###
