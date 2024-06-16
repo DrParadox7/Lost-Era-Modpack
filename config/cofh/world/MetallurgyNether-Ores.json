@@ -168,7 +168,7 @@
         "block": {"name": "Metallurgy:nether.ore", "metadata": 9},
         "material": {"name": "minecraft:nether_brick"},
         "clusterSize": 2,
-        "numClusters": 56,
+        "numClusters": 32,
         "meanHeight": 64,
         "maxVariance": 32,
         "retrogen": "true",
