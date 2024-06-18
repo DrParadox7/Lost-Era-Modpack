@@ -5,19 +5,9 @@ import minetweaker.item.IItemStack;
 print("Initializing 'ThaumicAddons.zs'...");
 
 ###### Page Cleanup ##########
-#AOBD research
-#mods.thaumcraft.Research.moveResearch("PUREORE", "ALCHEMY", -6, 7);
-#mods.thaumcraft.Research.clearPrereqs("PUREORE");
-#mods.thaumcraft.Research.addPrereq("PUREORE", "PUREGOLD", false);
-#mods.thaumcraft.Research.addPrereq("PUREORE", "PURECOPPER", false);
-#mods.thaumcraft.Research.addPrereq("PUREORE", "PURETIN", false);
-#mods.thaumcraft.Research.addPrereq("PUREORE", "PURESILVER", false);
-#mods.thaumcraft.Research.addPrereq("PUREORE", "PURELEAD", false);
-#Tab Removal
-#mods.thaumcraft.Research.removeTab("AOBD");
 
-#Modifying Railcraft research
-#Thaumium Crowbar
+# Modifying Railcraft research
+# Thaumium Crowbar
  mods.thaumcraft.Research.moveResearch("RC_Crowbar", "ARTIFICE", 6, 8);
  mods.thaumcraft.Research.clearPrereqs("RC_Crowbar");
  mods.thaumcraft.Research.addPrereq("RC_Crowbar", "THAUMIUM", false);
@@ -28,20 +18,10 @@ print("Initializing 'ThaumicAddons.zs'...");
  mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "RC_Crowbar", false);
  #Tab Removal
  mods.thaumcraft.Research.removeTab("RAILCRAFT");
+
 #########################
 
 ######Thaumcraft##########
-
-##Sand Removal Crucible
-mods.thaumcraft.Crucible.removeRecipe(<minecraft:sand>);
-
-##Bonemeal Removal Crucible
-mods.thaumcraft.Crucible.removeRecipe(<minecraft:dye:15>);
-
-#Quartz Duplication
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <minecraft:quartz>*2, <minecraft:quartz>, "potentia 2, aqua 2, vitreus 4");
-mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <minecraft:quartz>);
-mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
 
 //Add recipes for ancient stone types so I don't have to dungeon raid for building blocks
 #this is gonna be fucking hard to do
@@ -74,17 +54,6 @@ mods.thaumcraft.Research.addCraftingPage("ANCIENT_STONE", <Thaumcraft:blockStair
 mods.thaumcraft.Research.addArcanePage("ANCIENT_STONE", <Thaumcraft:blockCosmeticSolid:15>);
 mods.thaumcraft.Research.addCruciblePage("ANCIENT_STONE", <Thaumcraft:blockCosmeticSolid:12>);
 
-###Alchemical Duplication
-#Amethyst
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION", <etfuturum:amethyst_shard>*2, <etfuturum:amethyst_shard>, "aqua 2, praecantatio 2, vitreus 4");
-mods.thaumcraft.Research.addCruciblePage("ALCHEMICALDUPLICATION", <etfuturum:amethyst_shard>);
-mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
-
-###Alchemical Manufacture
-#Saltblock
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <harvestcraft:spamcompressedsaltBlockalt>, <minecraft:sandstone>, "aqua 2, vitreus 4");
-mods.thaumcraft.Research.addCruciblePage("ALCHEMICALMANUFACTURE", <harvestcraft:spamcompressedsaltBlockalt>);
-mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALMANUFACTURE");
 #########################
 
 ###### Thaumic Tinkerer ##########
@@ -92,7 +61,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALMANUFACTURE");
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:kamiResource>);
 mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>, [<Thaumcraft:ItemEldritchObject:3>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard:1>, <ThaumicTinkerer:kamiResource:7>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:3>, <Thaumcraft:ItemEldritchObject:0>, <ForbiddenMagic:NetherShard:4>, <ForbiddenMagic:NetherShard:5>, <ThaumicTinkerer:kamiResource:6>, <ForbiddenMagic:NetherShard:6>, <ForbiddenMagic:GluttonyShard>], "gula 12, lucrum 8, luxuria 6, superbia 5", <ThaumicTinkerer:kamiResource>*8, 9);
 mods.thaumcraft.Research.refreshResearchRecipe("ICHOR");
-
 
 ####Ichorium Rebalanced####
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:kamiResource:2>);
