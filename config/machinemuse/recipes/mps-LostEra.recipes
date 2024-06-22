@@ -218,17 +218,6 @@
 	{
 		"ingredients" : [
 			[ null, { "registryName" : "minecraft:magma_cream" }, null ],
-			[ { "registryName" : "ThermalExpansion:Rockwool", "meta" : 7 }, { "oredictName" : "dustCoal" }, { "registryName" : "ThermalExpansion:Rockwool", "meta" : 7 } ],
-			[ { "registryName" : "ThermalExpansion:Rockwool", "meta" : 7 }, { "registryName" : "minecraft:magma_cream" }, { "registryName" : "ThermalExpansion:Rockwool", "meta" : 7 } ]
-		],
-		"result" : {
-			"oredictName" : "componentControlCircuit"
-		},
-		"mirror" : true
-	},
-	{
-		"ingredients" : [
-			[ null, { "registryName" : "minecraft:magma_cream" }, null ],
 			[ { "registryName" : "Mekanism:CompressedCarbon" }, { "registryName" : "MineFactoryReloaded:rubber.raw" }, { "registryName" : "Mekanism:CompressedCarbon" } ],
 			[ { "registryName" : "Mekanism:CompressedCarbon" }, { "registryName" : "minecraft:magma_cream" }, { "registryName" : "Mekanism:CompressedCarbon" } ]
 		],
