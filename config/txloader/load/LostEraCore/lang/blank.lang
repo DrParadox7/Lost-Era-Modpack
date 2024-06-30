@@ -1,4 +1,48 @@
-#################################Quests#################################
+#### Items ####
+
+item.craftingComponent.name=
+
+#### Missing Quest Items Localization ####
+
+item.botania:petal32767.name=
+item.botania:dye32767.name=
+item.botania:craftPattern32767.name=
+item.botania:ancientWill32767.name=
+item.botania:grassSeeds32767.name=
+item.botania:cosmetic32767.name=
+tile.botania:flower32767.name=
+tile.botania:altar32767.name=
+tile.botania:biomeStoneA32767.name=
+
+item.projectred.illumination.lightbutton:32767.name=
+item.projectred.illumination.flightbutton:32767.name=
+item.projectred.illumination.lantern:32767.name=
+item.projectred.illumination.fixture:32767.name=
+item.projectred.illumination.cagelamp:32767.name=
+tile.projectred.illumination.lamp:32767.name=
+item.projectred.transmission.framewire:32767.name=
+
+tile.extrautils:decorativeBlock1.32767.name=
+tile.extrautils:decorativeBlock2.32767.name=
+tile.extrautils:greenscreen.32767.name=
+tile.extrautils:colorBlock.32767.name=
+
+item.ArcaneDoorKey.32767.name=
+item.ItemPrimalArrow32767.name=
+item.ItemBaubleBlanks.32767.name=
+item.ItemRingRunic.32767.name=
+item.ItemGirdleRunic.32767.name=
+item.ItemAmuletRunic.32767.name=
+item.ItemGolemUpgrade.32767.name=
+item.ItemGolemDecoration.32767.name=
+tile.blockCandle.32767.name=
+
+tile.thaumicexploration:floatCandle.32767.name=
+tile.warpdrive.detection.siren32767.name=
+
+_ERROR_.name=
+
+#### Quests ####
 
 # Quest.0 - A New Start
 lostera.quest0.name=
@@ -356,7 +400,7 @@ lostera.quest87.desc=
 lostera.quest88.name=
 lostera.quest88.desc=
 
-# Quest.89 - This is not even my final form
+# Quest.89 - This not even my final form
 lostera.quest89.name=
 lostera.quest89.desc=
 
@@ -444,7 +488,7 @@ lostera.quest109.desc=
 lostera.quest110.name=
 lostera.quest110.desc=
 
-# Quest.111 - Culinary Generator
+# Quest.111 - Slime Block
 lostera.quest111.name=
 lostera.quest111.desc=
 
@@ -1896,7 +1940,7 @@ lostera.quest472.desc=
 lostera.quest473.name=
 lostera.quest473.desc=
 
-# Quest.474 - Nework Valve Pipe
+# Quest.474 - Network Valve Pipe
 lostera.quest474.name=
 lostera.quest474.desc=
 
@@ -2203,7 +2247,6 @@ lostera.quest549.desc=
 # Quest.550 - §4¬§r Advanced Engineering
 lostera.quest550.name=
 lostera.quest550.desc=
-
 # Quest.551 - §4¬§r Dimensional Architect
 lostera.quest551.name=
 lostera.quest551.desc=
@@ -2224,7 +2267,7 @@ lostera.quest554.desc=
 lostera.quest555.name=
 lostera.quest555.desc=
 
-# Quest.556 - §d¬§r Environmental Science
+# Quest.556 - §d¬§r Crop Hybridization
 lostera.quest556.name=
 lostera.quest556.desc=
 
@@ -2692,7 +2735,7 @@ lostera.quest671.desc=
 lostera.quest672.name=
 lostera.quest672.desc=
 
-# Quest.673 - Parasytic Louse
+# Quest.673 - Parasitic Louse
 lostera.quest673.name=
 lostera.quest673.desc=
 
@@ -3896,7 +3939,7 @@ lostera.quest972.desc=
 lostera.quest973.name=
 lostera.quest973.desc=
 
-# Quest.974 - Basic Materials
+# Quest.974 - §6¬§r Basic Materials
 lostera.quest974.name=
 lostera.quest974.desc=
 
@@ -4056,7 +4099,7 @@ lostera.quest1012.desc=
 lostera.quest1013.name=
 lostera.quest1013.desc=
 
-# Quest.1014 - Bronze
+# Quest.1014 - Dream Weaving
 lostera.quest1014.name=
 lostera.quest1014.desc=
 
@@ -4643,7 +4686,6 @@ lostera.quest1159.desc=
 # Quest.1160 - Advanced Miner
 lostera.quest1160.name=
 lostera.quest1160.desc=
-
 # Quest.1161 - Pump
 lostera.quest1161.name=
 lostera.quest1161.desc=
@@ -4752,7 +4794,7 @@ lostera.quest1186.desc=
 lostera.quest1187.name=
 lostera.quest1187.desc=
 
-# Quest.1188 - Industrial Farming
+# Quest.1188 - Horticulture Beginnings
 lostera.quest1188.name=
 lostera.quest1188.desc=
 
@@ -4764,15 +4806,15 @@ lostera.quest1189.desc=
 lostera.quest1190.name=
 lostera.quest1190.desc=
 
-# Quest.1191 - Breeding
+# Quest.1191 - Crop Sticks
 lostera.quest1191.name=
 lostera.quest1191.desc=
 
-# Quest.1192 - Genetic Engineering
+# Quest.1192 - Cross Breeding
 lostera.quest1192.name=
 lostera.quest1192.desc=
 
-# Quest.1193 - Environment
+# Quest.1193 - Growth Environment
 lostera.quest1193.name=
 lostera.quest1193.desc=
 
@@ -4780,11 +4822,11 @@ lostera.quest1193.desc=
 lostera.quest1194.name=
 lostera.quest1194.desc=
 
-# Quest.1195 - Fertilizer
+# Quest.1195 - Soil Nutrient
 lostera.quest1195.name=
 lostera.quest1195.desc=
 
-# Quest.1196 - Hydration Cells
+# Quest.1196 - Humidity
 lostera.quest1196.name=
 lostera.quest1196.desc=
 
@@ -4792,7 +4834,7 @@ lostera.quest1196.desc=
 lostera.quest1197.name=
 lostera.quest1197.desc=
 
-# Quest.1198 - Advanced Breeding
+# Quest.1198 - Mutations
 lostera.quest1198.name=
 lostera.quest1198.desc=
 
@@ -4800,7 +4842,7 @@ lostera.quest1198.desc=
 lostera.quest1199.name=
 lostera.quest1199.desc=
 
-# Quest.1200 - Booze Barrel
+# Quest.1200 - Booze Brewing
 lostera.quest1200.name=
 lostera.quest1200.desc=
 
@@ -4884,7 +4926,7 @@ lostera.quest1219.desc=
 lostera.quest1220.name=
 lostera.quest1220.desc=
 
-# Quest.1221 - Update Quests
+# Quest.1221 - Dining Set
 lostera.quest1221.name=
 lostera.quest1221.desc=
 
@@ -5436,7 +5478,7 @@ lostera.quest1357.desc=
 lostera.quest1358.name=
 lostera.quest1358.desc=
 
-# Quest.1359 - Simple Dialer
+# Quest.1359 - Simple Dialler
 lostera.quest1359.name=
 lostera.quest1359.desc=
 
@@ -5639,7 +5681,6 @@ lostera.quest1408.desc=
 # Quest.1409 - Bronze Blast Furnace
 lostera.quest1409.name=
 lostera.quest1409.desc=
-
 # Quest.1410 - Brass Item Pipe
 lostera.quest1410.name=
 lostera.quest1410.desc=
@@ -5648,7 +5689,7 @@ lostera.quest1410.desc=
 lostera.quest1411.name=
 lostera.quest1411.desc=
 
-# Quest.1412 - Platinum Item Pipes
+# Quest.1412 - Cooperite Item Pipes
 lostera.quest1412.name=
 lostera.quest1412.desc=
 
@@ -6704,7 +6745,7 @@ lostera.quest1674.desc=
 lostera.quest1675.name=
 lostera.quest1675.desc=
 
-# Quest.1676 - Lithim Battery Upgrade
+# Quest.1676 - Lithium Battery Upgrade
 lostera.quest1676.name=
 lostera.quest1676.desc=
 
@@ -7320,7 +7361,7 @@ lostera.quest1828.desc=
 lostera.quest1829.name=
 lostera.quest1829.desc=
 
-# Quest.1830 - Furniture  Paneler
+# Quest.1830 - Furniture Paneler
 lostera.quest1830.name=
 lostera.quest1830.desc=
 
@@ -8556,7 +8597,7 @@ lostera.quest2137.desc=
 lostera.quest2138.name=
 lostera.quest2138.desc=
 
-# Quest.2139 - Osmium Bee
+# Quest.2139 - Feral Crops
 lostera.quest2139.name=
 lostera.quest2139.desc=
 
@@ -9840,7 +9881,7 @@ lostera.quest2458.desc=
 lostera.quest2459.name=
 lostera.quest2459.desc=
 
-# Quest.2460 - Etherial Slate
+# Quest.2460 - Ethereal Slate
 lostera.quest2460.name=
 lostera.quest2460.desc=
 
@@ -9908,7 +9949,7 @@ lostera.quest2475.desc=
 lostera.quest2476.name=
 lostera.quest2476.desc=
 
-# Quest.2477 - Ritual of Binding
+# Quest.2477 - Weak Blood Shards
 lostera.quest2477.name=
 lostera.quest2477.desc=
 
@@ -10111,7 +10152,6 @@ lostera.quest2526.desc=
 # Quest.2527 - Incense Crucible
 lostera.quest2527.name=
 lostera.quest2527.desc=
-
 # Quest.2528 - §9¬§r EU Utilities
 lostera.quest2528.name=
 lostera.quest2528.desc=
@@ -10172,7 +10212,7 @@ lostera.quest2541.desc=
 lostera.quest2542.name=
 lostera.quest2542.desc=
 
-# Quest.2543 - Mundane Lenghtening Catalyst
+# Quest.2543 - Mundane lengthening Catalyst
 lostera.quest2543.name=
 lostera.quest2543.desc=
 
@@ -10184,11 +10224,11 @@ lostera.quest2544.desc=
 lostera.quest2545.name=
 lostera.quest2545.desc=
 
-# Quest.2546 - Average Lenghtening Catalyst
+# Quest.2546 - Average lengthening Catalyst
 lostera.quest2546.name=
 lostera.quest2546.desc=
 
-# Quest.2547 - Greater Lenghtening Catalyst
+# Quest.2547 - Greater lengthening Catalyst
 lostera.quest2547.name=
 lostera.quest2547.desc=
 
@@ -10212,7 +10252,7 @@ lostera.quest2551.desc=
 lostera.quest2552.name=
 lostera.quest2552.desc=
 
-# Quest.2553 - Strenghtened Catalyst
+# Quest.2553 - Strengthened Catalyst
 lostera.quest2553.name=
 lostera.quest2553.desc=
 
@@ -10840,7 +10880,7 @@ lostera.quest2708.desc=
 lostera.quest2709.name=
 lostera.quest2709.desc=
 
-# Quest.2710 - Primal Crusher
+# Quest.2710 - Primal Staff Core
 lostera.quest2710.name=
 lostera.quest2710.desc=
 
@@ -10936,7 +10976,7 @@ lostera.quest2732.desc=
 lostera.quest2733.name=
 lostera.quest2733.desc=
 
-# Quest.2734 - Solid Fueled Firebox
+# Quest.2734 - Solid fuelled Firebox
 lostera.quest2734.name=
 lostera.quest2734.desc=
 
@@ -10944,7 +10984,7 @@ lostera.quest2734.desc=
 lostera.quest2735.name=
 lostera.quest2735.desc=
 
-# Quest.2736 -  Liquid Fueled Firebox
+# Quest.2736 - Liquid fuelled Firebox
 lostera.quest2736.name=
 lostera.quest2736.desc=
 
@@ -12004,7 +12044,7 @@ lostera.quest2999.desc=
 lostera.quest3000.name=
 lostera.quest3000.desc=
 
-# Quest.3001 - Crop Farm
+# Quest.3001 - Vegetable Farm
 lostera.quest3001.name=
 lostera.quest3001.desc=
 
@@ -12308,7 +12348,7 @@ lostera.quest3075.desc=
 lostera.quest3076.name=
 lostera.quest3076.desc=
 
-# Quest.3077 - Crafting Scepters
+# Quest.3077 - Crafting Sceptres
 lostera.quest3077.name=
 lostera.quest3077.desc=
 
@@ -13196,7 +13236,7 @@ lostera.quest3297.desc=
 lostera.quest3298.name=
 lostera.quest3298.desc=
 
-# Quest.3299 - Cloak of Sin
+# Quest.3299 - Cloak of Virtue
 lostera.quest3299.name=
 lostera.quest3299.desc=
 
@@ -13420,7 +13460,7 @@ lostera.quest3353.desc=
 lostera.quest3354.name=
 lostera.quest3354.desc=
 
-# Quest.3355 - Ritual of the  Crusher
+# Quest.3355 - Ritual of the Crusher
 lostera.quest3355.name=
 lostera.quest3355.desc=
 
@@ -13476,11 +13516,11 @@ lostera.quest3367.desc=
 lostera.quest3368.name=
 lostera.quest3368.desc=
 
-# Quest.3369 - Ritual of the Crusher
+# Quest.3369 - Ritual of Speed
 lostera.quest3369.name=
 lostera.quest3369.desc=
 
-# Quest.3370 - Ritual of the  Crusher
+# Quest.3370 - Ritual of the Shepherd
 lostera.quest3370.name=
 lostera.quest3370.desc=
 
@@ -13500,7 +13540,7 @@ lostera.quest3373.desc=
 lostera.quest3374.name=
 lostera.quest3374.desc=
 
-# Quest.3375 - Ritual of the Feathered Knife
+# Quest.3375 - Aura of Expulsion
 lostera.quest3375.name=
 lostera.quest3375.desc=
 
@@ -13516,7 +13556,7 @@ lostera.quest3377.desc=
 lostera.quest3378.name=
 lostera.quest3378.desc=
 
-# Quest.3379 - Ritual of the Feathered Knife
+# Quest.3379 - Ward of Sacrosanctity
 lostera.quest3379.name=
 lostera.quest3379.desc=
 
@@ -13600,15 +13640,15 @@ lostera.quest3398.desc=
 lostera.quest3399.name=
 lostera.quest3399.desc=
 
-# Quest.3400 - Dining Set
+# Quest.3400 - Air Quality
 lostera.quest3400.name=
 lostera.quest3400.desc=
 
-# Quest.3401 - Inscriber Logical Press
+# Quest.3401 - Inscriber Calculation Press
 lostera.quest3401.name=
-lostera.quest3402.desc=
+lostera.quest3401.desc=
 
-# Quest.3402 - Inscriber Calculation Press
+# Quest.3402 - Inscriber Logical Press
 lostera.quest3402.name=
 lostera.quest3402.desc=
 
@@ -13620,9 +13660,469 @@ lostera.quest3403.desc=
 lostera.quest3404.name=
 lostera.quest3404.desc=
 
-# Quest.3405 - Dream Weaving
+# Quest.3405 - Light
 lostera.quest3405.name=
 lostera.quest3405.desc=
+
+# Quest.3406 - Crop Stats
+lostera.quest3406.name=
+lostera.quest3406.desc=
+
+# Quest.3407 - §6Gain
+lostera.quest3407.name=
+lostera.quest3407.desc=
+
+# Quest.3408 - §2Growth
+lostera.quest3408.name=
+lostera.quest3408.desc=
+
+# Quest.3409 - §3Resistance
+lostera.quest3409.name=
+lostera.quest3409.desc=
+
+# Quest.3410 - Tier 1 Crops Discovered:
+lostera.quest3410.name=
+lostera.quest3410.desc=
+
+# Quest.3411 - Tier 2 Crops Discovered:
+lostera.quest3411.name=
+lostera.quest3411.desc=
+
+# Quest.3412 - Tier 3 Crops Discovered:
+lostera.quest3412.name=
+lostera.quest3412.desc=
+
+# Quest.3413 - Tier 4 Crops Discovered:
+lostera.quest3413.name=
+lostera.quest3413.desc=
+
+# Quest.3414 - Tier 5 Crops Discovered:
+lostera.quest3414.name=
+lostera.quest3414.desc=
+
+# Quest.3415 - Tier 6 Crops Discovered:
+lostera.quest3415.name=
+lostera.quest3415.desc=
+
+# Quest.3416 - Tier 7 Crops Discovered:
+lostera.quest3416.name=
+lostera.quest3416.desc=
+
+# Quest.3417 - Tier 8+ Crops Discovered:
+lostera.quest3417.name=
+lostera.quest3417.desc=
+
+# Quest.3418 - Green Glowshoom
+lostera.quest3418.name=
+lostera.quest3418.desc=
+
+# Quest.3419 - Blue Glowshoom
+lostera.quest3419.name=
+lostera.quest3419.desc=
+
+# Quest.3420 - Purple Glowshoom
+lostera.quest3420.name=
+lostera.quest3420.desc=
+
+# Quest.3421 - Eyebulb
+lostera.quest3421.name=
+lostera.quest3421.desc=
+
+# Quest.3422 - Tier 0: Weed
+lostera.quest3422.name=
+lostera.quest3422.desc=
+
+# Quest.3423 - Wolfsbane
+lostera.quest3423.name=
+lostera.quest3423.desc=
+
+# Quest.3424 - Berry
+lostera.quest3424.name=
+lostera.quest3424.desc=
+
+# Quest.3425 - Stickreed
+lostera.quest3425.name=
+lostera.quest3425.desc=
+
+# Quest.3426 - Sugar Beet
+lostera.quest3426.name=
+lostera.quest3426.desc=
+
+# Quest.3427 - Terra Wart
+lostera.quest3427.name=
+lostera.quest3427.desc=
+
+# Quest.3428 - Skyberry
+lostera.quest3428.name=
+lostera.quest3428.desc=
+
+# Quest.3429 - Dandelion
+lostera.quest3429.name=
+lostera.quest3429.desc=
+
+# Quest.3430 - Barley
+lostera.quest3430.name=
+lostera.quest3430.desc=
+
+# Quest.3431 - Magic Metal
+lostera.quest3431.name=
+lostera.quest3431.desc=
+
+# Quest.3432 - Glowflower
+lostera.quest3432.name=
+lostera.quest3432.desc=
+
+# Quest.3433 - Melon
+lostera.quest3433.name=
+lostera.quest3433.desc=
+
+# Quest.3434 - Stingberry
+lostera.quest3434.name=
+lostera.quest3434.desc=
+
+# Quest.3435 - Belladonna
+lostera.quest3435.name=
+lostera.quest3435.desc=
+
+# Quest.3436 - Raspberry
+lostera.quest3436.name=
+lostera.quest3436.desc=
+
+# Quest.3437 - Snowbell
+lostera.quest3437.name=
+lostera.quest3437.desc=
+
+# Quest.3438 - Ember Moss
+lostera.quest3438.name=
+lostera.quest3438.desc=
+
+# Quest.3439 - Maloberry
+lostera.quest3439.name=
+lostera.quest3439.desc=
+
+# Quest.3440 - Cinder Pearl
+lostera.quest3440.name=
+lostera.quest3440.desc=
+
+# Quest.3441 - Pumpkin
+lostera.quest3441.name=
+lostera.quest3441.desc=
+
+# Quest.3442 - Nether Wart
+lostera.quest3442.name=
+lostera.quest3442.desc=
+
+# Quest.3443 - Tulip
+lostera.quest3443.name=
+lostera.quest3443.desc=
+
+# Quest.3444 - Garlic
+lostera.quest3444.name=
+lostera.quest3444.desc=
+
+# Quest.3445 - Water Lily
+lostera.quest3445.name=
+lostera.quest3445.desc=
+
+# Quest.3446 - Redwheat
+lostera.quest3446.name=
+lostera.quest3446.desc=
+
+# Quest.3447 - Moss
+lostera.quest3447.name=
+lostera.quest3447.desc=
+
+# Quest.3448 - Aurelia
+lostera.quest3448.name=
+lostera.quest3448.desc=
+
+# Quest.3449 - Venomilia
+lostera.quest3449.name=
+lostera.quest3449.desc=
+
+# Quest.3450 - Cyprium
+lostera.quest3450.name=
+lostera.quest3450.desc=
+
+# Quest.3451 - Reed
+lostera.quest3451.name=
+lostera.quest3451.desc=
+
+# Quest.3452 - Cocoa
+lostera.quest3452.name=
+lostera.quest3452.desc=
+
+# Quest.3453 - Stagnium
+lostera.quest3453.name=
+lostera.quest3453.desc=
+
+# Quest.3454 - Potato
+lostera.quest3454.name=
+lostera.quest3454.desc=
+
+# Quest.3455 - Glowshroom
+lostera.quest3455.name=
+lostera.quest3455.desc=
+
+# Quest.3456 - Strawberry
+lostera.quest3456.name=
+lostera.quest3456.desc=
+
+# Quest.3457 - Wheat
+lostera.quest3457.name=
+lostera.quest3457.desc=
+
+# Quest.3458 - Eating Plant
+lostera.quest3458.name=
+lostera.quest3458.desc=
+
+# Quest.3459 - Coffee
+lostera.quest3459.name=
+lostera.quest3459.desc=
+
+# Quest.3460 - Blackberry
+lostera.quest3460.name=
+lostera.quest3460.desc=
+
+# Quest.3461 - Carrot
+lostera.quest3461.name=
+lostera.quest3461.desc=
+
+# Quest.3462 - Saguaro Cactus
+lostera.quest3462.name=
+lostera.quest3462.desc=
+
+# Quest.3463 - Glowing Earth Coral
+lostera.quest3463.name=
+lostera.quest3463.desc=
+
+# Quest.3464 - Duskberry
+lostera.quest3464.name=
+lostera.quest3464.desc=
+
+# Quest.3465 - Plumbiscus
+lostera.quest3465.name=
+lostera.quest3465.desc=
+
+# Quest.3466 - ShimmerLeaf
+lostera.quest3466.name=
+lostera.quest3466.desc=
+
+# Quest.3467 - Flowering Vines
+lostera.quest3467.name=
+lostera.quest3467.desc=
+
+# Quest.3468 - Brown Mushroom
+lostera.quest3468.name=
+lostera.quest3468.desc=
+
+# Quest.3469 - Red Mushroom
+lostera.quest3469.name=
+lostera.quest3469.desc=
+
+# Quest.3470 - Ferru
+lostera.quest3470.name=
+lostera.quest3470.desc=
+
+# Quest.3471 - Spanish Moss
+lostera.quest3471.name=
+lostera.quest3471.desc=
+
+# Quest.3472 - Rose
+lostera.quest3472.name=
+lostera.quest3472.desc=
+
+# Quest.3473 - Vines
+lostera.quest3473.name=
+lostera.quest3473.desc=
+
+# Quest.3474 - Hops
+lostera.quest3474.name=
+lostera.quest3474.desc=
+
+# Quest.3475 - Glint Weed
+lostera.quest3475.name=
+lostera.quest3475.desc=
+
+# Quest.3476 - Mandragora
+lostera.quest3476.name=
+lostera.quest3476.desc=
+
+# Quest.3477 - Ivy
+lostera.quest3477.name=
+lostera.quest3477.desc=
+
+# Quest.3478 - Cyazint
+lostera.quest3478.name=
+lostera.quest3478.desc=
+
+# Quest.3479 - Blightberry
+lostera.quest3479.name=
+lostera.quest3479.desc=
+
+# Quest.3480 - Huckleberry
+lostera.quest3480.name=
+lostera.quest3480.desc=
+
+# Quest.3481 - Cotton
+lostera.quest3481.name=
+lostera.quest3481.desc=
+
+# Quest.3482 - Thornvines
+lostera.quest3482.name=
+lostera.quest3482.desc=
+
+# Quest.3483 - Artichoke
+lostera.quest3483.name=
+lostera.quest3483.desc=
+
+# Quest.3484 - Turnip
+lostera.quest3484.name=
+lostera.quest3484.desc=
+
+# Quest.3485 - Blueberry
+lostera.quest3485.name=
+lostera.quest3485.desc=
+
+# Quest.3486 - Blackthorn
+lostera.quest3486.name=
+lostera.quest3486.desc=
+
+# Quest.3487 - Papyrus
+lostera.quest3487.name=
+lostera.quest3487.desc=
+
+# Quest.3488 - Shining
+lostera.quest3488.name=
+lostera.quest3488.desc=
+
+# Quest.3489 - Wild Carrots
+lostera.quest3489.name=
+lostera.quest3489.desc=
+
+# Quest.3490 - Blazereed
+lostera.quest3490.name=
+lostera.quest3490.desc=
+
+# Quest.3491 - Bobsyeruncleranks
+lostera.quest3491.name=
+lostera.quest3491.desc=
+
+# Quest.3492 - Corium
+lostera.quest3492.name=
+lostera.quest3492.desc=
+
+# Quest.3493 - Corpseplant
+lostera.quest3493.name=
+lostera.quest3493.desc=
+
+# Quest.3494 - Diareed
+lostera.quest3494.name=
+lostera.quest3494.desc=
+
+# Quest.3495 - Meatrose
+lostera.quest3495.name=
+lostera.quest3495.desc=
+
+# Quest.3496 - Milkwart
+lostera.quest3496.name=
+lostera.quest3496.desc=
+
+# Quest.3497 - Indigo
+lostera.quest3497.name=
+lostera.quest3497.desc=
+
+# Quest.3498 - Flax
+lostera.quest3498.name=
+lostera.quest3498.desc=
+
+# Quest.3499 - Withereed
+lostera.quest3499.name=
+lostera.quest3499.desc=
+
+# Quest.3500 - Tine
+lostera.quest3500.name=
+lostera.quest3500.desc=
+
+# Quest.3501 - Tearstalks
+lostera.quest3501.name=
+lostera.quest3501.desc=
+
+# Quest.3502 - Spidernip
+lostera.quest3502.name=
+lostera.quest3502.desc=
+
+# Quest.3503 - Slimeplant
+lostera.quest3503.name=
+lostera.quest3503.desc=
+
+# Quest.3504 - Oilberries
+lostera.quest3504.name=
+lostera.quest3504.desc=
+
+# Quest.3505 - Bamboo
+lostera.quest3505.name=
+lostera.quest3505.desc=
+
+# Quest.3506 - Torchberry
+lostera.quest3506.name=
+lostera.quest3506.desc=
+
+# Quest.3507 - Oak Bonsai
+lostera.quest3507.name=
+lostera.quest3507.desc=
+
+# Quest.3508 - Spruce Bonsai
+lostera.quest3508.name=
+lostera.quest3508.desc=
+
+# Quest.3509 - Birch Bonsai
+lostera.quest3509.name=
+lostera.quest3509.desc=
+
+# Quest.3510 - Jungle Bonsai
+lostera.quest3510.name=
+lostera.quest3510.desc=
+
+# Quest.3511 - Acacia Bonsai
+lostera.quest3511.name=
+lostera.quest3511.desc=
+
+# Quest.3512 - Dark Oak Bonsai
+lostera.quest3512.name=
+lostera.quest3512.desc=
+
+# Quest.3513 - Creeperweed
+lostera.quest3513.name=
+lostera.quest3513.desc=
+
+# Quest.3514 - Enderbloom
+lostera.quest3514.name=
+lostera.quest3514.desc=
+
+# Quest.3515 - Eggplant
+lostera.quest3515.name=
+lostera.quest3515.desc=
+
+# Quest.3516 - Goldfish
+lostera.quest3516.name=
+lostera.quest3516.desc=
+
+# Quest.3517 - Artificial Boost
+lostera.quest3517.name=
+lostera.quest3517.desc=
+
+# Quest.3518 - Kitchen Floor
+lostera.quest3518.name=
+lostera.quest3518.desc=
+
+# Quest.3519 - RedNet Expansion
+lostera.quest3519.name=
+lostera.quest3519.desc=
+
+# Quest.3520 - RedNet Programming
+lostera.quest3520.name=
+lostera.quest3520.desc=
 
 ##################################Line##################################
 
@@ -13654,7 +14154,7 @@ lostera.line5.desc=
 lostera.line6.name=
 lostera.line6.desc=
 
-# QuestLine.7 - §d¬§r Environmental Science
+# QuestLine.7 - §d¬§r Crop Husbandry
 lostera.line7.name=
 lostera.line7.desc=
 
@@ -13917,43 +14417,33 @@ lostera.line71.desc=
 # QuestLine.72 -    
 lostera.line72.name=
 lostera.line72.desc=
-
 # QuestLine.73 -    
 lostera.line73.name=
 lostera.line73.desc=
-
 # QuestLine.74 -    
 lostera.line74.name=
 lostera.line74.desc=
-
 # QuestLine.75 -    
 lostera.line75.name=
 lostera.line75.desc=
-
 # QuestLine.76 -    
 lostera.line76.name=
 lostera.line76.desc=
-
 # QuestLine.77 -    
 lostera.line77.name=
 lostera.line77.desc=
-
 # QuestLine.78 -    
 lostera.line78.name=
 lostera.line78.desc=
-
 # QuestLine.79 -    
 lostera.line79.name=
 lostera.line79.desc=
-
 # QuestLine.80 -    
 lostera.line80.name=
 lostera.line80.desc=
-
 # QuestLine.81 -    
 lostera.line81.name=
 lostera.line81.desc=
-
 # QuestLine.82 -    
 lostera.line82.name=
 lostera.line82.desc=
@@ -13986,7 +14476,7 @@ lostera.line88.desc=
 lostera.line89.name=
 lostera.line89.desc=
 
-# QuestLine.90 - §2¬§r Mana Sourcery
+# QuestLine.90 - §2¬§r Mana Sorcery
 lostera.line90.name=
 lostera.line90.desc=
 
@@ -14013,3 +14503,11 @@ lostera.line95.desc=
 # QuestLine.96 - §3¬§r Sanguineous Rituals
 lostera.line96.name=
 lostera.line96.desc=
+
+# QuestLine.97 - §2¬§r Path of Magus
+lostera.line97.name=
+lostera.line97.desc=
+
+# QuestLine.98 - §d¬§r Field Researcher
+lostera.line98.name=
+lostera.line98.desc=
