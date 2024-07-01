@@ -1,22 +1,22 @@
 {
     "food": {
         "items": [
-            "harvestcraft:beanItem:0",
-            "harvestcraft:soybeanItem:0",
-            "harvestcraft:refriedbeansItem:0",
-            "harvestcraft:bakedbeansItem:0",
-            "harvestcraft:beansandriceItem:0",
-            "harvestcraft:chiliItem:0",
-            "harvestcraft:beanburritoItem:0",
-            "harvestcraft:veggiestirfryItem:0",
-            "harvestcraft:soymilkItem:0",
-            "harvestcraft:firmtofuItem:0",
-            "harvestcraft:silkentofuItem:0",
-            "harvestcraft:manjuuItem:0",
-            "harvestcraft:beansontoastItem:0",
-            "harvestcraft:beetburgerItem:0",
-            "harvestcraft:porklomeinItem:0",
-            "harvestcraft:sesameballItem:0"
+            "harvestcraft:beanItem",
+            "harvestcraft:soybeanItem",
+            "harvestcraft:refriedbeansItem",
+            "harvestcraft:bakedbeansItem",
+            "harvestcraft:beansandriceItem",
+            "harvestcraft:chiliItem",
+            "harvestcraft:beanburritoItem",
+            "harvestcraft:veggiestirfryItem",
+            "harvestcraft:soymilkItem",
+            "harvestcraft:firmtofuItem",
+            "harvestcraft:silkentofuItem",
+            "harvestcraft:manjuuItem",
+            "harvestcraft:beansontoastItem",
+            "harvestcraft:beetburgerItem",
+            "harvestcraft:porklomeinItem",
+            "harvestcraft:sesameballItem"
         ]
     },
     "name": "Legumes",
