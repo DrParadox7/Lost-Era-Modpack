@@ -16,10 +16,6 @@ print("Initializing 'GT Compat.zs'...");
 #<gregtech_addon:ore:13>.addTooltip("gt4.tooltip.tetrahedriteOre");
 #<gregtech_addon:ore:14>.addTooltip("gt4.tooltip.cassiteriteOre");
 
-#Stop GT from overriding Enderium
-recipes.remove(<gregtech_addon:metaitem_1:11321>);
-recipes.remove(<gregtech_addon:metaitem_1:9321>);
-
 #Indestructible turbine 
 recipes.remove(<compactkineticgenerators:IridiumRotor>);
 recipes.remove(<compactkineticgenerators:IridiumBlade>);
@@ -55,16 +51,12 @@ recipes.removeShaped(<IC2:reactorReflectorThick:1>);
 recipes.addShaped(<IC2:reactorReflectorThick:1>, [[null, <IC2:reactorReflector:1>, null], [<IC2:reactorReflector:1>, <ore:cellBeryllium>, <IC2:reactorReflector:1>], [null, <IC2:reactorReflector:1>, null]]);
 
 #Rolling Machine
-mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17327>*4, [[<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, null]]);
-mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17326>*4, [[<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, null], [<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, null]]);
+mods.railcraft.Rolling.addShaped(<IC2:itemPlates:2>*4, [[<ore:ingotBronze>, <ore:ingotBronze>, null], [<ore:ingotBronze>, <ore:ingotBronze>, null]]);
+mods.railcraft.Rolling.addShaped(<IC2:itemPlates:3>*4, [[<ore:ingotGold>, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotGold>, null]]);
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17085>*4, [[<ore:ingotPlatinum>, <ore:ingotPlatinum>, null], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, null]]);
-mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17331>*4, [[<ore:ingotMithril>, <ore:ingotMithril>, null], [<ore:ingotMithril>, <ore:ingotMithril>, null]]);
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17302>*4, [[<ore:ingotInvar>, <ore:ingotInvar>, null], [<ore:ingotInvar>, <ore:ingotInvar>, null]]);
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17054>*4, [[<ore:ingotSilver>, <ore:ingotSilver>, null], [<ore:ingotSilver>, <ore:ingotSilver>, null]]);
-mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17300>*4, [[<ore:ingotBronze>, <ore:ingotBronze>, null], [<ore:ingotBronze>, <ore:ingotBronze>, null]]);
-mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17321>*4, [[<ore:ingotEnderium>, <ore:ingotEnderium>, null], [<ore:ingotEnderium>, <ore:ingotEnderium>, null]]);
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17034>*4, [[<ore:ingotNickel>, <ore:ingotNickel>, null], [<ore:ingotNickel>, <ore:ingotNickel>, null]]);
-mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17086>*4, [[<ore:ingotGold>, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotGold>, null]]);
 mods.railcraft.Rolling.addShaped(<gregtech_addon:metaitem_1:17303>*4, [[<ore:ingotElectrum>, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ore:ingotElectrum>, null]]);
 
 #Early Gears
