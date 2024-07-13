@@ -94,7 +94,7 @@ recipes.remove(<ThermalExpansion:capacitor:5>);
 
 
 recipes.addShaped(<ThermalExpansion:capacitor:2>, [[<minecraft:redstone>, <ore:gearLead>, <minecraft:redstone>], [<ore:ingotLead>, <ThermalExpansion:capacitor:1>, <ore:ingotLead>], [<minecraft:leather>, <ore:dustSulfur>, <minecraft:leather>]]);
-recipes.addShaped(<ThermalExpansion:capacitor:3>, [[<ProjRed|Core:projectred.core.part:10>, <ore:gearInvar>, <ProjRed|Core:projectred.core.part:10>], [<ore:ingotInvar>, <ThermalExpansion:capacitor:2>, <ore:ingotInvar>], [<appliedenergistics2:item.ItemMultiMaterial:5>, <ore:dustGold>, <appliedenergistics2:item.ItemMultiMaterial:5>]]);
+recipes.addShaped(<ThermalExpansion:capacitor:3>, [[<ore:ingotRedAlloy>, <ore:gearInvar>, <ore:ingotRedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:capacitor:2>, <ore:ingotInvar>], [<appliedenergistics2:item.ItemMultiMaterial:5>, <ore:dustGold>, <appliedenergistics2:item.ItemMultiMaterial:5>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:4>, [[<BuildCraft|Silicon:redstoneCrystal>, <ore:gearElectrum>, <BuildCraft|Silicon:redstoneCrystal>], [<ore:ingotElectrum>, <ThermalExpansion:capacitor:3>, <ore:ingotElectrum>], [<ThermalExpansion:Glass>, <ore:dustSignalum>, <ThermalExpansion:Glass>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:5>, [[<RedstoneArsenal:material:96>, <ore:gearEnderium>, <RedstoneArsenal:material:96>], [<ore:ingotEnderium>, <ThermalExpansion:capacitor:4>, <ore:ingotEnderium>], [<ThermalExpansion:Glass:1>, <ore:dustElectrumFlux>, <ThermalExpansion:Glass:1>]]);
 
