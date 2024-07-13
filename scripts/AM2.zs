@@ -37,7 +37,7 @@ recipes.addShaped(<arsmagica2:blockLectern>, [[<ore:plankWood>, <minecraft:gold_
 
 #Arcane Reconstructor
 recipes.remove(<arsmagica2:blockArcaneReconstructor>);
-recipes.addShaped(<arsmagica2:blockArcaneReconstructor>, [[<arsmagica2:everstone>, <Metallurgy:midasium.ingot>, <arsmagica2:everstone>], [<Metallurgy:midasium.ingot>, <Metallurgy:mithril.ingot>, <Metallurgy:midasium.ingot>], [<arsmagica2:everstone>, <Metallurgy:midasium.ingot>, <arsmagica2:everstone>]]);
+recipes.addShaped(<arsmagica2:blockArcaneReconstructor>, [[<arsmagica2:everstone>, <Metallurgy:midasium.ingot>, <arsmagica2:everstone>], [<Metallurgy:midasium.ingot>, <ore:ingotMithril>, <Metallurgy:midasium.ingot>], [<arsmagica2:everstone>, <Metallurgy:midasium.ingot>, <arsmagica2:everstone>]]);
 
 #Occulus
 recipes.remove(<arsmagica2:occulus>);
