@@ -20,6 +20,6 @@
     "radius": 7,
     "cost": 1000000,
     "focusModId": "minecraft",
-    "focusName": "iron_ingot",
+    "focusName": "iron_block",
     "focusMeta": 0
   }
