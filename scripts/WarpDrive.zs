@@ -203,7 +203,7 @@ recipes.addShaped(<WarpDrive:blockTransporterContainment>, [[null, <WarpDrive:it
 
 #Transporter Beacon
 recipes.remove(<WarpDrive:blockTransporterBeacon>);
-recipes.addShaped(<WarpDrive:blockTransporterBeacon>, [[<WarpDrive:itemComponent:13>, null, <WarpDrive:itemComponent:2>], [null, <WR-CBE|Core:wirelessTransceiver>, null], [null, <Metallurgy:steel.ingot>, null]]);
+recipes.addShaped(<WarpDrive:blockTransporterBeacon>, [[<WarpDrive:itemComponent:13>, null, <WarpDrive:itemComponent:2>], [null, <WR-CBE|Core:wirelessTransceiver>, null], [null, <ore:ingotSteel>, null]]);
 
 ###  Transporter Scanner
 recipes.remove(<WarpDrive:blockTransporterScanner>);
