@@ -1394,7 +1394,6 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockFluxGas>, "vitium 3, aer 1");
 # Void Metal Nugget
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget:7>, "metallum 1");
 
-
 ### Thaumic Exploration ###
 mods.thaumcraft.Aspects.set(<ThaumicExploration:boundJar>, "vitreus 5, aqua 1");
 mods.thaumcraft.Aspects.set(<ThaumicExploration:taintBerry>, "fames 2, vitium 1");
@@ -1703,6 +1702,9 @@ mods.thaumcraft.Aspects.set(<minecraft:firework_charge>, "sensus 2, ignis 2, per
 mods.thaumcraft.Aspects.set(<minecraft:fireworks>, "sensus 2, ignis 2, aer 1");
 # Empty Map
 mods.thaumcraft.Aspects.set(<minecraft:map>, "cognitio 1");
+
+# Redstone Torch
+mods.thaumcraft.Aspects.set(<minecraft:redstone_torch>, "potentia 1, machina 1");
 
 ### Waystones ###
 //Created by daforsyth
