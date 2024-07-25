@@ -239,6 +239,9 @@ recipes.addShapeless(<harvestcraft:pamlimeSapling>, [<ore:cropLime>, <minecraft:
 recipes.remove(<harvestcraft:pamcherrySapling>);
 recipes.addShapeless(<harvestcraft:pamcherrySapling>, [<ore:cropCherry>, <minecraft:sapling>]);
 
+recipes.remove(<harvestcraft:pamfigSapling>);
+recipes.addShapeless(<harvestcraft:pamfigSapling>, [<ore:cropFig>, <minecraft:sapling:3>]);
+
 ###Extra Bees
 
 #Nuclear Bees
