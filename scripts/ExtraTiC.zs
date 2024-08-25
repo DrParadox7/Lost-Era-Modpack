@@ -156,34 +156,34 @@ mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:147>, <liquid:elementiu
 
 #Thaumium
 
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:toolRod:31>, <TConstruct:toolRod:2>, "praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:pickaxeHead:31>, <TConstruct:pickaxeHead:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:shovelHead:31>, <TConstruct:shovelHead:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:hatchetHead:31>, <TConstruct:hatchetHead:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:swordBlade:31>, <TConstruct:swordBlade:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:wideGuard:31>, <TConstruct:wideGuard:2>, "praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:handGuard:31>, <TConstruct:handGuard:2>, "praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:crossbar:31>, <TConstruct:crossbar:2>, "praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:binding:31>, <TConstruct:binding:2>, "praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:signHead:31>, <TConstruct:signHead:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:knifeBlade:31>, <TConstruct:knifeBlade:2>, "praecantatio 2");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:chiselHead:31>, <TConstruct:chiselHead:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:toolRod:31>, <TConstruct:toolRod:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:pickaxeHead:31>, <TConstruct:pickaxeHead:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:shovelHead:31>, <TConstruct:shovelHead:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:hatchetHead:31>, <TConstruct:hatchetHead:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:swordBlade:31>, <TConstruct:swordBlade:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:wideGuard:31>, <TConstruct:wideGuard:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:handGuard:31>, <TConstruct:handGuard:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:crossbar:31>, <TConstruct:crossbar:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:binding:31>, <TConstruct:binding:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:signHead:31>, <TConstruct:signHead:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:knifeBlade:31>, <TConstruct:knifeBlade:2>, "praecantatio 2");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:chiselHead:31>, <TConstruct:chiselHead:2>, "praecantatio 2");
 
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:toughRod:31>, <TConstruct:toughRod:2>, "praecantatio 12");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:toughBinding:31>, <TConstruct:toughBinding:2>, "praecantatio 12");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:heavyPlate:31>, <TConstruct:heavyPlate:2>, "praecantatio 32");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:broadAxeHead:31>, <TConstruct:broadAxeHead:2>, "praecantatio 32");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:scytheBlade:31>, <TConstruct:scytheBlade:2>, "praecantatio 32");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:excavatorHead:31>, <TConstruct:excavatorHead:2>, "praecantatio 32");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:largeSwordBlade:31>, <TConstruct:largeSwordBlade:2>, "praecantatio 32");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:hammerHead:31>, <TConstruct:hammerHead:2>, "praecantatio 32");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:fullGuard:31>, <TConstruct:fullGuard:2>, "praecantatio 12");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:toughRod:31>, <TConstruct:toughRod:2>, "praecantatio 12");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:toughBinding:31>, <TConstruct:toughBinding:2>, "praecantatio 12");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:heavyPlate:31>, <TConstruct:heavyPlate:2>, "praecantatio 32");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:broadAxeHead:31>, <TConstruct:broadAxeHead:2>, "praecantatio 32");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:scytheBlade:31>, <TConstruct:scytheBlade:2>, "praecantatio 32");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:excavatorHead:31>, <TConstruct:excavatorHead:2>, "praecantatio 32");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:largeSwordBlade:31>, <TConstruct:largeSwordBlade:2>, "praecantatio 32");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:hammerHead:31>, <TConstruct:hammerHead:2>, "praecantatio 32");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:fullGuard:31>, <TConstruct:fullGuard:2>, "praecantatio 12");
 
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:arrowhead:31>, <TConstruct:arrowhead:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:ShurikenPart:31>, <TConstruct:ShurikenPart:2>, "praecantatio 4");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:CrossbowLimbPart:31>, <TConstruct:CrossbowLimbPart:2>, "praecantatio 16");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:CrossbowBodyPart:31>, <TConstruct:CrossbowBodyPart:2>, "praecantatio 20");
-mods.thaumcraft.Crucible.addRecipe("TRANSIRON", <TConstruct:BowLimbPart:31>, <TConstruct:BowLimbPart:2>, "praecantatio 6");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:arrowhead:31>, <TConstruct:arrowhead:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:ShurikenPart:31>, <TConstruct:ShurikenPart:2>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:CrossbowLimbPart:31>, <TConstruct:CrossbowLimbPart:2>, "praecantatio 16");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:CrossbowBodyPart:31>, <TConstruct:CrossbowBodyPart:2>, "praecantatio 20");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <TConstruct:BowLimbPart:31>, <TConstruct:BowLimbPart:2>, "praecantatio 6");
 
 #Manasteel 
 
