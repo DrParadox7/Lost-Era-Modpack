@@ -1269,11 +1269,99 @@
         <Loot Identifier="treasure-fancyGlasses" ItemName="OpenBlocks:technicolorGlasses" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="treasure-strangeGlasses" ItemName="OpenBlocks:seriousGlasses" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
     </LootGroup>
-        <LootGroup GroupMetaID="65" GroupName="Crop Science" Rarity="0" MinItems="4" MaxItems="6" CombineTrashGroup="false">
+    <LootGroup GroupMetaID="65" GroupName="Crop Science" Rarity="0" MinItems="4" MaxItems="6" CombineTrashGroup="false">
         <Loot Identifier="cropScience-fertilizer" ItemName="IC2:itemFertilizer" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cropScience-stick" ItemName="Forestry:oakStick" Amount="8" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cropScience-watering" ItemName="IC2:itemCellHydrant:1" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cropScience-weedex" ItemName="IC2:itemWeedEx" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cropScience-subscription" ItemName="enhancedlootbags:lootbag:7" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="66" GroupName="Chloris' Blessing" Rarity="0" MinItems="3" MaxItems="3" CombineTrashGroup="false">
+        <Loot Identifier="chlorisBlessing-supplies0" ItemName="Botany:misc" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-supplies1" ItemName="Botany:misc:1" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-supplies2" ItemName="Botany:misc:2" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-supplies3" ItemName="Botany:misc:3" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-supplies4" ItemName="Botany:misc:4" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-supplies5" ItemName="Botany:misc:5" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment0" ItemName="Botany:pigment" Amount="4" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment1" ItemName="Botany:pigment:1" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment2" ItemName="Botany:pigment:2" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment3" ItemName="Botany:pigment:3" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment4" ItemName="Botany:pigment:4" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment5" ItemName="Botany:pigment:5" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment6" ItemName="Botany:pigment:6" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment7" ItemName="Botany:pigment:7" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment8" ItemName="Botany:pigment:8" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment9" ItemName="Botany:pigment:9" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment10" ItemName="Botany:pigment:10" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment11" ItemName="Botany:pigment:11" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment12" ItemName="Botany:pigment:12" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment13" ItemName="Botany:pigment:13" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment14" ItemName="Botany:pigment:14" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment15" ItemName="Botany:pigment:15" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment16" ItemName="Botany:pigment:16" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment17" ItemName="Botany:pigment:17" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment18" ItemName="Botany:pigment:18" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment19" ItemName="Botany:pigment:19" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment20" ItemName="Botany:pigment:20" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment21" ItemName="Botany:pigment:21" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment22" ItemName="Botany:pigment:22" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment23" ItemName="Botany:pigment:23" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment24" ItemName="Botany:pigment:24" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment25" ItemName="Botany:pigment:25" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment26" ItemName="Botany:pigment:26" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment27" ItemName="Botany:pigment:27" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment28" ItemName="Botany:pigment:28" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment29" ItemName="Botany:pigment:29" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment30" ItemName="Botany:pigment:30" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment31" ItemName="Botany:pigment:31" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment32" ItemName="Botany:pigment:32" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment33" ItemName="Botany:pigment:33" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment34" ItemName="Botany:pigment:34" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment35" ItemName="Botany:pigment:35" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment36" ItemName="Botany:pigment:36" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment37" ItemName="Botany:pigment:37" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment38" ItemName="Botany:pigment:38" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment39" ItemName="Botany:pigment:39" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment40" ItemName="Botany:pigment:40" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment41" ItemName="Botany:pigment:41" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment42" ItemName="Botany:pigment:42" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment43" ItemName="Botany:pigment:43" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment44" ItemName="Botany:pigment:44" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment45" ItemName="Botany:pigment:45" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment46" ItemName="Botany:pigment:46" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment47" ItemName="Botany:pigment:47" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment48" ItemName="Botany:pigment:48" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment49" ItemName="Botany:pigment:49" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment50" ItemName="Botany:pigment:50" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment51" ItemName="Botany:pigment:51" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment52" ItemName="Botany:pigment:52" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment53" ItemName="Botany:pigment:53" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment54" ItemName="Botany:pigment:54" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment55" ItemName="Botany:pigment:55" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment56" ItemName="Botany:pigment:56" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment57" ItemName="Botany:pigment:57" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment58" ItemName="Botany:pigment:58" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment59" ItemName="Botany:pigment:59" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment60" ItemName="Botany:pigment:60" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment61" ItemName="Botany:pigment:61" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment62" ItemName="Botany:pigment:62" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment63" ItemName="Botany:pigment:63" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment64" ItemName="Botany:pigment:64" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment65" ItemName="Botany:pigment:65" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment66" ItemName="Botany:pigment:66" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment67" ItemName="Botany:pigment:67" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment68" ItemName="Botany:pigment:68" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment69" ItemName="Botany:pigment:69" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment70" ItemName="Botany:pigment:70" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment71" ItemName="Botany:pigment:71" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment72" ItemName="Botany:pigment:72" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment73" ItemName="Botany:pigment:73" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment74" ItemName="Botany:pigment:74" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment75" ItemName="Botany:pigment:75" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment76" ItemName="Botany:pigment:76" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment77" ItemName="Botany:pigment:77" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment78" ItemName="Botany:pigment:78" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="chlorisBlessing-pigment79" ItemName="Botany:pigment:79" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
