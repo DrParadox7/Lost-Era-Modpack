@@ -1364,4 +1364,24 @@
         <Loot Identifier="chlorisBlessing-pigment78" ItemName="Botany:pigment:78" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="chlorisBlessing-pigment79" ItemName="Botany:pigment:79" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+    <LootGroup GroupMetaID="67" GroupName="Grave Concoctions" Rarity="0" MinItems="3" MaxItems="3" CombineTrashGroup="false">
+        <Loot Identifier="graveConcoctions-glassbottle" ItemName="minecraft:glass_bottle" Amount="6" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-netherwart" ItemName="minecraft:nether_wart" Amount="4" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-glowstone" ItemName="minecraft:glowstone_dust" Amount="3" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-redstone" ItemName="minecraft:redstone" Amount="6" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-slime" ItemName="minecraft:slime_ball" Amount="2" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-potionawkward" ItemName="minecraft:potion:16" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-potionspeed" ItemName="minecraft:potion:8194" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-potionspeed" ItemName="minecraft:potion:8206" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-potionhealth" ItemName="minecraft:potion:8197" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-healthberry" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryHealth" Amount="3" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-fireberry" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryFire" Amount="3" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-iceberry" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryIce" Amount="3" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-cureberry" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryCure" Amount="3" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-mandrake" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodMandrake" Amount="3" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-goldenappleslice" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodSmallAppleGold" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-netherwartfood" ItemName="GrimoireOfGaia:item.GrimoireOfGaia.FoodDriedNetherWart" Amount="3" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="graveConcoctions-enderpearl" ItemName="minecraft:ender_pearl" Amount="2" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="graveConcoctions-ambrosia" ItemName="BiomesOPlenty:food:10" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
