@@ -34,11 +34,7 @@ recipes.addShaped(<cookingforblockheads:toolrack>, [[<ore:pressurePlateWood>, <o
 
 #Toaster
 recipes.remove(<cookingforblockheads:toaster>);
-recipes.addShaped(<cookingforblockheads:toaster>, [[null, null, null], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>, <minecraft:iron_ingot>], [<ore:gearIron>, <minecraft:redstone>, <ore:gearIron>]]);
-
-#Heating Element
-recipes.remove(<ExtraUtilities:heatingElement>);
-recipes.addShaped(<ExtraUtilities:heatingElement>, [[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], [<ore:nuggetCopper>, <minecraft:blaze_powder>, <ore:nuggetCopper>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<cookingforblockheads:toaster>, [[null, null, null], [<minecraft:iron_ingot>, <minecraft:blaze_rod>, <minecraft:iron_ingot>], [<ore:gearIron>, <minecraft:redstone>, <ore:gearIron>]]);
 
 #Candle Forestry Compat
 recipes.addShapeless(<harvestcraft:pamcandleDeco1>, [<ore:itemBeeswax>, <minecraft:string>]);
