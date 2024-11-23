@@ -27,6 +27,9 @@ mods.thermalexpansion.Pulverizer.addRecipe(4000, <minecraft:gold_ore>, <ThermalF
 #Lapis Dust
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <minecraft:dye:4>, <NuclearCraft:material:10>);
 
+#Remove unbalanced duplicate Electrum Blend
+recipes.removeShapeless(<ThermalFoundation:material:39>);
+
 #Cryotheum Dust uses Lapis Dust
 recipes.remove(<ThermalFoundation:material:513>);
 recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
