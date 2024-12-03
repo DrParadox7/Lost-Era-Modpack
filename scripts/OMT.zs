@@ -165,7 +165,7 @@ recipes.remove(<openmodularturrets:recyclerAddon>);
 recipes.addShaped(<openmodularturrets:recyclerAddon>, [[null, <StevesCarts:ModuleComponents:47>, null], [<StevesCarts:ModuleComponents:47>, <StevesCarts:ModuleComponents:45>, <StevesCarts:ModuleComponents:47>], [null, <StevesCarts:ModuleComponents:47>, null]]);
 
 recipes.remove(<openmodularturrets:serialPortAddon>);
-recipes.addShaped(<openmodularturrets:serialPortAddon>, [[null, <StevesCarts:ModuleComponents:47>, null], [<StevesCarts:ModuleComponents:47>, <StevesCarts:CartModule:94>, <StevesCarts:ModuleComponents:47>], [null, <StevesCarts:ModuleComponents:47>, null]]);
+recipes.addShaped(<openmodularturrets:serialPortAddon>, [[null, <StevesCarts:ModuleComponents:47>, null], [<StevesCarts:ModuleComponents:47>, <StevesCarts:ModuleComponents:16>, <StevesCarts:ModuleComponents:47>], [null, <StevesCarts:ModuleComponents:47>, null]]);
 
 
 #Structural Blocks - Fences
