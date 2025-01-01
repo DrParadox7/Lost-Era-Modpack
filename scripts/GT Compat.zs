@@ -16,6 +16,9 @@ print("Initializing 'GT Compat.zs'...");
 #<gregtech_addon:ore:13>.addTooltip("gt4.tooltip.tetrahedriteOre");
 #<gregtech_addon:ore:14>.addTooltip("gt4.tooltip.cassiteriteOre");
 
+# Missing Wooden Shelf Recipe
+recipes.addShaped(<gregtech_addon:machine:70>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <ore:craftingToolSaw>, null], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
 #Indestructible turbine 
 recipes.remove(<compactkineticgenerators:IridiumRotor>);
 recipes.remove(<compactkineticgenerators:IridiumBlade>);
