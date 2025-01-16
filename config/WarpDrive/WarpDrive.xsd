@@ -276,7 +276,7 @@
 	
 	<xs:simpleType name="typeWorldSize">
 		<xs:restriction base="xs:unsignedInt">
-			<xs:maxInclusive value="2000000" />
+			<xs:maxInclusive value="60000000" />
 		</xs:restriction>
 	</xs:simpleType>
 	

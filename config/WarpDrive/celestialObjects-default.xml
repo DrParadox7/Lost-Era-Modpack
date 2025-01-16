@@ -30,7 +30,7 @@
 		  name and description support colors with § or & as the escape code. '\n' is also supported.
 		  nbt defines a JSON string for custom tags. It's used by WarpDrive extensions.
 		  -->
-		<size x="2000000" z="2000000" />
+		<size x="59999999" z="59999999" />
 		<name>Hyperspace</name>
 		<description>Your ship warp bubble is your\nonly protection.</description>
 		
@@ -70,8 +70,8 @@
 			<fogColor red="0.15" green="0.0" blue="0.0" />
 			<fogFactor red="0.0" green="0.0" blue="0.0" />
 		</skybox>
-		
-		<!-- Second level is space, typically a star system. -->
+
+		<!-- Second level is Outer Space. -->
 		<celestialObject id="solarSystem">
 			<!--
 			  parent defines the relation with a bigger enveloping celestial object.
@@ -79,9 +79,9 @@
 			  parent.center.x, parent.center.z: this is the center coordinates in the parent dimension, measured in blocks.
 			  -->
 			<parent>
-				<center x="50000" z="10000" />
+				<center x="0" z="0" />
 			</parent>
-			<size x="1000000" z="1000000" />
+			<size x="59999999" z="59999999" />
 			<name>Space</name>
 			<description>The void, filled with §6resources§r.</description>
 			<dimension id="-2" isBreathable="false" gravity="legacySpace">
@@ -105,43 +105,13 @@
 				<fogFactor red="0.0" green="0.0" blue="0.0" />
 			</skybox>
 			
-			<!-- Sun is just displayed, there's no actual game dimension -->
-			<celestialObject id="sun">
-				<parent>
-					<!-- sun is at the center of the solarSystem -->
-					<center x="0" z="0" />
-				</parent>
-				<size x="10000" z="10000" />
-				<!--
-				  render defines several layers from surface to high atmosphere representing the planet.
-				  red, green, blue: color mixing from 0.00 (black) to 1.00 (white)
-				  alpha: transparency factor from 0.00 (invisible) to 1.00 (opaque)
-				  texture: optional texture to use, can come from resource pack, vanilla or the mod itself
-				  periodU, periodV: optional texture rotation period over the planet, measured in seconds, defaults to 0 (disabled)
-				  		Texture coordinates are defined along U and V axis (you can see them as X and Y axis in the context of the texture pixels).
-				  		A periodU of 40 means the texture will do progressively shift along U axis, doing a full rotation in 40 seconds.
-				  		A periodU of -80 means the texture will shift twice slower in the opposite direction. 
-				  additive: optional blending function, defaults to false (multiplicative)
-				  		Blending is the mathematical operation to mix existing pixel (previous layer or sky background) with the new one.
-				  
-				  In most cases, you want the first layer to be alpha="1.00", or the players will see the sky through the planet.
-				  -->
-				<render red="0.80" green="0.50" blue="0.20" alpha="1.00" texture="" />
-				<render red="0.80" green="0.70" blue="0.30" alpha="0.40" texture="warpdrive:textures/celestial/surface_icy2.png" periodU="-20" periodV="104" additive="true" />
-				<render red="0.80" green="0.55" blue="0.10" alpha="0.48" texture="warpdrive:textures/celestial/surface_metallic1.png" periodU="-40" periodV="140" additive="true" />
-				<render red="0.80" green="0.45" blue="0.30" alpha="0.34" texture="warpdrive:textures/celestial/surface_magma1.png" periodU="24" periodV="-35" additive="true" />
-				<render red="0.80" green="0.50" blue="0.20" alpha="0.08" texture="" />
-				<render red="0.75" green="0.48" blue="0.20" alpha="0.08" texture="" />
-				<render red="0.70" green="0.55" blue="0.20" alpha="0.08" texture="" />
-			</celestialObject>
-			
 			<!-- Earth is the overworld (dimension.id is 0) -->
 			<celestialObject id="earth">
 				<parent>
 					<!-- coordinates in the solar system, measured in blocks -->
-					<center x="-40000" z="30000" />
+					<center x="0" z="0" />
 				</parent>
-				<size x="50000" z="50000" />
+				<size x="59999999" z="59999999" />
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -153,19 +123,9 @@
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 			</celestialObject>
-			
-			<!-- Pluto is The End. It's a far planet. --> 
-			<celestialObject id="pluto">
-				<parent>
-					<center x="90000" z="70000" />
-				</parent>
-				<size x="4000" z="4000" />
-				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="minecraft:textures/blocks/end_stone.png" periodU="150" />
-				<render red="0.50" green="0.50" blue="0.40" alpha="0.30" />
-			</celestialObject>
-			
+
 		</celestialObject>
-		
+
 	</celestialObject>
 	
 </worldGeneration>
