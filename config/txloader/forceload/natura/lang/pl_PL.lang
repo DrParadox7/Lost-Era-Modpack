@@ -1,0 +1,10 @@
+#LE Localization Changes
+
+#Natura Barley -> Wild Grain
+item.barleyBag.name=Torba z Nasionami Dzikiego Zboża
+item.barley.seed.name=Nasiona Dzikiego Zboża
+item.barley.plant.name=Dzikie Zboże
+item.barley.flour.name=Mąka z Dzikiego Zboża
+
+#Flint and Blaze -> Wand of Sparking
+item.flintandblaze.name=Różdżka Iskrzenia

@@ -1,0 +1,10 @@
+#LE Localization Changes
+
+#Natura Barley -> Wild Grain
+item.barleyBag.name=Мешок с Семенами Дикого Зерна
+item.barley.seed.name=Семена Дикого Зерна
+item.barley.plant.name=Дикое Зерно
+item.barley.flour.name=Мука из Дикого Зерна
+
+#Flint and Blaze -> Wand of Sparking
+item.flintandblaze.name=Посох Искр

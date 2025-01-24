@@ -1,0 +1,10 @@
+#LE Localization Changes
+
+#Natura Barley -> Wild Grain
+item.barleyBag.name=Sacco di Semi di Grano Selvatico
+item.barley.seed.name=Semi di Grano Selvatico
+item.barley.plant.name=Grano Selvatico
+item.barley.flour.name=Farina di Grano Selvatico
+
+#Flint and Blaze -> Wand of Sparking
+item.flintandblaze.name=Bacchetta delle Scintille

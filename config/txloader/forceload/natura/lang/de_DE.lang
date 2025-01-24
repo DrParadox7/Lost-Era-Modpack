@@ -1,0 +1,11 @@
+#LE Localization Changes
+
+#Natura Barley -> Wild Grain
+item.barleyBag.name=Saatbeutel für Wildgetreide
+item.barley.seed.name=Wildgetreidesamen
+item.barley.plant.name=Wildgetreide
+item.barley.flour.name=Wildgetreidemehl
+
+#Flint and Blaze -> Wand of Sparking
+item.flintandblaze.name=Funkenstab
+

@@ -5,3 +5,6 @@ item.barleyBag.name=Wild Grain Seed Bag
 item.barley.seed.name=Wild Grain Seeds
 item.barley.plant.name=Wild Grain
 item.barley.flour.name=Wild Grain Flour
+
+#Flint and Blaze -> Wand of Sparking
+item.flintandblaze.name=Wand of Sparking

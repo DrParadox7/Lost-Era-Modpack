@@ -1,0 +1,10 @@
+#LE Localization Changes
+
+#Natura Barley -> Wild Grain
+item.barleyBag.name=야생 곡물 씨앗 가방
+item.barley.seed.name=야생 곡물 씨앗
+item.barley.plant.name=야생 곡물
+item.barley.flour.name=야생 곡물 가루
+
+#Flint and Blaze -> Wand of Sparking
+item.flintandblaze.name=불꽃 지팡이
