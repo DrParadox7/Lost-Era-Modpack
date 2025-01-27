@@ -242,6 +242,28 @@ recipes.addShapeless(<harvestcraft:pamcherrySapling>, [<ore:cropCherry>, <minecr
 recipes.remove(<harvestcraft:pamfigSapling>);
 recipes.addShapeless(<harvestcraft:pamfigSapling>, [<ore:cropFig>, <minecraft:sapling:3>]);
 
+recipes.remove(<harvestcraft:pamcoconutSapling>);
+recipes.addShapeless(<harvestcraft:pamcoconutSapling>, [<ore:cropCoconut>, <minecraft:sapling:3>]);
+
+recipes.remove(<harvestcraft:pamgooseberrySapling>);
+recipes.addShapeless(<harvestcraft:pamgooseberrySapling>, [<ore:cropGooseberry>, <minecraft:sapling:2>]);
+
+recipes.remove(<harvestcraft:pammangoSapling>);
+recipes.addShapeless(<harvestcraft:pammangoSapling>, [<ore:cropMango>, <minecraft:sapling:3>]);
+
+recipes.remove(<harvestcraft:pamnutmegSapling>);
+recipes.addShapeless(<harvestcraft:pamnutmegSapling>, [<ore:cropNutmeg>, <minecraft:sapling:3>]);
+
+recipes.remove(<harvestcraft:pamstarfruitSapling>);
+recipes.addShapeless(<harvestcraft:pamstarfruitSapling>, [<ore:cropStarfruit>, <minecraft:sapling:3>]);
+
+recipes.remove(<harvestcraft:pampecanSapling>);
+recipes.addShapeless(<harvestcraft:pampecanSapling>, [<ore:cropPecan>, <minecraft:sapling:5>]);
+
+recipes.remove(<harvestcraft:pamorangeSapling>);
+recipes.addShapeless(<harvestcraft:pamorangeSapling>, [<ore:cropOrange>, <minecraft:sapling:4>]);
+
+
 ###Extra Bees
 
 #Nuclear Bees

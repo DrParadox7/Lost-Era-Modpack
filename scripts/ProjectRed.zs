@@ -39,7 +39,7 @@ recipes.remove(<ProjRed|Core:projectred.core.part:15>);
 recipes.addShaped(<ProjRed|Core:projectred.core.part:15>, [[null, <minecraft:iron_ingot>, null], [<minecraft:redstone>, <ProjRed|Core:projectred.core.part:16>, <minecraft:redstone>], [null, <minecraft:iron_ingot>, null]]);
 
 #Recipe Conflict
-furnace.remove(<ProjRed|Core:projectred.core.part>);
+recipes.remove(<ProjRed|Core:projectred.core.part>);
 
 mods.thermalexpansion.Furnace.removeRecipe(<minecraft:stone>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:stone>, <etfuturum:smooth_stone>);

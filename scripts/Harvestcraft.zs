@@ -265,6 +265,9 @@ recipes.addShapeless(<harvestcraft:gooseberrysmoothieItem>, [<harvestcraft:mixin
 
 ## Recipes
 
+# Toasted Coconut
+furnace.addRecipe(<harvestcraft:toastedcoconutItem>, <ExtraTrees:food:50>);
+
 # Mashed Potatoes
 recipes.remove(<harvestcraft:mashedpotatoesItem>);
 recipes.addShapeless(<harvestcraft:mashedpotatoesItem>, [<harvestcraft:mixingbowlItem>, <minecraft:baked_potato>, <harvestcraft:butterItem>]);
@@ -497,11 +500,11 @@ recipes.addShapeless(<harvestcraft:oldworldveggiesoupItem>, [<harvestcraft:potIt
 
 # Sweetpotato Souffle
 recipes.remove(<harvestcraft:sweetpotatosouffleItem>);
-recipes.addShapeless(<harvestcraft:sweetpotatosouffleItem>, [<harvestcraft:bakewareItem>,<harvestcraft:bakedsweetpotatoItem>,<harvestcraft:pecanItem>,<harvestcraft:doughItem>,<harvestcraft:butterItem>]);
+recipes.addShapeless(<harvestcraft:sweetpotatosouffleItem>, [<harvestcraft:bakewareItem>,<harvestcraft:bakedsweetpotatoItem>,<ore:cropPecan>,<harvestcraft:doughItem>,<harvestcraft:butterItem>]);
 
 # Pralines
 recipes.remove(<harvestcraft:pralinesItem>);
-recipes.addShapeless(<harvestcraft:pralinesItem>, [<harvestcraft:saucepanItem>,<harvestcraft:pecanItem>,<ore:listAllsugar>,<harvestcraft:heavycreamItem>]);
+recipes.addShapeless(<harvestcraft:pralinesItem>, [<harvestcraft:saucepanItem>,<ore:cropPecan>,<ore:listAllsugar>,<harvestcraft:heavycreamItem>]);
 
 # Pistachio Baked Salmon
 recipes.remove(<harvestcraft:pistachiobakedsalmonItem>);

@@ -24,6 +24,10 @@ recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, n
 #Disable dupe inducing cabinets
 recipes.remove(<ExtraUtilities:filing:*>);
 
+# Heating Element
+recipes.remove(<ExtraUtilities:heatingElement>);
+recipes.addShaped(<ExtraUtilities:heatingElement>,[[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:blaze_rod>, <minecraft:iron_ingot>]]);
+
 ### Generators ###
 #Survivalist 
 recipes.addShaped(<ExtraUtilities:generator>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<minecraft:iron_ingot>, <ExtraUtilities:heatingElement>.noReturn(), <minecraft:iron_ingot>], [<ore:ingotRedAlloy>, <BuildCraft|Core:engineBlock:1>, <ore:ingotRedAlloy>]]);

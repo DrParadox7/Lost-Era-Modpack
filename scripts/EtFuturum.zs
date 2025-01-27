@@ -14,11 +14,8 @@ recipes.addShaped(<etfuturum:honeycomb_block>, [[<ore:beeComb>, <ore:beeComb>, n
 #Honey Block
 recipes.addShaped(<etfuturum:honey_block>, [[<ore:dropHoney>, <ore:dropHoney>, null], [<ore:dropHoney>, <ore:dropHoney>, null]]);
 
-#Totem Undying
-vanilla.loot.addChestLoot("pyramidDesertyChest", <etfuturum:totem_of_undying>.weight(5), 1, 1);
-vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("netherFortress", <etfuturum:totem_of_undying>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1), 1, 1);
+# Bamboo Block 
+recipes.addShapeless(<etfuturum:bamboo_block>, [<BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>, <BiomesOPlenty:bamboo>]);
 
 #Iron Trapdoor
 recipes.remove(<etfuturum:iron_trapdoor>);
@@ -26,6 +23,13 @@ recipes.addShaped(<etfuturum:iron_trapdoor>, [[null, <ore:ingotIron>, null], [<o
 
 #Extract Lava from Magma
 mods.thermalexpansion.Transposer.addExtractRecipe(800, <etfuturum:magma>, <liquid:lava> * 500, <minecraft:netherrack>, 100);
+
+#Totem Undying
+vanilla.loot.addChestLoot("pyramidDesertyChest", <etfuturum:totem_of_undying>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <etfuturum:totem_of_undying>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <etfuturum:totem_of_undying>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <etfuturum:totem_of_undying>.weight(1), 1, 1);
+
 
 ### Composter ###
 

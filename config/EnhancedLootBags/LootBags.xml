@@ -71,7 +71,7 @@
         <Loot Identifier="scrapyard-giftstorage" ItemName="StevesCarts:CartModule:50" Amount="1" NBTTag="" Chance="3" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="scrapyard-eggstorage" ItemName="StevesCarts:CartModule:74" Amount="1" NBTTag="" Chance="3" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="scrapyard-batdetector" ItemName="StevesCarts:CartModule:48" Amount="1" NBTTag="" Chance="3" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="scrapyard-rawhardened" ItemName="StevesCarts:ModuleComponents:18" Amount="2" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="scrapyard-stabilizedmetal" ItemName="StevesCarts:ModuleComponents:21" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="scrapyard-goldnugget" ItemName="minecraft:gold_nugget" Amount="14" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="scrapyard-rail" ItemName="minecraft:rail" Amount="8" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="scrapyard-pumpkinchariot" ItemName="StevesCarts:CartModule:47" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
