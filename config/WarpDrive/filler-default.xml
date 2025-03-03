@@ -148,7 +148,7 @@
 	
 	<fillerSet group="end_ores" name="endstone">
 		<filler block="Metallurgy:ender.ore" ratio="0.005" mods="Metallurgy" />
-		<filler block="Metallurgy:ender.ore" metadata="3" ratio="0.005" mods="Metallurgy" />
+		<filler block="Metallurgy:ender.ore" metadata="1" ratio="0.005" mods="Metallurgy" />
 		<filler block="BiomesOPlenty:gemOre" ratio=".039" mods="BiomesO'Plenty" />
 		<filler block="NuclearCraft:blockOre" metadata="8" mods="NuclearCraft" ratio=".02" /><!-- Boron -->
 		<filler block="gregtech_addon:ore" metadata="10" mods="gregtech_addon" ratio=".02" /><!-- Sheldonite -->
