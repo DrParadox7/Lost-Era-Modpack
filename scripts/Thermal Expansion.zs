@@ -2,14 +2,6 @@
 #Author: TechnoParadox
 print("Initializing 'ThermalExpansion.zs'...");
 
-#Mithril issues
-val Mithril = <ore:ingotMithril>;
-Mithril.add(<ThermalFoundation:material:70>);
-
-#Remove Dye tag from sulfur
-val Yellow = <ore:dyeYellow>;
-Yellow.remove(<ThermalFoundation:material:16>);
-
 #Tesseract 
 recipes.remove(<ThermalExpansion:Tesseract>);
 recipes.addShapeless(<ThermalExpansion:Tesseract>, [<ThermalExpansion:Frame:11>, <NuclearCraft:antimatter>]);
@@ -26,17 +18,6 @@ mods.thermalexpansion.Pulverizer.addRecipe(4000, <minecraft:gold_ore>, <ThermalF
 
 #Lapis Dust
 mods.thermalexpansion.Pulverizer.addRecipe(2400, <minecraft:dye:4>, <NuclearCraft:material:10>);
-
-#Remove unbalanced duplicate Electrum Blend
-recipes.removeShapeless(<ThermalFoundation:material:39>);
-
-#Cryotheum Dust uses Lapis Dust
-recipes.remove(<ThermalFoundation:material:513>);
-recipes.addShapeless(<ThermalFoundation:material:513> * 2, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustLapis>, <ThermalFoundation:material:1025>]);
-
-#Enderium Compat
-recipes.remove(<ThermalFoundation:material:44>);
-recipes.addShapeless(<ThermalFoundation:material:44>*4, [<ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <ore:dustPlatinum>, <ore:bucketEnder>]);
 
 #Transposer recipes
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
@@ -103,16 +84,17 @@ recipes.addShaped(<ThermalExpansion:capacitor:5>, [[<RedstoneArsenal:material:96
 
 # Energy Cells
 #Leadstone Cell
-recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
+recipes.addShaped(<ThermalExpansion:Cell:1>.withTag({Recv: 200, RSControl: 1 as byte, Facing: 5 as byte, Energy: 0, SideCache: [1, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 200}), [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
 
 #Hardened Cell
-recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotInvar>, null], [<ore:ingotInvar>, <ThermalExpansion:Cell:1>, <ore:ingotInvar>], [null, <ore:ingotInvar>, null]]);
-recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:5>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
-recipes.addShaped(<ThermalExpansion:Cell:2>, [[<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
+recipes.addShaped(<ThermalExpansion:Cell:2>.withTag({Recv: 800, RSControl: 1 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 800}), [[null, <ore:ingotInvar>, null], [<ore:ingotInvar>, <ThermalExpansion:Cell:1>, <ore:ingotInvar>], [null, <ore:ingotInvar>, null]]);
+recipes.addShaped(<ThermalExpansion:Cell:2>.withTag({Recv: 800, RSControl: 1 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 800}), [[null, <ore:ingotRedAlloy>, null], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:5>, <ore:ingotRedAlloy>], [null, <ThermalExpansion:material:3>, null]]);
+recipes.addShaped(<ThermalExpansion:Cell:2>.withTag({Recv: 800, RSControl: 1 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 800}), [[<ore:ingotInvar>, <ore:ingotRedAlloy>, <ore:ingotInvar>], [<ore:ingotRedAlloy>, <ThermalExpansion:Frame:4>, <ore:ingotRedAlloy>], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
+
 
 #Redstone Energy Cell
 recipes.removeShaped(<ThermalExpansion:Cell:3>);
-recipes.addShaped(<ThermalExpansion:Cell:3>, [[null, <RedstoneArsenal:material:32>, null], [<RedstoneArsenal:material:32>, <ThermalExpansion:Frame:7>, <RedstoneArsenal:material:32>], [null, <ThermalExpansion:material:3>, null]]);
+recipes.addShaped(<ThermalExpansion:Cell:3>.withTag({Recv: 8000, RSControl: 1 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 8000}), [[null, <RedstoneArsenal:material:32>, null], [<RedstoneArsenal:material:32>, <ThermalExpansion:Frame:7>, <RedstoneArsenal:material:32>], [null, <ThermalExpansion:material:3>, null]]);
 
 
 #Portable Tanks

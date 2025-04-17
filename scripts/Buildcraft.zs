@@ -39,4 +39,12 @@ recipes.addShaped(<BuildCraft|Silicon:laserTableBlock:3>, [[<minecraft:obsidian>
 mods.buildcraft.AssemblyTable.removeRecipe(<BuildCraft|Silicon:redstoneCrystal>);
 mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneCrystal>, 1800000, [<minecraft:redstone_block>]);
 
+## Gears
+# Gold
+recipes.remove(<BuildCraft|Core:goldGearItem>);
+recipes.addShaped(<BuildCraft|Core:goldGearItem>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:gearStone>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+# Diamond
+recipes.remove(<BuildCraft|Core:diamondGearItem>);
+recipes.addShaped(<BuildCraft|Core:diamondGearItem>, [[null, <ore:gemDiamond>, null], [<ore:gemDiamond>, <ore:gearStone>, <ore:gemDiamond>], [null, <ore:gemDiamond>, null]]);
+
 print("Initialized 'Buildcraft.zs'");
