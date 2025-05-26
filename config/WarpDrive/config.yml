@@ -180,9 +180,9 @@ energy_bank {
 
     # IC2 energy tier for each energy bank (0 is BatBox, etc.)
     I:ic2_tier <
-        2
-        3
-        4
+        5
+        5
+        5
      >
 
     # Maximum energy stored for each energy bank
