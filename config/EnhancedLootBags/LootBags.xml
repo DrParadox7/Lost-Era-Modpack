@@ -75,7 +75,7 @@
         <Loot Identifier="scrapyard-goldnugget" ItemName="minecraft:gold_nugget" Amount="14" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="scrapyard-rail" ItemName="minecraft:rail" Amount="8" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="scrapyard-pumpkinchariot" ItemName="StevesCarts:CartModule:47" Amount="1" NBTTag="" Chance="8" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="scrapyard-chest" ItemName="minecraft:chest" Amount="3" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="scrapyard-glowstone" ItemName="minecraft:glowstone_dust" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="scrapyard-ironnugget" ItemName="ThermalFoundation:material:8" Amount="36" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="scrapyard-pcb" ItemName="StevesCarts:ModuleComponents:9" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="scrapyard-explosivecake" ItemName="StevesCarts:CartModule:100" Amount="1" NBTTag="" Chance="3" ItemGroup="trick" LimitedDropCount="0" RandomAmount="false"/>
