@@ -46,4 +46,24 @@ mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:stone>, <etfuturum:smoo
 
 recipes.addShaped(<ProjRed|Core:projectred.core.part>*6, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 
+## IC Module ##
+
+# IC Workbench
+recipes.remove(<ProjRed|Fabrication:projectred.integration.icblock>);
+mods.extraUtils.QED.addShapedRecipe(<ProjRed|Fabrication:projectred.integration.icblock>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:dye>, <minecraft:crafting_table>, <minecraft:feather>], [<ore:plankWood>, <ore:gearGold>, <ore:plankWood>]]);
+
+# IC Blueprint
+recipes.remove(<ProjRed|Fabrication:projectred.fabrication.icblueprint>);
+mods.extraUtils.QED.addShapedRecipe(<ProjRed|Fabrication:projectred.fabrication.icblueprint>, [[<minecraft:paper>, <minecraft:ender_pearl>, <minecraft:paper>], [<minecraft:dye:4>, <minecraft:writable_book>, <minecraft:dye:4>], [<minecraft:paper>, <ore:ingotRedAlloy>, <minecraft:paper>]]);
+
+
+# IC Printer
+recipes.remove(<ProjRed|Fabrication:projectred.integration.icblock:1>);
+mods.extraUtils.QED.addShapedRecipe(<ProjRed|Fabrication:projectred.integration.icblock:1>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<minecraft:ender_eye>, <minecraft:emerald>, <minecraft:ender_eye>], [<minecraft:piston>, <ore:gearDiamond>, <minecraft:piston>]]);
+
+#IC Chipset
+recipes.remove(<ProjRed|Fabrication:projectred.fabrication.icchip>);
+recipes.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip>, [[<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>], [<minecraft:ender_pearl>, <qCraft:essence>, <minecraft:ender_pearl>], [<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>]]);
+
+
 print("Initialized 'ProjectRed.zs'");
