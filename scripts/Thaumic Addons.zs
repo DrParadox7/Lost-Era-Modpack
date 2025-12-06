@@ -145,18 +145,18 @@ mods.thaumcraft.Research.removeResearch("ANIMATION_TABLET");
 
 ###### Magia Naturalis ##########
 #Fix construction focus
-recipes.addShapeless(<magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}), [<minecraft:brick>, <magianaturalis:item.focusBuild>]);
-mods.thaumcraft.Research.addCraftingPage("FOCUS_BUILD", <magianaturalis:item.focusBuild>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}));
+recipes.addShapeless(<magianaturalis:builder_focus>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}), [<minecraft:brick>, <magianaturalis:builder_focus>]);
+mods.thaumcraft.Research.addCraftingPage("magianaturalis:construction_focus", <magianaturalis:builder_focus>.withTag({RepairCost: 2, upgrade: [{id: 6 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}, {id: -1 as short}], magia_naturalis: [{size: 1 as byte, shape: 2 as byte}, {size: 1 as byte, shape: 2 as byte}], display: {Name: "Wand Focus: Construction (Awakened)"}}));
 
 #Duping scythe
-mods.thaumcraft.Research.orphanResearch("SICKLE_ABUNDANCE");
-mods.thaumcraft.Research.removeResearch("SICKLE_ABUNDANCE");
+mods.thaumcraft.Research.orphanResearch("magianaturalis:sickle_of_abundance");
+mods.thaumcraft.Research.removeResearch("magianaturalis:sickle_of_abundance");
 
 #Sickle Research auto unlocked
-mods.thaumcraft.Research.setAutoUnlock("SICKLE_THAUM", true);
+mods.thaumcraft.Research.setAutoUnlock("magianaturalis:sickles", true);
 
 #Lock Infusion research behind infusion JAR_PRISON
-mods.thaumcraft.Research.addPrereq("JAR_PRISON", "INFUSION", true);
+mods.thaumcraft.Research.addPrereq("magianaturalis:prison_jar", "INFUSION", true);
 
 #########################
 
@@ -175,10 +175,10 @@ mods.thaumcraft.Arcane.addShapeless("ORE", <Thaumcraft:blockCosmeticSolid:6>*3, 
 mods.thaumcraft.Arcane.addShaped("ORE", <Thaumcraft:blockCosmeticSolid:6> * 8, "terra 1, ignis 1", [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <Thaumcraft:ItemShard:*>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 
 #Entity in a Jar 
-mods.thaumcraft.Infusion.removeRecipe(<magianaturalis:block.jarPrison>);
-mods.thaumcraft.Infusion.addRecipe("JAR_PRISON", <Thaumcraft:blockJar>, [<minecraft:gold_ingot>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:lead>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>], "vinculum 8, alienis 8, permutatio 8, vacuos 8, tutamen 8", <magianaturalis:block.jarPrison>, 3);
-mods.thaumcraft.Research.refreshResearchRecipe("JAR_PRISON");
-mods.thaumcraft.Research.addPrereq("JAR_PRISON", "WARDEDARCANA", false);
+mods.thaumcraft.Infusion.removeRecipe(<magianaturalis:prison_jar>);
+mods.thaumcraft.Infusion.addRecipe("magianaturalis:prison_jar", <Thaumcraft:blockJar>, [<minecraft:gold_ingot>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:lead>, <Thaumcraft:blockCosmeticOpaque:2>, <minecraft:ender_pearl>, <Thaumcraft:blockCosmeticOpaque:2>], "vinculum 8, alienis 8, permutatio 8, vacuos 8, tutamen 8", <magianaturalis:prison_jar>, 3);
+mods.thaumcraft.Research.refreshResearchRecipe("magianaturalis:prison_jar");
+mods.thaumcraft.Research.addPrereq("magianaturalis:prison_jar", "WARDEDARCANA", false);
 #########################
 
 ###### Forbidden Magic ##########

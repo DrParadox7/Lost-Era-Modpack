@@ -1,5 +1,4 @@
 
 config/mcinstanceloader/*
 config/mod-director/*
-config/betterquesting/DefaultQuests.json
 config/mcpatcherforge.cfg

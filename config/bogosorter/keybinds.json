@@ -1,0 +1,24 @@
+{
+  "move_single": [
+    -100,
+    29
+  ],
+  "move_all": [
+    -100,
+    57
+  ],
+  "move_all_same": [
+    -100,
+    56
+  ],
+  "throw_all_same": [
+    56
+  ],
+  "move_single_empty": [
+    -99,
+    29
+  ],
+  "throw_all": [
+    57
+  ]
+}

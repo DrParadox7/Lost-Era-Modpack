@@ -5,3 +5,7 @@ shapeless=
 shapeless=
     ae2:ItemMaterial.AnnihilationCore ae2:ItemPart.StorageMonitor ae2:ItemMaterial.FormationCore
     -> ae2:ItemPart.ConversionMonitor
+
+shapeless=
+    ae2:ItemMaterial.EngProcessor ae2:ItemPart.StorageMonitor ae2:ItemMaterial.EngProcessor
+    -> ae2:ItemPart.ThroughputMonitor

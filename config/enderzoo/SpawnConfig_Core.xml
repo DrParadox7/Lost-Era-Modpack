@@ -91,6 +91,7 @@ dimensionExclude attributes:
       <biome type="NETHER" exclude="true" />
       <biome type="END" exclude="true" />
       <biome type="MUSHROOM" exclude="true" />
+      <biome name="Tainted Land" exclude="true" />
     </biomeFilter>   
     <dimensionExclude name="Twilight Forest"/>           
     <dimensionExclude name="Dungeon"/>

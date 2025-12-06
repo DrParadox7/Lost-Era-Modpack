@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": false,
@@ -37,12 +37,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -67,12 +62,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "default": {
@@ -91,12 +81,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "hyperspace": {
@@ -116,12 +101,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "mirror": {
@@ -140,12 +120,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "spectreworld": {
@@ -165,12 +140,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "spirit_world": {
@@ -190,12 +160,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "pocket_plane": {
@@ -215,12 +180,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "solarsystem": {
@@ -240,12 +200,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "underdark": {
@@ -265,12 +220,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "the_last_millenium": {
@@ -290,12 +240,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "compactmachinesworld": {
@@ -315,12 +260,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "the_outer_lands": {
@@ -340,12 +280,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -371,12 +306,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     },
@@ -400,12 +330,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "loadingData": {
@@ -424,12 +349,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "lanData": {
@@ -448,12 +368,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "singleplayerData": {
@@ -472,12 +387,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "realmData": {
@@ -512,12 +422,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -544,12 +449,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       },
@@ -570,12 +470,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -585,8 +480,7 @@
     "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": true
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_US",
@@ -610,19 +504,12 @@
       "smallImageText": "{server.message}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
       "_TechnoParadox_": "https://crafatar.com/avatars/565cae7ce4b04b6dbe9cffe23e04a380"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
