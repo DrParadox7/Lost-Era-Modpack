@@ -230,7 +230,7 @@ general {
     S:schematic_location=warpDrive_schematics
 
     # Space biome ID
-    I:space_biome_id=95
+    I:space_biome_id=169
 
     # Space dimension provider ID
     I:space_provider_id=-2
