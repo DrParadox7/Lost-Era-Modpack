@@ -959,7 +959,7 @@
         <Loot Identifier="electronic-dusttin" ItemName="IC2:itemDust:7" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="electronic-dusttetrahedrite" ItemName="gregtech_addon:metaitem_1:2840" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="electronic-dustcassiderite" ItemName="gregtech_addon:metaitem_1:2824" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="electronic-dustlead" ItemName="gregtech_addon:metaitem_1:2089" Amount="6" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="electronic-dustlead" ItemName="IC2:itemDust:10" Amount="6" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="electronic-dustgold" ItemName="IC2:itemDust:4" Amount="6" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="electronic-platecopper" ItemName="IC2:itemPlates" Amount="3" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="electronic-plateiron" ItemName="IC2:itemPlates:4" Amount="3" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
@@ -982,7 +982,7 @@
         <Loot Identifier="industrial-dusttin" ItemName="IC2:itemDust:7" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="industrial-dusttetrahedrite" ItemName="gregtech_addon:metaitem_1:2840" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="industrial-dustcassiderite" ItemName="gregtech_addon:metaitem_1:2824" Amount="6" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="industrial-dustlead" ItemName="gregtech_addon:metaitem_1:2089" Amount="6" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="industrial-dustlead" ItemName="IC2:itemDust:10" Amount="6" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="industrial-dustgold" ItemName="IC2:itemDust:4" Amount="6" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="industrial-dustbauxite" ItemName="gregtech_addon:metaitem_1:2822" Amount="6" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="industrial-dustpyrite" ItemName="gregtech_addon:metaitem_1:2834" Amount="6" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
