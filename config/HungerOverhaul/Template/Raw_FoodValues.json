@@ -296,7 +296,8 @@
             "name": "harvestcraft:pastaItem",
             "hunger": [
                 "harvestcraft:doughItem"
-            ]
+            ],
+            "type":"inheritance"
         },
         {
             "name": "harvestcraft:mayoItem",
@@ -1386,7 +1387,7 @@
             "name": "Forestry:ambrosia",
             "meta": 0,
             "hunger": 10,
-            "saturationModifier": 4
+            "saturationModifier": 2.4
         },
         {
             "name": "Forestry:honeyPot",
@@ -1517,7 +1518,7 @@
             "name": "MineFactoryReloaded:meat.ingot.raw",
             "meta": 0,
             "hunger": 4,
-            "saturationModifier": 1,
+            "saturationModifier": 0.2,
             "foodGroups": [
                 "Meats"
             ]
@@ -1526,7 +1527,7 @@
             "name": "MineFactoryReloaded:meat.ingot.cooked",
             "meta": 0,
             "hunger": 6,
-            "saturationModifier": 1,
+            "saturationModifier": 0.2,
             "foodGroups": [
                 "Meats"
             ]
@@ -1535,7 +1536,7 @@
             "name": "MineFactoryReloaded:meat.nugget.raw",
             "meta": 0,
             "hunger": 1,
-            "saturationModifier": 1,
+            "saturationModifier": 0.2,
             "foodGroups": [
                 "Meats"
             ]
@@ -1544,7 +1545,7 @@
             "name": "MineFactoryReloaded:meat.nugget.cooked",
             "meta": 0,
             "hunger": 2,
-            "saturationModifier": 1,
+            "saturationModifier": 0.2,
             "foodGroups": [
                 "Meats"
             ]
@@ -2039,7 +2040,7 @@
             "name": "gregtech_addon:metaitem_1",
             "meta": 32100,
             "hunger": 3,
-            "saturationModifier": 5,
+            "saturationModifier": 1.0,
             "foodGroups": [
                 "Beverages"
             ]
@@ -3429,16 +3430,14 @@
             "hunger": [
                 "minecraft:egg"
             ],
-            "foodGroups": [
-                "Meats"
-            ],
             "type": "smelting"
         },
         {
             "name": "harvestcraft:scrambledeggItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:friedeggItem"
+                "harvestcraft:friedeggItem",
+                "harvestcraft:heavycreamItem"
             ]
         },
         {
@@ -3561,7 +3560,7 @@
             "name": "harvestcraft:spagettiItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:tomatoItem",
+                "harvestcraft:tomatosoupItem",
                 "harvestcraft:pastaItem",
                 "harvestcraft:spiceleafItem"
             ],
@@ -3571,10 +3570,8 @@
             "name": "harvestcraft:spagettiandmeatballsItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:tomatoItem",
-                "harvestcraft:pastaItem",
-                "harvestcraft:spiceleafItem",
-                "minecraft:cooked_porkchop"
+                "harvestcraft:spagettiItem",
+                "harvestcraft:suaderoItem"
             ],
             "type": "crafting"
         },
@@ -3591,9 +3588,11 @@
             "name": "harvestcraft:chickenparmasanItem",
             "meta": 0,
             "hunger": [
+                "harvestcraft:flourItem",
                 "minecraft:cooked_chicken",
-                "harvestcraft:tomatoItem",
-                "harvestcraft:cheeseItem"
+                "harvestcraft:cheeseItem",
+                "harvestcraft:tomatosoupItem",
+                "harvestcraft:pastaItem"
             ],
             "type": "crafting"
         },
@@ -3734,6 +3733,7 @@
             "name": "harvestcraft:heartybreakfastItem",
             "meta": 0,
             "hunger": [
+                "minecraft:cooked_porkchop",
                 "harvestcraft:friedeggItem",
                 "harvestcraft:toastItem",
                 "harvestcraft:potatocakesItem",
@@ -3771,10 +3771,9 @@
             "name": "harvestcraft:nachoesItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:tortillaItem",
-                "harvestcraft:cheeseItem"
+                "harvestcraft:tortillaItem"
             ],
-            "type": "crafting"
+            "type": "smelting"
         },
         {
             "name": "harvestcraft:tacoItem",
@@ -4108,7 +4107,7 @@
                 "minecraft:carrot",
                 "harvestcraft:friedriceItem",
                 "harvestcraft:onionItem",
-                "harvestcraft:beanItem"
+                "harvestcraft:chilipepperItem"
             ],
             "type": "crafting"
         },
@@ -4126,13 +4125,11 @@
             "name": "harvestcraft:supremepizzaItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:doughItem",
-                "harvestcraft:tomatoItem",
-                "harvestcraft:cheeseItem",
-                "minecraft:cooked_porkchop",
+                "harvestcraft:pizzaItem",
+                "harvestcraft:chorizoItem",
+                "harvestcraft:grilledmushroomItem",
                 "harvestcraft:bellpepperItem",
-                "harvestcraft:onionItem",
-                "harvestcraft:spiceleafItem"
+                "harvestcraft:onionItem"
             ],
             "type": "crafting"
         },
@@ -4805,10 +4802,9 @@
             "name": "harvestcraft:asparagusquicheItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:asparagusItem",
-                "minecraft:egg",
-                "harvestcraft:onionItem",
-                "harvestcraft:cheeseItem"
+                "harvestcraft:grilledasparagusItem",
+                "harvestcraft:friedeggItem",
+                "harvestcraft:onionItem"
             ],
             "type": "crafting"
         },
