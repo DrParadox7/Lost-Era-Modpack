@@ -1290,7 +1290,8 @@
             "meta": 6,
             "hunger": [
                 "minecraft:cookie"
-            ]
+            ],
+            "type": "inheritance"
         },
         {
             "name": "ForbiddenMagic:GluttonyShard",
@@ -2032,7 +2033,7 @@
             "name": "gregtech_addon:metaitem_1",
             "meta": 32010,
             "hunger": 4,
-            "saturationModifier": 2.4
+            "saturationModifier": 0.2
         },
         {
             "name": "gregtech_addon:metaitem_1",
