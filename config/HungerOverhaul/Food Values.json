@@ -2544,7 +2544,7 @@
         {
             "name": "harvestcraft:supremepizzaItem",
             "meta": 0,
-            "hunger": 25,
+            "hunger": 21,
             "saturationModifier": 2.4
         },
         {

@@ -390,7 +390,7 @@ recipes.addShapeless(<harvestcraft:rainbowcurryItem>, [<harvestcraft:cuttingboar
 
 # Supreme Pizza
 recipes.remove(<harvestcraft:supremepizzaItem>);
-recipes.addShapeless(<harvestcraft:supremepizzaItem>, [<harvestcraft:cuttingboardItem>, <harvestcraft:pizzaItem>,<harvestcraft:chorizoItem>,<harvestcraft:grilledmushroomItem>,<harvestcraft:bellpepperItem>,<harvestcraft:onionItem>]);
+recipes.addShapeless(<harvestcraft:supremepizzaItem>, [<harvestcraft:cuttingboardItem>, <harvestcraft:pizzaItem>,<harvestcraft:chorizoItem>,<harvestcraft:bellpepperItem>,<harvestcraft:onionItem>]);
 
 # Omelet
 recipes.remove(<harvestcraft:omeletItem>);
