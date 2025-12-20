@@ -84,7 +84,7 @@ recipes.remove(<ExtraUtilities:generator:4>);
 
 #Deep Dark Portal
 recipes.remove(<ExtraUtilities:dark_portal>);
-recipes.addShaped(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:cobblestone_compressed:3>, <Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:3>], [<Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:4>, <Aroma1997sDimension:portalIgniter>], [<ExtraUtilities:cobblestone_compressed:3>, <Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:3>]]);
+recipes.addShaped(<ExtraUtilities:dark_portal>, [[<ExtraUtilities:cobblestone_compressed:3>, <Aroma1997sDimension:portalIgniter>.noReturn(), <ExtraUtilities:cobblestone_compressed:3>], [<Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:4>, <Aroma1997sDimension:portalIgniter>], [<ExtraUtilities:cobblestone_compressed:3>, <Aroma1997sDimension:portalIgniter>, <ExtraUtilities:cobblestone_compressed:3>]]);
 
 #Natura Compat
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>], [<minecraft:enchanted_book>, <Natura:Natura.bookshelf:*>, <minecraft:enchanted_book>], [<minecraft:gold_ingot>, <minecraft:enchanted_book>, <minecraft:gold_ingot>]]);
