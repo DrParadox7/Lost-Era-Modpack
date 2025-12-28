@@ -24,6 +24,11 @@ recipes.addShaped(<ExtraUtilities:golden_bag>, [[<witchery:ingredient:102>, <wit
 #Patch cheap silver for tech users
 recipes.removeShapeless(<ore:dustSilver>, [<witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>, <witchery:ingredient:157>]);
 
+#Fix witch planks missing slab recipes
+recipes.addShaped(<witchery:witchwoodslab>, [[<witchery:witchwood>, <witchery:witchwood>, <witchery:witchwood>]]);
+recipes.addShaped(<witchery:witchwoodslab:1>, [[<witchery:witchwood:1>, <witchery:witchwood:1>, <witchery:witchwood:1>]]);
+recipes.addShaped(<witchery:witchwoodslab:2>, [[<witchery:witchwood:2>, <witchery:witchwood:2>, <witchery:witchwood:2>]]);
+
 #Remove Artichoke oredict from Water Artichoke
 val artichoke = <ore:cropArtichoke>;
 val veggie = <ore:listAllveggie>;
