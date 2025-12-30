@@ -45,6 +45,7 @@ recipes.addShaped(<Forestry:stamps:3> * 6, [[<minecraft:ender_pearl>], [<minecra
 recipes.remove(<Forestry:letters>);
 recipes.addShaped(<Forestry:letters> * 4, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <harvestcraft:waxItem>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 recipes.addShaped(<Forestry:letters> * 4, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <ore:itemBeeswax>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<Forestry:letters> * 4, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <ore:slimeBall>,<minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 
 #### Backpack Integration #### 
