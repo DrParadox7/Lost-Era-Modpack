@@ -1860,7 +1860,7 @@
         {
             "name": "harvestcraft:coffeeItem",
             "meta": 0,
-            "hunger": 2,
+            "hunger": 3,
             "saturationModifier": 1.2
         },
         {
@@ -2706,13 +2706,13 @@
         {
             "name": "harvestcraft:espressoItem",
             "meta": 0,
-            "hunger": 1,
+            "hunger": 2,
             "saturationModifier": 0.6
         },
         {
             "name": "harvestcraft:coffeeconlecheItem",
             "meta": 0,
-            "hunger": 5,
+            "hunger": 6,
             "saturationModifier": 1.8
         },
         {

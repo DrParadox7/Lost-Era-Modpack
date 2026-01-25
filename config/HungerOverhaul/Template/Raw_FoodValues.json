@@ -4431,7 +4431,7 @@
             "appendGroups": [
                 "Beverages"
             ],
-            "hungerModifier": 0.33,
+            "hungerModifier": 0.4,
             "type": "crafting"
         },
         {
