@@ -1855,13 +1855,13 @@
             "name": "harvestcraft:teaItem",
             "meta": 0,
             "hunger": 3,
-            "saturationModifier": 0.2
+            "saturationModifier": 0.6
         },
         {
             "name": "harvestcraft:coffeeItem",
             "meta": 0,
             "hunger": 2,
-            "saturationModifier": 0.6
+            "saturationModifier": 1.2
         },
         {
             "name": "harvestcraft:popcornItem",
@@ -2136,13 +2136,13 @@
         {
             "name": "harvestcraft:boiledeggItem",
             "meta": 0,
-            "hunger": 2,
+            "hunger": 4,
             "saturationModifier": 0.6
         },
         {
             "name": "harvestcraft:eggsaladItem",
             "meta": 0,
-            "hunger": 4,
+            "hunger": 6,
             "saturationModifier": 1.2
         },
         {
@@ -2695,25 +2695,25 @@
             "name": "harvestcraft:raspberryicedteaItem",
             "meta": 0,
             "hunger": 5,
-            "saturationModifier": 0.6
+            "saturationModifier": 1.2
         },
         {
             "name": "harvestcraft:chaiteaItem",
             "meta": 0,
-            "hunger": 5,
+            "hunger": 7,
             "saturationModifier": 1.2
         },
         {
             "name": "harvestcraft:espressoItem",
             "meta": 0,
-            "hunger": 3,
-            "saturationModifier": 0.2
+            "hunger": 1,
+            "saturationModifier": 0.6
         },
         {
             "name": "harvestcraft:coffeeconlecheItem",
             "meta": 0,
-            "hunger": 6,
-            "saturationModifier": 1.2
+            "hunger": 5,
+            "saturationModifier": 1.8
         },
         {
             "name": "harvestcraft:mochaicecreamItem",
@@ -4269,7 +4269,7 @@
         {
             "name": "harvestcraft:futomakiItem",
             "meta": 0,
-            "hunger": 10,
+            "hunger": 12,
             "saturationModifier": 1.2
         },
         {
@@ -4983,7 +4983,7 @@
         {
             "name": "harvestcraft:ploughmanslunchItem",
             "meta": 0,
-            "hunger": 21,
+            "hunger": 23,
             "saturationModifier": 1.8
         },
         {
@@ -5055,7 +5055,7 @@
         {
             "name": "harvestcraft:coconutsmoothieItem",
             "meta": 0,
-            "hunger": 2,
+            "hunger": 3,
             "saturationModifier": 0.6
         },
         {

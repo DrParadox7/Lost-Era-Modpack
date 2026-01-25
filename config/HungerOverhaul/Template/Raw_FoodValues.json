@@ -159,13 +159,19 @@
             "foodGroups": [
                 "Sweets"
             ]
-        }
-    ],
-    "processes": [
+        },
         {
-            "name": "process:smelting",
+            "name": "value:snow",
+            "hunger": 0,
+            "saturationModifier": 0.0,
+            "foodGroups": [
+                "None"
+            ]
+        },
+        {
+            "name": "value:smelting",
             "hunger": 2,
-            "saturationModifier": -1.0,
+            "saturationModifier": 0.0,
             "foodGroups": [
                 "None"
             ]
@@ -381,6 +387,20 @@
             "hunger": [
                 "harvestcraft:cinnamonItem"
             ]
+        },
+        {
+            "name": "harvestcraft:boiledwaterItem",
+            "hunger": [
+                "value:smelting"
+            ],
+            "type": "inheritance"
+        },
+        {
+            "name": "minecraft:snowball",
+            "hunger": [
+                "value:snow"
+            ],
+            "type": "inheritance"
         }
     ],
     "foods": [
@@ -3000,12 +3020,13 @@
             "name": "harvestcraft:teaItem",
             "meta": 0,
             "hunger": [
+                "harvestcraft:boiledwaterItem",
                 "harvestcraft:tealeafItem"
             ],
             "appendGroups": [
                 "Beverages"
             ],
-            "type": "smelting"
+            "type": "crafting"
         },
         {
             "name": "harvestcraft:coffeeItem",
@@ -3013,10 +3034,6 @@
             "hunger": [
                 "harvestcraft:espressoItem",
                 "minecraft:sugar"
-            ],
-            "hungerModifier": 0.5,
-            "appendGroups": [
-                "Beverages"
             ],
             "type": "crafting"
         },
@@ -3090,7 +3107,8 @@
             "meta": 0,
             "hunger": [
                 "minecraft:milk_bucket",
-                "harvestcraft:saltItem"
+                "harvestcraft:saltItem",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -3183,7 +3201,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:melonjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -3444,6 +3463,7 @@
             "name": "harvestcraft:boiledeggItem",
             "meta": 0,
             "hunger": [
+                "harvestcraft:boiledwaterItem",
                 "minecraft:egg"
             ]
         },
@@ -3812,7 +3832,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:strawberryjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -4127,7 +4148,6 @@
             "hunger": [
                 "harvestcraft:pizzaItem",
                 "harvestcraft:chorizoItem",
-                "harvestcraft:grilledmushroomItem",
                 "harvestcraft:bellpepperItem",
                 "harvestcraft:onionItem"
             ],
@@ -4216,7 +4236,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:lemonaideItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -4255,7 +4276,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:blueberryjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -4342,7 +4364,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:cherryjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -4374,7 +4397,11 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:teaItem",
-                "harvestcraft:raspberryItem"
+                "harvestcraft:raspberryItem",
+                "minecraft:snowball"
+            ],
+            "appendGroups": [
+                "Beverages"
             ],
             "type": "crafting"
         },
@@ -4383,8 +4410,12 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:teaItem",
+                "minecraft:milk_bucket",
                 "harvestcraft:groundcinnamonItem",
                 "harvestcraft:blackpepperItem"
+            ],
+            "appendGroups": [
+                "Beverages"
             ],
             "type": "crafting"
         },
@@ -4392,15 +4423,22 @@
             "name": "harvestcraft:espressoItem",
             "meta": 0,
             "hunger": [
+                "harvestcraft:boiledwaterItem",
+                "harvestcraft:coffeebeanItem",
+                "harvestcraft:coffeebeanItem",
                 "harvestcraft:coffeebeanItem"
             ],
-            "type": "smelting"
+            "appendGroups": [
+                "Beverages"
+            ],
+            "hungerModifier": 0.33,
+            "type": "crafting"
         },
         {
             "name": "harvestcraft:coffeeconlecheItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:espressoItem",
+                "harvestcraft:coffeeItem",
                 "minecraft:milk_bucket",
                 "harvestcraft:groundcinnamonItem"
             ],
@@ -4867,7 +4905,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:papayajuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -4895,7 +4934,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:starfruitjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5011,7 +5051,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:bananajuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5095,7 +5136,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:orangejuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5133,7 +5175,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:peachjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5172,7 +5215,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:limejuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5200,7 +5244,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:mangojuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5228,7 +5273,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:pomegranatejuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5517,7 +5563,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:blackberryjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5577,7 +5624,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:raspberryjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -5625,7 +5673,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:kiwijuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -6569,7 +6618,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:apricotjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -6607,7 +6657,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:figjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -6664,7 +6715,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:grapejuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -6741,7 +6793,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:persimmonjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -7741,7 +7794,8 @@
             "meta": 0,
             "hunger": [
                 "minecraft:milk_bucket",
-                "harvestcraft:strawberryItem"
+                "harvestcraft:strawberryItem",
+                "minecraft:snowball"
             ],
             "appendGroups": [
                 "Beverages"
@@ -7753,7 +7807,8 @@
             "meta": 0,
             "hunger": [
                 "minecraft:milk_bucket",
-                "harvestcraft:cocoapowderItem"
+                "harvestcraft:cocoapowderItem",
+                "minecraft:snowball"
             ],
             "appendGroups": [
                 "Beverages"
@@ -7765,7 +7820,8 @@
             "meta": 0,
             "hunger": [
                 "minecraft:milk_bucket",
-                "harvestcraft:bananaItem"
+                "harvestcraft:bananaItem",
+                "minecraft:snowball"
             ],
             "appendGroups": [
                 "Beverages"
@@ -7996,7 +8052,8 @@
             "meta": 0,
             "hunger": [
                 "minecraft:milk_bucket",
-                "harvestcraft:gooseberryItem"
+                "harvestcraft:gooseberryItem",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -8015,7 +8072,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:gooseberryjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -8267,7 +8325,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:applejuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -8275,7 +8334,9 @@
             "name": "harvestcraft:coconutsmoothieItem",
             "meta": 0,
             "hunger": [
-                "harvestcraft:coconutItem"
+                "harvestcraft:coconutItem",
+                "minecraft:sugar",
+                "minecraft:snowball"
             ]
         },
         {
@@ -8301,7 +8362,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:grapejuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -8310,7 +8372,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:pearItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },
@@ -8338,7 +8401,8 @@
             "meta": 0,
             "hunger": [
                 "harvestcraft:plumjuiceItem",
-                "minecraft:sugar"
+                "minecraft:sugar",
+                "minecraft:snowball"
             ],
             "type": "crafting"
         },

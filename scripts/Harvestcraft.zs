@@ -408,17 +408,6 @@ recipes.addShapeless(<harvestcraft:extremechiliItem>, [<harvestcraft:potItem>, <
 recipes.remove(<harvestcraft:fishdinnerItem>);
 recipes.addShapeless(<harvestcraft:fishdinnerItem>, [<harvestcraft:skilletItem>,<harvestcraft:lemonItem>,<harvestcraft:batterItem>,<ore:listAllfishcooked>,<harvestcraft:mayoItem>]);
 
-# Stuffed Eggplant
-recipes.removeShapeless(<harvestcraft:stuffedeggplantItem>, [<harvestcraft:bakewareItem>,<harvestcraft:eggplantItem>, <harvestcraft:garlicItem>]);
-
-# Espresso
-recipes.remove(<harvestcraft:espressoItem>);
-furnace.addRecipe(<harvestcraft:espressoItem>, <harvestcraft:coffeebeanItem>);
-
-# Coffee 
-furnace.remove(<harvestcraft:coffeeItem>);
-recipes.addShapeless(<harvestcraft:coffeeItem>*2, [<harvestcraft:espressoItem>, <ore:listAllwater>, <ore:listAllsugar>]);
-
 # Sweet Potato Pie
 recipes.remove(<harvestcraft:sweetpotatopieItem>);
 recipes.addShapeless(<harvestcraft:sweetpotatopieItem>, [<harvestcraft:bakewareItem>,<harvestcraft:bakedsweetpotatoItem>,<harvestcraft:doughItem>,<harvestcraft:groundcinnamonItem>,<harvestcraft:marshmellowsItem>]);
@@ -631,10 +620,25 @@ recipes.addShapeless(<harvestcraft:chickenparmasanItem>, [<harvestcraft:bakeware
 recipes.remove(<harvestcraft:asparagusquicheItem>);
 recipes.addShapeless(<harvestcraft:asparagusquicheItem>, [<harvestcraft:skilletItem>,<harvestcraft:grilledasparagusItem>,<harvestcraft:friedeggItem>,<harvestcraft:onionItem>]);
 
+# Espresso
+recipes.remove(<harvestcraft:espressoItem>);
+recipes.addShapeless(<harvestcraft:espressoItem> * 3, [<ore:listAllboiledwater>, <ore:cropCoffee>, <ore:cropCoffee>, <ore:cropCoffee>]);
+
+# Coffee con Leche
+recipes.remove(<harvestcraft:coffeeconlecheItem>);
+recipes.addShapeless(<harvestcraft:coffeeconlecheItem>, [<harvestcraft:coffeeItem>, <ore:listAllmilk>, <harvestcraft:groundcinnamonItem>]);
+
+# Raspberry Iced Tea
+recipes.remove(<harvestcraft:raspberryicedteaItem>);
+recipes.addShapeless(<harvestcraft:raspberryicedteaItem>, [<harvestcraft:teaItem>, <ore:cropRaspberry>, <ore:snowBall>]);
+
+# Chai Tea
+recipes.remove(<harvestcraft:chaiteaItem>);
+recipes.addShapeless(<harvestcraft:chaiteaItem>, [<harvestcraft:teaItem>, <ore:listAllmilk>, <harvestcraft:groundcinnamonItem>, <harvestcraft:blackpepperItem>]);
 
 
 # Replace Raw Rice with Fried Rice
-val rice =<ore:cropRice>;
+val rice = <ore:cropRice>;
 rice.remove(<harvestcraft:riceItem>);
 rice.add(<harvestcraft:friedriceItem>);
 
