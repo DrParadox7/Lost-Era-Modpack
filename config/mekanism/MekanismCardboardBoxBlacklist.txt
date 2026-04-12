@@ -1,8 +1,8 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "NAME META". Example (for stone):
 # minecraft:stone 0
-Thaumcraft:blockAiry 0
 AWWayofTime:demonPortalMain 0
+appliedenergistics2:tile.BlockDrive 0
 openmodularturrets:baseTierWood 0
 openmodularturrets:baseTierOneBlock 0
 openmodularturrets:baseTierTwoBlock 0
@@ -28,9 +28,18 @@ openmodularturrets:rocketTurret 0
 openmodularturrets:teleporterTurret 0
 openmodularturrets:laserTurret 0
 openmodularturrets:railGunTurret 0
+OpenComputers:case1 0
+OpenComputers:case2 0
+OpenComputers:case3 0
+OpenComputers:creative 0
+OpenComputers:adapter 0
+OpenComputers:raid 0
+OpenComputers:rack 0
 IC2:blockPersonal 0
 IC2:blockPersonal 1
 IC2:blockPersonal 2
+Thaumcraft:blockAiry 0
+Thaumcraft:blockMagicalLog 1
 ThermalExpansion:Strongbox 1
 ThermalExpansion:Strongbox 2
 ThermalExpansion:Strongbox 3
