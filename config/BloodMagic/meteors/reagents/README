@@ -1,0 +1,88 @@
+ #############################################
+### Blood Magic Meteor Reagent Config Guide ###
+ #############################################
+
+The butter for your bread.
+
+This file and the other default meteor reagent configs (crystallos.json, incendium.json, orbisTerrae.json, tenebrae.json, and terrae.json) are generated when the folder config/BloodMagic/meteors/reagents/ is not present.
+
+Remember that you need to use the Alchemic Calcinator to turn the reagent items into AR to be able to put into the Master Ritual Stone for them to have any effect. Also remember that only up to three different reagents may be in a Master Ritual Stone. Try the Alchemic Segmenter to make dealing with multiple reagents easier.
+
+If you are a player, feel free to delete this file. Nothing should fail to load for any of these configs like might happen with the default meteor ones.
+
+If you are a pack creator, the instructions on how to create your own custom meteor reagent effects are below.
+
+ ##############################################
+### Custom Meteor Reagent File Specification ###
+ ##############################################
+
+reagentName.json: These config files have more strict naming than the ones for meteors. You MUST name your file reagentName.json (using the reagent's internal name) to define how that reagent acts when summoning a meteor.
+
+The easiest way to find the internal reagent names is to look up crystal belljars in NEI and check their tooltips.
+This config system *should* be able to account for custom reagents that you make if you can figure out how to register them, but that is well beyond the scope of this guide.
+
+Your file must contain a valid JSON object, and the properties within will define that reagent's characteristics when used to summon a meteor. If you don't know how to read/write JSON, look at the default files as a guide or check out https://www.w3schools.com/js/js_json_intro.asp or any other online tutorial.
+
+Reagents that you intend to only use for unlocking blocks in Meteor Component arrays do not need to have a file in config/BloodMagic/meteors/reagents/, but putting an empty one here anyways will not hurt anything.
+------------------------------------------------
+"filler": Array of Meteor Component Strings
+
+Reagents with "filler" properties will *entirely replace* the filler of meteors they are used to summon.
+
+Only has an effect on meteors that have a fillerChance above zero, but they are still consumed.
+
+The same format as the "ores" and "filler" properties of meteors must be used:
+  modId:itemName:meta:weight(:reagent1, reagent2, ... optional)
+  OREDICT:oreDictName:weight(:reagent1, reagent2, ... optional)
+
+For best results when combining reagents, try to ensure that all reagent filler arrays you define have the same total weight. Default configs use a total of 180 because it is highly composite, but any number may be used.
+
+Meteor Components in a reagent's "filler" property CAN depend on other reagents being present!
+If all reagents used to summon a meteor have "filler" properties that *only* contain Meteor Components with reagents that are not present (so they all end up becoming empty), then the meteor's original filler list will be unchanged.
+------------------------------------------------
+"radiusChange": Int (+/-)
+
+Modify the meteor's radius by the given number.
+
+Only the single largest increase and single largest decrease will impact the summoned meteor.
+This is inspired by how Orbis Terrae completely overshadowed the effects of Terrae in the old system.
+
+Default value if not included in a config is 0.
+------------------------------------------------
+"fillerChanceChange": Int (+/-)
+
+Modify the filler chance of the summoned meteor. This is similar to how (Orbis) Terrae increased the max weight, except the numbers are smaller by a multiple of 10 (Orbis Terrae has a fillerChanceChange of 20 instead of adding 200 weight).
+The full formula is newFillerChance = 100 * (fillerChance + change) / (100 + change).
+For example, a meteor with a fillerChance of 50 and supplied with Orbis Terrae will have a new fillerChance of ~58%.
+
+Will not add filler to meteors with a fillerChance of 0.
+Setting a value of -100 will completely remove filler (to avoid division by zero).
+
+Only the single largest increase and single largest decrease will impact the summoned meteor.
+This is inspired by how Orbis Terrae completely overshadowed the effects of Terrae in the old system.
+
+Default value if not included in a config is 0.
+------------------------------------------------
+"rawFillerChanceChange": Float (+/-)
+
+Directly add or subtract from the summoned meteor's fillerChance.
+For example, a meteor with a fillerChance of 50 supplied with a custom reagent with rawFillerChanceChange set to -12.5 will have a new fillerChance of 37.5.
+
+Only the single largest increase and single largest decrease will impact the summoned meteor.
+This is inspired by how Orbis Terrae completely overshadowed the effects of Terrae in the old system.
+
+Default value if not included in a config is 0.
+------------------------------------------------
+"disableExplosions": true/false
+
+Entirely disables explosions caused by a meteor summoned with any reagent that has this property set to true.
+
+Unused in any default reagent configs.
+------------------------------------------------
+"invertExplosionBlockDamage": true/false
+
+Inverts the setting B:doMeteorsDestroyBlocks in config/AWWayofTime.cfg for meteors summoned with a reagent that has this property set to true.
+May be used to make normally dangerous meteors safe, or can be used as a tradeoff to unlock a powerful effect when meteors are normally safe.
+
+Unused in any default reagent configs.
+------------------------------------------------

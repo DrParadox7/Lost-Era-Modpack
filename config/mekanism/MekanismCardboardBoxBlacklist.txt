@@ -31,7 +31,6 @@ openmodularturrets:railGunTurret 0
 OpenComputers:case1 0
 OpenComputers:case2 0
 OpenComputers:case3 0
-OpenComputers:creative 0
 OpenComputers:adapter 0
 OpenComputers:raid 0
 OpenComputers:rack 0
