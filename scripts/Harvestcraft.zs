@@ -20,8 +20,8 @@ fish.remove(<harvestcraft:snailrawItem>);
 val barley = <ore:cropBarley>;
 
 barley.remove(<Natura:barleyFood>);
-recipes.addShaped(<minecraft:bread>, [[<Natura:barleyFood>, <Natura:barleyFood>, <Natura:barleyFood>]]);
 recipes.remove(<Natura:barleyFood:*>);
+recipes.addShaped(<Natura:barleyFood:1>, [[null, <harvestcraft:saltItem>, null],[<Natura:barleyFood>, <ore:listAllwater>, <Natura:barleyFood>],[null, <Natura:barleyFood>, null]]);
 
 #Unobtainable oredicts
 val flour = <ore:foodFlour>;
