@@ -223,15 +223,15 @@ recipes.removeShaped(<rftools:storageModuleTabletItem>, [[<minecraft:gold_nugget
 recipes.addShaped(<rftools:storageModuleTabletItem>, [[null, <Mekanism:ControlCircuit:2>, null], [<Mekanism:TeleportationCore>, <Mekanism:Dictionary>, <Mekanism:TeleportationCore>], [null, <Mekanism:EnergyTablet>, null]]);
 
 # Storage Module (Tier 1)
-recipes.remove(<rftools:storageModuleItem>);
+recipes.removeShaped(<rftools:storageModuleItem>, [[null, <minecraft:chest>, null], [<minecraft:gold_nugget>, <minecraft:iron_ingot>, <minecraft:gold_nugget>], [<minecraft:quartz>, <minecraft:redstone>, <minecraft:quartz>]]);
 recipes.addShaped(<rftools:storageModuleItem>, [[<ThermalExpansion:material>, <minecraft:ender_pearl>, <ThermalExpansion:material>], [<minecraft:chest>, <Mekanism:ControlCircuit>, <minecraft:chest>], [<ThermalExpansion:material>, <minecraft:ender_pearl>, <ThermalExpansion:material>]]);
 
 # Storage Module (Tier 2)
-recipes.remove(<rftools:storageModuleItem:1>);
+recipes.removeShaped(<rftools:storageModuleItem:1>, [[null, <minecraft:chest>, null], [<minecraft:gold_ingot>, <rftools:storageModuleItem>, <minecraft:gold_ingot>], [<minecraft:quartz>, <minecraft:redstone>, <minecraft:quartz>]]);
 recipes.addShaped(<rftools:storageModuleItem:1>, [[<Mekanism:EnrichedAlloy>, <minecraft:ender_pearl>, <Mekanism:EnrichedAlloy>], [<rftools:storageModuleItem>, <Mekanism:ControlCircuit:1>, <rftools:storageModuleItem>], [<Mekanism:EnrichedAlloy>, <minecraft:ender_pearl>, <Mekanism:EnrichedAlloy>]]);
 
 # Storage Module (Tier 3)
-recipes.remove(<rftools:storageModuleItem:2>);
+recipes.removeShaped(<rftools:storageModuleItem:2>, [[null, <minecraft:chest>, null], [<minecraft:gold_block>, <rftools:storageModuleItem:1>, <minecraft:gold_block>], [<minecraft:quartz_block>, <minecraft:redstone>, <minecraft:quartz_block>]]);
 recipes.addShaped(<rftools:storageModuleItem:2>, [[<Mekanism:ReinforcedAlloy>, <minecraft:ender_pearl>, <Mekanism:ReinforcedAlloy>], [<rftools:storageModuleItem:1>, <Mekanism:ControlCircuit:2>, <rftools:storageModuleItem:1>], [<Mekanism:ReinforcedAlloy>, <minecraft:ender_pearl>, <Mekanism:ReinforcedAlloy>]]);
 
 # Remote Storage Module
