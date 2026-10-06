@@ -219,7 +219,7 @@ recipes.remove(<rftools:crafterBlock3>);
 recipes.addShaped(<rftools:crafterBlock3>, [[null, <Mekanism:ControlCircuit:2>, null], [<Mekanism:ReinforcedAlloy>, <rftools:crafterBlock2>, <Mekanism:ReinforcedAlloy>], [null, <Mekanism:ControlCircuit:2>, null]]);
 
 # Storage Module Tablet
-recipes.remove(<rftools:storageModuleTabletItem>);
+recipes.removeShaped(<rftools:storageModuleTabletItem>, [[<minecraft:gold_nugget>, <minecraft:emerald>, <minecraft:gold_nugget>], [<minecraft:redstone_block>, <minecraft:quartz_block:*>, <minecraft:redstone_block>], [<minecraft:gold_nugget>, <minecraft:redstone_block>, <minecraft:gold_nugget>]]);
 recipes.addShaped(<rftools:storageModuleTabletItem>, [[null, <Mekanism:ControlCircuit:2>, null], [<Mekanism:TeleportationCore>, <Mekanism:Dictionary>, <Mekanism:TeleportationCore>], [null, <Mekanism:EnergyTablet>, null]]);
 
 # Storage Module (Tier 1)
